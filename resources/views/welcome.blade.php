@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+    <title>5th Infantry Regiment Association</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> -->
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- Styles -->
+    <link href="css/my_custom/welcome/welcome.css" rel="stylesheet">
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+    <!-- Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/my_custom/welcome/welcome.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="menuBody">
+        <div class="mainMenuTopBttn" id="mainMenuTopBttn">
+          MENU
         </div>
-    </body>
+        <div class="mainMenuBox">
+          <div class="mainMenuBttn" data-bttn-num="0">
+            HOME
+          </div>
+          <div>
+            <div class="mainMenuBttn" data-bttn-num="1">
+              ASSOCIATION
+            </div>
+            <div class="mainMenuSubBox" data-box-num="1">
+              <div class="mainMenuSubBttn">+ What Is A Member?</div>
+              <div class="mainMenuSubBttn">+ Becoming A Member</div>
+              <div class="mainMenuSubBttn">+ Newsletter Sample</div>
+              <div class="mainMenuSubBttn">+ Merchandise Example</div>
+              <div class="mainMenuSubBttn">+ Our Donations</div>
+            </div>
+          </div>
+          <div>
+            <div class="mainMenuBttn" data-bttn-num="2">
+              HISTORY
+            </div>
+            <div class="mainMenuSubBox" data-box-num="2">
+              <div class="mainMenuSubBttn">+ Origin & Traditions</div>
+              <div class="mainMenuSubBttn">+ War of 1812</div>
+              <div class="mainMenuSubBttn">+ 1815 - 1845</div>
+              <div class="mainMenuSubBttn">+ Mexican War</div>
+              <div class="mainMenuSubBttn">+ Frontier Defense & Indian Wars</div>
+              <div class="mainMenuSubBttn">+ 1891 - 1939</div>
+              <div class="mainMenuSubBttn">+ World War II</div>
+              <div class="mainMenuSubBttn">+ Korean War</div>
+              <div class="mainMenuSubBttn">+ 1954 - 1966</div>
+              <div class="mainMenuSubBttn">+ Vietnam War</div>
+              <div class="mainMenuSubBttn">+ 1975 - 2001</div>
+              <div class="mainMenuSubBttn" style="cursor:none;background-color:grey">+ Global War On Terror</div>
+              <div class="mainMenuSubBttn" style="padding-left:15%">+ Iraq</div>
+              <div class="mainMenuSubBttn" style="padding-left:15%">+ Afghanistan</div>
+              <div class="mainMenuSubBttn">+ Book: "Two Centuries of Valor: The Story of the 5th Infantry Regiment"</div>
+            </div>
+          </div>
+          <div>
+            <div class="mainMenuBttn" data-bttn-num="3">
+              HALL OF HONOR
+            </div>
+            <div class="mainMenuSubBox" data-box-num="3">
+              <div class="mainMenuSubBttn">+ KIA, MIA, & Died In Service</div>
+              <div class="mainMenuSubBttn">+ Medal of Honor Recipients</div>
+              <div class="mainMenuSubBttn">+ Deceased Members</div>
+            </div>
+          </div>
+          <div>
+            <div class="mainMenuBttn" data-bttn-num="4">
+              PHOTO ALBUM
+            </div>
+            <div class="mainMenuSubBox" data-box-num="4">
+              <div class="mainMenuSubBttn">+ Album 1</div>
+              <div class="mainMenuSubBttn">+ Album 2</div>
+            </div>
+          </div>
+          @if (Route::has('login'))
+            <div>
+              <div class="mainMenuBttn" data-bttn-num="5">MEMBERS ONLY</div>
+              <div class="mainMenuSubBox" data-box-num="5">
+                  @auth
+                      <a href="{{ url('/home') }}">
+                        <div class="mainMenuSubBttn">
+                          + My Profile
+                        </div>
+                      </a>
+                      <div class="mainMenuSubBttn">+ Clothing & Items</div>
+                      <div class="mainMenuSubBttn">+ Reunions</div>
+                      <div class="mainMenuSubBttn">+ Newsletters</div>
+                  @else
+                      <a href="{{ route('login') }}">
+                        <div class="mainMenuSubBttn">+ Login</div>
+                      </a>
+                  @endauth
+              </div>
+            </div>
+          @endif
+        </div>
+      </div>
+      <div class="contentBody">
+        <div>
+            5th Infantry Regiment Association
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,70 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menuBody {
+  z-index: 2;
+}
+
+.mainMenuTopBttn {
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  background: linear-gradient(black, darkgreen 15%, darkgreen 80%, black);
+  cursor: pointer;
+}
+
+.mainMenuBttn {
+  padding: 5px 5%;
+  color: lightgrey;
+  font-size: 1.2rem;
+  background: linear-gradient(darkred, darkred 85%, black);
+  cursor: pointer;
+}
+
+.mainMenuBox {
+  display: none;
+}
+
+.mainMenuSubBttn {
+  padding: 8px 5% 8px 10%;
+  color: white;
+  font-size: 1.1rem;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.mainMenuSubBttn:hover {
+  background-color: black;
+}
+
+.mainMenuSubBox {
+  border-bottom: 1px solid black;
+  display: none;
+}
+
+.contentBody {
+   /* background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/ab/A_U.S._Soldier%2C_right%2C_with_the_1st_Battalion%2C_5th_Infantry_Regiment%2C_1st_Stryker_Brigade_Combat_Team%2C_25th_Infantry_Division_maneuvers_with_his_platoon_through_a_village_while_on_an_Afghan-partnered_foot_patrol_120401-A-VQ566-956.jpg'); */
+   background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+      url('../../../images/welcome/3PLT_C_Company_1_BN_5_RGT_APR_1_2012_Panjwai_Kandahar_AFG.jpg');
+   background-size:cover;
+   background-position:left;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height:100vh;
+   width: 100vw;
+   z-index: -1;
+}

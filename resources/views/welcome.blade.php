@@ -19,8 +19,11 @@
   <body>
     <div>
       <div class="menuBody">
-        <div class="mainMenuTopBttn" id="mainMenuTopBttn">
-          MENU
+        <div class="mainMenuTopBttn">
+          <a class="mainMenuLink" href="{{ url('/') }}">
+            <img src="images_raw/bobcat_2.png"/>
+          </a>
+          <img id="mainMenuTopBttn" src="images_raw/bobcat_2.png"/>
         </div>
         <div class="mainMenuBox">
           <div class="mainMenuBttn" data-bttn-num="0">
@@ -103,8 +106,10 @@
         </div>
       </div>
       <div class="contentBody">
-        <div>
-            5th Infantry Regiment Association
+        <div class="mainTitle">
+          <div>5th Infantry</div>
+          <div>Regiment</div>
+          <div>Association</div>
         </div>
       </div>
     </div>

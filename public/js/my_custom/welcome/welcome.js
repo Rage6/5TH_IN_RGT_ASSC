@@ -2,10 +2,13 @@ $(document).ready(() => {
   // console.log("Test 1");
 
   $('#mainMenuTopBttn').click(()=>{
-    if ($('.mainMenuBox').css('display') == 'none') {
-      $('.mainMenuBox').css('display','block');
+    let topBttnHeight = $('.mainMenuTopBttn').outerHeight(true);
+    if ($('.mainMenuBox').css('left') == '0px') {
+      $('.mainMenuBox').css('left','-100vw').css('top',topBttnHeight);
+      $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,0.7),rgba(0,100,0,0.7) 85%,rgba(0,0,0,0.8))');
     } else {
-      $('.mainMenuBox').css('display','none');
+      $('.mainMenuBox').css('left','0vw').css('top',topBttnHeight);
+      $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,1),rgba(0,100,0,1) 85%,rgba(0,0,0,0.8))');
     };
   });
 

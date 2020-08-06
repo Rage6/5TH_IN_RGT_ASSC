@@ -3,35 +3,58 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
+  height: 1000px;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 .menuBody {
   z-index: 2;
 }
 
 .mainMenuTopBttn {
-  padding: 10px 0;
+  padding: 10px 2%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
   color: white;
   text-align: center;
   font-size: 1.4rem;
-  background: linear-gradient(black, darkgreen 15%, darkgreen 80%, black);
+  background:
+    linear-gradient(
+      rgba(0,100,0,0.7),
+      rgba(0,100,0,0.7) 85%,
+      rgba(0,0,0,0.8));
+  width: 96%;
   cursor: pointer;
+}
+
+.mainMenuTopBttn img {
+  height: 50px;
+}
+
+.mainMenuLink {
+  text-decoration: none;
 }
 
 .mainMenuBttn {
   padding: 5px 5%;
   color: lightgrey;
   font-size: 1.2rem;
-  background: linear-gradient(darkred, darkred 85%, black);
+  background:
+    linear-gradient(
+      rgba(139,0,0,1),
+      rgba(139,0,0,1) 85%,
+      rgba(0,0,0,0.8));
   cursor: pointer;
 }
 
 .mainMenuBox {
-  display: none;
+  position: fixed;
+  width: 100%;
+  left: -100vw;
 }
 
 .mainMenuSubBttn {
@@ -51,20 +74,50 @@ a {
   display: none;
 }
 
+@keyframes scrollBackground {
+  from {
+
+  }
+  to {
+
+  }
+}
+
 .contentBody {
-   /* background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/ab/A_U.S._Soldier%2C_right%2C_with_the_1st_Battalion%2C_5th_Infantry_Regiment%2C_1st_Stryker_Brigade_Combat_Team%2C_25th_Infantry_Division_maneuvers_with_his_platoon_through_a_village_while_on_an_Afghan-partnered_foot_patrol_120401-A-VQ566-956.jpg'); */
-   background:
+   background-image:url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
+   /* background:
     linear-gradient(
       to right,
       rgba(255,255,255,0.8),
       rgba(255,255,255,0.8)),
-      url('../../../images/welcome/3PLT_C_Company_1_BN_5_RGT_APR_1_2012_Panjwai_Kandahar_AFG.jpg');
+      url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg'); */
    background-size:cover;
-   background-position:left;
+   background-position:right;
    position: absolute;
    top: 0;
    left: 0;
    height:100vh;
    width: 100vw;
    z-index: -1;
+}
+
+.mainTitle {
+  margin-top: 37vh;
+  padding-bottom: 3vh;
+  font-size: 3rem;
+  text-align: center;
+  background:
+    linear-gradient(
+      rgba(255,255,255,0),
+      rgba(255,255,255,0.9) 10%,
+      rgba(255,255,255,0.9) 90%,
+      rgba(255,255,255,0));
+}
+
+.mainTitle div {
+  padding-top: 3vh;
+}
+
+.mainTitle div:nth-child(2) {
+  font-size: 3.6rem;
 }

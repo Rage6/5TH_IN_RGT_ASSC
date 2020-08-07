@@ -105,13 +105,19 @@
           @endif
         </div>
       </div>
-      <div class="contentBody">
+      <div class="introBody">
         <div class="mainTitle">
-          <div>5th Infantry</div><div>Regiment</div><div>Association</div>
+          <div>5th Infantry</div>
+          <div>Regiment</div>
+          <div>Association</div>
         </div>
-        <div class="bottomView">
+        <div id="bottomView" class="bottomView">
           <div>MORE</div>
         </div>
+      </div>
+      <div class="lowerBody">
+        <div>Home of the Bobcats</div>
+        <div>This is Test 2</div>
       </div>
     </div>
   </body>

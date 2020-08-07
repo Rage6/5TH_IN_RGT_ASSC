@@ -7,7 +7,7 @@
     <title>5th Infantry Regiment Association</title>
 
     <!-- Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="css/my_custom/welcome/welcome.css" rel="stylesheet">
@@ -21,9 +21,9 @@
       <div class="menuBody">
         <div class="mainMenuTopBttn">
           <a class="mainMenuLink" href="{{ url('/') }}">
-            <img src="images_raw/bobcat_2.png"/>
+            <img src="images/welcome/5INF_COA-min.png"/>
           </a>
-          <img id="mainMenuTopBttn" src="images_raw/bobcat_2.png"/>
+          <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/>
         </div>
         <div class="mainMenuBox">
           <div class="mainMenuBttn" data-bttn-num="0">
@@ -107,9 +107,10 @@
       </div>
       <div class="contentBody">
         <div class="mainTitle">
-          <div>5th Infantry</div>
-          <div>Regiment</div>
-          <div>Association</div>
+          <div>5th Infantry</div><div>Regiment</div><div>Association</div>
+        </div>
+        <div class="bottomView">
+          <div>MORE</div>
         </div>
       </div>
     </div>

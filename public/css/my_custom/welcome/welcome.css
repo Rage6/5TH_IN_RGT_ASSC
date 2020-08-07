@@ -3,7 +3,7 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
-  height: 1000px;
+  height: 2000px;
 }
 
 /* a {
@@ -15,7 +15,7 @@ body {
 }
 
 .mainMenuTopBttn {
-  padding: 10px 2%;
+  padding: 10px 2% 10px 6%;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -24,15 +24,15 @@ body {
   font-size: 1.4rem;
   background:
     linear-gradient(
-      rgba(0,100,0,0.7),
-      rgba(0,100,0,0.7) 85%,
-      rgba(0,0,0,0.8));
-  width: 96%;
-  cursor: pointer;
+      rgba(0, 100, 0, 0.8),
+      rgba(0, 100, 0, 0.8) 85%,
+      rgba(0, 0, 0, 0.8));
+  width: 92%;
 }
 
 .mainMenuTopBttn img {
   height: 50px;
+  cursor: pointer;
 }
 
 .mainMenuLink {
@@ -40,7 +40,7 @@ body {
 }
 
 .mainMenuBttn {
-  padding: 5px 5%;
+  padding: 8px 5%;
   color: lightgrey;
   font-size: 1.2rem;
   background:
@@ -55,10 +55,13 @@ body {
   position: fixed;
   width: 100%;
   left: -100vw;
+  animation-name: none;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .mainMenuSubBttn {
-  padding: 8px 5% 8px 10%;
+  padding: 4px 5% 4px 10%;
   color: white;
   font-size: 1.1rem;
   background-color: grey;
@@ -74,23 +77,26 @@ body {
   display: none;
 }
 
-@keyframes scrollBackground {
-  from {
-
+@keyframes scrollMenuRight {
+  0% {
+    left: -100vw;
   }
-  to {
+  100% {
+    left: 0vw;
+  }
+}
 
+@keyframes scrollMenuLeft {
+  0% {
+    left: 0vw;
+  }
+  100% {
+    left: -100vw;
   }
 }
 
 .contentBody {
    background-image:url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-   /* background:
-    linear-gradient(
-      to right,
-      rgba(255,255,255,0.8),
-      rgba(255,255,255,0.8)),
-      url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg'); */
    background-size:cover;
    background-position:right;
    position: absolute;
@@ -102,8 +108,8 @@ body {
 }
 
 .mainTitle {
-  margin-top: 37vh;
-  padding-bottom: 3vh;
+  margin-top: 30vh;
+  padding: 5vh 0;
   font-size: 3rem;
   text-align: center;
   background:
@@ -115,9 +121,27 @@ body {
 }
 
 .mainTitle div {
-  padding-top: 3vh;
+  padding-top: 1vh;
+  padding-left: 5%;
+  padding-bottom: 1vh;
+  text-align: left;
+  font-family: 'Arvo', serif;
 }
 
 .mainTitle div:nth-child(2) {
-  font-size: 3.6rem;
+  border-top: 10px solid darkgreen;
+  border-bottom: 10px solid darkred;
+}
+
+.bottomView {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 95vh;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  height: 5vh;
+  width: 100vw;
 }

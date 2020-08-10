@@ -24,8 +24,8 @@ $(document).ready(() => {
   });
 
   $('#bottomView').click(()=>{
-    console.log("clicked");
-    console.log($(".lowerBody").offset());
+    let marginHeight = $(".lowerBody").outerHeight(true) - $(".lowerBody").outerHeight();
+    $("html,body").animate({scrollTop:marginHeight},800);
   });
 
 });

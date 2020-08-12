@@ -5,9 +5,9 @@ body {
   padding: 0;
 }
 
-/* a {
+a {
   text-decoration: none;
-} */
+}
 
 .menuBody {
   position: fixed;
@@ -41,8 +41,9 @@ body {
 
 .mainMenuBttn {
   padding: 8px 5%;
-  color: lightgrey;
+  color: white;
   font-size: 1.2rem;
+  font-family: 'Prompt', sans-serif;
   background:
     linear-gradient(
       rgba(139,0,0,1),
@@ -77,7 +78,7 @@ body {
   display: none;
 }
 
-@keyframes scrollMenuRight {
+@keyframes scrollMenuAllRight {
   0% {
     left: 100vw;
   }
@@ -86,9 +87,27 @@ body {
   }
 }
 
-@keyframes scrollMenuLeft {
+@keyframes scrollMenuHalfRight {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: 50vw;
+  }
+}
+
+@keyframes scrollMenuAllLeft {
   0% {
     left: 0vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+@keyframes scrollMenuHalfLeft {
+  0% {
+    left: 50vw;
   }
   100% {
     left: 100vw;
@@ -493,7 +512,7 @@ body {
   margin-top: 30vh;
   padding: 5vh 0;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
   background:
     linear-gradient(
       rgba(255,255,255,0),
@@ -506,7 +525,6 @@ body {
   padding-top: 1vh;
   padding-left: 5%;
   padding-bottom: 1vh;
-  text-align: left;
   font-family: 'Special Elite', cursive;
 }
 
@@ -521,6 +539,7 @@ body {
   position: absolute;
   top: 95vh;
   color: white;
+  font-family: 'Prompt', sans-serif;
   text-align: center;
   align-items: center;
   background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
@@ -577,8 +596,9 @@ body {
 
 .welcomeContent {
   background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('../../../images/welcome/5INF_COA-min.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .pastContent {
@@ -609,15 +629,16 @@ body {
 }
 
 .footer {
-  padding-bottom: 10px;
+  padding: 0 0 10px 10%;
   display: flex;
   flex-direction: column;
   color: white;
-  text-align: center;
   font-size: 1rem;
   background: linear-gradient(to bottom, rgba(139,0,0,1), rgba(139,0,0,1));
 }
 
 .footer div {
   margin-top: 10px;
+  color: white;
+  font-family: 'Prompt', sans-serif;
 }

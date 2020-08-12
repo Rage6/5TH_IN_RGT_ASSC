@@ -1,13 +1,22 @@
 $(document).ready(() => {
-  // console.log("Test 1");
+  // console.log("Testing");
 
   $('#mainMenuTopBttn').click(()=>{
+    let windowWidth = window.outerWidth + "px";
     let topBttnHeight = $('.mainMenuTopBttn').outerHeight(true);
-    if ($('.mainMenuBox').css('left') == '0px') {
-      $('.mainMenuBox').css('animation-name','scrollMenuLeft').css('top',topBttnHeight);
+    if ($('.mainMenuBox').css('left') != windowWidth) {
+      if (window.outerWidth < 768) {
+        $('.mainMenuBox').css('animation-name','scrollMenuAllLeft').css('top',topBttnHeight);
+      } else {
+        $('.mainMenuBox').css('animation-name','scrollMenuHalfLeft').css('top',topBttnHeight);
+      };
       $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,0.8),rgba(0,100,0,0.8) 85%,rgba(0,0,0,0.8))');
     } else {
-      $('.mainMenuBox').css('animation-name','scrollMenuRight').css('top',topBttnHeight);
+      if (window.outerWidth < 768) {
+        $('.mainMenuBox').css('animation-name','scrollMenuAllRight').css('top',topBttnHeight);
+      } else {
+        $('.mainMenuBox').css('animation-name','scrollMenuHalfRight').css('top',topBttnHeight);
+      };
       $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,1),rgba(0,100,0,1) 85%,rgba(0,0,0,1))');
     };
   });

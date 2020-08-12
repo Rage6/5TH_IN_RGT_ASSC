@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="5th Infantry Regiment Association">
+    <!-- <meta property="og:description" content=""> -->
+    <!-- <meta property="og:description" content=""> -->
 
     <title>5th Infantry Regiment Association</title>
 
@@ -11,8 +14,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bellefair&family=Bellota+Text&family=Black+Ops+One&family=Charm&family=Cinzel&family=IM+Fell+English+SC&family=Italianno&family=Nanum+Myeongjo&family=News+Cycle&family=Prompt&family=Special+Elite&family=Spectral+SC&family=Staatliches&family=Stardos+Stencil&family=Thasadith&family=Vollkorn+SC&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="css/my_custom/welcome/360_welcome.css" rel="stylesheet">
-    <link href="css/my_custom/welcome/1920_welcome.css" rel="stylesheet">
+    <!-- Default CSS file; 0px -> 360px-->
+    <link rel="stylesheet" type="text/css" href="css/my_custom/welcome/360_welcome.css">
+    <!-- 361px -> 375px-->
+    <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="css/my_custom/welcome/375_welcome.css">
+    <!-- 376px -> 414px-->
+    <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="css/my_custom/welcome/414_welcome.css">
+    <!-- 415px -> 768px-->
+    <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="css/my_custom/welcome/768_welcome.css">
+    <!-- 769px -> 1366px-->
+    <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1366px)" type="text/css" href="css/my_custom/welcome/1366_welcome.css">
+    <!-- 1367px -> 1920px-->
+    <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="css/my_custom/welcome/1920_welcome.css">
+    <!-- 1921px and Greater -->
+    <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="css/my_custom/welcome/past_1920_welcome.css">
+
     <link rel="icon" href="images/welcome/5INF_COA-min.jpg">
 
     <!-- Javascripts -->
@@ -29,9 +45,11 @@
           <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/>
         </div>
         <div class="mainMenuBox">
-          <div class="mainMenuBttn" data-bttn-num="0">
-            HOME
-          </div>
+          <a href="{{ url('/') }}">
+            <div class="mainMenuBttn" data-bttn-num="0">
+              HOME
+            </div>
+          </a>
           <div>
             <div class="mainMenuBttn" data-bttn-num="1">
               ASSOCIATION
@@ -129,7 +147,7 @@
       <div class="lowerBody">
         <div class="sectionTitle welcomeTitle">Home of the Bobcats</div>
         <div class="sectionContent welcomeContent">
-          This organization is dedicated to all past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
+          This organization is dedicated to all of the past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
         </div>
         <div class="sectionTitle pastTitle">Reflect On The Past</div>
         <div class="sectionContent pastContent">
@@ -144,7 +162,7 @@
         <div class="sectionContent presentContent">
           The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the battalions that currently bear the 5th Regiment on their guidons. Finally, the Association also frequently raises money and support for active duty soldiers, fellow members, and other worthwhile causes.
         </div>
-        <div class="sectionTitle futureTitle">Join Our Future</div>
+        <div class="sectionTitle futureTitle">Join In Our Future</div>
         <div class="sectionContent futureContent">
           <div>
             The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran.

@@ -8,9 +8,11 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bellefair&family=Bellota+Text&family=Black+Ops+One&family=Charm&family=Cinzel&family=IM+Fell+English+SC&family=Italianno&family=Nanum+Myeongjo&family=News+Cycle&family=Prompt&family=Special+Elite&family=Spectral+SC&family=Staatliches&family=Stardos+Stencil&family=Thasadith&family=Vollkorn+SC&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="css/my_custom/welcome/welcome.css" rel="stylesheet">
+    <link href="css/my_custom/welcome/360_welcome.css" rel="stylesheet">
+    <link href="css/my_custom/welcome/1920_welcome.css" rel="stylesheet">
     <link rel="icon" href="images/welcome/5INF_COA-min.jpg">
 
     <!-- Javascripts -->
@@ -107,11 +109,13 @@
           @endif
         </div>
       </div>
-      <div class="introBody introFive"></div>
-      <div class="introBody introFour"></div>
-      <div class="introBody introThree"></div>
-      <div class="introBody introTwo"></div>
-      <div class="introBody introOne"></div>
+      <div class="introBody introIraq"></div>
+      <div class="introBody introAfghanistan"></div>
+      <div class="introBody introVietnam"></div>
+      <div class="introBody introKorea"></div>
+      <div class="introBody introWW2"></div>
+      <div class="introBody introFrontier"></div>
+      <div class="introBody intro1812"></div>
       <div class="introBody">
         <div class="mainTitle">
           <div>5th Infantry</div>
@@ -123,12 +127,12 @@
         </div>
       </div>
       <div class="lowerBody">
-        <div class="sectionTitle">Home of the Bobcats</div>
-        <div class="sectionContent">
+        <div class="sectionTitle welcomeTitle">Home of the Bobcats</div>
+        <div class="sectionContent welcomeContent">
           This organization is dedicated to all past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
         </div>
-        <div class="sectionTitle">Reflect On The Past</div>
-        <div class="sectionContent">
+        <div class="sectionTitle pastTitle">Reflect On The Past</div>
+        <div class="sectionContent pastContent">
           <div>
             The 5th Regiment has a unique and exciting military history that spans over 200 years. Here you can discover the Regiment's origin, read about the it's actions during any given time period, and even review a book dedicated to the 5th Infantry Regiment and its traditions.
           </div></br>
@@ -136,12 +140,12 @@
             Additionally, the you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
           </div>
         </div>
-        <div class="sectionTitle">Act In The Present</div>
-        <div class="sectionContent">
+        <div class="sectionTitle presentTitle">Act In The Present</div>
+        <div class="sectionContent presentContent">
           The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the battalions that currently bear the 5th Regiment on their guidons. Finally, the Association also frequently raises money and support for active duty soldiers, fellow members, and other worthwhile causes.
         </div>
-        <div class="sectionTitle">Join Our Future</div>
-        <div class="sectionContent">
+        <div class="sectionTitle futureTitle">Join Our Future</div>
+        <div class="sectionContent futureContent">
           <div>
             The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran.
           </div></br>
@@ -150,8 +154,12 @@
           </div>
         </div>
         <div class="footer">
-          <div>HOME</div>
-          <div>ASSOCIATION</div>
+          <a href="{{ url('/') }}">
+            <div>HOME</div>
+          </a>
+          <a>
+            <div>ASSOCIATION</div>
+          </a>
           <div>HISTORY</div>
           <div>HALL OF HONOR</div>
           <div>PHOTO ALBUM</div>

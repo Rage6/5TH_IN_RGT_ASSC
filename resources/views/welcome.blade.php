@@ -149,26 +149,53 @@
         <div class="sectionContent welcomeContent">
           This organization is dedicated to all of the past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
         </div>
-        <div class="sectionTitle pastTitle">Reflect On The Past</div>
-        <div class="sectionContent pastContent">
-          <div>
-            The 5th Regiment has a unique and exciting military history that spans over 200 years. Here you can discover the Regiment's origin, read about the it's actions during any given time period, and even review a book dedicated to the 5th Infantry Regiment and its traditions.
-          </div></br>
-          <div>
-            Additionally, the you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
+        <div class="allCompartments">
+          <div class="oneCompartment desktopTitle">
+            <div class="sectionTitle pastTitle">
+              Reflect On The Past
+            </div>
+            <div class="sectionTitle presentTitle">
+              Act In The Present
+            </div>
+            <div class="sectionTitle futureTitle">
+              Join In Our Future
+            </div>
           </div>
-        </div>
-        <div class="sectionTitle presentTitle">Act In The Present</div>
-        <div class="sectionContent presentContent">
-          The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the battalions that currently bear the 5th Regiment on their guidons. Finally, the Association also frequently raises money and support for active duty soldiers, fellow members, and other worthwhile causes.
-        </div>
-        <div class="sectionTitle futureTitle">Join In Our Future</div>
-        <div class="sectionContent futureContent">
-          <div>
-            The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran.
-          </div></br>
-          <div>
-            If your are interested, want to learn more, or want to submit the application, then click on the "ASSOCIATION" button on the menu. Once your membership is approved and your membership due is paid, you will recieve a password allowing you to login to the "MEMBERS ONLY" page. This allows you to update your personal profile, communicate with other members easier, read any newsletter, and purchase members-only merchandise.
+          <div class="oneCompartment">
+            <div class="mobileComponent desktopComponent">
+              <div class="sectionTitle pastTitle mobileTitle">
+                Reflect On The Past
+              </div>
+              <div class="sectionContent pastContent">
+                <div>
+                  The 5th Regiment has a unique and exciting military history spanning over 200 years of service. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
+                </div></br>
+                <div>
+                  Additionally, you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
+                </div>
+              </div>
+            </div>
+            <div class="mobileComponent desktopComponent">
+              <div class="sectionTitle presentTitle mobileTitle">
+                Act In The Present
+              </div>
+              <div class="sectionContent presentContent">
+                The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the active units that that currently bear the our Regiment's crest. Finally, the Association frequently works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
+              </div>
+            </div>
+            <div class="mobileComponent desktopComponent">
+              <div class="sectionTitle futureTitle mobileTitle">
+                Join In Our Future
+              </div>
+              <div class="sectionContent futureContent">
+                <div>
+                  The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran.
+                </div></br>
+                <div>
+                  If your are interested, want to learn more, or want to submit the application, then click on the <u>ASSOCIATION</u> button on the menu. Once your membership is approved and your membership due is paid, you will recieve a password allowing you to login to the <u>MEMBERS ONLY</u> page. This allows you to update your personal profile, communicate with other members easier, read any newsletter, and purchase members-only merchandise.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="footer">

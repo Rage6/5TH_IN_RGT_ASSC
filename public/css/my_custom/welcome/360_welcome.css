@@ -559,18 +559,23 @@ a {
 }
 
 .sectionTitle {
-  padding: 10px 5%;
+  padding: 50px 5%;
   font-size: 2rem;
   font-family: 'Vollkorn SC', serif;
   text-align: center;
 }
 
-.sectionTitle:first-of-type {
-  padding-top: 100px;
+.welcomeTitle {
+  padding-top: 100px !important;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0) 50%);
 }
 
-.welcomeTitle {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0) 50%);
+.desktopTitle {
+  display: none;
+}
+
+.mobileTitle {
+
 }
 
 .pastTitle {

@@ -1,0 +1,81 @@
+.mainTitle {
+  margin-top: 0vh;
+  padding-top: 33vh;
+  text-align: left;
+  font-size: 3rem;
+  background:
+    linear-gradient(to left,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0.9) 10%,
+      rgba(255,255,255,0.9));
+  width: 30%;
+  height: 62vh;
+}
+
+.mainTitle div {
+  width: 85%;
+}
+
+.mainMenuTopBttn img {
+  height: 75px;
+}
+
+.mainMenuBox {
+  width: 50vw;
+}
+
+.bottomView {
+  font-size: 1.2rem;
+}
+
+.welcomeContent {
+  padding: 30px 25%;
+}
+
+.welcomeTitle {
+  padding-top: 120px;
+}
+
+.desktopTitle {
+
+}
+
+.mobileTitle {
+  display: none;
+}
+
+.allCompartments {
+  display: block;
+}
+
+.oneCompartment {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileComponent {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.desktopComponent {
+  display: flex;
+  align-items: stretch;
+}
+
+.sectionTitle {
+  padding: 50px 3%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.sectionContent {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 30px 0;
+  flex-direction: row;
+  justify-content: space-around;
+}

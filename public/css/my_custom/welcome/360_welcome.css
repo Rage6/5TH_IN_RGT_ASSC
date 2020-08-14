@@ -28,6 +28,7 @@ a {
       rgba(0, 100, 0, 0.8) 85%,
       rgba(0, 0, 0, 0.8));
   width: 92%;
+  max-width: 1920px;
 }
 
 .mainMenuTopBttn img {
@@ -65,6 +66,7 @@ a {
   padding: 8px 5% 8px 10%;
   color: white;
   font-size: 1.1rem;
+  font-family: 'Prompt', sans-serif;
   background-color: grey;
   cursor: pointer;
 }
@@ -96,6 +98,15 @@ a {
   }
 }
 
+@keyframes scrollMenuThirdRight {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: 70vw;
+  }
+}
+
 @keyframes scrollMenuAllLeft {
   0% {
     left: 0vw;
@@ -114,11 +125,23 @@ a {
   }
 }
 
+@keyframes scrollMenuThirdLeft {
+  0% {
+    left: 70vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
 @keyframes backgroundChange1812 {
   0% {
     opacity: 1;
     background:
-      linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+      linear-gradient(
+        to right,
+        rgba(255,255,255,0),
+        rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
     background-size:cover;
     background-position:left;
@@ -449,6 +472,11 @@ a {
   }
 }
 
+.upperBody {
+  background-color: white;
+  height: 100vh;
+}
+
 
 .introBody {
   position: absolute;
@@ -550,8 +578,6 @@ a {
 
 .lowerBody {
   margin-top: 100vh;
-  /* padding: 100px 0 50px 0; */
-  padding: 0 0 50px 0;
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -567,7 +593,9 @@ a {
 
 .welcomeTitle {
   padding-top: 100px !important;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0) 50%);
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0) 50%),
+    linear-gradient(to bottom, white, white);
 }
 
 .desktopTitle {
@@ -600,7 +628,13 @@ a {
 }
 
 .welcomeContent {
-  background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('../../../images/welcome/5INF_COA-min.png');
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+      url('../../../images/welcome/5INF_COA-min.png'),
+      linear-gradient(to bottom, white, white);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

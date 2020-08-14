@@ -1,8 +1,13 @@
+.mainMenuTopBttn {
+  margin-left: 50%;
+  left: -50vw;
+}
+
 .mainTitle {
   margin-top: 0vh;
   padding-top: 33vh;
   text-align: left;
-  font-size: 3rem;
+  font-size: 3.8rem;
   background:
     linear-gradient(to left,
       rgba(255,255,255,0),
@@ -13,7 +18,8 @@
 }
 
 .mainTitle div {
-  width: 85%;
+  padding-left: 9%;
+  width: 81%;
 }
 
 .mainMenuTopBttn img {
@@ -21,7 +27,8 @@
 }
 
 .mainMenuBox {
-  width: 50vw;
+  border-left: 1px solid black;
+  width: 30vw;
 }
 
 .bottomView {
@@ -29,11 +36,19 @@
 }
 
 .welcomeContent {
-  padding: 30px 25%;
+  padding: 30px 25% 80px 25%;
 }
 
 .welcomeTitle {
   padding-top: 120px;
+}
+
+.desktopTitle {
+
+}
+
+.mobileTitle {
+  display: none;
 }
 
 .allCompartments {
@@ -45,8 +60,19 @@
   flex-direction: row;
 }
 
+.mobileComponent {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.desktopComponent {
+  display: flex;
+  align-items: stretch;
+}
+
 .sectionTitle {
-  padding: 50px 3%;
+  padding: 30px 3%;
+  font-size: 3rem;
   flex-basis: 0;
   flex-grow: 1;
 }
@@ -54,10 +80,11 @@
 .sectionContent {
   flex-basis: 0;
   flex-grow: 1;
+  font-size: 2rem;
 }
 
 .footer {
-  padding: 30px 0;
+  padding: 30px 0 100px 0;
   flex-direction: row;
   justify-content: space-around;
 }

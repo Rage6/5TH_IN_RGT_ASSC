@@ -1,0 +1,160 @@
+body {
+  background: linear-gradient(to right,rgba(139,0,0,0.4),rgba(0,100,0,0.3));
+  height: 1px;
+}
+
+.mainTitle {
+  margin-top: 0vh;
+  margin-left: 50%;
+  padding-top: 33vh;
+  position: absolute;
+  left: -960px;
+  text-align: left;
+  font-size: 3.8rem;
+  background:
+    linear-gradient(to left,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0.9) 10%,
+      rgba(255,255,255,0.9));
+  width: 576px;
+  height: 62vh;
+}
+
+.mainTitle div {
+  padding-left: 9%;
+  width: 81%;
+}
+
+.mainMenuTopBttn {
+  margin-left: 50%;
+  padding: 10px 40px 10px 60px;
+  left: -960px;
+  width: 1820px;
+}
+
+.mainMenuTopBttn img {
+  height: 75px;
+}
+
+.mainMenuBox {
+  display: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 640px;
+}
+
+.introBodyMax {
+  margin-left: 50%;
+  left: -960px;
+  background-color: white;
+  width: 1920px;
+}
+
+.intro1812 {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introFrontier {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introWW2 {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introKorea {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introVietnam {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introAfghanistan {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.introIraq {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.bottomView {
+  margin-left: 50%;
+  left: -960px;
+  font-size: 1.2rem;
+  width: 1920px;
+}
+
+.lowerBody {
+  margin-left: 50%;
+  left: -960px;
+  width: 1920px;
+}
+
+.welcomeContent {
+  padding: 30px 25% 80px 25%;
+}
+
+.welcomeTitle {
+  padding-top: 120px;
+}
+
+.desktopTitle {
+
+}
+
+.mobileTitle {
+  display: none;
+}
+
+.allCompartments {
+  display: block;
+}
+
+.oneCompartment {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileComponent {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.desktopComponent {
+  display: flex;
+  align-items: stretch;
+}
+
+.sectionTitle {
+  padding: 30px 3%;
+  font-size: 3rem;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.sectionContent {
+  flex-basis: 0;
+  flex-grow: 1;
+  font-size: 2rem;
+}
+
+.footer {
+  padding: 30px 0 100px 0;
+  flex-direction: row;
+  justify-content: space-around;
+}

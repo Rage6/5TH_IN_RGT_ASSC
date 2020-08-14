@@ -36,7 +36,7 @@
     <script src="js/my_custom/welcome/welcome.js"></script>
   </head>
   <body>
-    <div>
+    <!-- <div class="wholeBody"> -->
       <div class="menuBody">
         <div class="mainMenuTopBttn">
           <a class="mainMenuLink" href="{{ url('/') }}">
@@ -127,13 +127,15 @@
           @endif
         </div>
       </div>
-      <div class="introBody introIraq"></div>
-      <div class="introBody introAfghanistan"></div>
-      <div class="introBody introVietnam"></div>
-      <div class="introBody introKorea"></div>
-      <div class="introBody introWW2"></div>
-      <div class="introBody introFrontier"></div>
-      <div class="introBody intro1812"></div>
+      <div class="introBody introBodyMax">
+        <div class="introBody introIraq"></div>
+        <div class="introBody introAfghanistan"></div>
+        <div class="introBody introVietnam"></div>
+        <div class="introBody introKorea"></div>
+        <div class="introBody introWW2"></div>
+        <div class="introBody introFrontier"></div>
+        <div class="introBody intro1812"></div>
+      </div>
       <div class="introBody">
         <div class="mainTitle">
           <div>5th Infantry</div>
@@ -211,6 +213,6 @@
           <div>MEMBERS ONLY</div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </body>
 </html>

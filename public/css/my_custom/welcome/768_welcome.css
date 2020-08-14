@@ -1,0 +1,20 @@
+.mainTitle {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.mainMenuTopBttn img {
+  height: 75px;
+}
+
+.mainMenuBox {
+  width: 50vw;
+}
+
+.bottomView {
+  font-size: 1.2rem;
+}
+
+.sectionTitle:first-of-type {
+  padding-top: 100px;
+}

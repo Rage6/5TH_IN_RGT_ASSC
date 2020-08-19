@@ -137,337 +137,338 @@ a {
 @keyframes backgroundChange1812 {
   0% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(
         to right,
         rgba(255,255,255,0),
         rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   14% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position: right;
   }
   15% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position: right;
   }
   99% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position: left;
   }
   100% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position: left;
   }
 }
+
 @keyframes backgroundChangeFrontier {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   14% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   15% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   29% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   30% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/montana_barracks_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
 }
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   29% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   30% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   44% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   45% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
 }
 @keyframes backgroundChangeKorea {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   44% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   45% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   59% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   60% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
 }
 @keyframes backgroundChangeVietnam {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   59% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   60% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   74% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   75% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
 }
 @keyframes backgroundChangeAfghanistan {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   74% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   75% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   89% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   90% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
 }
 @keyframes backgroundChangeIraq {
   0% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/iraq_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   89% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/iraq_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   90% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/iraq_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:left;
   }
   99% {
     opacity: 1;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/iraq_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
   100% {
     opacity: 0;
-    background:
+    /* background:
       linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
       url('../../../images/welcome/iraq_crop-min.jpg');
-    background-size:cover;
+    background-size:cover; */
     background-position:right;
   }
 }
@@ -488,6 +489,10 @@ a {
 }
 
 .intro1812 {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
+  background-size:cover;
   animation-name: backgroundChange1812;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -495,6 +500,10 @@ a {
 }
 
 .introFrontier {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/montana_barracks_crop-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeFrontier;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -502,6 +511,10 @@ a {
 }
 
 .introWW2 {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeWW2;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -509,6 +522,10 @@ a {
 }
 
 .introKorea {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeKorea;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -516,6 +533,10 @@ a {
 }
 
 .introVietnam {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeVietnam;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -523,6 +544,10 @@ a {
 }
 
 .introAfghanistan {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeAfghanistan;
   animation-duration: 80s;
   animation-iteration-count: infinite;
@@ -530,6 +555,10 @@ a {
 }
 
 .introIraq {
+  background:
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
+    url('../../../images/welcome/iraq_crop-min.jpg');
+  background-size:cover;
   animation-name: backgroundChangeIraq;
   animation-duration: 80s;
   animation-iteration-count: infinite;

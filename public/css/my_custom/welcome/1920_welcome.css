@@ -4,8 +4,8 @@
 }
 
 .mainTitle {
-  margin-top: 0vh;
-  padding-top: 33vh;
+  margin-top: 12vh;
+  padding-top: 21vh;
   text-align: left;
   font-size: 3.8rem;
   background:
@@ -14,7 +14,7 @@
       rgba(255,255,255,0.9) 10%,
       rgba(255,255,255,0.9));
   width: 30%;
-  height: 62vh;
+  height: 57vh;
 }
 
 .mainTitle div {

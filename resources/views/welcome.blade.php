@@ -154,10 +154,10 @@
         <div class="allCompartments">
           <div class="oneCompartment desktopTitle">
             <div class="sectionTitle pastTitle">
-              Reflect On The Past
+              Reflect On Our Past
             </div>
             <div class="sectionTitle presentTitle">
-              Act In The Present
+              Act In Our Present
             </div>
             <div class="sectionTitle futureTitle">
               Join In Our Future
@@ -166,7 +166,7 @@
           <div class="oneCompartment">
             <div class="mobileComponent desktopComponent">
               <div class="sectionTitle pastTitle mobileTitle">
-                Reflect On The Past
+                Reflect On Our Past
               </div>
               <div class="sectionContent pastContent">
                 <div>
@@ -179,7 +179,7 @@
             </div>
             <div class="mobileComponent desktopComponent">
               <div class="sectionTitle presentTitle mobileTitle">
-                Act In The Present
+                Act In Our Present
               </div>
               <div class="sectionContent presentContent">
                 The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the active units that that currently bear the our Regiment's crest. Finally, the Association frequently works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
@@ -191,10 +191,7 @@
               </div>
               <div class="sectionContent futureContent">
                 <div>
-                  The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran.
-                </div></br>
-                <div>
-                  If your are interested, want to learn more, or want to submit the application, then click on the <u>ASSOCIATION</u> button on the menu. Once your membership is approved and your membership due is paid, you will recieve a password allowing you to login to the <u>MEMBERS ONLY</u> page. This allows you to update your personal profile, communicate with other members easier, read any newsletter, and purchase members-only merchandise.
+                  The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran. Members can update their personal profile, communicate with other members easier, read any newsletter, and purchase members-only merchandise.
                 </div>
               </div>
             </div>

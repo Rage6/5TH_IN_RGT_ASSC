@@ -1,12 +1,12 @@
 body {
-  background: linear-gradient(to right,rgba(139,0,0,0.4),rgba(0,100,0,0.3));
+  background: linear-gradient(to right,rgba(139,0,0,0.7),rgba(0,100,0,0.6));
   height: 1px;
 }
 
 .mainTitle {
-  margin-top: 0vh;
+  margin-top: 9vh;
   margin-left: 50%;
-  padding-top: 33vh;
+  padding-top: 21vh;
   position: absolute;
   left: -960px;
   text-align: left;
@@ -17,7 +17,7 @@ body {
       rgba(255,255,255,0.9) 10%,
       rgba(255,255,255,0.9));
   width: 576px;
-  height: 62vh;
+  height: 60vh;
 }
 
 .mainTitle div {

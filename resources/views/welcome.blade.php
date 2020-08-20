@@ -170,7 +170,7 @@
               </div>
               <div class="sectionContent pastContent">
                 <div>
-                  The 5th Regiment has a unique and exciting military history spanning over 200 years of service. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
+                  The 5th Regiment has a unique and exciting military history spanning over 200 years. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
                 </div></br>
                 <div>
                   Additionally, you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
@@ -182,7 +182,7 @@
                 Act In Our Present
               </div>
               <div class="sectionContent presentContent">
-                The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the active units that that currently bear the our Regiment's crest. Finally, the Association frequently works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
+                The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve updates in the Association's regular newsletters. It also maintains frequent communications with the active Army units that currently bear our Regiment's crest. Finally, the Association often works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
               </div>
             </div>
             <div class="mobileComponent desktopComponent">

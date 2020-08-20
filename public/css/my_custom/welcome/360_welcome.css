@@ -162,12 +162,7 @@ a {
     opacity: 1;
     background-position:right;
   }
-  14% {
-    /* opacity: 1; */
-    /* background-position:right; */
-  }
   15% {
-    /* opacity: 1; */
     background-position:right;
   }
   29% {
@@ -176,11 +171,9 @@ a {
   }
   30% {
     opacity: 0;
-    /* background-position:left; */
   }
   100% {
     opacity: 0;
-    /* background-position:right; */
   }
 }
 @keyframes backgroundChangeWW2 {
@@ -188,12 +181,7 @@ a {
     opacity: 1;
     background-position:left;
   }
-  29% {
-    /* opacity: 0; */
-    /* background-position:left; */
-  }
   30% {
-    /* opacity: 1; */
     background-position:left;
   }
   44% {
@@ -202,11 +190,9 @@ a {
   }
   45% {
     opacity: 0;
-    /* background-position:right; */
   }
   100% {
     opacity: 0;
-    /* background-position:left; */
   }
 }
 @keyframes backgroundChangeKorea {
@@ -214,12 +200,7 @@ a {
     opacity: 1;
     background-position:right;
   }
-  44% {
-    /* opacity: 0; */
-    /* background-position:right; */
-  }
   45% {
-    /* opacity: 1; */
     background-position:right;
   }
   59% {
@@ -228,11 +209,9 @@ a {
   }
   60% {
     opacity: 0;
-    /* background-position:left; */
   }
   100% {
     opacity: 0;
-    /* background-position:right; */
   }
 }
 @keyframes backgroundChangeVietnam {
@@ -240,12 +219,7 @@ a {
     opacity: 1;
     background-position:left;
   }
-  59% {
-    /* opacity: 0; */
-    /* background-position:left; */
-  }
   60% {
-    /* opacity: 1; */
     background-position:left;
   }
   74% {
@@ -254,11 +228,9 @@ a {
   }
   75% {
     opacity: 0;
-    /* background-position:right; */
   }
   100% {
     opacity: 0;
-    /* background-position:left; */
   }
 }
 @keyframes backgroundChangeAfghanistan {
@@ -266,12 +238,7 @@ a {
     opacity: 1;
     background-position:right;
   }
-  74% {
-    /* opacity: 0; */
-    /* background-position:right; */
-  }
   75% {
-    /* opacity: 1; */
     background-position:right;
   }
   89% {
@@ -280,11 +247,9 @@ a {
   }
   90% {
     opacity: 0;
-    /* background-position:left; */
   }
   100% {
     opacity: 0;
-    /* background-position:right; */
   }
 }
 @keyframes backgroundChangeIraq {
@@ -292,12 +257,7 @@ a {
     opacity: 1;
     background-position:left;
   }
-  89% {
-    /* opacity: 0; */
-    /* background-position:left; */
-  }
   90% {
-    /* opacity: 1; */
     background-position:left;
   }
   99% {

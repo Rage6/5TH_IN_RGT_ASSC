@@ -29,7 +29,7 @@
     <!-- 1921px and Greater -->
     <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="css/my_custom/welcome/past_1920_welcome.css">
 
-    <link rel="icon" href="images/welcome/5INF_COA-min.png">
+    <link rel="icon" href="images/welcome/5INF_crest-min.png">
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -40,7 +40,7 @@
       <div class="menuBody">
         <div class="mainMenuTopBttn">
           <a class="mainMenuLink" href="{{ url('/') }}">
-            <img src="images/welcome/5INF_COA-min.png"/>
+            <img src="images/welcome/5INF_crest-min.png"/>
           </a>
           <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/>
         </div>
@@ -143,7 +143,7 @@
           <div>Association</div>
         </div>
         <div id="bottomView" class="bottomView">
-          <div>LEARN MORE</div>
+          <div>LEARN MORE BELOW</div>
         </div>
       </div>
       <div class="lowerBody">
@@ -182,7 +182,7 @@
                 Act In Our Present
               </div>
               <div class="sectionContent presentContent">
-                The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve updates in the Association's regular newsletters. It also maintains frequent communications with the active Army units that currently bear our Regiment's crest. Finally, the Association often works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
+                The 5th Regiment Infantry Association is a very active organization. It carries out an official reunion every year, and members receive updates in the Association's regular newsletters. It also maintains frequent communications with the active Army units that currently bear our Regiment's crest. Finally, the Association often works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
               </div>
             </div>
             <div class="mobileComponent desktopComponent">

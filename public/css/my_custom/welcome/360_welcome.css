@@ -343,7 +343,7 @@ a {
 .introAfghanistan {
   background:
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
-    url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min.jpg');
+    url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min_1500x996.jpg');
   background-size:cover;
   animation-name: backgroundChangeAfghanistan;
   animation-duration: 80s;

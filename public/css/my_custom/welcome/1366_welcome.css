@@ -16,8 +16,13 @@
   width: 85%;
 }
 
+.mainMenuTopBttn {
+  padding: 2vh 6vw 2vh 7vw;
+  width: 87vw;
+}
+
 .mainMenuTopBttn img {
-  height: 75px;
+  height: 8vh;
 }
 
 .mainMenuBox {
@@ -31,10 +36,6 @@
 
 .welcomeContent {
   padding: 30px 25% 80px 25%;
-}
-
-.welcomeTitle {
-  padding-top: 120px;
 }
 
 .desktopTitle {

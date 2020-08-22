@@ -147,7 +147,7 @@
         </div>
       </div>
       <div class="lowerBody">
-        <div class="sectionTitle welcomeTitle">Home of the Bobcats</div>
+        <div id="welcomeTitle" class="sectionTitle">Home of the Bobcats</div>
         <div class="sectionContent welcomeContent">
           This organization is dedicated to all of the past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
         </div>

@@ -4,9 +4,10 @@ body {
 }
 
 .mainTitle {
-  margin-top: 9vh;
+  margin-top: 12vh;
   margin-left: 50%;
   padding-top: 21vh;
+  padding-bottom: 0vh;
   position: absolute;
   left: -960px;
   text-align: left;
@@ -17,7 +18,7 @@ body {
       rgba(255,255,255,0.9) 10%,
       rgba(255,255,255,0.9));
   width: 576px;
-  height: 60vh;
+  height: 62vh;
 }
 
 .mainTitle div {
@@ -27,13 +28,13 @@ body {
 
 .mainMenuTopBttn {
   margin-left: 50%;
-  padding: 10px 40px 10px 60px;
+  padding: 2vh 100px 2vh 100px;
   left: -960px;
-  width: 1820px;
+  width: 1720px;
 }
 
 .mainMenuTopBttn img {
-  height: 75px;
+  height: 8vh;
 }
 
 .mainMenuBox {
@@ -109,10 +110,6 @@ body {
   padding: 30px 25% 80px 25%;
 }
 
-.welcomeTitle {
-  padding-top: 120px;
-}
-
 .desktopTitle {
 
 }
@@ -141,7 +138,10 @@ body {
 }
 
 .sectionTitle {
-  padding: 30px 3%;
+  padding-top: 30px;
+  padding-right: 3%;
+  padding-bottom: 30px;
+  padding-left: 3%;
   font-size: 3rem;
   flex-basis: 0;
   flex-grow: 1;

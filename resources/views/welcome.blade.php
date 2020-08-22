@@ -29,7 +29,7 @@
     <!-- 1921px and Greater -->
     <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="css/my_custom/welcome/past_1920_welcome.css">
 
-    <link rel="icon" href="images/welcome/5INF_COA-min.png">
+    <link rel="icon" href="images/welcome/5INF_crest-min.png">
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -40,7 +40,7 @@
       <div class="menuBody">
         <div class="mainMenuTopBttn">
           <a class="mainMenuLink" href="{{ url('/') }}">
-            <img src="images/welcome/5INF_COA-min.png"/>
+            <img src="images/welcome/5INF_crest-min.png"/>
           </a>
           <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/>
         </div>
@@ -143,11 +143,11 @@
           <div>Association</div>
         </div>
         <div id="bottomView" class="bottomView">
-          <div>LEARN MORE</div>
+          <div>LEARN MORE BELOW</div>
         </div>
       </div>
       <div class="lowerBody">
-        <div class="sectionTitle welcomeTitle">Home of the Bobcats</div>
+        <div id="welcomeTitle" class="sectionTitle">Home of the Bobcats</div>
         <div class="sectionContent welcomeContent">
           This organization is dedicated to all of the past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
         </div>
@@ -170,7 +170,7 @@
               </div>
               <div class="sectionContent pastContent">
                 <div>
-                  The 5th Regiment has a unique and exciting military history spanning over 200 years of service. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
+                  The 5th Regiment has a unique and exciting military history spanning over 200 years. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
                 </div></br>
                 <div>
                   Additionally, you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
@@ -182,7 +182,7 @@
                 Act In Our Present
               </div>
               <div class="sectionContent presentContent">
-                The 5th Regiment Infantry Association is a very active organization. It carries out an offical reunion every year, and members recieve frequent updates in the Association's regular newsletters. It also maintains frequent communications with the active units that that currently bear the our Regiment's crest. Finally, the Association frequently works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
+                The 5th Regiment Infantry Association is a very active organization. It carries out an official reunion every year, and members receive updates in the Association's regular newsletters. It also maintains frequent communications with the active Army units that currently bear our Regiment's crest. Finally, the Association often works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
               </div>
             </div>
             <div class="mobileComponent desktopComponent">

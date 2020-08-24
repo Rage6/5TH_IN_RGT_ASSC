@@ -128,13 +128,13 @@
         </div>
       </div>
       <div class="introBody introBodyMax">
-        <div class="introBody introIraq"></div>
-        <div class="introBody introAfghanistan"></div>
-        <div class="introBody introVietnam"></div>
-        <div class="introBody introKorea"></div>
-        <div class="introBody introWW2"></div>
-        <div class="introBody introFrontier"></div>
-        <div class="introBody intro1812"></div>
+        <div class="introBody introImage introIraq"></div>
+        <div class="introBody introImage introAfghanistan"></div>
+        <div class="introBody introImage introVietnam"></div>
+        <div class="introBody introImage introKorea"></div>
+        <div class="introBody introImage introWW2"></div>
+        <div class="introBody introImage introFrontier"></div>
+        <div class="introBody introImage intro1812"></div>
       </div>
       <div class="introBody">
         <div class="mainTitle">

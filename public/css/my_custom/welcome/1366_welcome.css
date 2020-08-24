@@ -30,33 +30,198 @@
   width: 50vw;
 }
 
-/* .intro1812 {
-  animation-duration: 50s;
+@keyframes backgroundZoom1812 {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  14% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  15% {
+    opacity: 0;
+    background-size: auto 110vh;
+  }
+  98% {
+    opacity: 0;
+    background-size: auto 110vh;
+  }
+  99% {
+    opacity: 0;
+    background-size: auto 100vh;
+  }
+  100% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+}
+
+.intro1812 {
+  background-position: center;
+  animation-name: backgroundZoom1812;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomFrontier {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  15% {
+    background-size: auto 100vh;
+  }
+  29% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .introFrontier {
-  animation-duration: 50s;
+  background-position: center;
+  animation-name: backgroundZoomFrontier;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomWW2 {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  30% {
+    background-size: auto 100vh;
+  }
+  44% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .introWW2 {
-  animation-duration: 50s;
+  background-position: center;
+  animation-name: backgroundZoomWW2;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomKorea {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  45% {
+    background-size: auto 100vh;
+  }
+  59% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .introKorea {
-  animation-duration: 50s;
+  background-position: center;
+  animation-name: backgroundZoomKorea;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomVietnam {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  60% {
+    background-size: auto 100vh;
+  }
+  74% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .introVietnam {
-  animation-duration: 50s;
+  background-position: center;
+  animation-name: backgroundZoomVietnam;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomAfghanistan {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    background-size: auto 100vh;
+  }
+  89% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .introAfghanistan {
-  animation-duration: 50s;
+  background-position: center;
+  animation-name: backgroundZoomAfghanistan;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes backgroundZoomIraq {
+  0% {
+    opacity: 1;
+    background-size: auto 100vh;
+  }
+  90% {
+    background-size: auto 100vh;
+  }
+  99% {
+    opacity: 1;
+    background-size: auto 110vh;
+  }
+  100% {
+    opacity: 0;
+    background-size: auto 110vh;
+  }
 }
 
 .introIraq {
-  animation-duration: 50s;
-} */
+  background-position: center;
+  animation-name: backgroundZoomIraq;
+  animation-duration: 30s;
+  animation-timing-function: ease-out;
+}
 
 .bottomView {
   font-size: 1.2rem;

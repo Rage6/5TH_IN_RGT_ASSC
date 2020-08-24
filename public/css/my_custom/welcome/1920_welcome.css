@@ -33,6 +33,34 @@
   width: 30vw;
 }
 
+.intro1812 {
+  animation-duration: 30s;
+}
+
+.introFrontier {
+  animation-duration: 30s;
+}
+
+.introWW2 {
+  animation-duration: 30s;
+}
+
+.introKorea {
+  animation-duration: 30s;
+}
+
+.introVietnam {
+  animation-duration: 30s;
+}
+
+.introAfghanistan {
+  animation-duration: 30s;
+}
+
+.introIraq {
+  animation-duration: 30s;
+}
+
 .bottomView {
   font-size: 1.2rem;
 }

@@ -30,8 +30,13 @@
   width: 50vw;
 }
 
+.introBody {
+  overflow: hidden;
+}
+
 .introImage {
   background-position: center;
+  background-size: cover;
   animation-duration: 30s;
   animation-timing-function: ease-out;
 }
@@ -39,27 +44,33 @@
 @keyframes backgroundZoom1812 {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   14% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   15% {
     opacity: 0;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   98% {
     opacity: 0;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   99% {
     opacity: 0;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   100% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
 }
 
@@ -70,14 +81,17 @@
 @keyframes backgroundZoomFrontier {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   15% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   29% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   30% {
     opacity: 0;
@@ -94,14 +108,17 @@
 @keyframes backgroundZoomWW2 {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   30% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   44% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   45% {
     opacity: 0;
@@ -118,14 +135,17 @@
 @keyframes backgroundZoomKorea {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   45% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   59% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   60% {
     opacity: 0;
@@ -142,14 +162,17 @@
 @keyframes backgroundZoomVietnam {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   60% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   74% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   75% {
     opacity: 0;
@@ -168,11 +191,13 @@
     opacity: 1;
   }
   75% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   89% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   90% {
     opacity: 0;
@@ -189,18 +214,22 @@
 @keyframes backgroundZoomIraq {
   0% {
     opacity: 1;
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   90% {
-    background-size: 100vw auto;
+    /* background-size: 100vw auto; */
+    transform: scale(1,1);
   }
   99% {
     opacity: 1;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
   100% {
     opacity: 0;
-    background-size: 110vw auto;
+    /* background-size: 110vw auto; */
+    transform: scale(1.1,1.1);
   }
 }
 

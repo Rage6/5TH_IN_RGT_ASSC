@@ -42,6 +42,10 @@ body {
   width: 640px;
 }
 
+.introBody {
+  overflow: hidden;
+}
+
 .introBodyMax {
   margin-left: 50%;
   left: -960px;
@@ -51,6 +55,7 @@ body {
 
 .introImage {
   background-position: center;
+  background-size: cover;
   animation-duration: 30s;
   animation-timing-function: ease-out;
 }
@@ -58,41 +63,41 @@ body {
 @keyframes backgroundMax1812 {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   14% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   15% {
     opacity: 0;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   98% {
     opacity: 0;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   99% {
     opacity: 0;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   100% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
 }
 
 @keyframes backgroundMaxFrontier {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   15% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   29% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   30% {
     opacity: 0;
@@ -105,14 +110,14 @@ body {
 @keyframes backgroundMaxWW2 {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   30% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   44% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   45% {
     opacity: 0;
@@ -125,14 +130,14 @@ body {
 @keyframes backgroundMaxKorea {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   45% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   59% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   60% {
     opacity: 0;
@@ -145,14 +150,14 @@ body {
 @keyframes backgroundMaxVietnam {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   60% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   74% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   75% {
     opacity: 0;
@@ -167,11 +172,11 @@ body {
     opacity: 1;
   }
   75% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
   }
   89% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
   }
   90% {
     opacity: 0;
@@ -184,18 +189,22 @@ body {
 @keyframes backgroundMaxIraq {
   0% {
     opacity: 1;
-    background-size: 1920px auto;
+    transform: scale(1,1);
+    /* background-size: 1920px auto; */
   }
   90% {
-    background-size: 1920px auto;
+    transform: scale(1,1);
+    /* background-size: 1920px auto; */
   }
   99% {
     opacity: 1;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
+    /* background-size: 2100px auto; */
   }
   100% {
     opacity: 0;
-    background-size: 2100px auto;
+    transform: scale(1.1,1.1);
+    /* background-size: 2100px auto; */
   }
 }
 

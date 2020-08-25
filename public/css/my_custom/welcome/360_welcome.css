@@ -54,6 +54,19 @@ a {
   cursor: pointer;
 }
 
+.mainMenuTopSquare {
+  padding: 1.5vh 1vh 0 1vh;
+  width: 7vh;
+  height: 6.5vh;
+}
+
+.mainMenuTopSquare div {
+  margin-bottom: 1vh;
+  border-radius: 10px;
+  background-color: lightgrey;
+  height: 1vh;
+}
+
 .mainMenuBox {
   position: fixed;
   width: 100%;

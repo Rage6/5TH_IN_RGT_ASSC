@@ -18,8 +18,10 @@
     <link rel="stylesheet" type="text/css" href="css/my_custom/menu/360_menu.css">
     <link rel="stylesheet" type="text/css" href="css/my_custom/welcome/360_welcome.css">
     <!-- 361px -> 375px-->
+    <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="css/my_custom/menu/375_menu.css">
     <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="css/my_custom/welcome/375_welcome.css">
     <!-- 376px -> 414px-->
+    <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="css/my_custom/menu/414_menu.css">
     <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="css/my_custom/welcome/414_welcome.css">
     <!-- 415px -> 768px-->
     <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="css/my_custom/menu/768_menu.css">

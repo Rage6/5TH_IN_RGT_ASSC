@@ -42,7 +42,12 @@
           <a class="mainMenuLink" href="{{ url('/') }}">
             <img src="images/welcome/5INF_crest-min.png"/>
           </a>
-          <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/>
+          <div id="mainMenuTopBttn" class="mainMenuTopSquare">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- <img id="mainMenuTopBttn" src="images/welcome/main_menu-min.png"/> -->
         </div>
         <div class="mainMenuBox">
           <a href="{{ url('/') }}">

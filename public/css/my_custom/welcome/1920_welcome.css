@@ -1,14 +1,3 @@
-.mainMenuTopBttn {
-  margin-left: 50%;
-  padding: 2vh 6vw 2vh 7vw;
-  left: -50vw;
-  width: 87vw;
-}
-
-.mainMenuTopBttn img {
-  height: 8vh;
-}
-
 .mainTitle {
   margin-top: 12vh;
   padding-top: 21vh;
@@ -26,11 +15,6 @@
 .mainTitle div {
   padding-left: 9%;
   width: 81%;
-}
-
-.mainMenuBox {
-  border-left: 1px solid black;
-  width: 30vw;
 }
 
 .introBody {

@@ -15,6 +15,7 @@ class WelcomeController extends Controller
     {
         return view('welcome',[
           'style' => 'welcome_style',
+          'js' => 'welcome/welcome.js',
           'content' => 'welcome_content'
         ]);
     }

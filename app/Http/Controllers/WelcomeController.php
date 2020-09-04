@@ -14,7 +14,8 @@ class WelcomeController extends Controller
     public function index()
     {
         return view('welcome',[
-          //
+          'style' => 'welcome_style',
+          'content' => 'welcome_content'
         ]);
     }
 

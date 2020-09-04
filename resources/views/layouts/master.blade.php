@@ -15,7 +15,7 @@
 
     @include('menu.style')
 
-    @yield('welcome_style')
+    @yield($style)
 
     <link rel="icon" href="images/welcome/5INF_crest-min.png">
 
@@ -27,7 +27,7 @@
 
     @include('menu.content')
 
-    @yield('welcome_content')
+    @yield($content)
 
   </body>
 </html>

@@ -16,10 +16,12 @@
   <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/history/1920_history.css">
   <!-- 1921px and Greater -->
   <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/history/past_1920_history.css">
+  @include ('footer.style')
 @stop
 
 @section('history_content')
   <div class="mainBody">
     <div>THIS IS A TEST</div>
   </div>
+  @include ('footer.content')
 @stop

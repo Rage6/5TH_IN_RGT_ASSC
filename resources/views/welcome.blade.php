@@ -16,6 +16,7 @@
   <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/welcome/1920_welcome.css">
   <!-- 1921px and Greater -->
   <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/welcome/past_1920_welcome.css">
+  @include ('footer.style')
 @stop
 
 @section('welcome_content')
@@ -89,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <!-- <div class="footer">
       <a href="{{ url('/') }}">
         <div>HOME</div>
       </a>
@@ -100,6 +101,7 @@
       <div>HALL OF HONOR</div>
       <div>PHOTO ALBUM</div>
       <div>MEMBERS ONLY</div>
-    </div>
+    </div> -->
+    @include ('footer.content')
   </div>
 @stop

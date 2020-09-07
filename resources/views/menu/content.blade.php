@@ -1,7 +1,7 @@
 <div class="menuBody">
   <div class="mainMenuTopBttn">
     <a class="mainMenuLink" href="{{ url('/') }}">
-      <img src="images/welcome/5INF_crest-min.png"/>
+      <img src="/images/welcome/5INF_crest-min.png"/>
     </a>
     <div id="mainMenuTopBttn" class="mainMenuTopSquare">
       <div></div>
@@ -32,7 +32,9 @@
         HISTORY
       </div>
       <div class="mainMenuSubBox" data-box-num="2">
-        <div class="mainMenuSubBttn">+ Origin & Traditions</div>
+        <a href="/history/origin">
+          <div class="mainMenuSubBttn">+ Origin & Traditions</div>
+        </a>
         <div class="mainMenuSubBttn">+ History Timeline</div>
         <!-- <div class="mainMenuSubBttn">+ War of 1812</div>
         <div class="mainMenuSubBttn">+ 1815 - 1845</div>

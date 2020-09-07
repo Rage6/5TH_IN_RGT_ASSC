@@ -15,7 +15,7 @@ class HistoryController extends Controller
     {
        return view('history',[
          'style' => 'history_style',
-         'js' => 'history/history.js',
+         'js' => '/js/my_custom/history/history.js',
          'content' => 'history_content'
        ]);
     }

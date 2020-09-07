@@ -22,4 +22,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/history','HistoryController@index');
+Route::prefix('history')->group(function() {
+  Route::get('origin','HistoryController@index');
+});

@@ -1,9 +1,43 @@
+p {
+  margin: 0;
+}
+
 .mainBody {
   padding-top: 10vh;
 }
 
 .mainBody div {
-  background-color: yellow;
+
+}
+
+.timelineBox {
+  position: sticky;
+  top: 10vh;
+  overflow-x: scroll;
+}
+
+.timelineBar {
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  width: 1500px;
+  height: 7vh;
+}
+
+.timelineBar div {
+  border-right: 1px solid black;
+  padding: 10px 10px 5px 10px;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.timeSegment {
+  margin-top: -17vh;
+  padding-top: 17vh;
 }
 
 .footer {

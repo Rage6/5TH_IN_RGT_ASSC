@@ -37,10 +37,11 @@
         </a>
         <div class="mainMenuSubBttn">+ History Timeline</div>
         <!-- <div class="mainMenuSubBttn">+ War of 1812</div>
-        <div class="mainMenuSubBttn">+ 1815 - 1845</div>
         <div class="mainMenuSubBttn">+ Mexican War</div>
-        <div class="mainMenuSubBttn">+ Frontier Defense & Indian Wars</div>
-        <div class="mainMenuSubBttn">+ 1891 - 1939</div>
+        <div class="mainMenuSubBttn">+ Civil War</div>
+        <div class="mainMenuSubBttn">+ Frontier Expansion & Indian Wars</div>
+        <div class="mainMenuSubBttn">+ Filipino Occupation</div>
+        <div class="mainMenuSubBttn">+ World War I & Great Depression</div>
         <div class="mainMenuSubBttn">+ World War II</div>
         <div class="mainMenuSubBttn">+ Korean War</div>
         <div class="mainMenuSubBttn">+ 1954 - 1966</div>

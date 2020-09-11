@@ -18,26 +18,36 @@ p {
 
 .timelineBar {
   display: flex;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  width: 1500px;
+  width: 1800px;
   height: 7vh;
 }
 
 .timelineBar div {
-  border-right: 1px solid black;
-  padding: 10px 10px 5px 10px;
+  padding: 10px 0 0 0;
   color: white;
   font-family: 'Special Elite', cursive;
+  font-size: 1rem;
   text-align: center;
-  align-items: center;
-  background-color: grey;
+  background:
+    linear-gradient(90deg, black, transparent 5%, transparent 95%, black),
+    linear-gradient(0deg, black, transparent 13%, transparent 87%, black),
+    grey;
+  width: 150px;
+  cursor: pointer;
 }
 
 .timeSegment {
-  margin-top: -17vh;
-  padding-top: 17vh;
+  margin: 50px 2% 0 2%;
+  border: 1px solid black;
+  padding: 15px 3%;
+}
+
+.firstTimeSegment {
+  margin-top: 10px;
+}
+
+.segmentTitle {
+  font-size: 1.3rem;
 }
 
 .footer {

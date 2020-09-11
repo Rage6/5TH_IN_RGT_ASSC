@@ -3,10 +3,10 @@ $(() => {
   console.log("jQuery worked");
   $("[data-button]").click(()=>{
     let section = "[data-section=" + event.target.dataset.button + "]";
-    let menuHeight = $(".mainMenuTopBttn").outerHeight();
-    console.log(menuHeight);
+    let menuHeight = $(".mainMenuTopBttn").outerHeight() + $(".timelineBox").outerHeight();
+    let totalTop = $(section).offset().top - menuHeight;
     $("html,body").animate({
-      scrollTop: $(section).offset().top
+      scrollTop: totalTop
     }, 800);
   });
 });

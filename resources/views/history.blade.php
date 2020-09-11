@@ -34,18 +34,19 @@
         <div data-button="1954to1966">1954 to 1966</div>
         <div data-button="vietnamWar">Vietnam War</div>
         <div data-button="1975to2001">1975 to 2001</div>
-        <div data-button="warOnTerror">Global War On Terror</div>
+        <div data-button="warOnTerror">Global War On Terrorism</div>
       </div>
     </div>
-    <div>
+    <!-- <div>
       <p>
         The history of the Fifth Infantry Regiment spans two centuries of American fighting tradition.  During that time, it has received battle streamers for participation in fifty-one separate campaigns in nine major conflicts.  Each of these streamers represents the blood, sweat and tears of infantrymen from every era in the country’s history. Congress authorized the formation of the 5th Infantry on April 12, 1808.  Junior only to the 3rd Infantry (1784) and the 4th Infantry (1792), it is the third oldest active unit in the U.S. Army.
       </p>
       <p>
         While garrisoned at the Monteith Barracks in Furth, Germany, the regimental baseball team adopted the name, “5th Infantry Bobcats.”  By the early 1960’s, the Bobcat moniker had been generalized to all members of the regiment.  In 2007, it was discovered that this unit nickname had never been formally recognized and recorded by the Department of the Army and could have been easily usurped by another unit.  The commander of 1st Battalion, 5th Infantry at Fort Wainwright, Alaska successfully registered the name.
       </p>
-    </div>
-    <div class="timeSegment" data-section="warOf1812">
+    </div> -->
+    <div class="timeSegment firstTimeSegment" data-section="warOf1812">
+      <div class="segmentTitle">War of 1812</div>
       <div>
         <img style="float:left;width:50%;height:50%" src="/images/welcome/bobcat_logo_black-min.png">
       </div>
@@ -57,6 +58,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="mexicanWar">
+      <div class="segmentTitle">Mexican War</div>
       <p>
         After the war, the Fifth Infantry was sent to the northwest frontier to help explore and protect the massive new territory acquired before and after the War of 1812.  It built Fort Snelling, participated in the Black Hawk War and suffered through the cold of twenty-six Michigan winters.  In 1845, the regiment was ordered to march south to Corpus Christi, Texas to join Zachary Taylor’s “Army of Observation.”
       </p>
@@ -68,6 +70,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="civilWar">
+      <div class="segmentTitle">Civil War</div>
       <p>
         When the Civil War began in 1861, the 5th Infantry was distributed among several posts in New Mexico.  Twenty-two officers of the regiment went east to serve in the Union Army and nine officers of the regiment resigned their commissions and joined the Confederates.  The remaining officers and men remained in New Mexico under the overall command of Brigadier General Edward Canby.
       </p>
@@ -76,6 +79,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="indianWars">
+      <div class="segmentTitle">Indian Wars</div>
       <p>
         In October, 1868, 5th Infantry Headquarters was established at Ft. Riley, Kansas.  The companies were scattered among several Kansas posts.  The following March, Colonel Nelson Miles assumed command of the regiment.
       </p>
@@ -90,6 +94,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="filipinoOccupation">
+      <div class="segmentTitle">Filipino Occupation</div>
       <p>
         In 1891, most of the regiment was shifted from Texas to posts in Florida and Alabama.  They were there on February 15, 1898 when the battleship USS Maine blew up in the harbor at Havana, Cuba.  Congress, assuming that the destruction of the Maine had been an act of sabotage, declared war against Spain on April 25. Many of the 5th Infantry officers who had led the regiment during the Indian Wars were promoted and assumed commands of state volunteer units that joined in the invasion of Cuba.  The four-month-long fight was over, however, before the 5th Infantry reached Havana.  It was deployed there as an occupation force for nearly two years.
       </p>
@@ -101,6 +106,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="WWIandDepression">
+      <div class="segmentTitle">World War I & Great Depression</div>
       <p>
         The outbreak of World War I in 1914 caused so much apprehension over the security of the newly-opened Panama Canal that the Panama garrison was heavily augmented.   The 5th Infantry arrived there in November, 1914.  The regiment returned home in the summer of 1918 to prepare for shipment to France, a deployment that was delayed until the fall of 1919, months after the armistice had been signed in Western Europe.  The 5th Infantry was garrisoned near Andernach in western Germany until re-deployment to Portland, Maine in March, 1922.
       </p>
@@ -109,6 +115,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="WWII">
+      <div class="segmentTitle">World War II</div>
       <p>
         The German invasion of Poland in 1939 focused attention upon America’s defenses, particularly in the Caribbean area.  On September 8, 1939, the 5th Infantry was once more ordered to return to the Canal Zone. The regiment served there until early 1943, then was garrisoned temporarily at Camp Van Dorn, Mississippi, and finally departed from there that June, to help form the 71st Infantry Division at Fort Carson, Colorado.
       </p>
@@ -123,6 +130,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="koreanWar">
+      <div class="segmentTitle">Korean War</div>
       <p>
         After the defeat of Japan, the Korean Peninsula was divided at the 38th Parallel for the purpose of processing Japanese prisoners of war.  The Soviet Union was responsible for those prisoners north of the parallel and the United States assumed responsibility for those in the southern half of the country.  The intent, on the part of the United States, was not to divide Korea into two hostile camps.  The Soviets, however, took advantage of the situation, formed a North Korean Army and dragged North Korea into the Communist fold.  President Truman reacted by ordering the U.S. Army to form a small South Korean defense force and to leave a token American garrison to train and assist the South Koreans.  The 5thRegimental Combat Team was activated on January 1, 1949 for that purpose.  This re-incarnation of the 5th Infantry Regiment was composed of personnel and equipment transferred from the 7th Infantry Division.
       </p>
@@ -158,6 +166,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="1954to1966">
+      <div class="segmentTitle">1954 to 1966</div>
       <p>
         Between October and early December, 1954, the 5th RCT redeployed, in segments, to Ft. Lewis, Washington.  The 5thInfantry was re-assigned to the 71st Infantry Division, its World War II parent organization.  It prepared for its next confrontation with a Communist enemy, presumably the Soviet Union.
       </p>
@@ -175,6 +184,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="vietnamWar">
+      <div class="segmentTitle">Vietnam War</div>
       <p>
         When 1st Battalion, 5th Infantry was sent to Vietnam in January, 1966, it became one of the few mechanized units to serve in the war.  During the next three months, the 2nd Brigade, 25th Infantry Division, including 1st Battalion, 5thInfantry, was engaged in continuous ground combat against the Viet Cong to secure a base of operations for itself and the rest of the 25th Infantry Division near Tan An Hoi in the Cu Chi District of Vietnam.  During that period, the brigade, through reconnaissance in force,   ambush, counter-ambush and reaction missions, killed 449 Viet Cong, severely disrupted    insurgent activities and discredited the Viet Cong in the eyes of the local populace.  The 2nd Brigade, including the 1st Battalion, 5th Infantry, received a Valorous Unit Award for the Battle for Cu Chi.
       </p>
@@ -201,6 +211,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="1975to2001">
+      <div class="segmentTitle">1975 to 2001</div>
       <p>
         By April of 1975, over 100,000 refugees had fled South Vietnam as the Communist takeover became more imminent. The 5th Infantry was sent to Orote Point, Guam to participate in Operation New Life.  There they joined forces with Army logistical and medical units and Navy Seabees to erect and operate a refugee reception camp. During its sixty days on Guam, the task force erected tent cities, provided camp security, administered immunizations, and guided refugees through the registration process.
       </p>
@@ -218,6 +229,7 @@
       </p>
     </div>
     <div class="timeSegment" data-section="warOnTerror">
+      <div class="segmentTitle">Global War On Terrorism</div>
       <p>
         World peace was shattered, however, on September 11, 2001, when Saudi terrorists, linked to Osama bin Laden’s al Qaeda terrorist network, hijacked four American airliners and killed more than three thousand Americans.  On the 28th of November, soldiers from the 10th Mountain Division moved into Afghanistan with the intent of destroying terrorist camps and infrastructure, capture al Qaeda leaders, and overthrow the Taliban regime. The 10th Mountain was soon joined by elements of the 101st Airborne and the 75th Rangers.
       </p>

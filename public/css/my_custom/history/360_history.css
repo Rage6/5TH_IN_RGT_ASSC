@@ -23,17 +23,24 @@ p {
 }
 
 .timelineBar div {
-  padding: 10px 0 0 0;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
   color: white;
   font-family: 'Special Elite', cursive;
   font-size: 1rem;
-  text-align: center;
   background:
     linear-gradient(90deg, black, transparent 5%, transparent 95%, black),
     linear-gradient(0deg, black, transparent 13%, transparent 87%, black),
     grey;
   width: 150px;
   cursor: pointer;
+}
+
+.timelineBar div div {
+  text-align: center;
+  background: transparent;
+  justify-content: center;
 }
 
 .timeSegment {
@@ -43,11 +50,26 @@ p {
 }
 
 .firstTimeSegment {
-  margin-top: 10px;
+  margin-top: 0;
+}
+
+.allSegments {
+  padding: 10px 0;
 }
 
 .segmentTitle {
   font-size: 1.3rem;
+}
+
+.segmentImg {
+  height: 31vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../../images/history/BattleofLundysLane.jpg');
+}
+
+.segmentWords {
+  text-align: justify;
 }
 
 .footer {

@@ -1,4 +1,20 @@
+.timelineBox {
+  top: 12vh;
+}
 
+.timelineBar {
+  width: 2400px;
+  height: 9vh;
+}
+
+.timelineBar div {
+  font-size: 1.5rem;
+  width: 200px;
+}
+
+.mainBody {
+  padding-top: 12vh;
+}
 
 .footer {
   padding: 30px 0 100px 0;

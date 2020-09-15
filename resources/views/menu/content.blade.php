@@ -32,10 +32,12 @@
         HISTORY
       </div>
       <div class="mainMenuSubBox" data-box-num="2">
-        <a href="/history/origin">
+        <!-- <a href="/history/origin"> -->
           <div class="mainMenuSubBttn">+ Origin & Traditions</div>
+        <!-- </a> -->
+        <a href="/history/origin">
+          <div class="mainMenuSubBttn">+ History Timeline</div>
         </a>
-        <div class="mainMenuSubBttn">+ History Timeline</div>
         <!-- <div class="mainMenuSubBttn">+ War of 1812</div>
         <div class="mainMenuSubBttn">+ Mexican War</div>
         <div class="mainMenuSubBttn">+ Civil War</div>

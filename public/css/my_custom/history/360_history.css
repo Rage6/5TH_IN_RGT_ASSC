@@ -49,6 +49,138 @@ p {
   padding: 15px 3%;
 }
 
+.warOf1812Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/lundy_lane_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.mexicanWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7)),
+    url('../../../images/history/mexican_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.civilWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/civil_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.indianWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7)),
+    url('../../../images/history/bear_paw_map.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.occupationSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.6),
+      rgba(255,255,255,0.6)),
+    url('../../../images/history/philippine_islands_1909.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.ww1Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/panama_canal_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.ww2Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/71st_IN_DIV_map.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.koreanSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/korean_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.preVietnamSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/1950_USHighways_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.vietnameSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/ben_cui_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.southKoreaSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/south_korea_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.gwotSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/GWOT_2014_map.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .firstTimeSegment {
   margin-top: 0;
 }

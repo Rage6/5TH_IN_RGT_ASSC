@@ -73,7 +73,7 @@
       </p>
     </div> -->
     <div class="allSegments">
-      <div class="timeSegment firstTimeSegment" data-section="warOf1812">
+      <div class="timeSegment firstTimeSegment warOf1812Segment" data-section="warOf1812">
         <div class="segmentTitle"><u>War of 1812</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -88,7 +88,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="mexicanWar">
+      <div class="timeSegment mexicanWarSegment" data-section="mexicanWar">
         <div class="segmentContent">
           <div class="segmentTitle"><u>Mexican War</u></div>
           <div class="segmentWords">
@@ -106,7 +106,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="civilWar">
+      <div class="timeSegment civilWarSegment" data-section="civilWar">
         <div class="segmentContent">
           <div class="segmentTitle"><u>Civil War</u></div>
           <div class="segmentWords">
@@ -121,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="indianWars">
+      <div class="timeSegment indianWarSegment" data-section="indianWars">
         <div class="segmentTitle"><u>Indian Wars</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -142,7 +142,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="territorialOccupation">
+      <div class="timeSegment occupationSegment" data-section="territorialOccupation">
         <div class="segmentTitle"><u>Territorial Occupation</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -158,7 +158,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="WWIandDepression">
+      <div class="timeSegment ww1Segment" data-section="WWIandDepression">
         <div class="segmentTitle"><u>World War I & Great Depression</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -173,7 +173,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="WWII">
+      <div class="timeSegment ww2Segment" data-section="WWII">
         <div class="segmentTitle"><u>World War II</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -194,7 +194,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="koreanWar">
+      <div class="timeSegment koreanSegment" data-section="koreanWar">
         <div class="segmentTitle"><u>Korean War</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -238,7 +238,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="1954to1966">
+      <div class="timeSegment preVietnamSegment" data-section="1954to1966">
         <div class="segmentTitle"><u>1954 to 1966</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -260,7 +260,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="vietnamWar">
+      <div class="timeSegment vietnameSegment" data-section="vietnamWar">
         <div class="segmentTitle"><u>Vietnam War</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -295,7 +295,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="1975to2001">
+      <div class="timeSegment southKoreaSegment" data-section="1975to2001">
         <div class="segmentTitle"><u>1975 to 2001</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -317,7 +317,7 @@
           </div>
         </div>
       </div>
-      <div class="timeSegment" data-section="warOnTerror">
+      <div class="timeSegment gwotSegment" data-section="warOnTerror">
         <div class="segmentTitle"><u>Global War On Terrorism</u></div>
         <div class="segmentContent">
           <div class="segmentWords">

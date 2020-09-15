@@ -201,7 +201,7 @@
             <p>
               After the defeat of Japan, the Korean Peninsula was divided at the 38th Parallel for the purpose of processing Japanese prisoners of war.  The Soviet Union was responsible for those prisoners north of the parallel and the United States assumed responsibility for those in the southern half of the country.  The intent, on the part of the United States, was not to divide Korea into two hostile camps.  The Soviets, however, took advantage of the situation, formed a North Korean Army and dragged North Korea into the Communist fold.  President Truman reacted by ordering the U.S. Army to form a small South Korean defense force and to leave a token American garrison to train and assist the South Koreans.  The 5thRegimental Combat Team was activated on January 1, 1949 for that purpose.  This re-incarnation of the 5th Infantry Regiment was composed of personnel and equipment transferred from the 7th Infantry Division.
             </p>
-            <div class="segmentImg imgRight imgBig" style="background-image:url('../../../images/history/mortar_Korea.jpg')">
+            <div class="segmentImg imgRight imgBig" style="background-image:url('../../../images/history/mortar_korea.jpg')">
             </div>
             <p>
               The severely under-strength 5th RCT was transferred to Schofield Barracks, Hawaii in June, 1949, where they spent the next year absorbing and training replacements.  On Saturday, June 24, 1950, the men were enjoying an evening in Honolulu when they were suddenly ordered to return to the base.  The North Korean Peoples’ Army had invaded South Korea.  The combat team was alerted for shipment to Korea.

@@ -76,9 +76,9 @@
       <div class="timeSegment firstTimeSegment" data-section="warOf1812">
         <div class="segmentTitle"><u>War of 1812</u></div>
         <div class="segmentContent">
-          <div class="segmentImg imgLeft imgBig" style="background-image:url('../../../images/history/BattleofLundysLane.jpg')">
-          </div>
           <div class="segmentWords">
+            <div class="segmentImg imgLeft imgSmall" style="background-image:url('../../../images/history/BattleofLundysLane.jpg')">
+            </div>
             <p>
               At the onset of the War of 1812, the 5th Infantry was assigned to Winder’s Brigade, U.S. Army of the South.  In the spring of 1813, Winder’s troops marched north to Ontario, Canada to exploit the British defeat at Fort George.  British regulars executed a daring nighttime attack on the brigade forcing it to withdraw to Fort George.  The 5th Infantry participated in the successful defense of Plattsburgh, New York in September, 1814 and then marched north to the Niagara frontier.  The regiment’s victorious assault at Cook’s Mills, on 19 October, 1814 was the last encounter between regular forces in Canada.
             </p>
@@ -90,17 +90,15 @@
       </div>
       <div class="timeSegment" data-section="mexicanWar">
         <div class="segmentContent">
-          <div class="segmentTitle">Mexican War</div>
-          <!-- <div class="segmentImg imgRight imgBig" style="background-image:url('../../../images/history/Palo_Alto_nebel.jpg')">
-          </div> -->
+          <div class="segmentTitle"><u>Mexican War</u></div>
           <div class="segmentWords">
+            <div class="segmentImg imgRight imgSmall" style="background-image:url('../../../images/history/Palo_Alto_nebel.jpg')">
+            </div>
             <p>
               After the war, the Fifth Infantry was sent to the northwest frontier to help explore and protect the massive new territory acquired before and after the War of 1812.  It built Fort Snelling, participated in the Black Hawk War and suffered through the cold of twenty-six Michigan winters.  In 1845, the regiment was ordered to march south to Corpus Christi, Texas to join Zachary Taylor’s “Army of Observation.”
             </p>
-            <div class="segmentImg imgRight imgBig" style="background-image:url('../../../images/history/Palo_Alto_nebel.jpg')">
-            </div>
             <p>
-              On April 24, 1846, Taylor’s Army crossed the Rio Grande and pushed the Mexican Army deep into Mexico.  The 5thInfantry earned battle streamers for Palo Alto, Resaca De La Palma and Monterey with Taylor. In January 1847, the regiment was transferred to Winfield Scott’s Army and participated in the amphibious attack on Vera Cruz. From there, they advanced and captured Churubusco, Molino del Rey, Chapultepec and finally, Mexico City.
+              On April 24, 1846, Taylor’s Army crossed the Rio Grande and pushed the Mexican Army deep into Mexico.  The 5th Infantry earned battle streamers for Palo Alto, Resaca De La Palma and Monterey with Taylor. In January 1847, the regiment was transferred to Winfield Scott’s Army and participated in the amphibious attack on Vera Cruz. From there, they advanced and captured Churubusco, Molino del Rey, Chapultepec and finally, Mexico City.
             </p>
             <p>
               Following the Mexican War, the Fifth Infantry Regiment returned to the frontier.  It was involved in exploration of the southwest and the protection of settlements and travelers in the territories that would become Oklahoma, Arkansas, Texas and New Mexico.  In 1857, the 5th was ordered to Florida to coax the Seminoles out of their swampy stronghold.  That mission was diverted when the regiment was ordered to proceed to Utah to deal with the Mormons, who were accused of denying the sovereignty of the United States and inciting Indian attacks on travelers.
@@ -110,13 +108,13 @@
       </div>
       <div class="timeSegment" data-section="civilWar">
         <div class="segmentContent">
-          <div class="segmentTitle">Civil War</div>
+          <div class="segmentTitle"><u>Civil War</u></div>
           <div class="segmentWords">
+            <div class="segmentImg imgLeft imgExtraSmall" style="background-image:url('../../../images/history/Burning-of-Wagon-Train-at-Apache-Canyon.jpg')">
+            </div>
             <p>
               When the Civil War began in 1861, the 5th Infantry was distributed among several posts in New Mexico.  Twenty-two officers of the regiment went east to serve in the Union Army and nine officers of the regiment resigned their commissions and joined the Confederates.  The remaining officers and men remained in New Mexico under the overall command of Brigadier General Edward Canby.
             </p>
-            <div class="segmentImg imgLeft imgSmall" style="background-image:url('../../../images/history/Burning-of-Wagon-Train-at-Apache-Canyon.jpg')">
-            </div>
             <p>
               In February, 1862, a column of Texas volunteers commanded by General Henry Sibley, invaded New Mexico.  Sibley’s plan was to capture California and divert its gold to the Confederate treasury.  The 5th Infantry and other units from the Department of New Mexico clashed with Sibley’s column at Valverde, Glorieta Pass and Peralta.  Defeated, the Texans withdrew to San Antonio.  The 5th Infantry remained quietly on the frontier, its boredom broken periodically by expeditions against bands of marauding Navajo Indians.
             </p>
@@ -124,14 +122,14 @@
         </div>
       </div>
       <div class="timeSegment" data-section="indianWars">
-        <div class="segmentTitle">Indian Wars</div>
+        <div class="segmentTitle"><u>Indian Wars</u></div>
         <div class="segmentContent">
-          <div class="segmentImg imgRight imgBig" style="background-image:url('../../../images/history/Montana_1879.jpg')">
-          </div>
           <div class="segmentWords">
             <p>
               In October, 1868, 5th Infantry Headquarters was established at Ft. Riley, Kansas.  The companies were scattered among several Kansas posts.  The following March, Colonel Nelson Miles assumed command of the regiment.
             </p>
+            <div class="segmentImg imgRight imgSmall" style="background-image:url('../../../images/history/Montana_1879.jpg')">
+            </div>
             <p>
               The Indian tribes in the southwest had become bolder and stronger while the U.S. government had been preoccupied with the Civil War. Following a number of hostile actions by Kiowa and Southern Cheyenne warriors, Miles’ 5th Infantry, accompanied by the 10th and 14th Cavalry Regiments, skirmished with the hostile Indians in the Texas Panhandle.  Both tribes surrendered in early 1875.
             </p>
@@ -145,7 +143,7 @@
         </div>
       </div>
       <div class="timeSegment" data-section="territorialOccupation">
-        <div class="segmentTitle">Territorial Occupation</div>
+        <div class="segmentTitle"><u>Territorial Occupation</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>
@@ -161,10 +159,10 @@
         </div>
       </div>
       <div class="timeSegment" data-section="WWIandDepression">
-        <div class="segmentTitle">World War I & Great Depression</div>
+        <div class="segmentTitle"><u>World War I & Great Depression</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
-            <div class="segmentImg imgRight imgSmall" style="background-image:url('../../../images/history/PanamaCanal.jpg')">
+            <div class="segmentImg imgRight imgExtraSmall" style="background-image:url('../../../images/history/PanamaCanal.jpg')">
             </div>
             <p>
               The outbreak of World War I in 1914 caused so much apprehension over the security of the newly-opened Panama Canal that the Panama garrison was heavily augmented.   The 5th Infantry arrived there in November, 1914.  The regiment returned home in the summer of 1918 to prepare for shipment to France, a deployment that was delayed until the fall of 1919, months after the armistice had been signed in Western Europe.  The 5th Infantry was garrisoned near Andernach in western Germany until re-deployment to Portland, Maine in March, 1922.
@@ -176,14 +174,14 @@
         </div>
       </div>
       <div class="timeSegment" data-section="WWII">
-        <div class="segmentTitle">World War II</div>
+        <div class="segmentTitle"><u>World War II</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
+            <div class="segmentImg imgLeft imgBig" style="background-image:url('../../../images/history/Hist_5th_INFANTRY_REGIMENT.png')">
+            </div>
             <p>
               The German invasion of Poland in 1939 focused attention upon America’s defenses, particularly in the Caribbean area.  On September 8, 1939, the 5th Infantry was once more ordered to return to the Canal Zone. The regiment served there until early 1943, then was garrisoned temporarily at Camp Van Dorn, Mississippi, and finally departed from there that June, to help form the 71st Infantry Division at Fort Carson, Colorado.
             </p>
-            <div class="segmentImg imgLeft imgBig" style="background-image:url('../../../images/history/Hist_5th_INFANTRY_REGIMENT.png')">
-            </div>
             <p>
               The 71st Division commenced combat operations in the Vosges Mountains in Alsace-Lorraine on March 11, 1945.  Attacking eastward into Germany, they breached the Siegfried Line, crossed the Rhine at Worms, and drove as far northeast as the town of Fulda.  On April 1, the 71st Division was shifted to Patton’s 3rd Army. During much of April, riflemen from the 5th engaged in fire fights with elements of Germany’s 6th SS Mountain Division.
             </p>
@@ -197,7 +195,7 @@
         </div>
       </div>
       <div class="timeSegment" data-section="koreanWar">
-        <div class="segmentTitle">Korean War</div>
+        <div class="segmentTitle"><u>Korean War</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>
@@ -241,11 +239,11 @@
         </div>
       </div>
       <div class="timeSegment" data-section="1954to1966">
-        <div class="segmentTitle">1954 to 1966</div>
+        <div class="segmentTitle"><u>1954 to 1966</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>
-              Between October and early December, 1954, the 5th RCT redeployed, in segments, to Ft. Lewis, Washington.  The 5thInfantry was re-assigned to the 71st Infantry Division, its World War II parent organization.  It prepared for its next confrontation with a Communist enemy, presumably the Soviet Union.
+              Between October and early December, 1954, the 5th RCT redeployed, in segments, to Ft. Lewis, Washington.  The 5th Infantry was re-assigned to the 71st Infantry Division, its World War II parent organization.  It prepared for its next confrontation with a Communist enemy, presumably the Soviet Union.
             </p>
             <p>
               In August, 1956, the 5th Infantry was released from the 71st Infantry Division and the personnel and equipment at Fort Lewis were used to re-activate the 22nd Infantry Regiment.  The 61st Infantry Regiment at Fort Carson was re-designated the 5th Infantry Regiment.  This incarnation of the 5th soon exchanged stations with the 39th Infantry of the 9th Infantry Division in Germany.
@@ -263,11 +261,11 @@
         </div>
       </div>
       <div class="timeSegment" data-section="vietnamWar">
-        <div class="segmentTitle">Vietnam War</div>
+        <div class="segmentTitle"><u>Vietnam War</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>
-              When 1st Battalion, 5th Infantry was sent to Vietnam in January, 1966, it became one of the few mechanized units to serve in the war.  During the next three months, the 2nd Brigade, 25th Infantry Division, including 1st Battalion, 5thInfantry, was engaged in continuous ground combat against the Viet Cong to secure a base of operations for itself and the rest of the 25th Infantry Division near Tan An Hoi in the Cu Chi District of Vietnam.  During that period, the brigade, through reconnaissance in force,   ambush, counter-ambush and reaction missions, killed 449 Viet Cong, severely disrupted    insurgent activities and discredited the Viet Cong in the eyes of the local populace.  The 2nd Brigade, including the 1st Battalion, 5th Infantry, received a Valorous Unit Award for the Battle for Cu Chi.
+              When 1st Battalion, 5th Infantry was sent to Vietnam in January, 1966, it became one of the few mechanized units to serve in the war.  During the next three months, the 2nd Brigade, 25th Infantry Division, including 1st Battalion, 5th Infantry, was engaged in continuous ground combat against the Viet Cong to secure a base of operations for itself and the rest of the 25th Infantry Division near Tan An Hoi in the Cu Chi District of Vietnam.  During that period, the brigade, through reconnaissance in force,   ambush, counter-ambush and reaction missions, killed 449 Viet Cong, severely disrupted    insurgent activities and discredited the Viet Cong in the eyes of the local populace.  The 2nd Brigade, including the 1st Battalion, 5th Infantry, received a Valorous Unit Award for the Battle for Cu Chi.
             </p>
             <p>
               In January, 1967, the battalion shifted operations from Cu Chi to Tay Ninh Province, some 48 kilometers to the northwest.  Tay Ninh was an exit point for the Ho Chi Minh Trail which was used by the enemy to transport troops, weapons, and military equipment from North Vietnam through Laos and Cambodia and from there to points further south.  The 25thDivision was placed there to plug the hole.  The 5th Infantry participated in daily search and destroy operations in an effort to interdict the movement of supplies to the Saigon area.  When the Viet Cong celebrated Tet 1968 by increasing offensive operations around Saigon, the battalion was shifted south to deal with troubles in the Boi Loi, Ho Bo Woods and Filhol Plantation area.
@@ -298,7 +296,7 @@
         </div>
       </div>
       <div class="timeSegment" data-section="1975to2001">
-        <div class="segmentTitle">1975 to 2001</div>
+        <div class="segmentTitle"><u>1975 to 2001</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>
@@ -314,13 +312,13 @@
               Tensions continued on the Korean Peninsula.  By 1987, ninety U.S. soldiers had died in combat in Korea since the implementation of the 1953 truce accord.  On 24 April 1987, the 1st Battalion, 5th Infantry reappeared when the 1st Battalion, 31st Infantry was re-flagged.  The battalion, part of the 3rd Brigade, 2nd Infantry Division was initially garrisoned at Camp Howze, forty miles north of Seoul.  The new Bobcats were, once again, equipped with M-113A3 personnel carriers.  When the 2nd Division moved further north to Camp Hovey in 1990, the battalion turned in its “tracks” for Bradley Fighting Vehicles.
             </p>
             <p>
-              In August, 1995, the 1st Battalion, 9th Infantry at Ft. Lewis, Washington exchanged flags with the 1st Battalion, 5thInfantry at Camp Howze.  That same month, the 2nd Battalion, 5th Infantry was re-activated at Schofield Barracks.  The two 5th Infantry battalions were assigned to the 1st and 3rd Brigades of the 25th Infantry Division, respectively.  In 1997, 1stBattalion was involved in training exercises to test the new digital communications equipment that is currently used by the U.S. Army.  The battalion received the Army Superior Unit Award for its contribution to the modernization of light infantry capabilities.  First Battalion subsequently served as peacekeepers on the Sinai Peninsula from January through June of 2000.
+              In August, 1995, the 1st Battalion, 9th Infantry at Ft. Lewis, Washington exchanged flags with the 1st Battalion, 5th Infantry at Camp Howze.  That same month, the 2nd Battalion, 5th Infantry was re-activated at Schofield Barracks.  The two 5th Infantry battalions were assigned to the 1st and 3rd Brigades of the 25th Infantry Division, respectively.  In 1997, 1stBattalion was involved in training exercises to test the new digital communications equipment that is currently used by the U.S. Army.  The battalion received the Army Superior Unit Award for its contribution to the modernization of light infantry capabilities.  First Battalion subsequently served as peacekeepers on the Sinai Peninsula from January through June of 2000.
             </p>
           </div>
         </div>
       </div>
       <div class="timeSegment" data-section="warOnTerror">
-        <div class="segmentTitle">Global War On Terrorism</div>
+        <div class="segmentTitle"><u>Global War On Terrorism</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
             <p>

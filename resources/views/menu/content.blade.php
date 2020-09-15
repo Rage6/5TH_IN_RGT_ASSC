@@ -1,7 +1,7 @@
 <div class="menuBody">
   <div class="mainMenuTopBttn">
     <a class="mainMenuLink" href="{{ url('/') }}">
-      <img src="images/welcome/5INF_crest-min.png"/>
+      <img src="/images/welcome/5INF_crest-min.png"/>
     </a>
     <div id="mainMenuTopBttn" class="mainMenuTopSquare">
       <div></div>
@@ -32,13 +32,18 @@
         HISTORY
       </div>
       <div class="mainMenuSubBox" data-box-num="2">
-        <div class="mainMenuSubBttn">+ Origin & Traditions</div>
-        <div class="mainMenuSubBttn">+ History Timeline</div>
+        <!-- <a href="/history/origin"> -->
+          <div class="mainMenuSubBttn">+ Origin & Traditions</div>
+        <!-- </a> -->
+        <a href="/history/origin">
+          <div class="mainMenuSubBttn">+ History Timeline</div>
+        </a>
         <!-- <div class="mainMenuSubBttn">+ War of 1812</div>
-        <div class="mainMenuSubBttn">+ 1815 - 1845</div>
         <div class="mainMenuSubBttn">+ Mexican War</div>
-        <div class="mainMenuSubBttn">+ Frontier Defense & Indian Wars</div>
-        <div class="mainMenuSubBttn">+ 1891 - 1939</div>
+        <div class="mainMenuSubBttn">+ Civil War</div>
+        <div class="mainMenuSubBttn">+ Frontier Expansion & Indian Wars</div>
+        <div class="mainMenuSubBttn">+ Filipino Occupation</div>
+        <div class="mainMenuSubBttn">+ World War I & Great Depression</div>
         <div class="mainMenuSubBttn">+ World War II</div>
         <div class="mainMenuSubBttn">+ Korean War</div>
         <div class="mainMenuSubBttn">+ 1954 - 1966</div>

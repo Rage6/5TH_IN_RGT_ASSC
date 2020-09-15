@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class HistoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,11 +13,11 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        return view('welcome',[
-          'style' => 'welcome_style',
-          'js' => '/js/my_custom/welcome/welcome.js',
-          'content' => 'welcome_content'
-        ]);
+       return view('history',[
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'history_content'
+       ]);
     }
 
     /**

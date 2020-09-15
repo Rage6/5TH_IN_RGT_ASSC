@@ -12,22 +12,22 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bellefair&family=Bellota+Text&family=Black+Ops+One&family=Charm&family=Cinzel&family=IM+Fell+English+SC&family=Italianno&family=Nanum+Myeongjo&family=News+Cycle&family=Prompt&family=Special+Elite&family=Spectral+SC&family=Staatliches&family=Stardos+Stencil&family=Thasadith&family=Vollkorn+SC&display=swap" rel="stylesheet">
-
     @include('menu.style')
+    @yield($style)
+    @include('footer.style')
 
-    @yield('welcome_style')
-
-    <link rel="icon" href="images/welcome/5INF_crest-min.png">
+    <link rel="icon" href="/images/welcome/5INF_crest-min.png">
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="js/my_custom/welcome/welcome.js"></script>
+    @include('menu.script')
+    <script src=<?php echo($js) ?>></script>
   </head>
   <body>
 
     @include('menu.content')
 
-    @yield('welcome_content')
+    @yield($content)
 
   </body>
 </html>

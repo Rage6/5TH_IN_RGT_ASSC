@@ -1,0 +1,248 @@
+p {
+  margin: 0;
+}
+
+.mainBody {
+  padding-top: 10vh;
+}
+
+.mainBody div {
+
+}
+
+.timelineBox {
+  position: sticky;
+  top: 10vh;
+  overflow-x: scroll;
+}
+
+.timelineBar {
+  display: flex;
+  width: 1800px;
+  height: 7vh;
+}
+
+.timelineBar div {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
+  background:
+    linear-gradient(90deg, black, transparent 5%, transparent 95%, black),
+    linear-gradient(0deg, black, transparent 13%, transparent 87%, black),
+    grey;
+  width: 150px;
+  cursor: pointer;
+}
+
+.timelineBar div div {
+  text-align: center;
+  background: transparent;
+  justify-content: center;
+}
+
+.timeSegment {
+  margin: 50px 2% 0 2%;
+  border: 1px solid black;
+  padding: 15px 3%;
+}
+
+.warOf1812Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/lundy_lane_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.mexicanWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7)),
+    url('../../../images/history/mexican_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.civilWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/civil_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.indianWarSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7)),
+    url('../../../images/history/bear_paw_map.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.occupationSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.6),
+      rgba(255,255,255,0.6)),
+    url('../../../images/history/philippine_islands_1909.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.ww1Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/panama_canal_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.ww2Segment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/71st_IN_DIV_map.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.koreanSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/korean_war_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.preVietnamSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/1950_USHighways_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.vietnameSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/ben_cui_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.southKoreaSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/south_korea_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.gwotSegment {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.8)),
+    url('../../../images/history/GWOT_2014_map.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.firstTimeSegment {
+  margin-top: 0;
+}
+
+.allSegments {
+  padding: 10px 0;
+}
+
+.segmentTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Vollkorn SC', sans-serif;
+  font-size: 2rem;
+}
+
+.segmentImg {
+  background-size: cover;
+  background-position: center;
+}
+
+.imgBig {
+  height: 40vh;
+  width: 100%;
+}
+
+.imgSmall {
+  height: 25vh;
+  width: 100%;
+}
+
+.imgExtraSmall {
+  height: 15vh;
+  width: 100%;
+}
+
+.imgLeft {
+  margin: 0 5% 20px 0;
+  float: left;
+}
+
+.imgRight {
+  margin: 0 0 20px 5%;
+  float: right;
+}
+
+.segmentWords {
+  text-align: justify;
+}
+
+.segmentWords p {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+}
+
+.segmentWords p:last-child {
+  margin-bottom: 0px;
+}
+
+.author {
+  margin: 50px 0;
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+  text-align: center;
+}

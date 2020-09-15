@@ -62,14 +62,37 @@ p {
 }
 
 .segmentImg {
-  height: 31vh;
+  /* height: 31vh; */
   background-size: cover;
   background-position: center;
-  background-image: url('../../../images/history/BattleofLundysLane.jpg');
+}
+
+.imgBig {
+  height: 40vh;
+  width: 40%;
+}
+
+.imgSmall {
+  height: 25vh;
+  width: 40%;
 }
 
 .segmentWords {
   text-align: justify;
+}
+
+.segmentWords p {
+  margin-bottom: 20px;
+}
+
+.segmentWords p:last-child {
+  margin-bottom: 0px;
+}
+
+.author {
+  margin: 50px 0;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .footer {

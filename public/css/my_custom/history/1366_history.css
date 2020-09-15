@@ -31,10 +31,21 @@
   width: 80%;
 }
 
-.segmentImg {
+.timeSegment {
+  font-size: 1.4rem;
+}
+
+.segmentTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Vollkorn SC', sans-serif;
+  font-size: 3.5rem;
+}
+
+/* .segmentImg {
   height: 25vh;
   width: 40%;
-}
+} */
 
 .imgLeft {
   margin: 0 5% 20px 0;

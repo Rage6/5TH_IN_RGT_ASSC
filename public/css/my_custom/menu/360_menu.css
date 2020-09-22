@@ -3,6 +3,16 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      grey,
+      white 100px,
+      grey 130px,
+      white 180px,
+      grey 300px,
+      white 410px,
+      grey 550px);
 }
 
 a {

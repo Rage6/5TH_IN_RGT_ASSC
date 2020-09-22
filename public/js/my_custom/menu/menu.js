@@ -6,10 +6,11 @@ $(document).ready(() => {
   // console.log(window);
 
   $('#mainMenuTopBttn').click(()=>{
-    console.log(window.outerWidth);
-    console.log($('.mainMenuBox').css('left'));
+    // console.log(window.outerWidth);
+    // console.log($('.mainMenuBox').css('left'));
     // console.log(window.screen.width);
     // console.log(window.devicePixelRatio);
+    // console.log(window);
 
     let windowWidth = window.outerWidth + "px";
     let topBttnHeight = $('.mainMenuTopBttn').outerHeight(true);
@@ -19,27 +20,30 @@ $(document).ready(() => {
         $(".mainMenuBox").css('display','block');
         $('.mainMenuBox').css('left',windowWidth);
       };
-      if ($('.mainMenuBox').css('left') != windowWidth && $('.mainMenuBox').css('left') / pixelRatio != windowWidth) {
+      let isHidden = true;
+      if ($('.mainMenuBox').css('left') == "0px") {
+        isHidden = false;
+      };
+      if (isHidden == false) {
         if (window.outerWidth <= 768) {
-          $('.mainMenuBox').css('animation-name','scrollMenuAllLeft').css('top',topBttnHeight);
+          $('.mainMenuBox').css('animation-name','scrollMenuAllHide').css('top',topBttnHeight);
         } else if (window.outerWidth > 768 && window.outerWidth <= 1366) {
-          $('.mainMenuBox').css('animation-name','scrollMenuHalfLeft').css('top',topBttnHeight);
-        } else if (window.outerWidth > 1366 && window.outerWidth <= 1920) {
-          $('.mainMenuBox').css('animation-name','scrollMenuThirdLeft').css('top',topBttnHeight);
+          $('.mainMenuBox').css('animation-name','scrollMenuHalfHide').css('top',topBttnHeight);
+        } else {
+          $('.mainMenuBox').css('animation-name','scrollMenuThirdHide').css('top',topBttnHeight);
         };
-        $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,0.8),rgba(0,100,0,0.8) 85%,rgba(0,0,0,0.8))');
+        $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,0.8),rgba(0,100,0,0.8) 85%,rgba(0,0,0,1))');
       } else {
         if (window.outerWidth <= 768) {
-          $('.mainMenuBox').css('animation-name','scrollMenuAllRight').css('top',topBttnHeight);
+          $('.mainMenuBox').css('animation-name','scrollMenuAllShow').css('top',topBttnHeight);
         } else if (window.outerWidth > 768 && window.outerWidth <= 1366) {
-          $('.mainMenuBox').css('animation-name','scrollMenuHalfRight').css('top',topBttnHeight);
-        } else {
-          $('.mainMenuBox').css('animation-name','scrollMenuThirdRight').css('top',topBttnHeight);
+          $('.mainMenuBox').css('animation-name','scrollMenuHalfShow').css('top',topBttnHeight);
+        } else if (window.outerWidth > 1366 && window.outerWidth <= 1920) {
+          $('.mainMenuBox').css('animation-name','scrollMenuThirdShow').css('top',topBttnHeight);
         };
         $('.mainMenuTopBttn').css('background','linear-gradient(rgba(0,100,0,1),rgba(0,100,0,1) 85%,rgba(0,0,0,1))');
       };
     } else {
-      // console.log($('.mainMenuTopBttn').css('left'));
       let newLeft = (window.outerWidth / 2) + 320;
       let newTop = $('.mainMenuTopBttn').outerHeight(true);
       $('.mainMenuBox').css('animation-name','');

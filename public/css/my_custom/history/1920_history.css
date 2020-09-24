@@ -20,7 +20,7 @@
 
 .timelineBar div {
   padding: 0 5%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 90%;
   height: 9%;
 }
@@ -37,6 +37,15 @@
 
 .segmentTitle {
   font-size: 3.5rem;
+}
+
+.segmentLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkBox {
+  width: 40%;
 }
 
 .imgBig {

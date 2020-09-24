@@ -8,6 +8,15 @@
   width: 180px;
 }
 
+.segmentLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkBox {
+  width: 48%;
+}
+
 .segmentImg {
   height: 25vh;
   width: 40%;

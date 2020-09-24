@@ -86,6 +86,27 @@
               On July 25, 1814, at the Battle of Lundy’s Lane, Colonel James Miller, commander of the 21st Infantry Regiment, was tasked with the near-suicidal mission of assaulting a British battery of seven cannons which were dominating the battlefield.  In response to his orders, Miller replied, “I’ll try, sir!” When they reached the top of the hill, the Americans delivered a volley that swept away every member of the gun crews and then held the hill against four vicious counterattacks by the British.  The Battle of Lundy’s Lane was the first major American victory against British regulars in that war. Three years later, the men and honors of the 21st Infantry were absorbed by the 5th Infantry, James Miller assumed command of the regiment, and his response of “I’ll try, sir” became the regimental motto.
             </p>
           </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle learnMore">LEARN MORE</div>
+              <ul class="linkContent">
+                <a href="http://bobcat.ws/lundys-lane-history.html">
+                  <li>The Battle of Lundy's Lane</li>
+                </a>
+                <a href="http://bobcat.ws/lundys-lane-july-25-1814---2014.html">
+                  <li>200 Year Celebration at Lundy's Lane</li>
+                </a>
+              </ul>
+            </div>
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+                <a href="https://en.wikipedia.org/wiki/James_Miller_(general)">
+                  <li>Colonel James Miller</li>
+                </a>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="timeSegment mexicanWarSegment" data-section="mexicanWar">
@@ -119,6 +140,16 @@
               In February, 1862, a column of Texas volunteers commanded by General Henry Sibley, invaded New Mexico.  Sibley’s plan was to capture California and divert its gold to the Confederate treasury.  The 5th Infantry and other units from the Department of New Mexico clashed with Sibley’s column at Valverde, Glorieta Pass and Peralta.  Defeated, the Texans withdrew to San Antonio.  The 5th Infantry remained quietly on the frontier, its boredom broken periodically by expeditions against bands of marauding Navajo Indians.
             </p>
           </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+                <a href="https://en.wikipedia.org/wiki/New_Mexico_Campaign">
+                  <li>New Mexico Campaign</li>
+                </a>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="timeSegment indianWarSegment" data-section="indianWars">
@@ -139,6 +170,25 @@
             <p>
               In September 1877, Chief Joseph and his Nez Perce people from the Pacific Northwest tried to escape to Canada to avoid being deported to Oklahoma.  The 5th Infantry caught up with the Nez Perce about thirty miles south of the Canadian border in the Bear Paw Mountains.  After a very bloody battle, Chief Joseph surrendered to Colonel Miles.  When Chief Sitting Bull surrendered at Fort Buford in 1881, hostilities virtually ceased in Montana. The 5th Infantry remained at Fort Keogh until it was transferred to the Texas border in May, 1888.
             </p>
+          </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+                <a href="http://www.pbs.org/weta/thewest/people/a_c/chiefjoseph.htm">
+                  <li>Chief Joseph</li>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Battle_of_Bear_Paw">
+                  <li>Battle of Bear Paw Mountain</li>
+                </a>
+                <a href="http://www.pbs.org/weta/thewest/people/a_c/crazyhorse.htm">
+                  <li>Chief Crazy Horse</li>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek_(1876)">
+                  <li>Battle of Cedar Creek</li>
+                </a>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -191,6 +241,45 @@
             <p>
               Following the German surrender, the 5th Infantry was shifted to Augsberg, Germany and became part of the Army of Occupation.  The regiment was de-activated on November 16, 1946.  Depending upon their rotation point totals, the men were either transferred to the 16th Infantry or shipped home to Fort Dix for discharge.
             </p>
+          </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle learnMore">LEARN MORE</div>
+              <ul class="linkContent">
+                <a href="">
+                  <li>Photo Album</li>
+                </a>
+                <a href="http://bobcat.ws/ww2history.htm">
+                  <li>History of Company C</li>
+                </a>
+                <a href="http://bobcat.ws/recollections-by-ponder.html">
+                  <li>Recollections by Lew Ponder</li>
+                </a>
+                <a href="http://bobcat.ws/5th-infantry-chorus.html">
+                  <li>5th Infantry Soldier Chorus</li>
+                </a>
+                <a href="http://bobcat.ws/The%20Soldier%20Chorus.PDF">
+                  <li>"The Soldier Chorus" by Robert Peck</li>
+                </a>
+              </ul>
+            </div>
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+                <a href="https://www.worldcat.org/title/riding-point-for-patton-the-fifth-infantry-regiment-in-world-war-ii/oclc/16635072">
+                  <li>BOOK: "Riding Point For Patton" by Gerald McMahon</li>
+                </a>
+                <a href="https://www.worldcat.org/title/my-brother-hail-and-farewell/oclc/260222720&referer=brief_results">
+                  <li>BOOK: "My Brother, Hail And Fairwell" by Edward Zebrowski</li>
+                </a>
+                <a href="http://lylestorey.tripod.com/index.html">
+                  <li>71st Infantry Division</li>
+                </a>
+                <a href="https://remember.org/full_version.html">
+                  <li>"The 71st Came to Gunskirchen Lager"</li>
+                </a>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

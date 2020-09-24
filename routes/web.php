@@ -23,5 +23,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('history')->group(function() {
-  Route::get('origin','HistoryController@index');
+  Route::get('timeline','HistoryController@index');
+  Route::get('album','AlbumController@index');
 });

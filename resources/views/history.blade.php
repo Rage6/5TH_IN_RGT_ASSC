@@ -246,7 +246,7 @@
             <div class="linkBox">
               <div class="linkTitle learnMore">LEARN MORE</div>
               <ul class="linkContent">
-                <a href="">
+                <a href="{{ url('/history/album') }}">
                   <li>Photo Album</li>
                 </a>
                 <a href="http://bobcat.ws/ww2history.htm">

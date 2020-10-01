@@ -35,7 +35,7 @@
         <!-- <a href="/history/origin"> -->
           <div class="mainMenuSubBttn">+ Origin & Traditions</div>
         <!-- </a> -->
-        <a href="/history/origin">
+        <a href="{{ url('/history/timeline') }}">
           <div class="mainMenuSubBttn">+ History Timeline</div>
         </a>
         <!-- <div class="mainMenuSubBttn">+ War of 1812</div>

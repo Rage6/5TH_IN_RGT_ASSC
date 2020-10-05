@@ -26,7 +26,7 @@
       <div>PHOTO ALBUM</div>
     </div>
     <div class="allImgBox">
-      <div class="oneImgBox">
+      <div class="oneImgBox oddBox">
         <div class="oneImg">
           <img src="../../../images/history/albums/ww2/COL_Wooten.jpg" />
         </div>
@@ -37,7 +37,7 @@
           Courtesy of Robert J. Lapine
         </div>
       </div>
-      <div class="oneImgBox">
+      <div class="oneImgBox evenBox">
         <div class="oneImg">
           <img src="../../../images/history/albums/ww2/Company_A.jpg" />
         </div>
@@ -48,7 +48,7 @@
           Courtesy of Glen Cuneo
         </div>
       </div>
-      <div class="oneImgBox">
+      <div class="oneImgBox oddBox">
         <div class="oneImg">
           <img src="../../../images/history/albums/ww2/Company_C_left.jpg" />
         </div>
@@ -60,7 +60,7 @@
             Each name is numbered by its row (front to back) and location within that row (left to right). Not all soldiers could be identified in this photo.
           </div>
           <div>
-            <div> (1/)</div>
+            <div>Jerry R. Moore (1/1)</div>
             <div>George J. Wilkens (1/3)</div>
             <div>Kenneth A. Young (1/4)</div>
             <div>Everett D. Fish (1/7)</div>
@@ -90,7 +90,7 @@
           Courtesy of Kenneth A. Young
         </div>
       </div>
-      <div class="oneImgBox">
+      <div class="oneImgBox evenBox">
         <div class="oneImg">
           <img src="../../../images/history/albums/ww2/Company_C_middle.jpg" />
         </div>
@@ -129,7 +129,7 @@
           Courtesy of Kenneth A. Young
         </div>
       </div>
-      <div class="oneImgBox">
+      <div class="oneImgBox oddBox">
         <div class="oneImg">
           <img src="../../../images/history/albums/ww2/Company_C_right.jpg" />
         </div>
@@ -152,6 +152,72 @@
           Courtesy of Kenneth A. Young
         </div>
       </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/Company_D.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            "Photo of Co D 5th Inf . I got this yesterday from Stan Isaacson (LTC, USAR, Ret'd). He and his brother Robert are in the third row from the top, fifth and fourth from the right. The photo was probably taken in September or October 1944. The men are still wearing leggins. We didn't get combat boots until November or December, 1944."
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Robert J. Lapine
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/eaglenest1.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            Ken Young at Hitler's Eagles Nest
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Ken Young
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/eaglenest2.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            SS Barracks part way down the mountain from the Eagles Nest
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Ken Young
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/eaglenest3.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            SS Barracks part way down the mountain from the Eagles Nest
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Ken Young
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/Kyoung5.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            (Left to Right) Sgt. Dale Barnstable [Squad Leader], S/SGT Kenneth Young [Section Leader], T/Sgt Everett Fish [Platoon Leader of the 60MM Mortor Section]
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Ken Young
+        </div>
+      </div>
+
     </div>
   </div>
   @include ('footer.content')

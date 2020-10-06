@@ -217,6 +217,57 @@
           Courtesy of Ken Young
         </div>
       </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            Col. Sidney C. Wooten, Regimental Commander
+          </div>
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            Col. Charles Martin Gettys, 2nd Battalion Commander
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of "History of the 71st Infantry"
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <img src="../../../images/history/albums/ww2/MAJ_James_Haley.jpg" />
+        </div>
+        <div class="oneCaption">
+          <div>
+            Maj. James W. Haley, 3rd Battalion Commander
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of "History of the 71st Infantry"
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/ww2/area_of_operations.jpg">
+            <img src="../../../images/history/albums/ww2/area_of_operations.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Area Of Operations - The 5th Infantry Across Europe
+          </div>
+        </div>
+        <div class="photographer">
+          By Col. Sidney C. Wooten
+        </div>
+      </div>
 
     </div>
   </div>

@@ -18,7 +18,23 @@
   padding: 30px 0;
   font-size: 2rem;
   text-align: center;
-  background: linear-gradient(0deg, transparent, white 15%, white 85%, transparent);
+  background:
+    linear-gradient(0deg, rgba(0,100,0,1), rgba(0,100,0,1) 5%, rgba(0,100,0,1) 10%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0.5) 80%, darkred 90%, darkred 95%, darkred),
+    url('/images/history/albums/ww2/Company_D.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.mainTitle div:first-child {
+  font-family: 'Vollkorn SC', sans-serif;
+}
+
+.mainTitle div:last-child {
+  margin: 0 10%;
+  border-top: 4px solid black;
+  padding: 25px 0 0 0;
+  font-size: 2.7rem;
+  font-family: 'Special Elite', cursive;
 }
 
 .allImgBox {
@@ -28,8 +44,10 @@
 .oneImgBox {
   margin-left: 5%;
   margin-bottom: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
   padding: 20px 0;
-  background-color: lightblue;
+  background-color: white;
   width: 90%;
 }
 
@@ -47,7 +65,7 @@
 
 .oneImg img {
   margin-left: 5%;
-  max-width: 90%;
+  width: 90%;
 }
 
 .oneCaption {
@@ -55,10 +73,13 @@
   border: 1px solid black;
   padding: 5px 1%;
   overflow-y: scroll;
-  max-height: 60px;
+  font-family: 'Bellefair', serif;
+  background-color: lightgrey;
+  height: 60px;
 }
 
 .photographer {
   margin: 0 5%;
   text-align: center;
+  font-family: 'Bellefair', serif;
 }

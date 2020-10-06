@@ -11,3 +11,13 @@
       white 410px,
       grey 550px);
 }
+
+.allImgBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.oneImgBox {
+  width: 27%;
+}

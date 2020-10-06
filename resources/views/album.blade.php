@@ -28,7 +28,9 @@
     <div class="allImgBox">
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/COL_Wooten.jpg" />
+          <a href="../../../images/history/albums/ww2/COL_Wooten.jpg">
+            <img src="../../../images/history/albums/ww2/COL_Wooten.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           Col Wooten (71st patch) talking with some Russian tank soldiers. This must have been taken somewhere at the Enns River in or near Steyr, Austria, May 7 or later, 1945.
@@ -39,7 +41,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Company_A.jpg" />
+          <a href="../../../images/history/albums/ww2/Company_A.jpg">
+            <img src="../../../images/history/albums/ww2/Company_A.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           Sgt. Milburn Rogers, Company A, 5th Infantry, gets the first Bronze Star awarded to a member of the Division after it went into action.
@@ -50,7 +54,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Company_C_left.jpg" />
+          <a href="../../../images/history/albums/ww2/Company_C_left.jpg">
+            <img src="../../../images/history/albums/ww2/Company_C_left.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -92,7 +98,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Company_C_middle.jpg" />
+          <a href="../../../images/history/albums/ww2/Company_C_middle.jpg">
+            <img src="../../../images/history/albums/ww2/Company_C_middle.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -131,7 +139,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Company_C_right.jpg" />
+          <a href="../../../images/history/albums/ww2/Company_C_right.jpg">
+            <img src="../../../images/history/albums/ww2/Company_C_right.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -154,7 +164,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Company_D.jpg" />
+          <a href="../../../images/history/albums/ww2/Company_D.jpg">
+            <img src="../../../images/history/albums/ww2/Company_D.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -167,7 +179,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/eaglenest1.jpg" />
+          <a href="../../../images/history/albums/ww2/eaglenest1.jpg">
+            <img src="../../../images/history/albums/ww2/eaglenest1.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -180,7 +194,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/eaglenest2.jpg" />
+          <a href="../../../images/history/albums/ww2/eaglenest2.jpg">
+            <img src="../../../images/history/albums/ww2/eaglenest2.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -193,7 +209,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/eaglenest3.jpg" />
+          <a href="../../../images/history/albums/ww2/eaglenest3.jpg">
+            <img src="../../../images/history/albums/ww2/eaglenest3.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -206,7 +224,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/Kyoung5.jpg" />
+          <a href="../../../images/history/albums/ww2/Kyoung5.jpg">
+            <img src="../../../images/history/albums/ww2/Kyoung5.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -219,7 +239,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg" />
+          <a href="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg">
+            <img src="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -229,7 +251,9 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg" />
+          <a href="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg">
+            <img src="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>
@@ -242,7 +266,9 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <img src="../../../images/history/albums/ww2/MAJ_James_Haley.jpg" />
+          <a href="../../../images/history/albums/ww2/MAJ_James_Haley.jpg">
+            <img src="../../../images/history/albums/ww2/MAJ_James_Haley.jpg" />
+          </a>
         </div>
         <div class="oneCaption">
           <div>

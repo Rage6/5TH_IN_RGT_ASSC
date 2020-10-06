@@ -66,6 +66,7 @@
 .oneImg img {
   margin-left: 5%;
   width: 90%;
+  cursor: pointer;
 }
 
 .oneCaption {

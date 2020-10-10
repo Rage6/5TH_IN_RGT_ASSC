@@ -325,6 +325,22 @@
               The 5th Infantry Regiment returned to eastern Korea and went into position on the left flank of the 45th Division on a ridgeline east of the Puk-han Valley.  The combat team was there when the armistice went into effect at 2030 hours on 27 July 1953.  The 5th Infantry and the 555th FAB pulled back to Chipo-ri, leaving the 72nd Combat Engineers behind to destroy the bunkers.
             </p>
           </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle learnMore">LEARN MORE</div>
+              <ul class="linkContent">
+                <a href="{{ url('/history/album/korea') }}">
+                  <li>Photo Album</li>
+                </a>
+              </ul>
+            </div>
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="timeSegment preVietnamSegment" data-section="1954to1966">
@@ -347,6 +363,7 @@
               At the time of re-organization, the battalion received sixty-eight M-113 armored personnel carriers from the motor pool.  The new mechanized battalion was comprised of three rifle companies and a headquarters company that included a headquarters contingent plus reconnaissance and medical platoons.
             </p>
           </div>
+
         </div>
       </div>
       <div class="timeSegment vietnameSegment" data-section="vietnamWar">

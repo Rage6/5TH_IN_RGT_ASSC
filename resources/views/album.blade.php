@@ -302,8 +302,118 @@
 
 @section('korea_content')
   <div class="mainBody">
-    <div>Korean War</div>
-    <div>PHOTO ALBUM</div>
+    <div class="mainTitle">
+      <div>World War II</div>
+      <div>PHOTO ALBUM</div>
+    </div>
+    <div class="allImgBox">
+
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/6771449_orig.jpg">
+            <img src="../../../images/history/albums/korea/6771449_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Front Rifle Platoon of 5th RCT, 24th Infantry Division on the Korean Front
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/3950178_orig.jpg">
+            <img src="../../../images/history/albums/korea/3950178_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Men of the 5th RCT fire a .30 caliber machine gun at the Communist-led North Koreans across the Naktong River, north of Taegu. 18 September 1950. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #8A/FEC-50-8561 (Turnbull)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/1990165.jpg">
+            <img src="../../../images/history/albums/korea/1990165.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Sgt. Herbert Ohio of Hilo, T.H., views the battered remains of the Communist defenders of Hill 268, which was taken by men of the 5th RCT, in their advance on Waegwan Korea. 21 September 1950. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #FEC-50-9327 (Chang)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/2973783.jpg">
+            <img src="../../../images/history/albums/korea/2973783.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            A gun crew firing an eight-inch self propelled howitzer at Communist hill positions after receiving a fire mission from Co. A, 1st Battalion, 5th Infantry Regiment, U.S. Eighth Army, west of Punchbowl. 13 August 1952. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #1-4237-16/FEC-52-24778 (Kelemanik)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/4422871_orig.jpg">
+            <img src="../../../images/history/albums/korea/4422871_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            A .30 caliber light machine gun crew of the 5th RCT, fires on Communist-led North Koreans, as they push toward Taejon, Korea. 22 September 1950. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #8A/FEC-50-9438 (Chang)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/7108622_orig.jpg">
+            <img src="../../../images/history/albums/korea/7108622_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Wounded soldiers are evacuated (foreground) as M-4 tanks of the 5th RCT move to the front in the Kumchun area in Korea. 6 October 1950. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #FEC-50-20137 (Chang)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/9323161.jpg">
+            <img src="../../../images/history/albums/korea/9323161.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Members of the 81-mm Mortar Platoon, Co. D, 2nd Battalion, 5th Infantry Regiment, U.S. Eighth Army, blast Communist positions in Punchbowl, Korea. 12 August 1952. Korea.
+          </div>
+        </div>
+        <div class="photographer">
+          Signal Corps Photo #1-4237-2/FEC-52-24764 (Kelemanik)
+        </div>
+      </div>
+
+    </div>
   </div>
   @include ('footer.content')
 @stop

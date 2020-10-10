@@ -1,16 +1,7 @@
 $(document).ready(() => {
   // console.log("Testing");
-  // console.log("screen width: " + window.screen.width);
-  // console.log("screen height: " + window.screen.height);
-  // console.log("device pixel ration: " + window.devicePixelRatio);
-  // console.log(window);
 
   $('#mainMenuTopBttn').click(()=>{
-    // console.log(window.outerWidth);
-    // console.log($('.mainMenuBox').css('left'));
-    // console.log(window.screen.width);
-    // console.log(window.devicePixelRatio);
-    // console.log(window);
 
     let windowWidth = window.outerWidth + "px";
     let topBttnHeight = $('.mainMenuTopBttn').outerHeight(true);

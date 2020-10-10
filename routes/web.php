@@ -23,5 +23,12 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('history')->group(function() {
-  Route::get('origin','HistoryController@index');
+  Route::get('timeline','HistoryController@index');
+  // Route::get('album','AlbumController@index');
+  Route::prefix('album')->group(function() {
+    Route::get('ww2','AlbumController@ww2');
+    Route::get('korea','AlbumController@korea');
+    Route::get('vietnam','AlbumController@vietnam');
+    Route::get('gwot','AlbumController@gwot');
+  });
 });

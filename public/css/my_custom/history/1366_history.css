@@ -39,6 +39,15 @@
   font-size: 3.5rem;
 }
 
+.segmentLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkBox {
+  width: 48%;
+}
+
 .imgBig {
   height: 40vh;
   width: 40%;

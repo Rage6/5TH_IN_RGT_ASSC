@@ -400,6 +400,22 @@
             </p>
           </div>
         </div>
+        <div class="segmentLinks">
+          <div class="linkBox">
+            <div class="linkTitle learnMore">LEARN MORE</div>
+            <ul class="linkContent">
+              <a href="{{ url('/history/album/korea') }}">
+                <li>Photo Album</li>
+              </a>
+            </ul>
+          </div>
+          <div class="linkBox">
+            <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+            <ul class="linkContent">
+
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="timeSegment southKoreaSegment" data-section="1975to2001">
         <div class="segmentTitle"><u>1975 to 2001</u></div>

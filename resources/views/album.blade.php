@@ -303,11 +303,10 @@
 @section('korea_content')
   <div class="mainBody">
     <div class="mainTitle">
-      <div>World War II</div>
+      <div>Korean War</div>
       <div>PHOTO ALBUM</div>
     </div>
     <div class="allImgBox">
-
       <div class="oneImgBox evenBox">
         <div class="oneImg">
           <a href="../../../images/history/albums/korea/6771449_orig.jpg">
@@ -412,7 +411,6 @@
           Signal Corps Photo #1-4237-2/FEC-52-24764 (Kelemanik)
         </div>
       </div>
-
     </div>
   </div>
   @include ('footer.content')

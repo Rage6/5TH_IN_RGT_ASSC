@@ -20,11 +20,18 @@ Route::get('/', 'WelcomeController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::prefix('/home')->group(function() {
+  Route::get('', 'HomeController@index')->name('home');
+  Route::get('edit', 'EditController@index')->name('edit');
+  Route::prefix('/edit')->group(function() {
+    Route::post('basics','EditController@updateBasicInfo');
+    // Route::post('email','EditController@email');
+    // Route::post('password','EditController@password');
+  });
+});
 
 Route::prefix('history')->group(function() {
   Route::get('timeline','HistoryController@index');
-  // Route::get('album','AlbumController@index');
   Route::prefix('album')->group(function() {
     Route::get('ww2','AlbumController@ww2');
     Route::get('korea','AlbumController@korea');
@@ -32,3 +39,7 @@ Route::prefix('history')->group(function() {
     Route::get('gwot','AlbumController@gwot');
   });
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

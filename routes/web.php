@@ -18,10 +18,10 @@ use Illuminate\Http\Request;
 
 Route::get('/', 'WelcomeController@index');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::prefix('/home')->group(function() {
-  Route::get('', 'HomeController@index')->name('home');
+  Route::get('', 'HomeController@index')->name('home')->middleware('verified');
   Route::get('edit', 'EditController@index')->name('edit');
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
@@ -40,6 +40,6 @@ Route::prefix('history')->group(function() {
   });
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+// Auth::routes();
+//
+// Route::get('/home', 'HomeController@index')->name('home');

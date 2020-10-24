@@ -19,15 +19,15 @@
                       @csrf
                       <div class="form-group">
                         <label for="firstName">First Name</label>
-                        <input name="first_name" id="firstName" placeholder="First Name" value="{{ $this_user->first_name }}" />
+                        <input name="first_name" id="firstName" placeholder="First Name" value="{{ $this_user->first_name }}" required />
                       </div>
                       <div class="form-group">
                         <label for="lastName">Last Name</label>
-                        <input name="last_name" id="lastName" placeholder="Last Name" value="{{ $this_user->last_name }}" />
+                        <input name="last_name" id="lastName" placeholder="Last Name" value="{{ $this_user->last_name }}" required />
                       </div>
                       <div class="form-group">
                         <label for="email">Email</label>
-                        <input name="email" id="email" placeholder="Last Name" value="{{ $this_user->email }}" />
+                        <input type="email" name="email" id="email" placeholder="Email" value="{{ $this_user->email }}" required/>
                       </div>
                       <div class="form-group">
                         <label for="biography">Personal History</label>

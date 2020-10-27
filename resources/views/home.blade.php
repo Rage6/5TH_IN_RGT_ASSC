@@ -7,6 +7,7 @@
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
                 <?php
+                  // This was to test the email system
                   // use App\Mail\TestEmail;
                   // $data = ['message' => 'This is a test!'];
                   // Mail::to('nvogt10@gmail.com')->send(new TestEmail($data));

@@ -29,6 +29,9 @@
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email" value="{{ $this_user->email }}" required/>
                       </div>
+                      <button class="btn">
+                        <a href="{{ route('profile') }}">{{ __('CHANGES PROFILE PHOTO') }}</a>
+                      </button>
                       <div class="form-group">
                         <label for="biography">Personal History</label>
                         <textarea class="form-control" id="biography" name="biography" maxlength="255" placeholder="Provide a brief summary of yourself and your time in the 5th">{{ $this_user->biography }}</textarea>

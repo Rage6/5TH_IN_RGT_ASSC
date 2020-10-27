@@ -18,8 +18,16 @@ class User extends Authenticatable
      */
     protected $fillable = [
         // 'name', 'email', 'password',
-        'first_name', 'last_name', 'email', 'password',
+        'first_name', 'last_name', 'email', 'password','biography','current_img','veteran_img'
     ];
+
+    public function getCurrentImageAttribute() {
+      return $this->current_img;
+    }
+
+    public function getVeteranImageAttribute() {
+      return $this->veteran_img;
+    }
 
     /**
      * The attributes that should be hidden for arrays.

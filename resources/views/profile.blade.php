@@ -29,12 +29,17 @@
                                             </ul>
                                         </div>
                                     @endif
+
                                     <form action="{{ route('profile.update_current') }}" method="POST" role="form" enctype="multipart/form-data">
                                         @csrf
                                         <input type="hidden" name="version" value="current">
                                         <div class="form-group row">
                                             <label for="current_img" class="col-md-4 col-form-label text-md-right">Current Image</label>
-                                            <img class="img-thumbnail" src="{{ auth()->user()->current_img }}">
+                                            @if (auth()->user()->current_img)
+                                              <img class="img-thumbnail" src="{{ auth()->user()->current_img }}">
+                                            @else
+                                              <img class="img-thumbnail" src="/uploads/images/profile-default.jpg">
+                                            @endif
                                             <div class="col-md-6">
                                                 <input id="current_img" type="file" class="form-control" name="select_img">
                                             </div>
@@ -45,12 +50,17 @@
                                             </div>
                                         </div>
                                     </form>
+
                                     <form action="{{ route('profile.update_veteran') }}" method="POST" role="form" enctype="multipart/form-data">
                                         @csrf
                                         <input type="hidden" name="version" value="veteran">
                                         <div class="form-group row">
                                             <label for="veteran_img" class="col-md-4 col-form-label text-md-right">Veteran Image</label>
-                                            <img class="img-thumbnail" src="{{ auth()->user()->veteran_img }}">
+                                            @if (auth()->user()->veteran_img)
+                                              <img class="img-thumbnail" src="{{ auth()->user()->veteran_img }}">
+                                            @else
+                                              <img class="img-thumbnail" src="/uploads/images/profile-default.jpg">
+                                            @endif
                                             <div class="col-md-6">
                                                 <input id="veteran_img" type="file" class="form-control" name="select_img">
                                             </div>
@@ -61,6 +71,11 @@
                                             </div>
                                         </div>
                                     </form>
+                                    <div class='btn'>
+                                      <a href="{{ route('edit') }}">
+                                        {{ __('BACK') }}
+                                      </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

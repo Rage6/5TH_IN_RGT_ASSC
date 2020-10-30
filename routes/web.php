@@ -22,11 +22,17 @@ Auth::routes(['verify' => true]);
 
 Route::prefix('/home')->group(function() {
   Route::get('', 'HomeController@index')->name('home')->middleware('verified');
+  Route::get('view/{id}', 'ViewController@index')->name('view');
+  Route::get('message/{id}', 'MessageController@index')->name('message');
+  Route::post('message/{id}', 'MessageController@post');
   Route::get('edit', 'EditController@index')->name('edit');
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
-    // Route::post('email','EditController@email');
-    // Route::post('password','EditController@password');
+    Route::get('profile','ProfileController@index')->name('profile');
+    Route::prefix('/profile')->group(function() {
+      Route::post('update_current','ProfileController@updateProfile')->name('profile.update_current');
+      Route::post('update_veteran','ProfileController@updateProfile')->name('profile.update_veteran');
+    });
   });
 });
 
@@ -39,7 +45,3 @@ Route::prefix('history')->group(function() {
     Route::get('gwot','AlbumController@gwot');
   });
 });
-
-// Auth::routes();
-//
-// Route::get('/home', 'HomeController@index')->name('home');

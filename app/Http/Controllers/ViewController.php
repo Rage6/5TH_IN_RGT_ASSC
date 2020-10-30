@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
-class HomeController extends Controller
+class ViewController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,14 +23,14 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index($id)
     {
-        $this_user = Auth::user();
-        $this_id = $this_user->id;
-        $all_users = DB::table('users')
-          ->select('id','first_name','last_name')
-          ->where('id','!=',$this_id)
-          ->get();
-        return view('home',compact('this_user','all_users'));
+      $this_user = Auth::user();
+      $this_id = $this_user->id;
+      $view_user = DB::table('users')
+        ->select('id','first_name','last_name','current_img','veteran_img','biography')
+        ->where('id','=',$id)
+        ->first();
+      return view('view',compact('this_user','view_user'));
     }
 }

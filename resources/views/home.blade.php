@@ -42,7 +42,7 @@
                           FIND A FELLOW BOBCAT
                         </div>
                         <div class="card-subtitle">
-                          Searching for a specific Bobcat? Enter their first, last, or nickname, and then click 'SEARCH'. Once found,
+                          Searching for a specific Bobcat? Enter their first or last name, and then click 'SEARCH'. This will help you view their profile or send them a personal message.
                         </div>
                         <div class="card-body">
                           <input id="searchBox" class="col-lg-8" type="text" placeholder="First, last, or nickname." required/>
@@ -57,16 +57,16 @@
                                 {{ $one_user->first_name }} {{ $one_user->last_name }}
                               </div>
                               <div class="row">
-                                <form method="GET" name="seeBobcat">
-                                  <button class="btn rounded-circle border-success" name="view_id" value="{{ $one_user->id }}">
+                                <a href="home/view/{{ $one_user->id }}">
+                                  <button class="btn rounded-circle border-success">
                                     P
                                   </button>
-                                </form>
-                                <form method="GET" name="messageBobcat">
+                                </a>
+                                <a href="home/message/{{ $one_user->id }}">
                                   <button class="btn rounded-circle border-success" name="message_id" value="{{ $one_user->id }}">
                                     M
                                   </button>
-                                </form>
+                                </a>
                               </div>
                             </div>
                           @endforeach

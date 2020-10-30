@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                  {{ __('BOBCAT File') }}
+                  {{ __('BOBCAT Messaging') }}
                 </div>
                 <div class="card-body">
                     @if (session('status'))
@@ -16,39 +16,28 @@
                     @endif
 
                     @csrf
-                    <div class="form-group">
-                      {{ $view_user->first_name }} {{ $view_user->last_name }}
+                    <div class="card">
+                      <!-- <form method="POST" action="home/{{ $this_user->id }}"> -->
+                      <form method="POST">
+                        @csrf
+                        <div class="card-title">
+                          <u>TO:</u> <span>{{ $view_user->first_name }} {{ $view_user->last_name }}</span>
+                          <input type="hidden" name="receiver_id" value="{{ $view_user->id }}" readonly />
+                        </div>
+                        <div class="card-title">
+                          <u>FROM:</u> <span>{{ $this_user->first_name }} {{ $this_user->last_name }}</span>
+                        </div>
+                        <textarea name="content" class="card-text" style="height:200px;width:100%" placeholder="Insert your message here..." required ></textarea>
+                        <div class="form-group">
+                          <input class="btn-primary btn" type="submit" name="sendMessage" value="SEND"/>
+                          <button class="btn">
+                            <a href="{{ route('home') }}">
+                              {{ __('BACK') }}
+                            </a>
+                          </button>
+                        </div>
+                      </form>
                     </div>
-                    <div class="row">
-                      @if ($view_user->current_img)
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ $view_user->current_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
-                      @else
-                        <img class="img-thumbnail rounded float-right w-50" src="/uploads/images/profile-default.jpg"/>
-                      @endif
-                      @if ($view_user->veteran_img)
-                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ $view_user->veteran_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
-                      @else
-                        <img class="img-thumbnail rounded w-50" src="/uploads/images/profile-default.jpg"/>
-                      @endif
-                    </div>
-                    <div>
-                      <div class="card-subtitle">
-                        Personal History
-                      </div>
-                      <div class="card-text">
-                        @if ($view_user->biography)
-                          {{ $view_user->biography }}
-                        @else
-                          <i>{{ __('No biography at this time') }}</i>
-                        @endif
-                      </div>
-                    </div>
-                    <button class="btn">
-                      <a href="{{ route('home') }}">
-                        {{ __('BACK') }}
-                      </a>
-                    </button>
-
                 </div>
             </div>
         </div>

@@ -23,7 +23,8 @@ Auth::routes(['verify' => true]);
 Route::prefix('/home')->group(function() {
   Route::get('', 'HomeController@index')->name('home')->middleware('verified');
   Route::get('view/{id}', 'ViewController@index')->name('view');
-  Route::get('message/{id}', 'HomeController@index')->name('message');
+  Route::get('message/{id}', 'MessageController@index')->name('message');
+  Route::post('message/{id}', 'MessageController@post');
   Route::get('edit', 'EditController@index')->name('edit');
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');

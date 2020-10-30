@@ -8,9 +8,10 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
                 <?php
                   // This was to test the email system
-                  // use App\Mail\TestEmail;
-                  // $data = ['message' => 'This is a test!'];
-                  // Mail::to('nvogt10@gmail.com')->send(new TestEmail($data));
+                  // use App\Mail\PersonalEmail;
+                  // $data = ['content' => 'This is a test!'];
+                  // $data = "Took off the 'content' variable.";
+                  // Mail::to('nvogt10@gmail.com')->send(new PersonalEmail($data));
                 ?>
                 <div class="card-body">
                     @if (session('status'))
@@ -28,9 +29,6 @@
                         <h5 class="card-title">
                           {{ $this_user->first_name }} {{ $this_user->last_name }}
                         </h5>
-                        <!-- <textarea disabled class="col-md-8" style="height:100px">
-                          {{ $this_user->biography }}
-                        </textarea> -->
                         <div class="card-text">
                           {{ $this_user->biography }}
                         </div>
@@ -63,7 +61,7 @@
                                   </button>
                                 </a>
                                 <a href="home/message/{{ $one_user->id }}">
-                                  <button class="btn rounded-circle border-success" name="message_id" value="{{ $one_user->id }}">
+                                  <button class="btn rounded-circle border-success">
                                     M
                                   </button>
                                 </a>

@@ -42,6 +42,6 @@ class EditController extends Controller
       $this_user->biography = Request::input('biography');
       $this_user->save();
       // $request->session()->put('status','Update Successful');
-      return redirect('home/edit');
+      return redirect('home');
     }
 }

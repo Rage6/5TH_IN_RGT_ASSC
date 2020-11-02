@@ -42,7 +42,7 @@ class PersonalEmail extends Mailable
       // $name = 'Nicholas Vogt';
 
       return $this->view('emails.personal')
-                  ->subject("Message from ".$this->new_receiver_name)
+                  ->subject("Message from ".$this->new_sender_name)
                   ->with([ 'content' => $this->new_email, 'receiver' => $this->new_receiver_name, 'sender' => $this->new_sender_name ]);
     }
 }

@@ -36,7 +36,7 @@
                                         <div class="form-group row">
                                             <label for="current_img" class="col-md-4 col-form-label text-md-right">Current Image</label>
                                             @if (auth()->user()->current_img)
-                                              <img class="img-thumbnail" src="{{ auth()->user()->current_img }}">
+                                              <img class="img-thumbnail" src="{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>">
                                             @else
                                               <img class="img-thumbnail" src="/uploads/images/profile-default.jpg">
                                             @endif
@@ -57,7 +57,7 @@
                                         <div class="form-group row">
                                             <label for="veteran_img" class="col-md-4 col-form-label text-md-right">Veteran Image</label>
                                             @if (auth()->user()->veteran_img)
-                                              <img class="img-thumbnail" src="{{ auth()->user()->veteran_img }}">
+                                              <img class="img-thumbnail" src="{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>">
                                             @else
                                               <img class="img-thumbnail" src="/uploads/images/profile-default.jpg">
                                             @endif

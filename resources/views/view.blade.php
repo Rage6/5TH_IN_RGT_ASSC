@@ -21,13 +21,13 @@
                     </div>
                     <div class="row">
                       @if ($view_user->current_img)
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ $view_user->current_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ $view_user->current_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @else
                         <!-- <img class="img-thumbnail rounded float-right w-50" src="/uploads/images/profile-default.jpg"/> -->
                         <div class="img-thumbnail rounded float-left w-50" style="background-image: url('/uploads/images/profile-default.jpg'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @endif
                       @if ($view_user->veteran_img)
-                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ $view_user->veteran_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ $view_user->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @else
                         <!-- <img class="img-thumbnail rounded w-50" src="/uploads/images/profile-default.jpg"/> -->
                         <div class="img-thumbnail rounded float-right w-50" style="background-image: url('/uploads/images/profile-default.jpg'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>

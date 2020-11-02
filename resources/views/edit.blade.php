@@ -32,13 +32,13 @@
                       <div class="row">
                       @if (auth()->user()->current_img)
                         <!-- <img class="img-thumbnail rounded float-left w-50" src="{{ auth()->user()->current_img }}"> -->
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ auth()->user()->current_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @else
                         <img class="img-thumbnail rounded float-right w-50" src="/uploads/images/profile-default.jpg">
                       @endif
                       @if (auth()->user()->veteran_img)
                         <!-- <img class="img-thumbnail rounded w-50" src="{{ auth()->user()->veteran_img }}"> -->
-                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ auth()->user()->veteran_img }}'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @else
                         <img class="img-thumbnail rounded w-50" src="/uploads/images/profile-default.jpg">
                       @endif

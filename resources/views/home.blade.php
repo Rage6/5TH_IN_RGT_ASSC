@@ -21,7 +21,8 @@
                     @endif
                     <div class="card">
                       @if ($this_user->current_img)
-                        <img class="card-img-top" src='{{ $this_user->current_img }}?t=<?php echo(time()); ?>'/>
+                        <!-- <img class="card-img-top" src='{{ $this_user->current_img }}?t=<?php echo(time()); ?>'/> -->
+                        <img class="img-thumbnail" src="https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>">
                       @else
                         <img class="card-img-top" src="/uploads/images/profile-default.jpg">
                       @endif

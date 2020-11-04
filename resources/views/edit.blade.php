@@ -38,7 +38,8 @@
                       @endif
                       @if (auth()->user()->veteran_img)
                         <!-- <img class="img-thumbnail rounded w-50" src="{{ auth()->user()->veteran_img }}"> -->
-                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <!-- <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div> -->
+                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->last_name }}_{{ auth()->user()->id }}_veteran.jpg?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
                       @else
                         <img class="img-thumbnail rounded w-50" src="/uploads/images/profile-default.jpg">
                       @endif

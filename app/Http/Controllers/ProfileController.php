@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Traits\UploadTrait;
 
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
 
 class ProfileController extends Controller
 {
@@ -58,17 +59,30 @@ class ProfileController extends Controller
 
         // Check if a profile image has been uploaded
         if ($request->has('select_img')) {
+
             // Get image file
             $image = $request->file('select_img');
-            // Make a image name based on user name and current timestamp
-            // $name = Str::slug($request->input('last_name')).'_'.time();
+
+            // // For using in local host:
+            // // Make a image name based on user name and current timestamp
+            // $name = auth()->user()->last_name.'_'.auth()->user()->id.'_'.$version;
+            // // Define folder path
+            // $folder = '/uploads/images/';
+            // // Make a file path where image will be stored [ folder path + file name + file extension]
+            // $filePath = $folder . $name. '.' . $image->getClientOriginalExtension();
+            // // Upload image within the app
+            // $this->uploadOne($image, $folder, 'public', $name);
+
+            // For using in S3
+            // Make a image name based on the user's id, last name, and version
             $name = auth()->user()->last_name.'_'.auth()->user()->id.'_'.$version;
-            // Define folder path
-            $folder = '/uploads/images/';
-            // Make a file path where image will be stored [ folder path + file name + file extension]
-            $filePath = $folder . $name. '.' . $image->getClientOriginalExtension();
-            // Upload image
-            $this->uploadOne($image, $folder, 'public', $name);
+            // // Make a file path to store in S3 folder path
+            $filePath = $name.'.'.$image->getClientOriginalExtension();
+            // Upload image to S3
+            $s3 = Storage::disk('s3');
+            $s3->put($filePath, file_get_contents($image), 'public');
+
+
             // Set user profile image path in database to filePath
             if ($version == 'current') {
               $user->current_img = $filePath;

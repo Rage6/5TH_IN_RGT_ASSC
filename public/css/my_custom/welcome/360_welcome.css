@@ -1,5 +1,5 @@
 /* For War of 1812 background */
-/* @-webkit-keyframes backgroundChange1812 {
+@-webkit-keyframes backgroundChange1812 {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:left;
@@ -20,37 +20,32 @@
     -webkit-opacity: 1;
     -webkit-background-position: left;
   }
-} */
+}
 @keyframes backgroundChange1812 {
   0% {
     opacity: 1;
     background-position:left;
-    /* background-position-x: 0%; */
   }
   14% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   15% {
     opacity: 0;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   99% {
     opacity: 0;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   100% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
 }
 
 /* For Indian War background */
-/* @-webkit-keyframes backgroundChangeFrontier {
+@-webkit-keyframes backgroundChangeFrontier {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:right;
@@ -68,21 +63,18 @@
   100% {
     -webkit-opacity: 0;
   }
-} */
+}
 @keyframes backgroundChangeFrontier {
   0% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   15% {
     background-position:right;
-    /* background-position-x: 100%; */
   }
   29% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   30% {
     opacity: 0;
@@ -93,7 +85,7 @@
 }
 
 /* For World War II background */
-/* @-webkit-keyframes backgroundChangeWW2 {
+@-webkit-keyframes backgroundChangeWW2 {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:left;
@@ -111,21 +103,18 @@
   100% {
     -webkit-opacity: 0;
   }
-} */
+}
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   30% {
     background-position: left;
-    /* background-position-x: 0%; */
   }
   44% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   45% {
     opacity: 0;
@@ -136,7 +125,7 @@
 }
 
 /* For Korean War background */
-/* @-webkit-keyframes backgroundChangeKorea {
+@-webkit-keyframes backgroundChangeKorea {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:right;
@@ -154,21 +143,18 @@
   100% {
     -webkit-opacity: 0;
   }
-} */
+}
 @keyframes backgroundChangeKorea {
   0% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   45% {
     background-position: right;
-    /* background-position-x: 100%; */
   }
   59% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   60% {
     opacity: 0;
@@ -179,7 +165,7 @@
 }
 
 /* For Vietnam War background */
-/* @-webkit-keyframes backgroundChangeVietnam {
+@-webkit-keyframes backgroundChangeVietnam {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:left;
@@ -197,21 +183,18 @@
   100% {
     -webkit-opacity: 0;
   }
-} */
+}
 @keyframes backgroundChangeVietnam {
   0% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   60% {
     background-position: left;
-    /* background-position-x: 0%; */
   }
   74% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   75% {
     opacity: 0;
@@ -222,7 +205,7 @@
 }
 
 /* For GWOT (Afghanistan) background */
-/* @-webkit-keyframes backgroundChangeAfghanistan {
+@-webkit-keyframes backgroundChangeAfghanistan {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:right;
@@ -240,21 +223,18 @@
   100% {
     -webkit-opacity: 0;
   }
-} */
+}
 @keyframes backgroundChangeAfghanistan {
   0% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   75% {
     background-position: right;
-    /* background-position-x: 100%; */
   }
   89% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   90% {
     opacity: 0;
@@ -265,7 +245,7 @@
 }
 
 /* For GWOT (Iraq) background */
-/* @-webkit-keyframes backgroundChangeIraq {
+@-webkit-keyframes backgroundChangeIraq {
   0% {
     -webkit-opacity: 1;
     -webkit-background-position:left;
@@ -281,26 +261,22 @@
     -webkit-opacity: 0;
     -webkit-background-position:right;
   }
-} */
+}
 @keyframes backgroundChangeIraq {
   0% {
     opacity: 1;
     background-position: left;
-    /* background-position-x: 0%; */
   }
   90% {
     background-position: left;
-    /* background-position-x: 0%; */
   }
   99% {
     opacity: 1;
     background-position: right;
-    /* background-position-x: 100%; */
   }
   100% {
     opacity: 0;
     background-position: right;
-    /* background-position-x: 100%; */
   }
 }
 

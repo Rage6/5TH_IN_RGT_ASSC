@@ -298,6 +298,8 @@
 .introImage {
   -webkit-animation-duration: 80s;
   animation-duration: 80s;
+  -webkit-visibility: visible;
+  visibility: visible;
 }
 
 .intro1812 {

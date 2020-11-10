@@ -25,22 +25,27 @@
   0% {
     opacity: 1;
     background-position:left;
+    background-position-x: 0%;
   }
   14% {
     opacity: 1;
     background-position: right;
+    background-position-x: 100%;
   }
   15% {
     opacity: 0;
     background-position: right;
+    background-position-x: 100%;
   }
   99% {
     opacity: 0;
     background-position: left;
+    background-position-x: 0%;
   }
   100% {
     opacity: 1;
     background-position: left;
+    background-position-x: 0%;
   }
 }
 
@@ -67,14 +72,17 @@
 @keyframes backgroundChangeFrontier {
   0% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   15% {
     background-position:right;
+    background-position-x: 100%;
   }
   29% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   30% {
     opacity: 0;
@@ -107,14 +115,17 @@
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   30% {
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   44% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   45% {
     opacity: 0;
@@ -147,14 +158,17 @@
 @keyframes backgroundChangeKorea {
   0% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   45% {
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   59% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   60% {
     opacity: 0;
@@ -187,14 +201,17 @@
 @keyframes backgroundChangeVietnam {
   0% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   60% {
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   74% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   75% {
     opacity: 0;
@@ -227,14 +244,17 @@
 @keyframes backgroundChangeAfghanistan {
   0% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   75% {
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   89% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   90% {
     opacity: 0;
@@ -265,18 +285,22 @@
 @keyframes backgroundChangeIraq {
   0% {
     opacity: 1;
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   90% {
-    background-position:left;
+    background-position: left;
+    background-position-x: 0%;
   }
   99% {
     opacity: 1;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
   100% {
     opacity: 0;
-    background-position:right;
+    background-position: right;
+    background-position-x: 100%;
   }
 }
 

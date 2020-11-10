@@ -298,8 +298,6 @@
 .introImage {
   -webkit-animation-duration: 80s;
   animation-duration: 80s;
-  -webkit-visibility: visible;
-  visibility: visible;
 }
 
 .intro1812 {
@@ -311,14 +309,6 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
-  -webkit-background:
-    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
-    url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
-  -webkit-background-size:cover;
-  -webkit-animation-name: backgroundChange1812;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-  /* -webkit-animation-duration: 80s; */
 }
 
 .introFrontier {
@@ -330,14 +320,6 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
-  -webkit-background:
-    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
-    url('../../../images/welcome/montana_barracks_crop-min.jpg');
-  -webkit-background-size:cover;
-  -webkit-animation-name: backgroundChangeFrontier;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-  /* -webkit-animation-duration: 80s; */
 }
 
 .introWW2 {

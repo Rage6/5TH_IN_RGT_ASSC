@@ -306,6 +306,7 @@
     url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
   background-size:cover;
   animation-name: backgroundChange1812;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -317,6 +318,7 @@
     url('../../../images/welcome/montana_barracks_crop-min.jpg');
   background-size:cover;
   animation-name: backgroundChangeFrontier;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -328,6 +330,7 @@
     url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
   background-size:cover;
   animation-name: backgroundChangeWW2;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -339,6 +342,7 @@
     url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
   background-size:cover;
   animation-name: backgroundChangeKorea;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -350,6 +354,7 @@
     url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
   background-size:cover;
   animation-name: backgroundChangeVietnam;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -361,6 +366,7 @@
     url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min_1500x996.jpg');
   background-size:cover;
   animation-name: backgroundChangeAfghanistan;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
@@ -372,6 +378,7 @@
     url('../../../images/welcome/iraq_crop-min.jpg');
   background-size:cover;
   animation-name: backgroundChangeIraq;
+  animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */

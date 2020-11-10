@@ -25,27 +25,27 @@
   0% {
     opacity: 1;
     background-position:left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   14% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   15% {
     opacity: 0;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   99% {
     opacity: 0;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   100% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
 }
 
@@ -73,16 +73,16 @@
   0% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   15% {
     background-position:right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   29% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   30% {
     opacity: 0;
@@ -116,16 +116,16 @@
   0% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   30% {
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   44% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   45% {
     opacity: 0;
@@ -159,16 +159,16 @@
   0% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   45% {
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   59% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   60% {
     opacity: 0;
@@ -202,16 +202,16 @@
   0% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   60% {
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   74% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   75% {
     opacity: 0;
@@ -245,16 +245,16 @@
   0% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   75% {
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   89% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   90% {
     opacity: 0;
@@ -286,21 +286,21 @@
   0% {
     opacity: 1;
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   90% {
     background-position: left;
-    background-position-x: 0%;
+    /* background-position-x: 0%; */
   }
   99% {
     opacity: 1;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
   100% {
     opacity: 0;
     background-position: right;
-    background-position-x: 100%;
+    /* background-position-x: 100%; */
   }
 }
 
@@ -320,7 +320,7 @@
 }
 
 .introImage {
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .intro1812 {
@@ -331,6 +331,7 @@
   animation-name: backgroundChange1812;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introFrontier {
@@ -341,6 +342,7 @@
   animation-name: backgroundChangeFrontier;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introWW2 {
@@ -351,6 +353,7 @@
   animation-name: backgroundChangeWW2;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introKorea {
@@ -361,6 +364,7 @@
   animation-name: backgroundChangeKorea;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introVietnam {
@@ -371,6 +375,7 @@
   animation-name: backgroundChangeVietnam;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introAfghanistan {
@@ -381,6 +386,7 @@
   animation-name: backgroundChangeAfghanistan;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .introIraq {
@@ -391,6 +397,7 @@
   animation-name: backgroundChangeIraq;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-duration: 80s;
 }
 
 .mainTitle {

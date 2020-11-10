@@ -85,6 +85,25 @@
 }
 
 /* For World War II background */
+@-webkit-keyframes backgroundChangeWW2 {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  30% {
+    -webkit-background-position:left;
+  }
+  44% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  45% {
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-opacity: 0;
+  }
+}
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 1;
@@ -102,6 +121,27 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+/* For Korean War background */
+@-webkit-keyframes backgroundChangeKorea {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  45% {
+    -webkit-background-position:right;
+  }
+  59% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  60% {
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-opacity: 0;
   }
 }
 @keyframes backgroundChangeKorea {
@@ -123,6 +163,27 @@
     opacity: 0;
   }
 }
+
+/* For Vietnam War background */
+@-webkit-keyframes backgroundChangeVietnam {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  60% {
+    -webkit-background-position:left;
+  }
+  74% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  75% {
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-opacity: 0;
+  }
+}
 @keyframes backgroundChangeVietnam {
   0% {
     opacity: 1;
@@ -142,6 +203,27 @@
     opacity: 0;
   }
 }
+
+/* For GWOT (Afghanistan) background */
+@-webkit-keyframes backgroundChangeAfghanistan {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  75% {
+    -webkit-background-position:right;
+  }
+  89% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  90% {
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-opacity: 0;
+  }
+}
 @keyframes backgroundChangeAfghanistan {
   0% {
     opacity: 1;
@@ -159,6 +241,25 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+/* For GWOT (Iraq) background */
+@-webkit-keyframes backgroundChangeIraq {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  90% {
+    -webkit-background-position:left;
+  }
+  99% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  100% {
+    -webkit-opacity: 0;
+    -webkit-background-position:right;
   }
 }
 @keyframes backgroundChangeIraq {

@@ -1,3 +1,26 @@
+/* For War of 1812 background */
+@-webkit-keyframes backgroundChange1812 {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  14% {
+    -webkit-opacity: 1;
+    -webkit-background-position: right;
+  }
+  15% {
+    -webkit-opacity: 0;
+    -webkit-background-position: right;
+  }
+  99% {
+    -webkit-opacity: 0;
+    -webkit-background-position: left;
+  }
+  100% {
+    -webkit-opacity: 1;
+    -webkit-background-position: left;
+  }
+}
 @keyframes backgroundChange1812 {
   0% {
     opacity: 1;
@@ -21,6 +44,26 @@
   }
 }
 
+/* For Indian War background */
+@-webkit-keyframes backgroundChangeFrontier {
+  0% {
+    -webkit-opacity: 1;
+    -webkit-background-position:right;
+  }
+  15% {
+    -webkit-background-position:right;
+  }
+  29% {
+    -webkit-opacity: 1;
+    -webkit-background-position:left;
+  }
+  30% {
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-opacity: 0;
+  }
+}
 @keyframes backgroundChangeFrontier {
   0% {
     opacity: 1;
@@ -40,6 +83,8 @@
     opacity: 0;
   }
 }
+
+/* For World War II background */
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 1;

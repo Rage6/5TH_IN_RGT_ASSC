@@ -320,7 +320,8 @@
 }
 
 .introImage {
-  /* animation-duration: 80s; */
+  -webkit-animation-duration: 80s;
+  animation-duration: 80s;
 }
 
 .intro1812 {
@@ -331,7 +332,7 @@
   animation-name: backgroundChange1812;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introFrontier {
@@ -342,7 +343,7 @@
   animation-name: backgroundChangeFrontier;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introWW2 {
@@ -353,7 +354,7 @@
   animation-name: backgroundChangeWW2;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introKorea {
@@ -364,7 +365,7 @@
   animation-name: backgroundChangeKorea;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introVietnam {
@@ -375,7 +376,7 @@
   animation-name: backgroundChangeVietnam;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introAfghanistan {
@@ -386,7 +387,7 @@
   animation-name: backgroundChangeAfghanistan;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .introIraq {
@@ -397,7 +398,7 @@
   animation-name: backgroundChangeIraq;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  /* animation-duration: 80s; */
 }
 
 .mainTitle {

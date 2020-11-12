@@ -102,8 +102,8 @@
   }
   100% {
     -webkit-opacity: 0;
-  } */
-}
+  }
+} */
 @keyframes backgroundChangeWW2 {
   0% {
     opacity: 1;
@@ -142,8 +142,8 @@
   }
   100% {
     -webkit-opacity: 0;
-  } */
-}
+  }
+} */
 @keyframes backgroundChangeKorea {
   0% {
     opacity: 1;
@@ -296,11 +296,9 @@
 }
 
 .introImage {
-  /* -webkit-animation-duration: 80s; */
-  opacity: 1;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-duration: 80s;
+  animation-duration: 80s; */
 }
 
 .intro1812 {
@@ -308,9 +306,11 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
   background-size:cover;
-  animation-name: backgroundChange1812;
+  -webkit-animation: backgroundChange1812 80s infinite;
+  animation: backgroundChange1812 80s infinite;
+  /* animation-name: backgroundChange1812; */
   /* animation-iteration-count: infinite; */
-  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
 
@@ -319,8 +319,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/montana_barracks_crop-min.jpg');
   background-size:cover;
-  animation-name: backgroundChangeFrontier;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeFrontier 80s infinite;
+  animation: backgroundChangeFrontier 80s infinite;
+  /* animation-name: backgroundChangeFrontier; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
@@ -330,8 +332,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/269ed34d1c7688503bf5b7a9fd015d44-min.jpg');
   background-size:cover;
-  animation-name: backgroundChangeWW2;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeWW2 80s infinite;
+  animation: backgroundChangeWW2 80s infinite;
+  /* animation-name: backgroundChangeWW2; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
@@ -341,8 +345,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/5th_RCT_Pusan_1950_crop-min.jpg');
   background-size:cover;
-  animation-name: backgroundChangeKorea;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeKorea 80s infinite;
+  animation: backgroundChangeKorea 80s infinite;
+  /* animation-name: backgroundChangeKorea; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
@@ -352,8 +358,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/Nui_Ba_Den_Nov_1967-min.jpg');
   background-size:cover;
-  animation-name: backgroundChangeVietnam;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeVietnam 80s infinite;
+  animation: backgroundChangeVietnam 80s infinite;
+  /* animation-name: backgroundChangeVietnam; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
@@ -363,8 +371,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/1st_Battalion_5th_Infantry_Regiment_1st_Stryker_Brigade_Combat_Team_25th_Infantry_Division_Afghan-min_1500x996.jpg');
   background-size:cover;
-  animation-name: backgroundChangeAfghanistan;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeAfghanistan 80s infinite;
+  animation: backgroundChangeAfghanistan 80s infinite;
+  /* animation-name: backgroundChangeAfghanistan; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }
@@ -374,8 +384,10 @@
     linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0)),
     url('../../../images/welcome/iraq_crop-min.jpg');
   background-size:cover;
-  animation-name: backgroundChangeIraq;
-  animation-iteration-count: infinite;
+  -webkit-animation: backgroundChangeIraq 80s infinite;
+  animation: backgroundChangeIraq 80s infinite;
+  /* animation-name: backgroundChangeIraq; */
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   /* animation-duration: 80s; */
 }

@@ -1,26 +1,26 @@
 /* For War of 1812 background */
-/* @-webkit-keyframes backgroundChange1812 {
+@-webkit-keyframes backgroundChange1812 {
   0% {
-    -webkit-opacity: 1;
-    -webkit-background-position:left;
+    opacity: 1;
+    background-position:left;
   }
   14% {
-    -webkit-opacity: 1;
-    -webkit-background-position: right;
+    opacity: 1;
+    background-position: right;
   }
   15% {
-    -webkit-opacity: 0;
-    -webkit-background-position: right;
+    opacity: 0;
+    background-position: right;
   }
   99% {
-    -webkit-opacity: 0;
-    -webkit-background-position: left;
+    opacity: 0;
+    background-position: left;
   }
   100% {
-    -webkit-opacity: 1;
-    -webkit-background-position: left;
+    opacity: 1;
+    background-position: left;
   }
-} */
+}
 @keyframes backgroundChange1812 {
   0% {
     opacity: 1;

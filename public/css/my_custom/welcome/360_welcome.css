@@ -296,7 +296,10 @@
 }
 
 .introImage {
-  -webkit-animation-duration: 80s;
+  /* -webkit-animation-duration: 80s; */
+  opacity: 1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
   animation-duration: 80s;
 }
 
@@ -306,8 +309,8 @@
     url('../../../images/welcome/lundys_lane_psh_206_small_crop-min.jpg');
   background-size:cover;
   animation-name: backgroundChange1812;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  /* animation-iteration-count: infinite; */
+  /* animation-timing-function: ease-in-out; */
   /* animation-duration: 80s; */
 }
 

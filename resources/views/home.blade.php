@@ -1,24 +1,26 @@
 @extends('layouts.app')
 
-@section('home_style')
+<!-- @section('home_style') -->
   <!-- Home Styles -->
   <!-- Default CSS files; 0px -> 360px-->
-  <link rel="stylesheet" type="text/css" href="/css/my_custom/home/360_home.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/my_custom/home/360_home.css"> -->
   <!-- 361px -> 375px-->
-  <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="/css/my_custom/home/375_home.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="/css/my_custom/home/375_home.css"> -->
   <!-- 376px -> 414px-->
-  <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="/css/my_custom/home/414_home.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="/css/my_custom/home/414_home.css"> -->
   <!-- 415px -> 768px-->
-  <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="/css/my_custom/home/768_home.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="/css/my_custom/home/768_home.css"> -->
   <!-- 769px -> 1366px-->
-  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1366px)" type="text/css" href="/css/my_custom/home/1366_home.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1366px)" type="text/css" href="/css/my_custom/home/1366_home.css"> -->
   <!-- 1367px -> 1920px-->
-  <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/home/1920_home.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/home/1920_home.css"> -->
   <!-- 1921px and Greater -->
-  <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/home/past_1920_home.css">
-@stop
+  <!-- <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/home/past_1920_home.css"> -->
+<!-- @stop -->
 
-@section('home_content')
+
+<!-- @section('home_content') -->
+@section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

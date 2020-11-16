@@ -31,9 +31,10 @@ class HomeController extends Controller
           ->select('id','first_name','last_name')
           ->where('id','!=',$this_id)
           ->get();
-        $style = 'home_style';
-        $js = '/js/my_custom/home/home.js';
-        $content = 'home_content';
-        return view('home',compact('this_user','all_users','style','js','content'));
+        return view('home',compact('this_user','all_users'));
+        // $style = 'home_style';
+        // $js = '/js/my_custom/home/home.js';
+        // $content = 'home_content';
+        // return view('home',compact('this_user','all_users','style','js','content'));
     }
 }

@@ -76,10 +76,16 @@
                           </div>
                         </div>
                         <div class="card-body">
-                          @foreach ($all_users as $one_user)
-                            <div data-first="{{ strtolower($one_user->first_name) }}" data-last="{{ strtolower($one_user->last_name) }}" style="display: flex; justify-content: space-between">
+                          @foreach ($final_all_users as $one_user)
+                            <div
+                              data-first="{{ strtolower($one_user->first_name) }}"
+                              data-last="{{ strtolower($one_user->last_name) }}"
+                              style="display: flex; justify-content: space-between">
                               <div>
                                 {{ $one_user->first_name }} {{ $one_user->last_name }}
+                                @foreach ($one_user->all_range as $one_range)
+                                  <div>{{ $one_range[0] }} - {{ $one_range[1] }}</div>
+                                @endforeach
                               </div>
                               <div class="row">
                                 <a href="home/view/{{ $one_user->id }}">

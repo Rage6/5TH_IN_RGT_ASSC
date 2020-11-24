@@ -67,19 +67,51 @@
                           FIND A FELLOW BOBCAT
                         </div>
                         <div class="card-subtitle">
-                          Searching for a specific Bobcat? Enter their first or last name, and then click 'SEARCH'. This will help you view their profile or send them a personal message.
+                          Want to find a specific Bobcat? First select which category that you want search by: first name, last name, or year in the 5th Regiment. Then simply enter the desired name or year, and click <b>FIND</b>.</br>
+                          NOTE:</br>
+                          1) The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.</br>
+                          2) Enter a single year at a time when using the 'Year' category. It will show you every member that was an active duty soldier within the 5th Regiment during that year. Months and days will only result in an empty list.
                         </div>
                         <div class="card-body">
-                          <input id="searchBox" class="col-lg-8" type="text" placeholder="First, last, or nickname." required/>
-                          <div id="searchBttn" class="btn btn-secondary">
-                            SEARCH
+                          <div>
+                            <div data-category="first">First Name</div>
+                            <div data-category="last">Last Name</div>
+                            <div data-category="year">Year</div>
+                          </div>
+                          <div class="categoryBox" id="firstBox">
+                            <input id="searchByFirst" class="col-lg-8" type="text" placeholder="Enter a first name"/>
+                            <div id="searchFirstBttn" class="btn btn-secondary">
+                              FIND
+                            </div>
+                          </div>
+                          <div class="categoryBox" id="lastBox">
+                            <input id="searchByLast" class="col-lg-8" type="text" placeholder="Enter a last name"/>
+                            <div id="searchLastBttn" class="btn btn-secondary">
+                              FIND
+                            </div>
+                          </div>
+                          <div class="categoryBox" id="yearBox">
+                            <input id="searchByYear" class="col-lg-8" type="text" placeholder="Enter a year"/>
+                            <div id="searchYearBttn" class="btn btn-secondary">
+                              FIND
+                            </div>
                           </div>
                         </div>
                         <div class="card-body">
-                          @foreach ($all_users as $one_user)
-                            <div data-first="{{ strtolower($one_user->first_name) }}" data-last="{{ strtolower($one_user->last_name) }}" style="display: flex; justify-content: space-between">
+                          @foreach ($final_all_users as $one_user)
+                            <div
+                              data-user="{{ $one_user->id }}"
+                              data-first="{{ strtolower($one_user->first_name) }}"
+                              data-last="{{ strtolower($one_user->last_name) }}"
+                              style="display: flex; justify-content: space-between;">
                               <div>
                                 {{ $one_user->first_name }} {{ $one_user->last_name }}
+                                @foreach ($one_user->all_range as $one_range)
+                                  <div
+                                    data-parent="{{ $one_user->id }}"
+                                    data-start="{{ $one_range[0] }}"
+                                    data-end="{{ $one_range[1] }}">{{ $one_range[0] }} - {{ $one_range[1] }}</div>
+                                @endforeach
                               </div>
                               <div class="row">
                                 <a href="home/view/{{ $one_user->id }}">

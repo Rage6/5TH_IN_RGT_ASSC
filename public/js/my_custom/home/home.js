@@ -1,6 +1,34 @@
 // console.log("This is a test of the home.js file");
 $(()=>{
 
+  $(".categoryBox").css('display','none');
+
+  const showCategorySearch = (category) => {
+    $(".categoryBox").css('display','none');
+    let thisCategory = event.target.dataset.category;
+    if (thisCategory == 'first') {
+      $("#firstBox").css('display','flex');
+    } else if (thisCategory == 'last') {
+      $("#lastBox").css('display','flex');
+    } else if (thisCategory == 'year') {
+      $("#yearBox").css('display','flex');
+    } else {
+
+    };
+  };
+
+  $("[data-category='first']").click(()=>{
+    showCategorySearch('first');
+  });
+
+  $("[data-category='last']").click(()=>{
+    showCategorySearch('first');
+  });
+
+  $("[data-category='year']").click(()=>{
+    showCategorySearch('first');
+  });
+
   const findByName = (inputName,category) => {
     $("[data-first]").css('display','none');
     let searchValue = $(inputName).val().toLowerCase();

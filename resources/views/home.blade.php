@@ -73,12 +73,11 @@
                           2) Enter a single year at a time when using the 'Year' category. It will show you every member that was an active duty soldier within the 5th Regiment during that year. Months and days will only result in an empty list.
                         </div>
                         <div class="card-body">
-                          <select name="category">
-                            <option selected disabled>Choose a category...</option>
-                            <option value="first">First Name</option>
-                            <option value="last">Last Name</option>
-                            <option value="year">Year</option>
-                          </select>
+                          <div>
+                            <div data-category="first">First Name</div>
+                            <div data-category="last">Last Name</div>
+                            <div data-category="year">Year</div>
+                          </div>
                           <div class="categoryBox" id="firstBox">
                             <input id="searchByFirst" class="col-lg-8" type="text" placeholder="Enter a first name"/>
                             <div id="searchFirstBttn" class="btn btn-secondary">

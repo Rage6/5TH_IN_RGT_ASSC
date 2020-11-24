@@ -1,21 +1,50 @@
 // console.log("This is a test of the home.js file");
 $(()=>{
-  $("#searchBttn").click(()=>{
-    $("[data-first]").css('display','flex');
-    let searchValue = $("#searchBox").val().toLowerCase();
-    let splitFullName = searchValue.split(" ");
-    let firstName = splitFullName[0];
-    let lastName = splitFullName[1];
+
+  const findByName = (inputName,category) => {
+    $("[data-first]").css('display','none');
+    let searchValue = $(inputName).val().toLowerCase();
     if (searchValue != "") {
-      $("[data-first]").css('display','none');
-      console.log(searchValue.split(" ").length);
-      if (searchValue.split(" ").length > 1) {
-        $("[data-first='"+firstName+"'][data-last='"+lastName+"']").css('display','flex');
-      } else {
-        $("[data-first='"+searchValue+"']").css('display','flex');
-        $("[data-last='"+searchValue+"']").css('display','flex');
-      };
-      // $("[data-nickname='"+searchValue+"']").css('display','flex');
+      $("[data-" + category + "='" + searchValue + "']").css('display','flex');
+    } else {
+      $("[data-first]").css('display','flex');
     };
+  };
+
+  $("#searchFirstBttn").click(()=>{
+    findByName("#searchByFirst","first");
   });
+
+  $("#searchLastBttn").click(()=>{
+    findByName("#searchByLast","last");
+  });
+
+  const findByYear = (inputYear) => {
+    $("[data-first]").css('display','none');
+    let searchYear = $(inputYear).val();
+    if (searchYear != "") {
+      intSearchYear = parseInt(searchYear);
+      let idArray = $("[data-start]").map(function() {
+          return $(this).data("parent");
+        }).get();
+      let startArray = $("[data-start]").map(function() {
+          return $(this).data("start");
+        }).get();
+      let endArray = $("[data-end]").map(function() {
+          return $(this).data("end");
+        }).get();
+      for (let spanNum = 0; spanNum < idArray.length; spanNum++) {
+        if (startArray[spanNum] <= intSearchYear && endArray[spanNum] >= intSearchYear) {
+          $("[data-user='" + idArray[spanNum] + "']").css('display','flex');
+        };
+      };
+    } else {
+      $("[data-first]").css('display','flex');
+    };
+  };
+
+  $("#searchYearBttn").click(()=>{
+    findByYear("#searchByYear");
+  });
+
 });

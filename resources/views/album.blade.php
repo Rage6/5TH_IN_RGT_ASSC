@@ -418,8 +418,26 @@
 
 @section('vietnam_content')
   <div class="mainBody">
-    <div>Vietnam War</div>
-    <div>PHOTO ALBUM</div>
+    <div class="mainTitle">
+      <div>Vietnam War</div>
+      <div>PHOTO ALBUM</div>
+    </div>
+    <div class="allImgBox">
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/6771449_orig.jpg">
+            <img src="../../../images/history/albums/korea/6771449_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Front Rifle Platoon of 5th RCT, 24th Infantry Division on the Korean Front
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+    </div>
   </div>
   @include ('footer.content')
 @stop
@@ -427,8 +445,24 @@
 @section('gwot_content')
   <div class="mainBody">
     <div class="mainTitle">
-      <div>Global War On Terrorism</div>
+      <div>Global War On Terror</div>
       <div>PHOTO ALBUM</div>
+    </div>
+    <div class="allImgBox">
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/korea/6771449_orig.jpg">
+            <img src="../../../images/history/albums/korea/6771449_orig.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Front Rifle Platoon of 5th RCT, 24th Infantry Division on the Korean Front
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
     </div>
   </div>
   @include ('footer.content')

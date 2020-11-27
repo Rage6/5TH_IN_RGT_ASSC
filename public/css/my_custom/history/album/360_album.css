@@ -37,6 +37,19 @@
   font-family: 'Special Elite', cursive;
 }
 
+.backBttn {
+  margin: 0 5% 20px 5%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  cursor: pointer;
+}
+
+.backBttn a {
+  color: black;
+}
+
 .allImgBox {
   padding-bottom: 40px;
 }

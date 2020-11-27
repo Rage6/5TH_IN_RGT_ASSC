@@ -25,6 +25,11 @@
       <div>World War II</div>
       <div>PHOTO ALBUM</div>
     </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/timeline') }}">
+        <div><< HISTORY</div>
+      </a>
+    </div>
     <div class="allImgBox">
       <div class="oneImgBox oddBox">
         <div class="oneImg">
@@ -306,6 +311,11 @@
       <div>Korean War</div>
       <div>PHOTO ALBUM</div>
     </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/timeline') }}">
+        <div><< HISTORY</div>
+      </a>
+    </div>
     <div class="allImgBox">
       <div class="oneImgBox evenBox">
         <div class="oneImg">
@@ -422,6 +432,11 @@
       <div>Vietnam War</div>
       <div>PHOTO ALBUM</div>
     </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/timeline') }}">
+        <div><< HISTORY</div>
+      </a>
+    </div>
     <div class="allImgBox">
       <div class="oneImgBox evenBox">
         <div class="oneImg">
@@ -447,6 +462,11 @@
     <div class="mainTitle">
       <div>Global War On Terror</div>
       <div>PHOTO ALBUM</div>
+    </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/timeline') }}">
+        <div><< HISTORY</div>
+      </a>
     </div>
     <div class="allImgBox">
       <div class="oneImgBox evenBox">

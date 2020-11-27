@@ -332,12 +332,26 @@
                 <a href="{{ url('/history/album/korea') }}">
                   <li>Photo Album</li>
                 </a>
+                <a href="http://bobcat.ws/stuffelbeam.htm">
+                  <li>Myron Stuffelbeam - 50th Year Recognition</li>
+                </a>
+                <a href="http://bobcat.ws/Co%20A%20Dist.%20Unit%20Cit.%20Korea.pdf">
+                  <li>Distinguished Unit Citation</li>
+                </a>
+                <a href="http://bobcat.ws/million-dollar-hill.html">
+                  <li>"Million Dollar Hill"</li>
+                </a>
               </ul>
             </div>
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-
+                <a href="https://www.amazon.com/exec/obidos/ASIN/1563115883/qid%3D975025740/104-0489905-1741534">
+                  <li>BOOK: "Hills of Sacrifice: The 5th RCT in Korea" by Michael P. Slater</li>
+                </a>
+                <a href="https://www.amazon.com/exec/obidos/ASIN/1563115883/qid%3D975025740/104-0489905-1741534">
+                  <li>BOOK: "Thirty-Six Points: A Novel of the Korean War" by Samuel P. Kier</li>
+                </a>
               </ul>
             </div>
           </div>
@@ -404,17 +418,32 @@
           <div class="linkBox">
             <div class="linkTitle learnMore">LEARN MORE</div>
             <ul class="linkContent">
-              <a href="{{ url('/history/album/korea') }}">
+              <a href="{{ url('/history/album/vietnam') }}">
                 <li>Photo Album</li>
+              </a>
+              <a href="http://bobcat.ws/after-action-reports.html">
+                <li>After Action Reports (AAR)</li>
+              </a>
+              <a href="http://bobcat.ws/vietnam-history.html">
+                <li>"In The Vietnam War 1966 - 1971" by Larry Hadzim</li>
+              </a>
+              <a href="http://bobcat.ws/ben-cui-tribute.html">
+                <li>Ben Cui Tribute</li>
+              </a>
+              <a href="http://bobcat.ws/michelin-firefight.html">
+                <li>Michelin Rubber Plant Battle</li>
+              </a>
+              <a href="http://bobcat.ws/rifle.shtml">
+                <li>The Rifle And The Myth</li>
               </a>
             </ul>
           </div>
-          <div class="linkBox">
+          <!-- <div class="linkBox">
             <div class="linkTitle externalLink">EXTERNAL LINKS</div>
             <ul class="linkContent">
 
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="timeSegment southKoreaSegment" data-section="1975to2001">
@@ -486,6 +515,22 @@
             <p>
               On August 16, 2009, 2nd Battalion, 5th Infantry was re-activated at Fort Bliss, Texas.  The battalion is part of the 3rd Infantry Brigade, 1st Armored Division.  Following more than a year of training in the mountainous terrain of New Mexico and West Texas, 2nd Battalion is combat ready and destined to earn further honors for America’s third oldest active infantry regiment.
             </p>
+          </div>
+          <div class="segmentLinks">
+            <div class="linkBox">
+              <div class="linkTitle learnMore">LEARN MORE</div>
+              <ul class="linkContent">
+                <a href="{{ url('/history/album/gwot') }}">
+                  <li>Photo Album</li>
+                </a>
+              </ul>
+            </div>
+            <div class="linkBox">
+              <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+              <ul class="linkContent">
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>

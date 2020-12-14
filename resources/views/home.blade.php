@@ -40,16 +40,17 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div style="display:flex;flex-wrap: wrap">
+                      <div>
                         @if ($this_user->current_img)
-                          <div style="height:200px;width:50%;background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>');background-size:cover;background-position:center"></div>
+                          <img style="width:100%" src="https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>" />
                         @else
-                          <div style="height:200px;width:50%;background-image: url('/uploads/images/profile-default.jpg');background-size:cover;background-position:center"></div>
+                          <img style="width:100%" src="/uploads/images/profile-default.jpg" />
                         @endif
                         @if ($this_user->veteran_img)
-                          <div style="height:200px;width:50%;background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>');background-size:cover;background-position:center"></div>
+                          <div style="border-right: 2px solid white; border-bottom: 2px solid white; position: absolute; top:0; left:0; height:100px; width:100px; background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position:center"></div>
                         @else
-                          <div style="height:200px;width:50%;background-image: url('/uploads/images/profile-default.jpg');background-size:cover;background-position:center"></div>
+                          <div style="border-right: 2px solid white; border-bottom: 2px solid white; position: absolute; top:0; left:0; height:100px; width:100px; background-image: url('/uploads/images/profile-default.jpg'); ?>'); background-size:cover; background-position:center"></div>
+                          <!-- <div style="height:200px;width:50%;background-image: url('/uploads/images/profile-default.jpg');background-size:cover;background-position:center"></div> -->
                         @endif
                       </div>
                       <div class="card-body">

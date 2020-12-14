@@ -75,4 +75,35 @@ $(document).ready(() => {
     findByYear("#searchByYear");
   });
 
+  const showGenericBox = (boxElement,displayType) => {
+    if ($(boxElement).css('display') == 'none') {
+      console.log("The display was none");
+      $(boxElement).css('display',displayType);
+    } else {
+      console.log("The display wasn't none");
+      $(boxElement).css('display','none');
+    };
+  };
+
+  $("#troublesBttn").click(() => {
+    showGenericBox("#troublesBox","block");
+  });
+
+  let mainImg = $("#primaryImg").attr('src');
+  // console.log(mainImg);
+  let cornerImg = $("#secondaryImg").css('background-image');
+  cornerImg = cornerImg.replace('url("','').replace('")','');
+  // console.log(cornerImg);
+  const swapImages = () => {
+    $("#primaryImg").attr('src',cornerImg);
+    $("#secondaryImg").css('background-image','url("' + mainImg + '")');
+    mainImg = $("#primaryImg").attr('src');
+    cornerImg = $("#secondaryImg").css('background-image');
+    cornerImg = cornerImg.replace('url("','').replace('")','');
+  };
+
+  $("#secondaryImg").click(()=>{
+    swapImages();
+  });
+
 });

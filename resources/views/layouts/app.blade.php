@@ -21,8 +21,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/my_custom/layout_header.css') }}" rel="stylesheet">
-
+    <!-- <link href="{{ asset('css/my_custom/layout_header.css') }}" rel="stylesheet"> -->
+    <link href="{{ asset('css/my_custom/home/360_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/my_custom/home/375_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/my_custom/home/414_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/my_custom/home/768_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/my_custom/home/1366_home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/my_custom/home/1920_home.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">

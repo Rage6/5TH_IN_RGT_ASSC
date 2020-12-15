@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 <!-- @section('home_style') -->
@@ -26,13 +27,13 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-                <?php
-                  // This was to test the email system
-                  // use App\Mail\PersonalEmail;
-                  // $data = ['content' => 'This is a test!'];
-                  // $data = "Took off the 'content' variable.";
-                  // Mail::to('nvogt10@gmail.com')->send(new PersonalEmail($data));
-                ?>
+
+                  <!-- This was the PHP to test the email system -->
+                  <!-- use App\Mail\PersonalEmail;
+                  $data = ['content' => 'This is a test!'];
+                  $data = "Took off the 'content' variable.";
+                  Mail::to('nvogt10@gmail.com')->send(new PersonalEmail($data)); -->
+
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -40,16 +41,16 @@
                         </div>
                     @endif
                     <div class="card">
-                      <div style="display:flex;flex-wrap: wrap">
+                      <div>
                         @if ($this_user->current_img)
-                          <div style="height:200px;width:50%;background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>');background-size:cover;background-position:center"></div>
+                          <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>');"></div>
                         @else
-                          <div style="height:200px;width:50%;background-image: url('/uploads/images/profile-default.jpg');background-size:cover;background-position:center"></div>
+                          <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                         @endif
                         @if ($this_user->veteran_img)
-                          <div style="height:200px;width:50%;background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>');background-size:cover;background-position:center"></div>
+                          <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>')"></div>
                         @else
-                          <div style="height:200px;width:50%;background-image: url('/uploads/images/profile-default.jpg');background-size:cover;background-position:center"></div>
+                          <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                         @endif
                       </div>
                       <div class="card-body">
@@ -63,17 +64,25 @@
                     </div>
                     <div class="card">
                       <div class="card-body">
-                        <div class="card-title">
+                        <div>
                           FIND A FELLOW BOBCAT
                         </div>
-                        <div class="card-subtitle">
-                          Want to find a specific Bobcat? First select which category that you want search by: first name, last name, or year in the 5th Regiment. Then simply enter the desired name or year, and click <b>FIND</b>.</br>
-                          NOTE:</br>
-                          1) The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.</br>
-                          2) Enter a single year at a time when using the 'Year' category. It will show you every member that was an active duty soldier within the 5th Regiment during that year. Months and days will only result in an empty list.
+                        <div>
+                          Select a category to search by, enter the desired name or year, and click 'FIND'</b>'.
+                        </div>
+                        <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
+                        <div id="troublesBox">
+                          <ol>
+                            <li>
+                              The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
+                            </li>
+                            <li>
+                              Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
+                            </li>
+                          </ol>
                         </div>
                         <div class="card-body">
-                          <div>
+                          <div style="display:flex;justify-content:space-around">
                             <div data-category="first">First Name</div>
                             <div data-category="last">Last Name</div>
                             <div data-category="year">Year</div>

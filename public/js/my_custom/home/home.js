@@ -3,19 +3,25 @@ $(document).ready(() => {
 
   $(".categoryBox").css('display','none');
 
+  // Shows the selected
   const showCategorySearch = (category) => {
     $(".categoryBox").css('display','none');
-    let thisCategory = event.target.dataset.category;
+    let thisCategory = null;
+    if (event == undefined) {
+      thisCategory = 'year';
+    } else {
+      thisCategory = event.target.dataset.category;
+    };
     if (thisCategory == 'first') {
       $("#firstBox").css('display','flex');
     } else if (thisCategory == 'last') {
       $("#lastBox").css('display','flex');
-    } else if (thisCategory == 'year') {
-      $("#yearBox").css('display','flex');
     } else {
-
+      $("#yearBox").css('display','flex');
     };
   };
+
+  showCategorySearch('year');
 
   $("[data-category='first']").click(()=>{
     showCategorySearch('first');
@@ -29,6 +35,7 @@ $(document).ready(() => {
     showCategorySearch('first');
   });
 
+  // Search by first or last names. Only shows EXACT matches (not case-sensitive)
   const findByName = (inputName,category) => {
     $("[data-first]").css('display','none');
     let searchValue = $(inputName).val().toLowerCase();
@@ -47,6 +54,7 @@ $(document).ready(() => {
     findByName("#searchByLast","last");
   });
 
+  // Shows a list of any Bobcats that were in the 5th during the entered year
   const findByYear = (inputYear) => {
     $("[data-first]").css('display','none');
     let searchYear = $(inputYear).val();
@@ -73,6 +81,40 @@ $(document).ready(() => {
 
   $("#searchYearBttn").click(()=>{
     findByYear("#searchByYear");
+  });
+
+  // Shows or hides a selected element by clicking
+  const showGenericBox = (boxElement,displayType) => {
+    if ($(boxElement).css('display') == 'none') {
+      console.log("The display was none");
+      $(boxElement).css('display',displayType);
+    } else {
+      console.log("The display wasn't none");
+      $(boxElement).css('display','none');
+    };
+  };
+
+  // Shows the tips for using the search tool
+  $("#troublesBttn").click(() => {
+    showGenericBox("#troublesBox","block");
+  });
+
+  // Swaps the Bobcat's current and veteran images
+  let mainImg = $("#primaryImg").css('background-image');
+  mainImg = mainImg.replace('url("','').replace('")','');
+  let cornerImg = $("#secondaryImg").css('background-image');
+  cornerImg = cornerImg.replace('url("','').replace('")','');
+  const swapImages = () => {
+    $("#primaryImg").css('background-image','url("' + cornerImg + '")');
+    $("#secondaryImg").css('background-image','url("' + mainImg + '")');
+    mainImg = $("#primaryImg").css('background-image');
+    mainImg = mainImg.replace('url("','').replace('")','');
+    cornerImg = $("#secondaryImg").css('background-image');
+    cornerImg = cornerImg.replace('url("','').replace('")','');
+  };
+
+  $("#secondaryImg").click(()=>{
+    swapImages();
   });
 
 });

@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 <!-- @section('home_style') -->
@@ -26,13 +27,13 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-                <?php
-                  // This was to test the email system
-                  // use App\Mail\PersonalEmail;
-                  // $data = ['content' => 'This is a test!'];
-                  // $data = "Took off the 'content' variable.";
-                  // Mail::to('nvogt10@gmail.com')->send(new PersonalEmail($data));
-                ?>
+
+                  <!-- This was the PHP to test the email system -->
+                  <!-- use App\Mail\PersonalEmail;
+                  $data = ['content' => 'This is a test!'];
+                  $data = "Took off the 'content' variable.";
+                  Mail::to('nvogt10@gmail.com')->send(new PersonalEmail($data)); -->
+
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -42,14 +43,14 @@
                     <div class="card">
                       <div>
                         @if ($this_user->current_img)
-                          <img id="primaryImg" data-time="current" style="width:100%" src="https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>" />
+                          <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>');"></div>
                         @else
-                          <img id="primaryImg" data-time="current" style="width:100%" src="/uploads/images/profile-default.jpg" />
+                          <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                         @endif
                         @if ($this_user->veteran_img)
-                          <div id="secondaryImg" data-time="veteran" style="border-right: 2px solid white; border-bottom: 2px solid white; position: absolute; top:0; left:0; height:100px; width:100px; background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position:center;cursor:pointer"></div>
+                          <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>')"></div>
                         @else
-                          <div id="secondaryImg" data-time="veteran" style="border-right: 2px solid white; border-bottom: 2px solid white; position: absolute; top:0; left:0; height:100px; width:100px;cursor:pointer; background-image: url('/uploads/images/profile-default.jpg'); ?>'); background-size:cover; background-position:center"></div>
+                          <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                         @endif
                       </div>
                       <div class="card-body">
@@ -76,12 +77,12 @@
                               The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
                             </li>
                             <li>
-                              Enter a single year at a time when using the 'Year' category. It will show you every member that was an active duty soldier within the 5th Regiment during that year. Months and days will only result in an empty list.
+                              Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
                             </li>
                           </ol>
                         </div>
                         <div class="card-body">
-                          <div>
+                          <div style="display:flex;justify-content:space-around">
                             <div data-category="first">First Name</div>
                             <div data-category="last">Last Name</div>
                             <div data-category="year">Year</div>

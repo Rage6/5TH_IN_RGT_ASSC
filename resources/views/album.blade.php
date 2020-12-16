@@ -33,7 +33,7 @@
     <div class="allImgBox">
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/COL_Wooten.jpg">
+          <a href="../../../images/history/albums/ww2/COL_Wooten.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/COL_Wooten.jpg" />
           </a>
         </div>
@@ -46,7 +46,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Company_A.jpg">
+          <a href="../../../images/history/albums/ww2/Company_A.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Company_A.jpg" />
           </a>
         </div>
@@ -59,7 +59,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Company_C_left.jpg">
+          <a href="../../../images/history/albums/ww2/Company_C_left.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Company_C_left.jpg" />
           </a>
         </div>
@@ -103,7 +103,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Company_C_middle.jpg">
+          <a href="../../../images/history/albums/ww2/Company_C_middle.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Company_C_middle.jpg" />
           </a>
         </div>
@@ -144,7 +144,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Company_C_right.jpg">
+          <a href="../../../images/history/albums/ww2/Company_C_right.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Company_C_right.jpg" />
           </a>
         </div>
@@ -169,7 +169,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Company_D.jpg">
+          <a href="../../../images/history/albums/ww2/Company_D.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Company_D.jpg" />
           </a>
         </div>
@@ -184,7 +184,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/eaglenest1.jpg">
+          <a href="../../../images/history/albums/ww2/eaglenest1.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/eaglenest1.jpg" />
           </a>
         </div>
@@ -199,7 +199,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/eaglenest2.jpg">
+          <a href="../../../images/history/albums/ww2/eaglenest2.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/eaglenest2.jpg" />
           </a>
         </div>
@@ -214,7 +214,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/eaglenest3.jpg">
+          <a href="../../../images/history/albums/ww2/eaglenest3.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/eaglenest3.jpg" />
           </a>
         </div>
@@ -229,7 +229,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/Kyoung5.jpg">
+          <a href="../../../images/history/albums/ww2/Kyoung5.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/Kyoung5.jpg" />
           </a>
         </div>
@@ -244,7 +244,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg">
+          <a href="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/COL_Sidney_Wooten.jpg" />
           </a>
         </div>
@@ -256,7 +256,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg">
+          <a href="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/COL_Charles_Gettys.jpg" />
           </a>
         </div>
@@ -271,7 +271,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/MAJ_James_Haley.jpg">
+          <a href="../../../images/history/albums/ww2/MAJ_James_Haley.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/MAJ_James_Haley.jpg" />
           </a>
         </div>
@@ -286,7 +286,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/ww2/area_of_operations.jpg">
+          <a href="../../../images/history/albums/ww2/area_of_operations.jpg" target="_blank">
             <img src="../../../images/history/albums/ww2/area_of_operations.jpg" />
           </a>
         </div>
@@ -319,7 +319,7 @@
     <div class="allImgBox">
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/6771449_orig.jpg">
+          <a href="../../../images/history/albums/korea/6771449_orig.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/6771449_orig.jpg" />
           </a>
         </div>
@@ -333,7 +333,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/3950178_orig.jpg">
+          <a href="../../../images/history/albums/korea/3950178_orig.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/3950178_orig.jpg" />
           </a>
         </div>
@@ -348,7 +348,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/1990165.jpg">
+          <a href="../../../images/history/albums/korea/1990165.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/1990165.jpg" />
           </a>
         </div>
@@ -363,7 +363,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/2973783.jpg">
+          <a href="../../../images/history/albums/korea/2973783.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/2973783.jpg" />
           </a>
         </div>
@@ -378,7 +378,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/4422871_orig.jpg">
+          <a href="../../../images/history/albums/korea/4422871_orig.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/4422871_orig.jpg" />
           </a>
         </div>
@@ -393,7 +393,7 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/7108622_orig.jpg">
+          <a href="../../../images/history/albums/korea/7108622_orig.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/7108622_orig.jpg" />
           </a>
         </div>
@@ -408,7 +408,7 @@
       </div>
       <div class="oneImgBox evenBox">
         <div class="oneImg">
-          <a href="../../../images/history/albums/korea/9323161.jpg">
+          <a href="../../../images/history/albums/korea/9323161.jpg" target="_blank">
             <img src="../../../images/history/albums/korea/9323161.jpg" />
           </a>
         </div>

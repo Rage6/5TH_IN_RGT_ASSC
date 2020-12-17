@@ -101,7 +101,7 @@
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-                <a href="https://en.wikipedia.org/wiki/James_Miller_(general)">
+                <a href="https://en.wikipedia.org/wiki/James_Miller_(general)" target="_blank">
                   <li>Colonel James Miller</li>
                 </a>
               </ul>
@@ -144,7 +144,7 @@
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-                <a href="https://en.wikipedia.org/wiki/New_Mexico_Campaign">
+                <a href="https://en.wikipedia.org/wiki/New_Mexico_Campaign" target="_blank">
                   <li>New Mexico Campaign</li>
                 </a>
               </ul>
@@ -175,16 +175,16 @@
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-                <a href="http://www.pbs.org/weta/thewest/people/a_c/chiefjoseph.htm">
+                <a href="http://www.pbs.org/weta/thewest/people/a_c/chiefjoseph.htm" target="_blank">
                   <li>Chief Joseph</li>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Battle_of_Bear_Paw">
+                <a href="https://en.wikipedia.org/wiki/Battle_of_Bear_Paw" target="_blank">
                   <li>Battle of Bear Paw Mountain</li>
                 </a>
-                <a href="http://www.pbs.org/weta/thewest/people/a_c/crazyhorse.htm">
+                <a href="http://www.pbs.org/weta/thewest/people/a_c/crazyhorse.htm" target="_blank">
                   <li>Chief Crazy Horse</li>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek_(1876)">
+                <a href="https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek_(1876)" target="_blank">
                   <li>Battle of Cedar Creek</li>
                 </a>
               </ul>
@@ -266,16 +266,16 @@
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-                <a href="https://www.worldcat.org/title/riding-point-for-patton-the-fifth-infantry-regiment-in-world-war-ii/oclc/16635072">
+                <a href="https://www.worldcat.org/title/riding-point-for-patton-the-fifth-infantry-regiment-in-world-war-ii/oclc/16635072" target="_blank">
                   <li>BOOK: "Riding Point For Patton" by Gerald McMahon</li>
                 </a>
-                <a href="https://www.worldcat.org/title/my-brother-hail-and-farewell/oclc/260222720&referer=brief_results">
+                <a href="https://www.worldcat.org/title/my-brother-hail-and-farewell/oclc/260222720&referer=brief_results" target="_blank">
                   <li>BOOK: "My Brother, Hail And Fairwell" by Edward Zebrowski</li>
                 </a>
-                <a href="http://lylestorey.tripod.com/index.html">
+                <a href="http://lylestorey.tripod.com/index.html" target="_blank">
                   <li>71st Infantry Division</li>
                 </a>
-                <a href="https://remember.org/full_version.html">
+                <a href="https://remember.org/full_version.html" target="_blank">
                   <li>"The 71st Came to Gunskirchen Lager"</li>
                 </a>
               </ul>
@@ -346,10 +346,10 @@
             <div class="linkBox">
               <div class="linkTitle externalLink">EXTERNAL LINKS</div>
               <ul class="linkContent">
-                <a href="https://www.amazon.com/exec/obidos/ASIN/1563115883/qid%3D975025740/104-0489905-1741534">
+                <a href="https://www.amazon.com/exec/obidos/ASIN/1563115883/qid%3D975025740/104-0489905-1741534" target="_blank">
                   <li>BOOK: "Hills of Sacrifice: The 5th RCT in Korea" by Michael P. Slater</li>
                 </a>
-                <a href="https://www.amazon.com/exec/obidos/ASIN/1563115883/qid%3D975025740/104-0489905-1741534">
+                <a href="https://heritagebooks.com/products/101-k3487" target="_blank">
                   <li>BOOK: "Thirty-Six Points: A Novel of the Korean War" by Samuel P. Kier</li>
                 </a>
               </ul>

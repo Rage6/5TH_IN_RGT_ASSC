@@ -18,3 +18,37 @@
   height:75px;
   width:75px;
 }
+
+.troublesBox {
+  display: none;
+}
+
+.searchBttnRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchBttnRow div {
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 1%;
+  color: black;
+}
+
+.searchBttnRow div:last-child {
+  color: white;
+  background-color: black;
+}
+
+.categoryBox {
+  display: none;
+}
+
+.allSearchResults {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 5px 1%;
+  height: 100px;
+  overflow-y: scroll;
+}

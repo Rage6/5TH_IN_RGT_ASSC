@@ -70,8 +70,8 @@
                         <div>
                           Select a category to search by, enter the desired name or year, and click 'FIND'</b>'.
                         </div>
-                        <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
-                        <div id="troublesBox">
+                        <!-- <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
+                        <div id="troublesBox" class="troublesBox">
                           <ol>
                             <li>
                               The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
@@ -80,9 +80,9 @@
                               Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
                             </li>
                           </ol>
-                        </div>
+                        </div> -->
                         <div class="card-body">
-                          <div style="display:flex;justify-content:space-around">
+                          <div class="searchBttnRow">
                             <div data-category="first">First Name</div>
                             <div data-category="last">Last Name</div>
                             <div data-category="year">Year</div>
@@ -106,7 +106,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-body">
+                        <div class="allSearchResults">
                           @foreach ($final_all_users as $one_user)
                             <div
                               data-user="{{ $one_user->id }}"
@@ -122,7 +122,7 @@
                                     data-end="{{ $one_range[1] }}">{{ $one_range[0] }} - {{ $one_range[1] }}</div>
                                 @endforeach
                               </div>
-                              <div class="row">
+                              <div>
                                 <a href="home/view/{{ $one_user->id }}">
                                   <button class="btn rounded-circle border-success">
                                     P
@@ -136,6 +136,17 @@
                               </div>
                             </div>
                           @endforeach
+                        </div>
+                        <div>Trouble searching? <u id="troublesBttn" style="cursor:pointer">Click here</u></div>
+                        <div id="troublesBox" class="troublesBox">
+                          <ol>
+                            <li>
+                              The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
+                            </li>
+                            <li>
+                              Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>

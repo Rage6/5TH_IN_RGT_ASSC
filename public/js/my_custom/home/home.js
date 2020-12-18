@@ -1,7 +1,7 @@
 $(document).ready(() => {
   // console.log("This is a test of the home.js file");
 
-  $(".categoryBox").css('display','none');
+  // $(".categoryBox").css('display','none');
 
   // Shows the selected
   const showCategorySearch = (category) => {
@@ -12,12 +12,16 @@ $(document).ready(() => {
     } else {
       thisCategory = event.target.dataset.category;
     };
+    $("[data-category]").css('color','black').css('background-color','white');
     if (thisCategory == 'first') {
       $("#firstBox").css('display','flex');
+      $("[data-category=first]").css('color','white').css('background-color','black');
     } else if (thisCategory == 'last') {
       $("#lastBox").css('display','flex');
+      $("[data-category=last]").css('color','white').css('background-color','black');
     } else {
       $("#yearBox").css('display','flex');
+      $("[data-category=year]").css('color','white').css('background-color','black');
     };
   };
 
@@ -86,10 +90,8 @@ $(document).ready(() => {
   // Shows or hides a selected element by clicking
   const showGenericBox = (boxElement,displayType) => {
     if ($(boxElement).css('display') == 'none') {
-      console.log("The display was none");
       $(boxElement).css('display',displayType);
     } else {
-      console.log("The display wasn't none");
       $(boxElement).css('display','none');
     };
   };

@@ -19,20 +19,16 @@
                     <div class="form-group">
                       {{ $view_user->first_name }} {{ $view_user->last_name }}
                     </div>
-                    <div class="row">
+                    <div class="card">
                       @if ($view_user->current_img)
-                        <!-- <div class="img-thumbnail rounded float-left w-50" style="background-image: url('{{ $view_user->current_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div> -->
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $view_user->current_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $view_user->current_img }}?t=<?php echo(time()); ?>');"></div>
                       @else
-                        <!-- <img class="img-thumbnail rounded float-right w-50" src="/uploads/images/profile-default.jpg"/> -->
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('/uploads/images/profile-default.jpg'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                       @endif
                       @if ($view_user->veteran_img)
-                        <!-- <div class="img-thumbnail rounded float-right w-50" style="background-image: url('{{ $view_user->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div> -->
-                        <div class="img-thumbnail rounded float-left w-50" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $view_user->veteran_img }}?t=<?php echo(time()); ?>'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $view_user->veteran_img }}?t=<?php echo(time()); ?>')"></div>
                       @else
-                        <!-- <img class="img-thumbnail rounded w-50" src="/uploads/images/profile-default.jpg"/> -->
-                        <div class="img-thumbnail rounded float-right w-50" style="background-image: url('/uploads/images/profile-default.jpg'); background-size:cover; background-position: center; min-width: 100px; min-height: 300px"></div>
+                        <div id="secondaryImg" class="secondaryImg" data-time="veteran" style="background-image: url('/uploads/images/profile-default.jpg')"></div>
                       @endif
                     </div>
                     <div>
@@ -47,6 +43,11 @@
                         @endif
                       </div>
                     </div>
+                    <a href="/home/message/{{ $view_user->id }}">
+                      <div>
+                        Message {{ $view_user->first_name }}
+                      </div>
+                    </a>
                     <button class="btn">
                       <a href="{{ route('home') }}">
                         {{ __('BACK') }}

@@ -106,17 +106,6 @@
                             </div>
                           </div>
                         </div>
-                        <!-- <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
-                        <div id="troublesBox" class="troublesBox">
-                          <ol>
-                            <li>
-                              The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
-                            </li>
-                            <li>
-                              Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
-                            </li>
-                          </ol>
-                        </div> -->
                         <div class="allSearchResults">
                           @foreach ($final_all_users as $one_user)
                             <div
@@ -148,7 +137,7 @@
                             </div>
                           @endforeach
                         </div>
-                        <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
+                        <div>Trouble searching? <u id="troublesBttn" style="cursor:pointer">Click here</u></div>
                         <div id="troublesBox" class="troublesBox">
                           <ol>
                             <li>

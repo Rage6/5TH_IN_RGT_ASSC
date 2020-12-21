@@ -70,22 +70,11 @@
                         <div>
                           Select a category to search by, enter the desired name or year, and click 'FIND'</b>'.
                         </div>
-                        <!-- <div>Trouble searching? <u id="troublesBttn">Click here</u></div>
-                        <div id="troublesBox" class="troublesBox">
-                          <ol>
-                            <li>
-                              The name you enter must completely match a member's name in the database for it to be displayed. This means entering 'Sam' will not show you 'Samuel', and 'Bobby' will not show you 'Bob'.
-                            </li>
-                            <li>
-                              Enter a single year when using the 'Year' category. It will show you every member that was an active duty soldier assigned to the 5th Regiment at some point during that year. Trying to include a months or day will only result in an empty list.
-                            </li>
-                          </ol>
-                        </div> -->
                         <div class="card-body">
                           <div class="searchBttnRow">
-                            <div data-category="first">First Name</div>
-                            <div data-category="last">Last Name</div>
-                            <div data-category="year">Year</div>
+                            <div class="searchBttn" data-category="first">First Name</div>
+                            <div class="searchBttn" data-category="last">Last Name</div>
+                            <div class="searchBttn" data-category="year">Year</div>
                           </div>
                           <div class="categoryBox" id="firstBox">
                             <input id="searchByFirst" class="col-lg-8" type="text" placeholder="Enter a first name"/>

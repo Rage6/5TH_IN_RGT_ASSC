@@ -25,7 +25,7 @@
 
 .searchBttnRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .searchBttnRow div {
@@ -34,6 +34,8 @@
   border-radius: 10px;
   padding: 5px 1%;
   color: black;
+  text-align: center;
+  width: 30%;
 }
 
 .searchBttnRow div:last-child {

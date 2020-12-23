@@ -11,9 +11,13 @@ class HistoryTopicController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function michelin_rubber_plant_battle()
     {
-        //
+      return view('history_topic',[
+        'style' => 'history_style',
+        'js' => '/js/my_custom/history/history.js',
+        'content' => 'michelin_rubber_plant_battle_content'
+      ]);
     }
 
     /**

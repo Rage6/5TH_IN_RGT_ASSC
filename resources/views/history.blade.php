@@ -430,7 +430,7 @@
               <a href="http://bobcat.ws/ben-cui-tribute.html">
                 <li>Ben Cui Tribute</li>
               </a>
-              <a href="http://bobcat.ws/michelin-firefight.html">
+              <a href="{{ url('/history/topic/michelin-rubber-plant-battle') }}">
                 <li>Michelin Rubber Plant Battle</li>
               </a>
               <a href="http://bobcat.ws/rifle.shtml">

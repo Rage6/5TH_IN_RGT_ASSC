@@ -8,6 +8,12 @@
   width: 180px;
 }
 
+.timelineBar a div {
+  font-size: 1.2rem;
+  width: 180px;
+  height: 100%;
+}
+
 .segmentLinks {
   display: flex;
   justify-content: space-between;

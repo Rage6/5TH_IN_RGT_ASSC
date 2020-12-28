@@ -20,6 +20,15 @@ class HistoryTopicController extends Controller
       ]);
     }
 
+    public function the_rifle_and_the_myth()
+    {
+      return view('history_topic',[
+        'style' => 'history_style',
+        'js' => '/js/my_custom/history/history.js',
+        'content' => 'the_rifle_and_the_myth_content'
+      ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

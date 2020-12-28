@@ -46,5 +46,6 @@ Route::prefix('history')->group(function() {
   });
   Route::prefix('topic')->group(function() {
     Route::get('michelin-rubber-plant-battle','HistoryTopicController@michelin_rubber_plant_battle');
+    Route::get('the-rifle-and-the-myth','HistoryTopicController@the_rifle_and_the_myth');
   });
 });

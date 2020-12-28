@@ -433,7 +433,8 @@
               <a href="{{ url('/history/topic/michelin-rubber-plant-battle') }}">
                 <li>Michelin Rubber Plant Battle</li>
               </a>
-              <a href="http://bobcat.ws/rifle.shtml">
+              <a href="{{ url('/history/topic/the-rifle-and-the-myth') }}">
+              <!-- <a href="http://bobcat.ws/rifle.shtml"> -->
                 <li>The Rifle And The Myth</li>
               </a>
             </ul>

@@ -113,484 +113,397 @@
               Neillsville, Wisconsin</br>
             </p>
             <div class="quoteSection">
-              <div>
+              <p>
                 Hearings before the Special Subcommittee on the M-16 Rifle Program of the Committee On Armed Services
-              </div>
-              <div>House of Representatives</div>
-              <div>Ninetieth Congress</div>
-              <div>First Session</div>
-              <div>May 15, 16, 31, June 21, July 25,26,27,</div>
-              <div>August 8, 9, and 22, 1967</div>
-              <div>
+              </p>
+              <p>
+                House of Representatives
+              </p>
+              <p>
+                Ninetieth Congress
+              </p>
+              <p>
+                First Session
+              </p>
+              <p>
+                May 15, 16, 31, June 21, July 25,26,27,
+              </p>
+              <p>
+                August 8, 9, and 22, 1967
+              </p>
+              <p>
                 (Because of the length of the text of the hearings I am editing them so that parts not pertaining to the jamming of the M-16 rifle are excluded. Highlighting and underlining are mine.)
-              </div>
-              <div>
+              </p>
+              <p>
                 Washington, D.C., Monday, May 15, 1967</br>
                 The subcommittee met at 10:15 a.m., in room 2216, Rayburn Building, Washington, D.C.
-              </div>
-              <div>
+              </p>
+              <p>
                 Hon. Richard H. Ichord, Chairman of the subcommittee presiding. Other members are Hon. Speedy Long, of Louisiana, and the Hon. William Bray, of Indiana. The Chair inserted into the record the letter establishing and outlining the jurisdiction of this subcommittee.
-              </div>
-              <div>
+              </p>
+              <p>
                 Washington, D.C., May 3, 1967
-              </div>
-              <div>
+              </p>
+              <p>
                 Dear Mr. Ichord: Pursuant to Committee Resolution 4, and after consultation with the Hon. William H. Bates, I hereby appoint you as Chairman of a special subcommittee to make inquiry into the development, production, distribution and sale of M-16 rifles.
-              </div>
-              <div>
+              </p>
+              <p>
                 The subcommittee should make thorough inquiry into the history of the M-16 rifle and its present rate of production.
-              </div>
-              <div>
+              </p>
+              <p>
                 The subcommittee should also look into foreign sales of this rifle and be ready to advise the Committee as to whether the present sole-source is commensurate with sound national security. If it is determined that another source is desirable, the subcommittee should also be ready to comment on the cross licensing arrangements that would be necessary.
-              </div>
-              <div>
+              </p>
+              <p>
                 In this investigation, the subcommittee should determine rate of production, number of rifles now supplied to our troops, the number to be supplied, the adequacy of the rifle itself and any proposals for a follow-on weapon.
-              </div>
-              <div>
+              </p>
+              <p>
                 The Hon. Speedy Long and the Hon. William Bray will serve with you on this subcommittee. Mr Earl Morgan, of the Committee staff, is assigned to work with you and your subcommittee on this inquiry.
-              </div>
-              <div>
+              </p>
+              <p>
                 Sincerely,</br>
                 L. Mendel Rivers</br>
                 Chairman
-              </div>
-              <div>
+              </p>
+              <p>
                 Hearings were then held with Dr. Robert A. Brooks, Assistant Secretary of the Army (Installations and Logistics); Maj. Gen. Henry A. Miley and Lt. Col. John D. White. The matters discussed were mainly the development and initial procurement of the M-16 rifle by the Army and Air Force. Of interest is testimony starting on page 4442:
-              </div>
-              <div>
-                Mr. Ichord: Let me ask you this: What kind of training do you give the individual soldier in this rifle?
-              </div>
-              <div>
-                Dr. Brooks: There is a program of instruction, both of course in the firing and the maintenance of the rifle. I have an officer with me who is very experienced in this, and I would like to ask him if he could comment on that question.
-              </div>
-              <div>
-                Colonel White: Mr. Chairman, in the conversion of a battalion with all M-14 rifles, the old family rifles, to the M-16, we had a rather extensive step-by-step training program in the firing, care, maintenance, assembly, disassembly, of the M-16 rifle, which all troops were equipped with. ... We found the weapon very easy to train troops in maintenance of it and its firing.
-              </div>
-              <div>
-                Mr. Ichord: Thank you very much Colonel. The reason why I asked that question is because of the television report that was made shortly after this committee was appointed, and I am speaking of the NBC Brinkley-Huntley show, where one commentator from Vietnam stated that several men were seen throwing the M-16 away, and there was a statement on the part of one sergeant to the effect that two of his men were killed because their guns jammed.</br>
+              </p>
+              <p>
+                <span>Mr. Ichord:<span> Let me ask you this: What kind of training do you give the individual soldier in this rifle?
+              </p>
+              <p>
+                <span>Dr. Brooks:<span> There is a program of instruction, both of course in the firing and the maintenance of the rifle. I have an officer with me who is very experienced in this, and I would like to ask him if he could comment on that question.
+              </p>
+              <p>
+                <span>Colonel White:<span> Mr. Chairman, in the conversion of a battalion with all M-14 rifles, the old family rifles, to the M-16, we had a rather extensive step-by-step training program in the firing, care, maintenance, assembly, disassembly, of the M-16 rifle, which all troops were equipped with. ... We found the weapon very easy to train troops in maintenance of it and its firing.
+              </p>
+              <p>
+                <span>Mr. Ichord:<span> Thank you very much Colonel. The reason why I asked that question is because of the television report that was made shortly after this committee was appointed, and I am speaking of the NBC Brinkley-Huntley show, where one commentator from Vietnam stated that several men were seen throwing the M-16 away, and there was a statement on the part of one sergeant to the effect that two of his men were killed because their guns jammed.</br>
                 Now I know this report has gone back to General Walt and personally I have a great deal of confidence in General Walt. I know he was in on the testing and evaluation of the rifle, and he has stated that at least 95 percent of the Marines are highly in favor of the M-16 rifle.
-              </div>
-              <div>
+              </p>
+              <p>
                 ................
-              </div>
-              <div>
+              </p>
+              <p>
                 But one of the young men did state that when the rifle first arrived that they had, I believe, a 25 percent incident of jamming, when the rifle first arrived in South Vietnam. He attributed the jamming to the failure of the military to provide them with proper cleaning equipment. He kept talking about not having a bore brush, that would get into the chamber mechanism in order to adequately clean the rifle. I was wondering if instruction was offered at the time the rifle was first delivered?
-              </div>
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Brooks:</span><span class="style2"> Colonel White, I believe,
-has been speaking to the experience with the units that converted to the
-rifle prior to going to Vietnam; isn't that correct Colonel White?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel White:</span><span class="style2"> That is correct, sir.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3"> Dr. Brooks:</span><span class="style2"> There were also a certain
-number of units, Mr Chairman, as I pointed out, that went to Vietnam originally
-equipped with the M-14. General Westmoreland's request in effect was to
-exchange those M-14's in our infantry maneuver battalions for the M-16's.
-Those rifles were exchanged in country. They were sent to Vietnam, and
-the troops exchanged their M-14's for M-16's there.
-<br>As far as the adequacy of support in terms of parts, cleaning equipment,
-and so forth, we had no indication that there was any lack of actual quantities
-in-theater. There may have been a distribution problem when the actual
-unit got its rifle. </span> <b><span class="style2">There was a team sent when we got these reports,
-as we did in the fall of last year when the units were first issued the
-rifle, to cover this matter of proper training and maintenance and operation
-of the rifle in the field. That appeared to solve the issue, </span> <u>
-<span class="style2">because
-since then we have had no such reports through Army channels, at any rate,
-of any problems with jamming or malfunctioning of the rifle</span></u><span class="style2">.</span></b><span class="style2"> This
-was a problem that occurred just when the exchange was taking place in-country.
-</span>
-<p class="style2">...............................
-<br>The text continues on the subject of training and supplying the M-16
-to support troops and the sale of the weapon to foreign countries.&nbsp;
-<br>............
-<br>Then starting on page 4451:
-<br>.................
-<br>&nbsp;
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> I think I will have at this
-time counsel read into the record some of the interviews which we had with
-35 or 40 returnees from South Vietnam at Fort Benning, Friday, giving their
-experiences with the M-16 weapon.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Mr. Chairman, the first
-one is from an officer who was commander of the 5th Battalion, 7th. Cavalry.
-He served in Vietnam from August 1966 to January 1967, and he stated that
-he did experience, in his unit,</span><span class="style3"> a couple of failures to extract the
-spent round</span><span class="style2">. .... It was his opinion that this is the best weapon available
-for Vietnam. He had no complaints, and personally had encountered no problems
-with the M-16 rifle. .....
-<br>Another officer, 1st Battalion, 327th Infantry, 101st Airborne, from
-October 1965 to October 1966 his unit saw continuous action in the field,
-.... Any malfunctions were normally caused by dirty ammunition or a bent
-magazine. This causes the gun to fail to extract the spent round or fail
-to feed the round into the chamber.
-<br>.... Another Captain with the 25th Infantry Division experienced no
-problems in his year in Vietnam. He thought that the M-16 was an outstanding
-weapon. </span><span class="style3">The problem of malfunctions are caused by failure to keep the
-rifle clean.</span> <span class="style2">
-<br>Another staff Sergeant with the 1st Battalion of 503rd Infantry served
-in Vietnam from May 1965 to February 1966, says that he preferred the M-16
-in spite of extraction problems. ...
-<br>One captain cited a problem of jamming which was caused by </span>
-<span class="style3">keeping
-the cartridge in the chamber overnight, or while on extended mission.</span>
-<span class="style2">
-<br>In summary, Mr. Chairman, of the main problems or malfunctions discovered
-in our interviews, the greatest single malfunction was the failure to extract.
-This was caused by any number of things; 1, a dirty round; 2, the cartridge
-expands from being left in the chamber; or 3, the extractor doesn't get
-enough of the rim of the cartridge. .....
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> I have additional questions,
-Dr. Brooks. Who makes the ammunition for the M-16?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Brooks:</span><span class="style2"> There are a number of producers
-of the ammunition, ..... The following is a list of the current producers
-of 5.56 ammunition:
-<br>Remington Arms Company - Bridgeport, Connecticut
-<br>Olin Mathieson Chemical Corp. - East Alton, Illinois
-<br>Olin Mathieson Chemical Corp. - New Haven, Connecticut
-<br>Federal Cartridge Corp. - Minneapolis, Minnesota
-<br>Lake City Army Ammunition Plant - East Independence, Missouri
-<br>Twin Cities Army Ammunition Plant - New Breghton, Minnesota
-<br>&nbsp;
-</span>
-<p class="style2">The text continues with discussion of the sale of weapons and ammunition
-to foreign countries and the status of the SAWS program. (Small Arms Weapons
-Study) and also the fact that Colt was the only manufacturer being used
-at the time for the M-16.&nbsp;
-<br>Also discussed is the lubricant "Dri-Slide."
-<br>.............
-<br>&nbsp;
-<br>&nbsp;
-<br>
-<br>
-<center>
-<p>&nbsp;<span class="style3">Washington, D.C., Wednesday, June 21, 1967</span></center>
+              </p>
+              <p>
+                <span>Dr. Brooks:</span> Colonel White, I believe, has been speaking to the experience with the units that converted to the rifle prior to going to Vietnam; isn't that correct Colonel White?
+              </p>
+              <p>
+                <span>Colonel White:</span> That is correct, sir.
+              </p>
+              <p>
+                <span>Dr. Brooks:</span> There were also a certain number of units, Mr Chairman, as I pointed out, that went to Vietnam originally equipped with the M-14. General Westmoreland's request in effect was to exchange those M-14's in our infantry maneuver battalions for the M-16's. Those rifles were exchanged in country. They were sent to Vietnam, and the troops exchanged their M-14's for M-16's there.
+                </br>
+                As far as the adequacy of support in terms of parts, cleaning equipment, and so forth, we had no indication that there was any lack of actual quantities in-theater. There may have been a distribution problem when the actual unit got its rifle. There was a team sent when we got these reports, as we did in the fall of last year when the units were first issued the rifle, to cover this matter of proper training and maintenance and operation of the rifle in the field. That appeared to solve the issue, <u>because since then we have had no such reports through Army channels, at any rate, of any problems with jamming or malfunctioning of the rifle</u>. This was a problem that occurred just when the exchange was taking place in-country.
+              </p>
+              <p>
+                ...............................
+              </p>
+              <p>
+                The text continues on the subject of training and supplying the M-16 to support troops and the sale of the weapon to foreign countries.
+              </p>
+              <p>............</p>
+              <p>
+                Then starting on page 4451:
+              </p>
+              <p>
+                .................
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I think I will have at this time counsel read into the record some of the interviews which we had with 35 or 40 returnees from South Vietnam at Fort Benning, Friday, giving their experiences with the M-16 weapon.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Mr. Chairman, the first one is from an officer who was commander of the 5th Battalion, 7th. Cavalry. He served in Vietnam from August 1966 to January 1967, and he stated that he did experience, in his unit, a couple of failures to extract the spent round. .... It was his opinion that this is the best weapon available for Vietnam. He had no complaints, and personally had encountered no problems with the M-16 rifle. ..... Another officer, 1st Battalion, 327th Infantry, 101st Airborne, from October 1965 to October 1966 his unit saw continuous action in the field, .... Any malfunctions were normally caused by dirty ammunition or a bent magazine. This causes the gun to fail to extract the spent round or fail to feed the round into the chamber. .... Another Captain with the 25th Infantry Division experienced no problems in his year in Vietnam. He thought that the M-16 was an outstanding weapon. The problem of malfunctions are caused by failure to keep the rifle clean. Another staff Sergeant with the 1st Battalion of 503rd Infantry served in Vietnam from May 1965 to February 1966, says that he preferred the M-16 in spite of extraction problems. ... One captain cited a problem of jamming which was caused by keeping the cartridge in the chamber overnight, or while on extended mission.
+                </br>
+                In summary, Mr. Chairman, of the main problems or malfunctions discovered in our interviews, the greatest single malfunction was the failure to extract. This was caused by any number of things; 1, a dirty round; 2, the cartridge expands from being left in the chamber; or 3, the extractor doesn't get enough of the rim of the cartridge.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I have additional questions, Dr. Brooks. Who makes the ammunition for the M-16?
+              </p>
+              <p>
+                <span>Dr. Brooks:</span> There are a number of producers of the ammunition, ..... The following is a list of the current producers of 5.56 ammunition:
+                <ul>
+                  <li>Remington Arms Company - Bridgeport, Connecticut</li>
+                  <li>Olin Mathieson Chemical Corp. - East Alton, Illinois</li> <li>Olin Mathieson Chemical Corp. - New Haven, Connecticut</li> <li>Federal Cartridge Corp. - Minneapolis, Minnesota</li>
+                  <li>Lake City Army Ammunition Plant - East Independence, Missouri</li>
+                  <li>Twin Cities Army Ammunition Plant - New Breghton, Minnesota</li>
+                </ul>
+                <p>
+                  The text continues with discussion of the sale of weapons and ammunition to foreign countries and the status of the SAWS program. (Small Arms Weapons Study) and also the fact that Colt was the only manufacturer being used at the time for the M-16. Also discussed is the lubricant "Dri-Slide."
+                </p>
+                <p>
+                  .............
+                </p>
 
-<p class="style2">The subcommittee met at 9:30 a.m. in executive session, Hon. Richard
-H. Ichord presiding.
-<p><span class="style3">&nbsp;&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Won't you come forward Mr.
-Stoner, and have a seat there, and we will proceed informally.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> All right.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Have you ever appeared
-before a congressional committee before - or is this your first time?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Not formally, no.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Yes. Well, we are proceeding
-a little bit differently than we usually do. Usually we require the witness
-to submit a written statement.
-<br>I think this morning, Mr. Stoner, to kick the matter off we would like
-for you to just informally give us your version of the development of the
-M-16 and what part you played in it. And you may proceed as you wish.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> You want the historical
-end of it?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Yes.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">(Stoner then gives a background
-of development of the M-16 starting in 1957.)
-<br>Then starting on page 4546:
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Are you acquainted with
-the new buffer that has those ball bearings?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> No, sir. I have only heard
-about it.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> Were you satisfied with the
-buffer when it was originally designed?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Yes. The only change that
-was made to the buffer - and it was in this test here - was the fact that
-we put less bearing area on it to keep it from accumulating sand. In other
-words, we put longitudinal guides on it, rather than have a circumferential
-bearing all the way around the buffer in the tube to run it. We cleared
-it so the sand could go through easier, and that was the only thing we
-did.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> There are only a few things
-that can cause malfunction, when you get down to the brass tacks. It is
-one that has been worrying us a great deal; </span><span class="style3">the extractor pulls the
-rim off the cartridge.</span><span class="style2"> Wasn't that the way it was?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Or cuts through it.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> Or cuts through it.&nbsp;
-<br></span><span class="style3">Now, could that be faulty ammunition,</span><span class="style2"> or could it be improper
-measurements in the chamber, or a bad coefficient of expansion in the metal?
-I would like to hear some discussion as to that, because that is a problem
-that has been plaguing them.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr Stoner:</span><span class="style2"> Well, while I was working
-on the program the only occurrence that I saw of that particular thing
-, a failure to extract was when they were in adverse conditions test, when
-there was a lot of sand or mud in the chamber, and the weapon was fired.
-This happened very rarely.
-<br>As I said before, sand in the chamber tends to lock the cartridge in,
-due to firing - the cartridge case expands, the brass isn't very hard,
-it embeds the sand grains into the brass, and it also pushes out and more
-or less locks it into the chamber walls. This causes a case to be literally
-locked into the gun system at the moment of extraction.
-<br>This occurred in a few instances in very adverse conditions, but this
-would be in our standard Army sand or mud test, and it happened on a lot
-of their weapons. It wasn't just on the M-15 - I mean the AR-15, or the
-M-16 as it is known now.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> How far could you increase
-the chamber tolerance to take care of that?
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> That doesn't do any good,
-because the cartridge case has about 50,000 pounds pressure on it, and
-it will expand the cartridge out to whatever the chamber might be. It doesn't
-really do too much good there.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; The other thing that can cause this are rough
-chambers, in other words, where there are toolmarks cut into the chamber
-</span><span class="style3">at
-the time of manufacturing</span><span class="style2">, and I doubt whether you would ever get a
-weapon like that through acceptance test, because it shows up worse when
-the gun is new, because these toolmarks in the chamber are sharper at that
-moment and then tend to smooth up in time.&nbsp;
-<br>So this would cause a gun that would be very apparent to anyone testing
-the weapon or accepting it at the time ---
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> As a matter of interest,
-I might tell you that we ran across one boy who said he had used an emery
-board in the chamber, and after that his weapon didn't have extraction
-problems. Of course, he may have been getting the dirt out of it.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">Well, this is true. There
-are some other things that enter into this.
-<br>For instance, chamber roughness conditions,</span><span class="style3"> the cycling rate of
-the weapon</span><span class="style2">, has an awful lot to do with extraction problems.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Then he could have solved
-his problem?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> What?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Then he really could have
-solved his problem by smoothing it out, then?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Well, probably, but he
-could also aggravate it if he put the marks in the wrong direction.&nbsp;
-<br>Like I said, the cyclic rate, if it is excessive, will tend to open
-a weapon too soon when there is still considerable pressure in the chamber.
-This means ---
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> What would that do, if you
-tried to open it with pressure too quick?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Well the cartridge tends
-to stick - under high residual, pressure in the barrel, and of course with
-this too soon action you also have a higher bolt velocity. In other words,
-your bolt is trying to open at higher speeds, so you have an aggravated
-condition&nbsp; where the cartridge is tending to stick in there a little
-longer or a little harder, and you are also giving it a harder jerk by
-driving the bolt faster.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> Then a faster rate of fire
-could cause that situation?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span> <u>
-<span class="style3">That is probably
-one of the worse conditions you can get, by increasing the cyclic rate.</span></u>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray: </span>
-<span class="style2">If you have too high a rate
-of fire for this rifle - </span><span class="style3">Mr. Ichord: You are aware of the fact that
-this buffer slows this cyclic rate down about 100 rounds a minute.</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span>
-<span class="style3">Only the closing cycle,
-and it has nothing to do with the opening cycle.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Oh.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: And the opening cycle - I would
-think if this buffer is the type I can envision they put in there, it would
-actually - it gives you longer buffer time, probably.</span>
-<span class="style2">
-<br>In other words, at the end of the cycle, at the stroke when it hits
-the back of the gun and gives you a slower return time - but I don't know
-- the only way you can normally change the cyclic rate on opening is by
-the gas port size in this weapon, or change the bolt carrier to give more
-delay in the opening cam, or add weight to the recoiling parts, that rotates
-the bolt, or the ammunition change. In other words, if you change any of
-those things, you can change the cyclic rate.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">At the time the M-16 underwent
-the test at Fort Benning, were they using extruded propellant?
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp;&nbsp; Mr. Stoner:</span><span class="style2"> Yes, sir.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Or ball propellant?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: The gun was designed only to
-fire IMR type powder, which is an extruded propellant, which was made at
-the time by Du Pont.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> You seem to be leading
-into the opinion that the type of powder we are using may have or may be
-the cause of some of the trouble.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> Using ball powder, anyhow.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Well, the ball powder -
-I am acquainted with that. </span><span class="style3">I was asked about it some years ago by some
-people in the government</span><span class="style2">, my opinion on what was going to happen when
-they used it. I will go back a little bit.
-<br>When the Army got serious about this and they wanted to standardize
-the ammunition and get up a technical data package on the ammunition, at
-the time, through all the tests, and at the beginning of the Air Force
-adoption of the weapon, the ammunition was a commercial buy from Remington.
-We didn't have a regular tech data package. But when the Army got into
-it, then they set up a board to make up a tech data package in the ammunition.
-</span><span class="style3">They
-made some changes in the ammunition, and I was asked to look at the ammunition</span><span class="style2">
-technical data package</span><span class="style3"> after it was made,</span><span class="style2"> which I did. I told them,
-or this party, that in my opinion it would be very, very risky ---
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Was that ball?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> This was ball propellant,
-and also - they did two things.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> You recommended against
-ball propellants?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> The reason I did was they
-were getting into this thing heavily and the fact that we had years of
-firing, both in Vietnam and this country, using the IMR propellant, which
-the weapon was designed to fire in the first place.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> IMR is the ---
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> That is the extruded propellant.
-It is called improved military rifle powder, IMR.
-<br>The reason for staying away from the ball was the fact that we had
-better results through some of the testing that we did with IMR. And those
-were cleaner burning characteristics, and there seems to be less smoke,
-dirt and so forth that come out of the IMR propellants.
-<br>The other thing was that early in this program, just prior to the Fort
-Benning test, Winchester asked for and got a contract the same as Armalite,
-to submit some rifles to fire a .22 caliber bullet, and they were actually
-tested after we got through at Benning. Their first test rounds of ammunition
-had ball propellant in it, but they gave up on it. I asked Winchester why
-they gave up on it, and the only answer I got was that they had troubles
-with that particular ball propellant and they didn't want to go into the
-time it would take maybe to develop some powder specifically for this rifle.
-<br>So I think they ended up using IMR.
-<br>One of the problems they had was that in a very hot rifle the chamber
-pressures went excessive, so they had to back off. So all the Winchester
-ammunition that was used on the Benning test in 1959, to my knowledge,
-was loaded with the Du Pont powder or the Remington powder.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> Would that additional heat
-contribute to causing a shell to stick in the chamber?
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> This could - well, what
-they run into is the temperature went up. Now, this was back a long time
-ago. This is another batch, or another type of ball propellant. They told
-me that their chamber pressures when they first fire it in a hot gun -in
-other words, after you fired the gun 100 or 200 times - were getting up
-to the cook-off temperatures - in other words, where it would be liable
-to go off spontaneously. These pressures were going up to and exceeding
-the proof pressures, which is around 60-some-odd, 58,000 pounds per square
-inch, and they were, of course, very leery of it, because it is getting
-up into a rather dangerous condition.&nbsp;
-<br>So they decided rather than try to develop a ball propellant at that
-time for this test, they just did it the easy way, took the easy way out,
-and took the IMR propellants.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Bray:</span><span class="style2"> That is what you used, IMR?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">That is what we used. Like
-I said, we had better luck with it. The biggest problem ---
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Let me at this time inject,
-Mr. Stoner.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">Yes, sir.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span>
-<span class="style3">Have you been called
-by the Army or the military into this problem in Vietnam?</span>
-<span class="style3">Have you
-gone to Vietnam and looked into this problem?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: No; I have not. I haven't been
-asked.</span><span class="style2"> In fact, for the last two years or so, most of this information
-that you are talking about, about a buffer, I can only speculate what that
-buffer is doing.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3"> Mr. Ichord:</span><span class="style2"> In the opinion of our experts,
-the buffer is really not getting at the basis of your problem, or of the
-problem. As you understand it, you would agree with that conclusion?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span>
-<span class="style3">Well, if you are talking
-about extraction problems, the buffer would have nothing to do with it.
-</span><span class="style2">The
-only thing is, the buffer, as I understand it, was to cut down the cyclic
-rate, and the cyclic rate was causing a lot of their problems.&nbsp;
-<br>In the development of the 63 weapons system - I am bringing this in
-only as a little sideline - the weapons that were submitted for the SAWS
-test which started a year ago - small arms weapons systems, or whatever
-it is called; I think you are aware of that - we started out in the 63
-system using the old ammunition which had the original primer and the IMR
-propellants. When the Army said, "No, we are going to use our ammunition,"
-</span><span class="style3">the
-cyclic rate of our weapons as it stood went up at least 200 rounds per
-minute.&nbsp;</span> <span class="style2">
-<br>The reason for this is very simple. It is the fact that the time pressure
-curve on the ball propellant is a more elongated curve. So what happens:
-At the point where the gas is tapped out through the barrel to operate
-the mechanism, the pressure is considerably higher on the ball propellant
-than it is on the IMR propellant.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Then the new buffer would
-just be compensating for the ball propellant?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Right; for the cyclic rate.
-It would help compensate on the cyclic rate overall. </span>
-<span class="style3">But now, if you
-don't change anything else, your opening cycle, in other words, the amount
-of time it takes to open the weapon, will remain constant. In other words,
-the first part of the cycle where the bolt opens, which is critical on
-the extraction of the weapon.&nbsp;</span> <span class="style2">
-<br>..................
-<br>Page 4555
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Long:</span><span class="style2"> Referring to the magazine
-problem, would the magazine be too high on the front side?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Well, in the magazine itself
-there are many things that could happen. It could be a dirty magazine.
-It could be one that the feed lips have been bent, that is the part up
-above that guides the round while it is being stripped out of the magazine,
-or faulty springs.
-<br></span><span class="style3">One thing I have seen there on television that could aggravate this
-is this trick that supposedly came out of the Korean War, of taping two
-magazines together.&nbsp;</span><span class="style2"> </span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Long:</span><span class="style2"> They do a lot of that.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span>
-<span class="style3">This is dynamite to
-any weapon. In fact, it is very poor practice,</span><span class="style2"> and the fact that a
-man will drop to the ground and fire</span><span class="style3">,</span><span class="style2"> and he jams that magazine
-down that has been taped on upside down into the dirt, and he can either
-fill it full of dirt or bend it, and then when he switches around, he is
-in for trouble.
-<br></span><span class="style3">This is something that ought to be discouraged by anybody in the
-field, because it is really tough on magazines.</span><span class="style2">
-</span>
-<p class="style2">&nbsp;&nbsp;&nbsp; ................................
-<p class="style2">Page 4557
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr Morgan:</span><span class="style2"> Mr. Chairman, could I ask
-a question on the cyclic rates?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Go ahead.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> And the effect of the cyclic
-rate on certain key parts of the weapon, such as the extractor spring.
-Would a high cyclic rate have an adverse effect on the extractor spring?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">Yes, it probably would,
-and probably the hardest part hit would be the extractor itself.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> How would it affect the
-extractor and how would it affect the spring?
-<br>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3"> Mr. Stoner: </span>
-<span class="style2">Well, the fact that the
-faster a weapon goes, the faster the extractor would work, snapping over
-the round of ammunition. The spring really shouldn't be too much different
-on the cyclic rate, I don't believe. But the extractor itself would be
-getting a lot harder jerk every time it pulled the cartridge case out.`&nbsp;
-<br>.....................
-</span>
-<p class="style2">Starting on Page 4558
-<p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:
-</span><span class="style2">On the ammunition, Mr. Chairman,
-I have just two more questions.
-<br>Are you familiar with the reasons stated by the Army for the changeover
-from the IMR to the ball powder? Do you have any first hand knowledge or
-second hand knowledge of that?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> Well, the only - I have
-a little first hand knowledge because I was approached after this ammunition
-inspection was made by a person, I think it is the Secretary of Defense's
-Office, in looking at the technical data package.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">When was this?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> This was at the time, I
-forget how long it was,</span><span class="style3"> but it is at least a couple of years ago</span><span class="style2">.
-He asked me my opinion on it, and I asked him why they were holding out
-for the ball propellant and they said, well this was more or less, as I
-could gather, a policy within the Army. They wanted to have everything
-ball propellant that they could in small arms.&nbsp;
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Because of the cost savings
-or what?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner: </span>
-<span class="style2">Well, I think this was
-one of their reasons, and the fact that it burned a little cooler and so
-forth.
-<br>Like I said before, I didn't advise it because we had already had over
-1,000 weapons in Vietnam that had gone through I thought, very well. These
-were the weapons that were sent over by ARPA, you know, prior to the adoption.
-I'm not sure of these times, but in that area of time.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> 1962?
-</span>
+                <p>
+                  Washington, D.C., Wednesday, June 21, 1967
+                </p>
+                <p>
+                  The subcommittee met at 9:30 a.m. in executive session, Hon. Richard H. Ichord presiding.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Won't you come forward Mr. Stoner, and have a seat there, and we will proceed informally.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> All right.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Have you ever appeared before a congressional committee before - or is this your first time?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Not formally, no.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Yes. Well, we are proceeding a little bit differently than we usually do. Usually we require the witness to submit a written statement. </br>
+                  I think this morning, Mr. Stoner, to kick the matter off we would like for you to just informally give us your version of the development of the M-16 and what part you played in it. And you may proceed as you wish.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> You want the historical end of it?
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Yes.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> (Stoner then gives a background of development of the M-16 starting in 1957.)</br>
+                  Then starting on page 4546:
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Are you acquainted with the new buffer that has those ball bearings?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> No, sir. I have only heard about it.
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> Were you satisfied with the buffer when it was originally designed?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Yes. The only change that was made to the buffer - and it was in this test here - was the fact that we put less bearing area on it to keep it from accumulating sand. In other words, we put longitudinal guides on it, rather than have a circumferential bearing all the way around the buffer in the tube to run it. We cleared it so the sand could go through easier, and that was the only thing we did.
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> There are only a few things that can cause malfunction, when you get down to the brass tacks. It is one that has been worrying us a great deal; the extractor pulls the rim off the cartridge. Wasn't that the way it was?
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Or cuts through it.
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> Or cuts through it. Now, could that be faulty ammunition, or could it be improper measurements in the chamber, or a bad coefficient of expansion in the metal? I would like to hear some discussion as to that, because that is a problem that has been plaguing them.
+                </p>
+                <p>
+                  <span>Mr Stoner:</span> Well, while I was working on the program the only occurrence that I saw of that particular thing, a failure to extract was when they were in adverse conditions test, when there was a lot of sand or mud in the chamber, and the weapon was fired. This happened very rarely.<br>
+                  As I said before, sand in the chamber tends to lock the cartridge in, due to firing - the cartridge case expands, the brass isn't very hard, it embeds the sand grains into the brass, and it also pushes out and more or less locks it into the chamber walls. This causes a case to be literally locked into the gun system at the moment of extraction.</br>
+                  This occurred in a few instances in very adverse conditions, but this would be in our standard Army sand or mud test, and it happened on a lot of their weapons. It wasn't just on the M-15 - I mean the AR-15, or the M-16 as it is known now.</br>
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> How far could you increase the chamber tolerance to take care of that?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> That doesn't do any good, because the cartridge case has about 50,000 pounds pressure on it, and it will expand the cartridge out to whatever the chamber might be. It doesn't really do too much good there.</br>
+                  The other thing that can cause this are rough chambers, in other words, where there are toolmarks cut into the chamber at the time of manufacturing, and I doubt whether you would ever get a weapon like that through acceptance test, because it shows up worse when the gun is new, because these toolmarks in the chamber are sharper at that moment and then tend to smooth up in time.</br>
+                  So this would cause a gun that would be very apparent to anyone testing the weapon or accepting it at the time ---
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> As a matter of interest, I might tell you that we ran across one boy who said he had used an emery board in the chamber, and after that his weapon didn't have extraction problems. Of course, he may have been getting the dirt out of it.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Well, this is true. There are some other things that enter into this.</br>
+                  For instance, chamber roughness conditions, the cycling rate of the weapon, has an awful lot to do with extraction problems.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Then he could have solved his problem?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> What?
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Then he really could have solved his problem by smoothing it out, then?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Well, probably, but he could also aggravate it if he put the marks in the wrong direction. Like I said, the cyclic rate, if it is excessive, will tend to open a weapon too soon when there is still considerable pressure in the chamber. This means ---
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> What would that do, if you tried to open it with pressure too quick?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Well the cartridge tends to stick - under high residual, pressure in the barrel, and of course with this too soon action you also have a higher bolt velocity. In other words, your bolt is trying to open at higher speeds, so you have an aggravated condition&nbsp; where the cartridge is tending to stick in there a little longer or a little harder, and you are also giving it a harder jerk by driving the bolt faster.
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> Then a faster rate of fire could cause that situation?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> <u>That is probably one of the worse conditions you can get, by increasing the cyclic rate.</u>
+                </p>
+                <p>
+                  <span>Mr. Bray:</span> If you have too high a rate of fire for this rifle -
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> You are aware of the fact that this buffer slows this cyclic rate down about 100 rounds a minute.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Only the closing cycle, and it has nothing to do with the opening cycle.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Oh.
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> And the opening cycle - I would think if this buffer is the type I can envision they put in there, it would actually - it gives you longer buffer time, probably.</br>
+                  In other words, at the end of the cycle, at the stroke when it hits the back of the gun and gives you a slower return time - but I don't know - the only way you can normally change the cyclic rate on opening is by the gas port size in this weapon, or change the bolt carrier to give more delay in the opening cam, or add weight to the recoiling parts, that rotates the bolt, or the ammunition change. In other words, if you change any of those things, you can change the cyclic rate.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> At the time the M-16 underwent the test at Fort Benning, were they using extruded propellant?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> Yes, sir.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Or ball propellant?
+                </p>
+                <p>
+                  <span>Mr. Stoner:</span> The gun was designed only to fire IMR type powder, which is an extruded propellant, which was made at the time by Du Pont.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> You seem to be leading into the opinion that the type of powder we are using may have or may be the cause of some of the trouble.
+                </p>
+                <p>
+                    <span>Mr. Bray:</span> Using ball powder, anyhow.
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, the ball powder - I am acquainted with that. I was asked about it some years ago by some people in the government, my opinion on what was going to happen when they used it. I will go back a little bit.</br> When the Army got serious about this and they wanted to standardize the ammunition and get up a technical data package on the ammunition, at the time, through all the tests, and at the beginning of the Air Force adoption of the weapon, the ammunition was a commercial buy from Remington. We didn't have a regular tech data package. But when the Army got into it, then they set up a board to make up a tech data package in the ammunition. They made some changes in the ammunition, and I was asked to look at the ammunition technical data package after it was made, which I did. I told them, or this party, that in my opinion it would be very, very risky ---
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> Was that ball?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> This was ball propellant, and also - they did two things.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> You recommended against ball propellants?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> The reason I did was they were getting into this thing heavily and the fact that we had years of firing, both in Vietnam and this country, using the IMR propellant, which the weapon was designed to fire in the first place.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> IMR is the ---
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> That is the extruded propellant. It is called improved military rifle powder, IMR.<br>
+                    The reason for staying away from the ball was the fact that we had better results through some of the testing that we did with IMR. And those were cleaner burning characteristics, and there seems to be less smoke, dirt and so forth that come out of the IMR propellants.</br>
+                    The other thing was that early in this program, just prior to the Fort Benning test, Winchester asked for and got a contract the same as Armalite, to submit some rifles to fire a .22 caliber bullet, and they were actually tested after we got through at Benning. Their first test rounds of ammunition had ball propellant in it, but they gave up on it. I asked Winchester why they gave up on it, and the only answer I got was that they had troubles with that particular ball propellant and they didn't want to go into the time it would take maybe to develop some powder specifically for this rifle.</br>
+                    So I think they ended up using IMR.</br>
+                    One of the problems they had was that in a very hot rifle the chamber pressures went excessive, so they had to back off. So all the Winchester ammunition that was used on the Benning test in 1959, to my knowledge, was loaded with the Du Pont powder or the Remington powder.
+                  </p>
+                  <p>
+                    <span>Mr. Bray:</span> Would that additional heat contribute to causing a shell to stick in the chamber?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> This could - well, what they run into is the temperature went up. Now, this was back a long time ago. This is another batch, or another type of ball propellant. They told me that their chamber pressures when they first fire it in a hot gun -in other words, after you fired the gun 100 or 200 times - were getting up to the cook-off temperatures - in other words, where it would be liable to go off spontaneously. These pressures were going up to and exceeding the proof pressures, which is around 60-some-odd, 58,000 pounds per square inch, and they were, of course, very leery of it, because it is getting up into a rather dangerous condition.</br>
+                    So they decided rather than try to develop a ball propellant at that time for this test, they just did it the easy way, took the easy way out, and took the IMR propellants.
+                  </p>
+                  <p>
+                    <span>Mr. Bray:</span> That is what you used, IMR?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> That is what we used. Like I said, we had better luck with it. The biggest problem ---
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> Let me at this time inject, Mr. Stoner.
+                  </p>
+                  <p>
+                    <span>Mr. Stoner: </span> Yes, sir.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> Have you been called by the Army or the military into this problem in Vietnam? Have you gone to Vietnam and looked into this problem?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> No; I have not. I haven't been asked. In fact, for the last two years or so, most of this information that you are talking about, about a buffer, I can only speculate what that buffer is doing.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> In the opinion of our experts, the buffer is really not getting at the basis of your problem, or of the problem. As you understand it, you would agree with that conclusion?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, if you are talking about extraction problems, the buffer would have nothing to do with it. The only thing is, the buffer, as I understand it, was to cut down the cyclic rate, and the cyclic rate was causing a lot of their problems.</br>
+                    In the development of the 63 weapons system - I am bringing this in only as a little sideline - the weapons that were submitted for the SAWS test which started a year ago - small arms weapons systems, or whatever it is called; I think you are aware of that - we started out in the 63 system using the old ammunition which had the original primer and the IMR propellants. When the Army said, "No, we are going to use our ammunition," the cyclic rate of our weapons as it stood went up at least 200 rounds per minute.</br>
+                    The reason for this is very simple. It is the fact that the time pressure curve on the ball propellant is a more elongated curve. So what happens:</br>
+                    At the point where the gas is tapped out through the barrel to operate the mechanism, the pressure is considerably higher on the ball propellant than it is on the IMR propellant.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> Then the new buffer would just be compensating for the ball propellant?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Right; for the cyclic rate. It would help compensate on the cyclic rate overall. But now, if you don't change anything else, your opening cycle, in other words, the amount of time it takes to open the weapon, will remain constant. In other words, the first part of the cycle where the bolt opens, which is critical on the extraction of the weapon.
+                  </p>
+                  <p>
+                    ..................
+                  </p>
+                  <p>
+                    Page 4555
+                  </p>
+                  <p>
+                    <span>Mr. Long:</span> Referring to the magazine problem, would the magazine be too high on the front side?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, in the magazine itself there are many things that could happen. It could be a dirty magazine. It could be one that the feed lips have been bent, that is the part up above that guides the round while it is being stripped out of the magazine, or faulty springs.</br>
+                    One thing I have seen there on television that could aggravate this is this trick that supposedly came out of the Korean War, of taping two magazines together.
+                  </p>
+                  <p>
+                    <span>Mr. Long:</span> They do a lot of that.
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> This is dynamite to any weapon. In fact, it is very poor practice, and the fact that a man will drop to the ground and fire and he jams that magazine down that has been taped on upside down into the dirt, and he can either fill it full of dirt or bend it, and then when he switches around, he is in for trouble.</br>
+                    This is something that ought to be discouraged by anybody in the field, because it is really tough on magazines.
+                  </p>
+                  <p>
+                    ................................
+                  </p>
+                  <p>
+                    Page 4557
+                  </p>
+                  <p>
+                    <span>Mr Morgan:</span> Mr. Chairman, could I ask a question on the cyclic rates?
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> Go ahead.
+                  </p>
+                  <p>
+                    <span>Mr. Morgan:</span> And the effect of the cyclic rate on certain key parts of the weapon, such as the extractor spring. Would a high cyclic rate have an adverse effect on the extractor spring?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Yes, it probably would, and probably the hardest part hit would be the extractor itself.
+                  </p>
+                  <p>
+                    <span>Mr. Morgan:</span> How would it affect the extractor and how would it affect the spring?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, the fact that the faster a weapon goes, the faster the extractor would work, snapping over the round of ammunition. The spring really shouldn't be too much different on the cyclic rate, I don't believe. But the extractor itself would be getting a lot harder jerk every time it pulled the cartridge case out.
+                  </p>
+                  <p>
+                    .....................
+                  </p>
+                  <p>
+                    Starting on Page 4558
+                  </p>
+                  <p>
+                    <span>Mr. Morgan:</span> On the ammunition, Mr. Chairman, I have just two more questions. Are you familiar with the reasons stated by the Army for the changeover from the IMR to the ball powder? Do you have any first hand knowledge or second hand knowledge of that?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, the only - I have a little first hand knowledge because I was approached after this ammunition inspection was made by a person, I think it is the Secretary of Defense's Office, in looking at the technical data package.
+                  </p>
+                  <p>
+                    <span>Mr. Ichord:</span> When was this?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> This was at the time, I forget how long it was, but it is at least a couple of years ago. He asked me my opinion on it, and I asked him why they were holding out for the ball propellant and they said, well this was more or less, as I could gather, a policy within the Army. They wanted to have everything ball propellant that they could in small arms.
+                  </p>
+                  <p>
+                    <span>Mr. Morgan:</span> Because of the cost savings or what?
+                  </p>
+                  <p>
+                    <span>Mr. Stoner:</span> Well, I think this was one of their reasons, and the fact that it burned a little cooler and so forth.</br>
+                    Like I said before, I didn't advise it because we had already had over 1,000 weapons in Vietnam that had gone through I thought, very well. These were the weapons that were sent over by ARPA, you know, prior to the adoption. I'm not sure of these times, but in that area of time.
+                  </p>
+                  <p>
+                    <span>Mr. Morgan:</span> 1962?
+                  </p>
 <p><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Stoner:</span><span class="style2"> These were using the older
 cartridges which I didn't hear any complaints on in that particular test,
 and these were used by the Vietnamese troops who knew very little about
@@ -2836,9 +2749,7 @@ East Asian and Pacific Affairs. Dept. of State______4515</span>
 <span class="style2">
 <br></span><span class="style3">Zais, Maj. Gen. Melvin, U.S. Army _____________________4879</span>
 <span class="style2">
-<br>&nbsp;</span></td>
-</tr>
-</table>
+<br>&nbsp;</span>
             </div>
           </div>
         </div>

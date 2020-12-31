@@ -335,3 +335,8 @@ p {
   padding: 5px;
   background-color: darkred;
 }
+
+.quoteSection {
+  border: 1px dashed black;
+  padding: 10px 5%;
+}

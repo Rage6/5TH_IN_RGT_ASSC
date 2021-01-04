@@ -44,4 +44,8 @@ Route::prefix('history')->group(function() {
     Route::get('vietnam','AlbumController@vietnam');
     Route::get('gwot','AlbumController@gwot');
   });
+  Route::prefix('topic')->group(function() {
+    Route::get('michelin-rubber-plant-battle','HistoryTopicController@michelin_rubber_plant_battle');
+    Route::get('the-rifle-and-the-myth','HistoryTopicController@the_rifle_and_the_myth');
+  });
 });

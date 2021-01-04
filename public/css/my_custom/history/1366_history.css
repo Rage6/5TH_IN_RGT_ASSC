@@ -18,11 +18,22 @@
   height: 69vh;
 }
 
+.timelineBar a {
+  height: 9%;
+}
+
 .timelineBar div {
   padding: 0 5%;
   font-size: 1.1rem;
   width: 90%;
   height: 9%;
+}
+
+.timelineBar a div {
+  padding: 0 5%;
+  font-size: 1.1rem;
+  width: 90%;
+  height: 100%;
 }
 
 .allSegments {

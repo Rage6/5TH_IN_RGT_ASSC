@@ -47,7 +47,29 @@ p {
   cursor: pointer;
 }
 
+.timelineBar a div {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
+  background:
+    linear-gradient(90deg, black, transparent 5%, transparent 95%, black),
+    linear-gradient(0deg, black, transparent 13%, transparent 87%, black),
+    grey;
+  width: 150px;
+  height: 100%;
+  cursor: pointer;
+}
+
 .timelineBar div div {
+  text-align: center;
+  background: transparent;
+  justify-content: center;
+}
+
+.timelineBar a div div {
   text-align: center;
   background: transparent;
   justify-content: center;
@@ -300,4 +322,21 @@ p {
   font-size: 1.3rem;
   font-family: 'Bellefair', serif;
   text-align: center;
+}
+
+/* For topics only */
+
+.topicSegment {
+  background-color: white;
+}
+
+.audioClip {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkred;
+}
+
+.quoteSection {
+  border: 1px dashed black;
+  padding: 10px 5%;
 }

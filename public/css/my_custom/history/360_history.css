@@ -340,3 +340,50 @@ p {
   border: 1px dashed black;
   padding: 10px 5%;
 }
+
+.sessionTime {
+  margin: 5px 0 10px 0;
+  padding: 5px 2%;
+  color: white;font-size: 1rem;
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.referenceList {
+  margin-top: 50px;
+  font-size: 1rem;
+  font-family: 'Bellefair', serif;
+}
+
+.timeTitle {
+  margin-bottom: 20px;
+  display: block !important;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.timeList div {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.witnessList {
+  margin-top: 30px;
+}
+
+.witnessList div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.witnessTitle {
+  margin-bottom: 50px !important;
+  text-decoration: underline;
+}
+
+.witnessList div:first-child {
+  margin-bottom: 0px;
+}

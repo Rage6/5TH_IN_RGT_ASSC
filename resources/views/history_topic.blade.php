@@ -134,10 +134,10 @@
               <p>
                 (Because of the length of the text of the hearings I am editing them so that parts not pertaining to the jamming of the M-16 rifle are excluded. Highlighting and underlining are mine.)
               </p>
-              <p>
+              <div class="sessionTime">
                 Washington, D.C., Monday, May 15, 1967</br>
                 The subcommittee met at 10:15 a.m., in room 2216, Rayburn Building, Washington, D.C.
-              </p>
+              </div>
               <p>
                 Hon. Richard H. Ichord, Chairman of the subcommittee presiding. Other members are Hon. Speedy Long, of Louisiana, and the Hon. William Bray, of Indiana. The Chair inserted into the record the letter establishing and outlining the jurisdiction of this subcommittee.
               </p>
@@ -235,9 +235,9 @@
                 .............
               </p>
 
-              <p>
+              <div class="sessionTime">
                 Washington, D.C., Wednesday, June 21, 1967
-              </p>
+              </div>
               <p>
                 The subcommittee met at 9:30 a.m. in executive session, Hon. Richard H. Ichord presiding.
               </p>
@@ -2190,280 +2190,259 @@
                     The Army is unable to state how much of the IMR 8208 propellant ammunition shipped to SEA since April 1967 has been issued to troops and how much is in depot. Rifle ammunition is loaded and packed by the commercial contractor and identified by Lot Number. the package displays the Lot Number as do shipping documents but there is no way to identify the propellant used to fill the cartridges in a particular Lot. Consequently, the issuing depot has no knowledge of the propellant used in the ammunition that has been issued or that remains on hand.
                   </p>
                 </div>
-                <p>
-                  <span>Mr. Morgan:</span> General Anderson, or Colonel Yount, in the Tech Coordinating Committee meeting of March 2 this year it was indicated that 16 chrome-plated chambers, or 16 barrels with chrome plated chambers, were shipped to Vietnam for evaluation, under the control of the Army concept team in Vietnam. A report from this team was scheduled for April 1967. Was such report received?
-                </p>
-                <p>
-                  <span>Colonel Yount</span>: It was not. We do not expect one. We have been in contact with the Army concept team. They have had other projects of greater priority. They distributed the barrels to the field. Major Podurgal personally contacted two or three people who had these weapons with these barrels on them. They were happy with them. As far as controlled tests on these barrels, it is of little value.
-                </p>
-                <p>
-                  .................
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> General Anderson, back to your statement that the Army has not conclusively determined that excessive malfunctions have been attributable to fouling, and also the position of the Army that it had no way of knowing that the ball propellant would produce the effects it did. Would it be fair to say you did not, however, have a proper basis of comparison, in that the M-14, where you had your experience with ball propellant, had not only a chrome chamber but also a chrome plated bore? The recommended change - and I want to ask what has been going on in regard to the chrome plating of the chamber. You think, perhaps, the chrome plating will compensate for the increased fouling?
-                </p>
-                <p>
-                  <span>General Anderson:</span> Yes, sir.
-                </p>
-                <p>
-                  <span>Mr. Ichord: </span> At least it makes it a little easier to clean, it is a little harder, and it would work to eliminate excessive pitting.
-                </p>
-                <p>
-                  <span>General Anderson:</span> That is right. It is less likely to erode, it is easier to clean. The coefficient of friction, for example, between chrome and brass is less, so it would extract easier  any conditions, in that case. Yes. That is being done, as you know.
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> How do we stand now that Colt has gone back to work?
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> The first 5,000 production weapons with the chrome-plated chamber are scheduled to be received in the month of September.
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> They backed up? They had an earlier schedule on that, of August, didn't they? And the strike delayed that a month?
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> The strike delayed it. During September we expect to get 4,000 replacement barrels that will have the chrome-plated chamber. Each month thereafter the total production of weapons, as well as repair barrels, will have the chrome-plated chamber.
-                </p>
-                <p>
-                  <span>Mr. Ichord: </span> Have you concluded, Mr. Counsel?
-                </p>
-                <p>
-                  <span>Mr. Morgan:</span> Yes, sir.
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> Colonel, how about those monthly reports you made on M-16 reliability to the Army Chief of Staff? Do you have those with you today?
-                </p>
-                <p>
-                  <span>Colonel Yount: </span> No, sir. Which ones, sir, the most recent ones, or the initial ones, sir?
-                </p>
-                <p>
-                  <span>Mr. Ichord: </span> I think perhaps we need to review that, particularly since October 1966. That is your monthly reports on reliability and product improvement. You don't have those with you?
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> No, sir.
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> Can you make those available to the committee?
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> Again, sir, I am not sure which reports you are referring to.
-                </p>
-                <p>
-                  <span>Mr. Ichord: </span> Don't you make a monthly report to the Army Chief of Staff or the Deputy Chief?
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> At the present time?
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> Well --
-                </p>
-                <p>
-                  <span>Colonel Yount:</span> Or initially? When we started the program I had a set of reports going to the Department of Army. Then, as a result of the SAWS, I submitted reports which went into DCSLOG which eventually are received by the Chief of Staff. I am not sure which reports you are referring to, sir?
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> How about giving us all of them, to make sure we have them? How about giving us all your monthly reports?
-                </p>
-                <p>
-                  <span>Colonel Yount: </span> Yes, sir.
-                </p>
-                <p>
-                  (The information requested is in the files of the committee.)
-                </p>
-                <p>
-                  <span>Mr. Ichord:</span> There being no further questions, the committee will adjourn subject to the call of the Chair.
-                </p>
-                <p>
-                  (Whereupon, at 4:50 p.m. the subcommittee adjourned.)
-                </p>
-                <div class="referenceList">
-                  <div class="timeList">
-                    <div class="timeTitle">CHRONOLOGICAL LIST OF HEARINGS</div>
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> General Anderson, or Colonel Yount, in the Tech Coordinating Committee meeting of March 2 this year it was indicated that 16 chrome-plated chambers, or 16 barrels with chrome plated chambers, were shipped to Vietnam for evaluation, under the control of the Army concept team in Vietnam. A report from this team was scheduled for April 1967. Was such report received?
+              </p>
+              <p>
+                <span>Colonel Yount</span>: It was not. We do not expect one. We have been in contact with the Army concept team. They have had other projects of greater priority. They distributed the barrels to the field. Major Podurgal personally contacted two or three people who had these weapons with these barrels on them. They were happy with them. As far as controlled tests on these barrels, it is of little value.
+              </p>
+              <p>
+                .................
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> General Anderson, back to your statement that the Army has not conclusively determined that excessive malfunctions have been attributable to fouling, and also the position of the Army that it had no way of knowing that the ball propellant would produce the effects it did. Would it be fair to say you did not, however, have a proper basis of comparison, in that the M-14, where you had your experience with ball propellant, had not only a chrome chamber but also a chrome plated bore? The recommended change - and I want to ask what has been going on in regard to the chrome plating of the chamber. You think, perhaps, the chrome plating will compensate for the increased fouling?
+              </p>
+              <p>
+                <span>General Anderson:</span> Yes, sir.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> At least it makes it a little easier to clean, it is a little harder, and it would work to eliminate excessive pitting.
+              </p>
+              <p>
+                <span>General Anderson:</span> That is right. It is less likely to erode, it is easier to clean. The coefficient of friction, for example, between chrome and brass is less, so it would extract easier  any conditions, in that case. Yes. That is being done, as you know.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> How do we stand now that Colt has gone back to work?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> The first 5,000 production weapons with the chrome-plated chamber are scheduled to be received in the month of September.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> They backed up? They had an earlier schedule on that, of August, didn't they? And the strike delayed that a month?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> The strike delayed it. During September we expect to get 4,000 replacement barrels that will have the chrome-plated chamber. Each month thereafter the total production of weapons, as well as repair barrels, will have the chrome-plated chamber.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Have you concluded, Mr. Counsel?
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Yes, sir.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Colonel, how about those monthly reports you made on M-16 reliability to the Army Chief of Staff? Do you have those with you today?
+              </p>
+              <p>
+                <span>Colonel Yount: </span> No, sir. Which ones, sir, the most recent ones, or the initial ones, sir?
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> I think perhaps we need to review that, particularly since October 1966. That is your monthly reports on reliability and product improvement. You don't have those with you?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> No, sir.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Can you make those available to the committee?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> Again, sir, I am not sure which reports you are referring to.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Don't you make a monthly report to the Army Chief of Staff or the Deputy Chief?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> At the present time?
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Well --
+              </p>
+              <p>
+                <span>Colonel Yount:</span> Or initially? When we started the program I had a set of reports going to the Department of Army. Then, as a result of the SAWS, I submitted reports which went into DCSLOG which eventually are received by the Chief of Staff. I am not sure which reports you are referring to, sir?
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> How about giving us all of them, to make sure we have them? How about giving us all your monthly reports?
+              </p>
+              <p>
+                <span>Colonel Yount: </span> Yes, sir.
+              </p>
+              <p>
+                (The information requested is in the files of the committee.)
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> There being no further questions, the committee will adjourn subject to the call of the Chair.
+              </p>
+              <p>
+                (Whereupon, at 4:50 p.m. the subcommittee adjourned.)
+              </p>
+              <div class="referenceList">
+                <div class="timeList">
+                  <div class="timeTitle">CHRONOLOGICAL LIST OF HEARINGS</div>
+                  <div>
                     <div>
-                      <div>
-                        <u>DATE</u>
-                      </div>
-                      <div>
-                        <u>PAGE NUMBER</u>
-                      </div>
+                      <u>DATE</u>
                     </div>
                     <div>
-                      <div>
-                        Monday, May 15, 1967
-                      </div>
-                      <div>
-                        4431
-                      </div>
+                      <u>PAGE NUMBER</u>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Monday, May 15, 1967
                     </div>
                     <div>
-                      <div>
-                        Tuesday, May 16, 1967
-                      </div>
-                      <div>
-                        4484
-                      </div>
+                      4431
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Tuesday, May 16, 1967
                     </div>
                     <div>
-                      <div>
-                        Wednesday, May 31, 1967
-                      </div>
-                      <div>
-                        4513
-                      </div>
+                      4484
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Wednesday, May 31, 1967
                     </div>
                     <div>
-                      <div>
-                        Wednesday, June 21, 1967
-                      </div>
-                      <div>
-                        4540
-                      </div>
+                      4513
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Wednesday, June 21, 1967
                     </div>
                     <div>
-                      <div>
-                        Tuesday, July 25, 1967
-                      </div>
-                      <div>
-                        4579
-                      </div>
+                      4540
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Tuesday, July 25, 1967
                     </div>
                     <div>
-                      <div>
-                        Wednesday, July 26, 1967
-                      </div>
-                      <div>
-                        4643
-                      </div>
+                      4579
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Wednesday, July 26, 1967
                     </div>
                     <div>
-                      <div>
-                        Thursday, July 27, 1967
-                      </div>
-                      <div>
-                        4715
-                      </div>
+                      4643
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Thursday, July 27, 1967
                     </div>
                     <div>
-                      <div>
-                        Tuesday, August 8, 1967
-                      </div>
-                      <div>
-                        4784
-                      </div>
+                      4715
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Tuesday, August 8, 1967
                     </div>
                     <div>
-                      <div>
-                        Wednesday, August 9, 1967
-                      </div>
-                      <div>
-                        4813
-                      </div>
+                      4784
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Wednesday, August 9, 1967
                     </div>
                     <div>
-                      <div>
-                        Tuesday, August 22, 1967
-                      </div>
-                      <div>
-                        4934
-                      </div>
+                      4813
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Tuesday, August 22, 1967
+                    </div>
+                    <div>
+                      4934
                     </div>
                   </div>
                 </div>
-
-              <!-- Original is here -->
-              <!--
-<p>&nbsp;<span class="style3">CHRONOLOGICAL LIST OF HEARINGS</span>
-<span class="style2">
-<br></span><span class="style3">&nbsp;_________</span> <span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Page</span> <span class="style2">
-<br></span><span class="style3">Monday, May 15, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4431</span> <span class="style2">
-<br></span><span class="style3">Tuesday, May 16, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4484</span> <span class="style2">
-<br></span><span class="style3">Wednesday, May 31, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4513</span> <span class="style2">
-<br></span><span class="style3">Wednesday, June 21, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4540</span> <span class="style2">
-<br></span><span class="style3">Tuesday, July 25, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4579</span> <span class="style2">
-<br></span><span class="style3">Wednesday, July 26, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4643</span> <span class="style2">
-<br></span><span class="style3">Thursday, July 27, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4715</span> <span class="style2">
-<br></span><span class="style3">Tuesday, August 8, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4784</span> <span class="style2">
-<br></span><span class="style3">Wednesday, August 9, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4813</span> <span class="style2">
-<br></span><span class="style3">Tuesday, August 22, 1967&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4934</span><span class="style2"> </span>
-<p class="style2">&nbsp;____________________
-<p><span class="style3">List of witnesses on next page.</span>
-<span class="style2">
-<br>&nbsp;
-<br>&nbsp;
-</span>
-<p><span class="style3">PRINCIPAL WITNESSES WHO APPEARED IN PERSON OR SUBMITTED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-WRITTEN STATEMENTS</span><span class="style2"> </span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Page</span> <span class="style2">
-<br></span><span class="style3">Anderson, Maj. Gen. Roland B., U.S. Army ______________4476,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-4477, 4483, 4817-4820, 4976, 4992-4994, 4998-5002, 5018.&nbsp;</span>
-<span class="style2">
-<br></span><span class="style3">Berger, Hon. Samuel D., Deputy Assistant Secretary for&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-East Asian and Pacific Affairs. Dept. of State______4515</span>
-<span class="style2">
-<br></span><span class="style3">Biernacki, Lieutenant, U.S. Army ______________________4601</span>
-<span class="style2">
-<br></span><span class="style3">Bowdey, Comdr. Floyd D., U.S. Navy ____________________4932</span>
-<span class="style2">
-<br></span><span class="style3">Brooks, Dr. Robert A., Assistant Secretary of the Army</span>
-<span class="style2">
-<br></span><span class="style3">(Installations and Logistics) __4433, 4644, 4715, 4803</span>
-<span class="style2">
-<br></span><span class="style3">Dusard, Maj. Gen. Leo F., Jr., U.S. Air Force _________4861</span>
-<span class="style2">
-<br></span><span class="style3">Gayle, Brig. Gen. Gorden D., U.S. Marine Corps ________4893</span>
-<span class="style2">
-<br></span><span class="style3">Ignatius, Hon. Paul R., Assistant Secretary of Defense</span>
-<span class="style2">
-<br></span><span class="style3">(Installations and Logistics)_____________________4813</span>
-<span class="style2">
-<br></span><span class="style3">Ito, Kanemitsu "Koni", Colt Manufacturing Co. ___4585, 4643</span><span class="style2">
-</span>
-<p><span class="style3">Jackson, Dr. Wendell F., E.I. du Pont de Nemours Co.___4935</span>
-<span class="style2">
-<br></span><span class="style3">Kantany, Christo W., Defense Contract Admin. Service___4673</span>
-<span class="style2">
-<br></span><span class="style3">Lynde, Maj. Gen. Nelson M., Jr., U.S. Army (ret.)______4558</span>
-<span class="style2">
-<br></span><span class="style3">Macdonald, Robert W., Cooper-Macdonald, Inc.___________4785</span>
-<span class="style2">
-<br></span><span class="style3">Murphy, James R., Defense Contract Admin. Services_____4684</span>
-<span class="style2">
-<br></span><span class="style3">Payne, Dr. William B., Chief of Operations Research</span>
-<span class="style2">
-<br></span><span class="style3">Office, Under Secretary of the Army ______________4974</span>
-<span class="style2">
-<br></span><span class="style3">Penney, Maj. Gen. Howard, U.S. Army ___________________4601</span>
-<span class="style2">
-<br></span><span class="style3">Stoner, Eugene M., Consultant to Weapons Ordnance</span>
-<span class="style2">
-<br></span><span class="style3">Development Center, TRW Co., _______________4540, 4567</span>
-<span class="style2">
-<br></span><span class="style3">Van Ryzin, Maj. Gen. William J., U.S. Marine Corps_____4496</span>
-<span class="style2">
-<br></span><span class="style3">Vee, Frank J.,&nbsp; Installations and Logistics, Office</span>
-<span class="style2">
-<br></span><span class="style3">of Secretary of Defense __________________________4653</span>
-<span class="style2">
-<br></span><span class="style3">Witt, Hon. Hugh E., Deputy for Supply and Maintenance</span>
-<span class="style2">
-<br></span><span class="style3">Assistant Secretary of the Air Force______________4485</span>
-<span class="style2">
-<br></span><span class="style3">Yount, Col. Harold W., U.S. Army __________4611, 4656, 4696</span>
-<span class="style2">
-<br></span><span class="style3">Zais, Maj. Gen. Melvin, U.S. Army _____________________4879</span>
-<span class="style2">
-<br>&nbsp;</span> -->
+                <div class="witnessList">
+                  <div class="witnessTitle">Principal Witnesses In Person</div>
+                  <div>
+                    <div>
+                      MG Roland B. Anderson
+                    </div>
+                    <div>
+                      US Army
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Dr. Robert A. Brooks
+                    </div>
+                    <div>
+                      Assistant Secretary of the Army (Installation & Logistics)
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Mr. Kanemitsu "Koni" Ito
+                    </div>
+                    <div>
+                      Colt Manufacturing Co.
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Dr. Wendell F. Jackson
+                    </div>
+                    <div>
+                      E. I. du Pont de Nemours Co.
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Mr. Robert W. Macdonald
+                    </div>
+                    <div>
+                      Cooper-Macdonald, Inc.
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Dr. William B. Payne
+                    </div>
+                    <div>
+                      Chief of Operations Research Office, Under Secretary of the Army
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Mr. Eugene M. Stoner
+                    </div>
+                    <div>
+                      Consultant to Weapons Ordnance Development Center, TRW Co.
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      Mr. Frank J. Vee
+                    </div>
+                    <div>
+                      Installations & Logistics, Office of Secretary of Defense
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      COL Harold W. Yount
+                    </div>
+                    <div>
+                      US Army
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

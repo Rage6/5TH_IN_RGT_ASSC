@@ -1670,16 +1670,17 @@
                 Combat Consumption of Ball and IMR Propellants in SVN
               </p>
               <p>
-                A question of major concern to the Special House Subcommittee investigating the M-16 rifle is the extent to which the use of 5.56 mm ammunition loaded with ball powder propellant has contributed directly to the excessive malfunctions of the rifle reported from combat areas in SVN. Excessive malfunctions of the rifle began to be reported by Army troops in OCTOBER 1966 AND CONTINUED APPROXIMATELY THROUGH DECEMBER 1966. Since then reports of excessive malfunctions from Army sources have been relatively less frequent. The M-16 rifle was introduced into SVN with the first Army troops to deploy (the 173d Airborne Brigade) in March 1965. Thereafter there was a steady build-up of combat units equipped with the M-16 until in September 1966 there were approximately 45,000 troops equipped with the rifle in SVN.  During this entire period there were no known reports of excessive malfunctions. [????????] During the same period (March 1965 - September 1966) 99 million rounds of 5.56mm ammunition were consumed in combat in SVN. At least 89 million rounds of this total were loaded with ball propellant (WC 846). Only 10 million rounds loaded with IMR (CR 8136) were ever sent to SVN. These were produced prior to December 1964, and it is assumed that they were all consumed prior to September 1966 since supply procedures dictate a first received - first issued policy as regards stockage and issue. Since 89 million rounds of 5.56mm ammunition loaded with ball propellant were shot in combat in SVN WITHOUT PRODUCING ANY KNOWN REPORTS OF EXCESSIVEMALFUNCTIONS, it must be concluded that such reports when they did appear in October 1966 could not have resulted from the inherent characteristicsof ball powder as a propellant. IT IS MUCH MORE PROBABLE THAT THE EXCESSIVE MALFUNCTION REPORTS ARISE FROM THE TEMPORARY DIFFICULTIES IN CARE AND CLEANING OF THE RIFLE experienced when substantial numbers of troops previously equipped with the M-14 rifle were converted at that time to the M-16. This was confirmed by  direct observation </span>of the field assistance teams in SVN during the period October - December 1966. Subsequent follow-up visits to SVN by Department of the Army field assistance teams, the last being in April - May 1967, report marked reduction in malfunctioning as a result of strict adherence to published mandatory individual care and cleaning practices.
+                A question of major concern to the Special House Subcommittee investigating the M-16 rifle is the extent to which the use of 5.56 mm ammunition loaded with ball powder propellant has contributed directly to the excessive malfunctions of the rifle reported from combat areas in SVN. Excessive malfunctions of the rifle began to be reported by Army troops in OCTOBER 1966 AND CONTINUED APPROXIMATELY THROUGH DECEMBER 1966. Since then reports of excessive malfunctions from Army sources have been relatively less frequent. The M-16 rifle was introduced into SVN with the first Army troops to deploy (the 173d Airborne Brigade) in March 1965. Thereafter there was a steady build-up of combat units equipped with the M-16 until in September 1966 there were approximately 45,000 troops equipped with the rifle in SVN.  During this entire period there were no known reports of excessive malfunctions. During the same period (March 1965 - September 1966) 99 million rounds of 5.56mm ammunition were consumed in combat in SVN. At least 89 million rounds of this total were loaded with ball propellant (WC 846). Only 10 million rounds loaded with IMR (CR 8136) were ever sent to SVN. These were produced prior to December 1964, and it is assumed that they were all consumed prior to September 1966 since supply procedures dictate a first received - first issued policy as regards stockage and issue. Since 89 million rounds of 5.56mm ammunition loaded with ball propellant were shot in combat in SVN WITHOUT PRODUCING ANY KNOWN REPORTS OF EXCESSIVEMALFUNCTIONS, it must be concluded that such reports when they did appear in October 1966 could not have resulted from the inherent characteristicsof ball powder as a propellant. IT IS MUCH MORE PROBABLE THAT THE EXCESSIVE MALFUNCTION REPORTS ARISE FROM THE TEMPORARY DIFFICULTIES IN CARE AND CLEANING OF THE RIFLE experienced when substantial numbers of troops previously equipped with the M-14 rifle were converted at that time to the M-16. This was confirmed by  direct observation of the field assistance teams in SVN during the period October - December 1966. Subsequent follow-up visits to SVN by Department of the Army field assistance teams, the last being in April - May 1967, report marked reduction in malfunctioning as a result of strict adherence to published mandatory individual care and cleaning practices.
               </p>
-              <p>...............</p>
+              <p>
+                ...............
+              </p>
               <p>
                 Tuesday, August 22, 1967. The subcommittee met at 10 o'clock a.m.
               </p>
               <p>......</p>
               <p>
-                <span>Dr. Jackson:</span> Thank you. As you said, Mr. Ichord, I am director of research and development for the explosives department of E.I. du Pont de Nemours Company. I am responsible for the administration of exploratory research, product and process development, and technical assistance to the sales and manufacturing functions of the explosives department. In carrying out this responsibility I direct the activities of five laboratories, one of which includes a ballistic section devoted to the development and testing of smokeless powder for both sporting and military ammunition. I have a good working knowledge of gun propellant problems because I was chief ballistic engineer of Du Pont's propellant laboratory during World War II at a time when all of its efforts were devoted to military problems. In prefacing my remarks on the history of the development of propellant for the 5.56 mm. cartridge for the M-16 gun system, it should be understood that the Du Pont Co. was never directly involved in the design or manufacture of guns and ammunition. Our sole role in this area has been to develop and produce propellants. It is pertinent to report that the powder being supplied by the Du Pont Co. for this round, a Du Pont IMR powder, is the same, except for minor modifications, as the propellants Du Pont has supplied for military small arms loading since the early 1920's and was the type used in practically all of the United States and most of the British rifle and machinegun ammunition from caliber .30 through 20 mm in World War II. Approximately a billion pounds of this powder was produced in Government-owned, contractor-operated plants during that war. In this service the ammunition loaded with Du Pont IMR powder has been subjected to every conceivable field situation. The propellant has proven to be very effective and reliable. As to the 5.56 mm. ammunition development, it is my understanding that the Remington Arms Co., working with the developers of the AR-15 gun system, started with a sporting cartridge, the 223, which translates in the metric system to a 5.56 mm. caliber. There are eight or ten grades of IMR powder which cover the range of ballistic requirements of most small arms cartridges, and Remington, in 1962</span>, selected IMR 4475 from its stock of such powders as the one giving the desired ballistics in the new round. IMR 4475 is a grade of rifle powder first introduced by the Du Pont Co. in 1936, and is a single base, dinitrotoluene (DNT) coated powder, granulated 0.046 - 0.015 x 1/22. The granulation code describes a single perforated cylindrical grain, the first number representing the diameter of the die in inches, the second the size of the pin which makes the center perforation, and the third the number of cuts per inch. For commercial loading IMR 4475 was purchased by Remington on the basis of ballistic tests made at our plant. Each new lot is tested in comparison with a standard lot to satisfy ourselves and the user that it is truly representative of its type. IMR 4475 was loaded to a pressure specification of 52,000 p.s.i. which is considered to be acceptable for commercial cartridges of this type. It was a tight fit, however. That is, to get enough powder in the case to make the specification velocity (3,250 f/s), it had to be so fast burning that the pressures were pushing the limit all the time. Nevertheless, some 19 million rounds were loaded with IMR 4475 with good reports as to their functioning. When the Army adopted the 5.56 mm. as an ordnance item, 52,000 p.s.i. was set as the top limit of maximum average pressure for the ammunition. This meant that they wanted a powder that would give the service velocity with about 50,000 p.s.i. or less in the ammunition, so they set a 50,000 p.s.i. top on the powdermaker.
-              </p>
+                <span>Dr. Jackson:</span> Thank you. As you said, Mr. Ichord, I am director of research and development for the explosives department of E.I. du Pont de Nemours Company. I am responsible for the administration of exploratory research, product and process development, and technical assistance to the sales and manufacturing functions of the explosives department. In carrying out this responsibility I direct the activities of five laboratories, one of which includes a ballistic section devoted to the development and testing of smokeless powder for both sporting and military ammunition. I have a good working knowledge of gun propellant problems because I was chief ballistic engineer of Du Pont's propellant laboratory during World War II at a time when all of its efforts were devoted to military problems. In prefacing my remarks on the history of the development of propellant for the 5.56 mm. cartridge for the M-16 gun system, it should be understood that the Du Pont Co. was never directly involved in the design or manufacture of guns and ammunition. Our sole role in this area has been to develop and produce propellants. It is pertinent to report that the powder being supplied by the Du Pont Co. for this round, a Du Pont IMR powder, is the same, except for minor modifications, as the propellants Du Pont has supplied for military small arms loading since the early 1920's and was the type used in practically all of the United States and most of the British rifle and machinegun ammunition from caliber .30 through 20 mm in World War II. Approximately a billion pounds of this powder was produced in Government-owned, contractor-operated plants during that war. In this service the ammunition loaded with Du Pont IMR powder has been subjected to every conceivable field situation. The propellant has proven to be very effective and reliable. As to the 5.56 mm. ammunition development, it is my understanding that the Remington Arms Co., working with the developers of the AR-15 gun system, started with a sporting cartridge, the 223, which translates in the metric system to a 5.56 mm. caliber. There are eight or ten grades of IMR powder which cover the range of ballistic requirements of most small arms cartridges, and Remington, in 1962, selected IMR 4475 from its stock of such powders as the one giving the desired ballistics in the new round. IMR 4475 is a grade of rifle powder first introduced by the Du Pont Co. in 1936, and is a single base, dinitrotoluene (DNT) coated powder, granulated 0.046 - 0.015 x 1/22. The granulation code describes a single perforated cylindrical grain, the first number representing the diameter of the die in inches, the second the size of the pin which makes the center perforation, and the third the number of cuts per inch. For commercial loading IMR 4475 was purchased by Remington on the basis of ballistic tests made at our plant. Each new lot is tested in comparison with a standard lot to satisfy ourselves and the user that it is truly representative of its type. IMR 4475 was loaded to a pressure specification of 52,000 p.s.i. which is considered to be acceptable for commercial cartridges of this type. It was a tight fit, however. That is, to get enough powder in the case to make the specification velocity (3,250 f/s), it had to be so fast burning that the pressures were pushing the limit all the time. Nevertheless, some 19 million rounds were loaded with IMR 4475 with good reports as to their functioning. When the Army adopted the 5.56 mm. as an ordnance item, 52,000 p.s.i. was set as the top limit of maximum average pressure for the ammunition. This meant that they wanted a powder that would give the service velocity with about 50,000 p.s.i. or less in the ammunition, so they set a 50,000 p.s.i. top on the powdermaker.</p>
               <p>
                 <span>Mr. Ichord: </span> Is that chamber pressure, that 50,000 you were referring to?
               </p>
@@ -1687,1574 +1688,688 @@
                 <span>Dr. Jackson:</span> Chamber pressure. We were running 49,500 - plus on the occasion - just too close to the top for comfort, with a full case, about 25.5 grains. When the ammunition loaders tried Olin Ball, WC-846, they had more leeway because the ball powder has a higher apparent density, permitting more powder in the case. Ball powder could be slowed down until it took a charge of 28 grains to give service velocity and still stay within pressure specifications comfortably. Based on our limited experience firing reference ammunition loaded with WC-846, the slower powder gives somewhat more residue and more noticeable flash, which is what one would expect. We had been in this situation before, i.e., a tight pressure specification and limited case volume. One answer was to change coating. We switched from DNT, that is the dinitrotoluene, to Centralite and modified the granulation of the powder to get the best fit. The outcome of this was CR 8136, a 0.041 - .010x1/32 granulation.
               </p>
               <p>
-                <span> Mr. Ichord:</span> Let me interrupt to be sure I
-understand what you are talking about.
-<br>Is this coating to which you refer, DNT - you switched from that to
-Centralite - is it the coating that controls the rate of burning in the
-powder?
- </p><p><span>Dr. Jackson:</span> The coating controls the initial
-rate of burning in the powder, because it is an exterior treatment which
-influences only a fraction of the thickness of the powder.
- </p><p><span>Mr. Ichord:</span> What do you mean by the "initial
-rate of burning?"
- </p><p><span>Dr. Jackson: </span>
-When the powder burns, it burns
-essentially on the surface, from the surface in, like logs in a fireplace.
-In order to slow down the initial rate of gas production to keep the maximum
-pressure in the barrel, in the chamber, below the desired limit, the burning
-rate of the outer layers of propellant is deterred in all rifle powders
-by some material or other.
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> And the initial rate of burning
-is the thing that has the greatest effect upon the chamber pressure?
-</p><p><span> Dr. Jackson: </span>
-It has the greatest effect on
-the chamber pressure at a given velocity. You can modify the amount and
-character of the coating and influence the velocity - pressure relationship.
- </p><p><span>Mr. Ichord:</span> What is the relationship between
-the chamber pressure and the velocity with which the bullet leaves the
-gun? There is a direct relationship, is there not?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> It is a variable relationship,
-depending on the characteristic of the powder. And devising the proper
-powder granulation, composition and coating to obtain a preferred velocity
-- pressure relationship is the problem of the ballistician.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Anyway, you slowed down the initial
-rate of burning by the change from DNT to Centralite, and this, you say,
-permitted you to more easily stay within the chamber pressure specifications?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> That is correct.
-<br>CR-8136 was given a thorough testing by the Army and qualified for
-loading in 5.56 ammunition on April 29, 1964. The pressure-velocity relationship
-was more favorable on the average for CR-8136 than for IMR-4475 so there
-was less difficulty in meeting the 50,000 pounds per square inch maximum,
-but the Centralite coating is inherently harder to ignite, so the variations
-from round to round were greater. There is a 58,000 pounds per square inch
-limit on P maximum plus three times the standard deviation for ammunition
-acceptance. That is a requirement placed upon the ammunition supplier that
-he must meet.
- </p><p><span>Mr. Ichord:</span> 58,00 maximum, but an average
-of 52,000?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> Average of 52,000, but the maximum
-pressure observed in any lot of ammunition plus three time the standard
-deviation in pressure as observed in firing a series of rounds must not
-exceed 58,000 pounds per square inch, and this is the difficulty that loading
-people got into with CR-8136. All of the lots produced (approximately 300,000
-pounds) were loaded by Remington at Bridgeport, but there were complaints
-about P maximum plus three times standard deviation exceeding 58,000 pounds
-per square inch, so obviously we had not yet obtained a completely satisfactory
-solution to this problem.
-<br>The current answer to the 5.56 millimeter loading problem came as a
-result of a research program carried out under contract with Picatinny
-Arsenal to find a propellant with greater ballistic stability over a wide
-temperature range (contract DA-36-034-ORD-3742A, </p><p><span>completed May 30, 1965</span>.)
-Many variations of the extruded single-base powders were tried. Incidentally,
-that contract was limited to extruded single-base type, and a modification
-of IMR was found bearing a new coating material which not only has improved
-temperature stability but a better velocity-pressure relationship as well.
-The work under the contract was done mainly with </p><p><span>7.62 millimeter</span>
-ammunition and the powder resulting was designated IMR 8138-M. Although
-this powder would be ballistically satisfactory in the 5.56 millimeter
-round, the grain configuration prevented uniform machine loading.
-</span>
-<p>When this formulation, involving the new coating material and procedure,
-was applied to the 5.56 millimeter problem the result was IMR 8208-M with
-a granulation .041 - .010x1/32, the same CR-8136. The gravimetric density
-was higher, the velocity-pressure relationship was more favorable, and
-the charge was still about 25.5 grains. The maximum average pressures were
-well under the specification of 50,000 and the variations were such that
-there was little trouble with the P maximum plus three times standard deviation
-meeting the 58,000 pounds per square inch limit. IMR-8208 was submitted
-to the Army for qualification tests and after passing all phases of the
-trials, was reported to be accepted in</p><p><span> May 1966
-</span>for loading in 5.56
-millimeter ball and tracer ammunition. The qualification tests consisted
-of chamber and port pressure, velocity and tracer ignition tests at +70,
--65, +125, +160, and -80 degrees F.; action time and climatic storage tests;
-smoke, flash, fouling, cyclic rate, and barrel erosion tests.&nbsp;
-<br>To appraise you of production experience we have shipped 42 lots of
-powder representing 1.3 million pounds. this production covers the period
-</p><p><span>October
-1966 through July 1967</span>. The material has been loaded in ball and tracer
-cartridges at Lake City and Twin Cities Army ammunition plants. Reports
-from Lake City concerning the quality of the ammunition containing this
-powder have been uniformly satisfactory.
-<br>As the procurement agencies are aware, only limited quantities of IMR
-8208-M can be supplied from the Carney's Point Works of Du Pont, which
-is our only powder making facility. We are currently supplying to the limit
-of the plant capacity on this item. </p><p><span>At the request of the government</span>,
-Du Pont has instructed personnel in the coating procedure required for
-IMR 8138-M and 8208-M at the Radford Army ammunition plant.&nbsp;
-</span>
-<p class="style2">..............
-<br>page 4949
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Ichord:
-</span>Now for the record I would like
-to say that we have three types of propellant, for rifle ammunition in
-the United States, that have been used for the past 25 years, three basic
-types.
-<br>The first is IMR, which is the propellant Du Pont has been making,
-single base extruded. This gets its energy, in the main, from nitrocellulose.
-<br>Then we have HPC, which is a double base extruded, that is, shaped
-like IMR but depends on the nitroglycerin as well as nitrocellulose.
-<br>Then we have the ball, a double base spherical grain, energized both
-by nitrocellulose and nitroglycerin.
-<br>Is it possible to convert surplus or scrapped powder into extruded
-IMR powder?
- </p><p><span>Dr. Jackson:</span> It is not, sir.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> But that is not true in the case
-of ball propellant, is it possible to make ball propellant out of surplus
-powder?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> By the nature of the process;
-yes.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Is it your further understanding
-that scrap powder, surplus powder, is now being worked into ball propellant?
- </p><p><span>Dr. Jackson:</span> That is my understanding.
- </p><p><span>Mr. Ichord:</span> Do you know who is doing this?
- </p><p><span>Dr. Jackson: </span>
-The process was developed by
-Olin, and I believe it is done by Olin, perhaps also at the Army Ordnance
-plants.
- </p><p><span>Mr. Ichord: </span>
-I believe the record will show
-this scrap powder is provided to the propellant producer as Government-furnished
-equipment.
-<br>..........
- </p><p><span>Mr. Ichord: </span>
-I would ask you this question,
-Dr. Jackson: For ballistic acceptance which is more reliable, a reference
-powder or a reference ammunition?
-<br>&nbsp;&nbsp; </p><p><span>Dr. Jackson:</span> For ballistic acceptance a reference
-powder is more reliable.
- </p><p><span>Mr. Ichord:</span> Why?
-</span>
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Dr. Jackson: Because comparison of the lot under
-test is being made directly with the same type material that is being acquired
-and is not - there is no opportunity for confusing differences in metal
-components and their influence on ballistics, which always has the opportunity
-to creep in when reference ammunition is used as a powder acceptance tool.</span>
-
- </p><p><span>Mr. Ichord:</span> What does the government now
-use?
- </p><p><span>Dr. Jackson:</span>
-<span class="style3">Reference ammunition, at
-its pleasure.</span> </span>
-<p>..................
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-All the experts have advised
-this committee that ball propellant causes increased fouling, and also
-a speedup in the cyclic rate, at least of the M-16 weapon. What is the
-character or nature of the ball propellant which results in increased fouling?
- </p><p><span>Dr. Jackson:</span> If it does in fact do so - as
-I say, we have had only direct observation in the firing of reference ammunition
-which contained ball propellant, and observed slightly more deposits in
-the barrels.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> You have observed that?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> We have observed this. We would
-ascribe this to the fact it is characteristic of a slower powder in any
-given weapon. If you have two powders, a slow and a fast one, the slower
-burning powder which burns further down the barrel is more likely to leave
-residue in the barrel in the bolt area.
-</span>
-<p class="style2">.........................
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-In order to establish our hypothesis,
-at this point I want to read into the record the result of tests of the
-SAWS study:
-<br>Field experiment conducted at Fort Ord, California: Section V, Material
-Reliability Results.
-</span>
-<p class="style2">2. Major causes in malfunctions in 5.56mm weapons.
-<br>Major causes of most malfunctions in the 5.56 mm. weapons are attributed
-to an interaction of ammunition (and belt link) deficiencies:
-<br>1. Weapon fouling, judged to be caused primarily by qualities of the
-propellant used in the standard ball 5.56 mm. cartridge.
-<br>2. Cycling of weapons in excess of design rates, judged to be caused
-by combinations of:
-<br>(a) Pressure characteristics of the propellant used in the standard
-ball 5.56 mm. cartridge.
-<br>(b) Factory calibration of M-16E1 rifles for a propellant with different
-pressure characteristics than that in the standard ball 5.56 mm. cartridge.
-<br>(c) Mismatch in internal ballistic (pressure) characteristics between
-the standard 5.56 mm. ball and tracer cartridges.
-<br>.................
-<p class="style2">(a) fouling
-<p>Fouling in the 5.56 mm. weapons occurred throughout the experiment.
-Dirty chambers resulting from rapid carbon buildup caused most of the failures
-to extract and some of the failures to chamber.&nbsp; Fouling remained
-a problem throughout the experiment, although cleaning and inspection of
-weapons were considered more stringent than would be possible during combat.
-<br>Inquiry to AMC determined that the propellant adopted for the standard
-5.56 mm. ball cartridge is different from the original propellant used
-during the development and service testing of the M-16E1 rifle and during
-the development of the Stoner weapons. A USACDCEC test of samples from
-the lot of standard ammunition used in the experiment showed more fouling
-than an AMC provided sample containing the original propellant. This supplemental
-fouling test was conducted using ammunition lots WCC-6098 and RA-5074.
-This limited test firing of 12,620 rounds indicated a malfunction rate
-of 5.6 per 1,000 rounds for the cartridge loaded with ball propellant as
-opposed to 0.91 for IMR propellant loaded cartridges.
-<br>(b) Excessive cyclic rate
-<br>Excessive cyclic rates were noted early in the experiment. In addition,
-surging (uneven firing) was noted when ball and tracer were fired together.
-There was also an increasing incidence of malfunctions attributed to ammunition
-cycling the weapons beyond their design rates. The cyclic rates were higher
-than the design cyclic rates, particularly with the M-16E1 rifle and Stoner
-machinegun. </p><p><span>It is concluded that this excessive cyclic rate caused,
-complicated, and multiplied such malfunctions as failure of the bolt to
-remain to the rear after the last round was fired from the magazine, FAILURES
-TO EJECT, and magazine feeding problems.</span>
-<br>A concurrent propellant investigation by Frankford Arsenal showed that
-the propellant currently used in the 5.56 mm. ball cartridge </span>
-<span class="style3">cycles
-weapons faster than the original propellant.</span>
-<br>Inquiry to AMC determined that,</p><p><span> to meet a government acceptance
-requirement</span>, M16E1 rifles are calibrated at the factory for the gas
-port pressure of the original propellant rather than that of the propellant
-currently used in standard ball 5.56 mm. cartridges. Interaction of the
-higher gas port pressure of the current propellant and the sizing of the
-gas port for a propellant with a lower gas port pressure is considered
-the reason for the excessive cyclic rate in the M16E1 rifle.
-</span>
-<p class="style2">.......................
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: When was the result of this study
-first brought to your attention, Colonel?</span>
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span>
-<span class="style3">November or early December
-1965.</span>
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> When was this experiment performed?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-As I recall, between October
-and November</p><p><span> 1965.</span>
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> I am sure Dr. Jackson has other
-business.</p><p><span> I will explore this with you later, Colonel Yount.</span>
-
-<br>You were producing IMR-4475 up until what date, doctor, for military
-purposes?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> I think it was 1964. I can't
-remember exactly when in 1964.
-</span>
-<p>IMR-4475 as far as I know was never submitted to the qualification test
-for the 5.56, that the CR powders and 8208 powders were submitted to. It
-was a powder purchased by the ammunition loader on commercial specification
-and submitted by him to the military as meeting the ammunition specification
-of the military. The powder was on a commercial purchase.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-I know the Army purchased a great
-many rounds of IMR.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> But the powder has not been
-submitted to the qualification test required if the powder is to be purchased
-by the military as such.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> You said you had difficulty meeting
-pressure limits in the specification. Was that because of producing it
-in larger quantities, or what was the reason for that?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson:</span> No, the powder was never designed
-to meet the pressure specification that was imposed on it by the Army specification.
-It would not have made any difference whether we were producing it in large
-or small quantity, we couldn't meet that pressure specification on a continuing
-basis.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-After you failed to meet the
-specification, you changed to 8136?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Dr. Jackson: </span>
-Right.
- </p><p><span>Mr. Ichord: </span>
-Remington loaded 8136 for quite
-a period of time, did it not?
- </p><p><span>Dr. Jackson:</span> Several months; approximately
-one-third of a million pounds of powder.
- </p><p><span>Mr. Ichord: </span>
-Why did Remington stop loading
-8136?
- </p><p><span>Dr. Jackson:</span> Because they were having trouble
-with the specification on the ammunition that required that maximum pressure
-plus three times standard deviation in pressure must not exceed 58,000
-pounds per square inch, and about every four or five lots they would slip
-out on that one, and finally said, "We can't do it."&nbsp;
-<br>The problem was, there we had less margin in pressure than was comfortable
-for the ammunition companies, plus a somewhat greater variation in pressure
-during a series of pressure tests, such as that the standard deviations,
-when multiplied by 3 and added to the maximum pressure, exceeded the 58,000
-pound limit. You couldn't tell this from a powder test, but once the ammunition
-was loaded in a regular ammunition plant loading the variations piled up
-and the standard deviation exceeded the permissible limit.
- </p><p><span>Mr. Ichord:</span> Again, as in the case of IMR-4475,
-it wasn't a case of inability to mass produce it?
- </p><p><span>Dr. Jackson:</span> No. We were having very little
-difficulty in getting reproducible lots. But we had made an improvement,
-but just hadn't gone far enough to get out of the pressure trouble.
-</span>
-<p>.............
- </p><p><span>Mr. Ichord:</span> Colonel Yount, will you please
-come forward and be seated, sir?
-<br>Continuing with the reference to the SAWS study, dated May 1966, you
-say this SAWS study was made in about October 1965?
- </p><p><span>Colonel Yount:</span> To the best of my recollection.
- </p><p><span>Mr. Ichord: </span>
-And the results of the study
-were made available to you in December 1965?
- </p><p><span>Colonel Yount:</span> November or December. It was
-not the completed test report, but simple oral results of the test.
- </p><p><span>Mr. Ichord:</span> Is that oral or written?
- </p><p><span>Colonel Yount:</span> Oral.
- </p><p><span>Mr. Ichord:</span> Did somebody connected with the
-SAWS study call you, come to see you, or what happened?
-</span>
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Colonel Yount:
-</span>We kept in touch with the various
-locations of the SAWS study, I don't know just who informed me. </span>
-<span class="style3">But
-we knew of the problem.</span>
- </p><p><span>Mr. Ichord:</span> Through what means? How were
-you kept informed?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> Liaison to the test sites,
-and telephone calls from the test sites.
- </p><p><span>Mr. Morgan:</span> Did you not have a liaison or
-tech representative at each of the centers conducting the tests?
- </p><p><span>Colonel Yount:</span> For the maintenance problems,
-yes.
- </p><p><span>Mr. Ichord:</span> I suppose you were quite concerned
-when you heard this?
-</p><p><span> Colonel Yount:</span> I certainly was.
- </p><p><span>Mr. Ichord:</span> What did you do?
- </p><p><span>Colonel Yount:</span>
-<span class="style3">We wanted a more controlled
-test, to confirm that the actual malfunctions were caused by the ball propellant,
-so we had some of the suspected lot of the propellant sent to Frankford
-Arsenal and had a special confirmatory test conducted by Frankford Arsenal
-in December 1965. That test confirmed the results of the SAWS test, that
-additional malfunctions were truly associated with the higher cyclic rate.</span>
-
- </p><p><span>Mr. Ichord: When was that?</span>
-
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount: DECEMBER 1965. THE RESULTS OF
-THE TEST WERE PUBLISHED IN EARLY JANUARY, I BELIEVE, 1966, AND THIS CONFIRMED
-THE CORRELATION OF HIGH CYCLING RATE WITH THE MALFUNCTION RATE.</span>
-
-<br></p><p><span>Mr. Ichord: YOU HAD NOT YET HAD TESTS FROM VIETNAM, I MEAN REPORTS
-FROM VIETNAM, AS TO EXCESSIVE MALFUNCTIONING?</span>
- </p><p><span>Colonel Yount: </span>
-That is correct.
-</span>
-<p class="style2">.................
-<p class="style2">page 4977
-<br>&nbsp;
-<p>&nbsp;&nbsp;</p><p><span>&nbsp; Mr. Ichord:</span> When did it first come to your
-attention, Dr. Payne, that ball powder was causing excessive fouling, higher
-cyclic rates, and thus increased malfunctions and parts breakage?
- </p><p><span>Dr. Payne:</span> The fall of 1965; during the SAWS
-study.
- </p><p><span>Mr. Ichord:</span> What action did you take upon
-learning of this study?
- </p><p><span>Dr. Payne: </span>
-I recorded the reports I gathered
-on the trip, in the form of a memorandum, transmitted this to my official
-point of contact in the Office, Chief of Staff, which at the same time
-was the Systems Analysis Division of the Office of the Director of Coordination
-and Analysis.
- </p><p><span>Mr. Ichord:</span> Who was that?
- </p><p><span>Dr. Payne:</span> The Division Chief was Colonel
-Newman. My Memorandum was addressed to Lt. Col. William Jank.
- </p><p><span>Mr. Ichord: What was the date?</span>
-
- </p><p><span>Dr. Payne:</span>
-<span class="style3">Early November 1965.</span>
-<br>.................
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Payne:</span> Yes, sir. I discussed the report,
-after I wrote it, with an officer who was about to visit Vietnam. I told
-him the nature of the problems being found in the SAWS, and asked that
-he check with people he met there as to whether any similar problems were
-occurring in Vietnam.
- </p><p><span>Mr. Ichord: </span>
-Who was that officer?
- </p><p><span>Dr. Payne:</span> Colonel Blanchard. He was then
-executive officer for the Secretary of the Army.
- </p><p><span>Mr. Ichord:</span> What action was taken as a result
-of your report?
- </p><p><span>Dr. Payne:</span> For this, sir, I have only verbal
-reports back. After some period, Colonel Jank informed me that the same
-information that was available in my memorandum </p><p><span>about fouling and malfunctions</span>
-had already been reported to AMC by the Combat Developments Command, that
-certain confirmatory tests were then underway.
- </p><p><span>Mr. Ichord:</span> Was that the extent of your followup?
- </p><p><span>Dr. Payne:</span>
-<span class="style3">Colonel Blanchard returned
-from Vietnam and reported he had talked to seven or eight battalion commanders;
-none of them were experiencing any similar troubles.</span>
- </p><p><span>Mr. Ichord:</span>
-<span class="style3">WHEN DID YOU GET THE REPORTS
-THAT
-THEY WERE EXPERIENCING TROUBLES?</span>
- </p><p><span>Dr. Payne:</span>
-<span class="style3">IN VIETNAM?</span>
- </p><p><span>Mr. Ichord:</span>
-<span class="style3">YES.</span>
-</p><p><span> Dr. Payne:</span>
-<span class="style3">NEARLY A YEAR LATER.</span>
- </p><p><span>Mr. Ichord:</span> THAT WAS IN OCTOBER 1966, I PRESUME?
- </p><p><span>Dr. Payne: IN MY CASE, I THINK IT WAS PROBABLY
-DECEMBER.</span>
- </p><p><span>Mr. Ichord:</span> Did you make any recommendations
-at the time you did hear from South Vietnam that they were having trouble?
- </p><p><span>Dr. Payne:</span> No, sir. By that time, we were
-involved in the review of the SAWS report itself, on the basis of which
-recommendations </p><p><span>were made for an extensive investigation.</span>
-
-<br>I thought the people in the Office, Chief of Staff, doing it at that
-time knew everything that I knew, we agreed on the points of fact and the
-problems and what needed to be done. I took no action other than to review
-what they had done.
-</span>
-<p class="style2">................
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Morgan:</span> In view of your conclusions or
-views on the malfunctions caused by the ball propellant during the SAWS
-test, did you take any action when you learned of the excessive amount
-of malfunctions being experienced in Vietnam?
- </p><p><span>Dr. Payne:</span>
-<span class="style3">Yes, sir. I tried my best to
-find out whether they were from the same cause.</span>
- </p><p><span>Mr. Morgan: Do you think they are partly from
-the same cause?</span>
- </p><p><span>Dr. Payne:</span>
-<span class="style3">It is possible they are partly
-from the same cause, but not predominantly</span>.
- </p><p><span>Mr. Morgan:</span> Has an effort been made to take
-samplings of the ammunition in Vietnam for purpose of testing to see if
-there is any relationship?
- </p><p><span>Dr. Payne:</span> No, sir - not to my knowledge.
-<br>The tests that we conducted in this country are conducted with essentially
-similar ammunition.
-</span>
-<p class="style2">.................
-<p class="style2">page 4998
-<br>&nbsp;
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Morgan:</span> General Anderson, do you have
-anything you want to add to the testimony given on the problem of ammunition
-in relationship to the malfunctions of the M-16?
- </p><p><span>General Anderson:</span> No, Mr. Counsel. I might
-in a way summarize</p><p><span> what I think our position is.</span>
-
-<br></p><p><span>At the time we moved into the ball propellant for the 5.56 we had
-no reason to believe we would have any difficulties from it</span>, because
-we had found that by controlling the port pressure in other weapons, both
-U.S. and foreign designs, that this produced acceptable results.
-<br>We conducted tests,</p><p><span> not as extensive perhaps as we might have liked</span>,
-but the tests we conducted at that time gave us no indication that our
-supposition,</p><p><span> that it was a low risk matter, was anything to worry about</span>.
-These original tests showed no malfunctions, as you recall.
-<br></p><p><span>However</span>, as we went down the road we found that indeed there
-were </p><p><span>malfunctions associated with the cyclic rate.</span> This was discovered,
-I think, first in the initial </p><p><span>SAWS</span> report Dr. Payne mentioned, and
-that we knew about in </p><p><span>the fall of 1965</span>.
-<br>Once we discovered it and confirmed it with the Frankford Arsenal tests
-where we </p><p><span>first</span> correlated malfunctions as related to high cyclic
-rate, we set about correcting this. This, of course, took the form of the
-new buffer.</p><p><span> The new buffer</span> was under development for other reasons,
-and </p><p><span>it was fortunate we could put this in with it</span>.
-</p><p><span>Our tests
-thus far with the new buffer</span>, with both ball and the latest IMR, show</p><p><span>
-very acceptable results in lowering the cyclic rate</span>.&nbsp;
-<br>Now, the malfunctions that occurred in Vietnam in the period culminating
-in the October - September-October investigations by the Army, </span>
-<span class="style3">undoubtedly
-were PARTIALLY ATTRIBUTABLE TO THE BALL POWDER INCREASED CYCLIC RATE.</span>
-
- </p><p><span>Mr. Ichord:</span> How about the fouling?
- </p><p><span>General Anderson:</span> Let me come back to that
-in just a moment, Mr. Chairman.
-<br></span><b>However, WE HAVE CONCLUDED, BASED ON THE INFORMATION THAT WE HAVE,
-THAT THE CARE AND MAINTENANCE AND PRESERVATION PROBLEMS SO OVER-SHADOWED
-THE MALFUNCTIONS THAT MIGHT HAVE BEEN CAUSED BY THE USE OF BALL POWDER,
-</span>
-<u>THAT
-THE PRIMARY PROBLEM IN VIETNAM WITH RESPECT TO THE MALFUNCTIONS WAS RELATED
-PRIMARILY TO THE CARE AND CLEANING PROBLEM</span></u>. AND THIS INDIVIDUAL MAINTENANCE</span></b>
-<span class="style3">so overshadowed the malfunctions that undoubtedly would have occurred
-because of the high rate of fire, this was the causative factor.</span>
-
-<br>Now, once we got upon this, with the teams that went over there in
-October, and the actions that the Vietnamese Army Headquarters took, </span>
-<span class="style3">we
-have had a rather dramatic dropoff in the malfunction rate</span>. Our latest
-report on that in writing was in. I think, April 1967 when a report from
-Vietnam noted that the malfunction rate was way down </span>
-<span class="style3">AND COMPLETELY
-UNDER CONTROL.&nbsp;</span>
-<br>Now, to get back to your question on fouling. </p><p><span>We are still conducting
-tests on the relationship of fouling to malfunctions. I would like to stand
-corrected here, if my interpretation is not right. THUS FAR WE HAVE NOT
-BEEN ABLE TO RELATE INCREASE IN MALFUNCTIONS TO INCREASE IN FOULING.&nbsp;</span>
-
- </p><p><span>Mr. Ichord:</span> What about cyclic rate?
-</span>
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>General Anderson:</span>
-<span class="style3">Yes, sir.</span>
- </p><p><span>Mr. Ichord:</span>
-<span class="style3">You have been able to relate
-that?</span>
- </p><p><span>General Anderson:</span>
-<span class="style3">YES,SIR; WITHOUT QUESTION.</span>
- </p><p><span>Mr. Ichord: </span>
-Cleaning is not going to affect
-the cyclic rate. In adopting the new buffer you have slowed down the cyclic
-rate by the new buffer?
- </p><p><span>General Anderson: </span>
-Yes. </p><p><span>But </span>
-we have
-definitely correlated the higher cyclic rate to a greater incidence of
-malfunctions. However, we have not been able in tests conducted thus far
-to establish a </p><p><span>direct relationship</span> of the increased fouling to additional
-malfunctions. Is this correct?
- </p><p><span>Mr. Davis: </span>
-That is correct.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-You mean you are, then, disagreeing
-with the </p><p><span>SAWS</span> study here?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; General Anderson:</span> No, sir. I am agreeing
-with the </p><p><span>SAWS</span> study.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> I thought the SAWS study did
-say that fouling contributed to the malfunctioning.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; General Anderson:</span> The high cyclic rate. I
-think the </p><p><span>SAWS</span> study may have.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span>
-<span class="style3">(reading)</span>
-<br>Major causes of most malfunctions in the 5.56 millimeter weapons are
-attributed to an interaction of ammunition and belt link deficiencies:
-<br>(1) Weapon function, judged to be caused primarily in the</p><p><span> quality
-of propellant used </span>in the standard ball propellant 5.56 millimeter
-cartridge.
-<br>(4) a. Fouling:
-<br>Fouling in the 5.56 mm weapons occurred throughout the experiment.
-Dirty chambers resulting from rapid carbon buildup</p><p><span> CAUSED MOST OF THE
-FAILURES TO EXTRACT</span>. Fouling remained a problem throughout the experiment,
-although cleaning and inspection of weapons were considered</p><p><span> more stringent
-than would be possible during combat.</span>
-<br>Perhaps I read that wrong.
-</p><p><span> General Anderson: </span>
-I cannot say whether they
-were correctly relating the fouling and the malfunction. The high rate
-we have correlated, yes. But we are still conducting tests on the fouling
-to see if it does induce additional malfunctioning.
- </p><p><span>Mr. Ichord:</span> Well, General Anderson, this
-is the thing that has concerned me greatly, and I think </span>
-<span class="style3">we have been
-discussing the crux&nbsp; of the whole M-16 problem and the M-16 controversy
-in our discussion of IMR and ball propellant ammunition. I think this is
-pretty well summed up by the Army in this supplement to a July 27, 1967,
-statement. I read from the statement:</span>
-<br></p><p><span>From the vantage point of retrospect, it has sometimes been suggested
-that the peculiar behavior of ball propellant in the M-16 system should
-have been predicted. There was, in fact, no evidence in 1963 that the cyclic
-rate of the M-16 would be greatly affected by the choice of propellant,
-PROVIDED THAT PORT PRESSURES WERE CONTROLLED as they had been in the M14
-and other 7.62 millimeter systems which accommodate both ball and extruded
-propellants. Furthermore, there was no evidence at the time to indicate
-that an increase of 10 percent to 15 percent in cyclic rate of fire would
-cause a serious increase in frequency of malfunctions.</span>
-</span>
-<p><b>Had the Army anticipated these developments, it is most likely that
-the course chosen in </span> <u>January, 1964</span></u>, would have been the same. A
-decision to reduce the velocity requirement, and continue loading IMR 4475
-propellant would probably have been made instead, and the development of
-alternate propellants could have been pursued more deliberately.</span></b>
-</span>
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>General Anderson:</span> Yes.
-<br>Mr. Ichord: The fact that these things arose as such does not concern
-me. The thing that does concern me has developed in these hearings, General
-Anderson.
-<br>This committee was established for the purpose of reviewing the development,
-the acquisition, and the functioning of the M-16 rifle and to make a report
-to the full committee. We did not know of this crux which you have summarized
-here until we went to Vietnam. And I don't know - I don't think there was
-anything in the record - was there, in regard to the effect of propellants?
-<br>We are asking the Army to give us the facts on this matter, the full
-facts, so that we can make a report. </p><p><span>And I doubt very much that if the
-committee did not receive a tip in Vietnam to look into this ammunition
-</span>that
-we would ever have explored it and have developed the whole record.
-</p><p><span>I
-THINK THE RECORD WITHOUT DOUBT SUSTAINS THE FACT THAT THE CRUX OF THE PROBLEM
-- YOU HAD OTHER PROBLEMS, SURELY - STARTED WITH THIS CONVERSION TO BALL
-PROPELLANT</span>. That is the thing that concerns me more than a mistake
-or mistakes which may have been made. </p><p><span>Mistakes don't concern me, as
-such. I make too many of them to be concerned.&nbsp;</span>
-<br>General Anderson: Mr. Chairman, I don't know quite how else to respond.
-There is nothing that I know of that we have withheld from the committee.
-There is nothing on this subject that I know of that throws any additional
-light on the controversial switch, so to speak, to ball powder. I know
-of nothing else that I can add to what has been said already and put in
-the record.
-<br>It is true, had we known at the time - but as I said, our experience
-and limited tests gave us no reason to question the change. In retrospect,
-I believe we would definitely have considered a drop in the muzzle velocity
-of perhaps 50 feet per second in order to accommodate the high pressure,
-or uncomfortable closeness to this limiting pressure, </span>
-<span class="style3">had we known we
-would run into all this other trouble</span>. We have freely admitted that
-in the record.
- </p><p><span>Mr. Ichord: </span>
-Yes.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Morgan: </span>
-Do you contemplate making any
-changes to the ball propellant to clean it up or have less adverse effect
-on the rifle?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; General Anderson:</span> Well, yes.
-<br>Mr. Morgan, we have under study a rather sophisticated study to get
-all the aspects of propellants, coatings, grain size, what have you, hopefully
-to come up with a conglomerate specification that would have all the good
-things of a rifle propellant and eliminate all the bad things, without
-tying ourselves to a proprietary product of one or another manufacturer.
-This is being done at Frankford, isn't it, this propellant study?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Davis: </span>
-Yes, sir; and BRL.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; General Anderson: </span>
-And BRL. So, you ask are
-we contemplating a change. </p><p><span>Well, in a long-range way we are studying
-these various things.</span>
-<br>On ball powder itself, as it now exists, </p><p><span>I don't know whether any
-particular study is going on on this.</span> </span>
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Davis:
-</span>No, sir. </p><p><span>OUR RECORDS FROM THE
-MOST EXTENSIVE DATA WE HAVE AT THE PRESENT TIME INDICATE SO LONG AS THE
-CYCLIC RATE IS CONTROLLED WITHIN AN ADEQUATE RANGE THE PERFORMANCE OF THE
-BALL PROPELLANT IS NOT LESS RELIABLE THAN PERFORMANCE FROM ANY IMR.</span>
-
-<br></p><p><span>&nbsp;&nbsp;&nbsp; General Anderson: </span>
-On the other hand, Mr.
-Chairman, I don't think increased fouling helps matters any.
-<br></p><p><span>&nbsp;&nbsp; Mr. Ichord:</span> I hoped you would say that.
-<br>General Anderson: Yes.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Then we seem to get down to the
-question - perhaps I am being a little derogatory - how much can we wet
-nurse a rifle by extensive cleaning under combat conditions?
- </p><p><span>General Anderson:</span> Well, you have to clean
-the rifle no matter what kind of powder. Whether it would be more difficult
-to clean it with the ball powder, or with the IMR, I am not sure at all.
-<br>Mr. Ichord: One of the generals, the one who returned from Vietnam,
-has stated - of course, we have statements all over the lot on it. Some
-say it is no more difficult to clean than any other weapon, and I think
-we have statements by high authority that more care and maintenance has
-to be directed to it --
- </p><p><span>General Anderson:</span> There is more visible residue
-on the ball powder than on the other.
- </p><p><span>Mr. Ichord:</span> Yes.</p><p><span> I THINK THOSE STATEMENTS
-THAT THE M-16 REQUIRES MORE CARE AND MAINTENANCE SHOULD BE DIRECTED TO
-THE BALL PROPELLANT RATHER THAN TO THE RIFLE ITSELF.</span>
- </p><p><span>General Anderson: </span>
-We would like to cut down
-the so-called dirty rifle with either. But with ball powder leaving more
-visible residue, there is some speculation as to whether it takes longer
-to clean it. I am not sure of that at all. I don't know.
- </p><p><span>Mr. Ichord:</span> I am going to ask if anybody
-else wants to add anything to the record today. I am not going to adjourn
-the subcommittee sine die. I had hoped to be able to do so. But I want
-to give you the chance to clarify the record, straighten up any inconsistency
-that might result, before I adjourn today.
-<br>&nbsp;Mr. Counsel.
- </p><p><span>Mr. Morgan: </span>
-Mr. Chairman, could we ask the
-Army to give us information on the distribution of the 8208 IMR ammunition
-that has been sent to Vietnam? Have they established a ratio for distributing
-the IMR versus the ball propellant to the users in Vietnam?
-<br>General Anderson: No.
- </p><p><span>Mr. Morgan:</span> Is there any priority for distribution
-of the IMR over the ball propellant, or is it first in, first out?
- </p><p><span>General Anderson:</span> You are right; generally
-it is first in, first out. </p><p><span>As we said earlier to Mr. Bray, there is
-no identification on the boxes as to which is ball and which is IMR</span>.
-We do not do that. By the lot numbers we know. We do know which ones they
-are. But we do not as a normal practice transmit that to the field, have
-not been. </p><p><span>So they do not know which one is which.&nbsp;</span>
-
-<br>You said any kind of program distribution. There is no programmed distribution
-of ball versus IMR in Vietnam.
- </p><p><span>Mr. Morgan:</span> Can we determine what amount
-of that shipped since </p><p><span>April [1967] </span>
-has been distributed to the troops
-and what amount is in the warehouses at the various supply depots?
-<br>General Anderson: Mr. Morgan, we can try. My estimate is that it would
-be very difficult to do that. We will try to find out.
-<br>(The following information was received for the record)
-</span>
-<p class="style2">The Army is unable to state how much of the IMR 8208 propellant ammunition
-shipped to SEA since April 1967 has been issued to troops and how much
-is in depot.
-<br>Rifle ammunition is loaded and packed by the commercial contractor
-and identified by Lot Number. the package displays the Lot Number as do
-shipping documents but there is no way to identify the propellant used
-to fill the cartridges in a particular Lot. Consequently, the issuing depot
-has no knowledge of the propellant used in the ammunition that has been
-issued or that remains on hand.
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Morgan:</span> General Anderson, or Colonel Yount,
-in the Tech Coordinating Committee meeting of March 2 this year it was
-indicated that 16 chrome-plated chambers, or 16 barrels with chrome plated
-chambers, were shipped to Vietnam for evaluation, under the control of
-the Army concept team in Vietnam. A report from this team was scheduled
-for April 1967. Was such report received?
- </p><p><span>Colonel Yount</span>: It was not. We do not expect
-one. We have been in contact with the Army concept team. </span>
-<span class="style3">They have had
-other projects of greater priority.</span> They distributed the barrels to
-the field. Major Podurgal personally contacted two or three people who
-had these weapons with these barrels on them. They were happy with them.
-As far as controlled tests on these barrels,</p><p><span> it is of little value.</span>
-</span>
-<p class="style2">.................
-<p>&nbsp;&nbsp;&nbsp; </p><p><span>Mr. Ichord:</span> General Anderson, back to your
-statement that the Army has not conclusively determined that excessive
-malfunctions have been attributable to fouling, and also the position of
-the Army that it had no way of knowing that the ball propellant would produce
-the effects it did. Would it be fair to say you did not, however, have
-a proper basis of comparison, in that the M-14, where you had your experience
-with ball propellant, had not only a chrome chamber but also a chrome plated
-bore?
-<br>The recommended change - and I want to ask what has been going on in
-regard to the chrome plating of the chamber. You think, perhaps, the chrome
-plating will compensate for the increased fouling?&nbsp;
- </p><p><span>General Anderson:</span> Yes, sir.
- </p><p><span>Mr. Ichord: </span>
-At least it makes it a little
-easier to clean, it is a little harder, and it would work to eliminate
-excessive pitting.
- </p><p><span>General Anderson:</span> That is right. It is less
-likely to erode, it is easier to clean. The coefficient of friction, for
-example, between chrome and brass is less, so it would extract easier under
-any conditions, in that case. Yes. That is being done, as you know.
- </p><p><span>Mr. Ichord:</span> How do we stand now that Colt
-has gone back to work?
- </p><p><span>Colonel Yount:</span> The first 5,000 production
-weapons with the chrome-plated chamber are scheduled to be received in
-the month of September.
- </p><p><span>Mr. Ichord:</span> They backed up? They had an earlier
-schedule on that, of August, didn't they? And the strike delayed that a
-month?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> The strike delayed it. During
-September we expect to get 4,000 replacement barrels that will have the
-chrome-plated chamber. Each month thereafter the total production of weapons,
-as well as repair barrels, will have the chrome-plated chamber.
- </p><p><span>Mr. Ichord: </span>
-Have you concluded, Mr. Counsel?
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Morgan:</span> Yes, sir.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Colonel, how about those monthly
-reports you made on M-16 reliability to the Army Chief of Staff? Do you
-have those with you today?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-No, sir. Which ones, sir,
-the most recent ones, or the initial ones, sir?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-I think perhaps we need to review
-that, particularly since October 1966. That is your monthly reports on
-reliability and product improvement. You don't have those with you?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> No, sir.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Can you make those available
-to the committee?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> Again, sir, I am not sure
-which reports you are referring to.
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-Don't you make a monthly report
-to the Army Chief of Staff or the Deputy Chief?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> At the present time?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> Well --
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount:</span> Or initially? When we started
-the program I had a set of reports going to the Department of Army. Then,
-as a result of the SAWS, I submitted reports which went into DCSLOG which
-eventually are received by the Chief of Staff. I am not sure which reports
-you are referring to, sir?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord: How about giving us all of them</span>,
-to make sure we have them? How about giving us all your monthly reports?
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-Yes, sir.
-<br>(The information requested is in the files of the committee.)&nbsp;
-<br></p><p><span>&nbsp;&nbsp;&nbsp; Mr. Ichord:</span> There being no further questions,
-the committee will adjourn subject to the call of the Chair.
-<br>(Whereupon, at 4:50 p.m. the subcommittee adjourned.)
-
+                <span> Mr. Ichord:</span> Let me interrupt to be sure I understand what you are talking about. Is this coating to which you refer, DNT - you switched from that to Centralite - is it the coating that controls the rate of burning in the powder?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> The coating controls the initial rate of burning in the powder, because it is an exterior treatment which influences only a fraction of the thickness of the powder.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What do you mean by the "initial rate of burning?"
+              </p>
+              <p>
+                <span>Dr. Jackson: </span> When the powder burns, it burns essentially on the surface, from the surface in, like logs in a fireplace. In order to slow down the initial rate of gas production to keep the maximum pressure in the barrel, in the chamber, below the desired limit, the burning rate of the outer layers of propellant is deterred in all rifle powders by some material or other.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> And the initial rate of burning is the thing that has the greatest effect upon the chamber pressure?
+              </p>
+              <p>
+                <span> Dr. Jackson: </span> It has the greatest effect on the chamber pressure at a given velocity. You can modify the amount and character of the coating and influence the velocity - pressure relationship.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What is the relationship between the chamber pressure and the velocity with which the bullet leaves the gun? There is a direct relationship, is there not?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> It is a variable relationship, depending on the characteristic of the powder. And devising the proper powder granulation, composition and coating to obtain a preferred velocity - pressure relationship is the problem of the ballistician.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Anyway, you slowed down the initial rate of burning by the change from DNT to Centralite, and this, you say, permitted you to more easily stay within the chamber pressure specifications?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> That is correct. CR-8136 was given a thorough testing by the Army and qualified for loading in 5.56 ammunition on April 29, 1964. The pressure-velocity relationship was more favorable on the average for CR-8136 than for IMR-4475 so there was less difficulty in meeting the 50,000 pounds per square inch maximum, but the Centralite coating is inherently harder to ignite, so the variations from round to round were greater. There is a 58,000 pounds per square inch limit on P maximum plus three times the standard deviation for ammunition acceptance. That is a requirement placed upon the ammunition supplier that he must meet.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> 58,00 maximum, but an average of 52,000?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> Average of 52,000, but the maximum pressure observed in any lot of ammunition plus three time the standard deviation in pressure as observed in firing a series of rounds must not exceed 58,000 pounds per square inch, and this is the difficulty that loading people got into with CR-8136. All of the lots produced (approximately 300,000 pounds) were loaded by Remington at Bridgeport, but there were complaints about P maximum plus three times standard deviation exceeding 58,000 pounds per square inch, so obviously we had not yet obtained a completely satisfactory solution to this problem. The current answer to the 5.56 millimeter loading problem came as a result of a research program carried out under contract with Picatinny Arsenal to find a propellant with greater ballistic stability over a wide temperature range (contract DA-36-034-ORD-3742A, completed May 30, 1965.) Many variations of the extruded single-base powders were tried. Incidentally, that contract was limited to extruded single-base type, and a modification of IMR was found bearing a new coating material which not only has improved temperature stability but a better velocity-pressure relationship as well. The work under the contract was done mainly with 7.62 millimeter ammunition and the powder resulting was designated IMR 8138-M. Although this powder would be ballistically satisfactory in the 5.56 millimeter round, the grain configuration prevented uniform machine loading. When this formulation, involving the new coating material and procedure, was applied to the 5.56 millimeter problem the result was IMR 8208-M with a granulation .041 - .010x1/32, the same CR-8136. The gravimetric density was higher, the velocity-pressure relationship was more favorable, and the charge was still about 25.5 grains. The maximum average pressures were well under the specification of 50,000 and the variations were such that there was little trouble with the P maximum plus three times standard deviation meeting the 58,000 pounds per square inch limit. IMR-8208 was submitted to the Army for qualification tests and after passing all phases of the trials, was reported to be accepted in May 1966 for loading in 5.56 millimeter ball and tracer ammunition. The qualification tests consisted of chamber and port pressure, velocity and tracer ignition tests at +70, -65, +125, +160, and -80 degrees F.; action time and climatic storage tests; smoke, flash, fouling, cyclic rate, and barrel erosion tests. To appraise you of production experience we have shipped 42 lots of powder representing 1.3 million pounds. this production covers the period October 1966 through July 1967. The material has been loaded in ball and tracer cartridges at Lake City and Twin Cities Army ammunition plants. Reports from Lake City concerning the quality of the ammunition containing this powder have been uniformly satisfactory. As the procurement agencies are aware, only limited quantities of IMR 8208-M can be supplied from the Carney's Point Works of Du Pont, which is our only powder making facility. We are currently supplying to the limit of the plant capacity on this item. At the request of the government, Du Pont has instructed personnel in the coating procedure required for IMR 8138-M and 8208-M at the Radford Army ammunition plant.
+              </p>
+              <p>
+                ..............
+              </p>
+              <p>
+                page 4949
+              </p>
+              <p>
+                <span>Mr. Ichord:</span>Now for the record I would like to say that we have three types of propellant, for rifle ammunition in the United States, that have been used for the past 25 years, three basic types. The first is IMR, which is the propellant Du Pont has been making, single base extruded. This gets its energy, in the main, from nitrocellulose. Then we have HPC, which is a double base extruded, that is, shaped like IMR but depends on the nitroglycerin as well as nitrocellulose. Then we have the ball, a double base spherical grain, energized both by nitrocellulose and nitroglycerin. Is it possible to convert surplus or scrapped powder into extruded IMR powder?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> It is not, sir.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> But that is not true in the case of ball propellant, is it possible to make ball propellant out of surplus powder?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> By the nature of the process; yes.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Is it your further understanding that scrap powder, surplus powder, is now being worked into ball propellant?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> That is my understanding.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Do you know who is doing this?
+              </p>
+              <p>
+                <span>Dr. Jackson: </span> The process was developed by Olin, and I believe it is done by Olin, perhaps also at the Army Ordnance plants.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> I believe the record will show this scrap powder is provided to the propellant producer as Government-furnished equipment.
+              </p>
+              <p>
+                ..........
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> I would ask you this question, Dr. Jackson: For ballistic acceptance which is more reliable, a reference powder or a reference ammunition?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> For ballistic acceptance a reference powder is more reliable.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Why?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> Because comparison of the lot under test is being made directly with the same type material that is being acquired and is not - there is no opportunity for confusing differences in metal components and their influence on ballistics, which always has the opportunity to creep in when reference ammunition is used as a powder acceptance tool.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What does the government now use?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> Reference ammunition, at its pleasure.
+              </p>
+              <p>
+                ..................
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> All the experts have advised this committee that ball propellant causes increased fouling, and also a speedup in the cyclic rate, at least of the M-16 weapon. What is the character or nature of the ball propellant which results in increased fouling?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> If it does in fact do so - as I say, we have had only direct observation in the firing of reference ammunition which contained ball propellant, and observed slightly more deposits in the barrels.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> You have observed that?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> We have observed this. We would ascribe this to the fact it is characteristic of a slower powder in any given weapon. If you have two powders, a slow and a fast one, the slower burning powder which burns further down the barrel is more likely to leave residue in the barrel in the bolt area.
+              </p>
+              <p>
+                .........................
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> In order to establish our hypothesis, at this point I want to read into the record the result of tests of the SAWS study:
+              </p>
+              <p>
+                Field experiment conducted at Fort Ord, California: Section V, Material Reliability Results.
+              </p>
+              <p>
+                2 Major causes in malfunctions in 5.56mm weapons. Major causes of most malfunctions in the 5.56 mm. weapons are attributed to an interaction of ammunition (and belt link) deficiencies:
+                <p>
+                  1) Weapon fouling, judged to be caused primarily by qualities of the propellant used in the standard ball 5.56 mm. cartridge.</br>
+                  2) Cycling of weapons in excess of design rates, judged to be caused by combinations of:</br>
+                  <p>
+                    - Pressure characteristics of the propellant used in the standard ball 5.56 mm. cartridge.</br>
+                    - Factory calibration of M-16E1 rifles for a propellant with different pressure characteristics than that in the standard ball 5.56 mm. cartridge.</br>
+                    - Mismatch in internal ballistic (pressure) characteristics between the standard 5.56 mm. ball and tracer cartridges.</br>
+                  </p>
+                  <p>
+                    .................
+                  </p>
+                  <p>
+                    - Fouling in the 5.56 mm. weapons occurred throughout the experiment. Dirty chambers resulting from rapid carbon buildup caused most of the failures to extract and some of the failures to chamber. Fouling remained a problem throughout the experiment, although cleaning and inspection of weapons were considered more stringent than would be possible during combat. Inquiry to AMC determined that the propellant adopted for the standard 5.56 mm. ball cartridge is different from the original propellant used during the development and service testing of the M-16E1 rifle and during the development of the Stoner weapons. A USACDCEC test of samples from the lot of standard ammunition used in the experiment showed more fouling than an AMC provided sample containing the original propellant. This supplemental fouling test was conducted using ammunition lots WCC-6098 and RA-5074. This limited test firing of 12,620 rounds indicated a malfunction rate of 5.6 per 1,000 rounds for the cartridge loaded with ball propellant as opposed to 0.91 for IMR propellant loaded cartridges. </br>
+                    - Excessive cyclic rate: Excessive cyclic rates were noted early in the experiment. In addition, surging (uneven firing) was noted when ball and tracer were fired together. There was also an increasing incidence of malfunctions attributed to ammunition cycling the weapons beyond their design rates. The cyclic rates were higher than the design cyclic rates, particularly with the M-16E1 rifle and Stoner machinegun.
+                  </p>
+                  <p>
+                    It is concluded that this excessive cyclic rate caused, complicated, and multiplied such malfunctions as failure of the bolt to remain to the rear after the last round was fired from the magazine, FAILURES TO EJECT, and magazine feeding problems. A concurrent propellant investigation by Frankford Arsenal showed that the propellant currently used in the 5.56 mm. ball cartridge cycles weapons faster than the original propellant. Inquiry to AMC determined that, to meet a government acceptance requirement, M16E1 rifles are calibrated at the factory for the gas port pressure of the original propellant rather than that of the propellant currently used in standard ball 5.56 mm. cartridges. Interaction of the higher gas port pressure of the current propellant and the sizing of the gas port for a propellant with a lower gas port pressure is considered the reason for the excessive cyclic rate in the M16E1 rifle.
+                  </p>
+                </p>
+              </p>
+              <p>
+                .......................
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> When was the result of this study first brought to your attention, Colonel?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> November or early December 1965.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> When was this experiment performed?
+              </p>
+              <p>
+                <span>Colonel Yount: </span> As I recall, between October and November  1965.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I am sure Dr. Jackson has other business. I will explore this with you later, Colonel Yount. You were producing IMR-4475 up until what date, doctor, for military purposes?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> I think it was 1964. I can't remember exactly when in 1964. IMR-4475 as far as I know was never submitted to the qualification test for the 5.56, that the CR powders and 8208 powders were submitted to. It was a powder purchased by the ammunition loader on commercial specification and submitted by him to the military as meeting the ammunition specification of the military. The powder was on a commercial purchase.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> I know the Army purchased a great many rounds of IMR.
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> But the powder has not been submitted to the qualification test required if the powder is to be purchased by the military as such.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> You said you had difficulty meeting pressure limits in the specification. Was that because of producing it in larger quantities, or what was the reason for that?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> No, the powder was never designed to meet the pressure specification that was imposed on it by the Army specification. It would not have made any difference whether we were producing it in large or small quantity, we couldn't meet that pressure specification on a continuing basis.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> After you failed to meet the specification, you changed to 8136?
+              </p>
+              <p>
+                <span>Dr. Jackson: </span> Right.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Remington loaded 8136 for quite a period of time, did it not?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> Several months; approximately one-third of a million pounds of powder.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Why did Remington stop loading 8136?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> Because they were having trouble with the specification on the ammunition that required that maximum pressure plus three times standard deviation in pressure must not exceed 58,000 pounds per square inch, and about every four or five lots they would slip out on that one, and finally said, "We can't do it." The problem was, there we had less margin in pressure than was comfortable for the ammunition companies, plus a somewhat greater variation in pressure during a series of pressure tests, such as that the standard deviations, when multiplied by 3 and added to the maximum pressure, exceeded the 58,000 pound limit. You couldn't tell this from a powder test, but once the ammunition was loaded in a regular ammunition plant loading the variations piled up and the standard deviation exceeded the permissible limit.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Again, as in the case of IMR-4475, it wasn't a case of inability to mass produce it?
+              </p>
+              <p>
+                <span>Dr. Jackson:</span> No. We were having very little difficulty in getting reproducible lots. But we had made an improvement, but just hadn't gone far enough to get out of the pressure trouble.
+              </p>
+              <p>
+                .............
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Colonel Yount, will you please come forward and be seated, sir? Continuing with the reference to the SAWS study, dated May 1966, you say this SAWS study was made in about October 1965?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> To the best of my recollection.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> And the results of the study were made available to you in December 1965?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> November or December. It was not the completed test report, but simple oral results of the test.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Is that oral or written?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> Oral.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Did somebody connected with the SAWS study call you, come to see you, or what happened?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> We kept in touch with the various locations of the SAWS study, I don't know just who informed me. But we knew of the problem.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Through what means? How were you kept informed?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> Liaison to the test sites, and telephone calls from the test sites.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Did you not have a liaison or tech representative at each of the centers conducting the tests?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> For the maintenance problems, yes.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I suppose you were quite concerned when you heard this?
+              </p>
+              <p>
+                <span> Colonel Yount:</span> I certainly was.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What did you do?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> We wanted a more controlled test, to confirm that the actual malfunctions were caused by the ball propellant, so we had some of the suspected lot of the propellant sent to Frankford Arsenal and had a special confirmatory test conducted by Frankford Arsenal in December 1965. That test confirmed the results of the SAWS test, that additional malfunctions were truly associated with the higher cyclic rate.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> When was that?
+              </p>
+              <p>
+                <span>Colonel Yount:</span> DECEMBER 1965. THE RESULTS OF THE TEST WERE PUBLISHED IN EARLY JANUARY, I BELIEVE, 1966, AND THIS CONFIRMED THE CORRELATION OF HIGH CYCLING RATE WITH THE MALFUNCTION RATE.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> YOU HAD NOT YET HAD TESTS FROM VIETNAM, I MEAN REPORTS FROM VIETNAM, AS TO EXCESSIVE MALFUNCTIONING?
+              </p>
+              <p>
+                <span>Colonel Yount: </span> That is correct.
+              </p>
+              <p>
+                .................
+              </p>
+              <p>
+                page 4977
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> When did it first come to your attention, Dr. Payne, that ball powder was causing excessive fouling, higher cyclic rates, and thus increased malfunctions and parts breakage?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> The fall of 1965; during the SAWS study.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What action did you take upon learning of this study?
+              </p>
+              <p>
+                <span>Dr. Payne: </span> I recorded the reports I gathered on the trip, in the form of a memorandum, transmitted this to my official point of contact in the Office, Chief of Staff, which at the same time was the Systems Analysis Division of the Office of the Director of Coordination and Analysis.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Who was that?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> The Division Chief was Colonel Newman. My Memorandum was addressed to Lt. Col. William Jank.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What was the date?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> Early November 1965.
+              </p>
+              <p>
+                .................
+              </p>
+              <p>
+                <span>Dr. Payne:</span> Yes, sir. I discussed the report, after I wrote it, with an officer who was about to visit Vietnam. I told him the nature of the problems being found in the SAWS, and asked that he check with people he met there as to whether any similar problems were occurring in Vietnam.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Who was that officer?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> Colonel Blanchard. He was then executive officer for the Secretary of the Army.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What action was taken as a result of your report?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> For this, sir, I have only verbal reports back. After some period, Colonel Jank informed me that the same information that was available in my memorandum about fouling and malfunctions had already been reported to AMC by the Combat Developments Command, that certain confirmatory tests were then underway.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Was that the extent of your followup?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> Colonel Blanchard returned from Vietnam and reported he had talked to seven or eight battalion commanders; none of them were experiencing any similar troubles.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> WHEN DID YOU GET THE REPORTS THAT THEY WERE EXPERIENCING TROUBLES?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> IN VIETNAM?</span>
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> YES.
+              </p>
+              <p>
+                <span> Dr. Payne:</span> NEARLY A YEAR LATER.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> THAT WAS IN OCTOBER 1966, I PRESUME?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> IN MY CASE, I THINK IT WAS PROBABLY DECEMBER.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Did you make any recommendations at the time you did hear from South Vietnam that they were having trouble?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> No, sir. By that time, we were involved in the review of the SAWS report itself, on the basis of which recommendations were made for an extensive investigation. I thought the people in the Office, Chief of Staff, doing it at that time knew everything that I knew, we agreed on the points of fact and the problems and what needed to be done. I took no action other than to review what they had done.
+              </p>
+              <p>
+                ................
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> In view of your conclusions or views on the malfunctions caused by the ball propellant during the SAWS test, did you take any action when you learned of the excessive amount of malfunctions being experienced in Vietnam?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> Yes, sir. I tried my best to find out whether they were from the same cause.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Do you think they are partly from the same cause?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> It is possible they are partly from the same cause, but not predominantly.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Has an effort been made to take samplings of the ammunition in Vietnam for purpose of testing to see if there is any relationship?
+              </p>
+              <p>
+                <span>Dr. Payne:</span> No, sir - not to my knowledge. The tests that we conducted in this country are conducted with essentially similar ammunition.
+              </p>
+              <p>
+                .................
+              </p>
+              <p>
+                page 4998
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> General Anderson, do you have anything you want to add to the testimony given on the problem of ammunition in relationship to the malfunctions of the M-16?
+              </p>
+              <p>
+                <span>General Anderson:</span> No, Mr. Counsel. I might
+                in a way summarize what I think our position is. At the time we moved into the ball propellant for the 5.56 we had no reason to believe we would have any difficulties from it, because we had found that by controlling the port pressure in other weapons, both U.S. and foreign designs, that this produced acceptable results. We conducted tests,  not as extensive perhaps as we might have liked, but the tests we conducted at that time gave us no indication that our supposition, that it was a low risk matter, was anything to worry about. These original tests showed no malfunctions, as you recall. However, as we went down the road we found that indeed there were malfunctions associated with the cyclic rate. This was discovered, I think, first in the initial SAWS report Dr. Payne mentioned, and that we knew about in the fall of 1965. Once we discovered it and confirmed it with the Frankford Arsenal tests where we first correlated malfunctions as related to high cyclic rate, we set about correcting this. This, of course, took the form of the new buffer. The new buffer was under development for other reasons, and it was fortunate we could put this in with it. Our tests thus far with the new buffer, with both ball and the latest IMR, show very acceptable results in lowering the cyclic rate Now, the malfunctions that occurred in Vietnam in the period culminating in the October - September-October investigations by the Army, undoubtedly were PARTIALLY ATTRIBUTABLE TO THE BALL POWDER INCREASED CYCLIC RATE.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> How about the fouling?
+              </p>
+              <p>
+                <span>General Anderson:</span> Let me come back to that in just a moment, Mr. Chairman. However, WE HAVE CONCLUDED, BASED ON THE INFORMATION THAT WE HAVE, THAT THE CARE AND MAINTENANCE AND PRESERVATION PROBLEMS SO OVER-SHADOWED THE MALFUNCTIONS THAT MIGHT HAVE BEEN CAUSED BY THE USE OF BALL POWDER, THAT THE PRIMARY PROBLEM IN VIETNAM WITH RESPECT TO THE MALFUNCTIONS WAS RELATED PRIMARILY TO THE CARE AND CLEANING PROBLEM. AND THIS INDIVIDUAL MAINTENANCE so overshadowed the malfunctions that undoubtedly would have occurred because of the high rate of fire, this was the causative factor. Now, once we got upon this, with the teams that went over there in October, and the actions that the Vietnamese Army Headquarters took, we have had a rather dramatic dropoff in the malfunction rate. Our latest report on that in writing was in. I think, April 1967 when a report from Vietnam noted that the malfunction rate was way down AND COMPLETELY UNDER CONTROL. Now, to get back to your question on fouling. We are still conducting tests on the relationship of fouling to malfunctions. I would like to stand corrected here, if my interpretation is not right. THUS FAR WE HAVE NOT BEEN ABLE TO RELATE INCREASE IN MALFUNCTIONS TO INCREASE IN FOULING.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> What about cyclic rate?
+              </p>
+              <p>
+                <span>General Anderson:</span> Yes, sir.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> You have been able to relate that?
+              </p>
+              <p>
+                <span>General Anderson:</span> YES,SIR; WITHOUT QUESTION.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Cleaning is not going to affect the cyclic rate. In adopting the new buffer you have slowed down the cyclic rate by the new buffer?
+              </p>
+              <p>
+                <span>General Anderson: </span> Yes. But we have definitely correlated the higher cyclic rate to a greater incidence of malfunctions. However, we have not been able in tests conducted thus far to establish a direct relationship of the increased fouling to additional malfunctions. Is this correct?
+              </p>
+              <p>
+                <span>Mr. Davis:</span> That is correct.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> You mean you are, then, disagreeing with the SAWS study here?
+              </p>
+              <p>
+                <span>General Anderson:</span> No, sir. I am agreeing with the SAWS study.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I thought the SAWS study did say that fouling contributed to the malfunctioning.
+              </p>
+              <p>
+                <span>General Anderson:</span> The high cyclic rate. I think the SAWS study may have.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> (reading) Major causes of most malfunctions in the 5.56 millimeter weapons are attributed to an interaction of ammunition and belt link deficiencies:</br>
+                (1) Weapon function, judged to be caused primarily in the quality of propellant used in the standard ball propellant 5.56 millimeter cartridge.</br>
+                (4) a. Fouling: Fouling in the 5.56 mm weapons occurred throughout the experiment. Dirty chambers resulting from rapid carbon buildup CAUSED MOST OF THE FAILURES TO EXTRACT. Fouling remained a problem throughout the experiment, although cleaning and inspection of weapons were considered more stringent than would be possible during combat. Perhaps I read that wrong.
+              </p>
+              <p>
+                <span> General Anderson: </span> I cannot say whether they were correctly relating the fouling and the malfunction. The high rate we have correlated, yes. But we are still conducting tests on the fouling to see if it does induce additional malfunctioning.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Well, General Anderson, this is the thing that has concerned me greatly, and I think we have been discussing the crux of the whole M-16 problem and the M-16 controversy in our discussion of IMR and ball propellant ammunition. I think this is pretty well summed up by the Army in this supplement to a July 27, 1967, statement. I read from the statement:
+              </p>
+              <p>
+                <i>
+                  From the vantage point of retrospect, it has sometimes been suggested that the peculiar behavior of ball propellant in the M-16 system should have been predicted. There was, in fact, no evidence in 1963 that the cyclic rate of the M-16 would be greatly affected by the choice of propellant, PROVIDED THAT PORT PRESSURES WERE CONTROLLED as they had been in the M14 and other 7.62 millimeter systems which accommodate both ball and extruded propellants. Furthermore, there was no evidence at the time to indicate that an increase of 10 percent to 15 percent in cyclic rate of fire would cause a serious increase in frequency of malfunctions. Had the Army anticipated these developments, it is most likely that the course chosen in </span> January, 1964, would have been the same. A decision to reduce the velocity requirement, and continue loading IMR 4475 propellant would probably have been made instead, and the development of alternate propellants could have been pursued more deliberately.
+                </i>
+              </p>
+              <p>
+                <span>General Anderson:</span> Yes.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> The fact that these things arose as such does not concern me. The thing that does concern me has developed in these hearings, General Anderson. This committee was established for the purpose of reviewing the development, the acquisition, and the functioning of the M-16 rifle and to make a report to the full committee. We did not know of this crux which you have summarized here until we went to Vietnam. And I don't know - I don't think there was anything in the record - was there, in regard to the effect of propellants? We are asking the Army to give us the facts on this matter, the full facts, so that we can make a report. And I doubt very much that if the committee did not receive a tip in Vietnam to look into this ammunition that we would ever have explored it and have developed the whole record. I THINK THE RECORD WITHOUT DOUBT SUSTAINS THE FACT THAT THE CRUX OF THE PROBLEM - YOU HAD OTHER PROBLEMS, SURELY - STARTED WITH THIS CONVERSION TO BALL PROPELLANT. That is the thing that concerns me more than a mistake or mistakes which may have been made. Mistakes don't concern me, as such. I make too many of them to be concerned. General Anderson: Mr. Chairman, I don't know quite how else to respond. There is nothing that I know of that we have withheld from the committee. There is nothing on this subject that I know of that throws any additional light on the controversial switch, so to speak, to ball powder. I know of nothing else that I can add to what has been said already and put in the record. It is true, had we known at the time - but as I said, our experience and limited tests gave us no reason to question the change. In retrospect, I believe we would definitely have considered a drop in the muzzle velocity of perhaps 50 feet per second in order to accommodate the high pressure, or uncomfortable closeness to this limiting pressure, had we known we would run into all this other trouble</span>. We have freely admitted that in the record.
+              </p>
+              <p>
+                <span>Mr. Ichord: </span> Yes.
+              </p>
+              <p>
+                <span>Mr. Morgan: </span> Do you contemplate making any changes to the ball propellant to clean it up or have less adverse effect on the rifle?
+              </p>
+              <p>
+                <span>General Anderson:</span> Well, yes. Mr. Morgan, we have under study a rather sophisticated study to get all the aspects of propellants, coatings, grain size, what have you, hopefully to come up with a conglomerate specification that would have all the good things of a rifle propellant and eliminate all the bad things, without tying ourselves to a proprietary product of one or another manufacturer. This is being done at Frankford, isn't it, this propellant study?
+              </p>
+              <p>
+                <span>Mr. Davis: </span>
+                Yes, sir; and BRL.
+              </p>
+              <p>
+                <span>General Anderson: </span> And BRL. So, you ask are we contemplating a change. Well, in a long-range way we are studying these various things. On ball powder itself, as it now exists, I don't know whether any particular study is going on on this.
+              </p>
+              <p>
+                <span>Mr. Davis:</span> No, sir. OUR RECORDS FROM THE MOST EXTENSIVE DATA WE HAVE AT THE PRESENT TIME INDICATE SO LONG AS THE CYCLIC RATE IS CONTROLLED WITHIN AN ADEQUATE RANGE THE PERFORMANCE OF THE BALL PROPELLANT IS NOT LESS RELIABLE THAN PERFORMANCE FROM ANY IMR.
+              </p>
+              <p>
+                <span>General Anderson: </span> On the other hand, Mr. Chairman, I don't think increased fouling helps matters any.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I hoped you would say that.
+              </p>
+              <p>
+                <span>General Anderson:</span> Yes.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Then we seem to get down to the question - perhaps I am being a little derogatory - how much can we wet nurse a rifle by extensive cleaning under combat conditions?
+              </p>
+              <p>
+                <span>General Anderson:</span> Well, you have to clean the rifle no matter what kind of powder. Whether it would be more difficult to clean it with the ball powder, or with the IMR, I am not sure at all.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> One of the generals, the one who returned from Vietnam, has stated - of course, we have statements all over the lot on it. Some say it is no more difficult to clean than any other weapon, and I think we have statements by high authority that more care and maintenance has to be directed to it --
+              </p>
+              <p>
+                <span>General Anderson:</span> There is more visible residue on the ball powder than on the other.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> Yes. I THINK THOSE STATEMENTS THAT THE M-16 REQUIRES MORE CARE AND MAINTENANCE SHOULD BE DIRECTED TO THE BALL PROPELLANT RATHER THAN TO THE RIFLE ITSELF.
+              </p>
+              <p>
+                <span>General Anderson: </span> We would like to cut down the so-called dirty rifle with either. But with ball powder leaving more visible residue, there is some speculation as to whether it takes longer to clean it. I am not sure of that at all. I don't know.
+              </p>
+              <p>
+                <span>Mr. Ichord:</span> I am going to ask if anybody else wants to add anything to the record today. I am not going to adjourn the subcommittee sine die. I had hoped to be able to do so. But I want to give you the chance to clarify the record, straighten up any inconsistency that might result, before I adjourn today, Mr. Counsel.
+              </p>
+              <p>
+                <span>Mr. Morgan: </span> Mr. Chairman, could we ask the Army to give us information on the distribution of the 8208 IMR ammunition that has been sent to Vietnam? Have they established a ratio for distributing the IMR versus the ball propellant to the users in Vietnam?
+              </p>
+              <p>
+                <span>General Anderson:</span> No.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Is there any priority for distribution of the IMR over the ball propellant, or is it first in, first out?
+              </p>
+              <p>
+                <span>General Anderson:</span> You are right; generally it is first in, first out. As we said earlier to Mr. Bray, there is no identification on the boxes as to which is ball and which is IMR. We do not do that. By the lot numbers we know. We do know which ones they are. But we do not as a normal practice transmit that to the field, have not been. So they do not know which one is which. You said any kind of program distribution. There is no programmed distribution of ball versus IMR in Vietnam.
+              </p>
+              <p>
+                <span>Mr. Morgan:</span> Can we determine what amount of that shipped since April [1967] has been distributed to the troops and what amount is in the warehouses at the various supply depots?
+              </p>
+              <p>
+                <span>General Anderson:</span> Mr. Morgan, we can try. My estimate is that it would be very difficult to do that. We will try to find out.
+                <div>
+                  <p>
+                    <i>(The following information was received for the record)</i>
+                  </p>
+                  <p>
+                    The Army is unable to state how much of the IMR 8208 propellant ammunition shipped to SEA since April 1967 has been issued to troops and how much is in depot. Rifle ammunition is loaded and packed by the commercial contractor and identified by Lot Number. the package displays the Lot Number as do shipping documents but there is no way to identify the propellant used to fill the cartridges in a particular Lot. Consequently, the issuing depot has no knowledge of the propellant used in the ammunition that has been issued or that remains on hand.
+                  </p>
+                </div>
+                <p>
+                  <span>Mr. Morgan:</span> General Anderson, or Colonel Yount, in the Tech Coordinating Committee meeting of March 2 this year it was indicated that 16 chrome-plated chambers, or 16 barrels with chrome plated chambers, were shipped to Vietnam for evaluation, under the control of the Army concept team in Vietnam. A report from this team was scheduled for April 1967. Was such report received?
+                </p>
+                <p>
+                  <span>Colonel Yount</span>: It was not. We do not expect one. We have been in contact with the Army concept team. They have had other projects of greater priority. They distributed the barrels to the field. Major Podurgal personally contacted two or three people who had these weapons with these barrels on them. They were happy with them. As far as controlled tests on these barrels, it is of little value.
+                </p>
+                <p>
+                  .................
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> General Anderson, back to your statement that the Army has not conclusively determined that excessive malfunctions have been attributable to fouling, and also the position of the Army that it had no way of knowing that the ball propellant would produce the effects it did. Would it be fair to say you did not, however, have a proper basis of comparison, in that the M-14, where you had your experience with ball propellant, had not only a chrome chamber but also a chrome plated bore? The recommended change - and I want to ask what has been going on in regard to the chrome plating of the chamber. You think, perhaps, the chrome plating will compensate for the increased fouling?
+                </p>
+                <p>
+                  <span>General Anderson:</span> Yes, sir.
+                </p>
+                <p>
+                  <span>Mr. Ichord: </span> At least it makes it a little easier to clean, it is a little harder, and it would work to eliminate excessive pitting.
+                </p>
+                <p>
+                  <span>General Anderson:</span> That is right. It is less likely to erode, it is easier to clean. The coefficient of friction, for example, between chrome and brass is less, so it would extract easier  any conditions, in that case. Yes. That is being done, as you know.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> How do we stand now that Colt has gone back to work?
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> The first 5,000 production weapons with the chrome-plated chamber are scheduled to be received in the month of September.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> They backed up? They had an earlier schedule on that, of August, didn't they? And the strike delayed that a month?
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> The strike delayed it. During September we expect to get 4,000 replacement barrels that will have the chrome-plated chamber. Each month thereafter the total production of weapons, as well as repair barrels, will have the chrome-plated chamber.
+                </p>
+                <p>
+                  <span>Mr. Ichord: </span> Have you concluded, Mr. Counsel?
+                </p>
+                <p>
+                  <span>Mr. Morgan:</span> Yes, sir.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Colonel, how about those monthly reports you made on M-16 reliability to the Army Chief of Staff? Do you have those with you today?
+                </p>
+                <p>
+                  <span>Colonel Yount: </span> No, sir. Which ones, sir, the most recent ones, or the initial ones, sir?
+                </p>
+                <p>
+                  <span>Mr. Ichord: </span> I think perhaps we need to review that, particularly since October 1966. That is your monthly reports on reliability and product improvement. You don't have those with you?
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> No, sir.
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Can you make those available to the committee?
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> Again, sir, I am not sure which reports you are referring to.
+                </p>
+                <p>
+                  <span>Mr. Ichord: </span> Don't you make a monthly report to the Army Chief of Staff or the Deputy Chief?
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> At the present time?
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> Well --
+                </p>
+                <p>
+                  <span>Colonel Yount:</span> Or initially? When we started the program I had a set of reports going to the Department of Army. Then, as a result of the SAWS, I submitted reports which went into DCSLOG which eventually are received by the Chief of Staff. I am not sure which reports you are referring to, sir?
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> How about giving us all of them, to make sure we have them? How about giving us all your monthly reports?
+                </p>
+                <p>
+                  <span>Colonel Yount: </span> Yes, sir.
+                </p>
+                <p>
+                  (The information requested is in the files of the committee.)
+                </p>
+                <p>
+                  <span>Mr. Ichord:</span> There being no further questions, the committee will adjourn subject to the call of the Chair.
+                </p>
+                <p>
+                  (Whereupon, at 4:50 p.m. the subcommittee adjourned.)
+                </p>
+                <div class="referenceList">
+                  <div class="timeList">
+                    <div class="timeTitle">CHRONOLOGICAL LIST OF HEARINGS</div>
+                    <div>
+                      <div>
+                        <u>DATE</u>
+                      </div>
+                      <div>
+                        <u>PAGE NUMBER</u>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Monday, May 15, 1967
+                      </div>
+                      <div>
+                        4431
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Tuesday, May 16, 1967
+                      </div>
+                      <div>
+                        4484
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Wednesday, May 31, 1967
+                      </div>
+                      <div>
+                        4513
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Wednesday, June 21, 1967
+                      </div>
+                      <div>
+                        4540
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Tuesday, July 25, 1967
+                      </div>
+                      <div>
+                        4579
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Wednesday, July 26, 1967
+                      </div>
+                      <div>
+                        4643
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Thursday, July 27, 1967
+                      </div>
+                      <div>
+                        4715
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Tuesday, August 8, 1967
+                      </div>
+                      <div>
+                        4784
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Wednesday, August 9, 1967
+                      </div>
+                      <div>
+                        4813
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        Tuesday, August 22, 1967
+                      </div>
+                      <div>
+                        4934
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               <!-- Original is here -->
               <!--
-<span class="style3"> Mr. Ichord:</span><span class="style2"> Let me interrupt to be sure I
-understand what you are talking about.
-<br>Is this coating to which you refer, DNT - you switched from that to
-Centralite - is it the coating that controls the rate of burning in the
-powder?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> The coating controls the initial
-rate of burning in the powder, because it is an exterior treatment which
-influences only a fraction of the thickness of the powder.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What do you mean by the "initial
-rate of burning?"
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson: </span>
-<span class="style2">When the powder burns, it burns
-essentially on the surface, from the surface in, like logs in a fireplace.
-In order to slow down the initial rate of gas production to keep the maximum
-pressure in the barrel, in the chamber, below the desired limit, the burning
-rate of the outer layers of propellant is deterred in all rifle powders
-by some material or other.
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> And the initial rate of burning
-is the thing that has the greatest effect upon the chamber pressure?
-<br>&nbsp;&nbsp;&nbsp;</span><span class="style3"> Dr. Jackson: </span>
-<span class="style2">It has the greatest effect on
-the chamber pressure at a given velocity. You can modify the amount and
-character of the coating and influence the velocity - pressure relationship.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What is the relationship between
-the chamber pressure and the velocity with which the bullet leaves the
-gun? There is a direct relationship, is there not?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> It is a variable relationship,
-depending on the characteristic of the powder. And devising the proper
-powder granulation, composition and coating to obtain a preferred velocity
-- pressure relationship is the problem of the ballistician.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Anyway, you slowed down the initial
-rate of burning by the change from DNT to Centralite, and this, you say,
-permitted you to more easily stay within the chamber pressure specifications?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> That is correct.
-<br>CR-8136 was given a thorough testing by the Army and qualified for
-loading in 5.56 ammunition on April 29, 1964. The pressure-velocity relationship
-was more favorable on the average for CR-8136 than for IMR-4475 so there
-was less difficulty in meeting the 50,000 pounds per square inch maximum,
-but the Centralite coating is inherently harder to ignite, so the variations
-from round to round were greater. There is a 58,000 pounds per square inch
-limit on P maximum plus three times the standard deviation for ammunition
-acceptance. That is a requirement placed upon the ammunition supplier that
-he must meet.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> 58,00 maximum, but an average
-of 52,000?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> Average of 52,000, but the maximum
-pressure observed in any lot of ammunition plus three time the standard
-deviation in pressure as observed in firing a series of rounds must not
-exceed 58,000 pounds per square inch, and this is the difficulty that loading
-people got into with CR-8136. All of the lots produced (approximately 300,000
-pounds) were loaded by Remington at Bridgeport, but there were complaints
-about P maximum plus three times standard deviation exceeding 58,000 pounds
-per square inch, so obviously we had not yet obtained a completely satisfactory
-solution to this problem.
-<br>The current answer to the 5.56 millimeter loading problem came as a
-result of a research program carried out under contract with Picatinny
-Arsenal to find a propellant with greater ballistic stability over a wide
-temperature range (contract DA-36-034-ORD-3742A, </span><span class="style3">completed May 30, 1965</span><span class="style2">.)
-Many variations of the extruded single-base powders were tried. Incidentally,
-that contract was limited to extruded single-base type, and a modification
-of IMR was found bearing a new coating material which not only has improved
-temperature stability but a better velocity-pressure relationship as well.
-The work under the contract was done mainly with </span><span class="style3">7.62 millimeter</span><span class="style2">
-ammunition and the powder resulting was designated IMR 8138-M. Although
-this powder would be ballistically satisfactory in the 5.56 millimeter
-round, the grain configuration prevented uniform machine loading.
-</span>
-<p><span class="style2">When this formulation, involving the new coating material and procedure,
-was applied to the 5.56 millimeter problem the result was IMR 8208-M with
-a granulation .041 - .010x1/32, the same CR-8136. The gravimetric density
-was higher, the velocity-pressure relationship was more favorable, and
-the charge was still about 25.5 grains. The maximum average pressures were
-well under the specification of 50,000 and the variations were such that
-there was little trouble with the P maximum plus three times standard deviation
-meeting the 58,000 pounds per square inch limit. IMR-8208 was submitted
-to the Army for qualification tests and after passing all phases of the
-trials, was reported to be accepted in</span><span class="style3"> May 1966
-</span><span class="style2">for loading in 5.56
-millimeter ball and tracer ammunition. The qualification tests consisted
-of chamber and port pressure, velocity and tracer ignition tests at +70,
--65, +125, +160, and -80 degrees F.; action time and climatic storage tests;
-smoke, flash, fouling, cyclic rate, and barrel erosion tests.&nbsp;
-<br>To appraise you of production experience we have shipped 42 lots of
-powder representing 1.3 million pounds. this production covers the period
-</span><span class="style3">October
-1966 through July 1967</span><span class="style2">. The material has been loaded in ball and tracer
-cartridges at Lake City and Twin Cities Army ammunition plants. Reports
-from Lake City concerning the quality of the ammunition containing this
-powder have been uniformly satisfactory.
-<br>As the procurement agencies are aware, only limited quantities of IMR
-8208-M can be supplied from the Carney's Point Works of Du Pont, which
-is our only powder making facility. We are currently supplying to the limit
-of the plant capacity on this item. </span><span class="style3">At the request of the government</span><span class="style2">,
-Du Pont has instructed personnel in the coating procedure required for
-IMR 8138-M and 8208-M at the Radford Army ammunition plant.&nbsp;
-</span>
-<p class="style2">..............
-<br>page 4949
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:
-</span><span class="style2">Now for the record I would like
-to say that we have three types of propellant, for rifle ammunition in
-the United States, that have been used for the past 25 years, three basic
-types.
-<br>The first is IMR, which is the propellant Du Pont has been making,
-single base extruded. This gets its energy, in the main, from nitrocellulose.
-<br>Then we have HPC, which is a double base extruded, that is, shaped
-like IMR but depends on the nitroglycerin as well as nitrocellulose.
-<br>Then we have the ball, a double base spherical grain, energized both
-by nitrocellulose and nitroglycerin.
-<br>Is it possible to convert surplus or scrapped powder into extruded
-IMR powder?
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> It is not, sir.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> But that is not true in the case
-of ball propellant, is it possible to make ball propellant out of surplus
-powder?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> By the nature of the process;
-yes.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Is it your further understanding
-that scrap powder, surplus powder, is now being worked into ball propellant?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> That is my understanding.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Do you know who is doing this?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson: </span>
-<span class="style2">The process was developed by
-Olin, and I believe it is done by Olin, perhaps also at the Army Ordnance
-plants.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">I believe the record will show
-this scrap powder is provided to the propellant producer as Government-furnished
-equipment.
-<br>..........
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">I would ask you this question,
-Dr. Jackson: For ballistic acceptance which is more reliable, a reference
-powder or a reference ammunition?
-<br>&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> For ballistic acceptance a reference
-powder is more reliable.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Why?
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson: Because comparison of the lot under
-test is being made directly with the same type material that is being acquired
-and is not - there is no opportunity for confusing differences in metal
-components and their influence on ballistics, which always has the opportunity
-to creep in when reference ammunition is used as a powder acceptance tool.</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What does the government now
-use?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span>
-<span class="style3">Reference ammunition, at
-its pleasure.</span><span class="style2"> </span>
-<p><span class="style2">..................
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">All the experts have advised
-this committee that ball propellant causes increased fouling, and also
-a speedup in the cyclic rate, at least of the M-16 weapon. What is the
-character or nature of the ball propellant which results in increased fouling?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> If it does in fact do so - as
-I say, we have had only direct observation in the firing of reference ammunition
-which contained ball propellant, and observed slightly more deposits in
-the barrels.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> You have observed that?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> We have observed this. We would
-ascribe this to the fact it is characteristic of a slower powder in any
-given weapon. If you have two powders, a slow and a fast one, the slower
-burning powder which burns further down the barrel is more likely to leave
-residue in the barrel in the bolt area.
-</span>
-<p class="style2">.........................
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">In order to establish our hypothesis,
-at this point I want to read into the record the result of tests of the
-SAWS study:
-<br>Field experiment conducted at Fort Ord, California: Section V, Material
-Reliability Results.
-</span>
-<p class="style2">2. Major causes in malfunctions in 5.56mm weapons.
-<br>Major causes of most malfunctions in the 5.56 mm. weapons are attributed
-to an interaction of ammunition (and belt link) deficiencies:
-<br>1. Weapon fouling, judged to be caused primarily by qualities of the
-propellant used in the standard ball 5.56 mm. cartridge.
-<br>2. Cycling of weapons in excess of design rates, judged to be caused
-by combinations of:
-<br>(a) Pressure characteristics of the propellant used in the standard
-ball 5.56 mm. cartridge.
-<br>(b) Factory calibration of M-16E1 rifles for a propellant with different
-pressure characteristics than that in the standard ball 5.56 mm. cartridge.
-<br>(c) Mismatch in internal ballistic (pressure) characteristics between
-the standard 5.56 mm. ball and tracer cartridges.
-<br>.................
-<p class="style2">(a) fouling
-<p><span class="style2">Fouling in the 5.56 mm. weapons occurred throughout the experiment.
-Dirty chambers resulting from rapid carbon buildup caused most of the failures
-to extract and some of the failures to chamber.&nbsp; Fouling remained
-a problem throughout the experiment, although cleaning and inspection of
-weapons were considered more stringent than would be possible during combat.
-<br>Inquiry to AMC determined that the propellant adopted for the standard
-5.56 mm. ball cartridge is different from the original propellant used
-during the development and service testing of the M-16E1 rifle and during
-the development of the Stoner weapons. A USACDCEC test of samples from
-the lot of standard ammunition used in the experiment showed more fouling
-than an AMC provided sample containing the original propellant. This supplemental
-fouling test was conducted using ammunition lots WCC-6098 and RA-5074.
-This limited test firing of 12,620 rounds indicated a malfunction rate
-of 5.6 per 1,000 rounds for the cartridge loaded with ball propellant as
-opposed to 0.91 for IMR propellant loaded cartridges.
-<br>(b) Excessive cyclic rate
-<br>Excessive cyclic rates were noted early in the experiment. In addition,
-surging (uneven firing) was noted when ball and tracer were fired together.
-There was also an increasing incidence of malfunctions attributed to ammunition
-cycling the weapons beyond their design rates. The cyclic rates were higher
-than the design cyclic rates, particularly with the M-16E1 rifle and Stoner
-machinegun. </span><span class="style3">It is concluded that this excessive cyclic rate caused,
-complicated, and multiplied such malfunctions as failure of the bolt to
-remain to the rear after the last round was fired from the magazine, FAILURES
-TO EJECT, and magazine feeding problems.</span> <span class="style2">
-<br>A concurrent propellant investigation by Frankford Arsenal showed that
-the propellant currently used in the 5.56 mm. ball cartridge </span>
-<span class="style3">cycles
-weapons faster than the original propellant.</span> <span class="style2">
-<br>Inquiry to AMC determined that,</span><span class="style3"> to meet a government acceptance
-requirement</span><span class="style2">, M16E1 rifles are calibrated at the factory for the gas
-port pressure of the original propellant rather than that of the propellant
-currently used in standard ball 5.56 mm. cartridges. Interaction of the
-higher gas port pressure of the current propellant and the sizing of the
-gas port for a propellant with a lower gas port pressure is considered
-the reason for the excessive cyclic rate in the M16E1 rifle.
-</span>
-<p class="style2">.......................
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: When was the result of this study
-first brought to your attention, Colonel?</span> <span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span>
-<span class="style3">November or early December
-1965.</span> <span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> When was this experiment performed?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-<span class="style2">As I recall, between October
-and November</span><span class="style3"> 1965.</span> <span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> I am sure Dr. Jackson has other
-business.</span><span class="style3"> I will explore this with you later, Colonel Yount.</span>
-<span class="style2">
-<br>You were producing IMR-4475 up until what date, doctor, for military
-purposes?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> I think it was 1964. I can't
-remember exactly when in 1964.
-</span>
-<p><span class="style2">IMR-4475 as far as I know was never submitted to the qualification test
-for the 5.56, that the CR powders and 8208 powders were submitted to. It
-was a powder purchased by the ammunition loader on commercial specification
-and submitted by him to the military as meeting the ammunition specification
-of the military. The powder was on a commercial purchase.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">I know the Army purchased a great
-many rounds of IMR.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> But the powder has not been
-submitted to the qualification test required if the powder is to be purchased
-by the military as such.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> You said you had difficulty meeting
-pressure limits in the specification. Was that because of producing it
-in larger quantities, or what was the reason for that?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson:</span><span class="style2"> No, the powder was never designed
-to meet the pressure specification that was imposed on it by the Army specification.
-It would not have made any difference whether we were producing it in large
-or small quantity, we couldn't meet that pressure specification on a continuing
-basis.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">After you failed to meet the
-specification, you changed to 8136?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Jackson: </span>
-<span class="style2">Right.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Remington loaded 8136 for quite
-a period of time, did it not?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> Several months; approximately
-one-third of a million pounds of powder.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Why did Remington stop loading
-8136?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> Because they were having trouble
-with the specification on the ammunition that required that maximum pressure
-plus three times standard deviation in pressure must not exceed 58,000
-pounds per square inch, and about every four or five lots they would slip
-out on that one, and finally said, "We can't do it."&nbsp;
-<br>The problem was, there we had less margin in pressure than was comfortable
-for the ammunition companies, plus a somewhat greater variation in pressure
-during a series of pressure tests, such as that the standard deviations,
-when multiplied by 3 and added to the maximum pressure, exceeded the 58,000
-pound limit. You couldn't tell this from a powder test, but once the ammunition
-was loaded in a regular ammunition plant loading the variations piled up
-and the standard deviation exceeded the permissible limit.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Again, as in the case of IMR-4475,
-it wasn't a case of inability to mass produce it?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Jackson:</span><span class="style2"> No. We were having very little
-difficulty in getting reproducible lots. But we had made an improvement,
-but just hadn't gone far enough to get out of the pressure trouble.
-</span>
-<p><span class="style2">.............
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Colonel Yount, will you please
-come forward and be seated, sir?
-<br>Continuing with the reference to the SAWS study, dated May 1966, you
-say this SAWS study was made in about October 1965?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span><span class="style2"> To the best of my recollection.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">And the results of the study
-were made available to you in December 1965?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span><span class="style2"> November or December. It was
-not the completed test report, but simple oral results of the test.
-<br>&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Is that oral or written?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span><span class="style2"> Oral.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Did somebody connected with the
-SAWS study call you, come to see you, or what happened?
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:
-</span><span class="style2">We kept in touch with the various
-locations of the SAWS study, I don't know just who informed me. </span>
-<span class="style3">But
-we knew of the problem.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Through what means? How were
-you kept informed?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> Liaison to the test sites,
-and telephone calls from the test sites.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Did you not have a liaison or
-tech representative at each of the centers conducting the tests?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span><span class="style2"> For the maintenance problems,
-yes.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> I suppose you were quite concerned
-when you heard this?
-<br>&nbsp;&nbsp;&nbsp;</span><span class="style3"> Colonel Yount:</span><span class="style2"> I certainly was.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What did you do?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span>
-<span class="style3">We wanted a more controlled
-test, to confirm that the actual malfunctions were caused by the ball propellant,
-so we had some of the suspected lot of the propellant sent to Frankford
-Arsenal and had a special confirmatory test conducted by Frankford Arsenal
-in December 1965. That test confirmed the results of the SAWS test, that
-additional malfunctions were truly associated with the higher cyclic rate.</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: When was that?</span>
-<span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount: DECEMBER 1965. THE RESULTS OF
-THE TEST WERE PUBLISHED IN EARLY JANUARY, I BELIEVE, 1966, AND THIS CONFIRMED
-THE CORRELATION OF HIGH CYCLING RATE WITH THE MALFUNCTION RATE.</span>
-<span class="style2">
-<br></span><span class="style3">Mr. Ichord: YOU HAD NOT YET HAD TESTS FROM VIETNAM, I MEAN REPORTS
-FROM VIETNAM, AS TO EXCESSIVE MALFUNCTIONING?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount: </span>
-<span class="style2">That is correct.
-</span>
-<p class="style2">.................
-<p class="style2">page 4977
-<br>&nbsp;
-<p><span class="style2">&nbsp;&nbsp;</span><span class="style3">&nbsp; Mr. Ichord:</span><span class="style2"> When did it first come to your
-attention, Dr. Payne, that ball powder was causing excessive fouling, higher
-cyclic rates, and thus increased malfunctions and parts breakage?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> The fall of 1965; during the SAWS
-study.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What action did you take upon
-learning of this study?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne: </span>
-<span class="style2">I recorded the reports I gathered
-on the trip, in the form of a memorandum, transmitted this to my official
-point of contact in the Office, Chief of Staff, which at the same time
-was the Systems Analysis Division of the Office of the Director of Coordination
-and Analysis.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Who was that?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> The Division Chief was Colonel
-Newman. My Memorandum was addressed to Lt. Col. William Jank.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: What was the date?</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span>
-<span class="style3">Early November 1965.</span> <span class="style2">
-<br>.................
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Dr. Payne:</span><span class="style2"> Yes, sir. I discussed the report,
-after I wrote it, with an officer who was about to visit Vietnam. I told
-him the nature of the problems being found in the SAWS, and asked that
-he check with people he met there as to whether any similar problems were
-occurring in Vietnam.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Who was that officer?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> Colonel Blanchard. He was then
-executive officer for the Secretary of the Army.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What action was taken as a result
-of your report?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> For this, sir, I have only verbal
-reports back. After some period, Colonel Jank informed me that the same
-information that was available in my memorandum </span><span class="style3">about fouling and malfunctions</span><span class="style2">
-had already been reported to AMC by the Combat Developments Command, that
-certain confirmatory tests were then underway.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Was that the extent of your followup?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span>
-<span class="style3">Colonel Blanchard returned
-from Vietnam and reported he had talked to seven or eight battalion commanders;
-none of them were experiencing any similar troubles.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span>
-<span class="style3">WHEN DID YOU GET THE REPORTS
-THAT
-THEY WERE EXPERIENCING TROUBLES?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span>
-<span class="style3">IN VIETNAM?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span>
-<span class="style3">YES.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp;</span><span class="style3"> Dr. Payne:</span>
-<span class="style3">NEARLY A YEAR LATER.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> THAT WAS IN OCTOBER 1966, I PRESUME?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne: IN MY CASE, I THINK IT WAS PROBABLY
-DECEMBER.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Did you make any recommendations
-at the time you did hear from South Vietnam that they were having trouble?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> No, sir. By that time, we were
-involved in the review of the SAWS report itself, on the basis of which
-recommendations </span><span class="style3">were made for an extensive investigation.</span>
-<span class="style2">
-<br>I thought the people in the Office, Chief of Staff, doing it at that
-time knew everything that I knew, we agreed on the points of fact and the
-problems and what needed to be done. I took no action other than to review
-what they had done.
-</span>
-<p class="style2">................
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> In view of your conclusions or
-views on the malfunctions caused by the ball propellant during the SAWS
-test, did you take any action when you learned of the excessive amount
-of malfunctions being experienced in Vietnam?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span>
-<span class="style3">Yes, sir. I tried my best to
-find out whether they were from the same cause.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan: Do you think they are partly from
-the same cause?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span>
-<span class="style3">It is possible they are partly
-from the same cause, but not predominantly</span><span class="style2">.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Has an effort been made to take
-samplings of the ammunition in Vietnam for purpose of testing to see if
-there is any relationship?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Dr. Payne:</span><span class="style2"> No, sir - not to my knowledge.
-<br>The tests that we conducted in this country are conducted with essentially
-similar ammunition.
-</span>
-<p class="style2">.................
-<p class="style2">page 4998
-<br>&nbsp;
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> General Anderson, do you have
-anything you want to add to the testimony given on the problem of ammunition
-in relationship to the malfunctions of the M-16?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> No, Mr. Counsel. I might
-in a way summarize</span><span class="style3"> what I think our position is.</span>
-<span class="style2">
-<br></span><span class="style3">At the time we moved into the ball propellant for the 5.56 we had
-no reason to believe we would have any difficulties from it</span><span class="style2">, because
-we had found that by controlling the port pressure in other weapons, both
-U.S. and foreign designs, that this produced acceptable results.
-<br>We conducted tests,</span><span class="style3"> not as extensive perhaps as we might have liked</span><span class="style2">,
-but the tests we conducted at that time gave us no indication that our
-supposition,</span><span class="style3"> that it was a low risk matter, was anything to worry about</span><span class="style2">.
-These original tests showed no malfunctions, as you recall.
-<br></span><span class="style3">However</span><span class="style2">, as we went down the road we found that indeed there
-were </span><span class="style3">malfunctions associated with the cyclic rate.</span><span class="style2"> This was discovered,
-I think, first in the initial </span><span class="style3">SAWS</span><span class="style2"> report Dr. Payne mentioned, and
-that we knew about in </span><span class="style3">the fall of 1965</span><span class="style2">.
-<br>Once we discovered it and confirmed it with the Frankford Arsenal tests
-where we </span><span class="style3">first</span><span class="style2"> correlated malfunctions as related to high cyclic
-rate, we set about correcting this. This, of course, took the form of the
-new buffer.</span><span class="style3"> The new buffer</span><span class="style2"> was under development for other reasons,
-and </span><span class="style3">it was fortunate we could put this in with it</span><span class="style2">.
-</span><span class="style3">Our tests
-thus far with the new buffer</span><span class="style2">, with both ball and the latest IMR, show</span><span class="style3">
-very acceptable results in lowering the cyclic rate</span><span class="style2">.&nbsp;
-<br>Now, the malfunctions that occurred in Vietnam in the period culminating
-in the October - September-October investigations by the Army, </span>
-<span class="style3">undoubtedly
-were PARTIALLY ATTRIBUTABLE TO THE BALL POWDER INCREASED CYCLIC RATE.</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> How about the fouling?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> Let me come back to that
-in just a moment, Mr. Chairman.
-<br></span><b><span class="style2">However, WE HAVE CONCLUDED, BASED ON THE INFORMATION THAT WE HAVE,
-THAT THE CARE AND MAINTENANCE AND PRESERVATION PROBLEMS SO OVER-SHADOWED
-THE MALFUNCTIONS THAT MIGHT HAVE BEEN CAUSED BY THE USE OF BALL POWDER,
-</span>
-<u><span class="style2">THAT
-THE PRIMARY PROBLEM IN VIETNAM WITH RESPECT TO THE MALFUNCTIONS WAS RELATED
-PRIMARILY TO THE CARE AND CLEANING PROBLEM</span></u><span class="style2">. AND THIS INDIVIDUAL MAINTENANCE</span></b>
-<span class="style3">so overshadowed the malfunctions that undoubtedly would have occurred
-because of the high rate of fire, this was the causative factor.</span>
-<span class="style2">
-<br>Now, once we got upon this, with the teams that went over there in
-October, and the actions that the Vietnamese Army Headquarters took, </span>
-<span class="style3">we
-have had a rather dramatic dropoff in the malfunction rate</span><span class="style2">. Our latest
-report on that in writing was in. I think, April 1967 when a report from
-Vietnam noted that the malfunction rate was way down </span>
-<span class="style3">AND COMPLETELY
-UNDER CONTROL.&nbsp;</span> <span class="style2">
-<br>Now, to get back to your question on fouling. </span><span class="style3">We are still conducting
-tests on the relationship of fouling to malfunctions. I would like to stand
-corrected here, if my interpretation is not right. THUS FAR WE HAVE NOT
-BEEN ABLE TO RELATE INCREASE IN MALFUNCTIONS TO INCREASE IN FOULING.&nbsp;</span>
-<span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> What about cyclic rate?
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span>
-<span class="style3">Yes, sir.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span>
-<span class="style3">You have been able to relate
-that?</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span>
-<span class="style3">YES,SIR; WITHOUT QUESTION.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Cleaning is not going to affect
-the cyclic rate. In adopting the new buffer you have slowed down the cyclic
-rate by the new buffer?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson: </span>
-<span class="style2">Yes. </span><span class="style3">But </span>
-<span class="style2">we have
-definitely correlated the higher cyclic rate to a greater incidence of
-malfunctions. However, we have not been able in tests conducted thus far
-to establish a </span><span class="style3">direct relationship</span><span class="style2"> of the increased fouling to additional
-malfunctions. Is this correct?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Davis: </span>
-<span class="style2">That is correct.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">You mean you are, then, disagreeing
-with the </span><span class="style3">SAWS</span><span class="style2"> study here?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; General Anderson:</span><span class="style2"> No, sir. I am agreeing
-with the </span><span class="style3">SAWS</span><span class="style2"> study.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> I thought the SAWS study did
-say that fouling contributed to the malfunctioning.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; General Anderson:</span><span class="style2"> The high cyclic rate. I
-think the </span><span class="style3">SAWS</span><span class="style2"> study may have.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span>
-<span class="style3">(reading)</span> <span class="style2">
-<br>Major causes of most malfunctions in the 5.56 millimeter weapons are
-attributed to an interaction of ammunition and belt link deficiencies:
-<br>(1) Weapon function, judged to be caused primarily in the</span><span class="style3"> quality
-of propellant used </span><span class="style2">in the standard ball propellant 5.56 millimeter
-cartridge.
-<br>(4) a. Fouling:
-<br>Fouling in the 5.56 mm weapons occurred throughout the experiment.
-Dirty chambers resulting from rapid carbon buildup</span><span class="style3"> CAUSED MOST OF THE
-FAILURES TO EXTRACT</span><span class="style2">. Fouling remained a problem throughout the experiment,
-although cleaning and inspection of weapons were considered</span><span class="style3"> more stringent
-than would be possible during combat.</span> <span class="style2">
-<br>Perhaps I read that wrong.
-<br>&nbsp;&nbsp;&nbsp;</span><span class="style3"> General Anderson: </span>
-<span class="style2">I cannot say whether they
-were correctly relating the fouling and the malfunction. The high rate
-we have correlated, yes. But we are still conducting tests on the fouling
-to see if it does induce additional malfunctioning.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Well, General Anderson, this
-is the thing that has concerned me greatly, and I think </span>
-<span class="style3">we have been
-discussing the crux&nbsp; of the whole M-16 problem and the M-16 controversy
-in our discussion of IMR and ball propellant ammunition. I think this is
-pretty well summed up by the Army in this supplement to a July 27, 1967,
-statement. I read from the statement:</span> <span class="style2">
-<br></span><span class="style3">From the vantage point of retrospect, it has sometimes been suggested
-that the peculiar behavior of ball propellant in the M-16 system should
-have been predicted. There was, in fact, no evidence in 1963 that the cyclic
-rate of the M-16 would be greatly affected by the choice of propellant,
-PROVIDED THAT PORT PRESSURES WERE CONTROLLED as they had been in the M14
-and other 7.62 millimeter systems which accommodate both ball and extruded
-propellants. Furthermore, there was no evidence at the time to indicate
-that an increase of 10 percent to 15 percent in cyclic rate of fire would
-cause a serious increase in frequency of malfunctions.</span><span class="style2">
-</span>
-<p><b><span class="style2">Had the Army anticipated these developments, it is most likely that
-the course chosen in </span> <u><span class="style2">January, 1964</span></u><span class="style2">, would have been the same. A
-decision to reduce the velocity requirement, and continue loading IMR 4475
-propellant would probably have been made instead, and the development of
-alternate propellants could have been pursued more deliberately.</span></b><span class="style2">
-</span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> Yes.
-<br>Mr. Ichord: The fact that these things arose as such does not concern
-me. The thing that does concern me has developed in these hearings, General
-Anderson.
-<br>This committee was established for the purpose of reviewing the development,
-the acquisition, and the functioning of the M-16 rifle and to make a report
-to the full committee. We did not know of this crux which you have summarized
-here until we went to Vietnam. And I don't know - I don't think there was
-anything in the record - was there, in regard to the effect of propellants?
-<br>We are asking the Army to give us the facts on this matter, the full
-facts, so that we can make a report. </span><span class="style3">And I doubt very much that if the
-committee did not receive a tip in Vietnam to look into this ammunition
-</span><span class="style2">that
-we would ever have explored it and have developed the whole record.
-</span><span class="style3">I
-THINK THE RECORD WITHOUT DOUBT SUSTAINS THE FACT THAT THE CRUX OF THE PROBLEM
-- YOU HAD OTHER PROBLEMS, SURELY - STARTED WITH THIS CONVERSION TO BALL
-PROPELLANT</span><span class="style2">. That is the thing that concerns me more than a mistake
-or mistakes which may have been made. </span><span class="style3">Mistakes don't concern me, as
-such. I make too many of them to be concerned.&nbsp;</span> <span class="style2">
-<br>General Anderson: Mr. Chairman, I don't know quite how else to respond.
-There is nothing that I know of that we have withheld from the committee.
-There is nothing on this subject that I know of that throws any additional
-light on the controversial switch, so to speak, to ball powder. I know
-of nothing else that I can add to what has been said already and put in
-the record.
-<br>It is true, had we known at the time - but as I said, our experience
-and limited tests gave us no reason to question the change. In retrospect,
-I believe we would definitely have considered a drop in the muzzle velocity
-of perhaps 50 feet per second in order to accommodate the high pressure,
-or uncomfortable closeness to this limiting pressure, </span>
-<span class="style3">had we known we
-would run into all this other trouble</span><span class="style2">. We have freely admitted that
-in the record.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Yes.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Morgan: </span>
-<span class="style2">Do you contemplate making any
-changes to the ball propellant to clean it up or have less adverse effect
-on the rifle?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; General Anderson:</span><span class="style2"> Well, yes.
-<br>Mr. Morgan, we have under study a rather sophisticated study to get
-all the aspects of propellants, coatings, grain size, what have you, hopefully
-to come up with a conglomerate specification that would have all the good
-things of a rifle propellant and eliminate all the bad things, without
-tying ourselves to a proprietary product of one or another manufacturer.
-This is being done at Frankford, isn't it, this propellant study?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Davis: </span>
-<span class="style2">Yes, sir; and BRL.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; General Anderson: </span>
-<span class="style2">And BRL. So, you ask are
-we contemplating a change. </span><span class="style3">Well, in a long-range way we are studying
-these various things.</span> <span class="style2">
-<br>On ball powder itself, as it now exists, </span><span class="style3">I don't know whether any
-particular study is going on on this.</span><span class="style2"> </span>
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Davis:
-</span><span class="style2">No, sir. </span><span class="style3">OUR RECORDS FROM THE
-MOST EXTENSIVE DATA WE HAVE AT THE PRESENT TIME INDICATE SO LONG AS THE
-CYCLIC RATE IS CONTROLLED WITHIN AN ADEQUATE RANGE THE PERFORMANCE OF THE
-BALL PROPELLANT IS NOT LESS RELIABLE THAN PERFORMANCE FROM ANY IMR.</span>
-<span class="style2">
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; General Anderson: </span>
-<span class="style2">On the other hand, Mr.
-Chairman, I don't think increased fouling helps matters any.
-<br></span><span class="style3">&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> I hoped you would say that.
-<br>General Anderson: Yes.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Then we seem to get down to the
-question - perhaps I am being a little derogatory - how much can we wet
-nurse a rifle by extensive cleaning under combat conditions?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> Well, you have to clean
-the rifle no matter what kind of powder. Whether it would be more difficult
-to clean it with the ball powder, or with the IMR, I am not sure at all.
-<br>Mr. Ichord: One of the generals, the one who returned from Vietnam,
-has stated - of course, we have statements all over the lot on it. Some
-say it is no more difficult to clean than any other weapon, and I think
-we have statements by high authority that more care and maintenance has
-to be directed to it --
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> There is more visible residue
-on the ball powder than on the other.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> Yes.</span><span class="style3"> I THINK THOSE STATEMENTS
-THAT THE M-16 REQUIRES MORE CARE AND MAINTENANCE SHOULD BE DIRECTED TO
-THE BALL PROPELLANT RATHER THAN TO THE RIFLE ITSELF.</span> <span class="style2">
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson: </span>
-<span class="style2">We would like to cut down
-the so-called dirty rifle with either. But with ball powder leaving more
-visible residue, there is some speculation as to whether it takes longer
-to clean it. I am not sure of that at all. I don't know.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> I am going to ask if anybody
-else wants to add anything to the record today. I am not going to adjourn
-the subcommittee sine die. I had hoped to be able to do so. But I want
-to give you the chance to clarify the record, straighten up any inconsistency
-that might result, before I adjourn today.
-<br>&nbsp;Mr. Counsel.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan: </span>
-<span class="style2">Mr. Chairman, could we ask the
-Army to give us information on the distribution of the 8208 IMR ammunition
-that has been sent to Vietnam? Have they established a ratio for distributing
-the IMR versus the ball propellant to the users in Vietnam?
-<br>General Anderson: No.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Is there any priority for distribution
-of the IMR over the ball propellant, or is it first in, first out?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> You are right; generally
-it is first in, first out. </span><span class="style3">As we said earlier to Mr. Bray, there is
-no identification on the boxes as to which is ball and which is IMR</span><span class="style2">.
-We do not do that. By the lot numbers we know. We do know which ones they
-are. But we do not as a normal practice transmit that to the field, have
-not been. </span><span class="style3">So they do not know which one is which.&nbsp;</span>
-<span class="style2">
-<br>You said any kind of program distribution. There is no programmed distribution
-of ball versus IMR in Vietnam.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> Can we determine what amount
-of that shipped since </span><span class="style3">April [1967] </span>
-<span class="style2">has been distributed to the troops
-and what amount is in the warehouses at the various supply depots?
-<br>General Anderson: Mr. Morgan, we can try. My estimate is that it would
-be very difficult to do that. We will try to find out.
-<br>(The following information was received for the record)
-</span>
-<p class="style2">The Army is unable to state how much of the IMR 8208 propellant ammunition
-shipped to SEA since April 1967 has been issued to troops and how much
-is in depot.
-<br>Rifle ammunition is loaded and packed by the commercial contractor
-and identified by Lot Number. the package displays the Lot Number as do
-shipping documents but there is no way to identify the propellant used
-to fill the cartridges in a particular Lot. Consequently, the issuing depot
-has no knowledge of the propellant used in the ammunition that has been
-issued or that remains on hand.
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Morgan:</span><span class="style2"> General Anderson, or Colonel Yount,
-in the Tech Coordinating Committee meeting of March 2 this year it was
-indicated that 16 chrome-plated chambers, or 16 barrels with chrome plated
-chambers, were shipped to Vietnam for evaluation, under the control of
-the Army concept team in Vietnam. A report from this team was scheduled
-for April 1967. Was such report received?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount</span><span class="style2">: It was not. We do not expect
-one. We have been in contact with the Army concept team. </span>
-<span class="style3">They have had
-other projects of greater priority.</span><span class="style2"> They distributed the barrels to
-the field. Major Podurgal personally contacted two or three people who
-had these weapons with these barrels on them. They were happy with them.
-As far as controlled tests on these barrels,</span><span class="style3"> it is of little value.</span><span class="style2">
-</span>
-<p class="style2">.................
-<p><span class="style2">&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> General Anderson, back to your
-statement that the Army has not conclusively determined that excessive
-malfunctions have been attributable to fouling, and also the position of
-the Army that it had no way of knowing that the ball propellant would produce
-the effects it did. Would it be fair to say you did not, however, have
-a proper basis of comparison, in that the M-14, where you had your experience
-with ball propellant, had not only a chrome chamber but also a chrome plated
-bore?
-<br>The recommended change - and I want to ask what has been going on in
-regard to the chrome plating of the chamber. You think, perhaps, the chrome
-plating will compensate for the increased fouling?&nbsp;
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> Yes, sir.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">At least it makes it a little
-easier to clean, it is a little harder, and it would work to eliminate
-excessive pitting.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">General Anderson:</span><span class="style2"> That is right. It is less
-likely to erode, it is easier to clean. The coefficient of friction, for
-example, between chrome and brass is less, so it would extract easier under
-any conditions, in that case. Yes. That is being done, as you know.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> How do we stand now that Colt
-has gone back to work?
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Colonel Yount:</span><span class="style2"> The first 5,000 production
-weapons with the chrome-plated chamber are scheduled to be received in
-the month of September.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord:</span><span class="style2"> They backed up? They had an earlier
-schedule on that, of August, didn't they? And the strike delayed that a
-month?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> The strike delayed it. During
-September we expect to get 4,000 replacement barrels that will have the
-chrome-plated chamber. Each month thereafter the total production of weapons,
-as well as repair barrels, will have the chrome-plated chamber.
-<br>&nbsp;&nbsp;&nbsp; </span><span class="style3">Mr. Ichord: </span>
-<span class="style2">Have you concluded, Mr. Counsel?
-</span>
-<p><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Morgan:</span><span class="style2"> Yes, sir.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Colonel, how about those monthly
-reports you made on M-16 reliability to the Army Chief of Staff? Do you
-have those with you today?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-<span class="style2">No, sir. Which ones, sir,
-the most recent ones, or the initial ones, sir?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">I think perhaps we need to review
-that, particularly since October 1966. That is your monthly reports on
-reliability and product improvement. You don't have those with you?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> No, sir.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Can you make those available
-to the committee?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> Again, sir, I am not sure
-which reports you are referring to.
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: </span>
-<span class="style2">Don't you make a monthly report
-to the Army Chief of Staff or the Deputy Chief?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> At the present time?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> Well --
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount:</span><span class="style2"> Or initially? When we started
-the program I had a set of reports going to the Department of Army. Then,
-as a result of the SAWS, I submitted reports which went into DCSLOG which
-eventually are received by the Chief of Staff. I am not sure which reports
-you are referring to, sir?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord: How about giving us all of them</span><span class="style2">,
-to make sure we have them? How about giving us all your monthly reports?
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Colonel Yount: </span>
-<span class="style2">Yes, sir.
-<br>(The information requested is in the files of the committee.)&nbsp;
-<br></span><span class="style3">&nbsp;&nbsp;&nbsp; Mr. Ichord:</span><span class="style2"> There being no further questions,
-the committee will adjourn subject to the call of the Chair.
-<br>(Whereupon, at 4:50 p.m. the subcommittee adjourned.)
-<br>&nbsp;
-</span>
 <p>&nbsp;<span class="style3">CHRONOLOGICAL LIST OF HEARINGS</span>
 <span class="style2">
 <br></span><span class="style3">&nbsp;_________</span> <span class="style2">

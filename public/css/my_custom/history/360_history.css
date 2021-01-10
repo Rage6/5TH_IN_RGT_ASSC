@@ -340,3 +340,26 @@ p {
   border: 1px dashed black;
   padding: 10px 5%;
 }
+
+.referenceList {
+  margin-top: 50px;
+  font-size: 1rem;
+  font-family: 'Bellefair', serif;
+}
+
+.timeList {
+
+}
+
+.timeTitle {
+  margin-bottom: 20px;
+  display: block !important;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.timeList div {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}

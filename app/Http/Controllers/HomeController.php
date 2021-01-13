@@ -48,7 +48,8 @@ class HomeController extends Controller
           ->join('timespan','users.id','timespan.user_id')
           ->select('users.id','email','first_name','last_name','start_year','end_year')
           ->where([
-            ['users.id','!=',$this_id]
+            ['users.id','!=',$this_id],
+            ['users.deceased','==','0']
           ])
           ->get();
         $final_all_users = [];

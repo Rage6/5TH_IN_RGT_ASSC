@@ -26,6 +26,7 @@ Route::prefix('/home')->group(function() {
   Route::get('message/{id}', 'MessageController@index')->name('message');
   Route::post('message/{id}', 'MessageController@post');
   Route::get('edit', 'EditController@index')->name('edit');
+  Route::get('admin','AdminController@index')->name('admin');
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
     Route::get('profile','ProfileController@index')->name('profile');

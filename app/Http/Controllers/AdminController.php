@@ -26,27 +26,48 @@ class AdminController extends Controller
     {
       $this_user = Auth::user();
       if ($this_user->admin == 1) {
+        // $all_users = DB::table('users')
+        //   ->join('timespan','users.id','timespan.user_id')
+        //   ->select('user_id','timespan.id','email','first_name','last_name','timespan.id','start_year','end_year')
+        //   ->orderBy('last_name','asc')
+        //   ->get();
         $all_users = DB::table('users')
-          ->join('timespan','users.id','timespan.user_id')
-          ->select('user_id','timespan.id','email','first_name','last_name','timespan.id','start_year','end_year')
+          -> select('id','email','first_name','last_name')
+          ->orderBy('last_name','asc')
           ->get();
         $final_all_users = [];
         $this_raw_num = 0;
         $next_raw_num = 1;
         foreach ($all_users as $one_raw) {
-          $isDuplicate = false;
-          for ($u = $next_raw_num; $u < count($all_users); $u++) {
-            if ($one_raw->user_id == $all_users[$u]->user_id) {
-              $isDuplicate = true;
-              $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
-              $all_users[$u]->all_range[] = $one_range;
-            };
+          // $isDuplicate = false;
+          // for ($u = $next_raw_num; $u < count($all_users); $u++) {
+          //   if ($one_raw->user_id == $all_users[$u]->user_id) {
+          //     $isDuplicate = true;
+          //     $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
+          //     $all_users[$u]->all_range[] = $one_range;
+          //   };
+          // };
+          // if ($isDuplicate == false) {
+          //   $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
+          //   $one_raw->all_range[] = $one_range;
+          //   $final_all_users[] = $one_raw;
+          // };
+          $all_timespan = DB::table('timespan')
+            ->select('id','user_id','start_year','end_year')
+            ->where('user_id',$one_raw->id)
+            ->get();
+          $first_range = true;
+          foreach($all_timespan as $one_timespan) {
+            $one_range = [$one_timespan->start_year,$one_timespan->end_year,$one_timespan->id];
+            // if ($first_range == true) {
+              $one_raw->all_range[] = $one_range;
+              // $first_range = false;
+            // } else {
+            //
+            // };
           };
-          if ($isDuplicate == false) {
-            $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
-            $one_raw->all_range[] = $one_range;
-            $final_all_users[] = $one_raw;
-          };
+          $final_all_users[] = $one_raw;
+
           $this_raw_num++;
           $next_raw_num++;
         };
@@ -58,18 +79,28 @@ class AdminController extends Controller
 
     public function changeEmail(Request $request)
     {
-      // $this_user = Auth::user();
-      // $this_user->email = Request::input('new_email');
-      // $this_user->save();
-
-      // $select_member = User::find([
-      //   'id' => Request::input('member_id')
-      // ]);
-      // $select_member = User::where('id',Request::input('member_id'));
       DB::table('users')
         ->where('id',Request::input('member_id'))
         ->update(['email' => Request::input('new_email')]);
-      // return view('admin',compact('this_user'));
+      return redirect('home/admin');
+    }
+
+    public function addRange(Request $request)
+    {
+      DB::table('timespan')
+        ->insert([
+          'start_year' => Request::input('start_year'),
+          'end_year' => Request::input('end_year'),
+          'user_id' => Request::input('member_id')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function deleteRange(Request $request)
+    {
+      DB::table('timespan')
+        ->where('id','=',Request::input('select_range'))
+        ->delete();
       return redirect('home/admin');
     }
 

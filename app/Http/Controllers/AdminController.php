@@ -38,7 +38,7 @@ class AdminController extends Controller
             ->select('id','user_id','start_year','end_year')
             ->where('user_id',$one_raw->id)
             ->get();
-          $first_range = true;
+          $one_raw->all_range = [];
           foreach($all_timespan as $one_timespan) {
             $one_range = [$one_timespan->start_year,$one_timespan->end_year,$one_timespan->id];
             $one_raw->all_range[] = $one_range;

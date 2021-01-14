@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\User;
+// use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
@@ -25,7 +28,7 @@ class AdminController extends Controller
       if ($this_user->admin == 1) {
         $all_users = DB::table('users')
           ->join('timespan','users.id','timespan.user_id')
-          ->select('users.id','email','first_name','last_name','start_year','end_year')
+          ->select('user_id','timespan.id','email','first_name','last_name','timespan.id','start_year','end_year')
           ->get();
         $final_all_users = [];
         $this_raw_num = 0;
@@ -33,14 +36,14 @@ class AdminController extends Controller
         foreach ($all_users as $one_raw) {
           $isDuplicate = false;
           for ($u = $next_raw_num; $u < count($all_users); $u++) {
-            if ($one_raw->id == $all_users[$u]->id) {
+            if ($one_raw->user_id == $all_users[$u]->user_id) {
               $isDuplicate = true;
-              $one_range = [$one_raw->start_year,$one_raw->end_year];
+              $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
               $all_users[$u]->all_range[] = $one_range;
             };
           };
           if ($isDuplicate == false) {
-            $one_range = [$one_raw->start_year,$one_raw->end_year];
+            $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->id];
             $one_raw->all_range[] = $one_range;
             $final_all_users[] = $one_raw;
           };
@@ -51,6 +54,23 @@ class AdminController extends Controller
       } else {
         return redirect('/');
       };
+    }
+
+    public function changeEmail(Request $request)
+    {
+      // $this_user = Auth::user();
+      // $this_user->email = Request::input('new_email');
+      // $this_user->save();
+
+      // $select_member = User::find([
+      //   'id' => Request::input('member_id')
+      // ]);
+      // $select_member = User::where('id',Request::input('member_id'));
+      DB::table('users')
+        ->where('id',Request::input('member_id'))
+        ->update(['email' => Request::input('new_email')]);
+      // return view('admin',compact('this_user'));
+      return redirect('home/admin');
     }
 
     /**

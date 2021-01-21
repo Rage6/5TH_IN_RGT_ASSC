@@ -1,3 +1,4 @@
+
 .primaryImg {
   background-size:contain;
   background-position:center;
@@ -54,3 +55,23 @@
   height: 100px;
   overflow-y: scroll;
 }
+
+/* START Administration page */
+
+.oneMemberCard {
+  margin-bottom: 10px;
+}
+
+.oneMemberInfo {
+  display: none;
+}
+
+.addTimeSpanBttn {
+  cursor: pointer;
+}
+
+.addTimeSpanBox {
+  display: none;
+}
+
+/* END Administration page */

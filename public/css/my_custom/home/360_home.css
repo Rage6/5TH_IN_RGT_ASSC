@@ -57,16 +57,45 @@
 }
 
 /* START Administration page */
+.allMembersCard {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
 
 .oneMemberCard {
   margin-bottom: 10px;
 }
 
+.oneMemberButton {
+  width: 100%;
+}
+
 .oneMemberInfo {
+  border: 1px solid #3490dc;
+  padding: 5px 2%;
   display: none;
 }
 
+.oneTimeSpan {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.oneTimeSpan button {
+  margin-right: 10px;
+}
+
+.oneTimeSpan div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .addTimeSpanBttn {
+  color: #3490dc;
+  text-decoration: underline;
+  text-align: center;
   cursor: pointer;
 }
 

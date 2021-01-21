@@ -1,13 +1,21 @@
 $(document).ready(() => {
   console.log("This is a test of the admin.js file");
 
-  $("[data-addbttn]").click(()=>{
-    eventId = event.target.dataset.addbttn;
-    console.log("This worked. The id is " + eventId);
-    if ($("[data-addbox='" + eventId + "']").css('display') == 'none') {
-      $("[data-addbox='" + eventId + "']").css('display','block');
+  $("[data-memberbttn]").click(()=>{
+    let memberId = event.target.dataset.memberbttn;
+    if ($("[data-memberbox='" + memberId + "']").css('display') == 'none') {
+      $("[data-memberbox='" + memberId + "']").css('display','block');
     } else {
-      $("[data-addbox='" + eventId + "']").css('display','none');
+      $("[data-memberbox='" + memberId + "']").css('display','none');
+    };
+  });
+
+  $("[data-addbttn]").click(()=>{
+    let addId = event.target.dataset.addbttn;
+    if ($("[data-addbox='" + addId + "']").css('display') == 'none') {
+      $("[data-addbox='" + addId + "']").css('display','block');
+    } else {
+      $("[data-addbox='" + addId + "']").css('display','none');
     };
   });
 

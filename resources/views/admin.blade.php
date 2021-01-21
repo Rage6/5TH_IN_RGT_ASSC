@@ -13,13 +13,13 @@
               <div class="card-header">
                 MEMBER LIST
               </div>
-              <div class="card-body">
+              <div class="card-body allMembersCard">
               @foreach ($final_all_users as $one_user)
                 <div class="oneMemberCard">
-                  <button data-change-btn="{{ $one_user->id }}" type="button" class="btn btn-primary">
+                  <button data-memberbttn="{{ $one_user->id }}" type="button" class="btn btn-primary oneMemberButton">
                     {{ $one_user->last_name }}, {{ $one_user->first_name }}
                   </button>
-                  <div class="oneMemberInfo" data-change-box="{{ $one_user->id }}">
+                  <div class="oneMemberInfo" data-memberbox="{{ $one_user->id }}">
                     <form method="POST" action="admin/email">
                       @csrf
                       <div>Email Address</div>
@@ -30,22 +30,23 @@
                     @foreach ($one_user->all_range as $one_range)
                       <form method="POST" action="admin/range/delete">
                         @csrf
-                        <div style="padding:2px 0;display:flex;justify-content:space-between"
+                        <div
+                          class="oneTimeSpan"
                           data-parent="{{ $one_user->id }}"
                           data-start="{{ $one_range[0] }}"
                           data-end="{{ $one_range[1] }}"
                           data-timespan="{{ $one_range[2] }}">
-                          <div>{{ $one_range[0] }} - {{ $one_range[1] }}</div>
-                          <input
-                            type="hidden"
-                            name="select_range"
-                            value="{{ $one_range[2] }}"/>
                           <button
                             class="btn btn-danger"
                             type="submit"
                             name="delete_range">
                             X
                           </button>
+                          <div>{{ $one_range[0] }} - {{ $one_range[1] }}</div>
+                          <input
+                            type="hidden"
+                            name="select_range"
+                            value="{{ $one_range[2] }}"/>
                         </div>
                       </form>
                     @endforeach

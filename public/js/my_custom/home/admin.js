@@ -1,6 +1,15 @@
 $(document).ready(() => {
   console.log("This is a test of the admin.js file");
 
+  // Open or close option to add a member
+  $(".addMemberBttn").click(()=>{
+    if ($(".addMemberInfo").css('display') == 'block') {
+      $(".addMemberInfo").css('display','none');
+    } else {
+      $(".addMemberInfo").css('display','block');
+    };
+  });
+
   // Open or close a member's information
   $("[data-memberbttn]").click(()=>{
     let memberId = event.target.dataset.memberbttn;

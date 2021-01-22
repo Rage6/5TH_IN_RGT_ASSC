@@ -13,6 +13,22 @@
               <div class="card-header">
                 MEMBER LIST
               </div>
+              <div class="addMemberSection">
+                <div class="addMemberBttn">
+                  <div>
+                    +
+                  </div>
+                </div>
+                <div class="addMemberInfo">
+                  <form method="POST" action="admin/member/add">
+                    @csrf
+                    <input type="text" name="first_name" placeholder="First Name" />
+                    <input type="text" name="last_name" placeholder="Last Name" />
+                    <input type="email" name="email" placeholder="Email Address" />
+                    <input type="submit" value="ENTER" />
+                  </form>
+                </div>
+              </div>
               <div class="card-body allMembersCard">
               @foreach ($final_all_users as $one_user)
                 <div class="oneMemberCard">
@@ -99,19 +115,21 @@
                         <div class="btn btn-secondary" data-cancelbttn="{{ $one_user->id }}">
                           NO, cancel this
                         </div>
-                        <form method="POST" action="admin/member/delete">
-                          @csrf
-                          <button
-                            class="btn btn-danger"
-                            type="submit"
-                            name="delete_member">
-                            YES, delete it
-                          </button>
-                          <input
-                            type="hidden"
-                            name="member_id"
-                            value="{{ $one_user->id }}"/>
-                        </form>
+                        <div>
+                          <form method="POST" action="admin/member/delete">
+                            @csrf
+                            <button
+                              class="btn btn-danger"
+                              type="submit"
+                              name="delete_member">
+                              YES, delete it
+                            </button>
+                            <input
+                              type="hidden"
+                              name="member_id"
+                              value="{{ $one_user->id }}"/>
+                          </form>
+                        </div>
                       </div>
                     </div>
                   </div>

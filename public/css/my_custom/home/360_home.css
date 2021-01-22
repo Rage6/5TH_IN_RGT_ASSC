@@ -1,3 +1,4 @@
+
 .primaryImg {
   background-size:contain;
   background-position:center;
@@ -54,3 +55,124 @@
   height: 100px;
   overflow-y: scroll;
 }
+
+/* START Administration page */
+.addMemberSection {
+  padding: 1.25rem;
+}
+
+.addMemberBttn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addMemberBttn div {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #38c172;
+  height: 40px;
+  width: 40px;
+}
+
+.addMemberInfo {
+  display: none;
+  border: 1px solid #38c172;
+  border-radius: 5px 0 5px 5px;
+  padding: 0.5rem;
+  background-color: rgba(56, 193, 114, 0.1);
+}
+
+.addMemberInfo div {
+  text-align: center;
+  background-color: #38c172;
+}
+
+.addMemberInfo input {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.addMemberInfo input:last-child {
+  color: white;
+  text-align: center;
+  background-color: #38c172;
+}
+
+.allMembersCard {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+
+.oneMemberCard {
+  margin-bottom: 10px;
+}
+
+.oneMemberButton {
+  width: 100%;
+}
+
+.oneMemberInfo {
+  border: 1px solid #3490dc;
+  padding: 5px 2%;
+  display: none;
+}
+
+.oneInfo {
+  margin-bottom: 15px;
+}
+
+.infoTitle {
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.oneTimeSpan {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.oneTimeSpan button {
+  margin-right: 10px;
+}
+
+.oneTimeSpan div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addTimeSpanBttn {
+  color: #3490dc;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addTimeSpanBox {
+  display: none;
+}
+
+.deleteMemberWarning {
+  margin-left: 15%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: orange;
+  width: 70%;
+}
+
+.deleteMemberBox {
+  margin-left: 15%;
+  border: 1px solid orange;
+  padding: 5px 2%;
+  display: none;
+  width: 70%;
+}
+
+.deleteMemberBox div {
+  margin-top: 10px
+}
+
+/* END Administration page */

@@ -1,122 +1,49 @@
 $(document).ready(() => {
-  // console.log("This is a test of the home.js file");
+  console.log("This is a test of the admin.js file");
 
-  // $(".categoryBox").css('display','none');
-
-  // Shows the selected
-  const showCategorySearch = (category) => {
-    $(".categoryBox").css('display','none');
-    let thisCategory = null;
-    if (event == undefined) {
-      thisCategory = 'year';
+  // Open or close option to add a member
+  $(".addMemberBttn").click(()=>{
+    if ($(".addMemberInfo").css('display') == 'block') {
+      $(".addMemberInfo").css('display','none');
     } else {
-      thisCategory = event.target.dataset.category;
+      $(".addMemberInfo").css('display','block');
     };
-    $("[data-category]").css('color','black').css('background-color','white');
-    if (thisCategory == 'first') {
-      $("#firstBox").css('display','flex');
-      $("[data-category=first]").css('color','white').css('background-color','black');
-    } else if (thisCategory == 'last') {
-      $("#lastBox").css('display','flex');
-      $("[data-category=last]").css('color','white').css('background-color','black');
+  });
+
+  // Open or close a member's information
+  $("[data-memberbttn]").click(()=>{
+    let memberId = event.target.dataset.memberbttn;
+    if ($("[data-memberbox='" + memberId + "']").css('display') == 'none') {
+      $("[data-memberbox='" + memberId + "']").css('display','block');
     } else {
-      $("#yearBox").css('display','flex');
-      $("[data-category=year]").css('color','white').css('background-color','black');
+      $("[data-memberbox='" + memberId + "']").css('display','none');
     };
-  };
-
-  showCategorySearch('year');
-
-  $("[data-category='first']").click(()=>{
-    showCategorySearch('first');
   });
 
-  $("[data-category='last']").click(()=>{
-    showCategorySearch('first');
-  });
-
-  $("[data-category='year']").click(()=>{
-    showCategorySearch('first');
-  });
-
-  // Search by first or last names. Only shows EXACT matches (not case-sensitive)
-  const findByName = (inputName,category) => {
-    $("[data-first]").css('display','none');
-    let searchValue = $(inputName).val().toLowerCase();
-    if (searchValue != "") {
-      $("[data-" + category + "='" + searchValue + "']").css('display','flex');
+  // Open or close the option to add a new time span
+  $("[data-addbttn]").click(()=>{
+    let addId = event.target.dataset.addbttn;
+    if ($("[data-addbox='" + addId + "']").css('display') == 'none') {
+      $("[data-addbox='" + addId + "']").css('display','block');
     } else {
-      $("[data-first]").css('display','flex');
+      $("[data-addbox='" + addId + "']").css('display','none');
     };
-  };
-
-  $("#searchFirstBttn").click(()=>{
-    findByName("#searchByFirst","first");
   });
 
-  $("#searchLastBttn").click(()=>{
-    findByName("#searchByLast","last");
-  });
-
-  // Shows a list of any Bobcats that were in the 5th during the entered year
-  const findByYear = (inputYear) => {
-    $("[data-first]").css('display','none');
-    let searchYear = $(inputYear).val();
-    if (searchYear != "") {
-      intSearchYear = parseInt(searchYear);
-      let idArray = $("[data-start]").map(function() {
-          return $(this).data("parent");
-        }).get();
-      let startArray = $("[data-start]").map(function() {
-          return $(this).data("start");
-        }).get();
-      let endArray = $("[data-end]").map(function() {
-          return $(this).data("end");
-        }).get();
-      for (let spanNum = 0; spanNum < idArray.length; spanNum++) {
-        if (startArray[spanNum] <= intSearchYear && endArray[spanNum] >= intSearchYear) {
-          $("[data-user='" + idArray[spanNum] + "']").css('display','flex');
-        };
-      };
-    } else {
-      $("[data-first]").css('display','flex');
+  // Opens the option for member deletion
+  $("[data-delbttn]").click(()=>{
+    let delId = event.target.dataset.delbttn;
+    if ($("[data-delbox='" + delId + "']").css('display') == 'none') {
+      $("[data-delbox='" + delId + "']").css('display','block');
     };
-  };
-
-  $("#searchYearBttn").click(()=>{
-    findByYear("#searchByYear");
   });
 
-  // Shows or hides a selected element by clicking
-  const showGenericBox = (boxElement,displayType) => {
-    if ($(boxElement).css('display') == 'none') {
-      $(boxElement).css('display',displayType);
-    } else {
-      $(boxElement).css('display','none');
+  // Closes the option for member deletion
+  $("[data-cancelbttn]").click(()=>{
+    let cancelId = event.target.dataset.cancelbttn;
+    if ($("[data-delbox='" + cancelId + "']").css('display') == 'block') {
+      $("[data-delbox='" + cancelId + "']").css('display','none');
     };
-  };
-
-  // Shows the tips for using the search tool
-  $("#troublesBttn").click(() => {
-    showGenericBox("#troublesBox","block");
-  });
-
-  // Swaps the Bobcat's current and veteran images
-  let mainImg = $("#primaryImg").css('background-image');
-  mainImg = mainImg.replace('url("','').replace('")','');
-  let cornerImg = $("#secondaryImg").css('background-image');
-  cornerImg = cornerImg.replace('url("','').replace('")','');
-  const swapImages = () => {
-    $("#primaryImg").css('background-image','url("' + cornerImg + '")');
-    $("#secondaryImg").css('background-image','url("' + mainImg + '")');
-    mainImg = $("#primaryImg").css('background-image');
-    mainImg = mainImg.replace('url("','').replace('")','');
-    cornerImg = $("#secondaryImg").css('background-image');
-    cornerImg = cornerImg.replace('url("','').replace('")','');
-  };
-
-  $("#secondaryImg").click(()=>{
-    swapImages();
   });
 
 });

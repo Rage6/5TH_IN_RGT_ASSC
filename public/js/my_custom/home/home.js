@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  // console.log("This is a test of the home.js file");
+  console.log("This is a test of the home.js file");
 
   // $(".categoryBox").css('display','none');
 

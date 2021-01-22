@@ -80,6 +80,17 @@ class AdminController extends Controller
       return redirect('home/admin');
     }
 
+    public function deleteMember(Request $request)
+    {
+      DB::table('timespan')
+        ->where('user_id','=',Request::input('member_id'))
+        ->delete();
+      DB::table('users')
+        ->where('id','=',Request::input('member_id'))
+        ->delete();
+      return redirect('home/admin');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -80,6 +80,22 @@ class AdminController extends Controller
       return redirect('home/admin');
     }
 
+    public function addMember(Request $request)
+    {
+      $randome_password = bin2hex(random_bytes(32));
+      DB::table('users')
+        ->insert([
+          'first_name' => Request::input('first_name'),
+          'last_name' => Request::input('last_name'),
+          'email' => Request::input('email'),
+          'password' => $randome_password,
+          'moh' => 0,
+          'deceased' => 0,
+          'admin' => 0
+        ]);
+      return redirect('home/admin');
+    }
+
     public function deleteMember(Request $request)
     {
       DB::table('timespan')

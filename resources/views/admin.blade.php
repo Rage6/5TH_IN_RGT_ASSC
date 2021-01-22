@@ -22,9 +22,21 @@
                 <div class="addMemberInfo">
                   <form method="POST" action="admin/member/add">
                     @csrf
-                    <input type="text" name="first_name" placeholder="First Name" />
-                    <input type="text" name="last_name" placeholder="Last Name" />
-                    <input type="email" name="email" placeholder="Email Address" />
+                    <input
+                      type="text"
+                      name="first_name"
+                      required
+                      placeholder="First Name" />
+                    <input
+                      type="text"
+                      name="last_name"
+                      required
+                      placeholder="Last Name" />
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="Email Address" />
                     <input type="submit" value="ENTER" />
                   </form>
                 </div>

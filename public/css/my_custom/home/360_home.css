@@ -56,6 +56,27 @@
   overflow-y: scroll;
 }
 
+/* START Edit page */
+
+.basicInfoGrid {
+  margin-bottom: 10px;
+  display:grid;
+  grid-template-columns: 40% auto;
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 100px;
+  column-gap: 2%;
+}
+
+.historyBox textarea {
+  height: 150px;
+}
+
+/* END Edit page */
+
 /* START Administration page */
 .addMemberSection {
   padding: 1.25rem;

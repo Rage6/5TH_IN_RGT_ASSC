@@ -70,8 +70,16 @@
         PHOTO ALBUM
       </div>
       <div class="mainMenuSubBox" data-box-num="4">
-        <div class="mainMenuSubBttn">+ Album 1</div>
-        <div class="mainMenuSubBttn">+ Album 2</div>
+        <a href="http://bobcat.ws/coppermine/index.php" target="_blank">
+          <div class="mainMenuSubBttn">
+            + Album 1
+          </div>
+        </a>
+        <a href="http://bobcat.ws/coppermine2/index.php" target="_blank">
+          <div class="mainMenuSubBttn">
+            + Album 2
+          </div>
+        </a>
       </div>
     </div>
     @if (Route::has('login'))
@@ -86,7 +94,9 @@
                 </a>
                 <div class="mainMenuSubBttn">+ Clothing & Items</div>
                 <div class="mainMenuSubBttn">+ Reunions</div>
-                <div class="mainMenuSubBttn">+ Newsletters</div>
+                <a href="http://bobcat.ws/members-newsletters.html" target="_blank">
+                  <div class="mainMenuSubBttn">+ Newsletters</div>
+                </a>
             @else
                 <a href="{{ route('login') }}">
                   <div class="mainMenuSubBttn">+ Login</div>

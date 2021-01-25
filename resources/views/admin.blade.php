@@ -89,29 +89,94 @@
                         <div class="addTimeSpanBox" data-addbox="{{ $one_user->id }}">
                           <form method="POST" action="admin/range/add">
                             @csrf
-                            <div style="padding:2px 0;display:flex;justify-content:space-between">
+                            <input
+                              type="hidden"
+                              name="member_id"
+                              value="{{ $one_user->id }}" />
+                            <div class="addTimeGrid">
+                              <div
+                                style="
+                                  grid-row-start:1;
+                                  grid-column-start:1">
+                                  Start Time
+                              </div>
+                              <select
+                                style="
+                                  grid-row-start:2;
+                                  grid-column-start:1"
+                                name="start_month"/>
+                                <option selected value="null">Month (optional)</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                              </select>
                               <input
-                                type="hidden"
-                                name="member_id"
-                                value="{{ $one_user->id }}" />
-                              <div>
-                                <input style="width:80%"
-                                  type="number"
-                                  name="start_year"/>
-                                <div>Starting Year</div>
+                                style="
+                                  grid-row-start:3;
+                                  grid-column-start:1"
+                                type="number"
+                                min="1808"
+                                max="9999"
+                                name="start_year"
+                                placeholder="Year"/>
+                              <div
+                                style="
+                                  grid-row-start:1;
+                                  grid-column-start:2">
+                                  End Time
                               </div>
-                              <div>
-                                <input style="width:80%"
-                                  type="number"
-                                  name="end_year"/>
-                                <div>Ending Year</div>
-                              </div>
+                              <select
+                                style="
+                                  grid-row-start:2;
+                                  grid-column-start:2"
+                                name="end_month"/>
+                                <option value="null">Month (optional)</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                              </select>
+                              <input
+                                style="
+                                  grid-row-start:3;
+                                  grid-column-start:2"
+                                type="number"
+                                min="1808"
+                                max="9999"
+                                placeholder="Year"
+                                name="end_year"/>
+                              <div>Job</div>
+                              <input name="new_job" placeholder="Medic, 1SG, etc."/>
+                              <div>Unit</div>
+                              <input name="new_unit" placeholder="HHC, B Co, etc."/>
+                            </div>
+                            <div class="centerAddBttn">
                               <button
                                 class="btn btn-success"
                                 type="submit"
                                 name="new_range">
                                 ENTER
                               </button>
+                            </div>
+                            <div>
+                              NOTE: Leave the 'End Time' empty if the time span has not ended yet.
                             </div>
                           </form>
                         </div>

@@ -59,28 +59,68 @@
                     </div>
                     <div class="oneInfo">
                       <div class="infoTitle">Time In 5th RGT</div>
+                      @php
+                        $background = 'white';
+                      @endphp
                       @foreach ($one_user->all_range as $one_range)
-                        <form method="POST" action="admin/range/delete">
-                          @csrf
-                          <div
-                            class="oneTimeSpan"
-                            data-parent="{{ $one_user->id }}"
-                            data-start="{{ $one_range[0] }}"
-                            data-end="{{ $one_range[1] }}"
-                            data-timespan="{{ $one_range[2] }}">
-                            <button
-                              class="btn btn-danger"
-                              type="submit"
-                              name="delete_range">
-                              X
-                            </button>
-                            <div>{{ $one_range[0] }} - {{ $one_range[1] }}</div>
-                            <input
-                              type="hidden"
-                              name="select_range"
-                              value="{{ $one_range[2] }}"/>
-                          </div>
-                        </form>
+                        @if ($background == 'white')
+                          <div style='background-color:{{$background}}'>
+                          @php
+                            $background = 'rgba(52,144,220,0.2)'
+                          @endphp
+                        @else
+                          <div style='background-color:{{ $background }}'>
+                            @php
+                              $background = 'white'
+                            @endphp
+                        @endif
+                          <form method="POST" action="admin/range/delete">
+                            @csrf
+                            <div
+                              class="oneTimeSpan"
+                              data-parent="{{ $one_user->id }}"
+                              data-start="{{ $one_range[0] }}"
+                              data-end="{{ $one_range[1] }}"
+                              data-timespan="{{ $one_range[2] }}">
+                              <button
+                                class="btn btn-danger"
+                                type="submit"
+                                name="delete_range">
+                                X
+                              </button>
+                              <div>
+                                @if ($one_range[3] == null)
+                                  {{ $one_range[0] }}
+                                @else
+                                  {{ $one_range[3] }} {{ $one_range[0] }}
+                                @endif
+                                 -
+                                @if ($one_range[1] != 0)
+                                  @if ($one_range[4] == null)
+                                   {{ $one_range[1] }}
+                                  @else
+                                    {{ $one_range[4] }} {{ $one_range[1] }}
+                                  @endif
+                                @else
+                                  Now
+                                @endif
+                              </div>
+                              <input
+                                type="hidden"
+                                name="select_range"
+                                value="{{ $one_range[2] }}"/>
+                            </div>
+                            <div class="jobAndUnit">
+                              @if ($one_range[5] != null && $one_range[6] != null)
+                                {{ $one_range[5] }}, {{ $one_range[6] }}
+                              @elseif ($one_range[5] == null && $one_range[6] != null)
+                                {{ $one_range[6] }}
+                              @elseif ($one_range[5] != null && $one_range[6] == null)
+                                {{ $one_range[5] }}
+                              @endif
+                            </div>
+                          </form>
+                        </div>
                       @endforeach
                       <div>
                         <div class="addTimeSpanBttn" data-addbttn="{{ $one_user->id }}">
@@ -89,29 +129,94 @@
                         <div class="addTimeSpanBox" data-addbox="{{ $one_user->id }}">
                           <form method="POST" action="admin/range/add">
                             @csrf
-                            <div style="padding:2px 0;display:flex;justify-content:space-between">
+                            <input
+                              type="hidden"
+                              name="member_id"
+                              value="{{ $one_user->id }}" />
+                            <div class="addTimeGrid">
+                              <div
+                                style="
+                                  grid-row-start:1;
+                                  grid-column-start:1">
+                                  Start Time
+                              </div>
+                              <select
+                                style="
+                                  grid-row-start:2;
+                                  grid-column-start:1"
+                                name="start_month"/>
+                                <option selected value="0">Month (optional)</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                              </select>
                               <input
-                                type="hidden"
-                                name="member_id"
-                                value="{{ $one_user->id }}" />
-                              <div>
-                                <input style="width:80%"
-                                  type="number"
-                                  name="start_year"/>
-                                <div>Starting Year</div>
+                                style="
+                                  grid-row-start:3;
+                                  grid-column-start:1"
+                                type="number"
+                                min="1808"
+                                max="9999"
+                                name="start_year"
+                                placeholder="Year"/>
+                              <div
+                                style="
+                                  grid-row-start:1;
+                                  grid-column-start:2">
+                                  End Time
                               </div>
-                              <div>
-                                <input style="width:80%"
-                                  type="number"
-                                  name="end_year"/>
-                                <div>Ending Year</div>
-                              </div>
+                              <select
+                                style="
+                                  grid-row-start:2;
+                                  grid-column-start:2"
+                                name="end_month"/>
+                                <option value="0">Month (optional)</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                              </select>
+                              <input
+                                style="
+                                  grid-row-start:3;
+                                  grid-column-start:2"
+                                type="number"
+                                min="1808"
+                                max="9999"
+                                placeholder="Year"
+                                name="end_year"/>
+                              <div>Job</div>
+                              <input name="new_job" placeholder="Medic, 1SG, etc."/>
+                              <div>Unit</div>
+                              <input name="new_unit" placeholder="HHC, B Co, etc."/>
+                            </div>
+                            <div class="centerAddBttn">
                               <button
                                 class="btn btn-success"
                                 type="submit"
                                 name="new_range">
                                 ENTER
                               </button>
+                            </div>
+                            <div>
+                              NOTE: Leave the 'End Time' empty if the time span has not ended yet.
                             </div>
                           </form>
                         </div>

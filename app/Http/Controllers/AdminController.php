@@ -35,12 +35,39 @@ class AdminController extends Controller
         $next_raw_num = 1;
         foreach ($all_users as $one_raw) {
           $all_timespan = DB::table('timespan')
-            ->select('id','user_id','start_year','end_year')
+            ->select('id','user_id','start_year','end_year','start_month','end_month','job','unit')
             ->where('user_id',$one_raw->id)
             ->get();
           $one_raw->all_range = [];
+          $month_names = array(
+            null,
+            "JAN",
+            "FEB",
+            "MAR",
+            "APR",
+            "MAY",
+            "JUN",
+            "JUL",
+            "AUG",
+            "SEP",
+            "OCT",
+            "NOV",
+            "DEC"
+          );
           foreach($all_timespan as $one_timespan) {
-            $one_range = [$one_timespan->start_year,$one_timespan->end_year,$one_timespan->id];
+            $start_month_name = $month_names[intval($one_timespan->start_month)];
+            $end_month_name = $month_names[intval($one_timespan->end_month)];
+            $one_range = [
+              $one_timespan->start_year,
+              $one_timespan->end_year,
+              $one_timespan->id,
+              // $one_timespan->start_month,
+              $start_month_name,
+              // $one_timespan->end_month,
+              $end_month_name,
+              $one_timespan->job,
+              $one_timespan->unit
+            ];
             $one_raw->all_range[] = $one_range;
           };
           $final_all_users[] = $one_raw;
@@ -67,7 +94,11 @@ class AdminController extends Controller
         ->insert([
           'start_year' => Request::input('start_year'),
           'end_year' => Request::input('end_year'),
-          'user_id' => Request::input('member_id')
+          'user_id' => Request::input('member_id'),
+          'start_month' => Request::input('start_month'),
+          'end_month' => Request::input('end_month'),
+          'job' => Request::input('new_job'),
+          'unit' => Request::input('new_unit')
         ]);
       return redirect('home/admin');
     }

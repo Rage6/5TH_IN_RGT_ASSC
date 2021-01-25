@@ -43,16 +43,16 @@ class AdminController extends Controller
             null,
             "JAN",
             "FEB",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "October",
-            "November",
-            "December"
+            "MAR",
+            "APR",
+            "MAY",
+            "JUN",
+            "JUL",
+            "AUG",
+            "SEP",
+            "OCT",
+            "NOV",
+            "DEC"
           );
           foreach($all_timespan as $one_timespan) {
             $start_month_name = $month_names[intval($one_timespan->start_month)];

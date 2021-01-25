@@ -144,6 +144,10 @@
   margin-bottom: 15px;
 }
 
+.oneInfo div {
+  padding: 5px 3%;
+}
+
 .infoTitle {
   margin-bottom: 5px;
   text-align: center;
@@ -159,10 +163,9 @@
   margin-right: 10px;
 }
 
-.oneTimeSpan div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.jobAndUnit {
+  overflow-x: scroll;
+  text-align: right;
 }
 
 .addTimeSpanBttn {

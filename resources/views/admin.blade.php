@@ -59,22 +59,35 @@
                     </div>
                     <div class="oneInfo">
                       <div class="infoTitle">Time In 5th RGT</div>
+                      @php
+                        $background = 'white';
+                      @endphp
                       @foreach ($one_user->all_range as $one_range)
-                        <form method="POST" action="admin/range/delete">
-                          @csrf
-                          <div
-                            class="oneTimeSpan"
-                            data-parent="{{ $one_user->id }}"
-                            data-start="{{ $one_range[0] }}"
-                            data-end="{{ $one_range[1] }}"
-                            data-timespan="{{ $one_range[2] }}">
-                            <button
-                              class="btn btn-danger"
-                              type="submit"
-                              name="delete_range">
-                              X
-                            </button>
-                            <div>
+                        @if ($background == 'white')
+                          <div style='background-color:{{$background}}'>
+                          @php
+                            $background = 'rgba(52,144,220,0.2)'
+                          @endphp
+                        @else
+                          <div style='background-color:{{ $background }}'>
+                            @php
+                              $background = 'white'
+                            @endphp
+                        @endif
+                          <form method="POST" action="admin/range/delete">
+                            @csrf
+                            <div
+                              class="oneTimeSpan"
+                              data-parent="{{ $one_user->id }}"
+                              data-start="{{ $one_range[0] }}"
+                              data-end="{{ $one_range[1] }}"
+                              data-timespan="{{ $one_range[2] }}">
+                              <button
+                                class="btn btn-danger"
+                                type="submit"
+                                name="delete_range">
+                                X
+                              </button>
                               <div>
                                 @if ($one_range[3] == null)
                                   {{ $one_range[0] }}
@@ -92,22 +105,22 @@
                                   Now
                                 @endif
                               </div>
+                              <input
+                                type="hidden"
+                                name="select_range"
+                                value="{{ $one_range[2] }}"/>
                             </div>
-                            <input
-                              type="hidden"
-                              name="select_range"
-                              value="{{ $one_range[2] }}"/>
-                          </div>
-                          <div>
-                            @if ($one_range[5] != null && $one_range[6] != null)
-                              {{ $one_range[5] }}, {{ $one_range[6] }}
-                            @elseif ($one_range[5] == null && $one_range[6] != null)
-                              {{ $one_range[6] }}
-                            @elseif ($one_range[5] != null && $one_range[6] == null)
-                              {{ $one_range[5] }} }}
-                            @endif
-                          </div>
-                        </form>
+                            <div class="jobAndUnit">
+                              @if ($one_range[5] != null && $one_range[6] != null)
+                                {{ $one_range[5] }}, {{ $one_range[6] }}
+                              @elseif ($one_range[5] == null && $one_range[6] != null)
+                                {{ $one_range[6] }}
+                              @elseif ($one_range[5] != null && $one_range[6] == null)
+                                {{ $one_range[5] }} }}
+                              @endif
+                            </div>
+                          </form>
+                        </div>
                       @endforeach
                       <div>
                         <div class="addTimeSpanBttn" data-addbttn="{{ $one_user->id }}">

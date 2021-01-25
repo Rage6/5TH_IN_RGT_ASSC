@@ -95,7 +95,7 @@
                                   {{ $one_range[3] }} {{ $one_range[0] }}
                                 @endif
                                  -
-                                @if ($one_range[1] != null)
+                                @if ($one_range[1] != 0)
                                   @if ($one_range[4] == null)
                                    {{ $one_range[1] }}
                                   @else
@@ -116,7 +116,7 @@
                               @elseif ($one_range[5] == null && $one_range[6] != null)
                                 {{ $one_range[6] }}
                               @elseif ($one_range[5] != null && $one_range[6] == null)
-                                {{ $one_range[5] }} }}
+                                {{ $one_range[5] }}
                               @endif
                             </div>
                           </form>
@@ -145,7 +145,7 @@
                                   grid-row-start:2;
                                   grid-column-start:1"
                                 name="start_month"/>
-                                <option selected value="null">Month (optional)</option>
+                                <option selected value="0">Month (optional)</option>
                                 <option value="1">January</option>
                                 <option value="2">February</option>
                                 <option value="3">March</option>
@@ -179,7 +179,7 @@
                                   grid-row-start:2;
                                   grid-column-start:2"
                                 name="end_month"/>
-                                <option value="null">Month (optional)</option>
+                                <option value="0">Month (optional)</option>
                                 <option value="1">January</option>
                                 <option value="2">February</option>
                                 <option value="3">March</option>

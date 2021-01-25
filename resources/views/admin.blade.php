@@ -74,11 +74,38 @@
                               name="delete_range">
                               X
                             </button>
-                            <div>{{ $one_range[0] }} - {{ $one_range[1] }}</div>
+                            <div>
+                              <div>
+                                @if ($one_range[3] == null)
+                                  {{ $one_range[0] }}
+                                @else
+                                  {{ $one_range[3] }} {{ $one_range[0] }}
+                                @endif
+                                 -
+                                @if ($one_range[1] != null)
+                                  @if ($one_range[4] == null)
+                                   {{ $one_range[1] }}
+                                  @else
+                                    {{ $one_range[4] }} {{ $one_range[1] }}
+                                  @endif
+                                @else
+                                  Now
+                                @endif
+                              </div>
+                            </div>
                             <input
                               type="hidden"
                               name="select_range"
                               value="{{ $one_range[2] }}"/>
+                          </div>
+                          <div>
+                            @if ($one_range[5] != null && $one_range[6] != null)
+                              {{ $one_range[5] }}, {{ $one_range[6] }}
+                            @elseif ($one_range[5] == null && $one_range[6] != null)
+                              {{ $one_range[6] }}
+                            @elseif ($one_range[5] != null && $one_range[6] == null)
+                              {{ $one_range[5] }} }}
+                            @endif
                           </div>
                         </form>
                       @endforeach

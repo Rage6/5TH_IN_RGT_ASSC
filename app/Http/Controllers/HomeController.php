@@ -46,7 +46,7 @@ class HomeController extends Controller
         $this_id = $this_user->id;
         $all_users = DB::table('users')
           ->join('timespan','users.id','timespan.user_id')
-          ->select('users.id','email','first_name','last_name','start_year','end_year')
+          ->select('users.id','email','first_name','last_name','start_year','end_year','start_month','end_month','job','unit')
           ->where([
             ['users.id','!=',$this_id],
             ['users.deceased','==','0']
@@ -60,12 +60,12 @@ class HomeController extends Controller
           for ($u = $next_raw_num; $u < count($all_users); $u++) {
             if ($one_raw->id == $all_users[$u]->id) {
               $isDuplicate = true;
-              $one_range = [$one_raw->start_year,$one_raw->end_year];
+              $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->start_month,$one_raw->end_month,$one_raw->job,$one_raw->unit];
               $all_users[$u]->all_range[] = $one_range;
             };
           };
           if ($isDuplicate == false) {
-            $one_range = [$one_raw->start_year,$one_raw->end_year];
+            $one_range = [$one_raw->start_year,$one_raw->end_year,$one_raw->start_month,$one_raw->end_month,$one_raw->job,$one_raw->unit];
             $one_raw->all_range[] = $one_range;
             $final_all_users[] = $one_raw;
           };

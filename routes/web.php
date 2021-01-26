@@ -31,6 +31,7 @@ Route::prefix('/home')->group(function() {
   Route::post('admin/member/add','AdminController@addMember');
   Route::post('admin/member/delete','AdminController@deleteMember');
   Route::post('admin/range/add','AdminController@addRange');
+  Route::post('admin/range/associate','AdminController@addAssociate');
   Route::post('admin/range/delete','AdminController@deleteRange');
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');

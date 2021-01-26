@@ -217,6 +217,23 @@
                               </button>
                             </div>
                             <div>
+                              - OR -
+                            </div>
+                            <div>
+                              <form method="POST" action="admin/range/add">
+                                @csrf
+                                <input
+                                  type="hidden"
+                                  name="member_id"
+                                  value="{{ $one_user->id }}" />
+                                <button
+                                  class="btn btn-success"
+                                  type="submit"
+                                  name="associate_member">
+                                  ASSOCIATE MEMBER
+                                </button>
+                            </div>
+                            <div>
                               NOTE: Leave the 'End Time' empty if the time span has not ended yet.
                             </div>
                           </form>

@@ -103,6 +103,15 @@ class AdminController extends Controller
       return redirect('home/admin');
     }
 
+    public function addAssociate(Request $request)
+    {
+      DB::table('timespan')
+        ->insert([
+          'user_id' => Request::input('assoc_id')
+        ]);
+      return redirect('home/admin');
+    }
+
     public function deleteRange(Request $request)
     {
       DB::table('timespan')

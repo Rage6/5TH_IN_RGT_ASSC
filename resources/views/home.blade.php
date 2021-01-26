@@ -109,38 +109,42 @@
                                     data-parent="{{ $one_user->id }}"
                                     data-start="{{ $one_range[0] }}"
                                     data-end="{{ $one_range[1] }}">
-                                      @php
-                                        $month_list = [
-                                          null,
-                                          "JAN",
-                                          "FEB",
-                                          "MAR",
-                                          "APR",
-                                          "MAY",
-                                          "JUN",
-                                          "JUL",
-                                          "AUG",
-                                          "SEP",
-                                          "OCT",
-                                          "NOV",
-                                          "DEC"
-                                        ];
-                                        if (isset($one_range[2])) {
-                                          echo($month_list[$one_range[2]]);
-                                        };
-                                      @endphp
-                                      {{ $one_range[0] }}
-                                      -
-                                      @php
-                                        if (isset($one_range[1])) {
-                                          if (isset($one_range[3])) {
-                                            echo($month_list[$one_range[3]]." ");
+                                      @if ($one_range[0] == null && $one_range[1] == null)
+                                        Associate Member
+                                      @else
+                                        @php
+                                          $month_list = [
+                                            null,
+                                            "JAN",
+                                            "FEB",
+                                            "MAR",
+                                            "APR",
+                                            "MAY",
+                                            "JUN",
+                                            "JUL",
+                                            "AUG",
+                                            "SEP",
+                                            "OCT",
+                                            "NOV",
+                                            "DEC"
+                                          ];
+                                          if (isset($one_range[2])) {
+                                            echo($month_list[$one_range[2]]);
                                           };
-                                          echo($one_range[1]);
-                                        } else {
-                                          echo("Now");
-                                        };
-                                      @endphp
+                                        @endphp
+                                        {{ $one_range[0] }}
+                                        -
+                                        @php
+                                          if (isset($one_range[1])) {
+                                            if (isset($one_range[3])) {
+                                              echo($month_list[$one_range[3]]." ");
+                                            };
+                                            echo($one_range[1]);
+                                          } else {
+                                            echo("Now");
+                                          };
+                                        @endphp
+                                      @endif
                                   </div>
                                   <div>
                                     @php

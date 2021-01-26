@@ -89,20 +89,24 @@
                                 X
                               </button>
                               <div>
-                                @if ($one_range[3] == null)
-                                  {{ $one_range[0] }}
+                                @if ($one_range[0] == null && $one_range[1] == null)
+                                  Associate Member
                                 @else
-                                  {{ $one_range[3] }} {{ $one_range[0] }}
-                                @endif
-                                 -
-                                @if ($one_range[1] != 0)
-                                  @if ($one_range[4] == null)
-                                   {{ $one_range[1] }}
+                                  @if ($one_range[3] == null)
+                                    {{ $one_range[0] }}
                                   @else
-                                    {{ $one_range[4] }} {{ $one_range[1] }}
+                                    {{ $one_range[3] }} {{ $one_range[0] }}
                                   @endif
-                                @else
-                                  Now
+                                   -
+                                  @if ($one_range[1] != 0)
+                                    @if ($one_range[4] == null)
+                                     {{ $one_range[1] }}
+                                    @else
+                                      {{ $one_range[4] }} {{ $one_range[1] }}
+                                    @endif
+                                  @else
+                                    Now
+                                  @endif
                                 @endif
                               </div>
                               <input
@@ -167,8 +171,7 @@
                                 min="1808"
                                 max="9999"
                                 name="start_year"
-                                placeholder="Year"
-                                required="required" />
+                                placeholder="Year" />
                               <div
                                 style="
                                   grid-row-start:1;
@@ -220,11 +223,11 @@
                               - OR -
                             </div>
                             <div>
-                              <form method="POST" action="admin/range/add">
+                              <form method="POST" action="admin/range/associate">
                                 @csrf
                                 <input
                                   type="hidden"
-                                  name="member_id"
+                                  name="assoc_id"
                                   value="{{ $one_user->id }}" />
                                 <button
                                   class="btn btn-success"

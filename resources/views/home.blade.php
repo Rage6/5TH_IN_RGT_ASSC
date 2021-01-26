@@ -101,7 +101,7 @@
                               data-user="{{ $one_user->id }}"
                               data-first="{{ strtolower($one_user->first_name) }}"
                               data-last="{{ strtolower($one_user->last_name) }}"
-                              style="display: flex; justify-content: space-between;">
+                              class="oneSearchResult">
                               <div>
                                 {{ $one_user->first_name }} {{ $one_user->last_name }}
                                 @foreach ($one_user->all_range as $one_range)

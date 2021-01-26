@@ -167,7 +167,8 @@
                                 min="1808"
                                 max="9999"
                                 name="start_year"
-                                placeholder="Year"/>
+                                placeholder="Year"
+                                required="required" />
                               <div
                                 style="
                                   grid-row-start:1;

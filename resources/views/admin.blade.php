@@ -9,7 +9,7 @@
                     {{ session('status') }}
                 </div>
             @endif
-            <div class="card">
+            <div class="card adminCard">
               <div class="card-header">
                 MEMBER LIST
               </div>
@@ -252,7 +252,7 @@
                           type="hidden"
                           name="deceased_id"
                           value="{{ $one_user->id }}" />
-                        <div>
+                        <div class="detailGrid">
                           <div>
                             Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
                           </div>
@@ -265,14 +265,17 @@
                               <option value="0" selected>NO</option>
                             @endif
                           </select>
-                        </div>
-                        <div>
                           <div>
-                            Is {{ $one_user->first_name }} {{ $one_user->last_name }} a recipient of the Medal of Honor? If so, connect them to the correct MoH recipient list below:
+                            If applicable, find {{ $one_user->first_name }} {{ $one_user->last_name }} as recipient of the Medal of Honor?
                           </div>
-                          <select name="mohList">
-                            <option value="null" selected>N/A</option>
-                          </select>
+                          <div>
+                            <select name="mohList">
+                              <option value="null" selected>N/A</option>
+                            </select>
+                          </div>
+                          <div class="detailNote">
+                             <u>NOTE</u>: In order to label a member as a Medal of Honor recipient, you must first enter their information into our MoH database. Then, select their name from the above dropbox.
+                          </div>
                         </div>
                         <button
                           class="btn btn-success"
@@ -312,12 +315,74 @@
                   </div>
                 </div>
               @endforeach
-              </div>
               <?php
               // echo("<pre>");
               //
               // echo("</pre>");
               ?>
+              </div>
+            </div>
+            <div class="card adminCard">
+              <div class="card-header">
+                MEDAL OF HONOR RECIPIENTS
+              </div>
+              <div class="card-body">
+                <div class="addMemberSection">
+                  <div class="addMemberBttn">
+                    <div>
+                      +
+                    </div>
+                  </div>
+                  <div class="addMemberInfo">
+                    <form method="POST" action="admin/recipient/add">
+                      @csrf
+                      <input
+                        type="text"
+                        name="first_name"
+                        required
+                        placeholder="First Name" />
+                      <input
+                        type="text"
+                        name="last_name"
+                        required
+                        placeholder="Last Name" />
+                      <input
+                        type="text"
+                        name="rank"
+                        required
+                        placeholder="Rank during event" />
+                      <input
+                        type="text"
+                        name="conflict"
+                        required
+                        placeholder="War, campaign, conflict, etc." />
+                      <input
+                        type="text"
+                        name="action_date"
+                        required
+                        placeholder="Date of action" />
+                      <input
+                        type="text"
+                        name="place"
+                        required
+                        placeholder="Location" />
+                      <textarea
+                        type="text"
+                        name="citation"
+                        rows="5"
+                        required
+                        placeholder="Official citation">
+                      </textarea>
+                      <label for="posthumous">Posthumous</label>
+                      <select id="posthumous" name="posthumous">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                      </select>
+                      <input type="submit" value="ENTER" />
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>

@@ -129,7 +129,7 @@ class AdminController extends Controller
           'last_name' => Request::input('last_name'),
           'email' => Request::input('email'),
           'password' => $randome_password,
-          'moh' => 0,
+          'moh' => 'test',
           'deceased' => 0,
           'admin' => 0
         ]);
@@ -152,6 +152,23 @@ class AdminController extends Controller
       DB::table('users')
         ->where('id','=',Request::input('deceased_id'))
         ->update(['deceased' => Request::input('is_deceased')]);
+      return redirect('home/admin');
+    }
+
+    public function addRecipient(Request $request)
+    {
+      DB::table('recipients')
+        ->insert([
+          'first_name' => Request::input('first_name'),
+          'last_name' => Request::input('last_name'),
+          'rank' => Request::input('rank'),
+          'conflict' => Request::input('conflict'),
+          'action_date' => Request::input('action_date'),
+          'place' => Request::input('place'),
+          'citation' => Request::input('citation'),
+          'posthumous' => Request::input('posthumous'),
+          'member_id' => null
+        ]);
       return redirect('home/admin');
     }
 

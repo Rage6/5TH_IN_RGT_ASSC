@@ -46,7 +46,7 @@ class HomeController extends Controller
         $this_id = $this_user->id;
         $all_users = DB::table('users')
           ->join('timespan','users.id','timespan.user_id')
-          ->select('users.id','email','first_name','last_name','start_year','end_year','start_month','end_month','job','unit')
+          ->select('users.id','email','first_name','last_name','start_year','end_year','start_month','end_month','job','unit','deceased')
           ->where([
             ['users.id','!=',$this_id],
             ['users.deceased','==','0']

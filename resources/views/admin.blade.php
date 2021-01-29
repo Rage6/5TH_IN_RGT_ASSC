@@ -219,29 +219,68 @@
                                 ENTER
                               </button>
                             </div>
-                            <div>
-                              - OR -
-                            </div>
-                            <div>
-                              <form method="POST" action="admin/range/associate">
-                                @csrf
-                                <input
-                                  type="hidden"
-                                  name="assoc_id"
-                                  value="{{ $one_user->id }}" />
-                                <button
-                                  class="btn btn-success"
-                                  type="submit"
-                                  name="associate_member">
-                                  ASSOCIATE MEMBER
-                                </button>
-                            </div>
-                            <div>
-                              NOTE: Leave the 'End Time' empty if the time span has not ended yet.
-                            </div>
                           </form>
+                          <div>
+                            - OR -
+                          </div>
+                          <div>
+                            <form method="POST" action="admin/range/associate">
+                              @csrf
+                              <input
+                                type="hidden"
+                                name="assoc_id"
+                                value="{{ $one_user->id }}" />
+                              <button
+                                class="btn btn-success"
+                                type="submit"
+                                name="associate_member">
+                                ASSOCIATE MEMBER
+                              </button>
+                            </form>
+                          </div>
+                          <div>
+                            NOTE: Leave the 'End Time' empty if the time span has not ended yet.
+                          </div>
                         </div>
                       </div>
+                    </div>
+                    <div class="oneInfo">
+                      <div class="infoTitle">Other Details</div>
+                      <form method="POST" action="admin/member/deceased">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="deceased_id"
+                          value="{{ $one_user->id }}" />
+                        <div>
+                          <div>
+                            Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
+                          </div>
+                          <select name="is_deceased">
+                            @if ($one_user->deceased == 1)
+                              <option value="1" selected>YES</option>
+                              <option value="0">NO</option>
+                            @else
+                              <option value="1">YES</option>
+                              <option value="0" selected>NO</option>
+                            @endif
+                          </select>
+                        </div>
+                        <div>
+                          <div>
+                            Is {{ $one_user->first_name }} {{ $one_user->last_name }} a recipient of the Medal of Honor? If so, connect them to the correct MoH recipient list below:
+                          </div>
+                          <select name="mohList">
+                            <option value="null" selected>N/A</option>
+                          </select>
+                        </div>
+                        <button
+                          class="btn btn-success"
+                          type="submit"
+                          name="other_details">
+                          CHANGE
+                        </button>
+                      </form>
                     </div>
                     </br>
                     </br>

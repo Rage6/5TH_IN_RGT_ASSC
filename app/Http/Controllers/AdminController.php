@@ -27,7 +27,7 @@ class AdminController extends Controller
       $this_user = Auth::user();
       if ($this_user->admin == 1) {
         $all_users = DB::table('users')
-          -> select('id','email','first_name','last_name')
+          -> select('id','email','first_name','last_name','deceased','moh')
           ->orderBy('last_name','asc')
           ->get();
         $final_all_users = [];
@@ -144,6 +144,14 @@ class AdminController extends Controller
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->delete();
+      return redirect('home/admin');
+    }
+
+    public function deceasedMember(Request $request)
+    {
+      DB::table('users')
+        ->where('id','=',Request::input('deceased_id'))
+        ->update(['deceased' => Request::input('is_deceased')]);
       return redirect('home/admin');
     }
 

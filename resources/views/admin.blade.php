@@ -14,12 +14,12 @@
                 MEMBER LIST
               </div>
               <div class="addMemberSection">
-                <div class="addMemberBttn">
+                <div class="addMemberBttn" data-addbttn="member">
                   <div>
                     +
                   </div>
                 </div>
-                <div class="addMemberInfo">
+                <div class="addMemberInfo" data-addbox="member">
                   <form method="POST" action="admin/member/add">
                     @csrf
                     <input
@@ -356,12 +356,12 @@
               </div>
               <div class="card-body">
                 <div class="addMemberSection">
-                  <div class="addMemberBttn">
+                  <div class="addMemberBttn" data-addbttn="recipient">
                     <div>
                       +
                     </div>
                   </div>
-                  <div class="addMemberInfo">
+                  <div class="addMemberInfo" data-addbox="recipient">
                     <form method="POST" action="admin/recipient/add">
                       @csrf
                       <input

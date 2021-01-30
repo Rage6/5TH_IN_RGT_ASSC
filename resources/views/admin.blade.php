@@ -246,37 +246,65 @@
                     </div>
                     <div class="oneInfo">
                       <div class="infoTitle">Other Details</div>
-                      <form method="POST" action="admin/member/deceased">
+                      <form method="POST" action="admin/member/details">
                         @csrf
                         <input
                           type="hidden"
-                          name="deceased_id"
+                          name="member_id"
                           value="{{ $one_user->id }}" />
                         <div class="detailGrid">
                           <div>
                             Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
                           </div>
-                          <select name="is_deceased">
-                            @if ($one_user->deceased == 1)
-                              <option value="1" selected>YES</option>
-                              <option value="0">NO</option>
-                            @else
-                              <option value="1">YES</option>
-                              <option value="0" selected>NO</option>
-                            @endif
-                          </select>
                           <div>
-                            If applicable, find {{ $one_user->first_name }} {{ $one_user->last_name }} as recipient of the Medal of Honor?
-                          </div>
-                          <div>
-                            <select name="mohList">
-                              <option value="null" selected>N/A</option>
+                            <select name="is_deceased">
+                              @if ($one_user->deceased == 1)
+                                <option value="1" selected>YES</option>
+                                <option value="0">NO</option>
+                              @else
+                                <option value="1">YES</option>
+                                <option value="0" selected>NO</option>
+                              @endif
                             </select>
                           </div>
-                          <div class="detailNote">
-                             <u>NOTE</u>: In order to label a member as a Medal of Honor recipient, you must first enter their information into our MoH database. Then, select their name from the above dropbox.
-                          </div>
                         </div>
+                        <div>
+                          If {{ $one_user->first_name }} {{ $one_user->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
+                        </div>
+                        <div>
+                          @php
+                            $current_member_id = null;
+                            foreach ($all_recipients as $one_recipient) {
+                              if ($one_recipient->member_id == $one_user->id) {
+                                $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
+                                $current_member_id = $one_recipient->member_id;
+                              };
+                            };
+                          @endphp
+                          <select class="detailMOH" name="recipient_id">
+                            @if ($current_member_id == null)
+                              <option value="null" selected>
+                                N/A
+                              </option>
+                            @else
+                              <option value="{{ $current_member_id }}" selected>
+                                {{ $current_recipient_name }}
+                              </option>
+                              <option value="null">N/A</option>
+                            @endif
+                            @foreach ($all_recipients as $one_recipient)
+                              @if ($one_recipient->member_id != $one_user->id)
+                                <option value="{{ $one_recipient->id }}">
+                                  {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                </option>
+                              @endif
+                            @endforeach
+                          </select>
+                        </div>
+                        <div class="detailNote">
+                           <u>NOTE</u>: A member cannot be labeled as a CMOH recipient until they are entered into our CMOH table. This can be done in the "Medal of Honor Recipients" box below.
+                        </div>
+                        <!-- </div> -->
                         <button
                           class="btn btn-success"
                           type="submit"
@@ -381,6 +409,22 @@
                       <input type="submit" value="ENTER" />
                     </form>
                   </div>
+                </div>
+                <div class="allRecipientCard">
+                  @foreach ($all_recipients as $one_recipient)
+                    <form method="POST" action="admin/recipient/delete">
+                      @csrf
+                      <div class="oneRecipient">
+                        <input type="hidden" name="recip_id" value="{{ $one_recipient->id }}">
+                        <div>
+                          {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                        </div>
+                        <button class="btn btn-danger" type="submit">
+                          X
+                        </button>
+                      </div>
+                    </form>
+                  @endforeach
                 </div>
               </div>
             </div>

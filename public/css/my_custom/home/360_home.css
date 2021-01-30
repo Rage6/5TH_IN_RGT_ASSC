@@ -141,10 +141,9 @@
 }
 
 .allMembersCard {
-  height: 500px;
+  height: 300px;
   overflow-y: scroll;
 }
-
 
 .oneMemberCard {
   margin-bottom: 10px;
@@ -215,6 +214,10 @@
   grid-column-gap: 5%;
 }
 
+.detailMOH {
+  width: 100%;
+}
+
 .detailNote {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -245,6 +248,18 @@
 
 .deleteMemberBox div {
   margin-top: 10px
+}
+
+.allRecipientCard {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.oneRecipient {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 75% 20%;
+  grid-column-gap: 5%;
 }
 
 /* END Administration page */

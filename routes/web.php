@@ -26,13 +26,24 @@ Route::prefix('/home')->group(function() {
   Route::get('message/{id}', 'MessageController@index')->name('message');
   Route::post('message/{id}', 'MessageController@post');
   Route::get('edit', 'EditController@index')->name('edit');
-  Route::get('admin','AdminController@index')->name('admin');
-  Route::post('admin/email','AdminController@changeEmail');
-  Route::post('admin/member/add','AdminController@addMember');
-  Route::post('admin/member/delete','AdminController@deleteMember');
-  Route::post('admin/range/add','AdminController@addRange');
-  Route::post('admin/range/associate','AdminController@addAssociate');
-  Route::post('admin/range/delete','AdminController@deleteRange');
+  Route::prefix('/admin')->group(function() {
+    Route::get('','AdminController@index')->name('admin');
+    Route::post('/email','AdminController@changeEmail');
+    Route::prefix('/member')->group(function() {
+      Route::post('/add','AdminController@addMember');
+      Route::post('/delete','AdminController@deleteMember');
+      Route::post('/details','AdminController@changeDetails');
+    });
+    Route::prefix('/recipient')->group(function() {
+      Route::post('/add','AdminController@addRecipient');
+      Route::post('/delete','AdminController@deleteRecipient');
+    });
+    Route::prefix('/range')->group(function () {
+      Route::post('/add','AdminController@addRange');
+      Route::post('/associate','AdminController@addAssociate');
+      Route::post('/delete','AdminController@deleteRange');
+    });
+  });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
     Route::get('profile','ProfileController@index')->name('profile');

@@ -88,6 +88,11 @@
 /* END Edit page */
 
 /* START Administration page */
+
+.adminCard {
+  margin-bottom: 10px;
+}
+
 .addMemberSection {
   padding: 1.25rem;
 }
@@ -130,11 +135,15 @@
   background-color: #38c172;
 }
 
-.allMembersCard {
-  height: 500px;
-  overflow-y: scroll;
+.addMemberInfo textarea {
+  margin: 20px 0;
+  width: 100%;
 }
 
+.allMembersCard {
+  height: 300px;
+  overflow-y: scroll;
+}
 
 .oneMemberCard {
   margin-bottom: 10px;
@@ -199,6 +208,22 @@
   text-align: center;
 }
 
+.detailGrid {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  grid-column-gap: 5%;
+}
+
+.detailMOH {
+  width: 100%;
+}
+
+.detailNote {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
 .centerAddBttn {
   margin: 15px 0;
   display: flex;
@@ -223,6 +248,18 @@
 
 .deleteMemberBox div {
   margin-top: 10px
+}
+
+.allRecipientCard {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.oneRecipient {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 75% 20%;
+  grid-column-gap: 5%;
 }
 
 /* END Administration page */

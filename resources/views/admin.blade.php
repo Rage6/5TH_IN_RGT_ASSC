@@ -9,17 +9,17 @@
                     {{ session('status') }}
                 </div>
             @endif
-            <div class="card">
+            <div class="card adminCard">
               <div class="card-header">
                 MEMBER LIST
               </div>
               <div class="addMemberSection">
-                <div class="addMemberBttn">
+                <div class="addMemberBttn" data-addbttn="member">
                   <div>
                     +
                   </div>
                 </div>
-                <div class="addMemberInfo">
+                <div class="addMemberInfo" data-addbox="member">
                   <form method="POST" action="admin/member/add">
                     @csrf
                     <input
@@ -219,29 +219,99 @@
                                 ENTER
                               </button>
                             </div>
-                            <div>
-                              - OR -
-                            </div>
-                            <div>
-                              <form method="POST" action="admin/range/associate">
-                                @csrf
-                                <input
-                                  type="hidden"
-                                  name="assoc_id"
-                                  value="{{ $one_user->id }}" />
-                                <button
-                                  class="btn btn-success"
-                                  type="submit"
-                                  name="associate_member">
-                                  ASSOCIATE MEMBER
-                                </button>
-                            </div>
-                            <div>
-                              NOTE: Leave the 'End Time' empty if the time span has not ended yet.
-                            </div>
                           </form>
+                          <div>
+                            - OR -
+                          </div>
+                          <div>
+                            <form method="POST" action="admin/range/associate">
+                              @csrf
+                              <input
+                                type="hidden"
+                                name="assoc_id"
+                                value="{{ $one_user->id }}" />
+                              <button
+                                class="btn btn-success"
+                                type="submit"
+                                name="associate_member">
+                                ASSOCIATE MEMBER
+                              </button>
+                            </form>
+                          </div>
+                          <div>
+                            NOTE: Leave the 'End Time' empty if the time span has not ended yet.
+                          </div>
                         </div>
                       </div>
+                    </div>
+                    <div class="oneInfo">
+                      <div class="infoTitle">Other Details</div>
+                      <form method="POST" action="admin/member/details">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="member_id"
+                          value="{{ $one_user->id }}" />
+                        <div class="detailGrid">
+                          <div>
+                            Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
+                          </div>
+                          <div>
+                            <select name="is_deceased">
+                              @if ($one_user->deceased == 1)
+                                <option value="1" selected>YES</option>
+                                <option value="0">NO</option>
+                              @else
+                                <option value="1">YES</option>
+                                <option value="0" selected>NO</option>
+                              @endif
+                            </select>
+                          </div>
+                        </div>
+                        <div>
+                          If {{ $one_user->first_name }} {{ $one_user->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
+                        </div>
+                        <div>
+                          @php
+                            $current_member_id = null;
+                            foreach ($all_recipients as $one_recipient) {
+                              if ($one_recipient->member_id == $one_user->id) {
+                                $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
+                                $current_member_id = $one_recipient->member_id;
+                              };
+                            };
+                          @endphp
+                          <select class="detailMOH" name="recipient_id">
+                            @if ($current_member_id == null)
+                              <option value="null" selected>
+                                N/A
+                              </option>
+                            @else
+                              <option value="{{ $current_member_id }}" selected>
+                                {{ $current_recipient_name }}
+                              </option>
+                              <option value="null">N/A</option>
+                            @endif
+                            @foreach ($all_recipients as $one_recipient)
+                              @if ($one_recipient->member_id != $one_user->id)
+                                <option value="{{ $one_recipient->id }}">
+                                  {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                </option>
+                              @endif
+                            @endforeach
+                          </select>
+                        </div>
+                        <div class="detailNote">
+                           <u>NOTE</u>: A member cannot be labeled as a CMOH recipient until they are entered into our CMOH table. This can be done in the "Medal of Honor Recipients" box below.
+                        </div>
+                        <!-- </div> -->
+                        <button
+                          class="btn btn-success"
+                          type="submit"
+                          name="other_details">
+                          CHANGE
+                        </button>
+                      </form>
                     </div>
                     </br>
                     </br>
@@ -273,12 +343,90 @@
                   </div>
                 </div>
               @endforeach
-              </div>
               <?php
               // echo("<pre>");
               //
               // echo("</pre>");
               ?>
+              </div>
+            </div>
+            <div class="card adminCard">
+              <div class="card-header">
+                MEDAL OF HONOR RECIPIENTS
+              </div>
+              <div class="card-body">
+                <div class="addMemberSection">
+                  <div class="addMemberBttn" data-addbttn="recipient">
+                    <div>
+                      +
+                    </div>
+                  </div>
+                  <div class="addMemberInfo" data-addbox="recipient">
+                    <form method="POST" action="admin/recipient/add">
+                      @csrf
+                      <input
+                        type="text"
+                        name="first_name"
+                        required
+                        placeholder="First Name" />
+                      <input
+                        type="text"
+                        name="last_name"
+                        required
+                        placeholder="Last Name" />
+                      <input
+                        type="text"
+                        name="rank"
+                        required
+                        placeholder="Rank during event" />
+                      <input
+                        type="text"
+                        name="conflict"
+                        required
+                        placeholder="War, campaign, conflict, etc." />
+                      <input
+                        type="text"
+                        name="action_date"
+                        required
+                        placeholder="Date of action" />
+                      <input
+                        type="text"
+                        name="place"
+                        required
+                        placeholder="Location" />
+                      <textarea
+                        type="text"
+                        name="citation"
+                        rows="5"
+                        required
+                        placeholder="Official citation">
+                      </textarea>
+                      <label for="posthumous">Posthumous</label>
+                      <select id="posthumous" name="posthumous">
+                        <option value="1">YES</option>
+                        <option value="0">NO</option>
+                      </select>
+                      <input type="submit" value="ENTER" />
+                    </form>
+                  </div>
+                </div>
+                <div class="allRecipientCard">
+                  @foreach ($all_recipients as $one_recipient)
+                    <form method="POST" action="admin/recipient/delete">
+                      @csrf
+                      <div class="oneRecipient">
+                        <input type="hidden" name="recip_id" value="{{ $one_recipient->id }}">
+                        <div>
+                          {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                        </div>
+                        <button class="btn btn-danger" type="submit">
+                          X
+                        </button>
+                      </div>
+                    </form>
+                  @endforeach
+                </div>
+              </div>
             </div>
         </div>
     </div>

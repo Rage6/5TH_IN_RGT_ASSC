@@ -202,6 +202,24 @@ class AdminController extends Controller
       return redirect('home/admin');
     }
 
+    public function addCasualty(Request $request)
+    {
+      DB::table('casualties')
+        ->insert([
+          'first_name' => Request::input('first_name'),
+          'last_name' => Request::input('last_name'),
+          'rank' => Request::input('rank'),
+          'conflict' => Request::input('conflict'),
+          'date_of_death' => Request::input('date_of_death'),
+          'place' => Request::input('place'),
+          'injury_type' => Request::input('injury_type'),
+          'city' => Request::input('city'),
+          'state' => Request::input('state'),
+          'burial_site' => Request::input('burial_site')
+        ]);
+      return redirect('home/admin');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

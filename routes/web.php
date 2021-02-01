@@ -43,6 +43,9 @@ Route::prefix('/home')->group(function() {
       Route::post('/associate','AdminController@addAssociate');
       Route::post('/delete','AdminController@deleteRange');
     });
+    Route::prefix('/casualty')->group(function () {
+      Route::post('/add','AdminController@addCasualty');
+    });
   });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');

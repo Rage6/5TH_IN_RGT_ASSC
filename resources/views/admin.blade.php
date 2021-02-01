@@ -428,6 +428,68 @@
                 </div>
               </div>
             </div>
+            <div class="card adminCard">
+              <div class="card-header">
+                CASUALTY LIST
+              </div>
+              <div class="addMemberSection">
+                <div class="addMemberBttn" data-addbttn="casualty">
+                  <div>
+                    +
+                  </div>
+                </div>
+                <div class="addMemberInfo" data-addbox="casualty">
+                  <form method="POST" action="admin/casualty/add">
+                    @csrf
+                    <input
+                      type="text"
+                      name="first_name"
+                      required
+                      placeholder="First Name" />
+                    <input
+                      type="text"
+                      name="last_name"
+                      required
+                      placeholder="Last Name" />
+                    <input
+                      type="text"
+                      name="rank"
+                      placeholder="Rank" />
+                    <input
+                      type="text"
+                      name="conflict"
+                      required
+                      placeholder="War, campaign, or conflict" />
+                    <input
+                      type="text"
+                      name="date_of_death"
+                      required
+                      placeholder="Date of death" />
+                    <input
+                      type="text"
+                      name="place"
+                      placeholder="Location of injury" />
+                    <input
+                      type="text"
+                      name="injury_type"
+                      placeholder="Type of injury" />
+                    <input
+                      type="text"
+                      name="city"
+                      placeholder="City of origin" />
+                    <input
+                      type="text"
+                      name="state"
+                      placeholder="State/Territory of origin" />
+                    <input
+                      type="text"
+                      name="burial_site"
+                      placeholder="Burial site" />
+                    <input type="submit" value="ENTER" />
+                  </form>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
 </div>

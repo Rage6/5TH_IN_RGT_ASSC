@@ -304,6 +304,42 @@
                         <div class="detailNote">
                            <u>NOTE</u>: A member cannot be labeled as a CMOH recipient until they are entered into our CMOH table. This can be done in the "Medal of Honor Recipients" box below.
                         </div>
+                        <div>
+                          Was {{ $one_user->first_name }} {{ $one_user->last_name }} killed in action (KIA)?
+                        </div>
+                        <div>
+                          @php
+                            $this_member_id = null;
+                            foreach ($all_casualties as $one_casualty) {
+                              if ($one_casualty->member_id == $one_user->id) {
+                                $current_casualty_name = $one_casualty->last_name.", ".$one_casualty->first_name;
+                                $this_member_id = $one_casualty->member_id;
+                              };
+                            };
+                          @endphp
+                          <select class="detailMOH" name="casualty_id">
+                            @if ($this_member_id == null)
+                              <option value="null" selected>
+                                N/A
+                              </option>
+                            @else
+                              <option value="{{ $this_member_id }}" selected>
+                                {{ $current_casualty_name }}
+                              </option>
+                              <option value="null">N/A</option>
+                            @endif
+                            @foreach ($all_casualties as $one_casualty)
+                              @if ($one_casualty->member_id != $one_user->id)
+                                <option value="{{ $one_casualty->id }}">
+                                  {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                                </option>
+                              @endif
+                            @endforeach
+                          </select>
+                        </div>
+                        <div class="detailNote">
+                           <u>NOTE</u>: A member cannot be labeled as KIA until they are entered into our Casualty records. This can be done in the "Casualty List" box below.
+                        </div>
                         <!-- </div> -->
                         <button
                           class="btn btn-success"
@@ -487,6 +523,22 @@
                       placeholder="Burial site" />
                     <input type="submit" value="ENTER" />
                   </form>
+                </div>
+                <div class="allRecipientCard">
+                  @foreach ($all_casualties as $one_casualty)
+                    <form method="POST" action="admin/casualty/delete">
+                      @csrf
+                      <div class="oneRecipient">
+                        <input type="hidden" name="cas_id" value="{{ $one_casualty->id }}">
+                        <div>
+                          {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                        </div>
+                        <button class="btn btn-danger" type="submit">
+                          X
+                        </button>
+                      </div>
+                    </form>
+                  @endforeach
                 </div>
               </div>
             </div>

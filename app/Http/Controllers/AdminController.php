@@ -27,7 +27,7 @@ class AdminController extends Controller
       $this_user = Auth::user();
       if ($this_user->admin == 1) {
         $all_users = DB::table('users')
-          ->select('id','email','first_name','last_name','deceased','moh')
+          ->select('id','email','first_name','last_name','deceased')
           ->orderBy('last_name','asc')
           ->get();
         $final_all_users = [];
@@ -77,8 +77,14 @@ class AdminController extends Controller
         $all_recipients = DB::table('recipients')
           ->select('id','first_name','last_name','member_id')
           ->orderBy('last_name','asc')
+          ->orderBy('first_name','asc')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients'));
+        $all_casualties = DB::table('casualties')
+          ->select('id','first_name','last_name','member_id')
+          ->orderBy('last_name','asc')
+          ->orderBy('first_name','asc')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties'));
       } else {
         return redirect('/');
       };
@@ -158,24 +164,45 @@ class AdminController extends Controller
           'deceased' => Request::input('is_deceased')
         ]);
       DB::table('recipients')
-        ->where('member_id','=',Request::input('member_id'))
+        ->where('recipients.id','=',Request::input('recipient_id'))
+        // ->where('recipients.id','=',3)
         ->update([
-          'member_id' => null
+          'recipients.member_id' => NULL
         ]);
       if (Request::input('recipient_id') != "null") {
         DB::table('recipients')
-          ->where('id','=',Request::input('recipient_id'))
+          ->where('recipients.id','=',Request::input('recipient_id'))
           ->update([
-            'member_id' => Request::input('member_id')
+            'recipients.member_id' => Request::input('member_id')
           ]);
       } else {
         DB::table('recipients')
-          ->where('id','=',Request::input('recipient_id'))
+          ->where('recipients.id','=',Request::input('recipient_id'))
           ->update([
-            'member_id' => NULL
+            'recipients.member_id' => null
           ]);
       };
-      return redirect('home/admin');
+      DB::table('casualties')
+        ->where('id','=',Request::input('casualty_id'))
+        // ->where('id','=',1)
+        ->update([
+          'member_id' => NULL
+        ]);
+      if (Request::input('casualty_id') != "null") {
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.member_id' => Request::input('member_id')
+          ]);
+      } else {
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.member_id' => null
+          ]);
+      };
+      // return redirect('home/admin');
+      return redirect('home/admin?recipient_id='.Request::input('recipient_id').'+casualy_id='.Request::input('casualty_id'));
     }
 
     public function addRecipient(Request $request)
@@ -217,6 +244,14 @@ class AdminController extends Controller
           'state' => Request::input('state'),
           'burial_site' => Request::input('burial_site')
         ]);
+      return redirect('home/admin');
+    }
+
+    public function deleteCasualty(Request $request)
+    {
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->delete();
       return redirect('home/admin');
     }
 

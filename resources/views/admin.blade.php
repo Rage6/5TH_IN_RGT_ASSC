@@ -37,7 +37,7 @@
                       name="email"
                       required
                       placeholder="Email Address" />
-                    <input type="submit" value="ENTER" />
+                    <input class="addSubmitBttn" type="submit" value="ENTER" />
                   </form>
                 </div>
               </div>
@@ -304,6 +304,42 @@
                         <div class="detailNote">
                            <u>NOTE</u>: A member cannot be labeled as a CMOH recipient until they are entered into our CMOH table. This can be done in the "Medal of Honor Recipients" box below.
                         </div>
+                        <div>
+                          Was {{ $one_user->first_name }} {{ $one_user->last_name }} killed in action (KIA)?
+                        </div>
+                        <div>
+                          @php
+                            $this_member_id = null;
+                            foreach ($all_casualties as $one_casualty) {
+                              if ($one_casualty->member_id == $one_user->id) {
+                                $current_casualty_name = $one_casualty->last_name.", ".$one_casualty->first_name;
+                                $this_member_id = $one_casualty->member_id;
+                              };
+                            };
+                          @endphp
+                          <select class="detailMOH" name="casualty_id">
+                            @if ($this_member_id == null)
+                              <option value="null" selected>
+                                N/A
+                              </option>
+                            @else
+                              <option value="{{ $this_member_id }}" selected>
+                                {{ $current_casualty_name }}
+                              </option>
+                              <option value="null">N/A</option>
+                            @endif
+                            @foreach ($all_casualties as $one_casualty)
+                              @if ($one_casualty->member_id != $one_user->id)
+                                <option value="{{ $one_casualty->id }}">
+                                  {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                                </option>
+                              @endif
+                            @endforeach
+                          </select>
+                        </div>
+                        <div class="detailNote">
+                           <u>NOTE</u>: A member cannot be labeled as KIA until they are entered into our Casualty records. This can be done in the "Casualty List" box below.
+                        </div>
                         <!-- </div> -->
                         <button
                           class="btn btn-success"
@@ -406,7 +442,7 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
-                      <input type="submit" value="ENTER" />
+                      <input class="addSubmitBttn" type="submit" value="ENTER" />
                     </form>
                   </div>
                 </div>
@@ -418,6 +454,117 @@
                         <input type="hidden" name="recip_id" value="{{ $one_recipient->id }}">
                         <div>
                           {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                        </div>
+                        <button class="btn btn-danger" type="submit">
+                          X
+                        </button>
+                      </div>
+                    </form>
+                  @endforeach
+                </div>
+              </div>
+            </div>
+            <div class="card adminCard">
+              <div class="card-header">
+                CASUALTY LIST
+              </div>
+              <div class="card-body">
+                <div class="addMemberSection">
+                <div class="addMemberBttn" data-addbttn="casualty">
+                  <div>
+                    +
+                  </div>
+                </div>
+                <div class="addMemberInfo" data-addbox="casualty">
+                  <form method="POST" action="admin/casualty/add">
+                    @csrf
+                    <input
+                      type="text"
+                      name="first_name"
+                      required
+                      placeholder="First Name" />
+                    <input
+                      type="text"
+                      name="middle_name"
+                      required
+                      placeholder="Middle Name or Initial" />
+                    <input
+                      type="text"
+                      name="last_name"
+                      required
+                      placeholder="Last Name" />
+                    <input
+                      type="text"
+                      name="rank"
+                      placeholder="Rank" />
+                    <input
+                      type="text"
+                      name="conflict"
+                      required
+                      placeholder="War, campaign, or conflict" />
+                    <div class="dateDeathTitle">
+                      DATE OF DEATH
+                    </div>
+                    <div class="dateDeath">
+                      <input
+                        type="number"
+                        min="1"
+                        max="12"
+                        name="month_of_death"
+                        required
+                        placeholder="MM" />
+                      <input
+                        type="number"
+                        min="1"
+                        max="31"
+                        name="day_of_death"
+                        required
+                        placeholder="DD" />
+                      <input
+                        type="text"
+                        name="year_of_death"
+                        min="1800"
+                        required
+                        placeholder="YYYY" />
+                    </div>
+                    <input
+                      type="text"
+                      name="place"
+                      placeholder="Location of injury" />
+                    <input
+                      type="text"
+                      name="injury_type"
+                      placeholder="Type of injury" />
+                    <input
+                      type="text"
+                      name="city"
+                      placeholder="City of origin" />
+                    <input
+                      type="text"
+                      name="state"
+                      placeholder="State/Territory of origin" />
+                    <input
+                      type="text"
+                      name="burial_site"
+                      placeholder="Burial site" />
+                    <textarea
+                      type="text"
+                      name="comments"
+                      rows="5"
+                      placeholder="Notes, comments, or descriptions">
+                    </textarea>
+                    <input class="addSubmitBttn" type="submit" value="ENTER" />
+                  </form>
+                </div>
+                </div>
+                <div class="allRecipientCard">
+                  @foreach ($all_casualties as $one_casualty)
+                    <form method="POST" action="admin/casualty/delete">
+                      @csrf
+                      <div class="oneRecipient">
+                        <input type="hidden" name="cas_id" value="{{ $one_casualty->id }}">
+                        <div>
+                          {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
                         </div>
                         <button class="btn btn-danger" type="submit">
                           X

@@ -27,7 +27,7 @@ class AdminController extends Controller
       $this_user = Auth::user();
       if ($this_user->admin == 1) {
         $all_users = DB::table('users')
-          ->select('id','email','first_name','last_name','deceased','moh')
+          ->select('id','email','first_name','last_name','deceased')
           ->orderBy('last_name','asc')
           ->get();
         $final_all_users = [];
@@ -77,8 +77,14 @@ class AdminController extends Controller
         $all_recipients = DB::table('recipients')
           ->select('id','first_name','last_name','member_id')
           ->orderBy('last_name','asc')
+          ->orderBy('first_name','asc')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients'));
+        $all_casualties = DB::table('casualties')
+          ->select('id','first_name','last_name','member_id')
+          ->orderBy('last_name','asc')
+          ->orderBy('first_name','asc')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties'));
       } else {
         return redirect('/');
       };
@@ -158,21 +164,39 @@ class AdminController extends Controller
           'deceased' => Request::input('is_deceased')
         ]);
       DB::table('recipients')
-        ->where('member_id','=',Request::input('member_id'))
+        ->where('recipients.member_id','=',Request::input('member_id'))
         ->update([
-          'member_id' => null
+          'recipients.member_id' => NULL
         ]);
       if (Request::input('recipient_id') != "null") {
         DB::table('recipients')
-          ->where('id','=',Request::input('recipient_id'))
+          ->where('recipients.id','=',Request::input('recipient_id'))
           ->update([
-            'member_id' => Request::input('member_id')
+            'recipients.member_id' => Request::input('member_id')
           ]);
       } else {
         DB::table('recipients')
-          ->where('id','=',Request::input('recipient_id'))
+          ->where('recipients.member_id','=',Request::input('recipient_id'))
           ->update([
-            'member_id' => NULL
+            'recipients.member_id' => NULL
+          ]);
+      };
+      DB::table('casualties')
+        ->where('casualties.member_id','=',Request::input('member_id'))
+        ->update([
+          'casualties.member_id' => NULL
+        ]);
+      if (Request::input('casualty_id') != "null") {
+        DB::table('casualties')
+          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.member_id' => Request::input('member_id')
+          ]);
+      } else {
+        DB::table('casualties')
+          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.member_id' => null
           ]);
       };
       return redirect('home/admin');
@@ -198,6 +222,36 @@ class AdminController extends Controller
     {
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
+        ->delete();
+      return redirect('home/admin');
+    }
+
+    public function addCasualty(Request $request)
+    {
+      DB::table('casualties')
+        ->insert([
+          'first_name' => Request::input('first_name'),
+          'middle_name' => Request::input('middle_name'),
+          'last_name' => Request::input('last_name'),
+          'rank' => Request::input('rank'),
+          'conflict' => Request::input('conflict'),
+          'day_of_death' => Request::input('day_of_death'),
+          'month_of_death' => Request::input('month_of_death'),
+          'year_of_death' => Request::input('year_of_death'),
+          'place' => Request::input('place'),
+          'injury_type' => Request::input('injury_type'),
+          'city' => Request::input('city'),
+          'state' => Request::input('state'),
+          'burial_site' => Request::input('burial_site'),
+          'comments' => Request::input('comments')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function deleteCasualty(Request $request)
+    {
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
         ->delete();
       return redirect('home/admin');
     }

@@ -121,7 +121,6 @@
 
 .addMemberInfo div {
   text-align: center;
-  background-color: #38c172;
 }
 
 .addMemberInfo input {
@@ -129,7 +128,7 @@
   width: 100%;
 }
 
-.addMemberInfo input:last-child {
+.addSubmitBttn {
   color: white;
   text-align: center;
   background-color: #38c172;
@@ -260,6 +259,19 @@
   display: grid;
   grid-template-columns: 75% 20%;
   grid-column-gap: 5%;
+}
+.dateDeathTitle {
+  margin-top: 20px;
+}
+.dateDeath {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateDeath input {
+  margin-top: 0;
+  text-align: center;
+  width: 30%;
 }
 
 /* END Administration page */

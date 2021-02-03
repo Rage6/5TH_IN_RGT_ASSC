@@ -69,4 +69,9 @@ $(document).ready(() => {
     addBttnTool('recipient');
   });
 
+  $("[data-addbttn='casualty']").click(()=>{
+    console.log("The casualty click worked");
+    addBttnTool('casualty');
+  });
+
 });

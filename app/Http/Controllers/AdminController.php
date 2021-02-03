@@ -164,8 +164,7 @@ class AdminController extends Controller
           'deceased' => Request::input('is_deceased')
         ]);
       DB::table('recipients')
-        ->where('recipients.id','=',Request::input('recipient_id'))
-        // ->where('recipients.id','=',3)
+        ->where('recipients.member_id','=',Request::input('member_id'))
         ->update([
           'recipients.member_id' => NULL
         ]);
@@ -177,32 +176,30 @@ class AdminController extends Controller
           ]);
       } else {
         DB::table('recipients')
-          ->where('recipients.id','=',Request::input('recipient_id'))
+          ->where('recipients.member_id','=',Request::input('recipient_id'))
           ->update([
-            'recipients.member_id' => null
+            'recipients.member_id' => NULL
           ]);
       };
       DB::table('casualties')
-        ->where('id','=',Request::input('casualty_id'))
-        // ->where('id','=',1)
+        ->where('casualties.member_id','=',Request::input('member_id'))
         ->update([
-          'member_id' => NULL
+          'casualties.member_id' => NULL
         ]);
       if (Request::input('casualty_id') != "null") {
         DB::table('casualties')
-          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('casualty_id'))
           ->update([
             'casualties.member_id' => Request::input('member_id')
           ]);
       } else {
         DB::table('casualties')
-          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('casualty_id'))
           ->update([
             'casualties.member_id' => null
           ]);
       };
-      // return redirect('home/admin');
-      return redirect('home/admin?recipient_id='.Request::input('recipient_id').'+casualy_id='.Request::input('casualty_id'));
+      return redirect('home/admin');
     }
 
     public function addRecipient(Request $request)
@@ -234,15 +231,19 @@ class AdminController extends Controller
       DB::table('casualties')
         ->insert([
           'first_name' => Request::input('first_name'),
+          'middle_name' => Request::input('middle_name'),
           'last_name' => Request::input('last_name'),
           'rank' => Request::input('rank'),
           'conflict' => Request::input('conflict'),
-          'date_of_death' => Request::input('date_of_death'),
+          'day_of_death' => Request::input('day_of_death'),
+          'month_of_death' => Request::input('month_of_death'),
+          'year_of_death' => Request::input('year_of_death'),
           'place' => Request::input('place'),
           'injury_type' => Request::input('injury_type'),
           'city' => Request::input('city'),
           'state' => Request::input('state'),
-          'burial_site' => Request::input('burial_site')
+          'burial_site' => Request::input('burial_site'),
+          'comments' => Request::input('comments')
         ]);
       return redirect('home/admin');
     }

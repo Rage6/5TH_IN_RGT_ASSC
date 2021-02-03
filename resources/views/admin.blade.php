@@ -37,7 +37,7 @@
                       name="email"
                       required
                       placeholder="Email Address" />
-                    <input type="submit" value="ENTER" />
+                    <input class="addSubmitBttn" type="submit" value="ENTER" />
                   </form>
                 </div>
               </div>
@@ -442,7 +442,7 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
-                      <input type="submit" value="ENTER" />
+                      <input class="addSubmitBttn" type="submit" value="ENTER" />
                     </form>
                   </div>
                 </div>
@@ -468,7 +468,8 @@
               <div class="card-header">
                 CASUALTY LIST
               </div>
-              <div class="addMemberSection">
+              <div class="card-body">
+                <div class="addMemberSection">
                 <div class="addMemberBttn" data-addbttn="casualty">
                   <div>
                     +
@@ -484,6 +485,11 @@
                       placeholder="First Name" />
                     <input
                       type="text"
+                      name="middle_name"
+                      required
+                      placeholder="Middle Name or Initial" />
+                    <input
+                      type="text"
                       name="last_name"
                       required
                       placeholder="Last Name" />
@@ -496,11 +502,31 @@
                       name="conflict"
                       required
                       placeholder="War, campaign, or conflict" />
-                    <input
-                      type="text"
-                      name="date_of_death"
-                      required
-                      placeholder="Date of death" />
+                    <div class="dateDeathTitle">
+                      DATE OF DEATH
+                    </div>
+                    <div class="dateDeath">
+                      <input
+                        type="number"
+                        min="1"
+                        max="12"
+                        name="month_of_death"
+                        required
+                        placeholder="MM" />
+                      <input
+                        type="number"
+                        min="1"
+                        max="31"
+                        name="day_of_death"
+                        required
+                        placeholder="DD" />
+                      <input
+                        type="text"
+                        name="year_of_death"
+                        min="1800"
+                        required
+                        placeholder="YYYY" />
+                    </div>
                     <input
                       type="text"
                       name="place"
@@ -521,8 +547,15 @@
                       type="text"
                       name="burial_site"
                       placeholder="Burial site" />
-                    <input type="submit" value="ENTER" />
+                    <textarea
+                      type="text"
+                      name="comments"
+                      rows="5"
+                      placeholder="Notes, comments, or descriptions">
+                    </textarea>
+                    <input class="addSubmitBttn" type="submit" value="ENTER" />
                   </form>
+                </div>
                 </div>
                 <div class="allRecipientCard">
                   @foreach ($all_casualties as $one_casualty)

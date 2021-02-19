@@ -74,4 +74,32 @@ $(document).ready(() => {
     addBttnTool('casualty');
   });
 
+  // Open or close a casualty's information
+  $("[data-casualtybttn]").click(()=>{
+    let casualtyId = event.target.dataset.casualtybttn;
+    if ($("[data-casualtybox='" + casualtyId + "']").css('display') == 'none') {
+      $("[data-casualtybox='" + casualtyId + "']").css('display','block');
+    } else {
+      $("[data-casualtybox='" + casualtyId + "']").css('display','none');
+    };
+  });
+
+  // Opens the option for casualty deletion
+  $("[data-delcasbttn]").click(()=>{
+    console.log("This happened");
+    let delCasId = event.target.dataset.delcasbttn;
+    console.log(event.target.dataset.delcasbttn);
+    if ($("[data-delcasbox='" + delCasId + "']").css('display') == 'none') {
+      $("[data-delcasbox='" + delCasId + "']").css('display','block');
+    };
+  });
+
+  // Closes the option for casualty deletion
+  $("[data-cancelcasbttn]").click(()=>{
+    let cancelId = event.target.dataset.cancelcasbttn;
+    if ($("[data-delcasbox='" + cancelId + "']").css('display') == 'block') {
+      $("[data-delcasbox='" + cancelId + "']").css('display','none');
+    };
+  });
+
 });

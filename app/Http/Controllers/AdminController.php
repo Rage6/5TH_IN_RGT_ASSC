@@ -80,7 +80,7 @@ class AdminController extends Controller
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','last_name','member_id')
+          ->select('id','first_name','middle_name','last_name','rank','conflict','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -243,6 +243,81 @@ class AdminController extends Controller
           'city' => Request::input('city'),
           'state' => Request::input('state'),
           'burial_site' => Request::input('burial_site'),
+          'comments' => Request::input('comments')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function changeCasualty(Request $request)
+    {
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'first_name' => Request::input('first_name')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'middle_name' => Request::input('middle_name')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'last_name' => Request::input('last_name')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'rank' => Request::input('rank')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'conflict' => Request::input('conflict')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'month_of_death' => Request::input('month_of_death')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'day_of_death' => Request::input('day_of_death')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'year_of_death' => Request::input('year_of_death')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'place' => Request::input('place')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'injury_type' => Request::input('injury_type')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'city' => Request::input('city')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'state' => Request::input('state')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'burial_site' => Request::input('burial_site')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
           'comments' => Request::input('comments')
         ]);
       return redirect('home/admin');

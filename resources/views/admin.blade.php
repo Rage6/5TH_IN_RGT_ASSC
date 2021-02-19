@@ -559,18 +559,95 @@
                 </div>
                 <div class="allRecipientCard">
                   @foreach ($all_casualties as $one_casualty)
-                    <form method="POST" action="admin/casualty/delete">
-                      @csrf
-                      <div class="oneRecipient">
-                        <input type="hidden" name="cas_id" value="{{ $one_casualty->id }}">
-                        <div>
-                          {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                    <div class="oneMemberCard">
+                      <button
+                        data-casualtybttn="{{ $one_casualty->id }}"
+                        type="button"
+                        class="btn btn-primary oneMemberButton">
+                        {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                      </button>
+                      <div
+                        data-casualtybox="{{ $one_casualty->id }}"
+                        class="oneMemberInfo">
+                        <div class="oneInfo">
+                          <form method="POST" action="admin/casualty/change">
+                            @csrf
+                            <input type="hidden" name="cas_id" value="{{ $one_casualty->id }}">
+                            <div class="infoTitle">First Name</div>
+                            <input type="text" name="first_name" value="{{ $one_casualty->first_name }}">
+                            <div class="infoTitle">Middle Name</div>
+                            <input type="text" name="middle_name" value="{{ $one_casualty->middle_name }}">
+                            <div class="infoTitle">Last Name</div>
+                            <input type="text" name="last_name" value="{{ $one_casualty->last_name }}">
+                            <div class="infoTitle">Rank</div>
+                            <input type="text" name="rank" value="{{ $one_casualty->rank }}">
+                            <div class="infoTitle">Conflict</div>
+                            <input type="text" name="conflict" value="{{ $one_casualty->conflict }}">
+                            <div class="infoTitle">Date of Death (MM/DD/YYYY)</div>
+                            <div class="dateDeath">
+                              <input
+                                type="number"
+                                min="1"
+                                max="12"
+                                name="month_of_death"
+                                required
+                                value="{{ $one_casualty->month_of_death }}" />
+                              <input
+                                type="number"
+                                min="1"
+                                max="31"
+                                name="day_of_death"
+                                required
+                                value="{{ $one_casualty->day_of_death }}" />
+                              <input
+                                type="text"
+                                name="year_of_death"
+                                min="1800"
+                                required
+                                value="{{ $one_casualty->year_of_death }}" />
+                            </div>
+                            <div class="infoTitle">Place</div>
+                            <input type="text" name="place" value="{{ $one_casualty->place }}">
+                            <div class="infoTitle">Injury Type</div>
+                            <input type="text" name="injury_type" value="{{ $one_casualty->injury_type }}">
+                            <div class="infoTitle">City</div>
+                            <input type="text" name="city" value="{{ $one_casualty->city }}">
+                            <div class="infoTitle">State</div>
+                            <input type="text" name="state" value="{{ $one_casualty->state }}">
+                            <div class="infoTitle">Burial Site</div>
+                            <input type="text" name="burial_site" value="{{ $one_casualty->burial_site }}">
+                            <button type="submit" name="changeCasualty" class="btn btn-success"/>CHANGE</button>
+                          </form>
                         </div>
-                        <button class="btn btn-danger" type="submit">
-                          X
-                        </button>
+                        </br>
+                        </br>
+                        <div class="oneInfo">
+                          <div class="deleteMemberWarning" data-delcasbttn="{{ $one_casualty->id }}">DELETE MEMBER?</div>
+                          <div class="deleteMemberBox" data-delcasbox="{{ $one_casualty->id }}">
+                            Are you sure that you want to delete {{ $one_casualty->first_name }} {{ $one_casualty->last_name }} from the database? <u>This will permanently delete their information</u>!
+                            </br>
+                            <div class="btn btn-secondary" data-cancelcasbttn="{{ $one_casualty->id }}">
+                              NO, cancel this
+                            </div>
+                            <div>
+                              <form method="POST" action="admin/casualty/delete">
+                                @csrf
+                                <button
+                                  class="btn btn-danger"
+                                  type="submit"
+                                  name="delete_casualty">
+                                  YES, delete it
+                                </button>
+                                <input
+                                  type="hidden"
+                                  name="cas_id"
+                                  value="{{ $one_casualty->id }}"/>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </form>
+                    </div>
                   @endforeach
                 </div>
               </div>

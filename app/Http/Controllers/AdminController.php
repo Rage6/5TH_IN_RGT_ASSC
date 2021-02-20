@@ -80,7 +80,7 @@ class AdminController extends Controller
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','middle_name','last_name','rank','conflict','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id')
+          ->select('id','first_name','middle_name','last_name','rank','conflict','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -320,6 +320,24 @@ class AdminController extends Controller
         ->update([
           'comments' => Request::input('comments')
         ]);
+      return redirect('home/admin');
+    }
+
+    public function casualtyDetails(Request $request)
+    {
+      if (Request::input('recipient_to_casualty') != "null") {
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.moh_id' => Request::input('recipient_to_casualty')
+          ]);
+      } else {
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
+          ->update([
+            'casualties.moh_id' => NULL
+          ]);
+      };
       return redirect('home/admin');
     }
 

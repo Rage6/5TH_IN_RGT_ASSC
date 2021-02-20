@@ -338,7 +338,7 @@
                           </select>
                         </div>
                         <div class="detailNote">
-                           <u>NOTE</u>: A member cannot be labeled as KIA until they are entered into our Casualty records. This can be done in the "Casualty List" box below.
+                           <u>NOTE</u>: Is this member's name not on the list? Add them to our Casualty records. This can be done in the "Casualty List" box below.
                         </div>
                         <!-- </div> -->
                         <button
@@ -617,6 +617,60 @@
                             <div class="infoTitle">Burial Site</div>
                             <input type="text" name="burial_site" value="{{ $one_casualty->burial_site }}">
                             <button type="submit" name="changeCasualty" class="btn btn-success"/>CHANGE</button>
+                          </form>
+                        </div>
+                        <div class="oneInfo">
+                          <form method="POST" action="admin/casualty/details">
+                            @csrf
+                            <input
+                              type="hidden"
+                              name="casualty_id"
+                              value="{{ $one_casualty->id }}" />
+                            <div class="infoTitle">
+                              Other Details
+                            </div>
+                            <div>
+                              If {{ $one_casualty->first_name }} {{ $one_casualty->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
+                            </div>
+                            <div>
+                              @php
+                                $current_recipient_id = null;
+                                foreach ($all_recipients as $one_recipient) {
+                                  if ($one_recipient->id == $one_casualty->moh_id) {
+                                    $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
+                                    $current_recipient_id = $one_recipient->id;
+                                  };
+                                };
+                              @endphp
+                              <select class="detailMOH" name="recipient_to_casualty">
+                                @if ($current_recipient_id == null)
+                                  <option value="null" selected>
+                                    N/A
+                                  </option>
+                                @else
+                                  <option value="{{ $current_recipient_id }}" selected>
+                                    {{ $current_recipient_name }}
+                                  </option>
+                                  <option value="null">N/A</option>
+                                @endif
+                                @foreach ($all_recipients as $one_recipient)
+                                  @if ($one_recipient->member_id != $one_user->id)
+                                    <option value="{{ $one_recipient->id }}">
+                                      {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                    </option>
+                                  @endif
+                                @endforeach
+                              </select>
+                            </div>
+                            <div class="detailNote">
+                               <u>NOTE</u>: Cannot find a certain recipient on the CMOH list? Enter their information onto the "Medal of Honor Recipients" box below.
+                            </div>
+                            <button
+                              class="btn btn-success"
+                              type="submit"
+                              name="casualty_details">
+                              CHANGE
+                            </button>
                           </form>
                         </div>
                         </br>

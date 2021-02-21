@@ -439,12 +439,17 @@
               </a>
             </ul>
           </div>
-          <!-- <div class="linkBox">
+          <div class="linkBox">
             <div class="linkTitle externalLink">EXTERNAL LINKS</div>
             <ul class="linkContent">
-
+              <a href="https://www.scribd.com/document/422797331/bbc-andrew-h-anderson-2?secret_password=AjFxkwUDjtyACCV89zZ4#from_embed" target="_blank">
+                <li>"The Human Toll of the Battle of Ben Cui” by MG-R Andrew H. Anderson</li>
+              </a>
+              <a href="https://www.scribd.com/document/422800015/ben-cui-1?secret_password=vY8QsdJxa70BgjM0yA3i#from_embed" target="_blank">
+                <li>"Bobcats in the Ben Cui" by MAJ-R Bob Wright</li>
+              </a>
             </ul>
-          </div> -->
+          </div>
         </div>
       </div>
       <div class="timeSegment southKoreaSegment" data-section="1975to2001">

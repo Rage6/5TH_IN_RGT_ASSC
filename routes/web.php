@@ -36,6 +36,7 @@ Route::prefix('/home')->group(function() {
     });
     Route::prefix('/recipient')->group(function() {
       Route::post('/add','AdminController@addRecipient');
+      Route::post('/change','AdminController@changeRecipient');
       Route::post('/delete','AdminController@deleteRecipient');
     });
     Route::prefix('/range')->group(function () {
@@ -45,6 +46,8 @@ Route::prefix('/home')->group(function() {
     });
     Route::prefix('/casualty')->group(function () {
       Route::post('/add','AdminController@addCasualty');
+      Route::post('/change','AdminController@changeCasualty');
+      Route::post('/details','AdminController@casualtyDetails');
       Route::post('/delete','AdminController@deleteCasualty');
     });
   });

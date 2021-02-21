@@ -74,4 +74,80 @@ $(document).ready(() => {
     addBttnTool('casualty');
   });
 
+  // Open or close a casualty's information
+  $("[data-casualtybttn]").click(()=>{
+    let casualtyId = event.target.dataset.casualtybttn;
+    if ($("[data-casualtybox='" + casualtyId + "']").css('display') == 'none') {
+      $("[data-casualtybox='" + casualtyId + "']").css('display','block');
+    } else {
+      $("[data-casualtybox='" + casualtyId + "']").css('display','none');
+    };
+  });
+
+  // Opens the option for casualty deletion
+  $("[data-delcasbttn]").click(()=>{
+    console.log("This happened");
+    let delCasId = event.target.dataset.delcasbttn;
+    console.log(event.target.dataset.delcasbttn);
+    if ($("[data-delcasbox='" + delCasId + "']").css('display') == 'none') {
+      $("[data-delcasbox='" + delCasId + "']").css('display','block');
+    };
+  });
+
+  // Closes the option for casualty deletion
+  $("[data-cancelcasbttn]").click(()=>{
+    let cancelId = event.target.dataset.cancelcasbttn;
+    if ($("[data-delcasbox='" + cancelId + "']").css('display') == 'block') {
+      $("[data-delcasbox='" + cancelId + "']").css('display','none');
+    };
+  });
+
+  // Open or close a MOH recipient's information
+  $("[data-recipientbttn]").click(()=>{
+    let recipientId = event.target.dataset.recipientbttn;
+    if ($("[data-recipientbox='" + recipientId + "']").css('display') == 'none') {
+      $("[data-recipientbox='" + recipientId + "']").css('display','block');
+    } else {
+      $("[data-recipientbox='" + recipientId + "']").css('display','none');
+    };
+  });
+
+  // Opens the option for recipient deletion
+  $("[data-delrecipientbttn]").click(()=>{
+    console.log("This happened");
+    let delRecipientId = event.target.dataset.delrecipientbttn;
+    console.log(event.target.dataset.delcasbttn);
+    if ($("[data-delrecipientbox='" + delRecipientId + "']").css('display') == 'none') {
+      $("[data-delrecipientbox='" + delRecipientId + "']").css('display','block');
+    };
+  });
+
+  // Closes the option for recipient deletion
+  $("[data-cancelrecipientbttn]").click(()=>{
+    let cancelRecipientId = event.target.dataset.cancelrecipientbttn;
+    if ($("[data-delrecipientbox='" + cancelRecipientId + "']").css('display') == 'block') {
+      $("[data-delrecipientbox='" + cancelRecipientId + "']").css('display','none');
+    };
+  });
+
+  // Open or close connecting members to CMOH recipients
+  $("[data-gotcmohbttn]").click(()=>{
+    let recipientId = event.target.dataset.gotcmohbttn;
+    if ($("[data-gotcmohbox='" + recipientId + "']").css('display') == 'none') {
+      $("[data-gotcmohbox='" + recipientId + "']").css('display','block');
+    } else {
+      $("[data-gotcmohbox='" + recipientId + "']").css('display','none');
+    };
+  });
+
+  // Open or close connecting members to casualties
+  $("[data-gotkilledbttn]").click(()=>{
+    let recipientId = event.target.dataset.gotkilledbttn;
+    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
+      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
+    } else {
+      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
+    };
+  });
+
 });

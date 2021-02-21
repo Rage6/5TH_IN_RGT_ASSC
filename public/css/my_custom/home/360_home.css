@@ -140,8 +140,8 @@
 }
 
 .allMembersCard {
-  height: 300px;
-  overflow-y: scroll;
+  /* height: 300px;
+  overflow-y: scroll; */
 }
 
 .oneMemberCard {
@@ -156,6 +156,8 @@
   border: 1px solid #3490dc;
   padding: 5px 2%;
   display: none;
+  overflow-y: scroll;
+  height: 300px;
 }
 
 .oneInfo {
@@ -164,6 +166,16 @@
 
 .oneInfo div {
   padding: 5px 3%;
+}
+
+.oneInfo form input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.oneInfo form textarea {
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .infoTitle {
@@ -205,6 +217,10 @@
   grid-template-rows: 30px 30px 30px;
   gap: 5px 2%;
   text-align: center;
+}
+
+.addTimeGrid input {
+  margin-bottom: 0px !important;
 }
 
 .detailGrid {
@@ -250,8 +266,8 @@
 }
 
 .allRecipientCard {
-  height: 300px;
-  overflow-y: scroll;
+  /* height: 300px;
+  overflow-y: scroll; */
 }
 
 .oneRecipient {
@@ -272,6 +288,15 @@
   margin-top: 0;
   text-align: center;
   width: 30%;
+}
+
+.gotBttn {
+  color: #3490dc;
+  cursor: pointer;
+}
+
+.gotBox {
+  display: none;
 }
 
 /* END Administration page */

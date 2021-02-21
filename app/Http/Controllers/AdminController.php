@@ -75,7 +75,7 @@ class AdminController extends Controller
           $next_raw_num++;
         };
         $all_recipients = DB::table('recipients')
-          ->select('id','first_name','last_name','member_id')
+          ->select('id','first_name','last_name','rank','conflict','action_date','place','citation','posthumous','member_id')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -213,6 +213,51 @@ class AdminController extends Controller
           'action_date' => Request::input('action_date'),
           'place' => Request::input('place'),
           'citation' => Request::input('citation'),
+          'posthumous' => Request::input('posthumous')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function changeRecipient(Request $request)
+    {
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'first_name' => Request::input('first_name')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'last_name' => Request::input('last_name')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'rank' => Request::input('rank')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'conflict' => Request::input('conflict')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'rank' => Request::input('action_date')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'place' => Request::input('place')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
+          'citation' => Request::input('citation')
+        ]);
+      DB::table('recipients')
+        ->where('id','=',Request::input('recip_id'))
+        ->update([
           'posthumous' => Request::input('posthumous')
         ]);
       return redirect('home/admin');

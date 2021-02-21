@@ -36,6 +36,7 @@ Route::prefix('/home')->group(function() {
     });
     Route::prefix('/recipient')->group(function() {
       Route::post('/add','AdminController@addRecipient');
+      Route::post('/change','AdminController@changeRecipient');
       Route::post('/delete','AdminController@deleteRecipient');
     });
     Route::prefix('/range')->group(function () {

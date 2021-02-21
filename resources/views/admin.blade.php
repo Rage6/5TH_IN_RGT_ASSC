@@ -238,9 +238,9 @@
                               </button>
                             </form>
                           </div>
-                          <div>
+                          <!-- <div>
                             NOTE: Leave the 'End Time' empty if the time span has not ended yet.
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
@@ -269,78 +269,97 @@
                           </div>
                         </div>
                         <div>
-                          If {{ $one_user->first_name }} {{ $one_user->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
-                        </div>
-                        <div>
-                          @php
-                            $current_member_id = null;
-                            foreach ($all_recipients as $one_recipient) {
-                              if ($one_recipient->member_id == $one_user->id) {
-                                $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
-                                $current_member_id = $one_recipient->member_id;
+                          <div data-gotcmohbttn="{{ $one_user->id }}" class="gotBttn">
+                            + Earned the Congressional Medal of Honor (CMOH)?
+                          </div>
+                          <div data-gotcmohbox="{{ $one_user->id }}" class="gotBox">
+                            <div class="detailNote">
+                               If so, you should connect them to their recording in our CMOH list. You can do this by...
+                               <ol>
+                                 <li>
+                                   Enter their CMOH information, like the event's date and official citation, into our "MEDAL OF HONOR RECIPIENTS" table.
+                                 </li>
+                                 <li>
+                                   Select their name from the list of CMOH recipient dropdown box below
+                                 </li>
+                               </ol>
+                            </div>
+                            @php
+                              $current_member_id = null;
+                              foreach ($all_recipients as $one_recipient) {
+                                if ($one_recipient->member_id == $one_user->id) {
+                                  $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
+                                  $current_member_id = $one_recipient->member_id;
+                                };
                               };
-                            };
-                          @endphp
-                          <select class="detailMOH" name="recipient_id">
-                            @if ($current_member_id == null)
-                              <option value="null" selected>
-                                N/A
-                              </option>
-                            @else
-                              <option value="{{ $current_member_id }}" selected>
-                                {{ $current_recipient_name }}
-                              </option>
-                              <option value="null">N/A</option>
-                            @endif
-                            @foreach ($all_recipients as $one_recipient)
-                              @if ($one_recipient->member_id != $one_user->id)
-                                <option value="{{ $one_recipient->id }}">
-                                  {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                            @endphp
+                            <select class="detailMOH" name="recipient_id">
+                              @if ($current_member_id == null)
+                                <option value="null" selected>
+                                  N/A
                                 </option>
+                              @else
+                                <option value="{{ $current_member_id }}" selected>
+                                  {{ $current_recipient_name }}
+                                </option>
+                                <option value="null">N/A</option>
                               @endif
-                            @endforeach
-                          </select>
-                        </div>
-                        <div class="detailNote">
-                           <u>NOTE</u>: A member cannot be labeled as a CMOH recipient until they are entered into our CMOH table. This can be done in the "Medal of Honor Recipients" box below.
+                              @foreach ($all_recipients as $one_recipient)
+                                @if ($one_recipient->member_id != $one_user->id)
+                                  <option value="{{ $one_recipient->id }}">
+                                    {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                  </option>
+                                @endif
+                              @endforeach
+                            </select>
+                          </div>
                         </div>
                         <div>
-                          Was {{ $one_user->first_name }} {{ $one_user->last_name }} killed in action (KIA)?
-                        </div>
-                        <div>
-                          @php
-                            $this_member_id = null;
-                            foreach ($all_casualties as $one_casualty) {
-                              if ($one_casualty->member_id == $one_user->id) {
-                                $current_casualty_name = $one_casualty->last_name.", ".$one_casualty->first_name;
-                                $this_member_id = $one_casualty->member_id;
+                          <div data-gotkilledbttn="{{ $one_user->id }}" class="gotBttn">
+                            + KIA, MIA, or Killed in service?
+                          </div>
+                          <div data-gotkilledbox="{{ $one_user->id }}" class="gotBox">
+                            <div class="detailNote">
+                               If so, you should connect them to their record in our CASUALTY list. You can do this by...
+                               <ol>
+                                 <li>
+                                   Enter the information about their death and basic information into our "CASUALTY LIST" box
+                                 </li>
+                                 <li>
+                                   Select their name from the list of names in the dropdown box below
+                                 </li>
+                               </ol>
+                            </div>
+                            @php
+                              $this_member_id = null;
+                              foreach ($all_casualties as $one_casualty) {
+                                if ($one_casualty->member_id == $one_user->id) {
+                                  $current_casualty_name = $one_casualty->last_name.", ".$one_casualty->first_name;
+                                  $this_member_id = $one_casualty->member_id;
+                                };
                               };
-                            };
-                          @endphp
-                          <select class="detailMOH" name="casualty_id">
-                            @if ($this_member_id == null)
-                              <option value="null" selected>
-                                N/A
-                              </option>
-                            @else
-                              <option value="{{ $this_member_id }}" selected>
-                                {{ $current_casualty_name }}
-                              </option>
-                              <option value="null">N/A</option>
-                            @endif
-                            @foreach ($all_casualties as $one_casualty)
-                              @if ($one_casualty->member_id != $one_user->id)
-                                <option value="{{ $one_casualty->id }}">
-                                  {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                            @endphp
+                            <select class="detailMOH" name="casualty_id">
+                              @if ($this_member_id == null)
+                                <option value="null" selected>
+                                  N/A
                                 </option>
+                              @else
+                                <option value="{{ $this_member_id }}" selected>
+                                  {{ $current_casualty_name }}
+                                </option>
+                                <option value="null">N/A</option>
                               @endif
-                            @endforeach
-                          </select>
+                              @foreach ($all_casualties as $one_casualty)
+                                @if ($one_casualty->member_id != $one_user->id)
+                                  <option value="{{ $one_casualty->id }}">
+                                    {{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}
+                                  </option>
+                                @endif
+                              @endforeach
+                            </select>
+                          </div>
                         </div>
-                        <div class="detailNote">
-                           <u>NOTE</u>: Is this member's name not on the list? Add them to our Casualty records. This can be done in the "Casualty List" box below.
-                        </div>
-                        <!-- </div> -->
                         <button
                           class="btn btn-success"
                           type="submit"
@@ -352,7 +371,9 @@
                     </br>
                     </br>
                     <div class="oneInfo">
-                      <div class="deleteMemberWarning" data-delbttn="{{ $one_user->id }}">DELETE MEMBER?</div>
+                      <div class="deleteMemberWarning" data-delbttn="{{ $one_user->id }}">
+                        DELETE MEMBER?
+                      </div>
                       <div class="deleteMemberBox" data-delbox="{{ $one_user->id }}">
                         Are you sure that you want to delete {{ $one_user->first_name }} {{ $one_user->last_name }} from the database? <u>This will permanently delete their profile</u>!
                         </br>
@@ -386,6 +407,7 @@
               ?>
               </div>
             </div>
+
             <div class="card adminCard">
               <div class="card-header">
                 MEDAL OF HONOR RECIPIENTS
@@ -448,114 +470,207 @@
                 </div>
                 <div class="allRecipientCard">
                   @foreach ($all_recipients as $one_recipient)
-                    <form method="POST" action="admin/recipient/delete">
-                      @csrf
-                      <div class="oneRecipient">
-                        <input type="hidden" name="recip_id" value="{{ $one_recipient->id }}">
-                        <div>
-                          {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                  <div class="oneMemberCard">
+                    <button
+                      data-recipientbttn="{{ $one_recipient->id }}"
+                      type="button"
+                      class="btn btn-primary oneMemberButton">
+                      {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                    </button>
+                    <div
+                      data-recipientbox="{{ $one_recipient->id }}"
+                      class="oneMemberInfo">
+                      <div class="oneInfo">
+                        <form method="POST" action="admin/recipient/change">
+                          @csrf
+                          <input
+                            type="hidden"
+                            name="recip_id"
+                            value="{{ $one_recipient->id }}" />
+                          <div class="infoTitle">First Name</div>
+                          <input
+                            type="text"
+                            name="first_name"
+                            required
+                            value="{{ $one_recipient->first_name }}" />
+                          <div class="infoTitle">Last Name</div>
+                          <input
+                            type="text"
+                            name="last_name"
+                            required
+                            value="{{ $one_recipient->last_name }}" />
+                          <div class="infoTitle">Rank</div>
+                          <input
+                            type="text"
+                            name="rank"
+                            required
+                            value="{{ $one_recipient->rank }}" />
+                          <div class="infoTitle">Conflict</div>
+                          <input
+                            type="text"
+                            name="conflict"
+                            required
+                            value="{{ $one_recipient->conflict }}" />
+                          <div class="infoTitle">Date of Event</div>
+                          <input
+                            type="text"
+                            name="action_date"
+                            required
+                            value="{{ $one_recipient->action_date }}" />
+                          <div class="infoTitle">Location of Event</div>
+                          <input
+                            type="text"
+                            name="place"
+                            required
+                            value="{{ $one_recipient->place }}" />
+                          <div class="infoTitle">Citation</div>
+                          <textarea
+                            type="text"
+                            name="citation"
+                            rows="5"
+                            required>{{ $one_recipient->citation }}</textarea>
+                          <div class="infoTitle">Posthumous</div>
+                          <select id="posthumous" name="posthumous">
+                            @if ($one_recipient->posthumous == 1) {
+                                <option value='1' selected>YES</option>
+                                <option value='0'>NO</option>";
+                            @else
+                                <option value='0' selected>NO</option>
+                                <option value='1'>YES</option>
+                            @endif
+                          </select>
+                          </br>
+                          <button
+                            class="btn btn-success"
+                            type="submit">
+                            CHANGE
+                          </button>
+                        </form>
+                        <div class="oneInfo">
+                          <div class="deleteMemberWarning" data-delrecipientbttn="{{ $one_recipient->id }}">DELETE RECIPIENT?</div>
+                          <div class="deleteMemberBox" data-delrecipientbox="{{ $one_recipient->id }}">
+                            Are you sure that you want to delete {{ $one_recipient->first_name }} {{ $one_recipient->last_name }} from the database? <u>This will permanently delete their information</u>!
+                            </br>
+                            <div class="btn btn-secondary" data-cancelrecipientbttn="{{ $one_recipient->id }}">
+                              NO, cancel this
+                            </div>
+                            <div>
+                              <form method="POST" action="admin/recipient/delete">
+                                @csrf
+                                <button
+                                  class="btn btn-danger"
+                                  type="submit"
+                                  name="delete_recipient">
+                                  YES, delete it
+                                </button>
+                                <input
+                                  type="hidden"
+                                  name="recip_id"
+                                  value="{{ $one_recipient->id }}"/>
+                              </form>
+                            </div>
+                          </div>
                         </div>
-                        <button class="btn btn-danger" type="submit">
-                          X
-                        </button>
                       </div>
-                    </form>
+                    </div>
+                  </div>
                   @endforeach
                 </div>
               </div>
             </div>
+
             <div class="card adminCard">
               <div class="card-header">
                 CASUALTY LIST
               </div>
               <div class="card-body">
                 <div class="addMemberSection">
-                <div class="addMemberBttn" data-addbttn="casualty">
-                  <div>
-                    +
-                  </div>
-                </div>
-                <div class="addMemberInfo" data-addbox="casualty">
-                  <form method="POST" action="admin/casualty/add">
-                    @csrf
-                    <input
-                      type="text"
-                      name="first_name"
-                      required
-                      placeholder="First Name" />
-                    <input
-                      type="text"
-                      name="middle_name"
-                      required
-                      placeholder="Middle Name or Initial" />
-                    <input
-                      type="text"
-                      name="last_name"
-                      required
-                      placeholder="Last Name" />
-                    <input
-                      type="text"
-                      name="rank"
-                      placeholder="Rank" />
-                    <input
-                      type="text"
-                      name="conflict"
-                      required
-                      placeholder="War, campaign, or conflict" />
-                    <div class="dateDeathTitle">
-                      DATE OF DEATH
+                  <div class="addMemberBttn" data-addbttn="casualty">
+                    <div>
+                      +
                     </div>
-                    <div class="dateDeath">
-                      <input
-                        type="number"
-                        min="1"
-                        max="12"
-                        name="month_of_death"
-                        required
-                        placeholder="MM" />
-                      <input
-                        type="number"
-                        min="1"
-                        max="31"
-                        name="day_of_death"
-                        required
-                        placeholder="DD" />
+                  </div>
+                  <div class="addMemberInfo" data-addbox="casualty">
+                    <form method="POST" action="admin/casualty/add">
+                      @csrf
                       <input
                         type="text"
-                        name="year_of_death"
-                        min="1800"
+                        name="first_name"
                         required
-                        placeholder="YYYY" />
-                    </div>
-                    <input
-                      type="text"
-                      name="place"
-                      placeholder="Location of injury" />
-                    <input
-                      type="text"
-                      name="injury_type"
-                      placeholder="Type of injury" />
-                    <input
-                      type="text"
-                      name="city"
-                      placeholder="City of origin" />
-                    <input
-                      type="text"
-                      name="state"
-                      placeholder="State/Territory of origin" />
-                    <input
-                      type="text"
-                      name="burial_site"
-                      placeholder="Burial site" />
-                    <textarea
-                      type="text"
-                      name="comments"
-                      rows="5"
-                      placeholder="Notes, comments, or descriptions">
-                    </textarea>
-                    <input class="addSubmitBttn" type="submit" value="ENTER" />
-                  </form>
-                </div>
+                        placeholder="First Name" />
+                      <input
+                        type="text"
+                        name="middle_name"
+                        required
+                        placeholder="Middle Name or Initial" />
+                      <input
+                        type="text"
+                        name="last_name"
+                        required
+                        placeholder="Last Name" />
+                      <input
+                        type="text"
+                        name="rank"
+                        placeholder="Rank" />
+                      <input
+                        type="text"
+                        name="conflict"
+                        required
+                        placeholder="War, campaign, or conflict" />
+                      <div class="dateDeathTitle">
+                        DATE OF DEATH
+                      </div>
+                      <div class="dateDeath">
+                        <input
+                          type="number"
+                          min="1"
+                          max="12"
+                          name="month_of_death"
+                          required
+                          placeholder="MM" />
+                        <input
+                          type="number"
+                          min="1"
+                          max="31"
+                          name="day_of_death"
+                          required
+                          placeholder="DD" />
+                        <input
+                          type="text"
+                          name="year_of_death"
+                          min="1800"
+                          required
+                          placeholder="YYYY" />
+                      </div>
+                      <input
+                        type="text"
+                        name="place"
+                        placeholder="Location of injury" />
+                      <input
+                        type="text"
+                        name="injury_type"
+                        placeholder="Type of injury" />
+                      <input
+                        type="text"
+                        name="city"
+                        placeholder="City of origin" />
+                      <input
+                        type="text"
+                        name="state"
+                        placeholder="State/Territory of origin" />
+                      <input
+                        type="text"
+                        name="burial_site"
+                        placeholder="Burial site" />
+                      <textarea
+                        type="text"
+                        name="comments"
+                        rows="5"
+                        placeholder="Notes, comments, or descriptions">
+                      </textarea>
+                      <input class="addSubmitBttn" type="submit" value="ENTER" />
+                    </form>
+                  </div>
                 </div>
                 <div class="allRecipientCard">
                   @foreach ($all_casualties as $one_casualty)
@@ -616,6 +731,12 @@
                             <input type="text" name="state" value="{{ $one_casualty->state }}">
                             <div class="infoTitle">Burial Site</div>
                             <input type="text" name="burial_site" value="{{ $one_casualty->burial_site }}">
+                            <div class="infoTitle">Comments or Notes</div>
+                            <textarea
+                              type="text"
+                              name="comments"
+                              rows="5">{{ $one_casualty->comments }}</textarea>
+                            </br>
                             <button type="submit" name="changeCasualty" class="btn btn-success"/>CHANGE</button>
                           </form>
                         </div>
@@ -665,6 +786,7 @@
                             <div class="detailNote">
                                <u>NOTE</u>: Cannot find a certain recipient on the CMOH list? Enter their information onto the "Medal of Honor Recipients" box below.
                             </div>
+                            </br>
                             <button
                               class="btn btn-success"
                               type="submit"
@@ -676,7 +798,7 @@
                         </br>
                         </br>
                         <div class="oneInfo">
-                          <div class="deleteMemberWarning" data-delcasbttn="{{ $one_casualty->id }}">DELETE MEMBER?</div>
+                          <div class="deleteMemberWarning" data-delcasbttn="{{ $one_casualty->id }}">DELETE CASUALTY?</div>
                           <div class="deleteMemberBox" data-delcasbox="{{ $one_casualty->id }}">
                             Are you sure that you want to delete {{ $one_casualty->first_name }} {{ $one_casualty->last_name }} from the database? <u>This will permanently delete their information</u>!
                             </br>

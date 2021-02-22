@@ -43,6 +43,15 @@ class AlbumController extends Controller
     ]);
   }
 
+  public function ben_cui()
+  {
+    return view('album',[
+      'style' => 'album_style',
+      'js' => '/js/my_custom/history/album/album.js',
+      'content' => 'ben_cui_content'
+    ]);
+  }
+
   public function gwot()
   {
     return view('album',[

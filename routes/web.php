@@ -68,8 +68,10 @@ Route::prefix('history')->group(function() {
     Route::get('korea','AlbumController@korea');
     Route::get('vietnam','AlbumController@vietnam');
     Route::get('gwot','AlbumController@gwot');
+    Route::get('ben-cui','AlbumController@ben_cui');
   });
   Route::prefix('topic')->group(function() {
+    Route::get('ben-cui-battle','HistoryTopicController@ben_cui_battle');
     Route::get('michelin-rubber-plant-battle','HistoryTopicController@michelin_rubber_plant_battle');
     Route::get('the-rifle-and-the-myth','HistoryTopicController@the_rifle_and_the_myth');
   });

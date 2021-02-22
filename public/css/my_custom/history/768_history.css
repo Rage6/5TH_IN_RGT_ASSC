@@ -41,3 +41,9 @@
 .referenceList {
   font-size: 1.2rem;
 }
+
+.benCuiAlbumRow {
+  padding-left: 3%;
+  display: block;
+  float: right;
+}

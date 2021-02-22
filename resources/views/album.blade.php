@@ -457,6 +457,218 @@
   @include ('footer.content')
 @stop
 
+@section('ben_cui_content')
+  <div class="mainBody">
+    <div class="mainTitle">
+      <div>Ben Cui Battle</div>
+      <div>Photos & Records</div>
+    </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/topic/ben-cui-battle') }}">
+        <div><< Ben Cui Tribute</div>
+      </a>
+    </div>
+    <div class="allImgBox">
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_1.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_1.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_2.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_2.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_3.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_3.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_4.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_4.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_5.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_5.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_6.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_6.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            The person holding up the stretcher on the left end is Glenn Cassel
+          </div>
+        </div>
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_7.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_7.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            The man with his right arm bandaged is 1LT John Snodgrass, the Company Commander, The person holding the canteen is the Battalion Chaplain, Chaplain Don Just.
+          </div>
+        </div>
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_8.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_8.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_9.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_9.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/ben_cui_10.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/ben_cui_10.jpg" />
+          </a>
+        </div>
+        <!-- <div class="oneCaption">
+          <div>
+
+          </div>
+        </div> -->
+        <div class="photographer">
+          Photographer: SGT Don Mousseau
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/bencuimem1.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/bencuimem1.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Memorial Service held at the Dau Tieng Base Camp In September 1968 for those lost during the Ben Cui action.
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Don Fuller
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/bencuimem2.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/bencuimem2.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Memorial Service held at the Dau Tieng Base Camp In September 1968 for those lost during the Ben Cui action.
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Don Fuller
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/cookreport2.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/cookreport2.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            An official record of soldiers KIA during battle at Ben Cui.
+          </div>
+        </div>
+        <div class="photographer">
+          Courtesy of Richard Coffelt
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
 @section('gwot_content')
   <div class="mainBody">
     <div class="mainTitle">

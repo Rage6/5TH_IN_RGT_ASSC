@@ -418,33 +418,37 @@
           <div class="linkBox">
             <div class="linkTitle learnMore">LEARN MORE</div>
             <ul class="linkContent">
-              <a href="{{ url('/history/album/vietnam') }}">
-                <li>Photo Album</li>
-              </a>
               <a href="http://bobcat.ws/after-action-reports.html">
                 <li>After Action Reports (AAR)</li>
               </a>
               <a href="http://bobcat.ws/vietnam-history.html">
                 <li>"In The Vietnam War 1966 - 1971" by Larry Hadzim</li>
               </a>
-              <a href="http://bobcat.ws/ben-cui-tribute.html">
-                <li>Ben Cui Tribute</li>
+              <a href="{{ url('/history/topic/ben-cui-battle') }}">
+                <li>Ben Cui Battle</li>
               </a>
               <a href="{{ url('/history/topic/michelin-rubber-plant-battle') }}">
                 <li>Michelin Rubber Plant Battle</li>
               </a>
               <a href="{{ url('/history/topic/the-rifle-and-the-myth') }}">
-              <!-- <a href="http://bobcat.ws/rifle.shtml"> -->
                 <li>The Rifle And The Myth</li>
+              </a>
+              <!-- <a href="{{ url('/history/album/vietnam') }}">
+                <li>Photo Album</li>
+              </a> -->
+            </ul>
+          </div>
+          <div class="linkBox">
+            <div class="linkTitle externalLink">EXTERNAL LINKS</div>
+            <ul class="linkContent">
+              <a href="https://www.scribd.com/document/422797331/bbc-andrew-h-anderson-2?secret_password=AjFxkwUDjtyACCV89zZ4#from_embed" target="_blank">
+                <li>"The Human Toll of the Battle of Ben Cui” by MG-R Andrew H. Anderson</li>
+              </a>
+              <a href="https://www.scribd.com/document/422800015/ben-cui-1?secret_password=vY8QsdJxa70BgjM0yA3i#from_embed" target="_blank">
+                <li>"Bobcats in the Ben Cui" by MAJ-R Bob Wright</li>
               </a>
             </ul>
           </div>
-          <!-- <div class="linkBox">
-            <div class="linkTitle externalLink">EXTERNAL LINKS</div>
-            <ul class="linkContent">
-
-            </ul>
-          </div> -->
         </div>
       </div>
       <div class="timeSegment southKoreaSegment" data-section="1975to2001">

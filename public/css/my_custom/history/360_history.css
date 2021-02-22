@@ -387,3 +387,40 @@ p {
 .witnessList div:first-child {
   margin-bottom: 0px;
 }
+
+.benCuiAlbumRow {
+  display: flex;
+  justify-content: center;
+}
+
+.benCuiAlbumBttn {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  text-decoration-line: none;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background:
+    radial-gradient(
+      rgba(255,255,255,0.7) 0%,
+      rgba(255,255,255,0.7) 50%,
+      rgba(255,255,255,0) 100%),
+    url('/images/history/ben_cui.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.benCuiAlbumBttn div {
+  font-family: 'Special Elite', cursive;
+  font-size: 3.3rem;
+  text-align: center;
+}
+
+.benCuiAlbumBttn div:first-child {
+  padding-bottom: 30px;
+}

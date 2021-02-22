@@ -601,7 +601,6 @@
                       <input
                         type="text"
                         name="middle_name"
-                        required
                         placeholder="Middle Name or Initial" />
                       <input
                         type="text"

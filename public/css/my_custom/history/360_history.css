@@ -259,7 +259,7 @@ p {
 }
 
 .segmentWords {
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .segmentWords p {
@@ -423,4 +423,50 @@ p {
 
 .benCuiAlbumBttn div:first-child {
   padding-bottom: 30px;
+}
+
+.presCitationBttn {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  text-decoration-line: none;
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.presCitationBttn div {
+  font-family: 'Special Elite', cursive;
+  font-size: 3.3rem;
+  text-align: center;
+}
+
+.presCitationBttn div:first-child {
+  padding-bottom: 30px;
+}
+
+.presSeal {
+  background:
+    radial-gradient(
+      rgba(255,255,255,0.7) 0%,
+      rgba(255,255,255,0.7) 50%,
+      rgba(255,255,255,0) 100%),
+    url('/images/history/topics/ben_cui/pres_seal.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.secOfArmySeal {
+  background:
+    radial-gradient(
+      rgba(255,255,255,0.7) 0%,
+      rgba(255,255,255,0.7) 50%,
+      rgba(255,255,255,0) 100%),
+    url('/images/history/topics/ben_cui/sec_of_army_seal.png');
+  background-size: cover;
+  background-position: center;
 }

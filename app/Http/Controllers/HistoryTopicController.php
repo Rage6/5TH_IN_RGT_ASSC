@@ -20,6 +20,15 @@ class HistoryTopicController extends Controller
      ]);
     }
 
+    public function presidential_citation()
+    {
+     return view('history_topic',[
+       'style' => 'history_style',
+       'js' => '/js/my_custom/history/history.js',
+       'content' => 'presidential_citation_content'
+     ]);
+    }
+
     public function michelin_rubber_plant_battle()
     {
       return view('history_topic',[

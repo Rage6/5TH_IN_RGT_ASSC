@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HistoryTopicController extends Controller
 {
@@ -13,6 +14,9 @@ class HistoryTopicController extends Controller
      */
     public function ben_cui_battle()
     {
+     $ben_cui_casualties = DB::table('casualties')
+      ->select('id','first_name','last_name')
+      ->get();
      return view('history_topic',[
        'style' => 'history_style',
        'js' => '/js/my_custom/history/history.js',

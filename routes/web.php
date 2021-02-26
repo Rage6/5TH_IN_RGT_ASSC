@@ -50,6 +50,11 @@ Route::prefix('/home')->group(function() {
       Route::post('/details','AdminController@casualtyDetails');
       Route::post('/delete','AdminController@deleteCasualty');
     });
+    Route::prefix('/conflict')->group(function () {
+      Route::post('/add','AdminController@addConflict');
+      Route::post('/change','AdminController@changeConflict');
+      Route::post('/delete','AdminController@deleteConflict');
+    });
   });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');

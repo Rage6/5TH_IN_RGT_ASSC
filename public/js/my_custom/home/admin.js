@@ -74,6 +74,11 @@ $(document).ready(() => {
     addBttnTool('casualty');
   });
 
+  $("[data-addbttn='conflict']").click(()=>{
+    console.log("The conflict click worked");
+    addBttnTool('conflict');
+  });
+
   // Open or close a casualty's information
   $("[data-casualtybttn]").click(()=>{
     let casualtyId = event.target.dataset.casualtybttn;
@@ -147,6 +152,36 @@ $(document).ready(() => {
       $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
     } else {
       $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
+    };
+  });
+
+  // Open or close connecting members to casualties
+  $("[data-gotkilledbttn]").click(()=>{
+    let recipientId = event.target.dataset.gotkilledbttn;
+    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
+      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
+    } else {
+      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
+    };
+  });
+
+  // Open or close connecting casualty to a CMOH recipient
+  $("[data-gotmedalbttn]").click(()=>{
+    let medalId = event.target.dataset.gotmedalbttn;
+    if ($("[data-gotmedalbox='" + medalId + "']").css('display') == 'none') {
+      $("[data-gotmedalbox='" + medalId + "']").css('display','block');
+    } else {
+      $("[data-gotmedalbox='" + medalId + "']").css('display','none');
+    };
+  });
+
+  // Open or close box for changing conflict
+  $("[data-conflictbttn]").click(()=>{
+    let conflictId = event.target.dataset.conflictbttn;
+    if ($("[data-conflictbox='" + conflictId + "']").css('display') == 'none') {
+      $("[data-conflictbox='" + conflictId + "']").css('display','block');
+    } else {
+      $("[data-conflictbox='" + conflictId + "']").css('display','none');
     };
   });
 

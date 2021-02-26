@@ -88,7 +88,10 @@ class AdminController extends Controller
           ->select('id','name','start_year','end_year')
           ->orderBy('start_year')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts'));
+        $all_conflict_links = DB::table('conflict_links')
+          ->select('conflict_id','casualty_id','member_id','recipient_id')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links'));
       } else {
         return redirect('/');
       };
@@ -203,6 +206,27 @@ class AdminController extends Controller
             'casualties.member_id' => null
           ]);
       };
+      return redirect('home/admin');
+    }
+
+    public function addConflictToMember(Request $request)
+    {
+      DB::table('conflict_links')
+        ->insert([
+          'conflict_id' => Request::input('selected_conflict'),
+          'member_id' => Request::input('member_id')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function deleteConflictFromMember(Request $request)
+    {
+      DB::table('conflict_links')
+        ->where([
+          ['conflict_id','=',Request::input('conflict_id')],
+          ['member_id','=',Request::input('member_id')]
+        ])
+        ->delete();
       return redirect('home/admin');
     }
 

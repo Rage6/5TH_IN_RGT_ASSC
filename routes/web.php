@@ -33,6 +33,8 @@ Route::prefix('/home')->group(function() {
       Route::post('/add','AdminController@addMember');
       Route::post('/delete','AdminController@deleteMember');
       Route::post('/details','AdminController@changeDetails');
+      Route::post('/add-conflict','AdminController@addConflictToMember');
+      Route::post('/delete-conflict','AdminController@deleteConflictFromMember');
     });
     Route::prefix('/recipient')->group(function() {
       Route::post('/add','AdminController@addRecipient');

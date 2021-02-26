@@ -185,4 +185,14 @@ $(document).ready(() => {
     };
   });
 
+  // Open or close box to add war/conflict to member's record
+  $("[data-addwarbttn]").click(()=>{
+    let addWarId = event.target.dataset.addwarbttn;
+    if ($("[data-addwarbox='" + addWarId + "']").css('display') == 'none') {
+      $("[data-addwarbox='" + addWarId + "']").css('display','block');
+    } else {
+      $("[data-addwarbox='" + addWarId + "']").css('display','none');
+    };
+  });
+
 });

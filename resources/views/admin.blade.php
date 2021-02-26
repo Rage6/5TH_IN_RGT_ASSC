@@ -239,9 +239,82 @@
                             </form>
                           </div>
                           <!-- <div>
-                            NOTE: Leave the 'End Time' empty if the time span has not ended yet.
+                            Note: Leave the 'End Time' empty if the time span has not ended yet.
                           </div> -->
                         </div>
+                      </div>
+                    </div>
+                    <div class="oneInfo">
+                      <div class="infoTitle">
+                        Wars / Conflicts
+                      </div>
+                      @php
+                        $background = 'white';
+                      @endphp
+                      @foreach ($all_conflict_links as $one_link)
+                        @if ($one_user->id == $one_link->member_id)
+                          @foreach ($all_conflicts as $one_conflict)
+                            @if ($one_conflict->id == $one_link->conflict_id)
+                              <form method="POST" action="admin/member/delete-conflict">
+                                @csrf
+                                <input type="hidden" name="conflict_id" value="{{ $one_link->conflict_id }}">
+                                <input type="hidden" name="member_id" value="{{ $one_user->id }}">
+                                @if ($background == 'white')
+                                  <div style='background-color:{{$background}}'>
+                                    <div>{{ $one_conflict->name }}</div>
+                                    <!-- <div>Conflict ID: {{ $one_link->conflict_id }}</div>
+                                    <div>Member ID: {{ $one_user->id }}</div> -->
+                                    <button
+                                      class="btn btn-danger"
+                                      type="submit">
+                                      X
+                                    </button>
+                                  </div>
+                                  @php
+                                    $background = 'rgba(52,144,220,0.2)'
+                                  @endphp
+                                @else
+                                  <div style='background-color:{{ $background }}'>
+                                    <div>{{ $one_conflict->name }}</div>
+                                    <!-- <div>Conflict ID: {{ $one_link->conflict_id }}</div>
+                                    <div>Member ID: {{ $one_user->id }}</div> -->
+                                    <button
+                                      class="btn btn-danger"
+                                      type="submit">
+                                      X
+                                    </button>
+                                  </div>
+                                    @php
+                                      $background = 'white'
+                                    @endphp
+                                @endif
+                              </form>
+                            @endif
+                          @endforeach
+                        @endif
+                      @endforeach
+                      <div class="addTimeSpanBttn" data-addwarbttn="{{ $one_user->id }}">
+                        + Add Conflict
+                      </div>
+                      <div class="gotBox" data-addwarbox="{{ $one_user->id }}">
+                        <form method="POST" action="admin/member/add-conflict">
+                          @csrf
+                          <input
+                            type="hidden"
+                            name="member_id"
+                            value="{{ $one_user->id }}">
+                          <select name="selected_conflict">
+                            @foreach ($all_conflicts as $one_conflict)
+                              <option value="{{ $one_conflict->id }}">{{ $one_conflict->name }}</option>
+                            @endforeach
+                          </select>
+                          <button
+                            class="btn btn-success"
+                            type="submit"
+                            name="add_conflict_member">
+                            ADD
+                          </button>
+                        </form>
                       </div>
                     </div>
                     <div class="oneInfo">
@@ -254,7 +327,7 @@
                           value="{{ $one_user->id }}" />
                         <div class="detailGrid">
                           <div>
-                            Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
+                            + Is {{ $one_user->first_name }} {{ $one_user->last_name }} deceased?
                           </div>
                           <div>
                             <select name="is_deceased">
@@ -368,6 +441,37 @@
                         </button>
                       </form>
                     </div>
+                    <!-- <div class="oneInfo">
+                      <div class="infoTitle">
+                        Wars / Conflicts
+                      </div>
+                      @php
+                        $background = 'white';
+                      @endphp
+                      @foreach ($all_conflict_links as $one_link)
+                        @if ($one_user->id == $one_link->member_id)
+                          @foreach ($all_conflicts as $one_conflict)
+                            @if ($one_conflict->id == $one_link->conflict_id)
+                              @if ($background == 'white')
+                                <div style='background-color:{{$background}}'>
+                                  {{ $one_conflict->name }}
+                                </div>
+                                @php
+                                  $background = 'rgba(52,144,220,0.2)'
+                                @endphp
+                              @else
+                                <div style='background-color:{{ $background }}'>
+                                  {{ $one_conflict->name }}
+                                </div>
+                                  @php
+                                    $background = 'white'
+                                  @endphp
+                              @endif
+                            @endif
+                          @endforeach
+                        @endif
+                      @endforeach
+                    </div> -->
                     </br>
                     </br>
                     <div class="oneInfo">

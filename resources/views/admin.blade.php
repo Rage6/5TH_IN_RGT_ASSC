@@ -749,49 +749,54 @@
                             <div class="infoTitle">
                               Other Details
                             </div>
-                            <div>
-                              If {{ $one_casualty->first_name }} {{ $one_casualty->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
+                            <div data-gotmedalbttn="{{ $one_casualty->id }}" class="gotBttn">
+                              + Earned the Congressional Medal of Honor (CMOH)?
                             </div>
-                            <div>
-                              @php
-                                $current_recipient_id = null;
-                                foreach ($all_recipients as $one_recipient) {
-                                  if ($one_recipient->id == $one_casualty->moh_id) {
-                                    $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
-                                    $current_recipient_id = $one_recipient->id;
+                            <div data-gotmedalbox="{{ $one_casualty->id }}" class="gotBox">
+                              <div>
+                                If {{ $one_casualty->first_name }} {{ $one_casualty->last_name }} earned the Congressional Medal of Honor (CMOH), please select him from our CMOH records.
+                              </div>
+                              <div>
+                                @php
+                                  $current_recipient_id = null;
+                                  foreach ($all_recipients as $one_recipient) {
+                                    if ($one_recipient->id == $one_casualty->moh_id) {
+                                      $current_recipient_name = $one_recipient->last_name.", ".$one_recipient->first_name;
+                                      $current_recipient_id = $one_recipient->id;
+                                    };
                                   };
-                                };
-                              @endphp
-                              <select class="detailMOH" name="recipient_to_casualty">
-                                @if ($current_recipient_id == null)
-                                  <option value="null" selected>
-                                    N/A
-                                  </option>
-                                @else
-                                  <option value="{{ $current_recipient_id }}" selected>
-                                    {{ $current_recipient_name }}
-                                  </option>
-                                  <option value="null">N/A</option>
-                                @endif
-                                @foreach ($all_recipients as $one_recipient)
-                                  @if ($one_recipient->member_id != $one_user->id)
-                                    <option value="{{ $one_recipient->id }}">
-                                      {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                @endphp
+                                <select class="detailMOH" name="recipient_to_casualty">
+                                  @if ($current_recipient_id == null)
+                                    <option value="null" selected>
+                                      N/A
                                     </option>
+                                  @else
+                                    <option value="{{ $current_recipient_id }}" selected>
+                                      {{ $current_recipient_name }}
+                                    </option>
+                                    <option value="null">N/A</option>
                                   @endif
-                                @endforeach
-                              </select>
+                                  @foreach ($all_recipients as $one_recipient)
+                                    @if ($one_recipient->member_id != $one_user->id)
+                                      <option value="{{ $one_recipient->id }}">
+                                        {{ $one_recipient->last_name }}, {{ $one_recipient->first_name }}
+                                      </option>
+                                    @endif
+                                  @endforeach
+                                </select>
+                              </div>
+                              <div class="detailNote">
+                                 <u>NOTE</u>: Cannot find a certain recipient on the CMOH list? Enter their information onto the "Medal of Honor Recipients" box below.
+                              </div>
+                              </br>
+                              <button
+                                class="btn btn-success"
+                                type="submit"
+                                name="casualty_details">
+                                CHANGE
+                              </button>
                             </div>
-                            <div class="detailNote">
-                               <u>NOTE</u>: Cannot find a certain recipient on the CMOH list? Enter their information onto the "Medal of Honor Recipients" box below.
-                            </div>
-                            </br>
-                            <button
-                              class="btn btn-success"
-                              type="submit"
-                              name="casualty_details">
-                              CHANGE
-                            </button>
                           </form>
                         </div>
                         </br>
@@ -820,6 +825,68 @@
                               </form>
                             </div>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  @endforeach
+                </div>
+              </div>
+            </div>
+            <div class="card adminCard">
+              <div class="card-header">
+                CONFLICTS
+              </div>
+              <div class="card-body">
+                <div class="addMemberSection">
+                  <div class="addMemberBttn" data-addbttn="conflict">
+                    <div>
+                      +
+                    </div>
+                  </div>
+                  <div class="addMemberInfo" data-addbox="conflict">
+                    <form method="POST" action="admin/conflict/add">
+                      @csrf
+                      <input
+                        type="text"
+                        name="conflict_name"
+                        required
+                        placeholder="Conflict Name" />
+                      <input
+                        type="number"
+                        min="1808"
+                        name="start_year"
+                        required
+                        placeholder="Start Year" />
+                      <input
+                        type="number"
+                        name="end_year"
+                        placeholder="End Year" />
+                      <input class="addSubmitBttn" type="submit" value="ENTER" />
+                    </form>
+                  </div>
+                </div>
+                <div class="allRecipientCard">
+                  @foreach ($all_conflicts as $one_conflict)
+                    <div class="oneMemberCard">
+                      <button
+                        data-conflictbttn="{{ $one_conflict->id }}"
+                        type="button"
+                        class="btn btn-primary oneMemberButton">
+                        {{ $one_conflict->name }}
+                      </button>
+                      <div class="oneMemberInfo" data-conflictbox="{{ $one_conflict->id }}">
+                        <div class="oneInfo">
+                          <form method="POST" action="admin/conflict/change">
+                            @csrf
+                            <input type="hidden" name="conflict_id" value="{{ $one_conflict->id }}">
+                            <div class="infoTitle">Name</div>
+                            <input type="text" name="name" value="{{ $one_conflict->name }}">
+                            <div class="infoTitle">Start Year</div>
+                            <input type="text" name="start_year" value="{{ $one_conflict->start_year }}">
+                            <div class="infoTitle">End Year</div>
+                            <input type="text" name="end_year" value="{{ $one_conflict->end_year }}">
+                            <button type="submit" name="changeEmail" class="btn btn-success"/>CHANGE</button>
+                          </form>
                         </div>
                       </div>
                     </div>

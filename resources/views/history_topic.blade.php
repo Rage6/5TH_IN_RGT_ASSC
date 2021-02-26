@@ -88,7 +88,7 @@
                 The following is a description of the battle in Ben Cui on August 21st, 1968. It is based on the Combat Operations Report (COR) submitted by by 1LT Arthur B. Cook Jr on Sept. 1st, 1968. It is a compilation of eyewitness reports from the leaders and men at the battle.
               </i>
             </p>
-            <div class="benCuiAlbumRow">
+            <div class="benCuiAlbumRow benCuiRight">
               <a href="{{ url('/history/album/ben-cui') }}">
                 <div class="benCuiAlbumBttn">
                   <div>BEN CUI</div>
@@ -99,17 +99,17 @@
             <p>
               <span style="font-size:1.8rem">A</span>t 210640 August 1968 company C 1st Bn (Mech), 5th Infantry departed  Dau Tieng base camp with the mission of sweeping from Dau Tieng to  XT 420445, staying approximately 1000 meters to the south of route 239.  The scout platoon, with the 3rd brigade CRIP and one twin 40mm self propelled weapon attached departed Dau Tieng at 210658 August 1968 to sweep and outpost the MSR from Dau Tieng to XT 371424. The two units were to move abreast on parallel routes in order to provide additional security for the units.
             </p>
-            <!-- <div class="benCuiAlbumRow">
-              <a href="{{ url('/history/album/ben-cui') }}">
-                <div class="benCuiAlbumBttn">
-                  <div>BEN CUI</div>
-                  <div>PHOTOS</div>
-                </div>
-              </a>
-            </div> -->
             <p>
               At 0813 hours the scout platoon was located at XT 463468.  Company C had moved to the south and at XT 473456. Both units reported no enemy contact.  Company C was moving with two rifle teams abreast. The 1st platoon on the right was led by SSG Lang, while the 3rd platoon on the left was led by 1LT Cook.  Each platoon's personnel carriers followed the dismounted elements of the platoon.  The Company commander 1LT Snodgrass, moved on foot, and alternated his position between the lead platoons.
             </p>
+            <div class="benCuiAlbumRow benCuiLeft">
+              <a href="{{ url('/history/topic/presidential-citation') }}">
+                <div class="benCuiAlbumBttn presSeal">
+                  <div style="font-size:2rem">Presidential</div>
+                  <div>Citation</div>
+                </div>
+              </a>
+            </div>
             <p>
               At 0831 hours the scout dog with the point element of the company alerted.  The handler stated that he thought that there might be a large number of personel to the southwest.  The battalion S-3 in the OH-23 helicopter made a low VR of the area concerned but could locate nothing unusual.  It was concluded that the dao had probably alerted to the presence of civilians in the village at XT 464448.  The Company commander then adjustd 81mm mortar fire into the rubber plantation to his front, with negative results.
             </p>
@@ -155,6 +155,116 @@
             <p>
               1200 hours the scout platoon was heavily engaged from the south, and observed an estimated eneemy platoon maneuvering to block route 239 to the north of the scout platoon.   At this time the scout platoon was ordered to move east through the village at XT 463448 and to link up with company C at the landing zone.  This movement resulted in a short anvance by the enemy, followed by a halt of his advance.  Following th Medical evacuation of casualties, all unit were ordered by the commanding officer to return to Dau Tieng to regroup and to prepare to return to the Ben Cui plantation to continue the contact. Th scout platoon was subsequently oreder to return to the eastern edge of th rubber.  At 1600 hours all elements were ordered to return to Dau Tieng.
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
+@section('presidential_citation_content')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <a href="{{ url('/history/topic/ben-cui-battle') }}">
+          <div>
+            <div> RETURN </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="timeSegment topicSegment">
+        <div class="segmentTitle"><u>Presidential Unit Citation</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p>
+              <i>
+                What follows is the official presidential unit citation, awarded by President Nixon and certified by the Secretary of Defense on Nov. 25th, 1969.
+              </i>
+            </p>
+            <p>
+              By virtue of the authority vested in me as President of the United States and as Commander-in-Chief of the Armed Forces of the United States, I have today awarded
+            </p>
+            <p>
+              THE PRESIDENTIAL UNIT CITATION (ARMY)
+            </p>
+            <p>
+              FOR EXTRAORDINARY HEROISM
+            </p>
+            <ul>
+              <li>
+                1ST BATTALION (MECHANIZED) 5TH INFANTRY, 25TH INFANTRY DIVISION
+              </li>
+            </ul>
+            <p>
+              AND THE FOLLOWING ATTACHED UNITS:
+            </p>
+            <ul>
+              <li>
+                1ST PLATOON, TROOP A, 3D SQUADRON, 4TH CAVALRY
+              </li>
+              <li>
+                38TH INFANTRY PLATOON (SCOUT DOG)
+              </li>
+              <li>
+                3D PLATOON, COMPANY A, 65TH ENGINEER BATTALION
+              </li>
+              <li>
+                1ST PLATOON, BATTERY B
+              </li>
+              <li>
+                5TH BATTALION (AW)(SP), 2D ARTILLERY
+              </li>
+              <li>
+                5TH SECTION(-), BATTERY D, 7TH ARTILLERY
+              </li>
+              <li>
+                44TH INFANTRY PLATOON(-)(SCOUT DOG)
+              </li>
+              <li>
+                BATTERY A(-), 7TH BATTALION, 11TH ARTILLERY
+              </li>
+            </ul>
+            <div class="benCuiAlbumRow benCuiRight">
+              <a href="../../../images/history/topics/ben_cui/pres_cit.jpg" target="_blank">
+                <div class="presSeal presCitationBttn">
+                  <div style="font-size:2rem">
+                    <div>Official</div>
+                    <div>Citation</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p>
+              The 1st Battalion (Mechanized), 5th Infantry, 25th Infantry Division and its attached units distinguishedthemselves by extraordinary heroism in combat operations against numerically superior enemy forces in the Republic of Vietnam from 18 August to 20 September 1968. During this period, the 1st Battalion Task Force, through reconnaissance in force, ambush, counterambush and reaction missions, effectively destroyed a regimental size enemy force and preventing the enemy from seizing the initiative inits "third offensive." The officers and men of the Task Force displayed outstanding bravery, high morale and exemplary esprit de corps in fierce hand-to-hand combat and couter offensive action against well-disciplined, heavily armed and entrenched enemy forces.
+            </p>
+              <div class="benCuiAlbumRow benCuiLeft">
+                <a href="../../../images/history/topics/ben_cui/pres_cit_cert.jpg" target="_blank">
+                  <div class="presCitationBttn secOfArmySeal">
+                    <div>
+                      <div>Official</div>
+                      <div style="font-size:2rem">Certification</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <p> An example of the outstanding bravery and aggressiveness occurred on 21 August during a reconnaissance in force mission. The lead element of Company C, 1st Battalion came under heavy mortar, rocket propelled grenade, machine gun and automatic weapons fires. The company deployed against the enemy force while the scourt platoon protected the company flank and prevented reinforcement by a battalion sized enemy unit. Through skillful use of close supporting fires from artillery, helicopter gunship and tactical air, the officers and men of the Task Force repulsed "human waves" counterattacks and defeated a numerically superior enemy forces, which left one hundred and eighty-two dead on the battlefield. The individual acts of gallantry, the teamwork and the aggressiveness of the officers and men of the 1st Battalion Task Force continued throughout the period of prolonged combat operations, resulting in the resounding defeat of enemy forces in their operational area. The heroic efforts, extraordinary bravery and professional competence displayed by the men of the 1st Battalion, 5th Infantry and attached units are in the highest traditions of the military service and reflect great credit upon themselves, their unis and the Armed Forcesof the United States.
+            </p>
+            <p>
+              Richard Nixon
+            </p>
+            <div>
+                <p>
+                  >> For a printable copy of the Presidential Unit Citation (PUC), click <a href="https://www.scribd.com/doc/174165023/puc-text?secret_password=1mwwt7r2bjlsw4in46jl#from_embed" target="_blank"><u>here</u></a>
+                </p>
+              </a>
+                <p>
+                  >> For a printable copy of the Certification of the PUC, click <a href="https://www.scribd.com/doc/174165023/puc-text?secret_password=1mwwt7r2bjlsw4in46jl#from_embed" target="_blank"><u>here</u></a>
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -84,7 +84,11 @@ class AdminController extends Controller
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients','all_casualties'));
+        $all_conflicts = DB::table('conflicts')
+          ->select('id','name','start_year','end_year')
+          ->orderBy('start_year')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts'));
       } else {
         return redirect('/');
       };
@@ -391,6 +395,40 @@ class AdminController extends Controller
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))
         ->delete();
+      return redirect('home/admin');
+    }
+
+    public function addConflict(Request $request)
+    {
+      DB::table('conflicts')
+        ->insert([
+          'name'=>Request::input('conflict_name'),
+          'start_year'=>Request::input('start_year'),
+          'end_year'=>Request::input('end_year')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function changeConflict(Request $request)
+    {
+      DB::table('conflicts')
+        ->where('id','=',Request::input('conflict_id'))
+        ->update([
+          'name' => Request::input('name'),
+          'start_year' => Request::input('start_year'),
+          'end_year' => Request::input('end_year')
+        ]);
+      return redirect('home/admin');
+    }
+
+    public function deleteConflict(Request $request)
+    {
+      DB::table('conflicts')
+        ->insert([
+          'name'=>Request::input('conflict_name'),
+          'start_year'=>Request::input('start_year'),
+          'end_year'=>Request::input('end_year')
+        ]);
       return redirect('home/admin');
     }
 

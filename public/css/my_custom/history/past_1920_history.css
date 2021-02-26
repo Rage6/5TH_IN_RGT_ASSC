@@ -116,7 +116,17 @@ body {
 }
 
 .benCuiAlbumRow {
-  padding-left: 3%;
+  /* padding-left: 3%; */
   display: block;
+  /* float: right; */
+}
+
+.benCuiRight {
+  padding-left: 3%;
   float: right;
+}
+
+.benCuiLeft {
+  padding-right: 3%;
+  float: left;
 }

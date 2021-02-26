@@ -50,6 +50,11 @@ Route::prefix('/home')->group(function() {
       Route::post('/details','AdminController@casualtyDetails');
       Route::post('/delete','AdminController@deleteCasualty');
     });
+    Route::prefix('/conflict')->group(function () {
+      Route::post('/add','AdminController@addConflict');
+      Route::post('/change','AdminController@changeConflict');
+      Route::post('/delete','AdminController@deleteConflict');
+    });
   });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
@@ -72,6 +77,7 @@ Route::prefix('history')->group(function() {
   });
   Route::prefix('topic')->group(function() {
     Route::get('ben-cui-battle','HistoryTopicController@ben_cui_battle');
+    Route::get('presidential-citation','HistoryTopicController@presidential_citation');
     Route::get('michelin-rubber-plant-battle','HistoryTopicController@michelin_rubber_plant_battle');
     Route::get('the-rifle-and-the-myth','HistoryTopicController@the_rifle_and_the_myth');
   });

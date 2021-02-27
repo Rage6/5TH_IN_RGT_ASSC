@@ -75,12 +75,12 @@ class AdminController extends Controller
           $next_raw_num++;
         };
         $all_recipients = DB::table('recipients')
-          ->select('id','first_name','last_name','rank','conflict','action_date','place','citation','posthumous','member_id')
+          ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','middle_name','last_name','rank','conflict','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id')
+          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -237,7 +237,7 @@ class AdminController extends Controller
           'first_name' => Request::input('first_name'),
           'last_name' => Request::input('last_name'),
           'rank' => Request::input('rank'),
-          'conflict' => Request::input('conflict'),
+          'conflict_id' => Request::input('conflict'),
           'action_date' => Request::input('action_date'),
           'place' => Request::input('place'),
           'citation' => Request::input('citation'),
@@ -266,7 +266,7 @@ class AdminController extends Controller
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
         ->update([
-          'conflict' => Request::input('conflict')
+          'conflict_id' => Request::input('conflict')
         ]);
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
@@ -308,6 +308,7 @@ class AdminController extends Controller
           'last_name' => Request::input('last_name'),
           'rank' => Request::input('rank'),
           'conflict' => Request::input('conflict'),
+          'conflict_id' => Request::input('conflict'),
           'day_of_death' => Request::input('day_of_death'),
           'month_of_death' => Request::input('month_of_death'),
           'year_of_death' => Request::input('year_of_death'),
@@ -346,7 +347,7 @@ class AdminController extends Controller
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))
         ->update([
-          'conflict' => Request::input('conflict')
+          'conflict_id' => Request::input('conflict')
         ]);
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))

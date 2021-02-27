@@ -271,7 +271,7 @@ class AdminController extends Controller
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
         ->update([
-          'rank' => Request::input('action_date')
+          'action_date' => Request::input('action_date')
         ]);
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
@@ -307,7 +307,6 @@ class AdminController extends Controller
           'middle_name' => Request::input('middle_name'),
           'last_name' => Request::input('last_name'),
           'rank' => Request::input('rank'),
-          'conflict' => Request::input('conflict'),
           'conflict_id' => Request::input('conflict'),
           'day_of_death' => Request::input('day_of_death'),
           'month_of_death' => Request::input('month_of_death'),

@@ -260,8 +260,9 @@
                                 <input type="hidden" name="conflict_id" value="{{ $one_link->conflict_id }}">
                                 <input type="hidden" name="member_id" value="{{ $one_user->id }}">
                                 @if ($background == 'white')
-                                  <div style='background-color:{{$background}}'>
-                                    <div>{{ $one_conflict->name }}</div>
+                                  <div
+                                    class="oneTimeSpan"
+                                    style='background-color:{{$background}}'>
                                     <!-- <div>Conflict ID: {{ $one_link->conflict_id }}</div>
                                     <div>Member ID: {{ $one_user->id }}</div> -->
                                     <button
@@ -269,6 +270,7 @@
                                       type="submit">
                                       X
                                     </button>
+                                    <div>{{ $one_conflict->name }}</div>
                                   </div>
                                   @php
                                     $background = 'rgba(52,144,220,0.2)'
@@ -541,11 +543,15 @@
                         name="rank"
                         required
                         placeholder="Rank during event" />
-                      <input
-                        type="text"
+                      <select
                         name="conflict"
-                        required
-                        placeholder="War, campaign, conflict, etc." />
+                        required>
+                        @foreach ($all_conflicts as $one_conflict)
+                          <option value="{{ $one_conflict->id }}">
+                            {{ $one_conflict->name }}
+                          </option>
+                        @endforeach
+                      </select>
                       <input
                         type="text"
                         name="action_date"
@@ -610,11 +616,22 @@
                             required
                             value="{{ $one_recipient->rank }}" />
                           <div class="infoTitle">Conflict</div>
-                          <input
-                            type="text"
-                            name="conflict"
-                            required
-                            value="{{ $one_recipient->conflict }}" />
+                          <select name="conflict">
+                            @foreach ($all_conflicts as $find_conflict)
+                              @if ($one_recipient->conflict_id == $find_conflict->id)
+                                <option value="{{ $find_conflict->id }}">
+                                  {{ $find_conflict->name }}
+                                </option>
+                              @endif
+                            @endforeach
+                            @foreach ($all_conflicts as $find_conflict)
+                              @if ($one_recipient->conflict_id != $find_conflict->id)
+                                <option value="{{ $find_conflict->id }}">
+                                  {{ $find_conflict->name }}
+                                </option>
+                              @endif
+                            @endforeach
+                          </select>
                           <div class="infoTitle">Date of Event</div>
                           <input
                             type="text"
@@ -715,11 +732,15 @@
                         type="text"
                         name="rank"
                         placeholder="Rank" />
-                      <input
-                        type="text"
+                      <select
                         name="conflict"
-                        required
-                        placeholder="War, campaign, or conflict" />
+                        required>
+                        @foreach ($all_conflicts as $one_conflict)
+                          <option value="{{ $one_conflict->id }}">
+                            {{ $one_conflict->name }}
+                          </option>
+                        @endforeach
+                      </select>
                       <div class="dateDeathTitle">
                         DATE OF DEATH
                       </div>
@@ -800,7 +821,22 @@
                             <div class="infoTitle">Rank</div>
                             <input type="text" name="rank" value="{{ $one_casualty->rank }}">
                             <div class="infoTitle">Conflict</div>
-                            <input type="text" name="conflict" value="{{ $one_casualty->conflict }}">
+                            <select name="conflict">
+                              @foreach ($all_conflicts as $find_conflict)
+                                @if ($one_casualty->conflict_id == $find_conflict->id)
+                                  <option value="{{ $find_conflict->id }}">
+                                    {{ $find_conflict->name }}
+                                  </option>
+                                @endif
+                              @endforeach
+                              @foreach ($all_conflicts as $find_conflict)
+                                @if ($one_casualty->conflict_id != $find_conflict->id)
+                                  <option value="{{ $find_conflict->id }}">
+                                    {{ $find_conflict->name }}
+                                  </option>
+                                @endif
+                              @endforeach
+                            </select>
                             <div class="infoTitle">Date of Death (MM/DD/YYYY)</div>
                             <div class="dateDeath">
                               <input
@@ -948,6 +984,9 @@
                     </div>
                   </div>
                   <div class="addMemberInfo" data-addbox="conflict">
+                    <div>
+                      <u>NOTE:</u> Specific battles should be recorded "Overall conflict - Specific battle". For example, the Battle of Lundy Lane would be recorded as "War of 1812 - Battle of Lundy's Lane".
+                    </div>
                     <form method="POST" action="admin/conflict/add">
                       @csrf
                       <input

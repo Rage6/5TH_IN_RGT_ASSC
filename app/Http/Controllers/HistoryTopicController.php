@@ -15,12 +15,15 @@ class HistoryTopicController extends Controller
     public function ben_cui_battle()
     {
      $ben_cui_casualties = DB::table('casualties')
-      ->select('id','first_name','last_name')
+      ->join('conflicts','conflicts.id','casualties.conflict_id')
+      ->select('casualties.id','rank','first_name','last_name','name')
+      ->where('name','like','%Ben Cui%')
       ->get();
      return view('history_topic',[
        'style' => 'history_style',
        'js' => '/js/my_custom/history/history.js',
-       'content' => 'ben_cui_battle_content'
+       'content' => 'ben_cui_battle_content',
+       'ben_cui_casualties' => $ben_cui_casualties
      ]);
     }
 

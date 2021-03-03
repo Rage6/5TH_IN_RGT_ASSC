@@ -470,3 +470,61 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+.casualtyBox {
+  margin-bottom: 20px;
+  border: 1px solid darkgrey;
+  display: block;
+  width: 40%;
+}
+
+.casualtyTitle {
+  border-bottom: 1px solid darkgrey;
+  padding: 10px 3%;
+  text-align: center;
+  color: purple;
+  font-size: 1.5rem;
+  background-color: gold;
+}
+
+.casualtyList {
+  padding: 10px 3% 10px 11%;
+  background: linear-gradient(90deg, white, white 10%, purple 10%, purple 90%, white 90%, white);
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.oneCasualty {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: gold;
+  font-size: 1.1rem;
+}
+
+.fullArrow {
+  border: 1px solid gold;
+  border-radius: 30px;
+  padding: 5px;
+  display: block;
+  background-color: purple;
+  height: 15px;
+  width: 15px;
+}
+
+.topArrowHalf {
+  background: linear-gradient(45deg, transparent, transparent 40%, gold 40%, gold 60%, transparent 60%, transparent);
+  height: 50%;
+}
+
+.bottomArrowHalf {
+  background: linear-gradient(-45deg, transparent, transparent 40%, gold 40%, gold 60%, transparent 60%, transparent);
+  height: 50%;
+}
+
+/* .shadeBottom {
+  position: relative;
+  top: -20px;
+  background: linear-gradient(0deg, white, transparent);
+  height: 20px;
+} */

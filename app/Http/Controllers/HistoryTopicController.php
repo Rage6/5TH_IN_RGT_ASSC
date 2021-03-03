@@ -18,6 +18,7 @@ class HistoryTopicController extends Controller
       ->join('conflicts','conflicts.id','casualties.conflict_id')
       ->select('casualties.id','rank','first_name','last_name','name')
       ->where('name','like','%Ben Cui%')
+      ->orderBy('casualties.last_name')
       ->get();
      return view('history_topic',[
        'style' => 'history_style',

@@ -43,9 +43,7 @@
 }
 
 .benCuiAlbumRow {
-  /* padding-left: 3%; */
   display: block;
-  /* float: right; */
 }
 
 .benCuiRight {
@@ -56,4 +54,9 @@
 .benCuiLeft {
   padding-right: 3%;
   float: left;
+}
+
+.casualtyBox {
+  margin-left: 2%;
+  float: right;
 }

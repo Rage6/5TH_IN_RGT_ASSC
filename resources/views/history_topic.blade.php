@@ -122,6 +122,24 @@
             <p>
               Company C located and destroyed a mine at XT 476454 at 0914 hours. The company then shifted to the westto move out of the open area into the rubber.  The company continued moving south Until it made a turn to to the west astride the trail leading fron XT 470444 to 463444.  The company moved to the west with one lead platoon on each side of the trail. The scout dog with it's security element was moving ahead of the platoon security by approximatelt 30 meters.
             </p>
+            <div class="casualtyBox">
+              <div class="casualtyTitle">The Men Lost</div>
+              <div class="casualtyList">
+              @foreach ($ben_cui_casualties as $one_casualty)
+                <div class="oneCasualty" data-casualtyid="{{ $one_casualty->id }}">
+                  <div>
+                    {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                  </div>
+                  <div class="fullArrow">
+                    <div class="topArrowHalf"></div>
+                    <div class="bottomArrowHalf"></div>
+                  </div>
+                </div>
+              @endforeach
+              <!-- <div class="shadeBottom">
+              </div> -->
+              </div>
+            </div>
             <p>
               At 1012 hours, the scout platoon observed a red star cluster in the vincinity of the village at XT 463448.  The Scout platoon continued searching the village at XT 463448.  At 1035 hours company C called in a negative situation report and gave XT 462440 as the current location of the unit.
             </p>

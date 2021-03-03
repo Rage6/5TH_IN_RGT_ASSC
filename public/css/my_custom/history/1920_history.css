@@ -102,3 +102,12 @@
   padding-right: 3%;
   float: left;
 }
+
+.casualtyBox {
+  margin-left: 2%;
+  float: right;
+}
+
+.oneCasualty {
+  font-size: 1.2rem;
+}

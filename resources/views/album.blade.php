@@ -651,6 +651,156 @@
       </div>
       <div class="oneImgBox oddBox">
         <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc1.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc1.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            A recreation of the first enclosure of the Combat Operations Report (COR)
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc2.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc2.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Formation of C Company while movement to the south
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc3.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc3.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Formation of C Company while moving west
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc4.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc4.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Initial contact and immediate deployment
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc5.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc5.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Second defensive position
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc6.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc6.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Third defensive position
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc7.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc7.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Routes of withdrawal
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc8.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc8.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Plot of area of engagement
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc9.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc9.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Location of US KIA
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/topics/ben_cui/inc10.jpg" target="_blank">
+            <img src="../../../images/history/topics/ben_cui/inc10.jpg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Estimated enemy casualties
+          </div>
+        </div>
+        <div class="photographer">
+          Submitted by 1LT Arthur B. Cook (1968)
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
           <a href="../../../images/history/topics/ben_cui/cookreport2.jpg" target="_blank">
             <img src="../../../images/history/topics/ben_cui/cookreport2.jpg" />
           </a>

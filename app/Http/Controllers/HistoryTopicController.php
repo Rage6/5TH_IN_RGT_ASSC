@@ -33,6 +33,7 @@ class HistoryTopicController extends Controller
     {
      return view('history_topic',[
        'style' => 'history_style',
+       // 'style' => 'css.history',
        'js' => '/js/my_custom/history/history.js',
        'content' => 'presidential_citation_content'
      ]);

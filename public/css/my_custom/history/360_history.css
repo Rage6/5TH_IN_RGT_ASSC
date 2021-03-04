@@ -524,6 +524,39 @@ p {
   height: 50%;
 }
 
+.mohBttn {
+  justify-content: space-between;
+  background:
+    linear-gradient(
+      0deg,
+      transparent,
+      transparent 10%,
+      rgba(0,0,0,0.7) 15%,
+      rgba(0,0,0,0.7) 35%,
+      transparent 40%,
+      transparent 60%,
+      rgba(0,0,0,0.7) 65%,
+      rgba(0,0,0,0.7) 85%,
+      transparent 90%),
+    url("/images/history/designing-moh-square.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.mohBttn div {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.mohBttn div:first-child {
+  margin-top: 18%;
+  padding-bottom: 0;
+}
+
+.mohBttn div:last-child {
+  margin-bottom: 18%;
+}
+
 /* .shadeBottom {
   position: relative;
   top: -20px;

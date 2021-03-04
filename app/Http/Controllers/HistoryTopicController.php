@@ -21,7 +21,7 @@ class HistoryTopicController extends Controller
       ->where('name','like','%Ben Cui%')
       ->orderBy('casualties.last_name')
       ->get();
-     return view('history_topic_lists',[
+     return view('history_topic_ben_cui',[
        'style' => 'history_style',
        'js' => '/js/my_custom/history/history.js',
        'content' => 'ben_cui_battle_content',
@@ -33,7 +33,6 @@ class HistoryTopicController extends Controller
     {
      return view('history_topic',[
        'style' => 'history_style',
-       // 'style' => 'css.history',
        'js' => '/js/my_custom/history/history.js',
        'content' => 'presidential_citation_content'
      ]);

@@ -55,13 +55,21 @@
               At 0813 hours the scout platoon was located at XT 463468.  Company C had moved to the south and at XT 473456. Both units reported no enemy contact.  Company C was moving with two rifle teams abreast. The 1st platoon on the right was led by SSG Lang, while the 3rd platoon on the left was led by 1LT Cook.  Each platoon's personnel carriers followed the dismounted elements of the platoon.  The Company commander 1LT Snodgrass, moved on foot, and alternated his position between the lead platoons.
             </p>
             <div class="benCuiAlbumRow benCuiLeft">
+              <a target="_blank" href="http://bobcat.ws/marvin-rex-young-tribute.html">
+                <div class="benCuiAlbumBttn mohBttn">
+                  <div>Medal of Honor Recipient</div>
+                  <div>Marvin Rex Young</div>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="benCuiAlbumRow benCuiLeft">
               <a href="{{ url('/history/topic/presidential-citation') }}">
                 <div class="benCuiAlbumBttn presSeal">
                   <div style="font-size:2rem">Presidential</div>
                   <div>Citation</div>
                 </div>
               </a>
-            </div>
+            </div> -->
             <p>
               At 0831 hours the scout dog with the point element of the company alerted.  The handler stated that he thought that there might be a large number of personel to the southwest.  The battalion S-3 in the OH-23 helicopter made a low VR of the area concerned but could locate nothing unusual.  It was concluded that the dao had probably alerted to the presence of civilians in the village at XT 464448.  The Company commander then adjustd 81mm mortar fire into the rubber plantation to his front, with negative results.
             </p>
@@ -104,6 +112,22 @@
             <p>
               The company commander, realizing he could not effectively employ his cal. 50 machine guns over his own troops, withdrew his troops to the line of personnel carriers, now dispersed along the east side of the north-south road.  Further, since enemy soldiers had been observed while attempting to envelop his right flank, the company commander ordered his reserve, the 2nd platoon to displace to the right rear of his 1st platoon. He then displaced his mortars to the rear to obtain overhead clearance in order that they could be employed.  During this period the unit employed all available weapons, to include M-72 laws to break up the enemy attack.
             </p>
+            <!-- <div class="benCuiAlbumRow benCuiLeft">
+              <a target="_blank" href="http://bobcat.ws/marvin-rex-young-tribute.html">
+                <div class="benCuiAlbumBttn mohBttn">
+                  <div>Medal of Honor Recipient</div>
+                  <div>Marvin Rex Young</div>
+                </div>
+              </a>
+            </div> -->
+            <div class="benCuiAlbumRow benCuiLeft">
+              <a href="{{ url('/history/topic/presidential-citation') }}">
+                <div class="benCuiAlbumBttn presSeal">
+                  <div style="font-size:2rem">Presidential</div>
+                  <div>Citation</div>
+                </div>
+              </a>
+            </div>
             <p>
               At 1135 hours the battalion S-3 urgently requested the gunships, which had ben previously requested but had not arrived.  The Artillery FO on the ground was attempting to get clearances to employ artillery.  At this time company C marked the unit position with purple smoke, and a few minutes later with yellow smoke.  The unit at this time was still defending along the road with the troops deployed with the troops personnel carriers.  The company continued to fire in this position for approximately 30 minutes.
             </p>

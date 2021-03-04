@@ -12,6 +12,7 @@ class HistoryTopicController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function ben_cui_battle()
     {
      $ben_cui_casualties = DB::table('casualties')
@@ -20,11 +21,11 @@ class HistoryTopicController extends Controller
       ->where('name','like','%Ben Cui%')
       ->orderBy('casualties.last_name')
       ->get();
-     return view('history_topic',[
+     return view('history_topic_lists',[
        'style' => 'history_style',
        'js' => '/js/my_custom/history/history.js',
        'content' => 'ben_cui_battle_content',
-       'ben_cui_casualties' => $ben_cui_casualties
+       'all_casualties' => $ben_cui_casualties
      ]);
     }
 

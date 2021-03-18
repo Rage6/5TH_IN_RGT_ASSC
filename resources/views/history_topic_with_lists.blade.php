@@ -62,14 +62,6 @@
                 </div>
               </a>
             </div>
-            <!-- <div class="benCuiAlbumRow benCuiLeft">
-              <a href="{{ url('/history/topic/presidential-citation') }}">
-                <div class="benCuiAlbumBttn presSeal">
-                  <div style="font-size:2rem">Presidential</div>
-                  <div>Citation</div>
-                </div>
-              </a>
-            </div> -->
             <p>
               At 0831 hours the scout dog with the point element of the company alerted.  The handler stated that he thought that there might be a large number of personel to the southwest.  The battalion S-3 in the OH-23 helicopter made a low VR of the area concerned but could locate nothing unusual.  It was concluded that the dao had probably alerted to the presence of civilians in the village at XT 464448.  The Company commander then adjustd 81mm mortar fire into the rubber plantation to his front, with negative results.
             </p>
@@ -112,14 +104,6 @@
             <p>
               The company commander, realizing he could not effectively employ his cal. 50 machine guns over his own troops, withdrew his troops to the line of personnel carriers, now dispersed along the east side of the north-south road.  Further, since enemy soldiers had been observed while attempting to envelop his right flank, the company commander ordered his reserve, the 2nd platoon to displace to the right rear of his 1st platoon. He then displaced his mortars to the rear to obtain overhead clearance in order that they could be employed.  During this period the unit employed all available weapons, to include M-72 laws to break up the enemy attack.
             </p>
-            <!-- <div class="benCuiAlbumRow benCuiLeft">
-              <a target="_blank" href="http://bobcat.ws/marvin-rex-young-tribute.html">
-                <div class="benCuiAlbumBttn mohBttn">
-                  <div>Medal of Honor Recipient</div>
-                  <div>Marvin Rex Young</div>
-                </div>
-              </a>
-            </div> -->
             <div class="benCuiAlbumRow benCuiLeft">
               <a href="{{ url('/history/topic/presidential-citation') }}">
                 <div class="benCuiAlbumBttn presSeal">

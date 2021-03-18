@@ -272,6 +272,11 @@ p {
   margin-bottom: 0px;
 }
 
+.segmentWords ul {
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+}
+
 .segmentLinks {
   /* margin: 30px 0; */
   font-size: 1.3rem;

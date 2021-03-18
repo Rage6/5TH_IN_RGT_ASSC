@@ -792,6 +792,19 @@
                         rows="5"
                         placeholder="Notes, comments, or descriptions">
                       </textarea>
+                      <div>
+                        <div class="gotBttn" data-linkbttn="casualties">
+                          + ADD LINK
+                        </div>
+                        <div class="linkBox">
+                          
+                        </div>
+                        <input
+                          class="linkIdList"
+                          type="hidden"
+                          name="link_id_list"
+                          value="" />
+                      </div>
                       <input class="addSubmitBttn" type="submit" value="ENTER" />
                     </form>
                   </div>

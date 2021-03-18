@@ -318,6 +318,7 @@ class AdminController extends Controller
           'burial_site' => Request::input('burial_site'),
           'comments' => Request::input('comments')
         ]);
+        $testing = Request::input('casualty_link');
       return redirect('home/admin');
     }
 

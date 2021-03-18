@@ -91,44 +91,43 @@
             <p>
               By virtue of the authority vested in me as President of the United States and as Commander-in-Chief of the Armed Forces of the United States, I have today awarded
             </p>
-            <p>
-              THE PRESIDENTIAL UNIT CITATION (ARMY)
+            <p style="text-align:center;font-size:1.5rem">
+              <u>The Presidential Unit Citation (Army)</u>
             </p>
             <p>
-              FOR EXTRAORDINARY HEROISM
+              For extraordinary heroism
             </p>
             <ul>
-              <li>
-                1ST BATTALION (MECHANIZED) 5TH INFANTRY, 25TH INFANTRY DIVISION
+              <li>1st Battalion (Mechanized) 5th Infantry, 25th Infantry Division
               </li>
             </ul>
             <p>
-              AND THE FOLLOWING ATTACHED UNITS:
+              and the following attached units:
             </p>
             <ul>
               <li>
-                1ST PLATOON, TROOP A, 3D SQUADRON, 4TH CAVALRY
+                1st Platoon, Troop A, 3D Squadron, 4th Cavalry
               </li>
               <li>
-                38TH INFANTRY PLATOON (SCOUT DOG)
+                38th Infantry Platoon (Scout Dog)
               </li>
               <li>
-                3D PLATOON, COMPANY A, 65TH ENGINEER BATTALION
+                3D Platoon, Company A, 65th Engineer Battalion
               </li>
               <li>
-                1ST PLATOON, BATTERY B
+                1st Platoon, Battery B
               </li>
               <li>
-                5TH BATTALION (AW)(SP), 2D ARTILLERY
+                5th Battalion (AW)(SP), 2D Artillery
               </li>
               <li>
-                5TH SECTION(-), BATTERY D, 7TH ARTILLERY
+                5th Section(-), Battery D, 7th Artillery
               </li>
               <li>
-                44TH INFANTRY PLATOON(-)(SCOUT DOG)
+                44th Infantry Platoon(-)(Scout Dog)
               </li>
               <li>
-                BATTERY A(-), 7TH BATTALION, 11TH ARTILLERY
+                Battery A(-), 7th Battalion, 11th Artillery
               </li>
             </ul>
             <div class="benCuiAlbumRow benCuiRight">

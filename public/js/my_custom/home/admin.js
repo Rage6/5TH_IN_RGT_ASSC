@@ -133,8 +133,8 @@ $(document).ready(() => {
     $(".linkIdList").val(currentList);
     $(".linkBox").append("\
       <div data-linkboxtype='casualty' data-linkboxnum='" + newIdNum + "'>\
-        <input type='text' name='cas_link_name' placeholder='Website Name' />\
-        <input type='text' name='casualty_link' placeholder='Website URL' />\
+        <input type='text' name='cas_link_name_"+newIdNum+"' placeholder='Link Name' />\
+        <input type='text' name='casualty_link_"+newIdNum+"' placeholder='Link URL' />\
         <div data-deletetype='casualty' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
       </div>");
     $('[data-deletetype][data-deletenum]').off('click');

@@ -797,8 +797,12 @@
                           + ADD LINK
                         </div>
                         <div class="linkBox">
-                          
+                          <!-- This is where the Link slots are added -->
                         </div>
+                        <input
+                          type="hidden"
+                          name="link_type"
+                          value="casualty" />
                         <input
                           class="linkIdList"
                           type="hidden"

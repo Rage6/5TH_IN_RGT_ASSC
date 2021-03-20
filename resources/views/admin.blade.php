@@ -574,6 +574,19 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
+                      <div>
+                        <div class="gotBttn" data-linkbttn="recipients">
+                          + ADD LINK
+                        </div>
+                        <div class="linkBox">
+                          <!-- This is where the Link slots are added -->
+                        </div>
+                        <input
+                          class="linkIdList"
+                          type="hidden"
+                          name="link_id_list"
+                          value="" />
+                      </div>
                       <input class="addSubmitBttn" type="submit" value="ENTER" />
                     </form>
                   </div>
@@ -799,10 +812,6 @@
                         <div class="linkBox">
                           <!-- This is where the Link slots are added -->
                         </div>
-                        <input
-                          type="hidden"
-                          name="link_type"
-                          value="casualty" />
                         <input
                           class="linkIdList"
                           type="hidden"

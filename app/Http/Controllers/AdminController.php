@@ -243,6 +243,19 @@ class AdminController extends Controller
           'citation' => Request::input('citation'),
           'posthumous' => Request::input('posthumous')
         ]);
+        $new_moh_id = DB::getPdo()->lastInsertId();
+        $link_id_list = Request::input('link_id_list');
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'moh_link_name_'.$one_link_id;
+          $link = 'recipient_link_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'moh_id' => $new_moh_id
+            ]);
+        };
       return redirect('home/admin');
     }
 
@@ -318,7 +331,19 @@ class AdminController extends Controller
           'burial_site' => Request::input('burial_site'),
           'comments' => Request::input('comments')
         ]);
-        $testing = Request::input('casualty_link');
+        $new_cas_id = DB::getPdo()->lastInsertId();
+        $link_id_list = Request::input('link_id_list');
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'cas_link_name_'.$one_link_id;
+          $link = 'casualty_link_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'casualty_id' => $new_cas_id
+            ]);
+        };
       return redirect('home/admin');
     }
 

@@ -108,57 +108,62 @@ $(document).ready(() => {
   });
 
   // Create slot to add links to casualty
-  $("[data-linkbttn='casualties']").click(()=>{
-    let currentList = $(".linkIdList").val();
-    let newIdNum;
-    if (currentList != '') {
-      currentArray = currentList.split(',');
-      let highestNum = 0;
-      for (let listNum = 0; listNum < currentArray.length; listNum++) {
-        let thisNum = parseInt(currentArray[listNum]);
-        if (highestNum < thisNum) {
-          highestNum = thisNum;
+  const makeAddLink = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
+    $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
+      let currentList = $(".linkIdList").val();
+      let newIdNum;
+      if (currentList != '') {
+        currentArray = currentList.split(',');
+        let highestNum = 0;
+        for (let listNum = 0; listNum < currentArray.length; listNum++) {
+          let thisNum = parseInt(currentArray[listNum]);
+          if (highestNum < thisNum) {
+            highestNum = thisNum;
+          };
         };
+        newIdNum = highestNum + 1;
+        newIdNumString = newIdNum.toString();
+      } else {
+        newIdNum = "1";
       };
-      newIdNum = highestNum + 1;
-      newIdNumString = newIdNum.toString();
-    } else {
-      newIdNum = "1";
-    };
-    if (currentList == '') {
-      currentList = newIdNum;
-    } else {
-      currentList = currentList.concat(",",newIdNumString);
-    };
-    $(".linkIdList").val(currentList);
-    $(".linkBox").append("\
-      <div data-linkboxtype='casualty' data-linkboxnum='" + newIdNum + "'>\
-        <input type='text' name='cas_link_name_"+newIdNum+"' placeholder='Link Name' />\
-        <input type='text' name='casualty_link_"+newIdNum+"' placeholder='Link URL' />\
-        <div data-deletetype='casualty' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
-      </div>");
-    $('[data-deletetype][data-deletenum]').off('click');
-    $('[data-deletetype][data-deletenum]').on('click',()=>{
-      let deleteType = event.target.dataset.deletetype;
-      let deleteNum = event.target.dataset.deletenum;
-      // Removes the element
-      $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
-      // Takes it off of the .linkIdList
-      let removedFromList = $(".linkIdList").val();
-      let cleanedArray = [];
-      let cleanedList = "";
-      let removedFromArray = removedFromList.split(',');
-      for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
-        if (removedFromArray[removalListNum] != deleteNum) {
-          cleanedArray.push(removedFromArray[removalListNum]);
-          cleanedList = cleanedArray.join();
+      if (currentList == '') {
+        currentList = newIdNum;
+      } else {
+        currentList = currentList.concat(",",newIdNumString);
+      };
+      $(".linkIdList").val(currentList);
+      $(".linkBox").append("\
+        <div data-linkboxtype='"+linkTypeSingular+"' data-linkboxnum='" + newIdNum + "'>\
+          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
+          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
+          <div data-deletetype='" + linkTypeSingular + "' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
+        </div>");
+      $('[data-deletetype][data-deletenum]').off('click');
+      $('[data-deletetype][data-deletenum]').on('click',()=>{
+        let deleteType = event.target.dataset.deletetype;
+        let deleteNum = event.target.dataset.deletenum;
+        // Removes the element
+        $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
+        // Takes it off of the .linkIdList
+        let removedFromList = $(".linkIdList").val();
+        let cleanedArray = [];
+        let cleanedList = "";
+        let removedFromArray = removedFromList.split(',');
+        for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
+          if (removedFromArray[removalListNum] != deleteNum) {
+            cleanedArray.push(removedFromArray[removalListNum]);
+            cleanedList = cleanedArray.join();
+          };
         };
-      };
-      $(".linkIdList").val(cleanedList);
+        $(".linkIdList").val(cleanedList);
+        console.log($(".linkIdList").val());
+      });
       console.log($(".linkIdList").val());
     });
-    console.log($(".linkIdList").val());
-  });
+  };
+
+  makeAddLink("casualties","casualty","cas");
+  makeAddLink("recipients","recipient","moh");
 
   // Open or close a MOH recipient's information
   $("[data-recipientbttn]").click(()=>{

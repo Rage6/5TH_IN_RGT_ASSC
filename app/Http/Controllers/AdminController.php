@@ -91,7 +91,10 @@ class AdminController extends Controller
         $all_conflict_links = DB::table('conflict_links')
           ->select('conflict_id','casualty_id','member_id','recipient_id')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links'));
+        $all_urls = DB::table('other_urls')
+          ->select('name','url','member_id','casualty_id','moh_id')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links','all_urls'));
       } else {
         return redirect('/');
       };

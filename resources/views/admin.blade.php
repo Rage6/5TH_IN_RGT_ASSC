@@ -575,6 +575,9 @@
                         <option value="0">NO</option>
                       </select>
                       <div>
+                        <div>
+                          <u>CUSTOM LINKS</u>
+                        </div>
                         <div class="gotBttn" data-linkbttn="recipients">
                           + ADD LINK
                         </div>
@@ -673,6 +676,15 @@
                                 <option value='1'>YES</option>
                             @endif
                           </select>
+                          <div>
+                            <u>CUSTOM LINKS</u>
+                          </div>
+                          @foreach ($all_urls as $one_url)
+                            @if ($one_recipient->id == $one_url->moh_id)
+                              <div>{{ $one_url->name }}</div>
+                              <div>{{ $one_url->url }}</div>
+                            @endif
+                          @endforeach
                           </br>
                           <button
                             class="btn btn-success"

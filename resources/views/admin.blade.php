@@ -679,12 +679,40 @@
                           <div>
                             <u>CUSTOM LINKS</u>
                           </div>
+                          @php
+                            $highest_num = 0;
+                            $link_list = "";
+                          @endphp
                           @foreach ($all_urls as $one_url)
                             @if ($one_recipient->id == $one_url->moh_id)
-                              <div>{{ $one_url->name }}</div>
-                              <div>{{ $one_url->url }}</div>
+                              @php
+                                $highest_num += 1;
+                                if ($link_list == "") {
+                                  $link_list = $link_list.$highest_num;
+                                } else {
+                                  $link_list = $link_list.",".$highest_num;
+                                };
+                              @endphp
+                              <div
+                                class="card"
+                                data-linkboxnum="{{ $highest_num }}"
+                                data-linkboxtype="moh">
+                                <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
+                                <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
+                                <div
+                                  class="btn btn-danger"
+                                  data-linkdeletenum="{{ $highest_num }}"
+                                  data-linkdeletetype="moh">
+                                  X
+                                </div>
+                              </div>
                             @endif
                           @endforeach
+                          <input
+                            data-linklist="moh"
+                            type="hidden"
+                            name="link_list"
+                            value="{{ $link_list }}" />
                           </br>
                           <button
                             class="btn btn-success"

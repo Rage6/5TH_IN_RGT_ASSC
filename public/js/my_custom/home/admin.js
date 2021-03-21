@@ -107,7 +107,7 @@ $(document).ready(() => {
     };
   });
 
-  // Create slot to add links to casualty
+  // Create slot to add links to new casualty or recipient
   const makeAddLink = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
     $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
       let currentList = $(".linkIdList").val();
@@ -164,6 +164,34 @@ $(document).ready(() => {
 
   makeAddLink("casualties","casualty","cas");
   makeAddLink("recipients","recipient","moh");
+
+  // Change the current links for a casualty or recipient
+
+  // Delete a link slot for a casualty or recipient
+  const deleteCurrentLink = (linkType) => {
+    $("[data-linkdeletetype='" + linkType + "']").click(()=>{
+      let linkNum = event.target.dataset.linkdeletenum;
+      console.log(linkNum);
+      let linkType = event.target.dataset.linkdeletetype;
+      console.log(linkType);
+      $("[data-linkboxnum='"+linkNum+"'][data-linkboxtype='"+linkType+"']").remove();
+      let currentList = $("[data-linklist='"+linkType+"']").val();
+      let currentArray = currentList.split(',');
+      let newList = "";
+      for (let checkNum = 0; checkNum < currentArray.length; checkNum++) {
+        if (currentArray[checkNum] != linkNum) {
+          if (newList == "") {
+            newList = currentArray[checkNum];
+          } else {
+            newList = newList + "," + currentArray[checkNum];
+          };
+        };
+      };
+      $("[data-linklist='"+linkType+"']").val(newList);
+    });
+  };
+
+  deleteCurrentLink("moh");
 
   // Open or close a MOH recipient's information
   $("[data-recipientbttn]").click(()=>{

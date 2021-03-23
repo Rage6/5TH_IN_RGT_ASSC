@@ -676,40 +676,50 @@
                                 <option value='1'>YES</option>
                             @endif
                           </select>
-                          <div>
-                            <u>CUSTOM LINKS</u>
+                          <div class="addLinkRow">
+                            <div>
+                              <u>CUSTOM LINKS</u>
+                            </div>
+                            <div class="addLinkBttn" data-buttontype="moh" data-boxid="{{ $one_recipient->id }}">
+                              <div>+</div>
+                            </div>
                           </div>
                           @php
                             $highest_num = 0;
                             $link_list = "";
                           @endphp
-                          @foreach ($all_urls as $one_url)
-                            @if ($one_recipient->id == $one_url->moh_id)
-                              @php
-                                $highest_num += 1;
-                                if ($link_list == "") {
-                                  $link_list = $link_list.$highest_num;
-                                } else {
-                                  $link_list = $link_list.",".$highest_num;
-                                };
-                              @endphp
-                              <div
-                                class="card"
-                                data-linkboxnum="{{ $highest_num }}"
-                                data-linkboxtype="moh">
-                                <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
-                                <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
+                          <div data-linkboxtype="moh" data-linkboxid="{{ $one_recipient->id }}">
+                            @foreach ($all_urls as $one_url)
+                              @if ($one_recipient->id == $one_url->moh_id)
+                                @php
+                                  $highest_num += 1;
+                                  if ($link_list == "") {
+                                    $link_list = $link_list.$highest_num;
+                                  } else {
+                                    $link_list = $link_list.",".$highest_num;
+                                  };
+                                @endphp
                                 <div
-                                  class="btn btn-danger"
-                                  data-linkdeletenum="{{ $highest_num }}"
-                                  data-linkdeletetype="moh">
-                                  X
+                                  class="card"
+                                  data-linkboxnum="{{ $highest_num }}"
+                                  data-linkboxtype="moh"
+                                  data-linkboxid="{{ $one_recipient->id }}">
+                                  <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
+                                  <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
+                                  <div
+                                    class="btn btn-danger"
+                                    data-linkdeletenum="{{ $highest_num }}"
+                                    data-linkdeletetype="moh"
+                                    data-linkdeleteid="{{ $one_recipient->id }}">
+                                    X
+                                  </div>
                                 </div>
-                              </div>
-                            @endif
-                          @endforeach
+                              @endif
+                            @endforeach
+                          </div>
                           <input
                             data-linklist="moh"
+                            data-linklistid="{{ $one_recipient->id }}"
                             type="hidden"
                             name="link_list"
                             value="{{ $link_list }}" />

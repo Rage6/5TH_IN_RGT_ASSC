@@ -107,8 +107,8 @@ $(document).ready(() => {
     };
   });
 
-  // Create slot to add links to new casualty or recipient
-  const makeAddLink = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
+  // Create link slots when adding a new casualty or recipient
+  const makeAddLinkForNew = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
     $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
       let currentList = $(".linkIdList").val();
       let newIdNum;
@@ -162,10 +162,11 @@ $(document).ready(() => {
     });
   };
 
-  makeAddLink("casualties","casualty","cas");
-  makeAddLink("recipients","recipient","moh");
+  makeAddLinkForNew("casualties","casualty","cas");
+  makeAddLinkForNew("recipients","recipient","moh");
 
-  // Change the current links for a casualty or recipient
+  // Create link slots for an existing casualty or recipient
+
 
   // Delete a link slot for a casualty or recipient
   const deleteCurrentLink = (linkType) => {
@@ -174,8 +175,10 @@ $(document).ready(() => {
       console.log(linkNum);
       let linkType = event.target.dataset.linkdeletetype;
       console.log(linkType);
-      $("[data-linkboxnum='"+linkNum+"'][data-linkboxtype='"+linkType+"']").remove();
-      let currentList = $("[data-linklist='"+linkType+"']").val();
+      let linkId = event.target.dataset.linkdeleteid;
+      console.log(linkId);
+      $("[data-linkboxnum='"+linkNum+"'][data-linkboxtype='"+linkType+"'][data-linkboxid='"+linkId+"']").remove();
+      let currentList = $("[data-linklist='"+linkType+"'][data-linklistid='"+linkId+"']").val();
       let currentArray = currentList.split(',');
       let newList = "";
       for (let checkNum = 0; checkNum < currentArray.length; checkNum++) {

@@ -160,6 +160,16 @@ class AdminController extends Controller
       DB::table('timespan')
         ->where('user_id','=',Request::input('member_id'))
         ->delete();
+      DB::table('recipients')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
+      DB::table('casualties')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->delete();
@@ -248,16 +258,18 @@ class AdminController extends Controller
         ]);
         $new_moh_id = DB::getPdo()->lastInsertId();
         $link_id_list = Request::input('link_id_list');
-        $link_id_array = explode(",",$link_id_list);
-        foreach($link_id_array as $one_link_id) {
-          $name = 'moh_link_name_'.$one_link_id;
-          $link = 'recipient_link_'.$one_link_id;
-          DB::table('other_urls')
-            ->insert([
-              'name' => Request::input($name),
-              'url' => Request::input($link),
-              'moh_id' => $new_moh_id
-            ]);
+        if ($link_id_list != "") {
+          $link_id_array = explode(",",$link_id_list);
+          foreach($link_id_array as $one_link_id) {
+            $name = 'moh_link_name_'.$one_link_id;
+            $link = 'recipient_link_'.$one_link_id;
+            DB::table('other_urls')
+              ->insert([
+                'name' => Request::input($name),
+                'url' => Request::input($link),
+                'moh_id' => $new_moh_id
+              ]);
+          };
         };
       return redirect('home/admin');
     }
@@ -324,6 +336,14 @@ class AdminController extends Controller
 
     public function deleteRecipient(Request $request)
     {
+      DB::table('other_urls')
+        ->where('moh_id','=',Request::input('recip_id'))
+        ->delete();
+      DB::table('casualties')
+        ->where('moh_id','=',Request::input('recip_id'))
+        ->update([
+          'moh_id' => NULL
+        ]);
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
         ->delete();
@@ -351,16 +371,18 @@ class AdminController extends Controller
         ]);
         $new_cas_id = DB::getPdo()->lastInsertId();
         $link_id_list = Request::input('link_id_list');
-        $link_id_array = explode(",",$link_id_list);
-        foreach($link_id_array as $one_link_id) {
-          $name = 'cas_link_name_'.$one_link_id;
-          $link = 'casualty_link_'.$one_link_id;
-          DB::table('other_urls')
-            ->insert([
-              'name' => Request::input($name),
-              'url' => Request::input($link),
-              'casualty_id' => $new_cas_id
-            ]);
+        if ($link_id_list != "") {
+          $link_id_array = explode(",",$link_id_list);
+          foreach($link_id_array as $one_link_id) {
+            $name = 'cas_link_name_'.$one_link_id;
+            $link = 'casualty_link_'.$one_link_id;
+            DB::table('other_urls')
+              ->insert([
+                'name' => Request::input($name),
+                'url' => Request::input($link),
+                'casualty_id' => $new_cas_id
+              ]);
+          };
         };
       return redirect('home/admin');
     }
@@ -491,6 +513,16 @@ class AdminController extends Controller
 
     public function deleteConflict(Request $request)
     {
+      DB::table('recipients')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
+      DB::table('casualties')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
       DB::table('conflicts')
         ->insert([
           'name'=>Request::input('conflict_name'),

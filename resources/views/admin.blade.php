@@ -856,6 +856,9 @@
                         placeholder="Notes, comments, or descriptions">
                       </textarea>
                       <div>
+                        <div>
+                          <u>CUSTOM LINKS</u>
+                        </div>
                         <div class="gotBttn" data-linkbttn="casualties">
                           + ADD LINK
                         </div>

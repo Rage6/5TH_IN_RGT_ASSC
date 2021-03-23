@@ -585,7 +585,7 @@
                           <!-- This is where the Link slots are added -->
                         </div>
                         <input
-                          class="linkIdList"
+                          class="mohLinkIdList"
                           type="hidden"
                           name="link_id_list"
                           value="" />
@@ -863,7 +863,7 @@
                           <!-- This is where the Link slots are added -->
                         </div>
                         <input
-                          class="linkIdList"
+                          class="casLinkIdList"
                           type="hidden"
                           name="link_id_list"
                           value="" />

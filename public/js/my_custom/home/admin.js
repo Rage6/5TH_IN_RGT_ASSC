@@ -110,7 +110,8 @@ $(document).ready(() => {
   // Create link slots when adding a new casualty or recipient
   const makeAddLinkForNew = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
     $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
-      let currentList = $(".linkIdList").val();
+      let thisLinkList = "." + linkTypeShort + "LinkIdList";
+      let currentList = $(thisLinkList).val();
       let newIdNum;
       if (currentList != '') {
         currentArray = currentList.split(',');
@@ -131,7 +132,7 @@ $(document).ready(() => {
       } else {
         currentList = currentList.concat(",",newIdNumString);
       };
-      $(".linkIdList").val(currentList);
+      $(thisLinkList).val(currentList);
       $(".linkBox").append("\
         <div data-linkboxtype='"+linkTypeSingular+"' data-linkboxnum='" + newIdNum + "'>\
           <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
@@ -145,7 +146,7 @@ $(document).ready(() => {
         // Removes the element
         $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
         // Takes it off of the .linkIdList
-        let removedFromList = $(".linkIdList").val();
+        let removedFromList = $(thisLinkList).val();
         let cleanedArray = [];
         let cleanedList = "";
         let removedFromArray = removedFromList.split(',');
@@ -155,10 +156,10 @@ $(document).ready(() => {
             cleanedList = cleanedArray.join();
           };
         };
-        $(".linkIdList").val(cleanedList);
-        console.log($(".linkIdList").val());
+        $(thisLinkList).val(cleanedList);
+        console.log($(thisLinkList).val());
       });
-      console.log($(".linkIdList").val());
+      console.log($(thisLinkList).val());
     });
   };
 

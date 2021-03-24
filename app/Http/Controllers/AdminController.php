@@ -330,16 +330,18 @@ class AdminController extends Controller
         ->where('moh_id','=',Request::input('recip_id'))
         ->delete();
       $link_list = Request::input('link_list');
-      $link_array = explode(",",$link_list);
-      foreach ($link_array as $one_link) {
-        $input_name = "link_name_".$one_link;
-        $input_url = "link_url_".$one_link;
-        DB::table('other_urls')
-        ->insert([
-          'name' => Request::input($input_name),
-          'url' => Request::input($input_url),
-          'moh_id' => Request::input('recip_id')
-        ]);
+      if ($link_list != "") {
+        $link_array = explode(",",$link_list);
+        foreach ($link_array as $one_link) {
+          $input_name = "link_name_".$one_link;
+          $input_url = "link_url_".$one_link;
+          DB::table('other_urls')
+          ->insert([
+            'name' => Request::input($input_name),
+            'url' => Request::input($input_url),
+            'moh_id' => Request::input('recip_id')
+          ]);
+        };
       };
       return redirect('home/admin');
     }

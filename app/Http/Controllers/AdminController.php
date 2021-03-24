@@ -176,19 +176,24 @@ class AdminController extends Controller
       return redirect('home/admin');
     }
 
-    public function changeDetails(Request $request)
+    public function stillAlive(Request $request)
     {
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->update([
           'deceased' => Request::input('is_deceased')
         ]);
-      DB::table('recipients')
-        ->where('recipients.member_id','=',Request::input('member_id'))
-        ->update([
-          'recipients.member_id' => NULL
-        ]);
+      return redirect('home/admin');
+    }
+
+    public function cmohConnection(Request $request)
+    {
       if (Request::input('recipient_id') != "null") {
+        DB::table('recipients')
+          ->where('recipients.member_id','=',Request::input('member_id'))
+          ->update([
+            'recipients.member_id' => NULL
+          ]);
         DB::table('recipients')
           ->where('recipients.id','=',Request::input('recipient_id'))
           ->update([
@@ -196,27 +201,32 @@ class AdminController extends Controller
           ]);
       } else {
         DB::table('recipients')
-          ->where('recipients.member_id','=',Request::input('recipient_id'))
+          ->where('recipients.member_id','=',Request::input('member_id'))
           ->update([
             'recipients.member_id' => NULL
           ]);
       };
-      DB::table('casualties')
-        ->where('casualties.member_id','=',Request::input('member_id'))
-        ->update([
-          'casualties.member_id' => NULL
-        ]);
+      return redirect('home/admin');
+    }
+
+    public function casualtyConnection(Request $request)
+    {
       if (Request::input('casualty_id') != "null") {
         DB::table('casualties')
-          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('member_id'))
+          ->update([
+            'casualties.member_id' => NULL
+          ]);
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
           ->update([
             'casualties.member_id' => Request::input('member_id')
           ]);
       } else {
         DB::table('casualties')
-          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('member_id'))
           ->update([
-            'casualties.member_id' => null
+            'casualties.member_id' => NULL
           ]);
       };
       return redirect('home/admin');

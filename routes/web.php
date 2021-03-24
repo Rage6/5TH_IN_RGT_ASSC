@@ -32,7 +32,9 @@ Route::prefix('/home')->group(function() {
     Route::prefix('/member')->group(function() {
       Route::post('/add','AdminController@addMember');
       Route::post('/delete','AdminController@deleteMember');
-      Route::post('/details','AdminController@changeDetails');
+      Route::post('/deceased','AdminController@stillAlive');
+      Route::post('/cmoh','AdminController@cmohConnection');
+      Route::post('/casualty','AdminController@casualtyConnection');
       Route::post('/add-conflict','AdminController@addConflictToMember');
       Route::post('/delete-conflict','AdminController@deleteConflictFromMember');
     });

@@ -321,7 +321,7 @@
                     </div>
                     <div class="oneInfo">
                       <div class="infoTitle">Other Details</div>
-                      <form method="POST" action="admin/member/details">
+                      <form method="POST" action="admin/member/deceased">
                         @csrf
                         <input
                           type="hidden"
@@ -343,6 +343,19 @@
                             </select>
                           </div>
                         </div>
+                        <button
+                          class="btn btn-success"
+                          type="submit"
+                          name="deceased_or_not">
+                          CHANGE
+                        </button>
+                      </form>
+                      <form method="POST" action="admin/member/cmoh">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="member_id"
+                          value="{{ $one_user->id }}" />
                         <div>
                           <div data-gotcmohbttn="{{ $one_user->id }}" class="gotBttn">
                             + Earned the Congressional Medal of Honor (CMOH)?
@@ -387,8 +400,22 @@
                                 @endif
                               @endforeach
                             </select>
+                            </br>
+                            <button
+                              class="btn btn-success"
+                              type="submit"
+                              name="cmoh_or_not">
+                              CHANGE
+                            </button>
                           </div>
                         </div>
+                      </form>
+                      <form method="POST" action="admin/member/casualty">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="member_id"
+                          value="{{ $one_user->id }}" />
                         <div>
                           <div data-gotkilledbttn="{{ $one_user->id }}" class="gotBttn">
                             + KIA, MIA, or Killed in service?
@@ -433,14 +460,15 @@
                                 @endif
                               @endforeach
                             </select>
+                            </br>
+                            <button
+                              class="btn btn-success"
+                              type="submit"
+                              name="cmoh_or_not">
+                              CHANGE
+                            </button>
                           </div>
                         </div>
-                        <button
-                          class="btn btn-success"
-                          type="submit"
-                          name="other_details">
-                          CHANGE
-                        </button>
                       </form>
                     </div>
                     <!-- <div class="oneInfo">

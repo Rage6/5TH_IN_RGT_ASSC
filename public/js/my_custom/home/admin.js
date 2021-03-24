@@ -226,32 +226,40 @@ $(document).ready(() => {
   });
 
   // Open or close connecting members to CMOH recipients
+  // $("[data-gotcmohbttn]").click(()=>{
+  //   let recipientId = event.target.dataset.gotcmohbttn;
+  //   if ($("[data-gotcmohbox='" + recipientId + "']").css('display') == 'none') {
+  //     $("[data-gotcmohbox='" + recipientId + "']").css('display','block');
+  //   } else {
+  //     $("[data-gotcmohbox='" + recipientId + "']").css('display','none');
+  //   };
+  // });
+
+  // Open or close connecting members to recipients
   $("[data-gotcmohbttn]").click(()=>{
     let recipientId = event.target.dataset.gotcmohbttn;
+    console.log(recipientId);
+    console.log($("[data-gotcmohbox='" + recipientId + "']").css('display'));
     if ($("[data-gotcmohbox='" + recipientId + "']").css('display') == 'none') {
       $("[data-gotcmohbox='" + recipientId + "']").css('display','block');
+      console.log("block");
     } else {
       $("[data-gotcmohbox='" + recipientId + "']").css('display','none');
+      console.log("none");
     };
   });
 
   // Open or close connecting members to casualties
   $("[data-gotkilledbttn]").click(()=>{
-    let recipientId = event.target.dataset.gotkilledbttn;
-    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
+    let casualtyId = event.target.dataset.gotkilledbttn;
+    console.log(casualtyId);
+    console.log($("[data-gotkilledbox='" + casualtyId + "']").css('display'));
+    if ($("[data-gotkilledbox='" + casualtyId + "']").css('display') == 'none') {
+      $("[data-gotkilledbox='" + casualtyId + "']").css('display','block');
+      console.log("block");
     } else {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
-    };
-  });
-
-  // Open or close connecting members to casualties
-  $("[data-gotkilledbttn]").click(()=>{
-    let recipientId = event.target.dataset.gotkilledbttn;
-    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
-    } else {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
+      $("[data-gotkilledbox='" + casualtyId + "']").css('display','none');
+      console.log("none");
     };
   });
 

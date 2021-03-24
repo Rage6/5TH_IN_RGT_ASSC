@@ -196,6 +196,7 @@ $(document).ready(() => {
   };
 
   deleteCurrentLink("moh");
+  deleteCurrentLink("casualties");
 
   // Open or close a MOH recipient's information
   $("[data-recipientbttn]").click(()=>{

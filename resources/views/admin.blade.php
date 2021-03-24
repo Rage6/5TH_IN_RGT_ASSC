@@ -983,6 +983,61 @@
                               name="comments"
                               rows="5">{{ $one_casualty->comments }}</textarea>
                             </br>
+
+                            <div class="addLinkRow">
+                              <div>
+                                <u>CUSTOM LINKS</u>
+                              </div>
+                              <div
+                                class="addLinkBttn"
+                                data-buttontype="casualties"
+                                data-boxid="{{ $one_casualty->id }}">
+                                <div>+</div>
+                              </div>
+                            </div>
+                            @php
+                              $highest_cas_num = 0;
+                              $cas_link_list = "";
+                            @endphp
+                            <div
+                              data-linkboxtype="casualties"
+                              data-linkboxid="{{ $one_casualty->id }}">
+                              @foreach ($all_urls as $one_url)
+                                @if ($one_casualty->id == $one_url->casualty_id)
+                                  @php
+                                    $highest_cas_num += 1;
+                                    if ($cas_link_list == "") {
+                                      $cas_link_list = $cas_link_list.$highest_cas_num;
+                                    } else {
+                                      $cas_link_list = $cas_link_list.",".$highest_cas_num;
+                                    };
+                                  @endphp
+                                  <div
+                                    class="card"
+                                    data-linkboxnum="{{ $highest_cas_num }}"
+                                    data-linkboxtype="casualties"
+                                    data-linkboxid="{{ $one_casualty->id }}">
+                                    <input name="cas_link_name_{{ $highest_cas_num }}" value="{{ $one_url->name }}" />
+                                    <input name="cas_link_url_{{ $highest_cas_num }}" value="{{ $one_url->url }}" />
+                                    <div
+                                      class="btn btn-danger"
+                                      data-linkdeletenum="{{ $highest_cas_num }}"
+                                      data-linkdeletetype="casualties"
+                                      data-linkdeleteid="{{ $one_casualty->id }}">
+                                      X
+                                    </div>
+                                  </div>
+                                @endif
+                              @endforeach
+                            </div>
+                            <input
+                              data-linklist="casualties"
+                              data-linklistid="{{ $one_casualty->id }}"
+                              type="hidden"
+                              name="cas_link_list"
+                              value="{{ $cas_link_list }}" />
+                            </br>
+
                             <button type="submit" name="changeCasualty" class="btn btn-success"/>CHANGE</button>
                           </form>
                         </div>

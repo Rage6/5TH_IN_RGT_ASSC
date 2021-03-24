@@ -473,16 +473,18 @@ class AdminController extends Controller
         ->where('casualty_id','=',Request::input('cas_id'))
         ->delete();
       $cas_link_list = Request::input('cas_link_list');
-      $cas_link_array = explode(",",$cas_link_list);
-      foreach ($cas_link_array as $cas_one_link) {
-        $cas_input_name = "cas_link_name_".$cas_one_link;
-        $cas_input_url = "cas_link_url_".$cas_one_link;
-        DB::table('other_urls')
-        ->insert([
-          'name' => Request::input($cas_input_name),
-          'url' => Request::input($cas_input_url),
-          'casualty_id' => Request::input('cas_id')
-        ]);
+      if ($cas_link_list != "") {
+        $cas_link_array = explode(",",$cas_link_list);
+        foreach ($cas_link_array as $cas_one_link) {
+          $cas_input_name = "cas_link_name_".$cas_one_link;
+          $cas_input_url = "cas_link_url_".$cas_one_link;
+          DB::table('other_urls')
+          ->insert([
+            'name' => Request::input($cas_input_name),
+            'url' => Request::input($cas_input_url),
+            'casualty_id' => Request::input('cas_id')
+          ]);
+        };
       };
       return redirect('home/admin');
     }

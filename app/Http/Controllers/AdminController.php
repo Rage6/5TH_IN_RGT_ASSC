@@ -91,7 +91,10 @@ class AdminController extends Controller
         $all_conflict_links = DB::table('conflict_links')
           ->select('conflict_id','casualty_id','member_id','recipient_id')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links'));
+        $all_urls = DB::table('other_urls')
+          ->select('name','url','member_id','casualty_id','moh_id')
+          ->get();
+        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links','all_urls'));
       } else {
         return redirect('/');
       };
@@ -157,25 +160,40 @@ class AdminController extends Controller
       DB::table('timespan')
         ->where('user_id','=',Request::input('member_id'))
         ->delete();
+      DB::table('recipients')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
+      DB::table('casualties')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->delete();
       return redirect('home/admin');
     }
 
-    public function changeDetails(Request $request)
+    public function stillAlive(Request $request)
     {
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->update([
           'deceased' => Request::input('is_deceased')
         ]);
-      DB::table('recipients')
-        ->where('recipients.member_id','=',Request::input('member_id'))
-        ->update([
-          'recipients.member_id' => NULL
-        ]);
+      return redirect('home/admin');
+    }
+
+    public function cmohConnection(Request $request)
+    {
       if (Request::input('recipient_id') != "null") {
+        DB::table('recipients')
+          ->where('recipients.member_id','=',Request::input('member_id'))
+          ->update([
+            'recipients.member_id' => NULL
+          ]);
         DB::table('recipients')
           ->where('recipients.id','=',Request::input('recipient_id'))
           ->update([
@@ -183,27 +201,32 @@ class AdminController extends Controller
           ]);
       } else {
         DB::table('recipients')
-          ->where('recipients.member_id','=',Request::input('recipient_id'))
+          ->where('recipients.member_id','=',Request::input('member_id'))
           ->update([
             'recipients.member_id' => NULL
           ]);
       };
-      DB::table('casualties')
-        ->where('casualties.member_id','=',Request::input('member_id'))
-        ->update([
-          'casualties.member_id' => NULL
-        ]);
+      return redirect('home/admin');
+    }
+
+    public function casualtyConnection(Request $request)
+    {
       if (Request::input('casualty_id') != "null") {
         DB::table('casualties')
-          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('member_id'))
+          ->update([
+            'casualties.member_id' => NULL
+          ]);
+        DB::table('casualties')
+          ->where('casualties.id','=',Request::input('casualty_id'))
           ->update([
             'casualties.member_id' => Request::input('member_id')
           ]);
       } else {
         DB::table('casualties')
-          ->where('casualties.member_id','=',Request::input('casualty_id'))
+          ->where('casualties.member_id','=',Request::input('member_id'))
           ->update([
-            'casualties.member_id' => null
+            'casualties.member_id' => NULL
           ]);
       };
       return redirect('home/admin');
@@ -243,6 +266,21 @@ class AdminController extends Controller
           'citation' => Request::input('citation'),
           'posthumous' => Request::input('posthumous')
         ]);
+        $new_moh_id = DB::getPdo()->lastInsertId();
+        $link_id_list = Request::input('link_id_list');
+        if ($link_id_list != "") {
+          $link_id_array = explode(",",$link_id_list);
+          foreach($link_id_array as $one_link_id) {
+            $name = 'moh_link_name_'.$one_link_id;
+            $link = 'recipient_link_'.$one_link_id;
+            DB::table('other_urls')
+              ->insert([
+                'name' => Request::input($name),
+                'url' => Request::input($link),
+                'moh_id' => $new_moh_id
+              ]);
+          };
+        };
       return redirect('home/admin');
     }
 
@@ -288,11 +326,36 @@ class AdminController extends Controller
         ->update([
           'posthumous' => Request::input('posthumous')
         ]);
+      DB::table('other_urls')
+        ->where('moh_id','=',Request::input('recip_id'))
+        ->delete();
+      $link_list = Request::input('link_list');
+      if ($link_list != "") {
+        $link_array = explode(",",$link_list);
+        foreach ($link_array as $one_link) {
+          $input_name = "link_name_".$one_link;
+          $input_url = "link_url_".$one_link;
+          DB::table('other_urls')
+          ->insert([
+            'name' => Request::input($input_name),
+            'url' => Request::input($input_url),
+            'moh_id' => Request::input('recip_id')
+          ]);
+        };
+      };
       return redirect('home/admin');
     }
 
     public function deleteRecipient(Request $request)
     {
+      DB::table('other_urls')
+        ->where('moh_id','=',Request::input('recip_id'))
+        ->delete();
+      DB::table('casualties')
+        ->where('moh_id','=',Request::input('recip_id'))
+        ->update([
+          'moh_id' => NULL
+        ]);
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
         ->delete();
@@ -318,7 +381,21 @@ class AdminController extends Controller
           'burial_site' => Request::input('burial_site'),
           'comments' => Request::input('comments')
         ]);
-        $testing = Request::input('casualty_link');
+        $new_cas_id = DB::getPdo()->lastInsertId();
+        $link_id_list = Request::input('link_id_list');
+        if ($link_id_list != "") {
+          $link_id_array = explode(",",$link_id_list);
+          foreach($link_id_array as $one_link_id) {
+            $name = 'cas_link_name_'.$one_link_id;
+            $link = 'casualty_link_'.$one_link_id;
+            DB::table('other_urls')
+              ->insert([
+                'name' => Request::input($name),
+                'url' => Request::input($link),
+                'casualty_id' => $new_cas_id
+              ]);
+          };
+        };
       return redirect('home/admin');
     }
 
@@ -394,6 +471,23 @@ class AdminController extends Controller
         ->update([
           'comments' => Request::input('comments')
         ]);
+      DB::table('other_urls')
+        ->where('casualty_id','=',Request::input('cas_id'))
+        ->delete();
+      $cas_link_list = Request::input('cas_link_list');
+      if ($cas_link_list != "") {
+        $cas_link_array = explode(",",$cas_link_list);
+        foreach ($cas_link_array as $cas_one_link) {
+          $cas_input_name = "cas_link_name_".$cas_one_link;
+          $cas_input_url = "cas_link_url_".$cas_one_link;
+          DB::table('other_urls')
+          ->insert([
+            'name' => Request::input($cas_input_name),
+            'url' => Request::input($cas_input_url),
+            'casualty_id' => Request::input('cas_id')
+          ]);
+        };
+      };
       return redirect('home/admin');
     }
 
@@ -448,6 +542,16 @@ class AdminController extends Controller
 
     public function deleteConflict(Request $request)
     {
+      DB::table('recipients')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
+      DB::table('casualties')
+        ->where('member_id','=',Request::input('user_id'))
+        ->update([
+          'member_id' => NULL
+        ]);
       DB::table('conflicts')
         ->insert([
           'name'=>Request::input('conflict_name'),

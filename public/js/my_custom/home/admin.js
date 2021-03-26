@@ -107,58 +107,96 @@ $(document).ready(() => {
     };
   });
 
-  // Create slot to add links to casualty
-  $("[data-linkbttn='casualties']").click(()=>{
-    let currentList = $(".linkIdList").val();
-    let newIdNum;
-    if (currentList != '') {
-      currentArray = currentList.split(',');
-      let highestNum = 0;
-      for (let listNum = 0; listNum < currentArray.length; listNum++) {
-        let thisNum = parseInt(currentArray[listNum]);
-        if (highestNum < thisNum) {
-          highestNum = thisNum;
+  // Create link slots when adding a new casualty or recipient
+  const makeAddLinkForNew = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
+    $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
+      let thisLinkList = "." + linkTypeShort + "LinkIdList";
+      let currentList = $(thisLinkList).val();
+      let newIdNum;
+      if (currentList != '') {
+        currentArray = currentList.split(',');
+        let highestNum = 0;
+        for (let listNum = 0; listNum < currentArray.length; listNum++) {
+          let thisNum = parseInt(currentArray[listNum]);
+          if (highestNum < thisNum) {
+            highestNum = thisNum;
+          };
         };
+        newIdNum = highestNum + 1;
+        newIdNumString = newIdNum.toString();
+      } else {
+        newIdNum = "1";
       };
-      newIdNum = highestNum + 1;
-      newIdNumString = newIdNum.toString();
-    } else {
-      newIdNum = "1";
-    };
-    if (currentList == '') {
-      currentList = newIdNum;
-    } else {
-      currentList = currentList.concat(",",newIdNumString);
-    };
-    $(".linkIdList").val(currentList);
-    $(".linkBox").append("\
-      <div data-linkboxtype='casualty' data-linkboxnum='" + newIdNum + "'>\
-        <input type='text' name='cas_link_name' placeholder='Website Name' />\
-        <input type='text' name='casualty_link' placeholder='Website URL' />\
-        <div data-deletetype='casualty' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
-      </div>");
-    $('[data-deletetype][data-deletenum]').off('click');
-    $('[data-deletetype][data-deletenum]').on('click',()=>{
-      let deleteType = event.target.dataset.deletetype;
-      let deleteNum = event.target.dataset.deletenum;
-      // Removes the element
-      $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
-      // Takes it off of the .linkIdList
-      let removedFromList = $(".linkIdList").val();
-      let cleanedArray = [];
-      let cleanedList = "";
-      let removedFromArray = removedFromList.split(',');
-      for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
-        if (removedFromArray[removalListNum] != deleteNum) {
-          cleanedArray.push(removedFromArray[removalListNum]);
-          cleanedList = cleanedArray.join();
+      if (currentList == '') {
+        currentList = newIdNum;
+      } else {
+        currentList = currentList.concat(",",newIdNumString);
+      };
+      $(thisLinkList).val(currentList);
+      $(".linkBox").append("\
+        <div data-linkboxtype='"+linkTypeSingular+"' data-linkboxnum='" + newIdNum + "'>\
+          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
+          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
+          <div data-deletetype='" + linkTypeSingular + "' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
+        </div>");
+      $('[data-deletetype][data-deletenum]').off('click');
+      $('[data-deletetype][data-deletenum]').on('click',()=>{
+        let deleteType = event.target.dataset.deletetype;
+        let deleteNum = event.target.dataset.deletenum;
+        // Removes the element
+        $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
+        // Takes it off of the .linkIdList
+        let removedFromList = $(thisLinkList).val();
+        let cleanedArray = [];
+        let cleanedList = "";
+        let removedFromArray = removedFromList.split(',');
+        for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
+          if (removedFromArray[removalListNum] != deleteNum) {
+            cleanedArray.push(removedFromArray[removalListNum]);
+            cleanedList = cleanedArray.join();
+          };
         };
-      };
-      $(".linkIdList").val(cleanedList);
-      console.log($(".linkIdList").val());
+        $(thisLinkList).val(cleanedList);
+        console.log($(thisLinkList).val());
+      });
+      console.log($(thisLinkList).val());
     });
-    console.log($(".linkIdList").val());
-  });
+  };
+
+  makeAddLinkForNew("casualties","casualty","cas");
+  makeAddLinkForNew("recipients","recipient","moh");
+
+  // Create link slots for an existing casualty or recipient
+
+
+  // Delete a link slot for a casualty or recipient
+  const deleteCurrentLink = (linkType) => {
+    $("[data-linkdeletetype='" + linkType + "']").click(()=>{
+      let linkNum = event.target.dataset.linkdeletenum;
+      console.log(linkNum);
+      let linkType = event.target.dataset.linkdeletetype;
+      console.log(linkType);
+      let linkId = event.target.dataset.linkdeleteid;
+      console.log(linkId);
+      $("[data-linkboxnum='"+linkNum+"'][data-linkboxtype='"+linkType+"'][data-linkboxid='"+linkId+"']").remove();
+      let currentList = $("[data-linklist='"+linkType+"'][data-linklistid='"+linkId+"']").val();
+      let currentArray = currentList.split(',');
+      let newList = "";
+      for (let checkNum = 0; checkNum < currentArray.length; checkNum++) {
+        if (currentArray[checkNum] != linkNum) {
+          if (newList == "") {
+            newList = currentArray[checkNum];
+          } else {
+            newList = newList + "," + currentArray[checkNum];
+          };
+        };
+      };
+      $("[data-linklist='"+linkType+"']").val(newList);
+    });
+  };
+
+  deleteCurrentLink("moh");
+  deleteCurrentLink("casualties");
 
   // Open or close a MOH recipient's information
   $("[data-recipientbttn]").click(()=>{
@@ -189,32 +227,40 @@ $(document).ready(() => {
   });
 
   // Open or close connecting members to CMOH recipients
+  // $("[data-gotcmohbttn]").click(()=>{
+  //   let recipientId = event.target.dataset.gotcmohbttn;
+  //   if ($("[data-gotcmohbox='" + recipientId + "']").css('display') == 'none') {
+  //     $("[data-gotcmohbox='" + recipientId + "']").css('display','block');
+  //   } else {
+  //     $("[data-gotcmohbox='" + recipientId + "']").css('display','none');
+  //   };
+  // });
+
+  // Open or close connecting members to recipients
   $("[data-gotcmohbttn]").click(()=>{
     let recipientId = event.target.dataset.gotcmohbttn;
+    console.log(recipientId);
+    console.log($("[data-gotcmohbox='" + recipientId + "']").css('display'));
     if ($("[data-gotcmohbox='" + recipientId + "']").css('display') == 'none') {
       $("[data-gotcmohbox='" + recipientId + "']").css('display','block');
+      console.log("block");
     } else {
       $("[data-gotcmohbox='" + recipientId + "']").css('display','none');
+      console.log("none");
     };
   });
 
   // Open or close connecting members to casualties
   $("[data-gotkilledbttn]").click(()=>{
-    let recipientId = event.target.dataset.gotkilledbttn;
-    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
+    let casualtyId = event.target.dataset.gotkilledbttn;
+    console.log(casualtyId);
+    console.log($("[data-gotkilledbox='" + casualtyId + "']").css('display'));
+    if ($("[data-gotkilledbox='" + casualtyId + "']").css('display') == 'none') {
+      $("[data-gotkilledbox='" + casualtyId + "']").css('display','block');
+      console.log("block");
     } else {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
-    };
-  });
-
-  // Open or close connecting members to casualties
-  $("[data-gotkilledbttn]").click(()=>{
-    let recipientId = event.target.dataset.gotkilledbttn;
-    if ($("[data-gotkilledbox='" + recipientId + "']").css('display') == 'none') {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','block');
-    } else {
-      $("[data-gotkilledbox='" + recipientId + "']").css('display','none');
+      $("[data-gotkilledbox='" + casualtyId + "']").css('display','none');
+      console.log("none");
     };
   });
 

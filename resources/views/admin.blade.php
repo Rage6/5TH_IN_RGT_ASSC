@@ -321,7 +321,7 @@
                     </div>
                     <div class="oneInfo">
                       <div class="infoTitle">Other Details</div>
-                      <form method="POST" action="admin/member/details">
+                      <form method="POST" action="admin/member/deceased">
                         @csrf
                         <input
                           type="hidden"
@@ -343,6 +343,19 @@
                             </select>
                           </div>
                         </div>
+                        <button
+                          class="btn btn-success"
+                          type="submit"
+                          name="deceased_or_not">
+                          CHANGE
+                        </button>
+                      </form>
+                      <form method="POST" action="admin/member/cmoh">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="member_id"
+                          value="{{ $one_user->id }}" />
                         <div>
                           <div data-gotcmohbttn="{{ $one_user->id }}" class="gotBttn">
                             + Earned the Congressional Medal of Honor (CMOH)?
@@ -387,8 +400,22 @@
                                 @endif
                               @endforeach
                             </select>
+                            </br>
+                            <button
+                              class="btn btn-success"
+                              type="submit"
+                              name="cmoh_or_not">
+                              CHANGE
+                            </button>
                           </div>
                         </div>
+                      </form>
+                      <form method="POST" action="admin/member/casualty">
+                        @csrf
+                        <input
+                          type="hidden"
+                          name="member_id"
+                          value="{{ $one_user->id }}" />
                         <div>
                           <div data-gotkilledbttn="{{ $one_user->id }}" class="gotBttn">
                             + KIA, MIA, or Killed in service?
@@ -433,14 +460,15 @@
                                 @endif
                               @endforeach
                             </select>
+                            </br>
+                            <button
+                              class="btn btn-success"
+                              type="submit"
+                              name="cmoh_or_not">
+                              CHANGE
+                            </button>
                           </div>
                         </div>
-                        <button
-                          class="btn btn-success"
-                          type="submit"
-                          name="other_details">
-                          CHANGE
-                        </button>
                       </form>
                     </div>
                     <!-- <div class="oneInfo">
@@ -574,6 +602,22 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
+                      <div>
+                        <div>
+                          <u>CUSTOM LINKS</u>
+                        </div>
+                        <div class="gotBttn" data-linkbttn="recipients">
+                          + ADD LINK
+                        </div>
+                        <div class="linkBox">
+                          <!-- This is where the Link slots are added -->
+                        </div>
+                        <input
+                          class="mohLinkIdList"
+                          type="hidden"
+                          name="link_id_list"
+                          value="" />
+                      </div>
                       <input class="addSubmitBttn" type="submit" value="ENTER" />
                     </form>
                   </div>
@@ -660,6 +704,53 @@
                                 <option value='1'>YES</option>
                             @endif
                           </select>
+                          <div class="addLinkRow">
+                            <div>
+                              <u>CUSTOM LINKS</u>
+                            </div>
+                            <div class="addLinkBttn" data-buttontype="moh" data-boxid="{{ $one_recipient->id }}">
+                              <div>+</div>
+                            </div>
+                          </div>
+                          @php
+                            $highest_num = 0;
+                            $link_list = "";
+                          @endphp
+                          <div data-linkboxtype="moh" data-linkboxid="{{ $one_recipient->id }}">
+                            @foreach ($all_urls as $one_url)
+                              @if ($one_recipient->id == $one_url->moh_id)
+                                @php
+                                  $highest_num += 1;
+                                  if ($link_list == "") {
+                                    $link_list = $link_list.$highest_num;
+                                  } else {
+                                    $link_list = $link_list.",".$highest_num;
+                                  };
+                                @endphp
+                                <div
+                                  class="card"
+                                  data-linkboxnum="{{ $highest_num }}"
+                                  data-linkboxtype="moh"
+                                  data-linkboxid="{{ $one_recipient->id }}">
+                                  <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
+                                  <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
+                                  <div
+                                    class="btn btn-danger"
+                                    data-linkdeletenum="{{ $highest_num }}"
+                                    data-linkdeletetype="moh"
+                                    data-linkdeleteid="{{ $one_recipient->id }}">
+                                    X
+                                  </div>
+                                </div>
+                              @endif
+                            @endforeach
+                          </div>
+                          <input
+                            data-linklist="moh"
+                            data-linklistid="{{ $one_recipient->id }}"
+                            type="hidden"
+                            name="link_list"
+                            value="{{ $link_list }}" />
                           </br>
                           <button
                             class="btn btn-success"
@@ -793,14 +884,17 @@
                         placeholder="Notes, comments, or descriptions">
                       </textarea>
                       <div>
+                        <div>
+                          <u>CUSTOM LINKS</u>
+                        </div>
                         <div class="gotBttn" data-linkbttn="casualties">
                           + ADD LINK
                         </div>
                         <div class="linkBox">
-                          
+                          <!-- This is where the Link slots are added -->
                         </div>
                         <input
-                          class="linkIdList"
+                          class="casLinkIdList"
                           type="hidden"
                           name="link_id_list"
                           value="" />
@@ -889,6 +983,61 @@
                               name="comments"
                               rows="5">{{ $one_casualty->comments }}</textarea>
                             </br>
+
+                            <div class="addLinkRow">
+                              <div>
+                                <u>CUSTOM LINKS</u>
+                              </div>
+                              <div
+                                class="addLinkBttn"
+                                data-buttontype="casualties"
+                                data-boxid="{{ $one_casualty->id }}">
+                                <div>+</div>
+                              </div>
+                            </div>
+                            @php
+                              $highest_cas_num = 0;
+                              $cas_link_list = "";
+                            @endphp
+                            <div
+                              data-linkboxtype="casualties"
+                              data-linkboxid="{{ $one_casualty->id }}">
+                              @foreach ($all_urls as $one_url)
+                                @if ($one_casualty->id == $one_url->casualty_id)
+                                  @php
+                                    $highest_cas_num += 1;
+                                    if ($cas_link_list == "") {
+                                      $cas_link_list = $cas_link_list.$highest_cas_num;
+                                    } else {
+                                      $cas_link_list = $cas_link_list.",".$highest_cas_num;
+                                    };
+                                  @endphp
+                                  <div
+                                    class="card"
+                                    data-linkboxnum="{{ $highest_cas_num }}"
+                                    data-linkboxtype="casualties"
+                                    data-linkboxid="{{ $one_casualty->id }}">
+                                    <input name="cas_link_name_{{ $highest_cas_num }}" value="{{ $one_url->name }}" />
+                                    <input name="cas_link_url_{{ $highest_cas_num }}" value="{{ $one_url->url }}" />
+                                    <div
+                                      class="btn btn-danger"
+                                      data-linkdeletenum="{{ $highest_cas_num }}"
+                                      data-linkdeletetype="casualties"
+                                      data-linkdeleteid="{{ $one_casualty->id }}">
+                                      X
+                                    </div>
+                                  </div>
+                                @endif
+                              @endforeach
+                            </div>
+                            <input
+                              data-linklist="casualties"
+                              data-linklistid="{{ $one_casualty->id }}"
+                              type="hidden"
+                              name="cas_link_list"
+                              value="{{ $cas_link_list }}" />
+                            </br>
+
                             <button type="submit" name="changeCasualty" class="btn btn-success"/>CHANGE</button>
                           </form>
                         </div>

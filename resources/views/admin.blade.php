@@ -606,14 +606,22 @@
                         <div>
                           <u>CUSTOM LINKS</u>
                         </div>
-                        <div class="gotBttn" data-linkbttn="recipients">
+                        <div
+                          class="gotBttn"
+                          data-linkbttn="recipients"
+                          data-new="true">
                           + ADD LINK
                         </div>
-                        <div class="linkBox">
+                        <div
+                          class="linkBox"
+                          data-editlinktype="recipients"
+                          data-editlinkuse="new">
                           <!-- This is where the Link slots are added -->
                         </div>
                         <input
                           class="mohLinkIdList"
+                          data-listtype="moh"
+                          data-listuse="new"
                           type="hidden"
                           name="link_id_list"
                           value="" />
@@ -708,15 +716,22 @@
                             <div>
                               <u>CUSTOM LINKS</u>
                             </div>
-                            <div class="addLinkBttn" data-buttontype="moh" data-boxid="{{ $one_recipient->id }}">
-                              <div>+</div>
+                            <div
+                              class="addLinkBttn"
+                              data-bttntype="recipients"
+                              data-new="false"
+                              data-boxid="{{ $one_recipient->id }}">
+                              +
                             </div>
                           </div>
                           @php
                             $highest_num = 0;
                             $link_list = "";
                           @endphp
-                          <div data-linkboxtype="moh" data-linkboxid="{{ $one_recipient->id }}">
+                          <div
+                            data-editlinktype="recipients"
+                            data-editlinkuse="existing"
+                            data-editlinkboxid="{{ $one_recipient->id }}">
                             @foreach ($all_urls as $one_url)
                               @if ($one_recipient->id == $one_url->moh_id)
                                 @php
@@ -730,7 +745,7 @@
                                 <div
                                   class="card"
                                   data-linkboxnum="{{ $highest_num }}"
-                                  data-linkboxtype="moh"
+                                  data-linkboxtype="recipients"
                                   data-linkboxid="{{ $one_recipient->id }}">
                                   <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
                                   <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
@@ -746,7 +761,7 @@
                             @endforeach
                           </div>
                           <input
-                            data-linklist="moh"
+                            data-linklist="recipients"
                             data-linklistid="{{ $one_recipient->id }}"
                             type="hidden"
                             name="link_list"
@@ -887,14 +902,22 @@
                         <div>
                           <u>CUSTOM LINKS</u>
                         </div>
-                        <div class="gotBttn" data-linkbttn="casualties">
+                        <div
+                          class="gotBttn"
+                          data-linkbttn="casualties"
+                          data-new="true">
                           + ADD LINK
                         </div>
-                        <div class="linkBox">
+                        <div
+                          class="linkBox"
+                          data-editlinktype="casualties"
+                          data-editlinkuse="new">
                           <!-- This is where the Link slots are added -->
                         </div>
                         <input
                           class="casLinkIdList"
+                          data-listtype="cas"
+                          data-listuse="new"
                           type="hidden"
                           name="link_id_list"
                           value="" />
@@ -990,9 +1013,10 @@
                               </div>
                               <div
                                 class="addLinkBttn"
-                                data-buttontype="casualties"
+                                data-bttntype="casualties"
+                                data-new="false"
                                 data-boxid="{{ $one_casualty->id }}">
-                                <div>+</div>
+                                +
                               </div>
                             </div>
                             @php
@@ -1000,8 +1024,9 @@
                               $cas_link_list = "";
                             @endphp
                             <div
-                              data-linkboxtype="casualties"
-                              data-linkboxid="{{ $one_casualty->id }}">
+                              data-editlinktype="casualties"
+                              data-editlinkuse="existing"
+                              data-editlinkboxid="{{ $one_casualty->id }}">
                               @foreach ($all_urls as $one_url)
                                 @if ($one_casualty->id == $one_url->casualty_id)
                                   @php

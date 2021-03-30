@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  console.log("This is a test of the admin.js file");
+  console.log("This is a test of the admin.js file 2");
 
   // Open or close option to add a member
   // $(".addMemberBttn").click(()=>{
@@ -48,34 +48,34 @@ $(document).ready(() => {
 
   // Open and close 'add' boxes
   const addBttnTool = (bttnType) => {
-    console.log("The function worked");
+    // console.log("The function worked");
     if ($("[data-addbox='"+bttnType+"']").css('display') == 'block') {
-      console.log($("[data-addbox='"+bttnType+"']").css('display'));
+      // console.log($("[data-addbox='"+bttnType+"']").css('display'));
       $("[data-addbox='"+bttnType+"']").css('display','none');
-      console.log($("[data-addbox='"+bttnType+"']").css('display'));
+      // console.log($("[data-addbox='"+bttnType+"']").css('display'));
     } else {
-      console.log($("[data-addbox='"+bttnType+"']").css('display'));
+      // console.log($("[data-addbox='"+bttnType+"']").css('display'));
       $("[data-addbox='"+bttnType+"']").css('display','block');
     };
   };
 
   $("[data-addbttn='member']").click(()=>{
-    console.log("The member click worked");
+    // console.log("The member click worked");
     addBttnTool('member');
   });
 
   $("[data-addbttn='recipient']").click(()=>{
-    console.log("The recipient click worked");
+    // console.log("The recipient click worked");
     addBttnTool('recipient');
   });
 
   $("[data-addbttn='casualty']").click(()=>{
-    console.log("The casualty click worked");
+    // console.log("The casualty click worked");
     addBttnTool('casualty');
   });
 
   $("[data-addbttn='conflict']").click(()=>{
-    console.log("The conflict click worked");
+    // console.log("The conflict click worked");
     addBttnTool('conflict');
   });
 
@@ -91,9 +91,9 @@ $(document).ready(() => {
 
   // Opens the option for casualty deletion
   $("[data-delcasbttn]").click(()=>{
-    console.log("This happened");
+    // console.log("This happened");
     let delCasId = event.target.dataset.delcasbttn;
-    console.log(event.target.dataset.delcasbttn);
+    // console.log(event.target.dataset.delcasbttn);
     if ($("[data-delcasbox='" + delCasId + "']").css('display') == 'none') {
       $("[data-delcasbox='" + delCasId + "']").css('display','block');
     };
@@ -108,11 +108,13 @@ $(document).ready(() => {
   });
 
   // Create link slots when adding a new casualty or recipient
-  const makeAddLinkForNew = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
-    $("[data-linkbttn='" + linkTypePlural + "']").click(()=>{
-      let thisLinkList = "." + linkTypeShort + "LinkIdList";
+  const addLinkForNew = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
+    $("[data-linkbttn='" + linkTypePlural + "'][data-new='true']").click(()=>{
+      // let thisLinkList = "." + linkTypeShort + "LinkIdList";
+      let thisLinkList = "[data-listtype='"+linkTypeShort+"'][data-listuse='new']";
       let currentList = $(thisLinkList).val();
       let newIdNum;
+      let newIdNumString;
       if (currentList != '') {
         currentArray = currentList.split(',');
         let highestNum = 0;
@@ -133,7 +135,8 @@ $(document).ready(() => {
         currentList = currentList.concat(",",newIdNumString);
       };
       $(thisLinkList).val(currentList);
-      $(".linkBox").append("\
+      // $(".linkBox").append("\
+      $("[data-editlinktype='"+linkTypePlural+"'][data-editlinkuse='new']").append("\
         <div data-linkboxtype='"+linkTypeSingular+"' data-linkboxnum='" + newIdNum + "'>\
           <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
           <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
@@ -163,11 +166,73 @@ $(document).ready(() => {
     });
   };
 
-  makeAddLinkForNew("casualties","casualty","cas");
-  makeAddLinkForNew("recipients","recipient","moh");
+  addLinkForNew("casualties","casualty","cas");
+  addLinkForNew("recipients","recipient","moh");
 
   // Create link slots for an existing casualty or recipient
+  const addLinkForExisting = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
+    $("[data-bttntype='" + linkTypePlural + "'][data-new='false'][data-boxid]").click(()=>{
+      console.log("Adding " + linkTypePlural + " link worked.");
+      let thisClickId = event.target.dataset.boxid;
+      let currentList = $("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val();
+      console.log(currentList);
+      let newIdNum;
+      let newIdNumString;
+      if (currentList != "") {
+        currentArray = currentList.split(',');
+        let highestNum = 0;
+        for (let listNum = 0; listNum < currentArray.length; listNum++) {
+          let thisNum = parseInt(currentArray[listNum]);
+          if (highestNum < thisNum) {
+            highestNum = thisNum;
+          };
+        };
+        newIdNum = highestNum + 1;
+        newIdNumString = newIdNum.toString();
+      } else {
+        newIdNumString = "1";
+      };
+      if (currentList == '') {
+        currentList = newIdNumString;
+      } else {
+        currentList = currentList.concat(",",newIdNumString);
+      };
+      console.log(currentList);
+      $("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val(currentList);
+      console.log($("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val());
+      // $(".linkBox").append("\
+      $("[data-editlinktype='"+linkTypePlural+"'][data-editlinkuse='existing'][data-editlinkboxid='"+thisClickId+"']").append("\
+        <div data-linkboxtype='"+linkTypeShort+"' data-linkboxnum='" + newIdNum + "'>\
+          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
+          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
+          <div data-deletetype='" + linkTypeSingular + "' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
+        </div>");
+      // $('[data-deletetype][data-deletenum]').off('click');
+      // $('[data-deletetype][data-deletenum]').on('click',()=>{
+      //   let deleteType = event.target.dataset.deletetype;
+      //   let deleteNum = event.target.dataset.deletenum;
+      //   // Removes the element
+      //   $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
+      //   // Takes it off of the .linkIdList
+      //   let removedFromList = $(thisLinkList).val();
+      //   let cleanedArray = [];
+      //   let cleanedList = "";
+      //   let removedFromArray = removedFromList.split(',');
+      //   for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
+      //     if (removedFromArray[removalListNum] != deleteNum) {
+      //       cleanedArray.push(removedFromArray[removalListNum]);
+      //       cleanedList = cleanedArray.join();
+      //     };
+      //   };
+      //   $(thisLinkList).val(cleanedList);
+      //   console.log($(thisLinkList).val());
+      // });
+    });
+    console.log("The " + linkTypePlural + " worked.");
+  };
 
+  addLinkForExisting("casualties","casualty","cas");
+  addLinkForExisting("recipients","recipient","moh");
 
   // Delete a link slot for a casualty or recipient
   const deleteCurrentLink = (linkType) => {

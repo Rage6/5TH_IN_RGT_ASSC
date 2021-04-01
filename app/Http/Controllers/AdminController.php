@@ -272,7 +272,7 @@ class AdminController extends Controller
           $link_id_array = explode(",",$link_id_list);
           foreach($link_id_array as $one_link_id) {
             $name = 'moh_link_name_'.$one_link_id;
-            $link = 'recipient_link_'.$one_link_id;
+            $link = 'moh_link_'.$one_link_id;
             DB::table('other_urls')
               ->insert([
                 'name' => Request::input($name),
@@ -333,8 +333,8 @@ class AdminController extends Controller
       if ($link_list != "") {
         $link_array = explode(",",$link_list);
         foreach ($link_array as $one_link) {
-          $input_name = "link_name_".$one_link;
-          $input_url = "link_url_".$one_link;
+          $input_name = "moh_link_name_".$one_link;
+          $input_url = "moh_link_url_".$one_link;
           DB::table('other_urls')
           ->insert([
             'name' => Request::input($input_name),
@@ -387,7 +387,7 @@ class AdminController extends Controller
           $link_id_array = explode(",",$link_id_list);
           foreach($link_id_array as $one_link_id) {
             $name = 'cas_link_name_'.$one_link_id;
-            $link = 'casualty_link_'.$one_link_id;
+            $link = 'cas_link_url_'.$one_link_id;
             DB::table('other_urls')
               ->insert([
                 'name' => Request::input($name),

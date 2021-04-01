@@ -160,9 +160,7 @@ $(document).ready(() => {
           };
         };
         $(thisLinkList).val(cleanedList);
-        console.log($(thisLinkList).val());
       });
-      console.log($(thisLinkList).val());
     });
   };
 
@@ -172,10 +170,9 @@ $(document).ready(() => {
   // Create link slots for an existing casualty or recipient
   const addLinkForExisting = (linkTypePlural,linkTypeSingular,linkTypeShort) => {
     $("[data-bttntype='" + linkTypePlural + "'][data-new='false'][data-boxid]").click(()=>{
-      console.log("Adding " + linkTypePlural + " link worked.");
       let thisClickId = event.target.dataset.boxid;
       let currentList = $("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val();
-      console.log(currentList);
+      // console.log(currentList);
       let newIdNum;
       let newIdNumString;
       if (currentList != "") {
@@ -190,6 +187,7 @@ $(document).ready(() => {
         newIdNum = highestNum + 1;
         newIdNumString = newIdNum.toString();
       } else {
+        newIdNum = 1;
         newIdNumString = "1";
       };
       if (currentList == '') {
@@ -197,38 +195,37 @@ $(document).ready(() => {
       } else {
         currentList = currentList.concat(",",newIdNumString);
       };
-      console.log(currentList);
       $("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val(currentList);
-      console.log($("[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']").val());
       // $(".linkBox").append("\
       $("[data-editlinktype='"+linkTypePlural+"'][data-editlinkuse='existing'][data-editlinkboxid='"+thisClickId+"']").append("\
-        <div data-linkboxtype='"+linkTypeShort+"' data-linkboxnum='" + newIdNum + "'>\
-          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
-          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
-          <div data-deletetype='" + linkTypeSingular + "' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
+        <div data-linkboxnum='" + newIdNum + "' data-linkboxtype='" + linkTypePlural + "' data-linkboxid='"+ thisClickId + "' class='card'>\
+          <input name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' value=''/>\
+          <input name='" + linkTypeShort + "_link_url_"+newIdNum+"' placeholder='Link URL' value=''/>\
+          <div data-linkdeletenum='" + newIdNum + "' data-linkdeletetype='" + linkTypePlural + "' data-linkdeleteid='" + thisClickId + "' class='btn btn-danger'>X</div>\
         </div>");
-      // $('[data-deletetype][data-deletenum]').off('click');
-      // $('[data-deletetype][data-deletenum]').on('click',()=>{
-      //   let deleteType = event.target.dataset.deletetype;
-      //   let deleteNum = event.target.dataset.deletenum;
-      //   // Removes the element
-      //   $("[data-linkboxtype='" + deleteType + "'][data-linkboxnum='" + deleteNum + "']").remove();
-      //   // Takes it off of the .linkIdList
-      //   let removedFromList = $(thisLinkList).val();
-      //   let cleanedArray = [];
-      //   let cleanedList = "";
-      //   let removedFromArray = removedFromList.split(',');
-      //   for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
-      //     if (removedFromArray[removalListNum] != deleteNum) {
-      //       cleanedArray.push(removedFromArray[removalListNum]);
-      //       cleanedList = cleanedArray.join();
-      //     };
-      //   };
-      //   $(thisLinkList).val(cleanedList);
-      //   console.log($(thisLinkList).val());
-      // });
+      $('[data-linkdeletenum][data-linkdeletetype][data-linkdeleteid]').off('click');
+      $('[data-linkdeletenum][data-linkdeletetype][data-linkdeleteid]').on('click',()=>{
+        let deleteType = event.target.dataset.linkdeletetype;
+        let deleteNum = event.target.dataset.linkdeletenum;
+        let deleteId = event.target.dataset.linkdeleteid;
+        // Removes the element
+        $("[data-linkboxnum='" + deleteNum + "'][data-linkboxtype='" + deleteType + "'][data-linkboxid='" + thisClickId + "']").remove();
+        // Takes it off of the .linkIdList
+        let thisLinkList = "[data-linklist='"+linkTypePlural+"'][data-linklistid='"+thisClickId+"']";
+        let removedFromList = $(thisLinkList).val();
+        // console.log($(thisLinkList).val());
+        let cleanedArray = [];
+        let cleanedList = "";
+        let removedFromArray = removedFromList.split(',');
+        for (let removalListNum = 0; removalListNum < removedFromArray.length; removalListNum++) {
+          if (removedFromArray[removalListNum] != deleteNum) {
+            cleanedArray.push(removedFromArray[removalListNum]);
+            cleanedList = cleanedArray.join();
+          };
+        };
+        $(thisLinkList).val(cleanedList);
+      });
     });
-    console.log("The " + linkTypePlural + " worked.");
   };
 
   addLinkForExisting("casualties","casualty","cas");
@@ -236,13 +233,10 @@ $(document).ready(() => {
 
   // Delete a link slot for a casualty or recipient
   const deleteCurrentLink = (linkType) => {
-    $("[data-linkdeletetype='" + linkType + "']").click(()=>{
+    $("[data-linkdeletenum][data-linkdeletetype][data-linkdeleteid]").click(()=>{
       let linkNum = event.target.dataset.linkdeletenum;
-      console.log(linkNum);
       let linkType = event.target.dataset.linkdeletetype;
-      console.log(linkType);
       let linkId = event.target.dataset.linkdeleteid;
-      console.log(linkId);
       $("[data-linkboxnum='"+linkNum+"'][data-linkboxtype='"+linkType+"'][data-linkboxid='"+linkId+"']").remove();
       let currentList = $("[data-linklist='"+linkType+"'][data-linklistid='"+linkId+"']").val();
       let currentArray = currentList.split(',');

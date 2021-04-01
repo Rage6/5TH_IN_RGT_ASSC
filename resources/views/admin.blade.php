@@ -747,12 +747,18 @@
                                   data-linkboxnum="{{ $highest_num }}"
                                   data-linkboxtype="recipients"
                                   data-linkboxid="{{ $one_recipient->id }}">
-                                  <input name="link_name_{{ $highest_num }}" value="{{ $one_url->name }}" />
-                                  <input name="link_url_{{ $highest_num }}" value="{{ $one_url->url }}" />
+                                  <input
+                                    name="moh_link_name_{{ $highest_num }}"
+                                    placeholder="Link Name"
+                                    value="{{ $one_url->name }}" />
+                                  <input
+                                    name="moh_link_url_{{ $highest_num }}"
+                                    placeholder="Link URL"
+                                    value="{{ $one_url->url }}" />
                                   <div
                                     class="btn btn-danger"
                                     data-linkdeletenum="{{ $highest_num }}"
-                                    data-linkdeletetype="moh"
+                                    data-linkdeletetype="recipients"
                                     data-linkdeleteid="{{ $one_recipient->id }}">
                                     X
                                   </div>

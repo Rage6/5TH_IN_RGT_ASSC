@@ -84,5 +84,6 @@ Route::prefix('history')->group(function() {
     Route::get('presidential-citation','HistoryTopicController@presidential_citation');
     Route::get('michelin-rubber-plant-battle','HistoryTopicController@michelin_rubber_plant_battle');
     Route::get('the-rifle-and-the-myth','HistoryTopicController@the_rifle_and_the_myth');
+    Route::get('ben-cui-forum','HistoryTopicController@ben_cui_forum');
   });
 });

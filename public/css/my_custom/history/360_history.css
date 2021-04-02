@@ -562,6 +562,62 @@ p {
   margin-bottom: 18%;
 }
 
+.forumPanelBox {
+
+}
+
+.onePanelBox {
+
+}
+
+.onePanelImg {
+  height: 185px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#anderson {
+  background-image:
+    url("/images/history/forum_Anderson.png"),
+    linear-gradient(
+      rgba(0,0,0,0),
+      rgba(0,0,0,0));
+}
+
+#snodgrass {
+  background-image:
+    url("/images/history/forum_Snodgrass.png"),
+    linear-gradient(
+      rgba(0,0,0,0),
+      rgba(0,0,0,0));
+}
+
+#cook {
+  background-image:
+    url("/images/history/forum_Cook.png"),
+    linear-gradient(
+      rgba(0,0,0,0),
+      rgba(0,0,0,0));
+}
+
+#framer {
+  background-image:
+    url("/images/history/forum_Framer.png"),
+    linear-gradient(
+      rgba(0,0,0,0),
+      rgba(0,0,0,0));
+}
+
+#young {
+  background-image:
+    url("/images/history/forum_Young.png"),
+    linear-gradient(
+      rgba(0,0,0,0),
+      rgba(0,0,0,0));
+}
+
 /* .shadeBottom {
   position: relative;
   top: -20px;

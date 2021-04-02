@@ -176,6 +176,78 @@
   @include ('footer.content')
 @stop
 
+@section('ben_cui_forum_content')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <a href="{{ url('/history/topic/ben-cui-battle') }}">
+          <div>
+            <div> RETURN </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="timeSegment topicSegment">
+        <div class="segmentTitle">
+          <u>The Ben Cui Forum</u>
+        </div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p>
+              The follow videos are a compilation of the panel discussion that took place in Burlingame, CA in 2013. The moderator was the Association's historian, Sam Kier.
+            </p>
+            <div class="forumPanelBox">
+              <u>MG (Ret.) Andrew H. Anderson</u>
+              <div>
+                <div class="onePanelImg" id="anderson"></div>
+                <p>
+                  Battalion commander at the time of the battle of Ben Cui
+                </p>
+              </div>
+            </div>
+            <div class="forumPanelBox">
+              <div class="onePanelBox">
+                <u>
+                  John Snodgrass
+                </u>
+                <div>
+                  <div class="onePanelImg" id="snodgrass"></div>
+                  <p>
+                    First lieutenant, acting company commander until injured
+                  </p>
+                </div>
+              </div>
+              <u>
+                Art Cook
+              </u>
+              <div class="onePanelImg" id="cook"></div>
+              <p>
+                Platoon commander, then assumed company command after Snodgrass's injury
+              </p>
+              <u>
+                Tom Framer
+              </u>
+              <div class="onePanelImg" id="framer"></div>
+              <p>
+                Squad leader of 1st Platoon when the battle took place
+              </p>
+              <u>
+                Gary Young
+              </u>
+              <div class="onePanelImg" id="young"></div>
+              <p>
+                Medic serving within C Company during the Ben Cui battle
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
 @section('the_rifle_and_the_myth_content')
   <div class="mainBody">
     <div class="timelineBox">

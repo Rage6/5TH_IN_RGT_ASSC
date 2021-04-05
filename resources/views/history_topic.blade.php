@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="allSegments">
-      <div class="timeSegment topicSegment">
+      <div class="nonTimeSegment topicSegment">
         <div class="segmentTitle"><u>Michelin Rubber Plant Battle</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -79,7 +79,7 @@
       </div>
     </div>
     <div class="allSegments">
-      <div class="timeSegment topicSegment">
+      <div class="nonTimeSegment topicSegment">
         <div class="segmentTitle"><u>Presidential Unit Citation</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -176,6 +176,120 @@
   @include ('footer.content')
 @stop
 
+@section('ben_cui_forum_content')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <a href="{{ url('/history/topic/ben-cui-battle') }}">
+          <div>
+            <div> RETURN </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle">
+          <u>The Ben Cui Forum</u>
+        </div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p style="text-align:center">
+              <i>Burlingame, CA (2013)</i>
+            </p>
+            <div class="allVideoContent">
+              <div class="videoDisplayBox">
+                <div class="allVideoBttn">
+                  <div class="oneVideoBttn" id="button1">1</div>
+                  <div class="oneVideoBttn" id="button2">2</div>
+                  <div class="oneVideoBttn" id="button3">3</div>
+                  <div class="oneVideoBttn" id="button4">4</div>
+                  <div class="oneVideoBttn" id="button5">5</div>
+                </div>
+                <div class="allForumVideos">
+                  <div class="oneForumVideo" id="video1">
+                    <iframe src="https://www.youtube-nocookie.com/embed/3Sw6q-62u8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="oneForumVideo" id="video2">
+                    <iframe src="https://www.youtube-nocookie.com/embed/7Fcg3OXZAgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="oneForumVideo" id="video3">
+                    <iframe src="https://www.youtube-nocookie.com/embed/Ny95gJaiVlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="oneForumVideo" id="video4">
+                    <iframe src="https://www.youtube-nocookie.com/embed/P6efDz96-FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="oneForumVideo" id="video5">
+                    <iframe src="https://www.youtube-nocookie.com/embed/02uoXNCvaf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="forumPanelBox">
+                <div class="onePanelBox">
+                  <div class="onePanelTitle">
+                    MG (Ret.) Andrew H. Anderson
+                  </div>
+                  <div class="onePanelImg" id="anderson"></div>
+                  <div class="onePanelBio">
+                    <div>
+                      Battalion commander at the time of the battle of Ben Cui
+                    </div>
+                  </div>
+                </div>
+                <div class="onePanelBox">
+                  <div class="onePanelTitle">
+                    John Snodgrass
+                  </div>
+                  <div class="onePanelImg" id="snodgrass"></div>
+                  <div class="onePanelBio">
+                    <div>
+                      First lieutenant, acting company commander until injured
+                    </div>
+                  </div>
+                </div>
+                <div class="onePanelBox">
+                  <div class="onePanelTitle">
+                    Art Cook
+                  </div>
+                  <div class="onePanelImg" id="cook"></div>
+                  <div class="onePanelBio">
+                    <div>
+                      Platoon commander, then assumed company command after Snodgrass's injury
+                    </div>
+                  </div>
+                </div>
+                <div class="onePanelBox">
+                  <div class="onePanelTitle">
+                    Tom Framer
+                  </div>
+                  <div class="onePanelImg" id="framer"></div>
+                  <div class="onePanelBio">
+                    <div>
+                      Squad leader of 1st Platoon when the battle took place
+                    </div>
+                  </div>
+                </div>
+                <div class="onePanelBox">
+                  <div class="onePanelTitle">
+                    Gary Young
+                  </div>
+                  <div class="onePanelImg" id="young"></div>
+                  <div class="onePanelBio">
+                    <div>
+                      Medic serving within C Company during the Ben Cui battle
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
 @section('the_rifle_and_the_myth_content')
   <div class="mainBody">
     <div class="timelineBox">
@@ -188,7 +302,7 @@
       </div>
     </div>
     <div class="allSegments">
-      <div class="timeSegment topicSegment">
+      <div class="nonTimeSegment topicSegment">
         <div class="segmentTitle"><u>M-16: The Rifle And The Myth</u></div>
         <div class="segmentContent">
           <div class="segmentWords">

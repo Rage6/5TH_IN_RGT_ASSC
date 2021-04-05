@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="allSegments">
-      <div class="timeSegment topicSegment">
+      <div class="nonTimeSegment topicSegment">
         <div class="segmentTitle"><u>Ben Cui Battle</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -121,9 +121,27 @@
             <p>
               Company C continued to remain in position along the north-south road until approximately 1150 hours, at which time 3 personnel carriers, on the left sid of the company position, were hit with RPG weapons. These weapons were apparently fired from extremely  short range. The company commander then decided to withdraw approximately 150 meters and to organize another defensive position.  The unit withdrew, taking with it the wounded personnel and the body of SSG Lang.  During this period, five more men were killed.
             </p>
+            <div class="benCuiAlbumRow benCuiRight">
+              <a href="{{ url('/history/topic/ben-cui-forum') }}">
+                <div class="benCuiAlbumBttn benCuiForumBttn">
+                  <div>2013</div>
+                  <div>BEN CUI</div>
+                  <div>FORUM</div>
+                </div>
+              </a>
+            </div>
             <p>
               Upon order the 1st and the 3rd platoon withdrew.  This movement disposed the company with three platoons abreast, since the 2nd platoon held in place.  At this time eight personnel carriers were on line, and all cal. 50 machineguns were operating.  In addition, the dismounted personnel were firing individual weapons and m-72 laws.  At this time 81mm mortars were firing with their rounds impacting near the second platoon.  The artillery forward observer, LT Ranney, was adjusting the artillery which was impacting 200 meters west of the friendly elements. At this time three of the remaining personnel carriers sustained RPG hits.  These RPG hits killed the 4.2 mortar forward observer and one of the company radio operators and wounded the company commander, the artillery forward observer and the remaining company radio operator.  the last transmission LT Ranney, the artillery forward observer, made was to the effect that the last artillery rounds had landed 200 meters east of his position. Since the artillery fire direction center knew that if the rounds were landing 200 meters east of LT Ranney, the were landing on the troops of company C, thus the FDC check fired the artillery.  Several minutes passed prior to the resuming fire.
             </p>
+            <!-- <div class="benCuiAlbumRow benCuiRight">
+              <a href="{{ url('/history/topic/ben-cui-forum') }}">
+                <div class="benCuiAlbumBttn benCuiForumBttn">
+                  <div>2013</div>
+                  <div>BEN CUI</div>
+                  <div>FORUM</div>
+                </div>
+              </a>
+            </div> -->
             <p>
               At 1154 hours the forward air controller reported an estimated time of arrival of 20 to 25 minutes for the first airstrike, and the 1st Brigade announced an ETA of 15 minutes for alight fire team, this light fire team arrived at 1201 hours and was immediately employed along the southern flank of the unit.
             </p>

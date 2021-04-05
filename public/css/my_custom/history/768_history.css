@@ -61,3 +61,17 @@
   float: right;
   width: 45%;
 }
+
+.allVideoBttn {
+  width: 50%;
+}
+
+.forumPanelBox {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.onePanelBox {
+  width: 45%;
+}

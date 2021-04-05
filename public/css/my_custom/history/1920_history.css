@@ -112,3 +112,32 @@
 .oneCasualty {
   font-size: 1.2rem;
 }
+
+.allVideoContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoDisplayBox {
+  display: block;
+  width: 45%;
+}
+
+.allVideoBttn {
+  width: 50%;
+}
+
+.allForumVideos {
+
+}
+
+.forumPanelBox {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.onePanelBox {
+  width: 45%;
+}

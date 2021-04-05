@@ -15,6 +15,7 @@ class PersonalEmail extends Mailable
     public $new_content;
     public $new_receiver_name;
     public $new_sender_name;
+    public $new_sender_email;
 
     /**
      * Create a new message instance.
@@ -22,12 +23,13 @@ class PersonalEmail extends Mailable
      * @return void
      */
     // public function __construct($data)
-    public function __construct($new_content,$new_receiver_name,$new_sender_name)
+    public function __construct($new_content,$new_receiver_name,$new_sender_name,$new_sender_email)
     {
         // $this->data = $data;
         $this->new_email = $new_content;
         $this->new_receiver_name = $new_receiver_name;
         $this->new_sender_name = $new_sender_name;
+        $this->new_sender_email = $new_sender_email;
     }
 
     /**
@@ -41,7 +43,8 @@ class PersonalEmail extends Mailable
       // $subject = 'This is a demo!';
       // $name = 'Nicholas Vogt';
 
-      return $this->view('emails.personal')
+      return $this->from($this->new_sender_email)
+                  ->view('emails.personal')
                   ->subject("Message from ".$this->new_sender_name)
                   ->with([ 'content' => $this->new_email, 'receiver' => $this->new_receiver_name, 'sender' => $this->new_sender_name ]);
     }

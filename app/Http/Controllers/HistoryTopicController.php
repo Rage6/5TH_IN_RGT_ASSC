@@ -56,6 +56,15 @@ class HistoryTopicController extends Controller
       ]);
     }
 
+    public function ben_cui_forum()
+    {
+      return view('history_topic',[
+        'style' => 'history_style',
+        'js' => '/js/my_custom/history/history.js',
+        'content' => 'ben_cui_forum_content'
+      ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

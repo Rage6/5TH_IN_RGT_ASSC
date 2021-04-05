@@ -15,6 +15,38 @@ $(() => {
     }, 800);
   });
 
+  const openNewVideo = (newBttnId,newVideoId) => {
+    $(".oneForumVideo").css('display','none');
+    for (let idNum = 1; idNum <= 5; idNum++) {
+      let currentId = "#button" + idNum;
+      if (currentId != newBttnId) {
+        $(currentId).css('background-color','rgba(0,100,0,1)');
+      };
+    };
+    $(newBttnId).css('background-color','rgba(139,0,0,1)');
+    $(newVideoId).css('display','block');
+  };
+
+  $("#button1").click(()=>{
+    openNewVideo("#button1","#video1");
+  });
+
+  $("#button2").click(()=>{
+    openNewVideo("#button2","#video2");
+  });
+
+  $("#button3").click(()=>{
+    openNewVideo("#button3","#video3");
+  });
+
+  $("#button4").click(()=>{
+    openNewVideo("#button4","#video4");
+  });
+
+  $("#button5").click(()=>{
+    openNewVideo("#button5","#video5");
+  });
+
   // Used this to change the tags in the original source code to avoid some of the repetiion
   // let originalText = ``;
   //

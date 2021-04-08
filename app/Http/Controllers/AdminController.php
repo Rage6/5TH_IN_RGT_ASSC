@@ -143,15 +143,12 @@ class AdminController extends Controller
     public function addMember(Request $request)
     {
       $randome_password = bin2hex(random_bytes(32));
-      DB::table('users')
-        ->insert([
-          'first_name' => Request::input('first_name'),
-          'last_name' => Request::input('last_name'),
-          'email' => Request::input('email'),
-          'password' => $randome_password,
-          'deceased' => 0,
-          'admin' => 0
-        ]);
+      $new_member = new User;
+      $new_member->first_name = Request::input('first_name');
+      $new_member->last_name = Request::input('last_name');
+      $new_member->email = Request::input('email');
+      $new_member->password = $randome_password;
+      $new_member->save();
       return redirect('home/admin');
     }
 

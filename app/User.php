@@ -21,11 +21,11 @@ class User extends Authenticatable
         'id', 'first_name', 'last_name', 'email', 'password', 'biography', 'current_img', 'veteran_img', 'moh', 'deceased', 'admin'
     ];
 
-    public function getCurrentImageAttribute() {
+    protected function getCurrentImageAttribute() {
       return $this->current_img;
     }
 
-    public function getVeteranImageAttribute() {
+    protected function getVeteranImageAttribute() {
       return $this->veteran_img;
     }
 

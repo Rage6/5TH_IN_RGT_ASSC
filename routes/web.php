@@ -70,6 +70,8 @@ Route::prefix('/home')->group(function() {
   });
 });
 
+Route::get('registration','RegistrationController@index');
+
 Route::prefix('history')->group(function() {
   Route::get('timeline','HistoryController@index');
   Route::prefix('album')->group(function() {

@@ -20,10 +20,12 @@
         ASSOCIATION
       </div>
       <div class="mainMenuSubBox" data-box-num="1">
-        <div class="mainMenuSubBttn">+ What Is A Member?</div>
-        <div class="mainMenuSubBttn">+ Becoming A Member</div>
-        <div class="mainMenuSubBttn">+ Newsletter Sample</div>
-        <div class="mainMenuSubBttn">+ Merchandise Example</div>
+        <div class="mainMenuSubBttn">+ Membership Details</div>
+        <a href="{{ url('/registration') }}">
+          <div class="mainMenuSubBttn">+ Become A Member</div>
+        </a>
+        <div class="mainMenuSubBttn">+ Newsletters</div>
+        <div class="mainMenuSubBttn">+ Merchandise</div>
         <div class="mainMenuSubBttn">+ Our Donations</div>
       </div>
     </div>

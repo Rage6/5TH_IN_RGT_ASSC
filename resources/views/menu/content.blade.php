@@ -20,9 +20,8 @@
         ASSOCIATION
       </div>
       <div class="mainMenuSubBox" data-box-num="1">
-        <div class="mainMenuSubBttn">+ Membership Details</div>
         <a href="{{ url('/registration') }}">
-          <div class="mainMenuSubBttn">+ Become A Member</div>
+          <div class="mainMenuSubBttn">+ Membership & Registration</div>
         </a>
         <div class="mainMenuSubBttn">+ Newsletters</div>
         <div class="mainMenuSubBttn">+ Merchandise</div>
@@ -40,20 +39,6 @@
         <a href="{{ url('/history/timeline') }}">
           <div class="mainMenuSubBttn">+ History Timeline</div>
         </a>
-        <!-- <div class="mainMenuSubBttn">+ War of 1812</div>
-        <div class="mainMenuSubBttn">+ Mexican War</div>
-        <div class="mainMenuSubBttn">+ Civil War</div>
-        <div class="mainMenuSubBttn">+ Frontier Expansion & Indian Wars</div>
-        <div class="mainMenuSubBttn">+ Filipino Occupation</div>
-        <div class="mainMenuSubBttn">+ World War I & Great Depression</div>
-        <div class="mainMenuSubBttn">+ World War II</div>
-        <div class="mainMenuSubBttn">+ Korean War</div>
-        <div class="mainMenuSubBttn">+ 1954 - 1966</div>
-        <div class="mainMenuSubBttn">+ Vietnam War</div>
-        <div class="mainMenuSubBttn">+ 1975 - 2001</div>
-        <div class="mainMenuSubBttn" style="cursor:none;background-color:grey">+ Global War On Terror</div>
-        <div class="mainMenuSubBttn" style="padding-left:15%">+ Iraq</div>
-        <div class="mainMenuSubBttn" style="padding-left:15%">+ Afghanistan</div> -->
         <div class="mainMenuSubBttn">+ Book: "Two Centuries of Valor: The Story of the 5th Infantry Regiment"</div>
       </div>
     </div>

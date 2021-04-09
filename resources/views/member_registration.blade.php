@@ -20,79 +20,31 @@
 @stop
 
 @section('registration_content')
-  <div class="introBody">
-    <div class="mainTitle">
-      <div>5th Infantry</div>
-      <div>Regiment</div>
-      <div>Association</div>
-    </div>
-    <div id="bottomView" class="bottomView">
-      <div>LEARN MORE BELOW</div>
-    </div>
-  </div>
-  <div class="lowerBody">
-    <div id="welcomeTitle" class="sectionTitle">Home of the Bobcats</div>
-    <div class="sectionContent welcomeContent">
-      This organization is dedicated to all of the past, present, and future members of the United States Army's <u>5th Infantry Regiment</u>, commonly known as the "Bobcats". The 5th Regiment (or its ancestral regiments) has participated in nearly every major American conflict since 1808. Its soldiers are the sinews of the Regiment, both in peace and in war. They are the fabric of its history and its tradition.
-    </div>
-    <div class="allCompartments">
-      <div class="oneCompartment desktopTitle">
-        <div class="sectionTitle pastTitle">
-          Reflect On Our Past
-        </div>
-        <div class="sectionTitle presentTitle">
-          Act In Our Present
-        </div>
-        <div class="sectionTitle futureTitle">
-          Join In Our Future
-        </div>
+  <div class="main">
+    <div class="content">
+      <div>
+        Membership & Registration
       </div>
-      <div class="oneCompartment">
-        <div class="mobileComponent desktopComponent">
-          <div class="sectionTitle pastTitle mobileTitle">
-            Reflect On Our Past
-          </div>
-          <div class="sectionContent pastContent">
-            <div>
-              The 5th Regiment has a unique and exciting military history spanning over 200 years. Here you can discover the Regiment's origin, read about it's role at any given time period, and even review a book dedicated to the Regiment.
-            </div></br>
-            <div>
-              Additionally, you can find the names of every 5th Regiment soldier that recieved the Medal of Honor, every soldier that died as a result of their service, and every deceased member of the Association.
-            </div>
-          </div>
-        </div>
-        <div class="mobileComponent desktopComponent">
-          <div class="sectionTitle presentTitle mobileTitle">
-            Act In Our Present
-          </div>
-          <div class="sectionContent presentContent">
-            The 5th Regiment Infantry Association is a very active organization. It carries out an official reunion every year, and members receive updates in the Association's regular newsletters. It also maintains frequent communications with the active Army units that currently bear our Regiment's crest. Finally, the Association often works to raise money and support for our active duty soldiers, fellow members, and related worthwhile causes.
-          </div>
-        </div>
-        <div class="mobileComponent desktopComponent">
-          <div class="sectionTitle futureTitle mobileTitle">
-            Join In Our Future
-          </div>
-          <div class="sectionContent futureContent">
-            <div>
-              The 5th Infantry Regiment Association's door is always open to every honorable soldier that has served as part of the 5th Infantry Regiment, be they past or present. It also accepts "associate members", meaning any family member of a Bobcat veteran. Members can update their personal profile, communicate with other members easier, read any newsletter, and purchase members-only merchandise.
-            </div>
-          </div>
+      <div>
+        If you are or were a member of the US Army's 5th Infantry Regiment and would like to rejoin your unit, then you have found the right place. We are the 5TH INFANTRY REGIMENT ASSOCIATION, and we need a few good men and women to fill the ranks of the finest regiment of the US Army. We also offer an "associates membership" to a family member of a veteran of the 5th Infantry Regiment.
+      </div>
+      <div>
+        <div>Purpose & Values</div>
+        <div>Benefits & Opportunities</div>
+        <div>Fees & Pricing Options</div>
+        <div>Register Now!</div>
+      </div>
+      <div>
+        @csrf
+        <div>
+          <form method="POST">
+            @csrf
+            <textarea name="testing_content" placeholder="Some content" required ></textarea>
+            <input type="submit" value="SUBMIT"/>
+          </form>
         </div>
       </div>
     </div>
-    <!-- <div class="footer">
-      <a href="{{ url('/') }}">
-        <div>HOME</div>
-      </a>
-      <a>
-        <div>ASSOCIATION</div>
-      </a>
-      <div>HISTORY</div>
-      <div>HALL OF HONOR</div>
-      <div>PHOTO ALBUM</div>
-      <div>MEMBERS ONLY</div>
-    </div> -->
     @include ('footer.content')
   </div>
 @stop

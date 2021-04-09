@@ -2,7 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
+
+use Illuminate\Support\Facades\Request;
+// use Illuminate\Support\Facades\Auth;
+// use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
+
+use App\Mail\RegistrationEmail;
 
 class RegistrationController extends Controller
 {
@@ -18,6 +25,13 @@ class RegistrationController extends Controller
           'js' => '/js/my_custom/registration/registration.js',
           'content' => 'registration_content'
         ]);
+    }
+
+    public function post(Request $request)
+    {
+      $new_content = Request::input('testing_content');
+      Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_content));
+      return redirect('/');
     }
 
     /**

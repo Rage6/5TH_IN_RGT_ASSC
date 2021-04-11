@@ -12,7 +12,8 @@ class RegistrationEmail extends Mailable
     use Queueable, SerializesModels;
 
     // public $data;
-    public $new_content;
+    // public $new_content;
+    public $new_submission;
 
     /**
      * Create a new message instance.
@@ -20,10 +21,12 @@ class RegistrationEmail extends Mailable
      * @return void
      */
     // public function __construct($data)
-    public function __construct($new_content)
+    // public function __construct($new_content)
+    public function __construct($new_submission)
     {
         // $this->data = $data;
-        $this->email_content = $new_content;
+        // $this->email_content = $new_content;
+        $this->submission = $new_submission;
     }
 
     /**
@@ -39,6 +42,6 @@ class RegistrationEmail extends Mailable
 
       return $this->view('emails.registration')
                   ->subject("Member Registration Submitted")
-                  ->with([ 'content' => $this->email_content ]);
+                  ->with([ 'content' => $this->submission ]);
     }
 }

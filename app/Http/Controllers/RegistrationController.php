@@ -21,7 +21,7 @@ class RegistrationController extends Controller
     public function index()
     {
       $modern_conflicts = DB::table('conflicts')
-        ->select('name')
+        ->select('id','name')
         ->where('start_year','>',1920)
         ->orderBy('start_year','asc')
         ->get();
@@ -35,8 +35,11 @@ class RegistrationController extends Controller
 
     public function post(Request $request)
     {
-      // $new_content = Request::input('testing_content');
-      // Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_content));
+      $modern_conflicts = DB::table('conflicts')
+        ->select('id','name')
+        ->where('start_year','>',1920)
+        ->orderBy('start_year','asc')
+        ->get();
       $init_submission = app();
       $new_submission = $init_submission->make('stdClass');
       $new_submission->first_name = Request::input('first_name');
@@ -49,13 +52,28 @@ class RegistrationController extends Controller
       $new_submission->zip_code = Request::input('zip_code');
       $new_submission->country = Request::input('country');
       $new_submission->phone_number = Request::input('phone_number');
+      $new_submission->conflicts = '';
+      $init_conflict = true;
+      foreach ($modern_conflicts as $one_conflict) {
+        $input_name = "conflict_".$one_conflict->id;
+        $conflict_result = Request::input($input_name);
+        if (isset($conflict_result)) {
+          if ($init_conflict == true) {
+            $new_submission->conflicts .= Request::input($input_name);
+            $init_conflict = false;
+          } else {
+            $new_submission->conflicts .= ", ".Request::input($input_name);
+          }
+        };
+      };
       $new_submission->time_in_rgt = Request::input('time_in_rgt');
       $new_submission->unit_details = Request::input('unit_details');
       $new_submission->registration_type = Request::input('registration_type');
       $new_submission->email = Request::input('email');
       $new_submission->comments = Request::input('comments');
       Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
-      return redirect('/');
+      // return redirect('/');
+      return redirect('http://bobcat.ws/membership-payment.html');
     }
 
     /**

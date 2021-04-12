@@ -22,26 +22,48 @@
 @section('registration_content')
   <div class="main">
     <div class="content">
-      <div>
+      <div class="mainTitle">
         Membership & Registration
       </div>
-      <div>Register Now!</div>
-      <div>
+      <div class="regBttn">Register Now!</div>
+      <div class="regForm">
         <form method="POST">
           @csrf
-          <div style="width:100%">
-            <input style="width:100%" name="first_name" type="text" placeholder="First Name" required/>
+          <div class="regText">
+            <input name="first_name" type="text" placeholder="First Name" required/>
           </div>
-          <input name="last_name" type="text" placeholder="Last Name" required/>
-          <input name="spouse_name" type="text" placeholder="Spouse Name"/>
-          <input name="address_line_1" type="text" placeholder="Street Address" required/>
-          <input name="address_line_2" type="text" placeholder="APT, Room #, etc."/>
-          <input name="city" type="text" placeholder="City" required/>
-          <input name="state" type="text" placeholder="State" required/>
-          <input name="zip_code" type="text" placeholder="Zip Code" required/>
-          <input name="country" type="text" placeholder="Country (if not US)"/>
-          <input name="phone_number" type="text" placeholder="Phone Number" required/>
-          <div>
+          <div class="regText">
+            <input name="last_name" type="text" placeholder="Last Name" required/>
+          </div>
+          <div class="regText">
+            <input name="spouse_name" type="text" placeholder="Spouse Name"/>
+          </div>
+          <div class="regText">
+            <input name="address_line_1" type="text" placeholder="Street Address" required/>
+          </div>
+          <div class="regText">
+            <input name="address_line_2" type="text" placeholder="APT, Room #, etc."/>
+          </div>
+          <div class="regText">
+            <input name="city" type="text" placeholder="City" required/>
+          </div>
+          <div class="regText">
+            <input name="state" type="text" placeholder="State" required/>
+          </div>
+          <div class="regText">
+            <input name="zip_code" type="text" placeholder="Zip Code" required/>
+          </div>
+          <div class="regText">
+            <input name="country" type="text" placeholder="Country (if not US)"/>
+          </div>
+          <div class="regText">
+            <input name="phone_number" type="text" placeholder="Phone Number" required/>
+          </div>
+          <div class="regText">
+            <input name="email" type="email" placeholder="Email" />
+          </div>
+          <div class="regInputTitle">I participated in:</div>
+          <div class="regCheckbox">
             @foreach ($modern_conflicts as $one_conflict)
               <div>
                 <input name="conflict_{{ $one_conflict->id }}" type="checkbox" value="{{ $one_conflict->name }}"/>
@@ -49,8 +71,7 @@
               </div>
             @endforeach
           </div>
-          <textarea name="time_in_rgt" placeholder="Time (years and/or month) in the regiment"></textarea></br>
-          <textarea name="unit_details" placeholder="To help connect with old friends in the regiment, specify your units, jobs, and times in the Regiment"></textarea></br>
+          <div class="regInputTitle">Payment Options:</div>
           <select name="registration_type">
             <option value="Renewal">Renewal</option>
             <option value="Active Duty">Active Duty</option>
@@ -62,10 +83,16 @@
             <option value="Life to 64">Life to 64</option>
             <option value="Life 65 and above">Life 65 and above</option>
             <option value="Just information please">Just information please</option>
-          </select></br>
-          <input name="email" type="email" placeholder="Email" />
-          <textarea name="comments" placeholder="Include any necessarry questions or comments about your registration form"></textarea>
-          <input type="submit" value="SUBMIT"/>
+          </select>
+          <div class="regText">
+            <textarea name="unit_details" placeholder="List the unit(s), job(s), and start/end time(s) in the Regiment. (Example: 'Driver, JUN 2006 - AUG 2007')"></textarea>
+          </div>
+          <div class="regText">
+            <textarea name="comments" placeholder="Include any necessarry questions or comments about your registration form"></textarea>
+          </div>
+          <div class="submitBttn">
+            <input type="submit" value="SUBMIT"/>
+          </div>
         </form>
       </div>
       <!-- <div>

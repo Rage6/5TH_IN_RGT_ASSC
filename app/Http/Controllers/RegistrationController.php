@@ -66,7 +66,7 @@ class RegistrationController extends Controller
           }
         };
       };
-      $new_submission->time_in_rgt = Request::input('time_in_rgt');
+      // $new_submission->time_in_rgt = Request::input('time_in_rgt');
       $new_submission->unit_details = Request::input('unit_details');
       $new_submission->registration_type = Request::input('registration_type');
       $new_submission->email = Request::input('email');

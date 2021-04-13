@@ -20,8 +20,13 @@
     function openAndCloseForm() {
       let currentDisplay = document.getElementById("regForm").style.display;
       console.log(currentDisplay);
+      let currentWidth = window.outerWidth;
       if (currentDisplay == 'none') {
-        document.getElementById("regForm").style.display = "block";
+        if (currentWidth < 1366) {
+          document.getElementById("regForm").style.display = "block";
+        } else {
+          document.getElementById("regForm").style.display = "grid";
+        };
       } else {
         document.getElementById("regForm").style.display = "none";
       };
@@ -118,15 +123,17 @@
         <div class="theOr">
           - OR -
         </div>
-        <div class="regFormTitle">
-          MAILING
-        </div>
-        <div class="mailingInfo">
-          Please print out our <a href="http://www.bobcat.ws/application.htm" target="_blank">official registration form</a> and send it to:
-          <div>
-            Tom Frame</br>
-            460 Center School Road</br>
-            Perkasie, PA 18944</br>
+        <div>
+          <div class="regFormTitle">
+            MAILING
+          </div>
+          <div class="mailingInfo">
+            Please print out our <a href="http://www.bobcat.ws/application.htm" target="_blank">official registration form</a> and send it to:
+            <div>
+              Tom Frame</br>
+              460 Center School Road</br>
+              Perkasie, PA 18944</br>
+            </div>
           </div>
         </div>
       </div>
@@ -236,11 +243,11 @@
                 <div class="costNumbers">$100 once</div>
               </div>
             </div>
-            <div>
           </div>
         </div>
       </div>
     </div>
+    <!-- </div> -->
     @include ('footer.content')
   </div>
 @stop

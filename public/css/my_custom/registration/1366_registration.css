@@ -5,6 +5,10 @@
   width: 25%;
 }
 
+.regForm {
+  grid-template-columns: 47% auto 47%;
+}
+
 .regRow {
   display: grid;
   grid-template-columns: 33% auto 33%;

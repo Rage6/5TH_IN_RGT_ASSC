@@ -201,35 +201,39 @@
         </div>
         <div class="regSection" style="background:rgba(0,100,0,0.8)">
           <div class="regSubtitle">
-            Qualifications & Pricing Options
+            Qualifications &</br> Pricing Options
           </div>
           <div>
             <div>
-              <div>Can I become a member?</div>
+              <div class="qualTitle">
+                <i>Can I become a member?</i>
+              </div>
               <div>
                 If you are/or were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army. We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.
               </div>
             </div>
             <div>
-              <div>What are the membership costs and options?</div>
+              <div class="qualTitle">
+                <i>What are the membership costs?</i>
+              </div>
               <div>
                 If you would like to become a member, the dues and how long each due lasts are listed below. The prices of the "Lifetime" options are based on your age when you paid that particular option.
               </div>
-              <div>
+              <div class="costList">
                 <div class="costTitle">Active duty</div>
-                <div class="costNumbers">$5/yr</div>
-                <div class="costTitle">1 Year</div>
-                <div class="costNumbers">$15</div>
-                <div class="costTitle">2 Years</div>
-                <div class="costNumbers">$25</div>
-                <div class="costTitle">5 Years</div>
-                <div class="costNumbers">$60</div>
+                <div class="costNumbers">$5 per year</div>
+                <div class="costTitle">One Year</div>
+                <div class="costNumbers">$15 per year</div>
+                <div class="costTitle">Two Years</div>
+                <div class="costNumbers">$25 per 2 years</div>
+                <div class="costTitle">Five Years</div>
+                <div class="costNumbers">$60 per 5 years</div>
                 <div class="costTitle">Lifetime (49 y/o and younger)</div>
-                <div class="costNumbers">$200</div>
+                <div class="costNumbers">$200 once</div>
                 <div class="costTitle">Lifetime (50 - 64 y/o)</div>
-                <div class="costNumbers">$150</div>
+                <div class="costNumbers">$150 once</div>
                 <div class="costTitle">Lifetime (65 y/o and older)</div>
-                <div class="costNumbers">$100</div>
+                <div class="costNumbers">$100 once</div>
               </div>
             </div>
             <div>

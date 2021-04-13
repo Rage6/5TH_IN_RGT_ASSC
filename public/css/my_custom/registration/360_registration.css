@@ -137,5 +137,35 @@
 }
 
 .regSubtitle {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-family: 'Vollkorn SC', sans-serif;
+  text-align: center;
+}
 
+.qualTitle {
+  margin: 15px 0 10px 0;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.costList {
+  margin: 20px 0;
+}
+
+.costTitle {
+  margin-top: 30px;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 0 10px 5%;
+  font-size: 1.2rem;
+  background-color: rgba(139,0,0,1);
+  width: 85%;
+}
+
+.costNumbers {
+  margin-top: 10px;
+  padding-right: 10%;
+  text-align: right;
+  font-size: 1.6rem;
 }

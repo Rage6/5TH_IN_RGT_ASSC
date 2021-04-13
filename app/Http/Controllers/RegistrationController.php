@@ -71,7 +71,7 @@ class RegistrationController extends Controller
       $new_submission->registration_type = Request::input('registration_type');
       $new_submission->email = Request::input('email');
       $new_submission->comments = Request::input('comments');
-      Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
+      Mail::to(['nvogt10@gmail.com','randy@bobcat.ws'])->send(new RegistrationEmail($new_submission));
       // return redirect('/');
       return redirect('http://bobcat.ws/membership-payment.html');
     }

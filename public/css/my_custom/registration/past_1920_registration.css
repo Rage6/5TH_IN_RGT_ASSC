@@ -1,0 +1,12 @@
+.regBttn {
+  font-size: 2rem;
+}
+
+.regRow {
+  display: grid;
+  grid-template-columns: 33% auto 33%;
+}
+
+.regSection {
+  padding: 20px 2%;
+}

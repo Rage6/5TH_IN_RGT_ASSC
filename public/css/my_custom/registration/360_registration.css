@@ -23,15 +23,27 @@
   font-family: 'Vollkorn SC', sans-serif;
 }
 
+.regIntro {
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.5),
+      rgba(255,255,255,0.5)),
+    url('/images/registration/collage.png');
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, 360px 360px;
+  padding-bottom: 30px;
+}
+
 .regBttn {
-  margin: 0 0 20px 50%;
+  margin: 0 0 0 20%;
   border-radius: 10px;
-  padding: 10px 0;
+  padding: 10px 5%;
   text-align: center;
   color: white;
   font-family: 'Special Elite', cursive;
-  background-color: rgba(0,100,0,0.8);
-  width: 40%;
+  font-size: 1.5rem;
+  background-color: rgba(0,100,0,1);
+  width: 50%;
 }
 
 .regForm {
@@ -161,6 +173,10 @@
   font-size: 1.2rem;
   background-color: rgba(139,0,0,1);
   width: 85%;
+}
+
+.costInLine {
+  display: none;
 }
 
 .costNumbers {

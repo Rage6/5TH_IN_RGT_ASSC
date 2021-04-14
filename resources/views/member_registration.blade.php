@@ -7,7 +7,7 @@
   <!-- 361px -> 375px-->
   <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 375px)" type="text/css" href="/css/my_custom/registration/375_registration.css">
   <!-- 376px -> 414px-->
-  <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 414px)" type="text/css" href="/css/my_custom/registration/414_registration.css">
+  <link rel="stylesheet" media="screen and (min-width: 376px) and (max-width: 414px)" type="text/css" href="/css/my_custom/registration/414_registration.css">
   <!-- 415px -> 768px-->
   <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="/css/my_custom/registration/768_registration.css">
   <!-- 769px -> 1366px-->
@@ -38,10 +38,14 @@
 @section('registration_content')
   <div class="main">
     <div class="content">
-      <div class="mainTitle">
-        Membership & Registration
+      <div class="regIntro">
+        <div class="mainTitle">
+          Membership</br> &</br> Registration
+        </div>
+        <div class="regBttn" id="regBttn" onclick="openAndCloseForm()">
+          Register Now!
+        </div>
       </div>
-      <div class="regBttn" id="regBttn" onclick="openAndCloseForm()">Register Now!</div>
       <div class="regForm" id="regForm" style="display:none">
         <div>
           <div class="regFormTitle">
@@ -216,7 +220,12 @@
                 <i>Can I become a member?</i>
               </div>
               <div>
-                If you are/or were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army. We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.
+                <div>
+                  <u>Soldiers & Veterans</u>: If you are/or were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army.
+                </div>
+                <div style="margin-top:10px">
+                  <u>Associate Members</u>: We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.
+                </div>
               </div>
             </div>
             <div>
@@ -227,19 +236,40 @@
                 If you would like to become a member, the dues and how long each due lasts are listed below. The prices of the "Lifetime" options are based on your age when you paid that particular option.
               </div>
               <div class="costList">
-                <div class="costTitle">Active duty</div>
+                <div class="costTitle">
+                  <span>Active duty</span>
+                  <span class="costInLine">$5 per year</span>
+                </div>
                 <div class="costNumbers">$5 per year</div>
-                <div class="costTitle">One Year</div>
+                <div class="costTitle">
+                  <span>One Year</span>
+                  <span class="costInLine">$15 per year</span>
+                </div>
                 <div class="costNumbers">$15 per year</div>
-                <div class="costTitle">Two Years</div>
-                <div class="costNumbers">$25 per 2 years</div>
-                <div class="costTitle">Five Years</div>
-                <div class="costNumbers">$60 per 5 years</div>
-                <div class="costTitle">Lifetime (49 y/o and younger)</div>
+                <div class="costTitle">
+                  <span>Two Years</span>
+                  <span class="costInLine">$25 for 2 years</span>
+                </div>
+                <div class="costNumbers">$25 for 2 years</div>
+                <div class="costTitle">
+                  <span>Five Years</span>
+                  <span class="costInLine">$60 for 5 year</span>
+                </div>
+                <div class="costNumbers">$60 for 5 years</div>
+                <div class="costTitle">
+                  <span>Lifetime (< 50 y/o)</span>
+                  <span class="costInLine">$200 once</span>
+                </div>
                 <div class="costNumbers">$200 once</div>
-                <div class="costTitle">Lifetime (50 - 64 y/o)</div>
+                <div class="costTitle">
+                  <span>Lifetime (50 - 64 y/o)</span>
+                  <span class="costInLine">$150 once</span>
+                </div>
                 <div class="costNumbers">$150 once</div>
-                <div class="costTitle">Lifetime (65 y/o and older)</div>
+                <div class="costTitle">
+                  <span>Lifetime (65+ y/o)</span>
+                  <span class="costInLine">$100 once</span>
+                </div>
                 <div class="costNumbers">$100 once</div>
               </div>
             </div>

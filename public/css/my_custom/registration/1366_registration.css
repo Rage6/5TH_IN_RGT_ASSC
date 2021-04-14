@@ -1,5 +1,21 @@
+.main {
+  padding-top: 12vh;
+}
+
+.mainTitle {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+.regIntro {
+  background-size: 100% 100%, 414px 414px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .regBttn {
-  margin: 0 0 20px 67%;
+  margin: 0 0 0 0;
   padding: 25px 0;
   font-size: 2rem;
   width: 25%;
@@ -16,4 +32,24 @@
 
 .regSection {
   padding: 20px 2%;
+}
+
+.theOr {
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.costTitle {
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  width:83%;
+}
+
+.costInLine {
+  display: inherit;
+}
+
+.costNumbers {
+  display: none;
 }

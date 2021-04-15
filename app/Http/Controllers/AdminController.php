@@ -80,7 +80,7 @@ class AdminController extends Controller
           $next_raw_num++;
         };
         $all_recipients = DB::table('recipients')
-          ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id')
+          ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -288,20 +288,28 @@ class AdminController extends Controller
         // Assigns the photo's filename
         $last_name = Request::input('last_name');
         $moh_photo_name = "moh_".$last_name."_".$new_moh_id;
-        DB::table('recipients')
-          ->where('id','=',$new_moh_id)
-          ->update([
-            'photo' => $moh_photo_name
-        ]);
+        // DB::table('recipients')
+        //   ->where('id','=',$new_moh_id)
+        //   ->update([
+        //     'photo' => $moh_photo_name
+        // ]);
         // Uploades the image to AWS
         Request::validate([
             'new_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
         if (Request::has('new_moh_img')) {
+          // First, sends to AWS...
           $image = Request::file('new_moh_img');
           $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
           $s3 = Storage::disk('s3');
           $s3->put($filePath, file_get_contents($image), 'public');
+          // ...then adds name to DB
+          $photo_with_ext = $moh_photo_name.".".$image->getClientOriginalExtension();
+          DB::table('recipients')
+            ->where('id','=',$new_moh_id)
+            ->update([
+              'photo' => $moh_photo_name.".".$image->getClientOriginalExtension()
+          ]);
         };
       };
       return redirect('home/admin');
@@ -366,11 +374,24 @@ class AdminController extends Controller
           ]);
         };
       };
+      if (Request::hasFile('current_moh_img')) {
+        Request::validate([
+            'current_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('current_moh_img')) {
+          $image = Request::file('current_moh_img');
+          $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
+          $s3 = Storage::disk('s3');
+          $s3->put($filePath, file_get_contents($image), 'public');
+        };
+      };
       return redirect('home/admin');
     }
 
     public function deleteRecipient(Request $request)
     {
+      $delete_filename = Request::input('recip_photo');
+      Storage::disk('s3')->delete($delete_filename);
       DB::table('other_urls')
         ->where('moh_id','=',Request::input('recip_id'))
         ->delete();

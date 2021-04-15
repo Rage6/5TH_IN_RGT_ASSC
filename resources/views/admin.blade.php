@@ -654,6 +654,11 @@
                             type="hidden"
                             name="recip_id"
                             value="{{ $one_recipient->id }}" />
+                          @if ($one_recipient->photo == NULL)
+                            <div class="changeImg" style="background-image:url('/uploads/images/profile-default.jpg')"></div>
+                          @else
+                            <div class="changeImg" style="background-image:url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $one_recipient->photo }}')"></div>
+                          @endif
                           <div class="infoTitle">First Name</div>
                           <input
                             type="text"
@@ -805,6 +810,10 @@
                                   type="hidden"
                                   name="recip_id"
                                   value="{{ $one_recipient->id }}"/>
+                                <input
+                                  type="hidden"
+                                  name="recip_photo"
+                                  value="{{ $one_recipient->photo }}"/>
                               </form>
                             </div>
                           </div>

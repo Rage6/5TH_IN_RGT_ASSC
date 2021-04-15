@@ -648,7 +648,7 @@
                       data-recipientbox="{{ $one_recipient->id }}"
                       class="oneMemberInfo">
                       <div class="oneInfo">
-                        <form method="POST" action="admin/recipient/change">
+                        <form method="POST" action="admin/recipient/change" enctype="multipart/form-data">
                           @csrf
                           <input
                             type="hidden"
@@ -657,9 +657,18 @@
                           @if ($one_recipient->photo == NULL)
                             <div class="changeImg" style="background-image:url('/uploads/images/profile-default.jpg')"></div>
                           @else
-                            <div class="changeImg" style="background-image:url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $one_recipient->photo }}')"></div>
+                            <div class="changeImg" style="background-image:url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $one_recipient->photo }}?t=<?php echo(time());?>')"></div>
                           @endif
-                          <div class="infoTitle">First Name</div>
+                          <input
+                            type="file"
+                            name="current_moh_img"/>
+                          <input
+                            type="hidden"
+                            name="existing_filename"
+                            value="{{ $one_recipient->photo }}"/>
+                          <div class="infoTitle">
+                            First Name
+                          </div>
                           <input
                             type="text"
                             name="first_name"

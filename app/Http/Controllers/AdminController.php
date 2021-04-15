@@ -375,14 +375,29 @@ class AdminController extends Controller
         };
       };
       if (Request::hasFile('current_moh_img')) {
+        $filename = Request::input('existing_filename');
+        Storage::disk('s3')->delete($filename);
         Request::validate([
             'current_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
         if (Request::has('current_moh_img')) {
+          // Deletes the current image in AWS...
+          $filename = Request::input('existing_filename');
+          Storage::disk('s3')->delete($filename);
+          // ...in order to add the new image to AWS...
+          $last_name = Request::input('last_name');
+          $recip_id = Request::input('recip_id');
+          $extension = Request::file('current_moh_img')->getClientOriginalExtension();
+          $new_filename = "moh_".$last_name."_".$recip_id.".".$extension;
           $image = Request::file('current_moh_img');
-          $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
           $s3 = Storage::disk('s3');
-          $s3->put($filePath, file_get_contents($image), 'public');
+          $s3->put($new_filename, file_get_contents($image), 'public');
+          // ...and update the photo name in DB.
+          DB::table('recipients')
+            ->where('id','=',Request::input('recip_id'))
+            ->update([
+              'photo' => $new_filename
+            ]);
         };
       };
       return redirect('home/admin');

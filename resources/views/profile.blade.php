@@ -59,7 +59,7 @@
                                             <label for="veteran_img" class="col-md-4 col-form-label text-md-right">Veteran Image</label>
                                             @if (auth()->user()->veteran_img)
                                               <!-- <img class="img-thumbnail" src="{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>"> -->
-                                              <img class="img-thumbnail" src="https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time()); ?>?t=<?php echo(time()); ?>">
+                                              <img class="img-thumbnail" src="https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->veteran_img }}?t=<?php echo(time());?>">
                                             @else
                                               <img class="img-thumbnail" src="/uploads/images/profile-default.jpg">
                                             @endif

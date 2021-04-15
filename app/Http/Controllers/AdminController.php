@@ -284,23 +284,25 @@ class AdminController extends Controller
             ]);
         };
       };
-      // Assigns the photo's filename
-      $last_name = Request::input('last_name');
-      $moh_photo_name = "moh_".$last_name."_".$new_moh_id;
-      DB::table('recipients')
-        ->where('id','=',$new_moh_id)
-        ->update([
-          'photo' => $moh_photo_name
-      ]);
-      // Uploades the image to AWS
-      Request::validate([
-          'new_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
-      ]);
-      if (Request::has('new_moh_img')) {
-        $image = Request::file('new_moh_img');
-        $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
-        $s3 = Storage::disk('s3');
-        $s3->put($filePath, file_get_contents($image), 'public');
+      if (Request::hasFile('new_moh_img')) {
+        // Assigns the photo's filename
+        $last_name = Request::input('last_name');
+        $moh_photo_name = "moh_".$last_name."_".$new_moh_id;
+        DB::table('recipients')
+          ->where('id','=',$new_moh_id)
+          ->update([
+            'photo' => $moh_photo_name
+        ]);
+        // Uploades the image to AWS
+        Request::validate([
+            'new_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('new_moh_img')) {
+          $image = Request::file('new_moh_img');
+          $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
+          $s3 = Storage::disk('s3');
+          $s3->put($filePath, file_get_contents($image), 'public');
+        };
       };
       return redirect('home/admin');
     }

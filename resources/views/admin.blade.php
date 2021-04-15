@@ -554,7 +554,7 @@
                     </div>
                   </div>
                   <div class="addMemberInfo" data-addbox="recipient">
-                    <form method="POST" action="admin/recipient/add">
+                    <form method="POST" action="admin/recipient/add" enctype="multipart/form-data">
                       @csrf
                       <input
                         type="text"
@@ -602,6 +602,11 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
+                      <div class="col-md-6">
+                          <input
+                            type="file"
+                            name="new_moh_img" />
+                      </div>
                       <div>
                         <div>
                           <u>CUSTOM LINKS</u>

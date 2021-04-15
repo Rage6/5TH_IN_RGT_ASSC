@@ -9,8 +9,13 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 
+use App\Traits\UploadTrait;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
+
 class AdminController extends Controller
 {
+    use UploadTrait;
     /**
      * Display a listing of the resource.
      *
@@ -252,6 +257,7 @@ class AdminController extends Controller
 
     public function addRecipient(Request $request)
     {
+      // Adds all of the basic information
       DB::table('recipients')
         ->insert([
           'first_name' => Request::input('first_name'),
@@ -262,22 +268,40 @@ class AdminController extends Controller
           'place' => Request::input('place'),
           'citation' => Request::input('citation'),
           'posthumous' => Request::input('posthumous')
-        ]);
-        $new_moh_id = DB::getPdo()->lastInsertId();
-        $link_id_list = Request::input('link_id_list');
-        if ($link_id_list != "") {
-          $link_id_array = explode(",",$link_id_list);
-          foreach($link_id_array as $one_link_id) {
-            $name = 'moh_link_name_'.$one_link_id;
-            $link = 'moh_link_'.$one_link_id;
-            DB::table('other_urls')
-              ->insert([
-                'name' => Request::input($name),
-                'url' => Request::input($link),
-                'moh_id' => $new_moh_id
-              ]);
-          };
+      ]);
+      $new_moh_id = DB::getPdo()->lastInsertId();
+      $link_id_list = Request::input('link_id_list');
+      if ($link_id_list != "") {
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'moh_link_name_'.$one_link_id;
+          $link = 'recipient_link_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'moh_id' => $new_moh_id
+            ]);
         };
+      };
+      // Assigns the photo's filename
+      $last_name = Request::input('last_name');
+      $moh_photo_name = "moh_".$last_name."_".$new_moh_id;
+      DB::table('recipients')
+        ->where('id','=',$new_moh_id)
+        ->update([
+          'photo' => $moh_photo_name
+      ]);
+      // Uploades the image to AWS
+      Request::validate([
+          'new_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+      ]);
+      if (Request::has('new_moh_img')) {
+        $image = Request::file('new_moh_img');
+        $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
+        $s3 = Storage::disk('s3');
+        $s3->put($filePath, file_get_contents($image), 'public');
+      };
       return redirect('home/admin');
     }
 

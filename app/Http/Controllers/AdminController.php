@@ -9,8 +9,13 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 
+use App\Traits\UploadTrait;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
+
 class AdminController extends Controller
 {
+    use UploadTrait;
     /**
      * Display a listing of the resource.
      *
@@ -75,12 +80,12 @@ class AdminController extends Controller
           $next_raw_num++;
         };
         $all_recipients = DB::table('recipients')
-          ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id')
+          ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id')
+          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -252,6 +257,7 @@ class AdminController extends Controller
 
     public function addRecipient(Request $request)
     {
+      // Adds all of the basic information
       DB::table('recipients')
         ->insert([
           'first_name' => Request::input('first_name'),
@@ -262,22 +268,50 @@ class AdminController extends Controller
           'place' => Request::input('place'),
           'citation' => Request::input('citation'),
           'posthumous' => Request::input('posthumous')
-        ]);
-        $new_moh_id = DB::getPdo()->lastInsertId();
-        $link_id_list = Request::input('link_id_list');
-        if ($link_id_list != "") {
-          $link_id_array = explode(",",$link_id_list);
-          foreach($link_id_array as $one_link_id) {
-            $name = 'moh_link_name_'.$one_link_id;
-            $link = 'moh_link_'.$one_link_id;
-            DB::table('other_urls')
-              ->insert([
-                'name' => Request::input($name),
-                'url' => Request::input($link),
-                'moh_id' => $new_moh_id
-              ]);
-          };
+      ]);
+      $new_moh_id = DB::getPdo()->lastInsertId();
+      $link_id_list = Request::input('link_id_list');
+      if ($link_id_list != "") {
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'moh_link_name_'.$one_link_id;
+          $link = 'recipient_link_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'moh_id' => $new_moh_id
+            ]);
         };
+      };
+      if (Request::hasFile('new_moh_img')) {
+        // Assigns the photo's filename
+        $last_name = Request::input('last_name');
+        $moh_photo_name = "moh_".$last_name."_".$new_moh_id;
+        // DB::table('recipients')
+        //   ->where('id','=',$new_moh_id)
+        //   ->update([
+        //     'photo' => $moh_photo_name
+        // ]);
+        // Uploades the image to AWS
+        Request::validate([
+            'new_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('new_moh_img')) {
+          // First, sends to AWS...
+          $image = Request::file('new_moh_img');
+          $filePath = $moh_photo_name.'.'.$image->getClientOriginalExtension();
+          $s3 = Storage::disk('s3');
+          $s3->put($filePath, file_get_contents($image), 'public');
+          // ...then adds name to DB
+          $photo_with_ext = $moh_photo_name.".".$image->getClientOriginalExtension();
+          DB::table('recipients')
+            ->where('id','=',$new_moh_id)
+            ->update([
+              'photo' => $moh_photo_name.".".$image->getClientOriginalExtension()
+          ]);
+        };
+      };
       return redirect('home/admin');
     }
 
@@ -340,11 +374,39 @@ class AdminController extends Controller
           ]);
         };
       };
+      if (Request::hasFile('current_moh_img')) {
+        $filename = Request::input('existing_filename');
+        Storage::disk('s3')->delete($filename);
+        Request::validate([
+            'current_moh_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('current_moh_img')) {
+          // Deletes the current image in AWS...
+          $filename = Request::input('existing_filename');
+          Storage::disk('s3')->delete($filename);
+          // ...in order to add the new image to AWS...
+          $last_name = Request::input('last_name');
+          $recip_id = Request::input('recip_id');
+          $extension = Request::file('current_moh_img')->getClientOriginalExtension();
+          $new_filename = "moh_".$last_name."_".$recip_id.".".$extension;
+          $image = Request::file('current_moh_img');
+          $s3 = Storage::disk('s3');
+          $s3->put($new_filename, file_get_contents($image), 'public');
+          // ...and update the photo name in DB.
+          DB::table('recipients')
+            ->where('id','=',Request::input('recip_id'))
+            ->update([
+              'photo' => $new_filename
+            ]);
+        };
+      };
       return redirect('home/admin');
     }
 
     public function deleteRecipient(Request $request)
     {
+      $delete_filename = Request::input('recip_photo');
+      Storage::disk('s3')->delete($delete_filename);
       DB::table('other_urls')
         ->where('moh_id','=',Request::input('recip_id'))
         ->delete();
@@ -377,22 +439,50 @@ class AdminController extends Controller
           'state' => Request::input('state'),
           'burial_site' => Request::input('burial_site'),
           'comments' => Request::input('comments')
-        ]);
-        $new_cas_id = DB::getPdo()->lastInsertId();
-        $link_id_list = Request::input('link_id_list');
-        if ($link_id_list != "") {
-          $link_id_array = explode(",",$link_id_list);
-          foreach($link_id_array as $one_link_id) {
-            $name = 'cas_link_name_'.$one_link_id;
-            $link = 'cas_link_url_'.$one_link_id;
-            DB::table('other_urls')
-              ->insert([
-                'name' => Request::input($name),
-                'url' => Request::input($link),
-                'casualty_id' => $new_cas_id
-              ]);
-          };
+      ]);
+      $new_cas_id = DB::getPdo()->lastInsertId();
+      $link_id_list = Request::input('link_id_list');
+      if ($link_id_list != "") {
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'cas_link_name_'.$one_link_id;
+          $link = 'casualty_link_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'casualty_id' => $new_cas_id
+            ]);
         };
+      };
+      if (Request::hasFile('new_casualty_img')) {
+        // Assigns the photo's filename
+        $last_name = Request::input('last_name');
+        $cas_photo_name = "cas_".$last_name."_".$new_cas_id;
+        // DB::table('recipients')
+        //   ->where('id','=',$new_cas_id)
+        //   ->update([
+        //     'photo' => $cas_photo_name
+        // ]);
+        // Uploades the image to AWS
+        Request::validate([
+            'new_casualty_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('new_casualty_img')) {
+          // First, sends to AWS...
+          $image = Request::file('new_casualty_img');
+          $filePath = $cas_photo_name.'.'.$image->getClientOriginalExtension();
+          $s3 = Storage::disk('s3');
+          $s3->put($filePath, file_get_contents($image), 'public');
+          // ...then adds name to DB
+          $photo_with_ext = $cas_photo_name.".".$image->getClientOriginalExtension();
+          DB::table('casualties')
+            ->where('id','=',$new_cas_id)
+            ->update([
+              'photo' => $photo_with_ext
+          ]);
+        };
+      };
       return redirect('home/admin');
     }
 
@@ -485,6 +575,32 @@ class AdminController extends Controller
           ]);
         };
       };
+      if (Request::hasFile('current_cas_img')) {
+        $filename = Request::input('existing_filename');
+        Storage::disk('s3')->delete($filename);
+        Request::validate([
+            'current_cas_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('current_cas_img')) {
+          // Deletes the current image in AWS...
+          $filename = Request::input('existing_filename');
+          Storage::disk('s3')->delete($filename);
+          // ...in order to add the new image to AWS...
+          $last_name = Request::input('last_name');
+          $cas_id = Request::input('cas_id');
+          $extension = Request::file('current_cas_img')->getClientOriginalExtension();
+          $new_filename = "cas_".$last_name."_".$cas_id.".".$extension;
+          $image = Request::file('current_cas_img');
+          $s3 = Storage::disk('s3');
+          $s3->put($new_filename, file_get_contents($image), 'public');
+          // ...and update the photo name in DB.
+          DB::table('casualties')
+            ->where('id','=',Request::input('cas_id'))
+            ->update([
+              'photo' => $new_filename
+            ]);
+        };
+      };
       return redirect('home/admin');
     }
 
@@ -508,6 +624,11 @@ class AdminController extends Controller
 
     public function deleteCasualty(Request $request)
     {
+      $delete_filename = Request::input('cas_photo');
+      Storage::disk('s3')->delete($delete_filename);
+      DB::table('other_urls')
+        ->where('casualty_id','=',Request::input('cas_id'))
+        ->delete();
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))
         ->delete();

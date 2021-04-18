@@ -554,7 +554,7 @@
                     </div>
                   </div>
                   <div class="addMemberInfo" data-addbox="recipient">
-                    <form method="POST" action="admin/recipient/add">
+                    <form method="POST" action="admin/recipient/add" enctype="multipart/form-data">
                       @csrf
                       <input
                         type="text"
@@ -602,6 +602,11 @@
                         <option value="1">YES</option>
                         <option value="0">NO</option>
                       </select>
+                      <div class="col-md-6">
+                          <input
+                            type="file"
+                            name="new_moh_img" />
+                      </div>
                       <div>
                         <div>
                           <u>CUSTOM LINKS</u>
@@ -643,13 +648,27 @@
                       data-recipientbox="{{ $one_recipient->id }}"
                       class="oneMemberInfo">
                       <div class="oneInfo">
-                        <form method="POST" action="admin/recipient/change">
+                        <form method="POST" action="admin/recipient/change" enctype="multipart/form-data">
                           @csrf
                           <input
                             type="hidden"
                             name="recip_id"
                             value="{{ $one_recipient->id }}" />
-                          <div class="infoTitle">First Name</div>
+                          @if ($one_recipient->photo == NULL)
+                            <div class="changeImg" style="background-image:url('/uploads/images/profile-default.jpg')"></div>
+                          @else
+                            <div class="changeImg" style="background-image:url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $one_recipient->photo }}?t=<?php echo(time());?>')"></div>
+                          @endif
+                          <input
+                            type="file"
+                            name="current_moh_img"/>
+                          <input
+                            type="hidden"
+                            name="existing_filename"
+                            value="{{ $one_recipient->photo }}"/>
+                          <div class="infoTitle">
+                            First Name
+                          </div>
                           <input
                             type="text"
                             name="first_name"
@@ -800,6 +819,10 @@
                                   type="hidden"
                                   name="recip_id"
                                   value="{{ $one_recipient->id }}"/>
+                                <input
+                                  type="hidden"
+                                  name="recip_photo"
+                                  value="{{ $one_recipient->photo }}"/>
                               </form>
                             </div>
                           </div>
@@ -824,7 +847,7 @@
                     </div>
                   </div>
                   <div class="addMemberInfo" data-addbox="casualty">
-                    <form method="POST" action="admin/casualty/add">
+                    <form method="POST" action="admin/casualty/add" enctype="multipart/form-data">
                       @csrf
                       <input
                         type="text"
@@ -904,6 +927,11 @@
                         rows="5"
                         placeholder="Notes, comments, or descriptions">
                       </textarea>
+                      <div class="col-md-6">
+                        <input
+                          type="file"
+                          name="new_casualty_img" />
+                      </div>
                       <div>
                         <div>
                           <u>CUSTOM LINKS</u>
@@ -945,9 +973,23 @@
                         data-casualtybox="{{ $one_casualty->id }}"
                         class="oneMemberInfo">
                         <div class="oneInfo">
-                          <form method="POST" action="admin/casualty/change">
+                          <form method="POST" action="admin/casualty/change" enctype="multipart/form-data">
                             @csrf
                             <input type="hidden" name="cas_id" value="{{ $one_casualty->id }}">
+
+                            @if ($one_casualty->photo == NULL)
+                              <div class="changeImg" style="background-image:url('/uploads/images/profile-default.jpg')"></div>
+                            @else
+                              <div class="changeImg" style="background-image:url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $one_casualty->photo }}?t=<?php echo(time());?>')"></div>
+                            @endif
+                            <input
+                              type="file"
+                              name="current_cas_img"/>
+                            <input
+                              type="hidden"
+                              name="existing_filename"
+                              value="{{ $one_casualty->photo }}"/>
+
                             <div class="infoTitle">First Name</div>
                             <input type="text" name="first_name" value="{{ $one_casualty->first_name }}">
                             <div class="infoTitle">Middle Name</div>
@@ -1155,6 +1197,10 @@
                                   type="hidden"
                                   name="cas_id"
                                   value="{{ $one_casualty->id }}"/>
+                                <input
+                                  type="hidden"
+                                  name="cas_photo"
+                                  value="{{ $one_casualty->photo }}"/>
                               </form>
                             </div>
                           </div>

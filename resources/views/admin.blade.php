@@ -1197,6 +1197,10 @@
                                   type="hidden"
                                   name="cas_id"
                                   value="{{ $one_casualty->id }}"/>
+                                <input
+                                  type="hidden"
+                                  name="cas_photo"
+                                  value="{{ $one_casualty->photo }}"/>
                               </form>
                             </div>
                           </div>

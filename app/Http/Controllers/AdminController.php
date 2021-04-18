@@ -446,7 +446,7 @@ class AdminController extends Controller
         $link_id_array = explode(",",$link_id_list);
         foreach($link_id_array as $one_link_id) {
           $name = 'cas_link_name_'.$one_link_id;
-          $link = 'cas_link_url_'.$one_link_id;
+          $link = 'casualty_link_'.$one_link_id;
           DB::table('other_urls')
             ->insert([
               'name' => Request::input($name),
@@ -624,6 +624,11 @@ class AdminController extends Controller
 
     public function deleteCasualty(Request $request)
     {
+      $delete_filename = Request::input('cas_photo');
+      Storage::disk('s3')->delete($delete_filename);
+      DB::table('other_urls')
+        ->where('casualty_id','=',Request::input('cas_id'))
+        ->delete();
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))
         ->delete();

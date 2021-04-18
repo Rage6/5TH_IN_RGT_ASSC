@@ -85,7 +85,7 @@ class AdminController extends Controller
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id')
+          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -439,22 +439,50 @@ class AdminController extends Controller
           'state' => Request::input('state'),
           'burial_site' => Request::input('burial_site'),
           'comments' => Request::input('comments')
-        ]);
-        $new_cas_id = DB::getPdo()->lastInsertId();
-        $link_id_list = Request::input('link_id_list');
-        if ($link_id_list != "") {
-          $link_id_array = explode(",",$link_id_list);
-          foreach($link_id_array as $one_link_id) {
-            $name = 'cas_link_name_'.$one_link_id;
-            $link = 'cas_link_url_'.$one_link_id;
-            DB::table('other_urls')
-              ->insert([
-                'name' => Request::input($name),
-                'url' => Request::input($link),
-                'casualty_id' => $new_cas_id
-              ]);
-          };
+      ]);
+      $new_cas_id = DB::getPdo()->lastInsertId();
+      $link_id_list = Request::input('link_id_list');
+      if ($link_id_list != "") {
+        $link_id_array = explode(",",$link_id_list);
+        foreach($link_id_array as $one_link_id) {
+          $name = 'cas_link_name_'.$one_link_id;
+          $link = 'cas_link_url_'.$one_link_id;
+          DB::table('other_urls')
+            ->insert([
+              'name' => Request::input($name),
+              'url' => Request::input($link),
+              'casualty_id' => $new_cas_id
+            ]);
         };
+      };
+      if (Request::hasFile('new_casualty_img')) {
+        // Assigns the photo's filename
+        $last_name = Request::input('last_name');
+        $cas_photo_name = "cas_".$last_name."_".$new_cas_id;
+        // DB::table('recipients')
+        //   ->where('id','=',$new_cas_id)
+        //   ->update([
+        //     'photo' => $cas_photo_name
+        // ]);
+        // Uploades the image to AWS
+        Request::validate([
+            'new_casualty_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('new_casualty_img')) {
+          // First, sends to AWS...
+          $image = Request::file('new_casualty_img');
+          $filePath = $cas_photo_name.'.'.$image->getClientOriginalExtension();
+          $s3 = Storage::disk('s3');
+          $s3->put($filePath, file_get_contents($image), 'public');
+          // ...then adds name to DB
+          $photo_with_ext = $cas_photo_name.".".$image->getClientOriginalExtension();
+          DB::table('casualties')
+            ->where('id','=',$new_cas_id)
+            ->update([
+              'photo' => $photo_with_ext
+          ]);
+        };
+      };
       return redirect('home/admin');
     }
 
@@ -545,6 +573,32 @@ class AdminController extends Controller
             'url' => Request::input($cas_input_url),
             'casualty_id' => Request::input('cas_id')
           ]);
+        };
+      };
+      if (Request::hasFile('current_cas_img')) {
+        $filename = Request::input('existing_filename');
+        Storage::disk('s3')->delete($filename);
+        Request::validate([
+            'current_cas_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
+        if (Request::has('current_cas_img')) {
+          // Deletes the current image in AWS...
+          $filename = Request::input('existing_filename');
+          Storage::disk('s3')->delete($filename);
+          // ...in order to add the new image to AWS...
+          $last_name = Request::input('last_name');
+          $cas_id = Request::input('cas_id');
+          $extension = Request::file('current_cas_img')->getClientOriginalExtension();
+          $new_filename = "cas_".$last_name."_".$cas_id.".".$extension;
+          $image = Request::file('current_cas_img');
+          $s3 = Storage::disk('s3');
+          $s3->put($new_filename, file_get_contents($image), 'public');
+          // ...and update the photo name in DB.
+          DB::table('casualties')
+            ->where('id','=',Request::input('cas_id'))
+            ->update([
+              'photo' => $new_filename
+            ]);
         };
       };
       return redirect('home/admin');

@@ -138,8 +138,8 @@ $(document).ready(() => {
       // $(".linkBox").append("\
       $("[data-editlinktype='"+linkTypePlural+"'][data-editlinkuse='new']").append("\
         <div data-linkboxtype='"+linkTypeSingular+"' data-linkboxnum='" + newIdNum + "'>\
-          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' />\
-          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' />\
+          <input type='text' name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' required />\
+          <input type='text' name='" + linkTypeSingular + "_link_"+newIdNum+"' placeholder='Link URL' required />\
           <div data-deletetype='" + linkTypeSingular + "' data-deletenum='" + newIdNum + "' class='btn btn-danger'>X</div>\
         </div>");
       $('[data-deletetype][data-deletenum]').off('click');
@@ -199,8 +199,8 @@ $(document).ready(() => {
       // $(".linkBox").append("\
       $("[data-editlinktype='"+linkTypePlural+"'][data-editlinkuse='existing'][data-editlinkboxid='"+thisClickId+"']").append("\
         <div data-linkboxnum='" + newIdNum + "' data-linkboxtype='" + linkTypePlural + "' data-linkboxid='"+ thisClickId + "' class='card'>\
-          <input name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' value=''/>\
-          <input name='" + linkTypeShort + "_link_url_"+newIdNum+"' placeholder='Link URL' value=''/>\
+          <input name='" + linkTypeShort + "_link_name_"+newIdNum+"' placeholder='Link Name' value='' required />\
+          <input name='" + linkTypeShort + "_link_url_"+newIdNum+"' placeholder='Link URL' value='' required />\
           <div data-linkdeletenum='" + newIdNum + "' data-linkdeletetype='" + linkTypePlural + "' data-linkdeleteid='" + thisClickId + "' class='btn btn-danger'>X</div>\
         </div>");
       $('[data-linkdeletenum][data-linkdeletetype][data-linkdeleteid]').off('click');

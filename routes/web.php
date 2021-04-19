@@ -62,6 +62,8 @@ Route::prefix('/home')->group(function() {
   });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
+    // Route::get('links','EditController@addNewLink');
+    Route::post('links','EditController@addNewLink');
     Route::get('profile','ProfileController@index')->name('profile');
     Route::prefix('/profile')->group(function() {
       Route::post('update_current','ProfileController@updateProfile')->name('profile.update_current');

@@ -10,6 +10,7 @@ use App\User;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\DB;
 
 class EditController extends Controller
 {
@@ -31,7 +32,11 @@ class EditController extends Controller
     public function index()
     {
         $this_user = Auth::user();
-        return view('edit',compact('this_user'));
+        $all_links = DB::table('other_urls')
+          ->select('name','url')
+          ->where('member_id','=',$this_user->id)
+          ->get();
+        return view('edit',compact('this_user','all_links'));
     }
 
     public function updateBasicInfo(Request $request)
@@ -43,5 +48,17 @@ class EditController extends Controller
       $this_user->save();
       // $request->session()->put('status','Update Successful');
       return redirect('home');
+    }
+
+    public function addNewLink(Request $request)
+    {
+      DB::table('other_urls')
+        ->insert(
+          [
+            'name' => Request::input('link_name'),
+            'url' => Request::input('link_url'),
+            'member_id' => Request::input('user_id')
+          ]);
+      return redirect('home/edit');
     }
 }

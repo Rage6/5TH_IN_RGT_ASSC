@@ -866,6 +866,7 @@
                       <input
                         type="text"
                         name="rank"
+                        required
                         placeholder="Rank" />
                       <select
                         name="conflict"
@@ -991,13 +992,28 @@
                               value="{{ $one_casualty->photo }}"/>
 
                             <div class="infoTitle">First Name</div>
-                            <input type="text" name="first_name" value="{{ $one_casualty->first_name }}">
+                            <input
+                              type="text"
+                              name="first_name"
+                              required
+                              value="{{ $one_casualty->first_name }}"/>
                             <div class="infoTitle">Middle Name</div>
-                            <input type="text" name="middle_name" value="{{ $one_casualty->middle_name }}">
+                            <input
+                              type="text"
+                              name="middle_name"
+                              value="{{ $one_casualty->middle_name }}"/>
                             <div class="infoTitle">Last Name</div>
-                            <input type="text" name="last_name" value="{{ $one_casualty->last_name }}">
+                            <input
+                              type="text"
+                              name="last_name"
+                              required
+                              value="{{ $one_casualty->last_name }}"/>
                             <div class="infoTitle">Rank</div>
-                            <input type="text" name="rank" value="{{ $one_casualty->rank }}">
+                            <input
+                              type="text"
+                              name="rank"
+                              required
+                              value="{{ $one_casualty->rank }}"/>
                             <div class="infoTitle">Conflict</div>
                             <select name="conflict">
                               @foreach ($all_conflicts as $find_conflict)
@@ -1039,15 +1055,30 @@
                                 value="{{ $one_casualty->year_of_death }}" />
                             </div>
                             <div class="infoTitle">Place</div>
-                            <input type="text" name="place" value="{{ $one_casualty->place }}">
+                            <input
+                              type="text"
+                              name="place"
+                              value="{{ $one_casualty->place }}"/>
                             <div class="infoTitle">Injury Type</div>
-                            <input type="text" name="injury_type" value="{{ $one_casualty->injury_type }}">
+                            <input
+                              type="text"
+                              name="injury_type"
+                              value="{{ $one_casualty->injury_type }}"/>
                             <div class="infoTitle">City</div>
-                            <input type="text" name="city" value="{{ $one_casualty->city }}">
+                            <input
+                              type="text"
+                              name="city"
+                              value="{{ $one_casualty->city }}"/>
                             <div class="infoTitle">State</div>
-                            <input type="text" name="state" value="{{ $one_casualty->state }}">
+                            <input
+                              type="text"
+                              name="state"
+                              value="{{ $one_casualty->state }}"/>
                             <div class="infoTitle">Burial Site</div>
-                            <input type="text" name="burial_site" value="{{ $one_casualty->burial_site }}">
+                            <input
+                              type="text"
+                              name="burial_site"
+                              value="{{ $one_casualty->burial_site }}">
                             <div class="infoTitle">Comments or Notes</div>
                             <textarea
                               type="text"
@@ -1090,8 +1121,14 @@
                                     data-linkboxnum="{{ $highest_cas_num }}"
                                     data-linkboxtype="casualties"
                                     data-linkboxid="{{ $one_casualty->id }}">
-                                    <input name="cas_link_name_{{ $highest_cas_num }}" value="{{ $one_url->name }}" />
-                                    <input name="cas_link_url_{{ $highest_cas_num }}" value="{{ $one_url->url }}" />
+                                    <input
+                                      name="cas_link_name_{{ $highest_cas_num }}"
+                                      required
+                                      value="{{ $one_url->name }}" />
+                                    <input
+                                      name="cas_link_url_{{ $highest_cas_num }}"
+                                      required
+                                      value="{{ $one_url->url }}" />
                                     <div
                                       class="btn btn-danger"
                                       data-linkdeletenum="{{ $highest_cas_num }}"

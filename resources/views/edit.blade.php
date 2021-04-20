@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     <!-- {{ __('This is the edit page') }} -->
                     <form method="POST" action="edit/basics">
                       @csrf
@@ -52,17 +51,17 @@
                       </div>
                       <div class="form-group historyBox">
                         <div>Personal Links</div>
-                        <ul>
+                        <ul class="card">
                         @foreach ($all_links as $one_link)
                           <li>
-                            <a href="http://{{ $one_link->url }}" target="_blank">
+                            <a href="{{ $one_link->url }}" target="_blank">
                               {{ $one_link->name }}
                             </a>
                           </li>
                         @endforeach
                         </ul>
                         <button class="btn">
-                          <a href="{{ route('profile') }}">{{ __('ADD / REMOVE LINKS >>') }}</a>
+                          <a href="edit/links">{{ __('ADD / REMOVE LINKS >>') }}</a>
                         </button>
                       </div>
                       <button type="submit" name="updateBasicInfo" class="btn btn-primary">
@@ -71,15 +70,6 @@
                       <button class="btn">
                         <a href="{{ route('home') }}">{{ __('CANCEL') }}</a>
                       </button>
-                    </form>
-                    <form method="POST" action="edit/links">
-                      @csrf
-                      <div>
-                        <input type="hidden" name="user_id" value="{{ $this_user->id }}"/></br>
-                        <input type="text" name="link_name" placeholder="New Name"/></br>
-                        <input type="text" name="link_url" placeholder="New Website"/></br>
-                        <button type="submit" name="addNewLink">SUBMIT NEW LINK</button>
-                      </div>
                     </form>
                 </div>
             </div>

@@ -62,8 +62,11 @@ Route::prefix('/home')->group(function() {
   });
   Route::prefix('/edit')->group(function() {
     Route::post('basics','EditController@updateBasicInfo');
-    // Route::get('links','EditController@addNewLink');
-    Route::post('links','EditController@addNewLink');
+    Route::prefix('/links')->group(function() {
+      Route::get('','LinkController@index')->name('link');
+      Route::post('add','LinkController@addNewLink')->name('links.add_link');
+      Route::post('delete','LinkController@deleteOldLink')->name('links.delete_link');
+    });
     Route::get('profile','ProfileController@index')->name('profile');
     Route::prefix('/profile')->group(function() {
       Route::post('update_current','ProfileController@updateProfile')->name('profile.update_current');

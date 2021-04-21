@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 
-class EditController extends Controller
+class LinkController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -33,21 +33,10 @@ class EditController extends Controller
     {
         $this_user = Auth::user();
         $all_links = DB::table('other_urls')
-          ->select('name','url')
+          ->select('id','name','url')
           ->where('member_id','=',$this_user->id)
           ->get();
-        return view('edit',compact('this_user','all_links'));
-    }
-
-    public function updateBasicInfo(Request $request)
-    {
-      $this_user = Auth::user();
-      $this_user->first_name = Request::input('first_name');
-      $this_user->last_name = Request::input('last_name');
-      $this_user->biography = Request::input('biography');
-      $this_user->save();
-      // $request->session()->put('status','Update Successful');
-      return redirect('home');
+        return view('links',compact('this_user','all_links'));
     }
 
     public function addNewLink(Request $request)
@@ -59,6 +48,14 @@ class EditController extends Controller
             'url' => Request::input('link_url'),
             'member_id' => Request::input('user_id')
           ]);
-      return redirect('home/edit');
+      return redirect('home/edit/links');
+    }
+
+    public function deleteOldLink(Request $request)
+    {
+      DB::table('other_urls')
+        ->where('id','=',Request::input('link_id'))
+        ->delete();
+      return redirect('home/edit/links');
     }
 }

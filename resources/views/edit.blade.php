@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     <!-- {{ __('This is the edit page') }} -->
                     <form method="POST" action="edit/basics">
                       @csrf
@@ -44,14 +43,29 @@
                       @endif
                       </div>
                       <button class="btn">
-                        <a href="{{ route('profile') }}">{{ __('CHANGES PHOTOS') }}</a>
+                        <a href="{{ route('profile') }}">{{ __('CHANGE YOUR PHOTOS >>') }}</a>
                       </button>
                       <div class="form-group historyBox">
                         <label for="biography">Personal History</label>
                         <textarea class="form-control" id="biography" name="biography" maxlength="255" placeholder="Provide a brief summary of yourself and your time in the 5th">{{ $this_user->biography }}</textarea>
                       </div>
+                      <div class="form-group historyBox">
+                        <div>Personal Links</div>
+                        <ul class="card">
+                        @foreach ($all_links as $one_link)
+                          <li>
+                            <a href="{{ $one_link->url }}" target="_blank">
+                              {{ $one_link->name }}
+                            </a>
+                          </li>
+                        @endforeach
+                        </ul>
+                        <button class="btn">
+                          <a href="edit/links">{{ __('ADD / REMOVE LINKS >>') }}</a>
+                        </button>
+                      </div>
                       <button type="submit" name="updateBasicInfo" class="btn btn-primary">
-                        UPDATE CHANGES
+                        UPDATE MY CHANGES
                       </button>
                       <button class="btn">
                         <a href="{{ route('home') }}">{{ __('CANCEL') }}</a>

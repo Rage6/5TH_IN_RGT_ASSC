@@ -26,7 +26,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header customHeader">{{ __('DASHBOARD') }}</div>
 
                   <!-- This was the PHP to test the email system -->
                   <!-- use App\Mail\PersonalEmail;
@@ -40,7 +40,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <div class="card">
+                    <div class="card customCard">
                       <div>
                         @if ($this_user->current_img)
                           <div id="primaryImg" class="primaryImg" data-time="current" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ auth()->user()->current_img }}?t=<?php echo(time()); ?>');"></div>
@@ -54,17 +54,47 @@
                         @endif
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">
+                        <div class="userTitle">
                           {{ $this_user->first_name }} {{ $this_user->last_name }}
-                        </h5>
-                        <div class="card-text">
+                        </div>
+                        <div>
+                          <i>My Story</i>:
+                        </div>
+                        <div class="card-text customText">
                           {{ $this_user->biography }}
+                        </div>
+                        <div>
+                          <i>My Time In The 5th</i>:
+                        </div>
+                        <div class="card-text customText">
+                          @foreach ($all_jobs as $one_job)
+                            <div>
+                              <div>
+                                {{ $one_job->job }} ({{ $one_job->start_month }}/{{ $one_job->start_year }} - {{ $one_job->end_month }}/{{ $one_job->end_year }})
+                              </div>
+                              <div>
+                                {{ $one_job->unit }}
+                              </div>
+                            </div>
+                          @endforeach
+                        </div>
+                        <div>
+                          <i>My Personal Links</i>:
+                        </div>
+                        <div class="card-text customText">
+                          @foreach ($all_links as $one_link)
+                            <div>
+                              <a href="{{ $one_link->url }}" target="_blank">
+                                {{ $one_link->name }}
+                              </a>
+                            </div>
+                          @endforeach
                         </div>
                       </div>
                     </div>
-                    <div class="card">
-                      <div class="card-body">
-                        <div>
+                    <div class="card customCard">
+                      <div class="customCardBody">
+                        <div class="card-header customHeader">
                           FIND A FELLOW BOBCAT
                         </div>
                         <div>
@@ -159,18 +189,12 @@
                                   </div>
                                 @endforeach
                               </div>
-                              <div>
-                                <a href="home/view/{{ $one_user->id }}">
-                                  <button class="btn rounded-circle border-success">
-                                    P
-                                  </button>
-                                </a>
-                                <a href="home/message/{{ $one_user->id }}">
-                                  <button class="btn rounded-circle border-success">
-                                    M
-                                  </button>
-                                </a>
-                              </div>
+                              <a href="home/view/{{ $one_user->id }}">
+                                <div class="searchResultBttn" style="background-image:url('/images/home/profile_logo.png')"></div>
+                              </a>
+                              <a href="home/message/{{ $one_user->id }}">
+                                <div class="searchResultBttn" style="background-image:url('/images/home/mail_logo_2.png')"></div>
+                              </a>
                             </div>
                           @endforeach
                         </div>

@@ -72,7 +72,15 @@ class HomeController extends Controller
           $this_raw_num++;
           $next_raw_num++;
         };
-        return view('home',compact('this_user','final_all_users'));
+        $all_jobs = DB::table('timespan')
+          ->select('*')
+          ->where('user_id','=',$this_id)
+          ->get();
+        $all_links = DB::table('other_urls')
+          ->select('url','name')
+          ->where('member_id','=',$this_id)
+          ->get();
+        return view('home',compact('this_user','final_all_users','all_jobs','all_links'));
     }
 
 }

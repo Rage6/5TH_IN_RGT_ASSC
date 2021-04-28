@@ -78,6 +78,11 @@ Route::prefix('/home')->group(function() {
 Route::get('registration','RegistrationController@index');
 Route::post('registration','RegistrationController@post');
 
+Route::prefix('reunion')->group(function() {
+  Route::get('','ReunionController@index');
+  Route::post('registration','ReunionController@post');
+});
+
 Route::prefix('history')->group(function() {
   Route::get('timeline','HistoryController@index');
   Route::prefix('album')->group(function() {

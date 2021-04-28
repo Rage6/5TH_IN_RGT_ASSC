@@ -21,7 +21,10 @@
       </div>
       <div class="mainMenuSubBox" data-box-num="1">
         <a href="{{ url('/registration') }}">
-          <div class="mainMenuSubBttn">+ Membership & Registration</div>
+          <div class="mainMenuSubBttn">+ Membership</div>
+        </a>
+        <a href="{{ url('/reunion') }}">
+          <div class="mainMenuSubBttn">+ Reunion</div>
         </a>
         <div class="mainMenuSubBttn">+ Newsletters</div>
         <div class="mainMenuSubBttn">+ Merchandise</div>

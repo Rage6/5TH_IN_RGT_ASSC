@@ -68,7 +68,7 @@
                         </div>
                         <div class="card-text customText">
                           @foreach ($all_jobs as $one_job)
-                            <div>
+                            <div class="oneResultName">
                               <div>
                                 {{ $one_job->job }} ({{ $one_job->start_month }}/{{ $one_job->start_year }} - {{ $one_job->end_month }}/{{ $one_job->end_year }})
                               </div>

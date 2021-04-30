@@ -88,7 +88,8 @@
   border-radius: 15px;
   padding: 10px 2%;
   display: grid;
-  grid-template-columns: 70% 15% 15%;
+  grid-template-columns: 70% 13% 13%;
+  column-gap: 2%;
   background-color: rgba(0,100,0,0.5);
 }
 
@@ -101,7 +102,7 @@
 }
 
 .searchResultBttn {
-  background-size: 95%;
+  background-size: contain;
   background-position:center;
   background-repeat:no-repeat;
   height:100%;

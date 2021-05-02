@@ -26,13 +26,14 @@
 .regIntro {
   padding: 5vh 0;
   height: 80vh;
-  /* background:
+  background:
     linear-gradient(
       rgba(255,255,255,0.5),
       rgba(255,255,255,0.5)),
-    url('/images/registration/collage.png'); */
-  /* background-repeat: no-repeat, repeat; */
-  /* background-size: 100% 100%, 360px 360px; */
+    url('/images/registration/COA_right_half.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, auto 100%;
+  background-position: center, left;
 }
 
 .regBttn {

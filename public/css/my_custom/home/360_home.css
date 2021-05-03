@@ -108,6 +108,24 @@
   height:100%;
 }
 
+/* START View */
+
+.memberTitle {
+  font-size: 1.4rem;
+}
+
+.memberInfoTitle {
+  margin: 20px 0 10px 5%;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.memberInfoContent {
+  margin-left: 5%;
+}
+
+/* END View */
+
 /* START Edit page */
 
 .basicInfoGrid {

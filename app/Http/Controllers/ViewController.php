@@ -32,6 +32,19 @@ class ViewController extends Controller
         ->select('id','first_name','last_name','current_img','veteran_img','biography')
         ->where('id','=',$id)
         ->first();
-      return view('view',compact('this_user','view_user'));
+      $view_conflicts = DB::table('conflicts')
+        ->join('conflict_links','conflicts.id','=','conflict_links.conflict_id')
+        ->select('name')
+        ->where('conflict_links.member_id','=',$id)
+        ->get();
+      $view_jobs = DB::table('timespan')
+        ->select('*')
+        ->where('user_id','=',$id)
+        ->get();
+      $view_links = DB::table('other_urls')
+        ->select('url','name')
+        ->where('member_id','=',$id)
+        ->get();
+      return view('view',compact('this_user','view_user','view_conflicts','view_jobs','view_links'));
     }
 }

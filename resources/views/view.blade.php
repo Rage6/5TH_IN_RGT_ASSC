@@ -57,8 +57,9 @@
                           Times In The 5th
                         </div>
                         <div class="card-text memberInfoContent">
+                          <ul>
                           @foreach ($view_jobs as $one_job)
-                            <div>
+                            <li>
                               {{ $one_job->job }}
                               (
                                 @if ($one_job->start_month != 0)
@@ -70,8 +71,9 @@
                                 @endif
                                 {{ $one_job->end_year }}
                               )
-                            </div>
+                            </li>
                           @endforeach
+                          </ul>
                         </div>
                       @endif
                       @if (count($view_links) > 0)
@@ -91,11 +93,11 @@
                         </div>
                       @endif
                     </div>
-                    <a href="/home/message/{{ $view_user->id }}">
-                      <div>
-                        Message {{ $view_user->first_name }}
-                      </div>
-                    </a>
+                    <div>
+                      <form method='GET' action='/home/message/{{ $view_user->id }}'>
+                        <button>Message {{ $view_user->first_name }}</button>
+                      </form>
+                    </div>
                     <button class="btn">
                       <a href="{{ route('home') }}">
                         {{ __('BACK') }}

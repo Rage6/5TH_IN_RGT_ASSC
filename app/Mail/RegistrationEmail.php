@@ -14,6 +14,7 @@ class RegistrationEmail extends Mailable
     // public $data;
     // public $new_content;
     public $new_submission;
+    public $new_email;
 
     /**
      * Create a new message instance.
@@ -27,6 +28,7 @@ class RegistrationEmail extends Mailable
         // $this->data = $data;
         // $this->email_content = $new_content;
         $this->submission = $new_submission;
+        $this->new_email = $new_submission->email;
     }
 
     /**
@@ -40,7 +42,8 @@ class RegistrationEmail extends Mailable
       // $subject = 'This is a demo!';
       // $name = 'Nicholas Vogt';
 
-      return $this->view('emails.registration')
+      return $this->from($this->new_email)
+                  ->view('emails.registration')
                   ->subject("Member Registration Submitted")
                   ->with([ 'content' => $this->submission ]);
     }

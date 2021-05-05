@@ -11,11 +11,11 @@
   <!-- 415px -> 768px-->
   <link rel="stylesheet" media="screen and (min-width: 415px) and (max-width: 768px)" type="text/css" href="/css/my_custom/reunion/768_reunion.css">
   <!-- 769px -> 1366px-->
-  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1366px)" type="text/css" href="/css/my_custom/reunion/1366_registration.css">
+  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1366px)" type="text/css" href="/css/my_custom/reunion/1366_reunion.css">
   <!-- 1367px -> 1920px-->
-  <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/reunion/1920_registration.css">
+  <link rel="stylesheet" media="screen and (min-width: 1367px) and (max-width: 1920px)" type="text/css" href="/css/my_custom/reunion/1920_reunion.css">
   <!-- 1921px and Greater -->
-  <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/registration/past_1920_reunion.css">
+  <link rel="stylesheet" media="screen and (min-width: 1921px)" type="text/css" href="/css/my_custom/reunion/past_1920_reunion.css">
   <script>
     function openAndCloseForm() {
       let currentDisplay = document.getElementById("reunionForm").style.display;
@@ -48,7 +48,7 @@
               Register Now!
             </div>
           @else
-            <a href="{{ route('login') }}">
+            <a href="{{ 'login?newRoute=reunion' }}">
               <div class="regBttn">
                 Login To Register
               </div>

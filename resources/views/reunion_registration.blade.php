@@ -62,12 +62,12 @@
             <div>
               <form method="POST" action="/reunion/registration">
                 @csrf
-                <input required type='text' name='first_name' placeholder='First Name'/>
-                <input required type='text' name='last_name' placeholder='Last Name'/>
+                <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
+                <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
                 <span>Number of Additional Guests</span>: <input id='guestNum' type='number' min='0' name='guest_num' value='0'/>
                 <input type='text' name='guest_names' placeholder='Guest Names'/>
                 <input required type='tel' name='phone_number' placeholder='Phone Number'/>
-                <input required type='email' name='email' placeholder='Email'/>
+                <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
                 <input type='date' name='arrival_date' placeholder='Last Name'/>
                 <div class='radioTypeBox'>
                   <div>

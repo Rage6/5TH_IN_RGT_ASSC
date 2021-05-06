@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 // use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Request;
-// use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Auth;
 // use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
@@ -13,6 +13,10 @@ use App\Mail\ReunionEmail;
 
 class ReunionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -20,10 +24,12 @@ class ReunionController extends Controller
      */
     public function index()
     {
+      $this_user = Auth::user();
       return view('reunion_registration',[
         'style' => 'reunion_style',
         'js' => '/js/my_custom/reunion/reunion.js',
-        'content' => 'reunion_content'
+        'content' => 'reunion_content',
+        'this_user' => $this_user
       ]);
     }
 

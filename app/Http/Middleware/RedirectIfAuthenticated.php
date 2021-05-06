@@ -18,16 +18,12 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        $newRoute = null;
-        if (isset($_GET['newRoute'])) {
-          $newRoute = 'reunion';
-        }
         if (Auth::guard($guard)->check()) {
-          if ($_GET['newRoute'] == 'reunion') {
-            return redirect(RouteServiceProvider::REUNION);
-          } else {
+          // if ($_GET['newRoute'] == 'reunion') {
+          //   return redirect(RouteServiceProvider::REUNION);
+          // } else {
             return redirect(RouteServiceProvider::HOME);
-          }
+          // }
         }
 
         return $next($request);

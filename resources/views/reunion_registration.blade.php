@@ -62,62 +62,79 @@
             <div>
               <form method="POST" action="/reunion/registration">
                 @csrf
-                <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
-                <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
-                <span>Number of Additional Guests</span>: <input id='guestNum' type='number' min='0' name='guest_num' value='0'/>
-                <input type='text' name='guest_names' placeholder='Guest Names'/>
-                <input required type='tel' name='phone_number' placeholder='Phone Number'/>
-                <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
-                <input type='date' name='arrival_date' placeholder='Last Name'/>
-                <div class='radioTypeBox'>
-                  <div>
-                    Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
+                <div>
+                  <div class="regFormBasic">
+                    <div class="regFormSubtitles">
+                      Basic Information
+                    </div>
+                    <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
+                    <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
+                    <input required type='tel' name='phone_number' placeholder='Phone Number'/>
+                    <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
                   </div>
-                  <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
-                  <div>
-                    Do you plan on attending the Washington DC memorial and monument day?
+                  <div class="regFormBasic">
+                    <div class="regFormSubtitles">
+                      Arrival Date
+                    </div>
+                    <input type='date' name='arrival_date' placeholder='Last Name'/>
+                    <div class="regFormSubtitles">
+                      Additional Guests
+                    </div>
+                    <input id='guestNum' type='number' min='0' name='guest_num' value='0'/>
+                    <input type='text' name='guest_names' placeholder='Guest Name(s)'/>
                   </div>
-                  <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
                 </div>
-                <div class='radioTypeBox'>
-                  <div>
-                    Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
+                <div>
+                  <div class='radioTypeBox'>
+                    <div>
+                      Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
+                    </div>
+                    <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
                   </div>
-                  <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='army_museum' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
-                  <div>
-                    Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
+                  <div class='radioTypeBox'>
+                    <div>
+                      Do you plan on attending the Washington DC memorial and monument day?
+                    </div>
+                    <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
                   </div>
-                  <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
-                  <div>
-                    Are you driving?
+                  <div class='radioTypeBox'>
+                    <div>
+                      Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
+                    </div>
+                    <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='army_museum' value='No'/><span>No</span>
                   </div>
-                  <input type='radio' name='driving' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='driving' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
-                  <div>
-                    Is this your first reunion?
+                  <div class='radioTypeBox'>
+                    <div>
+                      Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
+                    </div>
+                    <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
                   </div>
-                  <input type='radio' name='first_reunion' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='first_reunion' value='No'/><span>No</span>
+                  <div class='radioTypeBox'>
+                    <div>
+                      Are you driving?
+                    </div>
+                    <input type='radio' name='driving' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='driving' value='No'/><span>No</span>
+                  </div>
+                  <div class='radioTypeBox'>
+                    <div>
+                      Is this your first reunion?
+                    </div>
+                    <input type='radio' name='first_reunion' value='Yes'/><span>Yes</span>
+                    <input checked type='radio' name='first_reunion' value='No'/><span>No</span>
+                  </div>
+                  <textarea rows="4" class="commentArea" name='comments' placeholder='Comments...'></textarea>
                 </div>
-                <textarea name='comments'>Comments</textarea>
-                <button>Enter</button>
+                <button>REGISTER</button>
               </form>
             </div>
-          @endauth
-        @endif
-      </div>
+          </div>
+        @endauth
+      @endif
       <div class="regRow">
         <div class="regSection" style="background:rgba(139,0,0,0.8)">
           <div class="regSubtitle">

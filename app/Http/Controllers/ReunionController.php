@@ -13,10 +13,10 @@ use App\Mail\ReunionEmail;
 
 class ReunionController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     /**
      * Display a listing of the resource.
      *
@@ -25,12 +25,20 @@ class ReunionController extends Controller
     public function index()
     {
       $this_user = Auth::user();
-      return view('reunion_registration',[
-        'style' => 'reunion_style',
-        'js' => '/js/my_custom/reunion/reunion.js',
-        'content' => 'reunion_content',
-        'this_user' => $this_user
-      ]);
+      // if ($this_user != NULL) {
+        return view('reunion_registration',[
+          'style' => 'reunion_style',
+          'js' => '/js/my_custom/reunion/reunion.js',
+          'content' => 'reunion_content',
+          'this_user' => $this_user
+        ]);
+      // } else {
+      //   return view('reunion_registration',[
+      //     'style' => 'reunion_style',
+      //     'js' => '/js/my_custom/reunion/reunion.js',
+      //     'content' => 'reunion_content'
+      //   ]);
+      // }
     }
 
     public function post(Request $request)

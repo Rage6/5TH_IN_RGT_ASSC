@@ -19,7 +19,6 @@
   <script>
     function openAndCloseForm() {
       let currentDisplay = document.getElementById("reunionForm").style.display;
-      console.log(currentDisplay);
       let currentWidth = window.outerWidth;
       if (currentDisplay == 'none') {
         if (currentWidth < 1366) {
@@ -30,6 +29,15 @@
       } else {
         document.getElementById("reunionForm").style.display = "none";
       };
+      let menuHeight = document.getElementById("mainMenuTopBttn").offsetHeight;
+      let formTop = document.getElementById("reunionForm").offsetTop;
+      let scrollAmount = formTop - menuHeight;
+      console.log(menuHeight);
+      console.log(formTop);
+      window.scroll({
+        top: scrollAmount,
+        behavior: 'smooth'
+      });
     };
   </script>
   @include ('footer.style')

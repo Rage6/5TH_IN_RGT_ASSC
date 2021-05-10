@@ -89,7 +89,7 @@
                       <div class="regFormSubtitles">
                         Arrival Date
                       </div>
-                      <input type='date' name='arrival_date' placeholder='Last Name'/>
+                      <input type='date' name='arrival_date' placeholder='mm/dd/yyyy'/>
                       <div class="regFormSubtitles">
                         Additional Guests
                       </div>

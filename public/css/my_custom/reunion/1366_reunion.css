@@ -3,53 +3,37 @@
 }
 
 .mainTitle {
-  margin: 0;
-  font-size: 3.5rem;
+  margin-left: 35%;
+  margin-bottom: 18vh;
+  padding-top: 20vh;
+  font-size: 4rem;
+  width: 60%;
 }
 
 .regIntro {
-  background-size: 100% 100%, 414px 414px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 4vh 0;
 }
 
 .regBttn {
-  margin: 0 0 0 0;
-  padding: 25px 0;
-  font-size: 2rem;
+  margin: 0 0 0 48%;
+  border-radius: 25px;
+  padding: 15px 5%;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 30%;
+}
+
+.regForm button {
+  margin: 40px 0 0 37%;
   width: 25%;
 }
 
-.regForm {
-  grid-template-columns: 47% auto 47%;
-}
-
-.regRow {
+.regFormFull {
   display: grid;
-  grid-template-columns: 33% auto 33%;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
 }
 
-.regSection {
-  padding: 20px 2%;
-}
-
-.theOr {
-  margin-top: 40px;
-  font-size: 2rem;
-}
-
-.costTitle {
-  padding-right: 2%;
-  display: flex;
-  justify-content: space-between;
-  width:83%;
-}
-
-.costInLine {
-  display: inherit;
-}
-
-.costNumbers {
-  display: none;
+.regFormBasic input {
+  margin-bottom: 20px;
 }

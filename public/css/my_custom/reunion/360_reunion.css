@@ -16,15 +16,46 @@
 }
 
 .mainTitle {
-  margin: 0 0 29vh 0;
+  margin: 0 0 10vh 0;
   padding-top: 5vh;
   text-align: center;
   font-size: 2.5rem;
   font-family: 'Vollkorn SC', sans-serif;
 }
 
+.dateAndLocation {
+  margin-left: 45%;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 55%;
+}
+
+.reunionDate {
+  border-radius: 20px 0 0 0;
+  padding: 3vh 0 1vh 0;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0,100,0,0.8),
+      rgba(0,100,0,0.8) 70%,
+      transparent);
+}
+
+.reunionLocation {
+  border-radius: 0 0 0 20px;
+  padding: 1vh 0 3vh 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(162,34,41,0.9),
+      rgba(162,34,41,0.9) 70%,
+      transparent);
+}
+
 .regIntro {
   padding: 5vh 0;
+  text-align: center;
   height: 80vh;
   background:
     url('/images/registration/COA_right_half.png'),
@@ -38,7 +69,7 @@
 }
 
 .regBttn {
-  margin: 0 0 0 43%;
+  margin: 20vh 0 0 43%;
   border-radius: 10px;
   padding: 10px 5%;
   text-align: center;
@@ -183,8 +214,53 @@
 .regSection {
   padding: 20px 5%;
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-size: 1.2rem;
   font-family: 'Bellefair', serif;
+  height: 20vh;
+}
+
+.hotelSection {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.3)),
+    url('/images/registration/hotel.jpeg');
+}
+
+.dayOneSection {
+  background-image:
+    linear-gradient(
+      rgba(0,100,0,0.8),
+      rgba(0,100,0,0.3)),
+    url('/images/registration/day_one.jpeg');
+}
+
+.dayTwoSection {
+  background-image:
+    linear-gradient(
+      rgba(139,0,0,0.8),
+      rgba(139,0,0,0.3)),
+    url('/images/registration/day_two.jpeg');
+}
+
+.dayThreeSection {
+  color: black;
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.3)),
+    url('/images/registration/day_three.jpeg');
+}
+
+.dayFourSection {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.3)),
+    url('/images/registration/day_four.jpeg');
 }
 
 .regSubtitle {

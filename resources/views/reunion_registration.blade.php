@@ -32,8 +32,6 @@
       let menuHeight = document.getElementById("mainMenuTopBttn").offsetHeight;
       let formTop = document.getElementById("reunionForm").offsetTop;
       let scrollAmount = formTop - menuHeight;
-      console.log(menuHeight);
-      console.log(formTop);
       window.scroll({
         top: scrollAmount,
         behavior: 'smooth'
@@ -48,7 +46,13 @@
     <div class="content">
       <div class="regIntro">
         <div class="mainTitle">
-          <span>Reunion</span> <span>Registration</span>
+          <span>Bobcat</span> <span>Reunion</span>
+        </div>
+        <div class="reunionDate dateAndLocation">
+          August 10 - 15
+        </div>
+        <div class="reunionLocation dateAndLocation">
+          Washington, DC
         </div>
         @if (Route::has('login'))
           @auth
@@ -70,72 +74,74 @@
             <div>
               <form method="POST" action="/reunion/registration">
                 @csrf
-                <div>
-                  <div class="regFormBasic">
-                    <div class="regFormSubtitles">
-                      Basic Information
+                <div class="regFormFull">
+                  <div class="regFormHalf">
+                    <div class="regFormBasic">
+                      <div class="regFormSubtitles">
+                        Basic Information
+                      </div>
+                      <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
+                      <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
+                      <input required type='tel' name='phone_number' placeholder='Phone Number'/>
+                      <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
                     </div>
-                    <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
-                    <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
-                    <input required type='tel' name='phone_number' placeholder='Phone Number'/>
-                    <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
+                    <div class="regFormBasic">
+                      <div class="regFormSubtitles">
+                        Arrival Date
+                      </div>
+                      <input type='date' name='arrival_date' placeholder='Last Name'/>
+                      <div class="regFormSubtitles">
+                        Additional Guests
+                      </div>
+                      <input id='guestNum' type='number' min='0' name='guest_num' value='0'/>
+                      <input type='text' name='guest_names' placeholder='Guest Name(s)'/>
+                    </div>
                   </div>
-                  <div class="regFormBasic">
-                    <div class="regFormSubtitles">
-                      Arrival Date
+                  <div class="regFormHalf">
+                    <div class='radioTypeBox'>
+                      <div>
+                        Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
+                      </div>
+                      <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
                     </div>
-                    <input type='date' name='arrival_date' placeholder='Last Name'/>
-                    <div class="regFormSubtitles">
-                      Additional Guests
+                    <div class='radioTypeBox'>
+                      <div>
+                        Do you plan on attending the Washington DC memorial and monument day?
+                      </div>
+                      <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
                     </div>
-                    <input id='guestNum' type='number' min='0' name='guest_num' value='0'/>
-                    <input type='text' name='guest_names' placeholder='Guest Name(s)'/>
+                    <div class='radioTypeBox'>
+                      <div>
+                        Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
+                      </div>
+                      <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='army_museum' value='No'/><span>No</span>
+                    </div>
+                    <div class='radioTypeBox'>
+                      <div>
+                        Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
+                      </div>
+                      <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
+                    </div>
+                    <div class='radioTypeBox'>
+                      <div>
+                        Are you driving?
+                      </div>
+                      <input type='radio' name='driving' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='driving' value='No'/><span>No</span>
+                    </div>
+                    <div class='radioTypeBox'>
+                      <div>
+                        Is this your first reunion?
+                      </div>
+                      <input type='radio' name='first_reunion' value='Yes'/><span>Yes</span>
+                      <input checked type='radio' name='first_reunion' value='No'/><span>No</span>
+                    </div>
+                    <textarea rows="4" class="commentArea" name='comments' placeholder='Comments...'></textarea>
                   </div>
-                </div>
-                <div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
-                    </div>
-                    <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
-                  </div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Do you plan on attending the Washington DC memorial and monument day?
-                    </div>
-                    <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
-                  </div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
-                    </div>
-                    <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='army_museum' value='No'/><span>No</span>
-                  </div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
-                    </div>
-                    <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
-                  </div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Are you driving?
-                    </div>
-                    <input type='radio' name='driving' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='driving' value='No'/><span>No</span>
-                  </div>
-                  <div class='radioTypeBox'>
-                    <div>
-                      Is this your first reunion?
-                    </div>
-                    <input type='radio' name='first_reunion' value='Yes'/><span>Yes</span>
-                    <input checked type='radio' name='first_reunion' value='No'/><span>No</span>
-                  </div>
-                  <textarea rows="4" class="commentArea" name='comments' placeholder='Comments...'></textarea>
                 </div>
                 <button>REGISTER</button>
               </form>
@@ -144,140 +150,21 @@
         @endauth
       @endif
       <div class="regRow">
-        <div class="regSection" style="background:rgba(139,0,0,0.8)">
-          <div class="regSubtitle">
-            Purpose & Values
-          </div>
-          <div>
-            <div>
-              <div>Purposes of this Association</div>
-              <ul>
-                <li>
-                  To carry on in mind, spirit, and deed the values and traditions instilled in us as members of the 5th Infantry of the 25th Infantry Division.
-                </li>
-                <li>
-                  To provide support to our members and their families.
-                </li>
-                <li>
-                  To foster our fellowship through organized meetings, reunions, and distribution of information.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <div>The Association stands for:</div>
-              <ul>
-                <li>
-                  Steadfast devotion to the principles upon which our country was founded.
-                </li>
-                <li>
-                  The high standards and ideals set by our Army.
-                </li>
-                <li>
-                  The determined and aggressive spirit of our fighting 25th Infantry Div.
-                </li>
-                <li>
-                  The ever-present team work that has carried the 5th Infantry of the "Tropic Lightning" to victory.
-                </li>
-                <li>
-                  The perpetuation of the unselfish friendships formed in combat.
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="regSection hotelSection">
+          <div class="reunionSectBttn">HOTEL DETAILS</div>
         </div>
-        <div class="regSection" style="background:rgba(255,255,255,0.8);color:black">
-          <div class="regSubtitle">
-            Benefits & Opportunities
-          </div>
-          <div>
-            <div>
-              Every member of the 5th Infantry Regiment Association gains:
-              <ul>
-                <li>
-                  Quarterly newsletters
-                </li>
-                <li>
-                  Membership roster of names, addresses, and phone numbers
-                </li>
-                <li>
-                  Member names and email addresses
-                </li>
-                <li>
-                  Frequent email updates with Association, Regiment, Division and reunion news
-                </li>
-                <li>
-                  Membership card
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="regSection dayOneSection">
+          <div class="reunionSectBttn">WEDNESDAY</div>
         </div>
-        <div class="regSection" style="background:rgba(0,100,0,0.8)">
-          <div class="regSubtitle">
-            Qualifications &</br> Pricing Options
-          </div>
-          <div>
-            <div>
-              <div class="qualTitle">
-                <i>Can I become a member?</i>
-              </div>
-              <div>
-                <div>
-                  <u>Soldiers & Veterans</u>: If you are/or were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army.
-                </div>
-                <div style="margin-top:10px">
-                  <u>Associate Members</u>: We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="qualTitle">
-                <i>What are the membership costs?</i>
-              </div>
-              <div>
-                If you would like to become a member, the dues and how long each due lasts are listed below. The prices of the "Lifetime" options are based on your age when you paid that particular option.
-              </div>
-              <div class="costList">
-                <div class="costTitle">
-                  <span>Active duty</span>
-                  <span class="costInLine">$5 per year</span>
-                </div>
-                <div class="costNumbers">$5 per year</div>
-                <div class="costTitle">
-                  <span>One Year</span>
-                  <span class="costInLine">$15 per year</span>
-                </div>
-                <div class="costNumbers">$15 per year</div>
-                <div class="costTitle">
-                  <span>Two Years</span>
-                  <span class="costInLine">$25 for 2 years</span>
-                </div>
-                <div class="costNumbers">$25 for 2 years</div>
-                <div class="costTitle">
-                  <span>Five Years</span>
-                  <span class="costInLine">$60 for 5 year</span>
-                </div>
-                <div class="costNumbers">$60 for 5 years</div>
-                <div class="costTitle">
-                  <span>Lifetime (< 50 y/o)</span>
-                  <span class="costInLine">$200 once</span>
-                </div>
-                <div class="costNumbers">$200 once</div>
-                <div class="costTitle">
-                  <span>Lifetime (50 - 64 y/o)</span>
-                  <span class="costInLine">$150 once</span>
-                </div>
-                <div class="costNumbers">$150 once</div>
-                <div class="costTitle">
-                  <span>Lifetime (65+ y/o)</span>
-                  <span class="costInLine">$100 once</span>
-                </div>
-                <div class="costNumbers">$100 once</div>
-              </div>
-            </div>
-          </div>
+        <div class="regSection dayTwoSection">
+          <div class="reunionSectBttn">THURSDAY</div>
         </div>
-      </div>
+        <div class="regSection dayThreeSection">
+          <div class="reunionSectBttn">FRIDAY</div>
+        </div>
+        <div class="regSection dayFourSection">
+          <div class="reunionSectBttn">SATURDAY</div>
+        </div>
     </div>
     <!-- </div> -->
     @include ('footer.content')

@@ -16,28 +16,60 @@
 }
 
 .mainTitle {
-  margin: 0 0 45vh 0;
+  margin: 0 0 10vh 0;
   padding-top: 5vh;
   text-align: center;
   font-size: 2.5rem;
   font-family: 'Vollkorn SC', sans-serif;
 }
 
+.dateAndLocation {
+  margin-left: 45%;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 55%;
+}
+
+.reunionDate {
+  border-radius: 20px 0 0 0;
+  padding: 3vh 0 1vh 0;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0,100,0,0.8),
+      rgba(0,100,0,0.8) 70%,
+      transparent);
+}
+
+.reunionLocation {
+  border-radius: 0 0 0 20px;
+  padding: 1vh 0 3vh 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(162,34,41,0.9),
+      rgba(162,34,41,0.9) 70%,
+      transparent);
+}
+
 .regIntro {
   padding: 5vh 0;
+  text-align: center;
   height: 80vh;
   background:
+    url('/images/registration/COA_right_half.png'),
     linear-gradient(
       rgba(255,255,255,0.5),
       rgba(255,255,255,0.5)),
-    url('/images/registration/COA_right_half.png');
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, auto 100%;
-  background-position: center, left;
+    url('/images/registration/collage.png');
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: auto 100%, cover, auto;
+  background-position: left, center, left;
 }
 
 .regBttn {
-  margin: 0 0 0 20%;
+  margin: 20vh 0 0 43%;
   border-radius: 10px;
   padding: 10px 5%;
   text-align: center;
@@ -45,19 +77,55 @@
   font-family: 'Special Elite', cursive;
   font-size: 1.5rem;
   background-color: rgba(0,100,0,1);
-  width: 50%;
+  width: 45%;
 }
 
 .regForm {
-  margin-left: 10%;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  padding-bottom: 25px;
+  padding: 30px 10%;
   color: white;
   font-family: 'Vollkorn SC', sans-serif;
   display: none;
-  background-color: rgba(0,100,0,0.6);
-  width: 80%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.regFormBasic:last-of-type {
+  margin: 20px 0;
+}
+
+.regFormBasic input {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.regFormSubtitles {
+  margin: 25px 0 10px 0;
+  font-size: 1.3rem;
+}
+
+.regFormSubtitles:first-of-type {
+  margin-top: 0;
+}
+
+.radioTypeBox {
+  margin-bottom: 30px;
+}
+
+.commentArea {
+  border-width: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.regForm button {
+  margin: 40px 0 0 24%;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0,100,0,1);
+  width: 52%;
 }
 
 .regText {
@@ -146,8 +214,53 @@
 .regSection {
   padding: 20px 5%;
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-size: 1.2rem;
   font-family: 'Bellefair', serif;
+  height: 20vh;
+}
+
+.hotelSection {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.3)),
+    url('/images/registration/hotel.jpeg');
+}
+
+.dayOneSection {
+  background-image:
+    linear-gradient(
+      rgba(0,100,0,0.8),
+      rgba(0,100,0,0.3)),
+    url('/images/registration/day_one.jpeg');
+}
+
+.dayTwoSection {
+  background-image:
+    linear-gradient(
+      rgba(139,0,0,0.8),
+      rgba(139,0,0,0.3)),
+    url('/images/registration/day_two.jpeg');
+}
+
+.dayThreeSection {
+  color: black;
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.8),
+      rgba(255,255,255,0.3)),
+    url('/images/registration/day_three.jpeg');
+}
+
+.dayFourSection {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.3)),
+    url('/images/registration/day_four.jpeg');
 }
 
 .regSubtitle {

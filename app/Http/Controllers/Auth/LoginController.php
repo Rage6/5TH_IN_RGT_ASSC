@@ -26,7 +26,15 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+     protected function redirectTo()
+     {
+       if ($_POST['new_route'] == 'reunion') {
+         return RouteServiceProvider::REUNION;
+       } else {
+         return RouteServiceProvider::HOME;
+       }
+     }
+    // protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.

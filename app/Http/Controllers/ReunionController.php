@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 // use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Request;
-// use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Auth;
 // use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
@@ -13,6 +13,10 @@ use App\Mail\ReunionEmail;
 
 class ReunionController extends Controller
 {
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     /**
      * Display a listing of the resource.
      *
@@ -20,59 +24,46 @@ class ReunionController extends Controller
      */
     public function index()
     {
-      return view('reunion_registration',[
-        'style' => 'reunion_style',
-        'js' => '/js/my_custom/reunion/reunion.js',
-        'content' => 'reunion_content'
-      ]);
+      $this_user = Auth::user();
+      // if ($this_user != NULL) {
+        return view('reunion_registration',[
+          'style' => 'reunion_style',
+          'js' => '/js/my_custom/reunion/reunion.js',
+          'content' => 'reunion_content',
+          'this_user' => $this_user
+        ]);
+      // } else {
+      //   return view('reunion_registration',[
+      //     'style' => 'reunion_style',
+      //     'js' => '/js/my_custom/reunion/reunion.js',
+      //     'content' => 'reunion_content'
+      //   ]);
+      // }
     }
 
     public function post(Request $request)
     {
-      // $modern_conflicts = DB::table('conflicts')
-      //   ->select('id','name')
-      //   ->where('start_year','>',1920)
-      //   ->orderBy('start_year','asc')
-      //   ->get();
       $init_submission = app();
       $new_submission = $init_submission->make('stdClass');
       $new_submission->first_name = Request::input('first_name');
       $new_submission->last_name = Request::input('last_name');
-      // $new_submission->spouse_name = Request::input('spouse_name');
-      // $new_submission->address_line_1 = Request::input('address_line_1');
-      // $new_submission->address_line_2 = Request::input('address_line_2');
-      // $new_submission->city = Request::input('city');
-      // $new_submission->state = Request::input('state');
-      // $new_submission->zip_code = Request::input('zip_code');
-      // $new_submission->country = Request::input('country');
-      // $new_submission->phone_number = Request::input('phone_number');
-      // $new_submission->conflicts = '';
-      // $init_conflict = true;
-      // foreach ($modern_conflicts as $one_conflict) {
-      //   $input_name = "conflict_".$one_conflict->id;
-      //   $conflict_result = Request::input($input_name);
-      //   if (isset($conflict_result)) {
-      //     if ($init_conflict == true) {
-      //       $new_submission->conflicts .= Request::input($input_name);
-      //       $init_conflict = false;
-      //     } else {
-      //       $new_submission->conflicts .= ", ".Request::input($input_name);
-      //     }
-      //   };
-      // };
-      // $new_submission->unit_details = Request::input('unit_details');
-      // $new_submission->registration_type = Request::input('registration_type');
-      // $new_submission->pay_method = Request::input('pay_method');
-      // $new_submission->email = Request::input('email');
-      // $new_submission->comments = Request::input('comments');
-      // Mail::to(['nvogt10@gmail.com','randy@bobcat.ws'])->send(new RegistrationEmail($new_submission));
-      Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new ReunionEmail($new_submission));
+      $new_submission->guest_num = Request::input('guest_num');
+      $new_submission->guest_names = Request::input('guest_names');
+      $new_submission->phone_number = Request::input('phone_number');
+      $new_submission->email = Request::input('email');
+      $new_submission->arrival_date = Request::input('arrival_date');
+      $new_submission->air_and_space = Request::input('air_and_space');
+      $new_submission->dc_monuments = Request::input('dc_monuments');
+      $new_submission->army_museum = Request::input('army_museum');
+      $new_submission->ladies_breakfast = Request::input('ladies_breakfast');
+      $new_submission->air_and_space = Request::input('air_and_space');
+      $new_submission->driving = Request::input('driving');
+      $new_submission->first_reunion = Request::input('first_reunion');
+      $new_submission->comments = Request::input('comments');
+      $new_email = Request::input('email');
+      Mail::to(['nvogt10@gmail.com','randy@bobcat.ws'])->send(new RegistrationEmail($new_submission));
+      // Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new ReunionEmail($new_submission));
       return redirect('/reunion');
-      // if ($new_submission->pay_method == "checking") {
-      //   return redirect('http://www.bobcat.ws/application.htm');
-      // } else {
-      //   return redirect('http://bobcat.ws/membership-payment.html');
-      // };
     }
 
     /**

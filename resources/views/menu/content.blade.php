@@ -1,5 +1,5 @@
 <div class="menuBody">
-  <div class="mainMenuTopBttn">
+  <div class="mainMenuTopBttn" id="mainMenuTopBttn">
     <a class="mainMenuLink" href="{{ url('/') }}">
       <img src="/images/welcome/5INF_crest-min.png"/>
     </a>

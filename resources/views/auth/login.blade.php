@@ -16,7 +16,9 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+                                <!-- Added by me -->
+                                <input id="newRoute" type='hidden' name="new_route" value="{{ app('request')->input('newRoute') }}">
+                                <!--  -->
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

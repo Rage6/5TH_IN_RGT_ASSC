@@ -1,0 +1,16 @@
+.mainTitle {
+  margin-left: 35%;
+  margin-bottom: 18vh;
+  padding-top: 20vh;
+  font-size: 4rem;
+  width: 60%;
+}
+
+.regBttn {
+  margin: 0 0 0 48%;
+  border-radius: 25px;
+  padding: 15px 5%;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 30%;
+}

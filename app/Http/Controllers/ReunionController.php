@@ -61,7 +61,7 @@ class ReunionController extends Controller
       $new_submission->first_reunion = Request::input('first_reunion');
       $new_submission->comments = Request::input('comments');
       $new_email = Request::input('email');
-      Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com','nvogt10@bobcat.ws'])->send(new ReunionEmail($new_submission));
+      Mail::to(['nicholas.vogt2017@gmail.com','nvogt10@bobcat.ws'])->send(new ReunionEmail($new_submission));
       // Mail::to(['randy@bobcat.ws','nvogt10@gmail.com','carolynjk@bobcat.ws','crd@bobcat.ws','nicholas.vogt2017@gmail.com','nvogt10@bobcat.ws'])->send(new ReunionEmail($new_submission));
       return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
       // return redirect('/reunion');

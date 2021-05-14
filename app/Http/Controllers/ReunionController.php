@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Mail\ReunionEmail;
 
+use Illuminate\Support\Facades\App;
+
 class ReunionController extends Controller
 {
     // public function __construct()
@@ -30,7 +32,8 @@ class ReunionController extends Controller
           'style' => 'reunion_style',
           'js' => '/js/my_custom/reunion/reunion.js',
           'content' => 'reunion_content',
-          'this_user' => $this_user
+          'this_user' => $this_user,
+          'environment' => App::environment('REUNION_EMAIL_1')
         ]);
       // } else {
       //   return view('reunion_registration',[
@@ -61,10 +64,11 @@ class ReunionController extends Controller
       $new_submission->first_reunion = Request::input('first_reunion');
       $new_submission->comments = Request::input('comments');
       $new_email = Request::input('email');
-      if (Request::server('HTTP_HOST') == 'localhost:8000') {
+      if (App::environment() == 'local') {
         Mail::to([env('REUNION_EMAIL_1')])->send(new ReunionEmail($new_submission));
       } else {
-        Mail::to([$_ENV['REUNION_EMAIL_1'],$_ENV['REUNION_EMAIL_2'],$_ENV['REUNION_EMAIL_3'],$_ENV['REUNION_EMAIL_4']])->send(new ReunionEmail($new_submission));
+        // Mail::to([$_ENV['REUNION_EMAIL_1'],$_ENV['REUNION_EMAIL_2'],$_ENV['REUNION_EMAIL_3'],$_ENV['REUNION_EMAIL_4']])->send(new ReunionEmail($new_submission));
+        Mail::to([$_ENV['REUNION_EMAIL_5']])->send(new ReunionEmail($new_submission));
       };
       return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
       // return redirect('/reunion');

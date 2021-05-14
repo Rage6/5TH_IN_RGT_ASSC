@@ -66,8 +66,7 @@ class ReunionController extends Controller
       if (App::environment() == 'local') {
         Mail::to([env('REUNION_EMAIL_1')])->send(new ReunionEmail($new_submission));
       } else {
-        // Mail::to([$_ENV['REUNION_EMAIL_1'],$_ENV['REUNION_EMAIL_2'],$_ENV['REUNION_EMAIL_3'],$_ENV['REUNION_EMAIL_4']])->send(new ReunionEmail($new_submission));
-        Mail::to([env('REUNION_EMAIL_5')])->send(new ReunionEmail($new_submission));
+        Mail::to([env('REUNION_EMAIL_2'),env('REUNION_EMAIL_3'),env('REUNION_EMAIL_4'),env('REUNION_EMAIL_5')])->send(new ReunionEmail($new_submission));
       };
       return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
       // return redirect('/reunion');

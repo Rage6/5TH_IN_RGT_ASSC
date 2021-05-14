@@ -61,10 +61,10 @@ class ReunionController extends Controller
       $new_submission->first_reunion = Request::input('first_reunion');
       $new_submission->comments = Request::input('comments');
       $new_email = Request::input('email');
-      if ($_SERVER['HTTP_HOST'] == 'localhost:8000') {
+      if (Request::server('HTTP_HOST') == 'localhost:8000') {
         Mail::to([env('REUNION_EMAIL_1')])->send(new ReunionEmail($new_submission));
       } else {
-        // Mail::to([$_ENV['REUNION_EMAIL_1'],$_ENV['REUNION_EMAIL_2'],$_ENV['REUNION_EMAIL_3'],$_ENV['REUNION_EMAIL_4']])->send(new ReunionEmail($new_submission));
+        Mail::to([$_ENV['REUNION_EMAIL_1'],$_ENV['REUNION_EMAIL_2'],$_ENV['REUNION_EMAIL_3'],$_ENV['REUNION_EMAIL_4']])->send(new ReunionEmail($new_submission));
       };
       return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
       // return redirect('/reunion');

@@ -44,7 +44,6 @@
 @section('reunion_content')
   <div class="main">
     <div class="content">
-      {{ env('REUNION_EMAIL_1') }}
       <div class="regIntro">
         <div class="mainTitle">
           <span>Bobcat</span> <span>Reunion</span>

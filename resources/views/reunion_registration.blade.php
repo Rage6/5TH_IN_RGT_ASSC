@@ -44,6 +44,9 @@
 @section('reunion_content')
   <div class="main">
     <div class="content">
+    <pre>
+      {{ $environment }}
+    </pre>
       <div class="regIntro">
         <div class="mainTitle">
           <span>Bobcat</span> <span>Reunion</span>

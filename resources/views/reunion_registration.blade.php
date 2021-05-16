@@ -54,22 +54,13 @@
         <div class="reunionLocation dateAndLocation">
           Washington, DC
         </div>
-        @if (Route::has('login'))
-          @auth
+
             <div class="regBttn" id="regBttn" onclick="openAndCloseForm()">
               Register Now!
             </div>
-          @else
-            <a href="{{ 'login?newRoute=reunion' }}">
-              <div class="regBttn">
-                Login To Register
-              </div>
-            </a>
-          @endauth
-        @endif
+
       </div>
-      @if (Route::has('login'))
-        @auth
+
           <div class="regForm" id="reunionForm" style="display:none">
             <div>
               <form method="POST" action="/reunion/registration">
@@ -80,10 +71,10 @@
                       <div class="regFormSubtitles">
                         Basic Information
                       </div>
-                      <input required type='text' name='first_name' value='{{ $this_user->first_name }}' placeholder='First Name'/>
-                      <input required type='text' name='last_name' value='{{ $this_user->last_name }}' placeholder='Last Name'/>
+                      <input required type='text' name='first_name' placeholder='First Name'/>
+                      <input required type='text' name='last_name' placeholder='Last Name'/>
                       <input required type='tel' name='phone_number' placeholder='Phone Number'/>
-                      <input required type='email' name='email' value='{{ $this_user->email }}' placeholder='Email'/>
+                      <input required type='email' name='email' placeholder='Email'/>
                     </div>
                     <div class="regFormBasic">
                       <div class="regFormSubtitles">
@@ -147,8 +138,7 @@
               </form>
             </div>
           </div>
-        @endauth
-      @endif
+
       <div class="regRow">
         <div class="regSection hotelSection">
           <div class="reunionSectBttn">HOTEL DETAILS</div>

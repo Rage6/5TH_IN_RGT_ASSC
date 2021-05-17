@@ -1,16 +1,26 @@
 .mainTitle {
   margin-left: 35%;
-  margin-bottom: 18vh;
-  padding-top: 20vh;
-  font-size: 4rem;
+  margin-bottom: 8vh;
+  padding-top: 7vh;
+  font-size: 4.5rem;
   width: 60%;
 }
 
 .regBttn {
-  margin: 0 0 0 48%;
+  margin: 15vh 0 0 38%;
   border-radius: 25px;
   padding: 15px 5%;
   font-size: 3rem;
   line-height: 4rem;
-  width: 30%;
+  width: 45%;
+}
+
+.dateAndLocation {
+  font-size: 2.7rem;
+}
+
+.regRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20vh 20vh 20vh;
 }

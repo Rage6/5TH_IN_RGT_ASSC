@@ -17,9 +17,9 @@ body {
 
 .mainTitle {
   margin-left: 35%;
-  margin-bottom: 18vh;
-  padding-top: 20vh;
-  font-size: 4rem;
+  margin-bottom: 15vh;
+  padding-top: 8vh;
+  font-size: 5.5rem;
   width: 60%;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .regBttn {
-  margin: 0 0 0 48%;
+  margin: 15vh 0 0 48%;
   border-radius: 25px;
   padding: 15px 5%;
   font-size: 3rem;
@@ -54,4 +54,16 @@ body {
 
 .regFormBasic input {
   margin-bottom: 20px;
+}
+
+.dateAndLocation {
+  margin-left: 35%;
+  font-size: 2.7rem;
+  width: 65%;
+}
+
+.regRow {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 35vh 35vh;
 }

@@ -195,21 +195,112 @@
             data-type="button"
             onclick="clickSection('saturday','button')">SATURDAY</div>
         </div>
-        <div class="regSection fillerSection">
-          <!-- This is a filler element -->
+        <div class="regSection locationSection">
+          <div
+            class="reunionSectBttn"
+            data-section="location"
+            data-type="button"
+            onclick="clickSection('location','button')">LOCATION</div>
         </div>
       </div>
       <div
-        class="reunionSectBox"
+        class="reunionSectBox hotelBox"
         data-section="hotel"
         data-type="box">
-        This is the box for the hotel information
+        <div class="boxTitle">
+          Hotel Details
+        </div>
+        <div class="boxContent">
+          <div class="boxSubtitle">
+            Location:
+          </div>
+          <div class="boxSubcontent">
+            The Crowne Plaza Dulles Airport
+            2200 Centreville Road
+            Herndon, Virginia 20170​
+          </div>
+          <div class="hotelMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="boxSubtitle">
+            Cost:
+          </div>
+          <div class="boxSubcontent">
+            $129 Single / Double per night
+          </div>
+          <div class="boxSubtitle">
+            Reservations:
+          </div>
+          <div class="boxSubcontent">
+            To make reservation:
+            CLICK HERE
+            Or
+            Call 1- (877)390-5944 and, when booking, tell them * 5th Infantry Regiment Association *
+            Booking prices are good up to 3 before and after reunion dates
+            Reservations must be made by 7/26/2021
+          </div>
+          <div class="boxSubtitle">
+            Hotel Amenities:
+          </div>
+          <div>
+            <div>
+              Free parking
+            </div>
+            <div>
+              Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
+            </div>
+            <div>
+              Breakfast for 2 included in Room Rate​
+            </div>
+            <div>
+              Free Wi-Fi in guestrooms
+            </div>
+          </div>
+        </div>
       </div>
       <div
-        class="reunionSectBox"
+        class="reunionSectBox wednesdayBox"
         data-section="wednesday"
         data-type="box">
-        This is the box for the Wednesday information
+        <div class="boxTitle">
+          Wednesday, Aug. 11th, 9:00 am - 3:00 pm
+        </div>
+        <div class="boxContent">
+          <div class="boxSubtitle">
+            National Air & Space Museum Steven F. Udvar-Hazy Center
+          </div>
+          <div class="boxSubcontent">
+            Two large hangars display thousands of aviation and space artifacts, including a Lockheed SR-71 Blackbird, a Concorde, and the Space Shuttle <i>Discovery</i>.​
+          </div>
+          <div class="reunionBoxImg shuttle"></div>
+          <div class="boxSubtitle">
+            Winery at Bull Run
+          </div>
+          <div class="boxSubcontent">
+            Travel back in tine to the year 1861. Immerse yourself in the beautiful, historically landscaped vistas, tour the structures dotting the landscape while learning of the secrets they keep, and listen to the unique stories of the American Civil War that took place on these very grounds</br>
+            Taste Award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
+          </div>
+          <div class="reunionBoxImg winery"></div>
+          <div class="boxSubcontent">
+            Walk amongst the ruins of the Hillwood Mansion, which served as a hospital during the First Battle of Bull Run. Explore an authentic Civil War soldiers's winter quarters cabin that still appears inhabited today.
+          </div>
+          <div class="boxSubtitle">
+            Lunch
+          </div>
+          <div class="boxSubcontent">
+            Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include:
+          </div>
+          <ul>
+            <li>Chicken Caesar Wrap</li>
+            <li>Tuna Sun Dried Tomato</li>
+            <li>Turkey BLT with Avocado</li>
+            <li>Buffalo Chicken Wrap with Blue Cheese</li>
+            <li>Veggie Roasted Red Pepper Hummus</li>
+          </ul>
+          <div>
+            Includes homemade pepper kettle chips and penne pasta salad.
+          </div>
+        </div>
       </div>
       <div
         class="reunionSectBox"
@@ -228,6 +319,12 @@
         data-section="saturday"
         data-type="box">
         This is the box for the Saturday information
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="location"
+        data-type="box">
+        This is the box for the Location information
       </div>
     </div>
     @include ('footer.content')

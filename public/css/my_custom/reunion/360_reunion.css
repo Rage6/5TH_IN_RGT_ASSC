@@ -368,7 +368,14 @@
   background-image: url("/images/registration/winery_at_bull_run.jpg");
 }
 
-.regSubtitle {
+.reserveBttn {
+  border: 5px solid white;
+  padding: 20px;
+  background-color: rgba(0,100,0,0.8);
+  text-decoration: none !important;
+}
+
+/* .regSubtitle {
   margin-bottom: 20px;
   font-size: 1.4rem;
   font-family: 'Vollkorn SC', sans-serif;
@@ -404,4 +411,4 @@
   padding-right: 10%;
   text-align: right;
   font-size: 1.6rem;
-}
+} */

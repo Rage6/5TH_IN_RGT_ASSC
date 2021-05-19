@@ -223,6 +223,23 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <div class="boxSubtitle">
+            Hotel Amenities:
+          </div>
+          <ul>
+            <li>
+              Free parking
+            </li>
+            <li>
+              Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
+            </li>
+            <li>
+              Breakfast for 2 included in Room Rate​
+            </li>
+            <li>
+              Free Wi-Fi in guestrooms
+            </li>
+          </ul>
+          <div class="boxSubtitle">
             Cost:
           </div>
           <div class="boxSubcontent">
@@ -232,28 +249,13 @@
             Reservations:
           </div>
           <div class="boxSubcontent">
-            To make reservation:
-            CLICK HERE
-            Or
-            Call 1- (877)390-5944 and, when booking, tell them * 5th Infantry Regiment Association *
-            Booking prices are good up to 3 before and after reunion dates
-            Reservations must be made by 7/26/2021
-          </div>
-          <div class="boxSubtitle">
-            Hotel Amenities:
-          </div>
-          <div>
+            <div style="text-align:center">To make reservation:</div>
+            <a href="https://www.ihg.com/crowneplaza/hotels/us/en/herndon/washv/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=WASHV&qGrpCd=FIR&setPMCookies=true&qSHBrC=CP&qDest=2200%20Centreville%20Road,%20Herndon,%20VA,%20US&srb_u=1" target="_blank">
+              <div class="reserveBttn">BOOK ONLINE</div>
+            </a>
+            <i>OR</i>
             <div>
-              Free parking
-            </div>
-            <div>
-              Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
-            </div>
-            <div>
-              Breakfast for 2 included in Room Rate​
-            </div>
-            <div>
-              Free Wi-Fi in guestrooms
+              Call 1-(877) 390-5944 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by July 26th, 2021.
             </div>
           </div>
         </div>
@@ -278,7 +280,7 @@
           </div>
           <div class="boxSubcontent">
             Travel back in tine to the year 1861. Immerse yourself in the beautiful, historically landscaped vistas, tour the structures dotting the landscape while learning of the secrets they keep, and listen to the unique stories of the American Civil War that took place on these very grounds</br>
-            Taste Award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
+            Taste award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
           </div>
           <div class="reunionBoxImg winery"></div>
           <div class="boxSubcontent">
@@ -289,16 +291,20 @@
           </div>
           <div class="boxSubcontent">
             Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include:
-          </div>
-          <ul>
-            <li>Chicken Caesar Wrap</li>
-            <li>Tuna Sun Dried Tomato</li>
-            <li>Turkey BLT with Avocado</li>
-            <li>Buffalo Chicken Wrap with Blue Cheese</li>
-            <li>Veggie Roasted Red Pepper Hummus</li>
-          </ul>
-          <div>
+            <ul>
+              <li>Chicken Caesar Wrap</li>
+              <li>Tuna Sun Dried Tomato</li>
+              <li>Turkey BLT with Avocado</li>
+              <li>Buffalo Chicken Wrap with Blue Cheese</li>
+              <li>Veggie Roasted Red Pepper Hummus</li>
+            </ul>
             Includes homemade pepper kettle chips and penne pasta salad.
+          </div>
+          <div class="boxSubtitle">
+            Total Cost
+          </div>
+          <div class="boxSubcontent">
+            $79 per person. This includes the museum visit, lunch, tour, and wine tasting.
           </div>
         </div>
       </div>

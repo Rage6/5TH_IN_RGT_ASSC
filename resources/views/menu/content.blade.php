@@ -42,7 +42,9 @@
         <a href="{{ url('/history/timeline') }}">
           <div class="mainMenuSubBttn">+ History Timeline</div>
         </a>
-        <div class="mainMenuSubBttn">+ Book: "Two Centuries of Valor: The Story of the 5th Infantry Regiment"</div>
+        <a href="https://twocenturiesofvalor.com" target="_blank">
+          <div class="mainMenuSubBttn">+ Book: "Two Centuries of Valor: The Story of the 5th Infantry Regiment"</div>
+        </a>
       </div>
     </div>
     <div>

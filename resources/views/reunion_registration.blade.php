@@ -37,6 +37,24 @@
         behavior: 'smooth'
       });
     };
+    function clickSection(section,type) {
+      // Opens the correct box...
+      let allBoxes = document.querySelectorAll("[data-type='box']");
+      for (let boxNum = 0; boxNum < allBoxes.length; boxNum++) {
+        allBoxes[boxNum].style.display = "none";
+      };
+      let targetBox = document.querySelectorAll("[data-type='box'][data-section='"+section+"']")[0];
+      targetBox.style.display = "block";
+      // ...and scrolls down to opened box
+      let menuHeight = document.getElementById("mainMenuTopBttn").offsetHeight;
+      let targetTop = targetBox.offsetTop;
+      let scrollAmount = targetTop - menuHeight;
+      window.scroll({
+        top: scrollAmount,
+        behavior: 'smooth'
+      });
+    };
+    document.querySelectorAll('[data-type]');
   </script>
   @include ('footer.style')
 @stop
@@ -143,23 +161,73 @@
       </div>
       <div class="regRow">
         <div class="regSection hotelSection">
-          <div class="reunionSectBttn">HOTEL DETAILS</div>
+          <div
+            class="reunionSectBttn"
+            data-section="hotel"
+            data-type="button"
+            onclick="clickSection('hotel','button')">HOTEL DETAILS</div>
         </div>
         <div class="regSection dayOneSection">
-          <div class="reunionSectBttn">WEDNESDAY</div>
+          <div
+            class="reunionSectBttn"
+            data-section="wednesday"
+            data-type="button"
+            onclick="clickSection('wednesday','button')">WEDNESDAY</div>
         </div>
         <div class="regSection dayTwoSection">
-          <div class="reunionSectBttn">THURSDAY</div>
+          <div
+            class="reunionSectBttn"
+            data-section="thursday"
+            data-type="button"
+            onclick="clickSection('thursday','button')">THURSDAY</div>
         </div>
         <div class="regSection dayThreeSection">
-          <div class="reunionSectBttn">FRIDAY</div>
+          <div
+            class="reunionSectBttn"
+            data-section="friday"
+            data-type="button"
+            onclick="clickSection('friday','button')">FRIDAY</div>
         </div>
         <div class="regSection dayFourSection">
-          <div class="reunionSectBttn">SATURDAY</div>
+          <div
+            class="reunionSectBttn"
+            data-section="saturday"
+            data-type="button"
+            onclick="clickSection('saturday','button')">SATURDAY</div>
         </div>
         <div class="regSection fillerSection">
           <!-- This is a filler element -->
         </div>
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="hotel"
+        data-type="box">
+        This is the box for the hotel information
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="wednesday"
+        data-type="box">
+        This is the box for the Wednesday information
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="thursday"
+        data-type="box">
+        This is the box for the Thursday information
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="friday"
+        data-type="box">
+        This is the box for the Friday information
+      </div>
+      <div
+        class="reunionSectBox"
+        data-section="saturday"
+        data-type="box">
+        This is the box for the Saturday information
       </div>
     </div>
     @include ('footer.content')

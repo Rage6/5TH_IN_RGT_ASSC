@@ -221,9 +221,9 @@
               Location:
             </div>
             <div class="boxSubcontent">
-              The Crowne Plaza Dulles Airport
-              2200 Centreville Road
-              Herndon, Virginia 20170​
+              The Crowne Plaza Dulles Airport</br>
+              2200 Centreville Road</br>
+              Herndon, Virginia 20170​</br>
             </div>
             <div class="hotelMap">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>

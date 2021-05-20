@@ -284,7 +284,7 @@
     url('/images/registration/day_four.jpeg');
 }
 
-.locationSection {
+.paymentSection {
   background-image:
     linear-gradient(
       rgba(0,100,0,0.8),
@@ -347,6 +347,20 @@
       rgba(0,100,0,0.7));
 }
 
+.thursdayBox {
+  color: white;
+  background: linear-gradient(
+      rgba(139,0,0,0.8),
+      rgba(139,0,0,0.8));
+}
+
+.fridayBox {
+  color: black;
+  background: linear-gradient(
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7));
+}
+
 .boxSubtitle {
   margin-bottom: 15px;
   font-size: 1.5rem;
@@ -382,6 +396,58 @@
 
 .winery {
   background-image: url("/images/registration/winery_at_bull_run.jpg");
+}
+
+.memorialList {
+  margin: 30px 0 60px 0;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  grid-template-rows: repeat(10, 30px);
+  grid-column-gap: 4%;
+  grid-row-gap: 7px;
+}
+
+.listBullet {
+  background-image: url('/images/registration/white-star-icon-13.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.listText {
+  line-height: 30px;
+}
+
+.memorialCollage {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 49% 49%;
+  grid-gap: 2%;
+}
+
+.oneCorner {
+  background-size: cover;
+  background-position: center;
+}
+
+.upperLeft {
+  background-image: url('/images/registration/vietnam_memorial.jpg');
+}
+
+.upperRight {
+  background-image: url('/images/registration/lincoln_memorial.jpg');
+}
+
+.lowerLeft {
+  background-image: url('/images/registration/washington_monument.jpg');
+}
+
+.lowerRight {
+  background-image: url('/images/registration/korean_memorial.jpg');
+}
+
+.army_museum {
+  background-image: url("/images/registration/army_museum_interior.jpeg");
 }
 
 .reserveBttn {

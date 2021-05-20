@@ -195,12 +195,17 @@
             data-type="button"
             onclick="clickSection('saturday','button')">SATURDAY</div>
         </div>
-        <div class="regSection locationSection">
-          <div
+        <div class="regSection paymentSection">
+          <!-- <div
             class="reunionSectBttn"
-            data-section="location"
+            data-section="payment"
             data-type="button"
-            onclick="clickSection('location','button')">LOCATION</div>
+            onclick="clickSection('payment','button')">PAYMENTS</div> -->
+            <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer;color:white">
+              <div
+                class="reunionSectBttn">PAYMENTS
+              </div>
+            </a>
         </div>
       </div>
       <div
@@ -341,16 +346,121 @@
         </div>
       </div>
       <div
-        class="reunionSectBox"
+        class="reunionSectBox thursdayBox"
         data-section="thursday"
         data-type="box">
-        This is the box for the Thursday information
+        <div class="boxTitle">
+          Thursday, Aug. 12th, 9:00 am - 4:00 pm
+        </div>
+        <div class="boxContent">
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Washington, D.C. Memorial & Monuments Day
+            </div>
+            <div class="boxSubcontent">
+              <div class="boxTotal">
+                We will see as many as time permits, and we will have tour guides.
+                <div class="memorialList">
+                  <div class="listBullet"></div>
+                  <div class="listText">Lincoln Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Vietnam Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Korean Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">9/11 Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Washington Monument</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Iwo Jima Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">World War II Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Franklin Delano Roosevelt Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">Jefferson Memorial</div>
+                  <div class="listBullet"></div>
+                  <div class="listText">American Veterans Disabled for Life Memorial</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Lunch
+            </div>
+            <div class="boxSubcontent">
+              Lunch can be purchased at the <a href="https://www.unionstationdc.com/directory-map/">Union Station Food Court</a>.
+            </div>
+            <div class="reunionBoxImg memorialCollage">
+              <div class="oneCorner upperLeft"></div>
+              <div class="oneCorner upperRight"></div>
+              <div class="oneCorner lowerLeft"></div>
+              <div class="oneCorner lowerRight"></div>
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Total Cost
+            </div>
+            <div class="boxSubcontent">
+              <ul>
+                <li>
+                  $59 per person
+                </li>
+              </ul>
+              <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div>
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">FEE & MEAL</div>
+              </a>
+            </div>
+            <!-- <div class="reunionBoxImg memorialCollage">
+              <div class="oneCorner upperLeft"></div>
+              <div class="oneCorner upperRight"></div>
+              <div class="oneCorner lowerLeft"></div>
+              <div class="oneCorner lowerRight"></div>
+            </div> -->
+          </div>
+        </div>
       </div>
       <div
-        class="reunionSectBox"
+        class="reunionSectBox fridayBox"
         data-section="friday"
         data-type="box">
-        This is the box for the Friday information
+        <div class="boxTitle">
+          Friday, Aug. 13th, 9:00 am - 4:00 pm
+        </div>
+        <div class="boxContent">
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              National Army Museum
+            </div>
+            <div class="boxSubcontent">
+              The National Museum of the United States Army will serve as the capstone of the Army Museum Enterprise and provide the only comprehensive portrayal of Army history and traditions.  The National Army Museum will celebrate the selfless service and sacrifice of over 30 million men and women who have worn the Army uniform since 1775.  The Museum will be a technological marvel incorporating the latest advances in museum exhibits while providing advanced educational opportunities that will capture the attention of visitors old and young.  As the Army’s national landmark, the Museum will honor United States Soldiers – past, present, and future – and provide an interactive educational experience explaining the Army’s role in creating and defending our nation, as well as the Army’s social initiatives and contributions for more than 240 years.
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Total Cost
+            </div>
+            <div class="boxSubcontent">
+              <ul>
+                <li>
+                  $89 per person. This includes the museum's memorial service, a catered luncheon, and self-guided tour.
+                </li>
+              </ul>
+              <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div>
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">FEE & MEAL</div>
+              </a>
+            </div>
+            <div class="reunionBoxImg army_museum"></div>
+          </div>
+        </div>
       </div>
       <div
         class="reunionSectBox"
@@ -358,12 +468,12 @@
         data-type="box">
         This is the box for the Saturday information
       </div>
-      <div
+      <!-- <div
         class="reunionSectBox"
-        data-section="location"
+        data-section="payment"
         data-type="box">
-        This is the box for the Location information
-      </div>
+        This is the box for the Payments information
+      </div> -->
     </div>
     @include ('footer.content')
   </div>

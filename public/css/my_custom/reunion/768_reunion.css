@@ -24,3 +24,22 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: 20vh 20vh 20vh;
 }
+
+.boxContent {
+  grid-template-columns: repeat(2,47%);
+  column-gap: 6%;
+}
+
+#hotelReservation {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.hotelMap {
+  height: inherit;
+}
+
+.reservationRow {
+  grid-template-columns: 40% 10% 40%;
+  justify-content: space-between;
+}

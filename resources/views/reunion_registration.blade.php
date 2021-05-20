@@ -211,51 +211,65 @@
           Hotel Details
         </div>
         <div class="boxContent">
-          <div class="boxSubtitle">
-            Location:
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Location:
+            </div>
+            <div class="boxSubcontent">
+              The Crowne Plaza Dulles Airport
+              2200 Centreville Road
+              Herndon, Virginia 20170​
+            </div>
+            <div class="hotelMap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
-          <div class="boxSubcontent">
-            The Crowne Plaza Dulles Airport
-            2200 Centreville Road
-            Herndon, Virginia 20170​
+          <div>
+            <div class="boxTotal">
+              <div class="boxSubtitle">
+                Hotel Amenities:
+              </div>
+              <ul>
+                <li>
+                  Free parking
+                </li>
+                <li>
+                  Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
+                </li>
+                <li>
+                  Breakfast for 2 included in Room Rate​
+                </li>
+                <li>
+                  Free Wi-Fi in guestrooms
+                </li>
+              </ul>
+            </div>
+            <div class="boxTotal">
+              <div class="boxSubtitle">
+                Cost:
+              </div>
+              <div class="boxSubcontent">
+                <ul>
+                  <li>$129 Single / Double per night</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="hotelMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <div class="boxSubtitle">
-            Hotel Amenities:
-          </div>
-          <ul>
-            <li>
-              Free parking
-            </li>
-            <li>
-              Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
-            </li>
-            <li>
-              Breakfast for 2 included in Room Rate​
-            </li>
-            <li>
-              Free Wi-Fi in guestrooms
-            </li>
-          </ul>
-          <div class="boxSubtitle">
-            Cost:
-          </div>
-          <div class="boxSubcontent">
-            $129 Single / Double per night
-          </div>
-          <div class="boxSubtitle">
-            Reservations:
-          </div>
-          <div class="boxSubcontent">
-            <div style="text-align:center">To make reservation:</div>
-            <a href="https://www.ihg.com/crowneplaza/hotels/us/en/herndon/washv/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=WASHV&qGrpCd=FIR&setPMCookies=true&qSHBrC=CP&qDest=2200%20Centreville%20Road,%20Herndon,%20VA,%20US&srb_u=1" target="_blank">
-              <div class="reserveBttn">BOOK ONLINE</div>
-            </a>
-            <i>OR</i>
-            <div>
-              Call 1-(877) 390-5944 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by July 26th, 2021.
+          <div class="boxTotal" id="hotelReservation">
+            <div class="boxSubtitle">
+              Reservations:
+            </div>
+            <div class="boxSubcontent">
+              <div class="rowIntro">To make a reservation:</div>
+              <div class="reservationRow">
+                <a href="https://www.ihg.com/crowneplaza/hotels/us/en/herndon/washv/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=WASHV&qGrpCd=FIR&setPMCookies=true&qSHBrC=CP&qDest=2200%20Centreville%20Road,%20Herndon,%20VA,%20US&srb_u=1" target="_blank" style="cursor:pointer">
+                  <div class="reserveBttn">BOOK ONLINE</div>
+                </a>
+                <i>OR</i>
+                <div>
+                  Call 1-(877) 390-5944 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by July 26th, 2021.
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -306,8 +306,9 @@
 }
 
 .boxContent {
-  margin: 0 5vh;
+  margin: 0 5%;
   padding-bottom: 5vh;
+  display: grid;
   font-size: 1.3rem;
 }
 
@@ -315,6 +316,21 @@
   color: white;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.boxTotal {
+  width: 100%;
+}
+
+.rowIntro {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.reservationRow {
+  display: grid;
+  grid-row-gap: 20px;
+  text-align: center;
 }
 
 .hotelBox {

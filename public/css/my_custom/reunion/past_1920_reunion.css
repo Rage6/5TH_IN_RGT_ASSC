@@ -86,6 +86,10 @@ body {
   height: inherit;
 }
 
+.shuttle {
+  height: 55vh;
+}
+
 .reservationRow {
   display: grid;
   text-align: center;

@@ -282,43 +282,61 @@
           Wednesday, Aug. 11th, 9:00 am - 3:00 pm
         </div>
         <div class="boxContent">
-          <div class="boxSubtitle">
-            National Air & Space Museum Steven F. Udvar-Hazy Center
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              National Air & Space Museum Steven F. Udvar-Hazy Center
+            </div>
+            <div class="boxSubcontent">
+              Two large hangars display thousands of aviation and space artifacts, including a Lockheed SR-71 Blackbird, a Concorde, and the Space Shuttle <i>Discovery</i>.​
+            </div>
+            <div class="reunionBoxImg shuttle"></div>
           </div>
-          <div class="boxSubcontent">
-            Two large hangars display thousands of aviation and space artifacts, including a Lockheed SR-71 Blackbird, a Concorde, and the Space Shuttle <i>Discovery</i>.​
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Winery at Bull Run
+            </div>
+            <div class="boxSubcontent">
+              Travel back in tine to the year 1861. Immerse yourself in the beautiful, historically landscaped vistas, tour the structures dotting the landscape while learning of the secrets they keep, and listen to the unique stories of the American Civil War that took place on these very grounds</br>
+              Taste award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
+            </div>
+            <div class="reunionBoxImg winery"></div>
+            <div class="boxSubcontent">
+              Walk amongst the ruins of the Hillwood Mansion, which served as a hospital during the First Battle of Bull Run. Explore an authentic Civil War soldiers's winter quarters cabin that still appears inhabited today.
+            </div>
           </div>
-          <div class="reunionBoxImg shuttle"></div>
-          <div class="boxSubtitle">
-            Winery at Bull Run
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Lunch
+            </div>
+            <div class="boxSubcontent">
+              Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include:
+              <ul>
+                <li>Chicken Caesar Wrap</li>
+                <li>Tuna Sun Dried Tomato</li>
+                <li>Turkey BLT with Avocado</li>
+                <li>Buffalo Chicken Wrap with Blue Cheese</li>
+                <li>Veggie Roasted Red Pepper Hummus</li>
+              </ul>
+              Includes homemade pepper kettle chips and penne pasta salad.
+            </div>
           </div>
-          <div class="boxSubcontent">
-            Travel back in tine to the year 1861. Immerse yourself in the beautiful, historically landscaped vistas, tour the structures dotting the landscape while learning of the secrets they keep, and listen to the unique stories of the American Civil War that took place on these very grounds</br>
-            Taste award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
-          </div>
-          <div class="reunionBoxImg winery"></div>
-          <div class="boxSubcontent">
-            Walk amongst the ruins of the Hillwood Mansion, which served as a hospital during the First Battle of Bull Run. Explore an authentic Civil War soldiers's winter quarters cabin that still appears inhabited today.
-          </div>
-          <div class="boxSubtitle">
-            Lunch
-          </div>
-          <div class="boxSubcontent">
-            Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include:
-            <ul>
-              <li>Chicken Caesar Wrap</li>
-              <li>Tuna Sun Dried Tomato</li>
-              <li>Turkey BLT with Avocado</li>
-              <li>Buffalo Chicken Wrap with Blue Cheese</li>
-              <li>Veggie Roasted Red Pepper Hummus</li>
-            </ul>
-            Includes homemade pepper kettle chips and penne pasta salad.
-          </div>
-          <div class="boxSubtitle">
-            Total Cost
-          </div>
-          <div class="boxSubcontent">
-            $79 per person. This includes the museum visit, lunch, tour, and wine tasting.
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Total Cost
+            </div>
+            <div class="boxSubcontent">
+              <ul>
+                <li>
+                  $79 per person. This includes the museum visit, lunch, tour, and wine tasting.
+                </li>
+              </ul>
+              <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div>
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">FEE & MEAL</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

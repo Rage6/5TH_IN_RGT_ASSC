@@ -73,6 +73,10 @@
   height: inherit;
 }
 
+.shuttle {
+  height: 55vh;
+}
+
 .reservationRow {
   grid-template-columns: 40% 10% 40%;
   justify-content: space-between;

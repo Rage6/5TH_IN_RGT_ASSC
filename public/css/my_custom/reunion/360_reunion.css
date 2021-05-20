@@ -388,7 +388,8 @@
   border: 5px solid white;
   padding: 20px;
   background-color: rgba(0,100,0,0.8);
-  text-decoration: none !important;
+  text-align: center;
+  /* text-decoration: none !important; */
 }
 
 /* .regSubtitle {

@@ -28,6 +28,7 @@
 .boxContent {
   grid-template-columns: repeat(2,47%);
   column-gap: 6%;
+  row-gap: 60px;
 }
 
 #hotelReservation {

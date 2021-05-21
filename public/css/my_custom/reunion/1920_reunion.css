@@ -58,10 +58,13 @@
 .boxContent {
   margin: 0 0 0 50%;
   position: relative;
-  left: -615px;
+  /* left: -615px; */
+  left: -478px;
   grid-template-columns: repeat(2,47%);
   column-gap: 6%;
-  width: 1230px;
+  row-gap: 60px;
+  /* width: 1230px; */
+  width: 956px;
 }
 
 #hotelReservation {

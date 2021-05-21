@@ -450,6 +450,24 @@
   background-image: url("/images/registration/army_museum_interior.jpeg");
 }
 
+.mealList {
+  margin-bottom: 15px;
+  border: 1px dashed white;
+  padding: 5px 1%;
+  display: grid;
+  grid-template-columns: 75% 15%;
+  grid-gap: 20px 10%;
+}
+
+.banquetList {
+  margin-bottom: 15px;
+  /* border: 1px dashed white; */
+  padding: 5px 1%;
+  display: grid;
+  grid-template-columns: 55% 40%;
+  grid-gap: 20px 5%;
+}
+
 .reserveBttn {
   border: 5px solid white;
   padding: 20px;

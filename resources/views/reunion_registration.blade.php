@@ -416,12 +416,6 @@
                 <div class="reserveBttn">FEE & MEAL</div>
               </a>
             </div>
-            <!-- <div class="reunionBoxImg memorialCollage">
-              <div class="oneCorner upperLeft"></div>
-              <div class="oneCorner upperRight"></div>
-              <div class="oneCorner lowerLeft"></div>
-              <div class="oneCorner lowerRight"></div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -463,10 +457,90 @@
         </div>
       </div>
       <div
-        class="reunionSectBox"
+        class="reunionSectBox hotelBox"
         data-section="saturday"
         data-type="box">
-        This is the box for the Saturday information
+        <div class="boxTitle">
+          Saturday, Aug. 14th
+        </div>
+        <div class="boxContent">
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Morning Schedule
+            </div>
+            <div class="boxSubcontent">
+              <div class="banquetList">
+                <div>General Membership Meeting</div>
+                <div>0900 - 1000</div>
+                <div>Ladies Breakfast</div>
+                <div>0900 - 1000</div>
+                <div>Fragging</div>
+                <div>1030 - 1100</div>
+              </div>
+              <div>
+                Feel free to explore the surrounding area, Fairfax County, while waiting for the evening banquet.
+              </div>
+              <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1vVkgse-P-E" title="Fairfax, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Dinner Choices
+            </div>
+            <div class="boxSubcontent">
+              <div class="mealList">
+                <div>Tuscan Chicken with tomato beurre blanc</div>
+                <div>$45</div>
+                <div>Baked Cod with lemon butter caper sauce</div>
+                <div>$50</div>
+                <div>12 oz. Grilled Crusted New York Steak with red wine and demi-glace shallot bordelaise</div>
+                <div>$55</div>
+              </div>
+              <div>
+                Each meal also includes fresh Caesar salad, chef's selection of accompaniments, dessert, freshly brewed coffee, and iced tea.
+              </div>
+              <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div>
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">MEAL PAYMENT</div>
+              </a>
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Ladies Breakfast
+            </div>
+            <div class="boxSubcontent">
+              <ul>
+                <li>
+                  This meal will be available for any women part of our association, be they an official member​ or attending the reunion with a member.
+                </li>
+                <li>
+                  The Ladies Breakfast is free of charge, and it will take place from 9 - 10 am.
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="reunionBoxImg shuttle"></div> -->
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Bobcat Banquet
+            </div>
+            <div class="boxSubcontent">
+              <div class="banquetList">
+                <div>Cocktails</div>
+                <div>1700</div>
+                <div>Dinner</div>
+                <div>1800</div>
+                <div>Program</div>
+                <div>1900</div>
+                <div>Approx. Auction</div>
+                <div>2000</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- <div
         class="reunionSectBox"

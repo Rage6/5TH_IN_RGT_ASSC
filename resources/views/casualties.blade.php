@@ -21,12 +21,44 @@
 
 @section('casualties_content')
   <div class="mainBody">
-    @foreach ($all_casualty_basics as $one_casualty_basic)
-      <div style="color:white">
-        {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
+    <div class="casualtySearch">
+      <div>FIND A FALLEN SOLDIER</div>
+      <div>
+        <form method="POST" action="/memorials/casualties/search">
+          @csrf
+          <input type="text" name="firstName" value="" placeholder="First Name"/>
+          <input type="text" name="lastName" value="" placeholder="Last Name"/>
+          <select name="conflict">
+            <option value="">ALL</option>
+            @foreach ($all_conflicts as $one_conflict)
+              <option value="{{ $one_conflict->id }}">
+                {{ $one_conflict->name }}
+              </option>
+            @endforeach
+          </select>
+          <input type="submit" name="submitSearch" value="SEARCH" />
+        </form>
       </div>
-      <div style="color:white"> {{ $one_casualty_basic->name }}</div>
-    @endforeach
+    </div>
+    <div class="casualtyList">
+      <div class="casualtyListTitle">
+        <div>Name</div>
+        <div>Conflict</div>
+      </div>
+      @foreach ($all_casualty_basics as $one_casualty_basic)
+      <div class="casualtyListRow">
+        <div>
+          {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
+        </div>
+        <div>
+          {{ $one_casualty_basic->name }}
+        </div>
+      </div>
+      @endforeach
+    </div>
+    <div class="casualtyIntro">
+      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+    </div>
   </div>
   @include ('footer.content')
 @stop

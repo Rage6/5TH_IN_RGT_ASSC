@@ -19,11 +19,113 @@ class MemorialController extends Controller
        ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
        ->orderBy('casualties.last_name')
        ->get();
+       $all_conflicts = DB::table('conflicts')
+        ->select('id','name')
+        ->orderBy('start_year')
+        ->get();
       return view('casualties',[
         'style' => 'casualties_style',
         'js' => '/js/my_custom/memorials/memorials.js',
         'content' => 'casualties_content',
-        'all_casualty_basics' => $all_casualty_basics
+        'all_casualty_basics' => $all_casualty_basics,
+        'all_conflicts' => $all_conflicts
+      ]);
+    }
+
+    public function casualties_search(Request $request)
+    {
+      $all_casualty_basics = [];
+      $first_name = $request->firstName;
+      $last_name = $request->lastName;
+      $conflict = $request->conflict;
+      if ($conflict != '') {
+        $first_list = DB::table('casualties')
+         ->join('conflicts','conflicts.id','casualties.conflict_id')
+         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->orderBy('casualties.last_name')
+         ->where('casualties.conflict_id','=',$conflict)
+         ->get();
+         if ($first_name != '') {
+           $second_list = [];
+           foreach ($first_list as $one_first_name) {
+             if ($first_name == $one_first_name->first_name) {
+               $second_list[] = $one_first_name;
+             };
+           };
+           if ($last_name != '') {
+             $third_list = [];
+             foreach ($second_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $third_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $third_list;
+           } else {
+             $all_casualty_basics = $second_list;
+           };
+         } else {
+           if ($last_name != '') {
+             $second_list = [];
+             foreach ($first_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $second_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $second_list;
+           } else {
+             $all_casualty_basics = $first_list;
+           };
+         };
+      } else {
+        $first_list = DB::table('casualties')
+         ->join('conflicts','conflicts.id','casualties.conflict_id')
+         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->orderBy('casualties.last_name')
+         ->get();
+         if ($first_name != '') {
+           $second_list = [];
+           foreach ($first_list as $one_first_name) {
+             if ($first_name == $one_first_name->first_name) {
+               $second_list[] = $one_first_name;
+             };
+           };
+           if ($last_name != '') {
+             $third_list = [];
+             foreach ($second_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $third_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $third_list;
+           } else {
+             $all_casualty_basics = $second_list;
+           };
+         } else {
+           if ($last_name != '') {
+             $second_list = [];
+             foreach ($first_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $second_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $second_list;
+           } else {
+             $all_casualty_basics = $first_list;
+           };
+         };
+      };
+      $first_name = $request->firstName;
+      $last_name = $request->lastName;
+      $all_conflicts = DB::table('conflicts')
+        ->select('id','name')
+        ->orderBy('start_year')
+        ->get();
+      return view('casualties',[
+        'style' => 'casualties_style',
+        'js' => '/js/my_custom/memorials/memorials.js',
+        'content' => 'casualties_content',
+        'all_casualty_basics' => $all_casualty_basics,
+        'all_conflicts' => $all_conflicts
       ]);
     }
 

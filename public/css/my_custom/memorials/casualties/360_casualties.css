@@ -1,0 +1,135 @@
+p {
+  margin: 0;
+}
+
+.mainBody {
+  padding-top: 10vh;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      black,
+      grey 100px,
+      black 130px,
+      grey 180px,
+      black 300px,
+      grey 410px,
+      black 550px);
+  min-height: 90vh;
+}
+
+.casualtySearch {
+  color: white;
+  background-color: rgba(139,0,0,1);
+}
+
+.casualtySearchTitle {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.firstNameInput {
+  grid-area: first;
+}
+
+.lastNameInput {
+  grid-area: last;
+}
+
+.unitInput {
+  grid-area: unit;
+}
+
+.conflictInput {
+  grid-area: conflict;
+}
+
+.submitInput {
+  grid-area: submit;
+}
+
+.casualtySearchForm {
+  margin: 0 3%;
+  padding: 10px 0 20px 0;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: auto;
+  grid-column-gap: 4%;
+  grid-row-gap: 5px;
+  grid-template-areas:
+    "first first last last"
+    "unit unit conflict conflict"
+    ". submit submit .";
+}
+
+.casualtyList {
+  background:
+    linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
+    url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.casualtyTotal {
+  margin: 0 5%;
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.casualtyListTitle {
+  padding: 10px 5%;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 60% 35% 5%;
+}
+
+.allCasualtyListRows {
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.casualtyListRow {
+  margin: 20px 5%;
+  padding: 2px 2%;
+  color: white;
+  font-family: 'Bellefair', serif;
+  display: grid;
+  grid-template-columns: 60% 35% 5%;
+  grid-template-areas:
+    "rowName rowConflict rowArrow"
+    "rowUnit rowConflict rowArrow";
+  background: linear-gradient(rgba(0,100,0,0.8),rgba(0,100,0,0.8));
+}
+
+.rowName {
+  grid-area: rowName;
+}
+
+.rowConflict {
+  grid-area: rowConflict;
+}
+
+.rowUnit {
+  grid-area: rowUnit;
+}
+
+.rowArrow {
+  grid-area: rowArrow;
+  background:
+    conic-gradient(
+      from 0deg at 75% 50%,
+      transparent,transparent 225deg,white 225deg,white 315deg,transparent 315deg,transparent);
+}
+
+.casualtyListRow div {
+  padding: 5px 2%;
+}
+
+.casualtyIntro {
+  margin-left: 5%;
+  font-size: 1.3rem;
+  color: white;
+  width: 90%;
+}

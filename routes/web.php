@@ -100,3 +100,10 @@ Route::prefix('history')->group(function() {
     Route::get('ben-cui-forum','HistoryTopicController@ben_cui_forum');
   });
 });
+
+Route::prefix('/memorials')->group(function() {
+  Route::prefix('/casualties')->group(function() {
+    Route::get('','MemorialController@casualties_index');
+    Route::post('','MemorialController@casualties_search');
+  });
+});

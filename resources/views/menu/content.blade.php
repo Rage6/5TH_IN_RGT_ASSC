@@ -52,7 +52,9 @@
         HALL OF HONOR
       </div>
       <div class="mainMenuSubBox" data-box-num="3">
-        <div class="mainMenuSubBttn">+ KIA, MIA, & Died In Service</div>
+        <a href="{{ url('/memorials/casualties') }}">
+          <div class="mainMenuSubBttn">+ KIA, MIA, & Died In Service</div>
+        </a>
         <div class="mainMenuSubBttn">+ Medal of Honor Recipients</div>
         <div class="mainMenuSubBttn">+ Deceased Members</div>
       </div>

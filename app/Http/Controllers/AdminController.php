@@ -85,7 +85,7 @@ class AdminController extends Controller
           ->orderBy('first_name','asc')
           ->get();
         $all_casualties = DB::table('casualties')
-          ->select('id','first_name','middle_name','last_name','rank','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
+          ->select('id','first_name','middle_name','last_name','rank','unit','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
           ->get();
@@ -429,6 +429,7 @@ class AdminController extends Controller
           'middle_name' => Request::input('middle_name'),
           'last_name' => Request::input('last_name'),
           'rank' => Request::input('rank'),
+          'unit' => Request::input('unit'),
           'conflict_id' => Request::input('conflict'),
           'day_of_death' => Request::input('day_of_death'),
           'month_of_death' => Request::input('month_of_death'),
@@ -507,6 +508,11 @@ class AdminController extends Controller
         ->where('id','=',Request::input('cas_id'))
         ->update([
           'rank' => Request::input('rank')
+        ]);
+      DB::table('casualties')
+        ->where('id','=',Request::input('cas_id'))
+        ->update([
+          'unit' => Request::input('unit')
         ]);
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))

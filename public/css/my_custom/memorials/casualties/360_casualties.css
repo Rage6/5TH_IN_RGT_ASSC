@@ -18,27 +18,76 @@ p {
 }
 
 .casualtySearch {
-  
+  color: white;
+  background-color: rgba(139,0,0,1);
+}
+
+.casualtySearchTitle {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.firstNameInput {
+  grid-area: first;
+}
+
+.lastNameInput {
+  grid-area: last;
+}
+
+.conflictInput {
+  grid-area: conflict;
+}
+
+.submitInput {
+  grid-area: submit;
+}
+
+.casualtySearchForm {
+  margin: 0 3%;
+  padding: 10px 0 20px 0;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: auto;
+  grid-column-gap: 4%;
+  grid-row-gap: 5px;
+  grid-template-areas:
+    "first first last last"
+    "conflict conflict conflict conflict"
+    ". submit submit .";
 }
 
 .casualtyList {
-  margin-left: 2%;
   color: white;
-  width: 96%;
+  background:
+    linear-gradient(rgba(0,100,0,0.7),rgba(0,100,0,0.7)),
+    url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
+  background-position: center;
+  background-size: cover;
   height: 60vh;
   /* max-height: 60vh; */
 }
 
 .casualtyListTitle {
-  padding: 10px 0;
+  padding: 10px 5%;
   text-align: center;
   display: grid;
   grid-template-columns: 65% 35%;
 }
 
+.allCasualtyListRows {
+  overflow-y: scroll;
+}
+
 .casualtyListRow {
+  margin: 20px 5%;
+  padding: 2px 2%;
+  color: black;
   display: grid;
   grid-template-columns: 65% 35%;
+  background: url('https://img.freepik.com/free-photo/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background_24076-297.jpg?size=626&ext=jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .casualtyListRow div {

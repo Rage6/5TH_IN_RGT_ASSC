@@ -35,6 +35,10 @@ p {
   grid-area: last;
 }
 
+.unitInput {
+  grid-area: unit;
+}
+
 .conflictInput {
   grid-area: conflict;
 }
@@ -53,7 +57,7 @@ p {
   grid-row-gap: 5px;
   grid-template-areas:
     "first first last last"
-    "conflict conflict conflict conflict"
+    "unit unit conflict conflict"
     ". submit submit .";
 }
 

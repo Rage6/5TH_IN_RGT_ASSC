@@ -104,6 +104,6 @@ Route::prefix('history')->group(function() {
 Route::prefix('/memorials')->group(function() {
   Route::prefix('/casualties')->group(function() {
     Route::get('','MemorialController@casualties_index');
-    Route::post('search','MemorialController@casualties_search');
+    Route::post('','MemorialController@casualties_search');
   });
 });

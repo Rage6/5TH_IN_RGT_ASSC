@@ -37,13 +37,96 @@ class MemorialController extends Controller
       $all_casualty_basics = [];
       $first_name = $request->firstName;
       $last_name = $request->lastName;
-      $conflict = $request->conflict;
-      if ($conflict != '') {
+      $unit_init = $request->unit;
+      $unit = "%".$unit_init."%";
+      $conflict_init = $request->conflict;
+      $conflict = "%".$conflict_init."%";
+      if ($conflict != '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
          ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
          ->orderBy('casualties.last_name')
-         ->where('casualties.conflict_id','=',$conflict)
+         ->where(
+           [
+             ['conflicts.name','like',$conflict],
+             ['casualties.unit','like',$unit]
+           ])
+         ->get();
+         if ($first_name != '') {
+           $second_list = [];
+           foreach ($first_list as $one_first_name) {
+             if ($first_name == $one_first_name->first_name) {
+               $second_list[] = $one_first_name;
+             };
+           };
+           if ($last_name != '') {
+             $third_list = [];
+             foreach ($second_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $third_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $third_list;
+           } else {
+             $all_casualty_basics = $second_list;
+           };
+         } else {
+           if ($last_name != '') {
+             $second_list = [];
+             foreach ($first_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $second_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $second_list;
+           } else {
+             $all_casualty_basics = $first_list;
+           };
+         };
+      } elseif ($conflict != '' && $unit_init == '') {
+        $first_list = DB::table('casualties')
+         ->join('conflicts','conflicts.id','casualties.conflict_id')
+         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->orderBy('casualties.last_name')
+         ->where('conflicts.name','like',$conflict)
+         ->get();
+         if ($first_name != '') {
+           $second_list = [];
+           foreach ($first_list as $one_first_name) {
+             if ($first_name == $one_first_name->first_name) {
+               $second_list[] = $one_first_name;
+             };
+           };
+           if ($last_name != '') {
+             $third_list = [];
+             foreach ($second_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $third_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $third_list;
+           } else {
+             $all_casualty_basics = $second_list;
+           };
+         } else {
+           if ($last_name != '') {
+             $second_list = [];
+             foreach ($first_list as $one_last_name) {
+               if ($last_name == $one_last_name->last_name) {
+                 $second_list[] = $one_last_name;
+               };
+             };
+             $all_casualty_basics = $second_list;
+           } else {
+             $all_casualty_basics = $first_list;
+           };
+         };
+      } elseif ($conflict == '' && $unit_init != '') {
+        $first_list = DB::table('casualties')
+         ->join('conflicts','conflicts.id','casualties.conflict_id')
+         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->orderBy('casualties.last_name')
+         ->where('casualties.unit','like',$unit)
          ->get();
          if ($first_name != '') {
            $second_list = [];

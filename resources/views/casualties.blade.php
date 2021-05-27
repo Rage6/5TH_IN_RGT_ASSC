@@ -23,18 +23,16 @@
   <div class="mainBody">
     <div class="casualtySearch">
       <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
-        <form method="POST" action="/memorials/casualties/search">
+        <form method="POST" action="/memorials/casualties">
           @csrf
           <div class="casualtySearchForm">
             <input class="firstNameInput" type="text" name="firstName" value="" placeholder="First Name"/>
             <input class="lastNameInput" type="text" name="lastName" value="" placeholder="Last Name"/>
+            <input class="unitInput" type="text" name="unit" value="" placeholder="Unit"/>
             <select class="conflictInput" name="conflict">
               <option value="">ALL</option>
               @foreach ($all_conflicts as $one_conflict)
-                <!-- <option value="{{ $one_conflict->id }}">
-                  {{ $one_conflict->name }}
-                </option> -->
-                <option value="{{ $one_conflict->id }}">
+                <option value="{{ $one_conflict->name }}">
                   {{ $one_conflict->name }}
                 </option>
               @endforeach

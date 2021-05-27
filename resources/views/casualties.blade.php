@@ -42,18 +42,27 @@
         </form>
     </div>
     <div class="casualtyList">
+      <div class="casualtyTotal">
+        Total: {{ $casualty_count }}
+      </div>
       <div class="casualtyListTitle">
-        <div>Name</div>
+        <div>Name & Unit</div>
         <div>Conflict</div>
       </div>
       <div class="allCasualtyListRows">
         @foreach ($all_casualty_basics as $one_casualty_basic)
         <div class="casualtyListRow">
-          <div>
+          <div class="rowName">
             {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
           </div>
-          <div>
+          <div class="rowConflict">
             {{ $one_casualty_basic->name }}
+          </div>
+          <div class="rowUnit">
+            {{ $one_casualty_basic->unit }}
+          </div>
+          <div class="rowArrow">
+
           </div>
         </div>
         @endforeach

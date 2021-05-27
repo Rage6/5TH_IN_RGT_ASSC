@@ -868,6 +868,10 @@
                         name="rank"
                         required
                         placeholder="Rank" />
+                      <input
+                        type="text"
+                        name="unit"
+                        placeholder="Unit" />
                       <select
                         name="conflict"
                         required>
@@ -1014,6 +1018,11 @@
                               name="rank"
                               required
                               value="{{ $one_casualty->rank }}"/>
+                            <div class="infoTitle">Unit</div>
+                            <input
+                              type="text"
+                              name="unit"
+                              value="{{ $one_casualty->unit }}"/>
                             <div class="infoTitle">Conflict</div>
                             <select name="conflict">
                               @foreach ($all_conflicts as $find_conflict)

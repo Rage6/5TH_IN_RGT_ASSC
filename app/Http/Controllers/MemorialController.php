@@ -16,9 +16,11 @@ class MemorialController extends Controller
     {
       $all_casualty_basics = DB::table('casualties')
        ->join('conflicts','conflicts.id','casualties.conflict_id')
-       ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+       ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name','conflicts.id')
        ->orderBy('casualties.last_name')
        ->get();
+       $casualty_count = DB::table('casualties')
+        ->count();
        $all_conflicts = DB::table('conflicts')
         ->select('id','name')
         ->orderBy('start_year')
@@ -28,7 +30,8 @@ class MemorialController extends Controller
         'js' => '/js/my_custom/memorials/memorials.js',
         'content' => 'casualties_content',
         'all_casualty_basics' => $all_casualty_basics,
-        'all_conflicts' => $all_conflicts
+        'all_conflicts' => $all_conflicts,
+        'casualty_count' => $casualty_count
       ]);
     }
 
@@ -44,7 +47,7 @@ class MemorialController extends Controller
       if ($conflict != '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name','conflicts.id')
          ->orderBy('casualties.last_name')
          ->where(
            [
@@ -86,7 +89,7 @@ class MemorialController extends Controller
       } elseif ($conflict != '' && $unit_init == '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name','conflicts.id')
          ->orderBy('casualties.last_name')
          ->where('conflicts.name','like',$conflict)
          ->get();
@@ -124,7 +127,7 @@ class MemorialController extends Controller
       } elseif ($conflict == '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name','conflicts.id')
          ->orderBy('casualties.last_name')
          ->where('casualties.unit','like',$unit)
          ->get();
@@ -162,7 +165,7 @@ class MemorialController extends Controller
       } else {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','conflicts.name','conflicts.id')
+         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name','conflicts.id')
          ->orderBy('casualties.last_name')
          ->get();
          if ($first_name != '') {
@@ -203,12 +206,14 @@ class MemorialController extends Controller
         ->select('id','name')
         ->orderBy('start_year')
         ->get();
+      $casualty_count = count($all_casualty_basics);
       return view('casualties',[
         'style' => 'casualties_style',
         'js' => '/js/my_custom/memorials/memorials.js',
         'content' => 'casualties_content',
         'all_casualty_basics' => $all_casualty_basics,
-        'all_conflicts' => $all_conflicts
+        'all_conflicts' => $all_conflicts,
+        'casualty_count' => $casualty_count
       ]);
     }
 

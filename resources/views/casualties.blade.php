@@ -21,6 +21,19 @@
 
 @section('casualties_content')
   <div class="mainBody">
+    <div class="casualtyTitle">
+      IN REMEMBRANCE
+    </div>
+    <div class="casualtySubtitle">
+      Killed In Action, Missing In Action, & Died In Service
+    </div>
+    <div class="dailyMemorial">
+      <div>Today, we remember...</div>
+      <div>Rank First_name Last_name</div>
+    </div>
+    <div class="casualtyIntro">
+      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+    </div>
     <div class="casualtySearch">
       <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
         <form method="POST" action="/memorials/casualties">
@@ -67,9 +80,6 @@
         </div>
         @endforeach
       </div>
-    </div>
-    <div class="casualtyIntro">
-      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
     </div>
   </div>
   @include ('footer.content')

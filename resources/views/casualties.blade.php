@@ -21,6 +21,47 @@
 
 @section('casualties_content')
   <div class="mainBody">
+    <div class="casualtyTitle">
+      IN REMEMBRANCE
+    </div>
+    <div class="casualtySubtitle">
+      Killed In Action, Missing In Action, & Died In Service
+    </div>
+    <div class="todayWeRemember">Today, we remember...</div>
+    <div class="dailyMemorial">
+      <div class="dailyName">
+        <div>
+          {{ $already_selected->rank }}
+        </div>
+        <div>
+          {{ $already_selected->first_name }} {{ $already_selected->last_name }}
+        </div>
+      </div>
+      @if ($already_selected->photo != null)
+        <div class="dailyImg" style="background-image: url('{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
+      @else
+        <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
+      @endif
+      <div class="dailyBio">
+      @if ($already_selected->city != null && $already_selected->state != null)
+        <div>
+          Home: {{ $already_selected->city }}, {{ $already_selected->state }}
+        </div>
+      @elseif ($already_selected->city == null && $already_selected->state != null)
+        <div>
+          Home: {{ $already_selected->city }}, {{ $already_selected->state }}
+        </div>
+      @endif
+      </div>
+      <!-- <pre>
+        @php
+          var_dump($already_selected);
+        @endphp
+      </pre> -->
+    </div>
+    <div class="casualtyIntro">
+      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+    </div>
     <div class="casualtySearch">
       <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
         <form method="POST" action="/memorials/casualties">
@@ -50,26 +91,27 @@
         <div>Conflict</div>
       </div>
       <div class="allCasualtyListRows">
-        @foreach ($all_casualty_basics as $one_casualty_basic)
-        <div class="casualtyListRow">
-          <div class="rowName">
-            {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
-          </div>
-          <div class="rowConflict">
-            {{ $one_casualty_basic->name }}
-          </div>
-          <div class="rowUnit">
-            {{ $one_casualty_basic->unit }}
-          </div>
-          <div class="rowArrow">
+        @if ($all_casualty_basics != null)
+          @foreach ($all_casualty_basics as $one_casualty_basic)
+          <div class="casualtyListRow">
+            <div class="rowName">
+              {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
+            </div>
+            <div class="rowConflict">
+              {{ $one_casualty_basic->con_name }}
+            </div>
+            <div class="rowUnit">
+              {{ $one_casualty_basic->unit }}
+            </div>
+            <div class="rowArrow">
 
+            </div>
           </div>
-        </div>
-        @endforeach
+          @endforeach
+        @else
+          <div>No casualties found</div>
+        @endif
       </div>
-    </div>
-    <div class="casualtyIntro">
-      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
     </div>
   </div>
   @include ('footer.content')

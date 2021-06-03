@@ -20,6 +20,7 @@
 @stop
 
 @section('casualties_content')
+<div class="mainAndFooter">
   <div class="mainBody">
     <div class="casualtyTitle">
       IN REMEMBRANCE
@@ -115,4 +116,5 @@
     </div>
   </div>
   @include ('footer.content')
+</div>
 @stop

@@ -187,11 +187,16 @@ p {
 }
 
 .rowArrow {
+  margin-top: 5px;
   grid-area: rowArrow;
   background:
     conic-gradient(
-      from 0deg at 75% 50%,
+      from 0deg at 70% 50%,
+      transparent,transparent 225deg,green 225deg,green 315deg,transparent 315deg,transparent),
+    conic-gradient(
+      from 0deg at 100% 50%,
       transparent,transparent 225deg,white 225deg,white 315deg,transparent 315deg,transparent);
+  height: 10px;
 }
 
 .casualtyListRow div {

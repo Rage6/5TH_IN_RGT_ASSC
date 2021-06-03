@@ -38,7 +38,7 @@
         </div>
       </div>
       @if ($already_selected->photo != null)
-        <div class="dailyImg" style="background-image: url('{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
+        <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
       @else
         <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
       @endif

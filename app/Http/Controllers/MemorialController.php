@@ -64,10 +64,16 @@ class MemorialController extends Controller
          $all_casualty_count = count($all_casualty_basics);
          $max_rand = $all_casualty_count - 1;
          $selected_num = rand(0,$max_rand);
-         $already_selected = $all_casualty_basics[$selected_num];
+         $already_selected_id = $all_casualty_basics[$selected_num]->cas_id;
          DB::table('casualties')
-           ->where('id','=',$already_selected->cas_id)
+           ->where('id','=',$already_selected_id)
            ->update(['when_displayed' => $current_date]);
+         $already_selected_raw = DB::table('casualties')
+          ->join('conflicts','conflicts.id','casualties.conflict_id')
+          ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
+          ->where('casualties.id','=',$already_selected_id)
+          ->get();
+         $already_selected = $already_selected_raw[0];
        };
        //
        return view('casualties',[
@@ -268,15 +274,27 @@ class MemorialController extends Controller
         for ($cas_num = 0; $cas_num < count($unfiltered_casualty_array); $cas_num++) {
           $one_casualty_basic = $unfiltered_casualty_array[$cas_num];
           if ($one_casualty_basic->when_displayed == $current_date) {
-            $already_selected = $one_casualty_basic;
+            $already_selected_id = $one_casualty_basic->cas_id;
+            $already_selected_raw = DB::table('casualties')
+             ->join('conflicts','conflicts.id','casualties.conflict_id')
+             ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
+             ->where('casualties.id','=',$already_selected_id)
+             ->get();
+            $already_selected = $already_selected_raw[0];
           };
           if ($already_selected == null && $cas_num >= count($unfiltered_casualty_array)) {
             $max_rand = $null_count - 1;
             $selected_num = rand(0,$max_rand);
-            $already_selected = $unfiltered_casualty_array[$selected_num];
             DB::table('casualties')
               ->where(['cas_id','=',$already_selected->id])
               ->update(['when_displayed' => $current_date]);
+            $already_selected_id = $unfiltered_casualty_array[$selected_num]->cas_id;
+            $already_selected_raw = DB::table('casualties')
+             ->join('conflicts','conflicts.id','casualties.conflict_id')
+             ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
+             ->where('casualties.id','=',$already_selected_id)
+             ->get();
+            $already_selected = $already_selected_raw[0];
           };
         };
       } else {
@@ -286,23 +304,17 @@ class MemorialController extends Controller
         $unfiltered_casualty_count = count($unfiltered_casualty_array);
         $max_rand = $unfiltered_casualty_count - 1;
         $selected_num = rand(0,$max_rand);
-        $already_selected = $unfiltered_casualty_array[$selected_num];
-
+        $already_selected_id = $unfiltered_casualty_array[$selected_num]->cas_id;
         DB::table('casualties')
-          ->where('id','=',$already_selected->cas_id)
+          ->where('id','=',$already_selected_id)
           ->update(['when_displayed' => $current_date]);
-        // $already_selected = null;
-        // DB::table('casualties')
-        //   ->update(['when_displayed' => null]);
-        // $all_casualty_count = count($all_casualty_basics);
-        // $max_rand = $all_casualty_count - 1;
-        // $selected_num = rand(0,$max_rand);
-        // $already_selected = $all_casualty_basics[$selected_num];
-        // DB::table('casualties')
-        //   ->where('id','=',$already_selected->cas_id)
-        //   ->update(['when_displayed' => $current_date]);
+        $already_selected_raw = DB::table('casualties')
+         ->join('conflicts','conflicts.id','casualties.conflict_id')
+         ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
+         ->where('casualties.id','=',$already_selected_id)
+         ->get();
+        $already_selected = $already_selected_raw[0];
       };
-      //
       return view('casualties',[
         'style' => 'casualties_style',
         'js' => '/js/my_custom/memorials/memorials.js',

@@ -46,6 +46,10 @@ class MemorialController extends Controller
               ->where('casualties.id','=',$already_selected_id)
               ->get();
              $already_selected = $already_selected_raw[0];
+             $cas_links = DB::table('other_urls')
+              ->select('name','url')
+              ->where('casualty_id','=',$already_selected_id)
+              ->get();
            };
            if ($already_selected == null && $cas_num == count($all_casualty_basics)-1) {
              $max_rand = $null_count - 1;
@@ -83,7 +87,8 @@ class MemorialController extends Controller
          'all_casualty_basics' => $all_casualty_basics,
          'all_conflicts' => $all_conflicts,
          'casualty_count' => $casualty_count,
-         'already_selected' => $already_selected
+         'already_selected' => $already_selected,
+         'cas_links' => $cas_links
        ]);
      }
 

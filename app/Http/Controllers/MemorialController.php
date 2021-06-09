@@ -35,6 +35,7 @@ class MemorialController extends Controller
        $null_count = count($all_null_request);
        if ($null_count > 0) {
          $already_selected = null;
+         $cas_links = null;
          for ($cas_num = 0; $cas_num < count($all_casualty_basics); $cas_num++) {
            $one_casualty_basic = $all_casualty_basics[$cas_num];
            if ($one_casualty_basic->when_displayed == $current_date) {
@@ -58,11 +59,21 @@ class MemorialController extends Controller
              DB::table('casualties')
                ->where('id',$already_selected_id)
                ->update(['when_displayed' => $current_date]);
-             $already_selected = $all_null_request[$selected_num];
+             $already_selected_raw = DB::table('casualties')
+              ->join('conflicts','conflicts.id','casualties.conflict_id')
+              ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
+              ->where('casualties.id','=',$already_selected_id)
+              ->get();
+             $already_selected = $already_selected_raw[0];
+             $cas_links = DB::table('other_urls')
+              ->select('name','url')
+              ->where('casualty_id','=',$already_selected_id)
+              ->get();
            };
          };
        } else {
          $already_selected = null;
+         $cas_links = null;
          DB::table('casualties')
            ->update(['when_displayed' => null]);
          $all_casualty_count = count($all_casualty_basics);
@@ -78,6 +89,10 @@ class MemorialController extends Controller
           ->where('casualties.id','=',$already_selected_id)
           ->get();
          $already_selected = $already_selected_raw[0];
+         $cas_links = DB::table('other_urls')
+          ->select('name','url')
+          ->where('casualty_id','=',$already_selected_id)
+          ->get();
        };
        //
        return view('casualties',[
@@ -104,7 +119,7 @@ class MemorialController extends Controller
       if ($conflict != '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where(
            [
@@ -146,7 +161,7 @@ class MemorialController extends Controller
       } elseif ($conflict != '' && $unit_init == '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where('conflicts.name','like',$conflict)
          ->get();
@@ -184,7 +199,7 @@ class MemorialController extends Controller
       } elseif ($conflict == '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where('casualties.unit','like',$unit)
          ->get();
@@ -222,7 +237,7 @@ class MemorialController extends Controller
       } else {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
          ->orderBy('casualties.last_name')
          ->get();
          if ($first_name != '') {
@@ -276,6 +291,7 @@ class MemorialController extends Controller
        ->get();
       if ($null_count > 0) {
         $already_selected = null;
+        $cas_links = null;
         for ($cas_num = 0; $cas_num < count($unfiltered_casualty_array); $cas_num++) {
           $one_casualty_basic = $unfiltered_casualty_array[$cas_num];
           if ($one_casualty_basic->when_displayed == $current_date) {
@@ -286,6 +302,10 @@ class MemorialController extends Controller
              ->where('casualties.id','=',$already_selected_id)
              ->get();
             $already_selected = $already_selected_raw[0];
+            $cas_links = DB::table('other_urls')
+             ->select('name','url')
+             ->where('casualty_id','=',$already_selected_id)
+             ->get();
           };
           if ($already_selected == null && $cas_num >= count($unfiltered_casualty_array)) {
             $max_rand = $null_count - 1;
@@ -300,10 +320,15 @@ class MemorialController extends Controller
              ->where('casualties.id','=',$already_selected_id)
              ->get();
             $already_selected = $already_selected_raw[0];
+            $cas_links = DB::table('other_urls')
+             ->select('name','url')
+             ->where('casualty_id','=',$already_selected_id)
+             ->get();
           };
         };
       } else {
         $already_selected = null;
+        $cas_links = null;
         DB::table('casualties')
           ->update(['when_displayed' => null]);
         $unfiltered_casualty_count = count($unfiltered_casualty_array);
@@ -319,6 +344,10 @@ class MemorialController extends Controller
          ->where('casualties.id','=',$already_selected_id)
          ->get();
         $already_selected = $already_selected_raw[0];
+        $cas_links = DB::table('other_urls')
+         ->select('name','url')
+         ->where('casualty_id','=',$already_selected_id)
+         ->get();
       };
       return view('casualties',[
         'style' => 'casualties_style',
@@ -327,7 +356,8 @@ class MemorialController extends Controller
         'all_casualty_basics' => $all_casualty_basics,
         'all_conflicts' => $all_conflicts,
         'casualty_count' => $casualty_count,
-        'already_selected' => $already_selected
+        'already_selected' => $already_selected,
+        'cas_links' => $cas_links
       ]);
     }
 

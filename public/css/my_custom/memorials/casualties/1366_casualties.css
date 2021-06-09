@@ -1,0 +1,11 @@
+.dailyAndSearchBox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "dailyMemorial casualtyIntro" "rightSearchColumn leftSearchColumn";
+}
+
+.dailyMemorial {
+  margin-left: 0;
+  border-radius: inherit;
+  width: inherit;
+}

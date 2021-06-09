@@ -22,145 +22,170 @@
 @section('casualties_content')
 <div class="mainAndFooter">
   <div class="mainBody">
-    <div class="casualtyTitle">
-      IN REMEMBRANCE
-    </div>
-    <div class="casualtySubtitle">
-      Killed In Action, Missing In Action, & Died In Service
-    </div>
-    <div class="todayWeRemember">Today, we remember...</div>
-    <div class="dailyMemorial">
-      <div class="dailyName">
-        <div>
-          {{ $already_selected->rank }}
+    <div class="whiteBand">
+      <div class="purpleBand">
+        <div class="casualtyTitle">
+          WE REMEMBER
         </div>
-        <div>
-          {{ $already_selected->first_name }}
-          @if ($already_selected->middle_name != null)
-            {{ $already_selected->middle_name }}
-          @endif
-          {{ $already_selected->last_name }}
+        <div class="casualtySubtitle">
+          Killed In Action, Missing In Action, & Died In Service
         </div>
       </div>
-      @if ($already_selected->con_name != null)
-        <div>
-          {{ $already_selected->con_name }}
+    </div>
+    <div class="dailyAndSearchBox">
+      <div class="dailyMemorial">
+        <div class="dailyName">
+          <div class="rankWithMedal">
+            <div>
+              {{ $already_selected->rank }}
+            </div>
+            @if ($already_selected->moh_id != null)
+              <div class="medal" style="background-image:url('/images/memorials/us-army-medal-of-honor.png')"></div>
+            @else
+              <div class="medal"></div>
+            @endif
+          </div>
+          <div>
+            {{ $already_selected->first_name }}
+            @if ($already_selected->middle_name != null)
+              {{ $already_selected->middle_name }}
+            @endif
+            {{ $already_selected->last_name }}
+          </div>
         </div>
-      @endif
-      @if ($already_selected->photo != null)
-        <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
-      @else
-        <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
-      @endif
-      <div class="dailyBio">
-        @if ($already_selected->city != null && $already_selected->state != null)
-          <div>
-            Home: {{ $already_selected->city }}, {{ $already_selected->state }}
-          </div>
-        @elseif ($already_selected->city == null && $already_selected->state != null)
-          <div>
-            Home: {{ $already_selected->state }}
+        @if ($already_selected->con_name != null)
+          <div class="dailyConflict">
+            {{ $already_selected->con_name }}
           </div>
         @endif
-        @if ($already_selected->unit != null)
-          <div>
-            Unit: {{ $already_selected->unit }}
-          </div>
-        @endif
-        @if ($already_selected->injury_type != null)
-          <div>
-            Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
-          </div>
-        @endif
-        @if ($already_selected->place != null)
-          <div>
-            Location of Death: {{ $already_selected->place }}
-          </div>
-        @endif
-        @if ($already_selected->injury_type != null)
-          <div>
-            Type of Injury: {{ $already_selected->injury_type }}
-          </div>
-        @endif
-        @if ($already_selected->injury_type != null)
-          <div>
-            Burial Site: {{ $already_selected->burial_site }}
-          </div>
-        @endif
-        @if ($already_selected->comments != null)
-          <div>
-            Type of Injury: {{ $already_selected->injury_type }}
-          </div>
-        @endif
-        @if ($already_selected->moh_id != null)
-          <div>
-            <a href="/memorials/medal_of_honor/{{ $already_selected->moh_id }}">Medal of Honor Recipient</a>
-          </div>
-        @endif
-        @if ($cas_links != null)
-          @foreach ($cas_links as $one_link)
-            <div><a href="{{ $one_link->url }}" target="_blank">{{ $one_link->name }}</a></div>
-          @endforeach
-        @endif
-      </div>
-      <!-- <pre>
-        @php
-          var_dump($cas_links);
-        @endphp
-      </pre> -->
-    </div>
-    <div class="casualtyIntro">
-      The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
-    </div>
-    <div class="casualtySearch">
-      <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
-        <form method="POST" action="/memorials/casualties">
-          @csrf
-          <div class="casualtySearchForm">
-            <input class="firstNameInput" type="text" name="firstName" value="" placeholder="First Name"/>
-            <input class="lastNameInput" type="text" name="lastName" value="" placeholder="Last Name"/>
-            <input class="unitInput" type="text" name="unit" value="" placeholder="Unit"/>
-            <select class="conflictInput" name="conflict">
-              <option value="">ALL</option>
-              @foreach ($all_conflicts as $one_conflict)
-                <option value="{{ $one_conflict->name }}">
-                  {{ $one_conflict->name }}
-                </option>
-              @endforeach
-            </select>
-            <input class="submitInput" type="submit" name="submitSearch" value="SEARCH" />
-          </div>
-        </form>
-    </div>
-    <div class="casualtyList">
-      <div class="casualtyTotal">
-        Total: {{ $casualty_count }}
-      </div>
-      <div class="casualtyListTitle">
-        <div>Name & Unit</div>
-        <div>Conflict</div>
-      </div>
-      <div class="allCasualtyListRows">
-        @if ($all_casualty_basics != null)
-          @foreach ($all_casualty_basics as $one_casualty_basic)
-          <div class="casualtyListRow">
-            <div class="rowName">
-              {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
-            </div>
-            <div class="rowConflict">
-              {{ $one_casualty_basic->con_name }}
-            </div>
-            <div class="rowUnit">
-              {{ $one_casualty_basic->unit }}
-            </div>
-            <div class="rowArrow">
-
-            </div>
-          </div>
-          @endforeach
+        @if ($already_selected->photo != null)
+          <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
         @else
-          <div>No casualties found</div>
+          <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
         @endif
+        <div class="dailyBio">
+          @if ($already_selected->city != null && $already_selected->state != null)
+            <div>
+              Home: {{ $already_selected->city }}, {{ $already_selected->state }}
+            </div>
+          @elseif ($already_selected->city == null && $already_selected->state != null)
+            <div>
+              Home: {{ $already_selected->state }}
+            </div>
+          @endif
+          @if ($already_selected->unit != null)
+            <div>
+              Unit: {{ $already_selected->unit }}
+            </div>
+          @endif
+          @if ($already_selected->injury_type != null)
+            <div>
+              Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
+            </div>
+          @endif
+          @if ($already_selected->place != null)
+            <div>
+              Location of Death: {{ $already_selected->place }}
+            </div>
+          @endif
+          @if ($already_selected->injury_type != null)
+            <div>
+              Type of Injury: {{ $already_selected->injury_type }}
+            </div>
+          @endif
+          @if ($already_selected->injury_type != null)
+            <div>
+              Burial Site: {{ $already_selected->burial_site }}
+            </div>
+          @endif
+          @if ($already_selected->comments != null)
+            <div>
+              Type of Injury: {{ $already_selected->injury_type }}
+            </div>
+          @endif
+          @if ($already_selected->moh_id != null)
+            <div>
+              <a href="/memorials/medal_of_honor/{{ $already_selected->moh_id }}">
+                Medal of Honor (5th IN RGT Association)
+              </a>
+            </div>
+          @endif
+          @if (count($cas_links) > 0)
+            <div>Other sites about {{ $already_selected->first_name }}:</div>
+            @foreach ($cas_links as $one_link)
+              <div>
+                <a href="{{ $one_link->url }}" target="_blank">
+                  {{ $one_link->name }}
+                </a>
+              </div>
+            @endforeach
+          @endif
+        </div>
+        <!-- <pre>
+          @php
+            var_dump(count($cas_links));
+          @endphp
+        </pre> -->
+      </div>
+      <div class="casualtyIntro">
+        The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+      </div>
+      <div class="leftSearchColumn">
+        <div class="casualtySearch">
+          <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
+            <form method="POST" action="/memorials/casualties">
+              @csrf
+              <div class="casualtySearchForm">
+                <input class="firstNameInput" type="text" name="firstName" value="" placeholder="First Name"/>
+                <input class="lastNameInput" type="text" name="lastName" value="" placeholder="Last Name"/>
+                <input class="unitInput" type="text" name="unit" value="" placeholder="Unit"/>
+                <select class="conflictInput" name="conflict">
+                  <option value="">ALL</option>
+                  @foreach ($all_conflicts as $one_conflict)
+                    <option value="{{ $one_conflict->name }}">
+                      {{ $one_conflict->name }}
+                    </option>
+                  @endforeach
+                </select>
+                <input class="submitInput" type="submit" name="submitSearch" value="SEARCH" />
+              </div>
+            </form>
+        </div>
+        <div class="casualtyList">
+          <div class="casualtyTotal">
+            Total: {{ $casualty_count }}
+          </div>
+          <div class="casualtyListTitle">
+            <div>Name & Unit</div>
+            <div>Conflict</div>
+          </div>
+          <div class="allCasualtyListRows">
+            @if ($all_casualty_basics != null)
+              @foreach ($all_casualty_basics as $one_casualty_basic)
+              <div class="casualtyListRow">
+                <div class="rowName">
+                  {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
+                </div>
+                <div class="rowConflict">
+                  {{ $one_casualty_basic->con_name }}
+                </div>
+                <div class="rowUnit">
+                  {{ $one_casualty_basic->unit }}
+                </div>
+                <a href="{{ url('/memorials/casualties/'.$one_casualty_basic->cas_id) }}">
+                  <div class="rowArrow">
+                  </div>
+                </a>
+              </div>
+              @endforeach
+            @else
+              <div>No casualties found</div>
+            @endif
+          </div>
+        </div>
+      </div>
+      <div class="rightSearchColumn">
+        Testing
       </div>
     </div>
   </div>

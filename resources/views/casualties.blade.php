@@ -211,7 +211,9 @@
               @if ($casualty_data->injury_type != null)
                 The soldier's injury type or status was recorded as '{{ $casualty_data->injury_type }}'.
               @endif
-              {{ $casualty_data->last_name }}
+              @if ($casualty_data->state != null || $casualty_data->burial_site != null)
+                {{ $casualty_data->last_name }}
+              @endif
               @if ($casualty_data->state != null)
                 originated from {{ $casualty_data->city }}, {{ $casualty_data->state }}
               @endif

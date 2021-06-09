@@ -360,6 +360,7 @@ class MemorialController extends Controller
          ->where('casualty_id','=',$already_selected_id)
          ->get();
       };
+      $casualty_data = null;
       return view('casualties',[
         'style' => 'casualties_style',
         'js' => '/js/my_custom/memorials/memorials.js',
@@ -368,7 +369,8 @@ class MemorialController extends Controller
         'all_conflicts' => $all_conflicts,
         'casualty_count' => $casualty_count,
         'already_selected' => $already_selected,
-        'cas_links' => $cas_links
+        'cas_links' => $cas_links,
+        'casualty_data' => $casualty_data
       ]);
     }
 

@@ -172,7 +172,7 @@
                 <div class="rowUnit">
                   {{ $one_casualty_basic->unit }}
                 </div>
-                <a href="{{ url('/memorials/casualties/'.$one_casualty_basic->cas_id) }}">
+                <a href="{{ url('/memorials/casualties?id='.$one_casualty_basic->cas_id) }}">
                   <div class="rowArrow">
                   </div>
                 </a>
@@ -185,7 +185,56 @@
         </div>
       </div>
       <div class="rightSearchColumn">
-        Testing
+        @if ($casualty_data != null))
+          <div>
+            @if ($casualty_data->photo != null)
+              <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $casualty_data->photo }}?t=@php echo(time()) @endphp')"></div>
+            @else
+              <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
+            @endif
+            <div>
+              {{ $casualty_data->rank }} {{ $casualty_data->first_name }}
+              @if ($casualty_data->middle_name)
+                {{ $casualty_data->middle_name }}
+              @endif
+              {{ $casualty_data->last_name }}
+            </div>
+            <div>
+              + Basics: {{ $casualty_data->rank }} {{ $casualty_data->last_name }} died
+              @if ($casualty_data->place != null)
+                in {{ $casualty_data->place }}
+              @endif
+              on {{ $casualty_data->month_of_death }}/{{ $casualty_data->day_of_death }}/{{ $casualty_data->year_of_death }} during the {{ $casualty_data->con_name }}
+              @if ($casualty_data->unit != null)
+                as a member of {{ $casualty_data->unit }}
+              @endif.
+              @if ($casualty_data->injury_type != null)
+                The soldier's injury type or status was recorded as '{{ $casualty_data->injury_type }}'.
+              @endif
+              {{ $casualty_data->last_name }}
+              @if ($casualty_data->state != null)
+                originated from {{ $casualty_data->city }}, {{ $casualty_data->state }}
+              @endif
+              @if ($casualty_data->state != null && $casualty_data->burial_site != null)
+                and
+              @endif
+              @if ($casualty_data->burial_site != null)
+                is buried at {{ $casualty_data->burial_site }}
+              @endif
+              .
+            </div>
+            @if ($casualty_data->comments != null)
+              <div>
+                + Details: {{ $casualty_data->comments }}
+              </div>
+            @endif
+            <!-- <pre>
+            @php var_dump($casualty_data) @endphp
+            </pre> -->
+          </div>
+        @else
+          <div>Select a fallen soldier to learn more.</div>
+        @endif
       </div>
     </div>
   </div>

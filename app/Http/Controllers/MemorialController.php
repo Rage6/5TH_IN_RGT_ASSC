@@ -94,7 +94,17 @@ class MemorialController extends Controller
           ->where('casualty_id','=',$already_selected_id)
           ->get();
        };
-       //
+       if (request()->has('id') == true && request()->filled('id')) {
+         $casualty_id = request()->id;
+         $casualty_data_raw = DB::table('casualties')
+          ->join('conflicts','conflicts.id','casualties.conflict_id')
+          ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed','comments')
+          ->where('casualties.id','=',$casualty_id)
+          ->get();
+         $casualty_data = $casualty_data_raw[0];
+       } else {
+         $casualty_data = null;
+       };
        return view('casualties',[
          'style' => 'casualties_style',
          'js' => '/js/my_custom/memorials/memorials.js',
@@ -103,7 +113,8 @@ class MemorialController extends Controller
          'all_conflicts' => $all_conflicts,
          'casualty_count' => $casualty_count,
          'already_selected' => $already_selected,
-         'cas_links' => $cas_links
+         'cas_links' => $cas_links,
+         'casualty_data' => $casualty_data
        ]);
      }
 

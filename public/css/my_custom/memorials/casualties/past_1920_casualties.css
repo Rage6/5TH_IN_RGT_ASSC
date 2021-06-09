@@ -21,7 +21,7 @@ p {
 .dailyAndSearchBox {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-areas: "dailyMemorial casualtyIntro" "rightSearchColumn leftSearchColumn";
+  grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn";
 }
 
 .dailyMemorial {

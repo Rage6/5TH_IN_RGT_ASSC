@@ -4,8 +4,43 @@
   grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn";
 }
 
+.oneSection {
+  margin: 0 5% 30px 5% !important;
+  width: 90%;
+}
+
 .dailyMemorial {
   margin-left: 0;
   border-radius: inherit;
   width: inherit;
+}
+
+.casualtyIntro {
+  font-size: 1.45rem;
+}
+
+.rightSearchColumn {
+  display: grid;
+  grid-template-areas:
+    "casualtyName casualtyName"
+    "casualtyImg casBio1"
+    "casBio2 casBio2";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: max-content max-content auto;
+}
+
+.casualtyImg {
+  background-position: top;
+  height: inherit;
+}
+
+.casualtyBioOne {
+  font-size: 1.1rem;
+}
+
+.casualtyBioTwo {
+  border: 1px solid black;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+  max-height: 300px;
 }

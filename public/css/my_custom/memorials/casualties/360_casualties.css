@@ -51,6 +51,10 @@ p {
 
 }
 
+.oneSection {
+
+}
+
 /* .todayWeRemember {
   margin-left: 5%;
   margin-bottom: 15px;
@@ -59,9 +63,7 @@ p {
 } */
 
 .dailyMemorial {
-  /* margin-left: 5%; */
-  /* border-radius: 30px 30px 0 0; */
-  padding-top: 30px;
+  padding: 30px 0;
   grid-area: dailyMemorial;
   color: white;
   background: linear-gradient(
@@ -121,10 +123,12 @@ p {
 
 .leftSearchColumn {
   grid-area: leftSearchColumn;
+  background: linear-gradient(rgba(139,0,0,0.5),rgba(139,0,0,0.5));
   min-height: 500px;
 }
 
 .rightSearchColumn {
+  padding-top: 30px;
   grid-area: rightSearchColumn;
   background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
     url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
@@ -180,7 +184,6 @@ p {
 .casualtyList {
   padding-bottom: 20px;
   color: white;
-  background: linear-gradient(rgba(139,0,0,0.5),rgba(139,0,0,0.5));
   /* background:
     linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
     url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
@@ -258,9 +261,64 @@ p {
 }
 
 .casualtyIntro {
-  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   grid-area: casualtyIntro;
   font-size: 1.3rem;
   color: white;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+.casualtyIntro div {
+  padding: 30px 10%;
+  width: 80%;
+}
+
+.casualtyName {
+  grid-area: casualtyName;
+  margin-left: 10%;
+  font-size: 2rem;
+  text-align: center;
+  width: 80%;
+}
+
+.casualtyName div:last-of-type {
+  padding-top: 10px;
+}
+
+.casualtyImg {
+  grid-area: casualtyImg;
+  margin-left: 5%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
   width: 90%;
+}
+
+.casualtyBio {
+  margin-left: 5%;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.casualtyBioOne {
+  grid-area: casBio1;
+}
+
+.casualtyBioTwo {
+  grid-area: casBio2;
+}
+
+.casualtyBioTwo textarea {
+  font-family: 'Vollkorn SC', sans-serif;
+  background: linear-gradient(45deg, transparent, transparent);
+  width: 98%;
+  min-height: 200px;
+}
+
+.casualtyDetails {
+  max-width: 350px;
 }

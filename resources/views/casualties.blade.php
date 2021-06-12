@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="dailyAndSearchBox">
-      <div class="dailyMemorial">
+      <div class="dailyMemorial oneSection">
         <div class="dailyName">
           <div class="rankWithMedal">
             <div>
@@ -93,7 +93,7 @@
               Type of Injury: {{ $already_selected->injury_type }}
             </div>
           @endif
-          @if ($already_selected->injury_type != null)
+          @if ($already_selected->burial_site != null)
             <div>
               Burial Site: {{ $already_selected->burial_site }}
             </div>
@@ -127,10 +127,12 @@
           @endphp
         </pre> -->
       </div>
-      <div class="casualtyIntro">
-        The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+      <div class="casualtyIntro oneSection">
+        <div>
+          The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
+        </div>
       </div>
-      <div class="leftSearchColumn">
+      <div class="leftSearchColumn oneSection">
         <div class="casualtySearch">
           <div class="casualtySearchTitle">FIND A FALLEN SOLDIER</div>
             <form method="POST" action="/memorials/casualties">
@@ -184,58 +186,77 @@
           </div>
         </div>
       </div>
-      <div class="rightSearchColumn">
-        @if ($casualty_data != null))
-          <div>
-            @if ($casualty_data->photo != null)
-              <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $casualty_data->photo }}?t=@php echo(time()) @endphp')"></div>
-            @else
-              <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
-            @endif
+      <div class="rightSearchColumn oneSection">
+        @if ($casualty_data != null)
+          <div class="casualtyName">
+            <div class="rankWithMedal">
+              <div>
+                {{ $casualty_data->rank }}
+              </div>
+              @if ($casualty_data->moh_id != null)
+                <div class="medal" style="background-image:url('/images/memorials/us-army-medal-of-honor.png')"></div>
+              @else
+                <div class="medal"></div>
+              @endif
+            </div>
             <div>
-              {{ $casualty_data->rank }} {{ $casualty_data->first_name }}
-              @if ($casualty_data->middle_name)
+              {{ $casualty_data->first_name }}
+              @if ($casualty_data->middle_name != null)
                 {{ $casualty_data->middle_name }}
               @endif
               {{ $casualty_data->last_name }}
             </div>
-            <div>
-              + Basics: {{ $casualty_data->rank }} {{ $casualty_data->last_name }} died
-              @if ($casualty_data->place != null)
-                in {{ $casualty_data->place }}
-              @endif
-              on {{ $casualty_data->month_of_death }}/{{ $casualty_data->day_of_death }}/{{ $casualty_data->year_of_death }} during the {{ $casualty_data->con_name }}
-              @if ($casualty_data->unit != null)
-                as a member of {{ $casualty_data->unit }}
-              @endif.
-              @if ($casualty_data->injury_type != null)
-                The soldier's injury type or status was recorded as '{{ $casualty_data->injury_type }}'.
-              @endif
-              @if ($casualty_data->state != null || $casualty_data->burial_site != null)
-                {{ $casualty_data->last_name }}
-              @endif
-              @if ($casualty_data->state != null)
-                originated from {{ $casualty_data->city }}, {{ $casualty_data->state }}
-              @endif
-              @if ($casualty_data->state != null && $casualty_data->burial_site != null)
-                and
-              @endif
-              @if ($casualty_data->burial_site != null)
-                is buried at {{ $casualty_data->burial_site }}
-              @endif
-              .
-            </div>
-            @if ($casualty_data->comments != null)
-              <div>
-                + Details: {{ $casualty_data->comments }}
-              </div>
-            @endif
-            <!-- <pre>
-            @php var_dump($casualty_data) @endphp
-            </pre> -->
           </div>
+          @if ($casualty_data->photo != null)
+            <div class="casualtyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $casualty_data->photo }}?t=@php echo(time()) @endphp')"></div>
+          @else
+            <div class="casualtyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
+          @endif
+          <div class="casualtyBio casualtyBioOne">
+            <div>
+              <u>SUMMARY</u>
+            </div>
+            {{ $casualty_data->rank }} {{ $casualty_data->last_name }} died
+            @if ($casualty_data->place != null)
+              in {{ $casualty_data->place }}
+            @endif
+            on {{ $casualty_data->month_of_death }}/{{ $casualty_data->day_of_death }}/{{ $casualty_data->year_of_death }} during the {{ $casualty_data->con_name }}
+            @if ($casualty_data->unit != null)
+              as a member of {{ $casualty_data->unit }}
+            @endif.
+            @if ($casualty_data->injury_type != null)
+              The soldier's injury type or status was recorded as '{{ $casualty_data->injury_type }}'.
+            @endif
+            @if ($casualty_data->state != null || $casualty_data->burial_site != null)
+              {{ $casualty_data->last_name }}
+            @endif
+            @if ($casualty_data->state != null)
+              originated from {{ $casualty_data->city }}, {{ $casualty_data->state }}
+            @endif
+            @if ($casualty_data->state != null && $casualty_data->burial_site != null)
+              and
+            @endif
+            @if ($casualty_data->burial_site != null)
+              is buried at {{ $casualty_data->burial_site }}
+            @endif
+          </div>
+          @if ($casualty_data->comments != null)
+          <div class="casualtyBio casualtyBioTwo">
+            <div>
+              <u>DETAILS</u>
+            </div>
+            <textarea disabled>
+              {{ $casualty_data->comments }}
+            </textarea>
+          </div>
+          @endif
+          <!-- <pre>
+          @php var_dump($casualty_data) @endphp
+          </pre> -->
         @else
-          <div>Select a fallen soldier to learn more.</div>
+          <div>
+            Looking for a specific soldier that gave the greatest sacrifice? Want to see all of the soldiers that died during a certain war or conflict? Enter or select the correct names, unit, and/or conflict in the red "Fallen Soldier" search box.
+          </div>
         @endif
       </div>
     </div>

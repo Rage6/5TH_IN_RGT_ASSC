@@ -174,7 +174,7 @@
                 <div class="rowUnit">
                   {{ $one_casualty_basic->unit }}
                 </div>
-                <a href="{{ url('/memorials/casualties?id='.$one_casualty_basic->cas_id) }}">
+                <a href="{{ url('/memorials/casualties?id='.$one_casualty_basic->cas_id) }}&selected=yes">
                   <div class="rowArrow">
                   </div>
                 </a>
@@ -186,7 +186,7 @@
           </div>
         </div>
       </div>
-      <div class="rightSearchColumn oneSection">
+      <div id="rightSearchColumn" class="rightSearchColumn oneSection">
         @if ($casualty_data != null)
           <div class="casualtyName">
             <div class="rankWithMedal">

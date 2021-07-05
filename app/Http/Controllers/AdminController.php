@@ -34,6 +34,7 @@ class AdminController extends Controller
         $all_users = DB::table('users')
           ->select('id','email','first_name','last_name','deceased')
           ->orderBy('last_name','asc')
+          ->limit(25)
           ->get();
         $final_all_users = [];
         $this_raw_num = 0;
@@ -83,11 +84,13 @@ class AdminController extends Controller
           ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
+          ->limit(25)
           ->get();
         $all_casualties = DB::table('casualties')
           ->select('id','first_name','middle_name','last_name','rank','unit','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
+          ->limit(25)
           ->get();
         $all_conflicts = DB::table('conflicts')
           ->select('id','name','start_year','end_year')

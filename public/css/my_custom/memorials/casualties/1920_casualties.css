@@ -5,8 +5,8 @@
 }
 
 .oneSection {
-  margin: 0 5% 30px 5% !important;
-  width: 90%;
+  /* margin: 0 5% 30px 5% !important;
+  width: 90%; */
 }
 
 .dailyMemorial {
@@ -17,6 +17,7 @@
 
 .casualtyIntro {
   font-size: 1.45rem;
+  line-height: 1.7;
 }
 
 .rightSearchColumn {

@@ -228,7 +228,7 @@ p {
   grid-template-areas:
     "rowName rowConflict rowArrow"
     "rowUnit rowConflict rowArrow";
-  background: linear-gradient(rgba(0,100,0,0.8),rgba(0,100,0,0.8));
+  background: linear-gradient(rgba(0,100,0,1),rgba(0,100,0,1));
 }
 
 .rowName {
@@ -249,7 +249,7 @@ p {
   background:
     conic-gradient(
       from 0deg at 70% 50%,
-      transparent,transparent 225deg,green 225deg,green 315deg,transparent 315deg,transparent),
+      transparent,transparent 225deg,rgba(0,100,0,1) 225deg,rgb(0,100,0,1) 315deg,transparent 315deg,transparent),
     conic-gradient(
       from 0deg at 100% 50%,
       transparent,transparent 225deg,white 225deg,white 315deg,transparent 315deg,transparent);

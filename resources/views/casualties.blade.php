@@ -78,11 +78,9 @@
               Unit: {{ $already_selected->unit }}
             </div>
           @endif
-          @if ($already_selected->injury_type != null)
-            <div>
-              Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
-            </div>
-          @endif
+          <div>
+            Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
+          </div>
           @if ($already_selected->place != null)
             <div>
               Location of Death: {{ $already_selected->place }}
@@ -100,7 +98,7 @@
           @endif
           @if ($already_selected->comments != null)
             <div>
-              Type of Injury: {{ $already_selected->injury_type }}
+              Comments: {{ $already_selected->comments }}
             </div>
           @endif
           @if ($already_selected->moh_id != null)

@@ -24,6 +24,7 @@ class MemorialController extends Controller
         ->orderBy('start_year')
         ->get();
        $casualty_count = count($all_casualty_basics);
+       date_default_timezone_set('America/New_York');
        $current_date = date('Y-m-d');
        $current_casualty = null;
        // Shows today's selected casualty, or chooses a casualty for today

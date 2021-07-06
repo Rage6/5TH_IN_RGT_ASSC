@@ -75,7 +75,8 @@
                                        {{ __('Change Account') }}
                                     </a>
                                     @if (Auth::user()->admin == 1)
-                                    <a class="dropdown-item" href="{{ route('admin') }}">
+                                    <!-- <a class="dropdown-item" href="{{ route('admin') }}"> -->
+                                    <a class="dropdown-item" href="{{ route('admin',['member_num'=>0,'casualty_num'=>0,'recipient_num'=>0]) }}">
                                        {{ __('Administration') }}
                                     </a>
                                     @endif

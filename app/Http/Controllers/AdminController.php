@@ -30,11 +30,14 @@ class AdminController extends Controller
     public function index()
     {
       $this_user = Auth::user();
+      $member_num = $_GET['member_num'];
+      $casualty_num = $_GET['casualty_num'];
+      $recipient_num = $_GET['recipient_num'];
       if ($this_user->admin == 1) {
         $all_users = DB::table('users')
           ->select('id','email','first_name','last_name','deceased')
           ->orderBy('last_name','asc')
-          ->offset(0)
+          ->offset($member_num)
           ->limit(25)
           ->get();
         $final_all_users = [];
@@ -85,14 +88,14 @@ class AdminController extends Controller
           ->select('id','first_name','last_name','rank','action_date','place','citation','posthumous','member_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
-          ->offset(0)
+          ->offset($recipient_num)
           ->limit(25)
           ->get();
         $all_casualties = DB::table('casualties')
           ->select('id','first_name','middle_name','last_name','rank','unit','place','injury_type','injury_type','day_of_death','month_of_death','year_of_death','year_of_death','city','state','burial_site','comments','member_id','moh_id','conflict_id','photo')
           ->orderBy('last_name','asc')
           ->orderBy('first_name','asc')
-          ->offset(0)
+          ->offset($casualty_num)
           ->limit(25)
           ->get();
         $all_conflicts = DB::table('conflicts')
@@ -105,7 +108,7 @@ class AdminController extends Controller
         $all_urls = DB::table('other_urls')
           ->select('name','url','member_id','casualty_id','moh_id')
           ->get();
-        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links','all_urls'));
+        return view('admin',compact('final_all_users','all_recipients','all_casualties','all_conflicts','all_conflict_links','all_urls','member_num','casualty_num','recipient_num'));
       } else {
         return redirect('/');
       };

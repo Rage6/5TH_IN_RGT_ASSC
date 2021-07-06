@@ -325,6 +325,12 @@
   margin-top: 10px
 }
 
+.showNextBttns {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 .allRecipientCard {
   /* height: 300px;
   overflow-y: scroll; */

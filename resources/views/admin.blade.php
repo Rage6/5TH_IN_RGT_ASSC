@@ -19,6 +19,7 @@
                     +
                   </div>
                 </div>
+                <div>Member: {{ $member_num + 1}} - {{ $member_num + 25}}</div>
                 <div class="addMemberInfo" data-addbox="member">
                   <form method="POST" action="admin/member/add">
                     @csrf
@@ -540,6 +541,22 @@
               // echo("</pre>");
               ?>
               </div>
+              <div class="showNextBttns">
+                @php
+                  $back_member_num = $member_num - 25;
+                  $next_member_num = $member_num + 25;
+                @endphp
+                @if ($member_num - 25 >= 0)
+                <a href="{{ route('admin',['member_num'=>$back_member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$recipient_num]) }}">
+                  <span>BACK</span>
+                </a>
+                @else
+                  <span></span>
+                @endif
+                <a href="{{ route('admin',['member_num'=>$next_member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$recipient_num]) }}">
+                  <span>FORWARD</span>
+                </a>
+              </div>
             </div>
 
             <div class="card adminCard">
@@ -553,6 +570,7 @@
                       +
                     </div>
                   </div>
+                  <div>Recipient: {{ $recipient_num + 1}} - {{ $recipient_num + 25}}</div>
                   <div class="addMemberInfo" data-addbox="recipient">
                     <form method="POST" action="admin/recipient/add" enctype="multipart/form-data">
                       @csrf
@@ -832,6 +850,22 @@
                   </div>
                   @endforeach
                 </div>
+                <div class="showNextBttns">
+                  @php
+                    $back_recipient_num = $recipient_num - 25;
+                    $next_recipient_num = $recipient_num + 25;
+                  @endphp
+                  @if ($recipient_num - 25 >= 0)
+                  <a href="{{ route('admin',['member_num'=>member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$back_recipient_num]) }}">
+                    <span>BACK</span>
+                  </a>
+                  @else
+                    <span></span>
+                  @endif
+                  <a href="{{ route('admin',['member_num'=>$member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$next_recipient_num]) }}">
+                    <span>FORWARD</span>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -846,6 +880,7 @@
                       +
                     </div>
                   </div>
+                  <div>Casualty: {{ $casualty_num + 1}} - {{ $casualty_num + 25}}</div>
                   <div class="addMemberInfo" data-addbox="casualty">
                     <form method="POST" action="admin/casualty/add" enctype="multipart/form-data">
                       @csrf
@@ -1254,6 +1289,22 @@
                       </div>
                     </div>
                   @endforeach
+                </div>
+                <div class="showNextBttns">
+                  @php
+                    $back_casualty_num = $casualty_num - 25;
+                    $next_casualty_num = $casualty_num + 25;
+                  @endphp
+                  @if ($casualty_num - 25 >= 0)
+                  <a href="{{ route('admin',['member_num'=>member_num,'casualty_num'=>$back_casualty_num,'recipient_num'=>$recipient_num]) }}">
+                    <span>BACK</span>
+                  </a>
+                  @else
+                    <span></span>
+                  @endif
+                  <a href="{{ route('admin',['member_num'=>$member_num,'casualty_num'=>$next_casualty_num,'recipient_num'=>$recipient_num]) }}">
+                    <span>FORWARD</span>
+                  </a>
                 </div>
               </div>
             </div>

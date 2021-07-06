@@ -856,7 +856,7 @@
                     $next_recipient_num = $recipient_num + 25;
                   @endphp
                   @if ($recipient_num - 25 >= 0)
-                  <a href="{{ route('admin',['member_num'=>member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$back_recipient_num]) }}">
+                  <a href="{{ route('admin',['member_num'=>$member_num,'casualty_num'=>$casualty_num,'recipient_num'=>$back_recipient_num]) }}">
                     <span>BACK</span>
                   </a>
                   @else
@@ -1296,7 +1296,7 @@
                     $next_casualty_num = $casualty_num + 25;
                   @endphp
                   @if ($casualty_num - 25 >= 0)
-                  <a href="{{ route('admin',['member_num'=>member_num,'casualty_num'=>$back_casualty_num,'recipient_num'=>$recipient_num]) }}">
+                  <a href="{{ route('admin',['member_num'=>$member_num,'casualty_num'=>$back_casualty_num,'recipient_num'=>$recipient_num]) }}">
                     <span>BACK</span>
                   </a>
                   @else

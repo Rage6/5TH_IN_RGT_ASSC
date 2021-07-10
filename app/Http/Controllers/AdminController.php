@@ -119,7 +119,7 @@ class AdminController extends Controller
       DB::table('users')
         ->where('id',Request::input('member_id'))
         ->update(['email' => Request::input('new_email')]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addRange(Request $request)
@@ -134,7 +134,7 @@ class AdminController extends Controller
           'job' => Request::input('new_job'),
           'unit' => Request::input('new_unit')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addAssociate(Request $request)
@@ -143,7 +143,7 @@ class AdminController extends Controller
         ->insert([
           'user_id' => Request::input('assoc_id')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteRange(Request $request)
@@ -151,7 +151,7 @@ class AdminController extends Controller
       DB::table('timespan')
         ->where('id','=',Request::input('select_range'))
         ->delete();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addMember(Request $request)
@@ -163,7 +163,7 @@ class AdminController extends Controller
       $new_member->email = Request::input('email');
       $new_member->password = $randome_password;
       $new_member->save();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteMember(Request $request)
@@ -184,7 +184,7 @@ class AdminController extends Controller
       DB::table('users')
         ->where('id','=',Request::input('member_id'))
         ->delete();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function stillAlive(Request $request)
@@ -194,7 +194,7 @@ class AdminController extends Controller
         ->update([
           'deceased' => Request::input('is_deceased')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function cmohConnection(Request $request)
@@ -217,7 +217,7 @@ class AdminController extends Controller
             'recipients.member_id' => NULL
           ]);
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function casualtyConnection(Request $request)
@@ -240,7 +240,7 @@ class AdminController extends Controller
             'casualties.member_id' => NULL
           ]);
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addConflictToMember(Request $request)
@@ -250,7 +250,7 @@ class AdminController extends Controller
           'conflict_id' => Request::input('selected_conflict'),
           'member_id' => Request::input('member_id')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteConflictFromMember(Request $request)
@@ -261,7 +261,7 @@ class AdminController extends Controller
           ['member_id','=',Request::input('member_id')]
         ])
         ->delete();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addRecipient(Request $request)
@@ -321,7 +321,7 @@ class AdminController extends Controller
           ]);
         };
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function changeRecipient(Request $request)
@@ -409,7 +409,7 @@ class AdminController extends Controller
             ]);
         };
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteRecipient(Request $request)
@@ -427,7 +427,7 @@ class AdminController extends Controller
       DB::table('recipients')
         ->where('id','=',Request::input('recip_id'))
         ->delete();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addCasualty(Request $request)
@@ -493,7 +493,7 @@ class AdminController extends Controller
           ]);
         };
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function changeCasualty(Request $request)
@@ -616,7 +616,7 @@ class AdminController extends Controller
             ]);
         };
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function casualtyDetails(Request $request)
@@ -634,7 +634,7 @@ class AdminController extends Controller
             'casualties.moh_id' => NULL
           ]);
       };
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteCasualty(Request $request)
@@ -647,7 +647,7 @@ class AdminController extends Controller
       DB::table('casualties')
         ->where('id','=',Request::input('cas_id'))
         ->delete();
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function addConflict(Request $request)
@@ -658,7 +658,7 @@ class AdminController extends Controller
           'start_year'=>Request::input('start_year'),
           'end_year'=>Request::input('end_year')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function changeConflict(Request $request)
@@ -670,7 +670,7 @@ class AdminController extends Controller
           'start_year' => Request::input('start_year'),
           'end_year' => Request::input('end_year')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function deleteConflict(Request $request)
@@ -691,7 +691,7 @@ class AdminController extends Controller
           'start_year'=>Request::input('start_year'),
           'end_year'=>Request::input('end_year')
         ]);
-      return redirect('home/admin');
+      return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     /**

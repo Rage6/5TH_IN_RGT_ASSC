@@ -314,12 +314,14 @@ class MemorialController extends Controller
              ->where('casualties.id','=',$already_selected_id)
              ->get();
             $already_selected = $already_selected_raw[0];
+            // $already_selected =  "Result 1";
             $cas_links = DB::table('other_urls')
              ->select('name','url')
              ->where('casualty_id','=',$already_selected_id)
              ->get();
           };
-          if ($already_selected == null && $cas_num >= count($unfiltered_casualty_array)) {
+          // $already_selected = $cas_num." : ".count($unfiltered_casualty_array);
+          if ($already_selected == null && $cas_num == count($unfiltered_casualty_array) - 1) {
             $max_rand = $null_count - 1;
             $selected_num = rand(0,$max_rand);
             DB::table('casualties')
@@ -331,7 +333,8 @@ class MemorialController extends Controller
              ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
              ->where('casualties.id','=',$already_selected_id)
              ->get();
-            $already_selected = $already_selected_raw[0];
+            // $already_selected = $already_selected_raw[0];
+            $already_selected =  "Result 2";
             $cas_links = DB::table('other_urls')
              ->select('name','url')
              ->where('casualty_id','=',$already_selected_id)
@@ -355,7 +358,8 @@ class MemorialController extends Controller
          ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed')
          ->where('casualties.id','=',$already_selected_id)
          ->get();
-        $already_selected = $already_selected_raw[0];
+        // $already_selected = $already_selected_raw[0];
+        $already_selected =  "Result 3";
         $cas_links = DB::table('other_urls')
          ->select('name','url')
          ->where('casualty_id','=',$already_selected_id)

@@ -73,11 +73,32 @@ class RegistrationController extends Controller
       $new_submission->comments = Request::input('comments');
       Mail::to(['nicholas.vogt2017@gmail.com','randy@bobcat.ws','toppop68@gmail.com','fpd@bobcat.ws'])->send(new RegistrationEmail($new_submission));
       // Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
-      return redirect('/');
+      // return redirect('/');
       if ($new_submission->pay_method == "checking") {
         return redirect('http://www.bobcat.ws/application.htm');
       } else {
-        return redirect('http://bobcat.ws/membership-payment.html');
+      //   if ($new_submission->registration_type === "Renewal") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Active Duty") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Associate") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "One Year") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Two Years") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Five Years") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Life to 49") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Life to 64") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else if ($new_submission->registration_type === "Life 65 and above") {
+      //     return redirect('http://bobcat.ws/membership-payment.html');
+      //   } else {
+      //     return redirect('/');
+      //   }
+        return redirect('/');
       };
     }
 

@@ -33,21 +33,29 @@ class AdminController extends Controller
       $member_num = $_GET['member_num'];
       $casualty_num = $_GET['casualty_num'];
       $recipient_num = $_GET['recipient_num'];
+      
+      // All users
+      $all_users = DB::table('users')
+        ->select('id','email','first_name','last_name','deceased')
+        ->orderBy('last_name','asc')
+        ->offset($member_num)
+        ->limit(25)
+        ->get();
+      // All timespans
+      $init_all_timespan = DB::table('timespan')
+        ->select('id','user_id','start_year','end_year','start_month','end_month','job','unit')
+        ->get();
+
       if ($this_user->admin == 1) {
-        $all_users = DB::table('users')
-          ->select('id','email','first_name','last_name','deceased')
-          ->orderBy('last_name','asc')
-          ->offset($member_num)
-          ->limit(25)
-          ->get();
         $final_all_users = [];
         $this_raw_num = 0;
         $next_raw_num = 1;
         foreach ($all_users as $one_raw) {
-          $all_timespan = DB::table('timespan')
-            ->select('id','user_id','start_year','end_year','start_month','end_month','job','unit')
-            ->where('user_id',$one_raw->id)
-            ->get();
+          foreach ($init_all_timespan as $one_init_timespan) {
+            if ($one_raw->id === $one_init_timespan->user_id) {
+              $all_timespan[] = $one_init_timespan;
+            };
+          };
           $one_raw->all_range = [];
           $month_names = array(
             null,

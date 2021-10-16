@@ -67,10 +67,10 @@
           <span>Bobcat</span> <span>Reunion</span>
         </div>
         <div class="reunionDate dateAndLocation">
-          August 10 - 15
+          September 13 - 18
         </div>
         <div class="reunionLocation dateAndLocation">
-          Washington, DC
+          Colorado Spring, CO
         </div>
         <div class="regBttn" id="regBttn" onclick="openAndCloseForm()">
           Register Now!
@@ -110,34 +110,34 @@
                 </div>
               </div>
               <div class="regFormHalf">
-                <div class='radioTypeBox'>
+                <!-- <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
                   </div>
                   <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
+                </div> -->
+                <!-- <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the Washington DC memorial and monument day?
                   </div>
                   <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
+                </div> -->
+                <!-- <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
                   </div>
                   <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='army_museum' value='No'/><span>No</span>
-                </div>
-                <div class='radioTypeBox'>
+                </div> -->
+                <!-- <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
                   </div>
                   <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
-                </div>
+                </div> -->
                 <div class='radioTypeBox'>
                   <div>
                     Are you driving?
@@ -221,12 +221,12 @@
               Location:
             </div>
             <div class="boxSubcontent">
-              The Crowne Plaza Dulles Airport</br>
-              2200 Centreville Road</br>
-              Herndon, Virginia 20170​</br>
+              Hotel Elegant&eacute; Conference & Event Center</br>
+              2886 S. Circle Drive</br>
+              Colorado Springs, CO 80906</br>
             </div>
             <div class="hotelMap">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49639.6878705143!2d-77.43878072054437!3d38.95869515093366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6478d0ca0b5bf%3A0x1c03d989da58212e!2s2200%20Centreville%20Rd%2C%20Herndon%2C%20VA%2020170!5e0!3m2!1sen!2sus!4v1621436298432!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.256067646065!2d-104.7978941686085!3d38.7980823243563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134462d12b8335%3A0x9b5a074af68729fe!2s2886%20S%20Circle%20Dr%2C%20Colorado%20Springs%2C%20CO%2080906!5e0!3m2!1sen!2sus!4v1634250360925!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
           <div>
@@ -239,10 +239,10 @@
                   Free parking
                 </li>
                 <li>
-                  Shuttle Service to/from the Airport & within a 5 mile radius of the hotel based on request and  availability
+                  Shuttle Service to/from the Airport & within an 8 mile radius of the hotel based on request and  availability
                 </li>
                 <li>
-                  Breakfast for 2 included in Room Rate​
+                  Breakfast for 2 included in Room Rate​ for single/double, additional $10 per person for triple/quadruple rooms.
                 </li>
                 <li>
                   Free Wi-Fi in guestrooms
@@ -255,7 +255,21 @@
               </div>
               <div class="boxSubcontent">
                 <ul>
-                  <li>$129 Single / Double per night</li>
+                  <li>King or Double Queen room:
+                    <ul>
+                      <li>Single/Double - $119</li>
+                      <li>Triple - $129</li>
+                      <li>Quadruple - $139</li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Loft Suite:
+                    <ul>
+                      <li>Single/Double - $119</li>
+                      <li>Triple/Quadruple - $209</li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -267,12 +281,14 @@
             <div class="boxSubcontent">
               <div class="rowIntro">To make a reservation:</div>
               <div class="reservationRow">
-                <a href="https://www.ihg.com/crowneplaza/hotels/us/en/herndon/washv/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=WASHV&qGrpCd=FIR&setPMCookies=true&qSHBrC=CP&qDest=2200%20Centreville%20Road,%20Herndon,%20VA,%20US&srb_u=1" target="_blank" style="cursor:pointer">
+                <a href="https://www.reseze.net/servlet/SendPage?hotelid=1410&amp;skipfirstpage=true&amp;page=2714178" target="_blank" style="cursor:pointer">
                   <div class="reserveBttn">BOOK ONLINE</div>
                 </a>
                 <i>OR</i>
+                Email: mcm09reservations1@mcmelegante.com
+                <i>OR</i>
                 <div>
-                  Call 1-(877) 390-5944 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by July 26th, 2021.
+                  Call (719) 576-5900 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by Friday, August 12th, 2022.
                 </div>
               </div>
             </div>

@@ -51,7 +51,7 @@
           <div class="regFormTitle">
             ONLINE
           </div>
-          <form method="POST">
+          <form method="POST" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
             @csrf
             <div class="regText">
               <input name="first_name" type="text" placeholder="First Name" required/>
@@ -96,17 +96,19 @@
               @endforeach
             </div>
             <div class="regInputTitle">Payment Options:</div>
-            <select name="registration_type">
-              <option value="Renewal">Renewal</option>
-              <option value="Active Duty">Active Duty</option>
-              <option value="Associate">Associate</option>
-              <option value="One Year">One Year</option>
-              <option value="Two Years">Two Year</option>
-              <option value="Five Years">Five Year</option>
-              <option value="Life to 49">Life to 49</option>
-              <option value="Life to 64">Life to 64</option>
-              <option value="Life 65 and above">Life 65 and above</option>
-              <option value="Just information please">Just information please</option>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <!-- <select name="registration_type"> -->
+            <select name="hosted_button_id">
+              <!-- <option value="Renewal">Renewal</option> -->
+              <option value="QYJNBQCD33ER2">Active Duty</option>
+              <!-- <option value="Associate">Associate</option> -->
+              <option value="UKGMW55X5UPQC">One Year</option>
+              <option value="GT2SWY352RVF6">Two Year</option>
+              <option value="BPK67K5YQFH6Y">Five Year</option>
+              <option value="52FBJ8VLNVYLJ">Life member (49 or younger)</option>
+              <option value="AX6VL9PNWMFKY">Life member (50 to 64)</option>
+              <option value="9VQFT3CHBUD2L">Life member (65 or older)</option>
+              <!-- <option value="Just information please">Just information please</option> -->
             </select>
             <div class="regInputTitle">Payment Method:</div>
             <select name="pay_method">
@@ -120,7 +122,7 @@
               <textarea name="comments" placeholder="Include any necessarry questions or comments about your registration form"></textarea>
             </div>
             <div class="submitBttn">
-              <input type="submit" value="SUBMIT"/>
+              <input type="submit" name="post" value="SUBMIT"/>
             </div>
           </form>
         </div>

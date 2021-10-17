@@ -33,7 +33,7 @@ class AdminController extends Controller
       $member_num = $_GET['member_num'];
       $casualty_num = $_GET['casualty_num'];
       $recipient_num = $_GET['recipient_num'];
-      
+
       // All users
       $all_users = DB::table('users')
         ->select('id','email','first_name','last_name','deceased')

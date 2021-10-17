@@ -19,10 +19,18 @@ class MemorialController extends Controller
        ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
        ->orderBy('casualties.last_name')
        ->get();
-       $all_conflicts = DB::table('conflicts')
+       $init_all_conflicts = DB::table('conflicts')
         ->select('id','name')
         ->orderBy('start_year')
         ->get();
+       foreach ($init_all_conflicts as $one_conflict) {
+         foreach ($all_casualty_basics as $one_casualty) {
+           if ($one_conflict->id === $one_casualty->con_id) {
+             $all_conflicts[] = $one_conflict;
+             break;
+           }
+         };
+       };
        $casualty_count = count($all_casualty_basics);
        date_default_timezone_set('America/New_York');
        $current_date = date('Y-m-d');
@@ -128,10 +136,11 @@ class MemorialController extends Controller
       $unit = "%".$unit_init."%";
       $conflict_init = $request->conflict;
       $conflict = "%".$conflict_init."%";
+
       if ($conflict != '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where(
            [
@@ -173,7 +182,7 @@ class MemorialController extends Controller
       } elseif ($conflict != '' && $unit_init == '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where('conflicts.name','like',$conflict)
          ->get();
@@ -211,7 +220,7 @@ class MemorialController extends Controller
       } elseif ($conflict == '' && $unit_init != '') {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
          ->orderBy('casualties.last_name')
          ->where('casualties.unit','like',$unit)
          ->get();
@@ -249,7 +258,7 @@ class MemorialController extends Controller
       } else {
         $first_list = DB::table('casualties')
          ->join('conflicts','conflicts.id','casualties.conflict_id')
-         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+         ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
          ->orderBy('casualties.last_name')
          ->get();
          if ($first_name != '') {
@@ -286,10 +295,27 @@ class MemorialController extends Controller
       };
       $first_name = $request->firstName;
       $last_name = $request->lastName;
-      $all_conflicts = DB::table('conflicts')
-        ->select('id','name')
-        ->orderBy('start_year')
-        ->get();
+      // $all_conflicts = DB::table('conflicts')
+      //   ->select('id','name')
+      //   ->orderBy('start_year')
+      //   ->get();
+      $init_all_conflicts = DB::table('conflicts')
+       ->select('id','name')
+       ->orderBy('start_year')
+       ->get();
+      $total_casualties = DB::table('casualties')
+       ->join('conflicts','conflicts.id','casualties.conflict_id')
+       ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
+       ->orderBy('casualties.last_name')
+       ->get();
+      foreach ($init_all_conflicts as $one_conflict) {
+        foreach ($total_casualties as $one_casualty) {
+          if ($one_conflict->id === $one_casualty->con_id) {
+            $all_conflicts[] = $one_conflict;
+            break;
+          }
+        };
+      };
       $casualty_count = count($all_casualty_basics);
       $current_date = date('Y-m-d');
       $current_casualty = null;
@@ -298,7 +324,7 @@ class MemorialController extends Controller
       $null_count = count($all_null_displayed);
       $unfiltered_casualty_array = DB::table('casualties')
        ->join('conflicts','conflicts.id','casualties.conflict_id')
-       ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id','when_displayed')
+       ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
        ->orderBy('casualties.last_name')
        ->get();
       if ($null_count > 0) {
@@ -326,6 +352,7 @@ class MemorialController extends Controller
             $selected_num = rand(0,$max_rand);
             DB::table('casualties')
               ->where(['cas_id','=',$already_selected->id])
+              // ->where(['cas_id','=',$unfiltered_casualty_array[$selected_num]->cas_id])
               ->update(['when_displayed' => $current_date]);
             $already_selected_id = $unfiltered_casualty_array[$selected_num]->cas_id;
             $already_selected_raw = DB::table('casualties')

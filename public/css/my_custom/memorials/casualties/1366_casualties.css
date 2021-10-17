@@ -15,6 +15,11 @@
   width: inherit;
 }
 
+.purpleBand {
+  background-position: 100%, 90% 50%, 100%;
+  background-size: contain, 22%, contain;
+}
+
 .casualtyIntro {
   font-size: 1.45rem;
   line-height: 1.7;

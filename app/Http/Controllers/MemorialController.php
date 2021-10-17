@@ -19,10 +19,18 @@ class MemorialController extends Controller
        ->select('casualties.id AS cas_id','rank','first_name','last_name','unit','conflicts.name AS con_name','conflicts.id AS con_id','when_displayed')
        ->orderBy('casualties.last_name')
        ->get();
-       $all_conflicts = DB::table('conflicts')
+       $init_all_conflicts = DB::table('conflicts')
         ->select('id','name')
         ->orderBy('start_year')
         ->get();
+       foreach ($init_all_conflicts as $one_conflict) {
+         foreach ($all_casualty_basics as $one_casualty) {
+           if ($one_conflict->id === $one_casualty->con_id) {
+             $all_conflicts[] = $one_conflict;
+             break;
+           }
+         };
+       };
        $casualty_count = count($all_casualty_basics);
        date_default_timezone_set('America/New_York');
        $current_date = date('Y-m-d');

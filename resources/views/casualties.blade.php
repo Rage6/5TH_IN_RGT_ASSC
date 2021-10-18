@@ -33,102 +33,95 @@
       </div>
     </div>
     <div class="dailyAndSearchBox">
-      <div class="dailyMemorial oneSection">
-        <div class="dailyName">
-          <div class="rankWithMedal">
-            <div>
-              {{ $already_selected->rank }}
-            </div>
-            @if ($already_selected->moh_id != null)
-              <div class="medal" style="background-image:url('/images/memorials/us-army-medal-of-honor.png')"></div>
-            @else
-              <div class="medal"></div>
-            @endif
-          </div>
-          <div>
-            {{ $already_selected->first_name }}
-            @if ($already_selected->middle_name != null)
-              {{ $already_selected->middle_name }}
-            @endif
-            {{ $already_selected->last_name }}
-          </div>
-        </div>
-        @if ($already_selected->con_name != null)
-          <div class="dailyConflict">
-            {{ $already_selected->con_name }}
-          </div>
-        @endif
-        @if ($already_selected->photo != null)
-          <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
-        @else
-          <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
-        @endif
-        <div class="dailyBio">
-          @if ($already_selected->city != null && $already_selected->state != null)
-            <div>
-              Home: {{ $already_selected->city }}, {{ $already_selected->state }}
-            </div>
-          @elseif ($already_selected->city == null && $already_selected->state != null)
-            <div>
-              Home: {{ $already_selected->state }}
-            </div>
-          @endif
-          @if ($already_selected->unit != null)
-            <div>
-              Unit: {{ $already_selected->unit }}
-            </div>
-          @endif
-          <div>
-            Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
-          </div>
-          @if ($already_selected->place != null)
-            <div>
-              Location of Death: {{ $already_selected->place }}
-            </div>
-          @endif
-          @if ($already_selected->injury_type != null)
-            <div>
-              Type of Injury: {{ $already_selected->injury_type }}
-            </div>
-          @endif
-          @if ($already_selected->burial_site != null)
-            <div>
-              Burial Site: {{ $already_selected->burial_site }}
-            </div>
-          @endif
-          @if ($already_selected->comments != null)
-            <div>
-              Comments: {{ $already_selected->comments }}
-            </div>
-          @endif
-          @if ($already_selected->moh_id != null)
-            <div>
-              <a href="/memorials/medal_of_honor/{{ $already_selected->moh_id }}">
-                Medal of Honor (5th IN RGT Association)
-              </a>
-            </div>
-          @endif
-          @if (count($cas_links) > 0)
-            <div>Other sites about {{ $already_selected->first_name }}:</div>
-            @foreach ($cas_links as $one_link)
+      <div class="casualtyIntro oneSection">
+        <div class="dailyMemorial oneSection">
+          <div class="dailyName">
+            <div class="rankWithMedal">
               <div>
-                <a href="{{ $one_link->url }}" target="_blank">
-                  {{ $one_link->name }}
+                {{ $already_selected->rank }}
+              </div>
+              @if ($already_selected->moh_id != null)
+                <div class="medal" style="background-image:url('/images/memorials/us-army-medal-of-honor.png')"></div>
+              @else
+                <div class="medal"></div>
+              @endif
+            </div>
+            <div>
+              {{ $already_selected->first_name }}
+              @if ($already_selected->middle_name != null)
+                {{ $already_selected->middle_name }}
+              @endif
+              {{ $already_selected->last_name }}
+            </div>
+          </div>
+          @if ($already_selected->con_name != null)
+            <div class="dailyConflict">
+              {{ $already_selected->con_name }}
+            </div>
+          @endif
+          @if ($already_selected->photo != null)
+            <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
+          @else
+            <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
+          @endif
+          <div class="dailyBio">
+            @if ($already_selected->city != null && $already_selected->state != null)
+              <div>
+                Home: {{ $already_selected->city }}, {{ $already_selected->state }}
+              </div>
+            @elseif ($already_selected->city == null && $already_selected->state != null)
+              <div>
+                Home: {{ $already_selected->state }}
+              </div>
+            @endif
+            @if ($already_selected->unit != null)
+              <div>
+                Unit: {{ $already_selected->unit }}
+              </div>
+            @endif
+            <div>
+              Date of Death: {{ $already_selected->month_of_death }}/{{ $already_selected->day_of_death }}/{{ $already_selected->year_of_death }}
+            </div>
+            @if ($already_selected->place != null)
+              <div>
+                Location of Death: {{ $already_selected->place }}
+              </div>
+            @endif
+            @if ($already_selected->injury_type != null)
+              <div>
+                Type of Injury: {{ $already_selected->injury_type }}
+              </div>
+            @endif
+            @if ($already_selected->burial_site != null)
+              <div>
+                Burial Site: {{ $already_selected->burial_site }}
+              </div>
+            @endif
+            @if ($already_selected->comments != null)
+              <div>
+                Comments: {{ $already_selected->comments }}
+              </div>
+            @endif
+            @if ($already_selected->moh_id != null)
+              <div>
+                <a href="/memorials/medal_of_honor/{{ $already_selected->moh_id }}">
+                  Medal of Honor (5th IN RGT Association)
                 </a>
               </div>
-            @endforeach
-          @endif
+            @endif
+            @if (count($cas_links) > 0)
+              <div>Other sites about {{ $already_selected->first_name }}:</div>
+              @foreach ($cas_links as $one_link)
+                <div>
+                  <a href="{{ $one_link->url }}" target="_blank">
+                    {{ $one_link->name }}
+                  </a>
+                </div>
+              @endforeach
+            @endif
+          </div>
         </div>
-        <!-- <pre>
-          @php
-            var_dump(count($cas_links));
-          @endphp
-        </pre> -->
-      </div>
-      <div class="casualtyIntro oneSection">
-        <div>
-          The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
-        </div>
+        The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
       </div>
       <div class="leftSearchColumn oneSection">
         <div class="casualtySearch">

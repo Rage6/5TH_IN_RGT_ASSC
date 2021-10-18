@@ -19,9 +19,9 @@ p {
 }
 
 .dailyAndSearchBox {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn";
+  grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn"; */
 }
 
 .oneSection {
@@ -30,9 +30,11 @@ p {
 }
 
 .dailyMemorial {
-  margin-left: 0;
-  border-radius: inherit;
-  width: inherit;
+  margin: 0 0 30px 30px;
+  float: right;
+  /* width: inherit; */
+  height: 400px;
+  width: 500px;
 }
 
 .purpleBand {
@@ -41,7 +43,7 @@ p {
 }
 
 .casualtyIntro {
-  font-size: 1.45rem;
+  font-size: 2rem;
   line-height: 1.7;
 }
 

@@ -18,10 +18,14 @@ p {
   width: 1920px;
 }
 
+.whiteBand {
+  padding-left: calc(50% - 683px);
+  padding-right: calc(50% - 683px);
+}
+
 .dailyAndSearchBox {
-  /* display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn"; */
+  margin-left: calc(50% - 683px);
+  margin-right: calc(50% - 683px);
 }
 
 .oneSection {
@@ -30,7 +34,7 @@ p {
 }
 
 .dailyMemorial {
-  margin: 0 0 30px 30px;
+  margin: 0 0 40px 30px;
   float: right;
   /* width: inherit; */
   height: 400px;

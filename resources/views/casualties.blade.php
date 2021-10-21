@@ -34,8 +34,8 @@
     </div>
     <div class="dailyAndSearchBox">
       <div class="casualtyIntro oneSection">
-        <div class="dailyMemorial oneSection">
-          <div class="dailyName">
+        <!-- <div class="dailyMemorial oneSection">
+          <div class="dailyInfo">
             <div class="rankWithMedal">
               <div>
                 {{ $already_selected->rank }}
@@ -120,6 +120,41 @@
               @endforeach
             @endif
           </div>
+        </div> -->
+        <div class="dailyMemorial oneSection">
+          <div class="dailyInfo">
+            <div class="rankWithMedal">
+              <div>
+                Today we honor...
+              </div>
+              @if ($already_selected->moh_id != null)
+                <div class="medal" style="background-image:url('/images/memorials/us-army-medal-of-honor.png')"></div>
+              @else
+                <div class="medal"></div>
+              @endif
+            </div>
+            <div class="dailyName">
+              {{ $already_selected->rank }} {{ $already_selected->first_name }}
+              @if ($already_selected->middle_name != null)
+                {{ $already_selected->middle_name }}
+              @endif
+              {{ $already_selected->last_name }}
+            </div>
+          <!-- </div> -->
+          @if ($already_selected->photo != null)
+            <div class="dailyImg" style="background-image: url('https://5th-rgt-profile-photos.s3.us-east-2.amazonaws.com/{{ $already_selected->photo }}?t=@php echo(time()) @endphp')"></div>
+          @else
+            <div class="dailyImg" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/04/65/24/73/d-day-tours-of-normandy.jpg')"></div>
+          @endif
+          @if ($already_selected->con_name != null)
+            <div class="dailyConflict">
+              {{ $already_selected->con_name }}
+            </div>
+          @endif
+          </div>
+          <a href="{{ url('/memorials/casualties?id='.$already_selected->cas_id) }}&selected=yes">
+            <div>Learn more >></div>
+          </a>
         </div>
         The creation of this page was done to honor  those who paid the supreme sacrifice while in service to their nation.  Struck down in the prime of their lives, they never faltered in their dedication to fellow soldiers and gave their lives so that others would survive.   We, who survived the brutal reality of war, must never forget the price they paid.  The Association's recognition of their valor cannot be complete until this page is accurate in detail.  We view it as a work in progress and depend upon you to help make it as comprehensive as possible.  Please submit information about omissions, corrections, or other details that would be helpful to...
       </div>

@@ -64,6 +64,11 @@
   grid-template-rows: max-content max-content auto;
 }
 
+.casualtyName {
+  text-align: left;
+  width: 50%;
+}
+
 .casualtyImg {
   background-position: top;
   height: inherit;

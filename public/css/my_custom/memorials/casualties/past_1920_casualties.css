@@ -18,10 +18,14 @@ p {
   width: 1920px;
 }
 
+.whiteBand {
+  padding-left: calc(50% - 683px);
+  padding-right: calc(50% - 683px);
+}
+
 .dailyAndSearchBox {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "dailyMemorial casualtyIntro" "leftSearchColumn rightSearchColumn";
+  margin-left: calc(50% - 683px);
+  margin-right: calc(50% - 683px);
 }
 
 .oneSection {
@@ -30,9 +34,9 @@ p {
 }
 
 .dailyMemorial {
-  margin-left: 0;
-  border-radius: inherit;
-  width: inherit;
+  margin: 0 0 40px 30px;
+  float: right;
+  width: 500px;
 }
 
 .purpleBand {
@@ -41,8 +45,47 @@ p {
 }
 
 .casualtyIntro {
-  font-size: 1.45rem;
+  font-size: 2rem;
   line-height: 1.7;
+}
+
+.leftSearchColumn {
+  display: grid;
+  grid-template-areas: "search results";
+  grid-template-columns: 20% 80%;
+}
+
+.casualtySearchForm {
+  display: block;
+}
+
+.casualtySearchForm input, .casualtySearchForm select {
+  margin-left: 5%;
+  margin-bottom: 20px;
+  width: calc(90% - 8px);
+}
+
+.casualtyListTitle {
+  display: none;
+}
+
+.allCasualtyListRows {
+  margin: 0 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.casualtyListRow {
+  margin: 0 1% 15px 0;
+  display: grid;
+  grid-template-columns: 96% 4%;
+  grid-template-areas:
+    "rowName rowArrow"
+    "rowUnit rowArrow"
+    "rowConflict rowArrow";
+  width: 28%;
 }
 
 .rightSearchColumn {

@@ -109,6 +109,15 @@ p {
   /* width: 90%; */
 }
 
+.dailyMemorial a {
+  color: white;
+  cursor: pointer;
+}
+
+.dailyMemorial a div {
+  text-align: center;
+}
+
 .dailyInfo {
   margin-left: 10%;
   font-size: 1.5rem;
@@ -159,16 +168,22 @@ p {
 }
 
 .leftSearchColumn {
-  grid-area: leftSearchColumn;
-  background: linear-gradient(rgba(139,0,0,0.5),rgba(139,0,0,0.5));
+  margin-top: 40px;
+  /* grid-area: leftSearchColumn; */
+  background: linear-gradient(
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.7)),
+    url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
+  background-size: cover;
+  background-position: center;
   min-height: 500px;
 }
 
 .rightSearchColumn {
   padding-top: 30px;
-  grid-area: rightSearchColumn;
-  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
-    url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
+  color: white;
+  /* grid-area: rightSearchColumn; */
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
   background-position: center;
   background-size: cover;
   min-height: 500px;
@@ -201,7 +216,11 @@ p {
 }
 
 .submitInput {
+  border: 2px solid white;
+  border-radius: 15px;
   grid-area: submit;
+  color: white;
+  background-color: rgba(139,0,0,1);
 }
 
 .casualtySearchForm {
@@ -215,17 +234,12 @@ p {
   grid-template-areas:
     "first first last last"
     "unit unit conflict conflict"
-    ". submit submit .";
+    "submit submit . .";
 }
 
 .casualtyList {
   padding-bottom: 20px;
-  color: white;
-  /* background:
-    linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),
-    url('https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg3MjM0MDMyOTY5/flags-are-placed-at-arlington-national-cemetery-graves.jpg');
-  background-position: center;
-  background-size: cover; */
+  color: black;
 }
 
 .casualtyTotal {
@@ -246,17 +260,21 @@ p {
 }
 
 .allCasualtyListRows {
-  border-radius: 0 5px 5px 0;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  height: 55vh;
-  width: 85%;
+  margin: 0 9%;
+  padding: 20px 1%;
+  /* border-radius: 0 5px 5px 0; */
+  /* border-top: 1px solid black; */
+  /* border-right: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+  max-height: 55vh;
+  /* width: 85%; */
   overflow-y: scroll;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
 }
 
 .casualtyListRow {
   margin: 20px 0%;
+  border-radius: 10px;
   padding: 2px 2%;
   color: white;
   font-family: 'Bellefair', serif;
@@ -265,7 +283,15 @@ p {
   grid-template-areas:
     "rowName rowConflict rowArrow"
     "rowUnit rowConflict rowArrow";
-  background: linear-gradient(rgba(0,100,0,1),rgba(0,100,0,1));
+  background-image: url("https://i.pinimg.com/originals/85/c2/bc/85c2bc5117b432014f3f894845d43323.jpg");
+}
+
+.casualtyListRow:first-of-type {
+  margin-top: 0;
+}
+
+.casualtyListRow:last-of-type {
+  margin-bottom: 0;
 }
 
 .rowName {
@@ -286,7 +312,7 @@ p {
   background:
     conic-gradient(
       from 0deg at 70% 50%,
-      transparent,transparent 225deg,rgba(0,100,0,1) 225deg,rgb(0,100,0,1) 315deg,transparent 315deg,transparent),
+      transparent,transparent 225deg,rgba(0,0,0,1) 225deg,rgb(0,0,0,1) 315deg,transparent 315deg,transparent),
     conic-gradient(
       from 0deg at 100% 50%,
       transparent,transparent 225deg,white 225deg,white 315deg,transparent 315deg,transparent);
@@ -351,7 +377,11 @@ p {
 }
 
 .casualtyBioTwo textarea {
-  font-family: 'Vollkorn SC', sans-serif;
+  border: none;
+  font-size: 1.3rem;
+  color: white;
+  font-family: 'Times New Roman';
+  /* font-family: 'Vollkorn SC', sans-serif; */
   background: linear-gradient(45deg, transparent, transparent);
   width: 98%;
   min-height: 200px;

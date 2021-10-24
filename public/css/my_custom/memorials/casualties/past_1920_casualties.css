@@ -91,11 +91,15 @@ p {
 .rightSearchColumn {
   display: grid;
   grid-template-areas:
-    "casualtyName casualtyName"
-    "casualtyImg casBio1"
-    "casBio2 casBio2";
+    "casualtyName casBio2"
+    "casualtyImg casBio2"
+    "casBio1 casBio2";
   grid-template-columns: 50% 50%;
-  grid-template-rows: max-content max-content auto;
+  grid-template-rows: 110px 200px auto;
+}
+
+.casualtyName {
+  text-align: left;
 }
 
 .casualtyImg {
@@ -111,5 +115,9 @@ p {
   border: 1px solid black;
   padding-bottom: 20px;
   overflow-y: scroll;
-  max-height: 300px;
+}
+
+.casualtyBioTwo textarea {
+  width: 95%;
+  height: 80%;
 }

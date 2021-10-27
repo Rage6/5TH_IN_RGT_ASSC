@@ -110,27 +110,27 @@
                 </div>
               </div>
               <div class="regFormHalf">
-                <!-- <div class='radioTypeBox'>
+                <div class='radioTypeBox'>
                   <div>
-                    Do you plan on attending the Air & Space Museum with lunch and historic tour at Bull Runn (wine tasting included)?
+                    Do you plan on attending: the US Olympic Museum & Garden of the Gods Tour (lunch included)?
                   </div>
-                  <input type='radio' name='air_and_space' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='air_and_space' value='No'/><span>No</span>
-                </div> -->
-                <!-- <div class='radioTypeBox'>
+                  <input type='radio' name='event_one' value='Yes'/><span>Yes</span>
+                  <input checked type='radio' name='event_one' value='No'/><span>No</span>
+                </div>
+                <div class='radioTypeBox'>
                   <div>
-                    Do you plan on attending the Washington DC memorial and monument day?
+                    Do you plan on attending: the Royal Gorge Railroad Tour ($20 lunch voucher)?
                   </div>
-                  <input type='radio' name='dc_monuments' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='dc_monuments' value='No'/><span>No</span>
-                </div> -->
-                <!-- <div class='radioTypeBox'>
+                  <input type='radio' name='event_two' value='Yes'/><span>Yes</span>
+                  <input checked type='radio' name='event_two' value='No'/><span>No</span>
+                </div>
+                <div class='radioTypeBox'>
                   <div>
-                    Do you plan on attending the memorial service, tour, and luncheon at the National Army Museum?
+                    Do you plan on attending: the Memorial Service at Fort Carson?
                   </div>
-                  <input type='radio' name='army_museum' value='Yes'/><span>Yes</span>
-                  <input checked type='radio' name='army_museum' value='No'/><span>No</span>
-                </div> -->
+                  <input type='radio' name='event_three' value='Yes'/><span>Yes</span>
+                  <input checked type='radio' name='event_three' value='No'/><span>No</span>
+                </div>
                 <!-- <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.

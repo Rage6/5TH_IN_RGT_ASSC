@@ -54,11 +54,10 @@ class ReunionController extends Controller
       $new_submission->phone_number = Request::input('phone_number');
       $new_submission->email = Request::input('email');
       $new_submission->arrival_date = Request::input('arrival_date');
-      $new_submission->air_and_space = Request::input('air_and_space');
-      $new_submission->dc_monuments = Request::input('dc_monuments');
-      $new_submission->army_museum = Request::input('army_museum');
+      $new_submission->event_one = Request::input('event_one');
+      $new_submission->event_two = Request::input('event_two');
+      $new_submission->event_three = Request::input('event_three');
       $new_submission->ladies_breakfast = Request::input('ladies_breakfast');
-      $new_submission->air_and_space = Request::input('air_and_space');
       $new_submission->driving = Request::input('driving');
       $new_submission->first_reunion = Request::input('first_reunion');
       $new_submission->comments = Request::input('comments');

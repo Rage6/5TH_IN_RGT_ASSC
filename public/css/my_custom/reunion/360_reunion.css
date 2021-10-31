@@ -289,7 +289,7 @@
     linear-gradient(
       rgba(0,100,0,0.8),
       rgba(0,100,0,0.3)),
-    url('/images/registration/dc_view.jpg');
+    url('/images/registration/payments.jpeg');
 }
 
 .reunionSectBox {
@@ -391,11 +391,11 @@
 }
 
 .shuttle {
-  background-image: url("/images/registration/space_shuttle.jpg");
+  background-image: url("/images/registration/olympic.jpg");
 }
 
 .winery {
-  background-image: url("/images/registration/winery_at_bull_run.jpg");
+  background-image: url("/images/registration/Balanced-Rock.jpg");
 }
 
 .memorialList {
@@ -431,23 +431,23 @@
 }
 
 .upperLeft {
-  background-image: url('/images/registration/vietnam_memorial.jpg');
+  background-image: url('/images/registration/railroad-ul.jpg');
 }
 
 .upperRight {
-  background-image: url('/images/registration/lincoln_memorial.jpg');
+  background-image: url('/images/registration/railroad-ur.jpg');
 }
 
 .lowerLeft {
-  background-image: url('/images/registration/washington_monument.jpg');
+  background-image: url('/images/registration/railroad-ll.jpeg');
 }
 
 .lowerRight {
-  background-image: url('/images/registration/korean_memorial.jpg');
+  background-image: url('/images/registration/railroad-lr.jpeg');
 }
 
 .army_museum {
-  background-image: url("/images/registration/army_museum_interior.jpeg");
+  background-image: url("");
 }
 
 .mealList {

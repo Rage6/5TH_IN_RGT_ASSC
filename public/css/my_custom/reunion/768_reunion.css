@@ -41,6 +41,7 @@
 }
 
 .reservationRow {
-  grid-template-columns: 40% 10% 40%;
+  grid-template-columns: 40% 40%;
+  grid-row-gap: 50px;
   justify-content: space-between;
 }

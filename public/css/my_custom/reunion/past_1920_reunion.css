@@ -96,6 +96,7 @@ body {
 .reservationRow {
   display: grid;
   text-align: center;
-  grid-template-columns: 40% 10% 40%;
+  grid-template-columns: 40% 40%;
+  grid-row-gap: 50px;
   justify-content: space-between;
 }

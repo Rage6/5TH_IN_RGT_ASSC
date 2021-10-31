@@ -284,11 +284,19 @@
                 <a href="https://www.reseze.net/servlet/SendPage?hotelid=1410&amp;skipfirstpage=true&amp;page=2714178" target="_blank" style="cursor:pointer">
                   <div class="reserveBttn">BOOK ONLINE</div>
                 </a>
-                <i>OR</i>
-                Email: mcm09reservations1@mcmelegante.com
-                <i>OR</i>
                 <div>
-                  Call (719) 576-5900 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by Friday, August 12th, 2022.
+                  <div>
+                    <u>Book By Email</u>
+                  </div>
+                  <div>mcm09reservations1@mcmelegante.com</div>
+                </div>
+                <div>
+                  <div>
+                    <u>Book By Phone</u>
+                  </div>
+                  <div>
+                    Call (719) 576-5900 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by Friday, August 12th, 2022.
+                  </div>
                 </div>
               </div>
             </div>
@@ -300,10 +308,19 @@
         data-section="wednesday"
         data-type="box">
         <div class="boxTitle">
-          Wednesday, Aug. 11th, 9:00 am - 3:00 pm
+          Wednesday, Sept. 14th, 10:00 am - 3:30 pm
         </div>
         <div class="boxContent">
           <div class="boxTotal">
+            <div class="boxSubtitle">
+              U.S. Olympic & Paralympic Museum (10 - 12)
+            </div>
+            <div class="boxSubcontent">
+              Public tours start with an inspirational 12-minute film and then a 45-minute outdoor walking tours of the training complex, including the weightlifting and wrestling facilities, the Aquatics Center and the Sports Center Gymnasiums. Visitors can then explore the U.S. Olympic Hall of Fame Rotunda, the Team USA Store and art exhibitions found throughout the facility.​
+            </div>
+            <div class="reunionBoxImg shuttle"></div>
+          </div>
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               National Air & Space Museum Steven F. Udvar-Hazy Center
             </div>
@@ -311,8 +328,20 @@
               Two large hangars display thousands of aviation and space artifacts, including a Lockheed SR-71 Blackbird, a Concorde, and the Space Shuttle <i>Discovery</i>.​
             </div>
             <div class="reunionBoxImg shuttle"></div>
-          </div>
+          </div> -->
           <div class="boxTotal">
+            <div class="boxSubtitle">
+              Riding Tour @ Garden of the Gods (2 - 3:30)
+            </div>
+            <div class="boxSubcontent">
+              TBA
+            </div>
+            <div class="reunionBoxImg winery"></div>
+            <div class="boxSubcontent">
+              TBA
+            </div>
+          </div>
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               Winery at Bull Run
             </div>
@@ -324,8 +353,25 @@
             <div class="boxSubcontent">
               Walk amongst the ruins of the Hillwood Mansion, which served as a hospital during the First Battle of Bull Run. Explore an authentic Civil War soldiers's winter quarters cabin that still appears inhabited today.
             </div>
-          </div>
+          </div> -->
           <div class="boxTotal">
+            <div class="boxSubtitle">
+              Lunch
+            </div>
+            <div class="boxSubcontent">
+              <!-- Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include: -->
+              <ul>
+                <!-- <li>Chicken Caesar Wrap</li>
+                <li>Tuna Sun Dried Tomato</li>
+                <li>Turkey BLT with Avocado</li>
+                <li>Buffalo Chicken Wrap with Blue Cheese</li>
+                <li>Veggie Roasted Red Pepper Hummus</li> -->
+                <li>TBA</li>
+              </ul>
+              <!-- Includes homemade pepper kettle chips and penne pasta salad. -->
+            </div>
+          </div>
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               Lunch
             </div>
@@ -340,8 +386,27 @@
               </ul>
               Includes homemade pepper kettle chips and penne pasta salad.
             </div>
-          </div>
+          </div> -->
           <div class="boxTotal">
+            <div class="boxSubtitle">
+              Total Cost
+            </div>
+            <div class="boxSubcontent">
+              <!-- <ul>
+                <li>
+                  $79 per person. This includes the museum visit, lunch, tour, and wine tasting.
+                </li>
+              </ul>
+              <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div>
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">FEE & MEAL</div>
+              </a> -->
+              TBA
+            </div>
+          </div>
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               Total Cost
             </div>
@@ -358,7 +423,7 @@
                 <div class="reserveBttn">FEE & MEAL</div>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div
@@ -366,10 +431,10 @@
         data-section="thursday"
         data-type="box">
         <div class="boxTitle">
-          Thursday, Aug. 12th, 9:00 am - 4:00 pm
+          Thursday, Sept. 15th, 9:00 am - 4:00 pm
         </div>
         <div class="boxContent">
-          <div class="boxTotal">
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               Washington, D.C. Memorial & Monuments Day
             </div>
@@ -400,13 +465,13 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="boxTotal">
             <div class="boxSubtitle">
-              Lunch
+              Royal Gorge Route Railroad
             </div>
             <div class="boxSubcontent">
-              Lunch can be purchased at the <a href="https://www.unionstationdc.com/directory-map/">Union Station Food Court</a>.
+              This is Colorado's first and only full-service railroad dining experience. The Royal Gorge Route Railroad features beautifully restored mid-century coach, dining, bar and lounge, and dome cars with luxurious seating. Take in the panoramic views from your seat or the open-air car. Full bar and extensive, well-curated wine list always available.
             </div>
             <div class="reunionBoxImg memorialCollage">
               <div class="oneCorner upperLeft"></div>
@@ -422,7 +487,10 @@
             <div class="boxSubcontent">
               <ul>
                 <li>
-                  $59 per person
+                  Vista Dome Option: $125
+                </li>
+                <li>
+                  Club Car Option: $109
                 </li>
               </ul>
               <div style="margin-bottom:30px">
@@ -440,10 +508,10 @@
         data-section="friday"
         data-type="box">
         <div class="boxTitle">
-          Friday, Aug. 13th, 9:00 am - 4:00 pm
+          Friday, Sept. 16th, 9:00 am - 4:00 pm
         </div>
         <div class="boxContent">
-          <div class="boxTotal">
+          <!-- <div class="boxTotal">
             <div class="boxSubtitle">
               National Army Museum
             </div>
@@ -469,6 +537,33 @@
               </a>
             </div>
             <div class="reunionBoxImg army_museum"></div>
+          </div> -->
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              TBA
+            </div>
+            <div class="boxSubcontent">
+              TBA
+            </div>
+          </div>
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              Total Cost
+            </div>
+            <div class="boxSubcontent">
+              <ul>
+                <li>
+                  TBA
+                </li>
+              </ul>
+              <!-- <div style="margin-bottom:30px">
+                To pay for this event and/or any other events during this reunion, click below.
+              </div> -->
+              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
+                <div class="reserveBttn">FEE & MEAL</div>
+              </a>
+            </div>
+            <div class="reunionBoxImg army_museum"></div>
           </div>
         </div>
       </div>
@@ -477,7 +572,7 @@
         data-section="saturday"
         data-type="box">
         <div class="boxTitle">
-          Saturday, Aug. 14th
+          Saturday, Sept. 17th
         </div>
         <div class="boxContent">
           <div class="boxTotal">
@@ -494,9 +589,9 @@
                 <div>1030 - 1100</div>
               </div>
               <div>
-                Feel free to explore the surrounding area, Fairfax County, while waiting for the evening banquet.
+                Feel free to explore the surrounding area, Colorado Springs, while waiting for the evening banquet.
               </div>
-              <iframe width="auto" height="auto" src="https://www.youtube.com/embed/1vVkgse-P-E" title="Fairfax, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="auto" height="auto" src="https://www.youtube.com/embed/OcxUYUXg0xg" title="Colorado Springs, CO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="boxTotal">
@@ -505,15 +600,17 @@
             </div>
             <div class="boxSubcontent">
               <div class="mealList">
-                <div>Tuscan Chicken with tomato beurre blanc</div>
-                <div>$45</div>
-                <div>Baked Cod with lemon butter caper sauce</div>
-                <div>$50</div>
-                <div>12 oz. Grilled Crusted New York Steak with red wine and demi-glace shallot bordelaise</div>
-                <div>$55</div>
+                <div>Chicken Piccata: grilled chicken breast, lemon caper herb sauce</div>
+                <div>$49</div>
+                <div>Brilled Tilapia: herb & butter crusted white fish, garlic butter, lemon crown</div>
+                <div>$49</div>
+                <div>Flat Iron Steak: grilled, cracked peper demi</div>
+                <div>$49</div>
+                <div>Vegetable Wellington: grilled vegetables, boursin cheese, parmesan-wrapped pastry</div>
+                <div>$49</div>
               </div>
               <div>
-                Each meal also includes fresh Caesar salad, chef's selection of accompaniments, dessert, freshly brewed coffee, and iced tea.
+                Each meal also includes: salad w/ choice of dressing, assorted rolls and butter, chef's choice of a soup, vegetables, and dessert.
               </div>
               <div style="margin-bottom:30px">
                 To pay for this event and/or any other events during this reunion, click below.

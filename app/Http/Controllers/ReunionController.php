@@ -67,8 +67,8 @@ class ReunionController extends Controller
       } else {
         Mail::to([env('REUNION_EMAIL_2'),env('REUNION_EMAIL_3'),env('REUNION_EMAIL_4'),env('REUNION_EMAIL_5')])->send(new ReunionEmail($new_submission));
       };
-      return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
-      // return redirect('/reunion');
+      // return redirect('http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html');
+      return redirect('/reunion?payment');
     }
 
     /**

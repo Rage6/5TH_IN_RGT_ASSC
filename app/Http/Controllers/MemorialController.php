@@ -20,13 +20,29 @@ class MemorialController extends Controller
        ->orderBy('casualties.last_name')
        ->get();
        $init_all_conflicts = DB::table('conflicts')
-        ->select('id','name')
+        ->select('id','name','parent_id')
         ->orderBy('start_year')
         ->get();
        foreach ($init_all_conflicts as $one_conflict) {
          foreach ($all_casualty_basics as $one_casualty) {
            if ($one_conflict->id === $one_casualty->con_id) {
              $all_conflicts[] = $one_conflict;
+             if ($one_conflict->parent_id != null) {
+               foreach($init_all_conflicts as $finding_parent) {
+                 if ($finding_parent->id === $one_conflict->parent_id) {
+                   $already_there = false;
+                   foreach($all_conflicts as $one_check) {
+                     if ($one_check->id === $finding_parent->id) {
+                       // $all_conflicts[] = $finding_parent;
+                       $already_there = true;
+                     };
+                   };
+                   if ($already_there === false) {
+                     $all_conflicts[] = $finding_parent;
+                   };
+                 };
+               };
+             };
              break;
            }
          };

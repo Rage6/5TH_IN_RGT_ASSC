@@ -70,7 +70,7 @@
           September 13 - 18
         </div>
         <div class="reunionLocation dateAndLocation">
-          Colorado Spring, CO
+          Colorado Springs, CO
         </div>
         <div class="regBttn" id="regBttn" onclick="openAndCloseForm()">
           Register Now!
@@ -196,16 +196,16 @@
             onclick="clickSection('saturday','button')">SATURDAY</div>
         </div>
         <div class="regSection paymentSection">
-          <!-- <div
+          <div
             class="reunionSectBttn"
             data-section="payment"
             data-type="button"
-            onclick="clickSection('payment','button')">PAYMENTS</div> -->
-            <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer;color:white">
-              <div
-                class="reunionSectBttn">PAYMENTS
+            onclick="clickSection('payment','button')">PAYMENTS</div>
+            <!-- <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer;color:white">
+              <div class="reunionSectBttn">
+                PAYMENTS
               </div>
-            </a>
+            </a> -->
         </div>
       </div>
       <div
@@ -320,15 +320,6 @@
             </div>
             <div class="reunionBoxImg shuttle"></div>
           </div>
-          <!-- <div class="boxTotal">
-            <div class="boxSubtitle">
-              National Air & Space Museum Steven F. Udvar-Hazy Center
-            </div>
-            <div class="boxSubcontent">
-              Two large hangars display thousands of aviation and space artifacts, including a Lockheed SR-71 Blackbird, a Concorde, and the Space Shuttle <i>Discovery</i>.​
-            </div>
-            <div class="reunionBoxImg shuttle"></div>
-          </div> -->
           <div class="boxTotal">
             <div class="boxSubtitle">
               Riding Tour @ Garden of the Gods (2 - 3:30)
@@ -337,74 +328,37 @@
               TBA
             </div>
             <div class="reunionBoxImg winery"></div>
-            <div class="boxSubcontent">
-              TBA
-            </div>
           </div>
-          <!-- <div class="boxTotal">
-            <div class="boxSubtitle">
-              Winery at Bull Run
-            </div>
-            <div class="boxSubcontent">
-              Travel back in tine to the year 1861. Immerse yourself in the beautiful, historically landscaped vistas, tour the structures dotting the landscape while learning of the secrets they keep, and listen to the unique stories of the American Civil War that took place on these very grounds</br>
-              Taste award-winning wines along the journey at <a href="https://www.wineryatbullrun.com" target="_blank">The Winery at Bull Run</a>
-            </div>
-            <div class="reunionBoxImg winery"></div>
-            <div class="boxSubcontent">
-              Walk amongst the ruins of the Hillwood Mansion, which served as a hospital during the First Battle of Bull Run. Explore an authentic Civil War soldiers's winter quarters cabin that still appears inhabited today.
-            </div>
-          </div> -->
           <div class="boxTotal">
             <div class="boxSubtitle">
-              Lunch
+              Lunch (12:30 - 2)
             </div>
             <div class="boxSubcontent">
               <!-- Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include: -->
+              Lunches will be found at the "Garden of the Gods Trading Post". The lunch options include:
               <ul>
-                <!-- <li>Chicken Caesar Wrap</li>
-                <li>Tuna Sun Dried Tomato</li>
-                <li>Turkey BLT with Avocado</li>
-                <li>Buffalo Chicken Wrap with Blue Cheese</li>
-                <li>Veggie Roasted Red Pepper Hummus</li> -->
-                <li>TBA</li>
+                <li>
+                  <u>Garden of the Gods Special</u>: Assorted Roast Beef, Ham, and Turkey Sandwiches, Soup of the Day, Creamy Potato Salad, Assorted Dessert, Bars, Beverage Station
+                </li>
+                <li>
+                  <u>Gateway Rock Grill Out</u>: 1/3lb Hamburgers and 1/4lb All Beef Franks, Crisp House Chips, Hamburger and Hot dog Fixings, Assorted Dessert Bars, Beverage Station
+                </li>
               </ul>
-              <!-- Includes homemade pepper kettle chips and penne pasta salad. -->
+              <div>
+                NOTE: Lunch prices will be included in the tour total cost
+              </div>
             </div>
           </div>
-          <!-- <div class="boxTotal">
-            <div class="boxSubtitle">
-              Lunch
-            </div>
-            <div class="boxSubcontent">
-              Make your lunch selection in the shopping cart. Choice of our picnic-style wraps include:
-              <ul>
-                <li>Chicken Caesar Wrap</li>
-                <li>Tuna Sun Dried Tomato</li>
-                <li>Turkey BLT with Avocado</li>
-                <li>Buffalo Chicken Wrap with Blue Cheese</li>
-                <li>Veggie Roasted Red Pepper Hummus</li>
-              </ul>
-              Includes homemade pepper kettle chips and penne pasta salad.
-            </div>
-          </div> -->
           <div class="boxTotal">
             <div class="boxSubtitle">
               Total Cost
             </div>
             <div class="boxSubcontent">
-              <!-- <ul>
-                <li>
-                  $79 per person. This includes the museum visit, lunch, tour, and wine tasting.
-                </li>
-              </ul>
-              <div style="margin-bottom:30px">
-                To pay for this event and/or any other events during this reunion, click below.
-              </div>
-              <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer">
-                <div class="reserveBttn">FEE & MEAL</div>
-              </a> -->
-              TBA
+              $79 (Tour + Lunch)
             </div>
+            <a href="{{ url('/reunion?submitted') }}">
+              <div class="reserveBttn">PAY NOW</div>
+            </a>
           </div>
           <!-- <div class="boxTotal">
             <div class="boxSubtitle">
@@ -655,12 +609,74 @@
           </div>
         </div>
       </div>
-      <!-- <div
-        class="reunionSectBox"
+      <div
+        class="reunionSectBox wednesdayBox"
         data-section="payment"
         data-type="box">
-        This is the box for the Payments information
-      </div> -->
+        <div class="boxTitle">
+          Reunion Payment Methods
+        </div>
+        <div class="boxContent">
+          <div class="boxTotal">
+            <div class="boxSubtitle">
+              PayPal Payment Method
+            </div>
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="UEA8JNYXGVHFL">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Tour Selections">
+                      Tour Selections
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Olympic & Garden of Gods">
+                          Olympic & Garden of Gods $79.00 USD
+                        </option>
+                        <option value="Royal Gorge Vista Car">
+                          Royal Gorge Vista Car $125.00 USD
+                        </option>
+                        <option value="Royal Gorge Club Car">
+                          Royal Gorge Club Car $109.00 USD
+                        </option>
+                        <option value="Memorial Service and Lunch">
+                          Memorial Service and Lunch $69.00 USD
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on1" value="Trading Post Meal Option">
+                      Trading Post Meal Option
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os1">
+                        <option value="Garden of the Gods Special">
+                          Garden of the Gods Special
+                        </option>
+                        <option value="Gateway Rock Grill Out">
+                          Gateway Rock Grill Out
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     @include ('footer.content')
   </div>

@@ -200,12 +200,7 @@
             class="reunionSectBttn"
             data-section="payment"
             data-type="button"
-            onclick="clickSection('payment','button')">PAYMENTS</div>
-            <!-- <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer;color:white">
-              <div class="reunionSectBttn">
-                PAYMENTS
-              </div>
-            </a> -->
+            onclick="clickSection('payment','button')">PAYMENT OPTIONS</div>
         </div>
       </div>
       <div
@@ -316,7 +311,7 @@
               U.S. Olympic & Paralympic Museum (10 - 12)
             </div>
             <div class="boxSubcontent">
-              Public tours start with an inspirational 12-minute film and then a 45-minute outdoor walking tours of the training complex, including the weightlifting and wrestling facilities, the Aquatics Center and the Sports Center Gymnasiums. Visitors can then explore the U.S. Olympic Hall of Fame Rotunda, the Team USA Store and art exhibitions found throughout the facility.​
+              With 60,000 square feet of space, the new <a href="https://usopm.org" target="_blank">U.S. Olympic & Paralympic Museum</a> is a top attraction in downtown Colorado Springs — Olympic City USA. The museum showcases the history of some of America’s greatest athletes and features artifacts, interactive exhibits and immersive technology that embody the Olympic and Paralympic movements. The 12 galleries will take you on a journey through the personal struggles and career-defining moments of Team USA's athletes.
             </div>
             <div class="reunionBoxImg shuttle"></div>
           </div>
@@ -583,7 +578,7 @@
           Registration Fee & Event Costs
         </div>
         <div class="boxContent">
-          <div class="boxTotal">
+          <div class="paymentBox">
             <div class="boxSubtitle">
               Registration Fee
             </div>
@@ -615,6 +610,8 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
+          </div>
+          <div class="paymentBox">
             <div class="boxSubtitle">
               Wednesday - Olympic Museum, Garden of the Gods, and Lunch
             </div>
@@ -644,7 +641,8 @@
                   </tr>
                   <tr>
                     <td>
-                      <select name="os1">
+                      <select name="os1" required>
+                        <option value="">SELECT A MEAL</option>
                         <option value="Garden of the Gods Special">
                           Garden of the Gods Special
                         </option>
@@ -660,6 +658,8 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
+          </div>
+          <div class="paymentBox">
             <div class="boxSubtitle">
               Thursday - Royal Gorge Route Railroad
             </div>
@@ -692,6 +692,8 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
+          </div>
+          <div class="paymentBox">
             <div class="boxSubtitle">
               Friday - Memorial Service
             </div>
@@ -721,6 +723,8 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
+          </div>
+          <div class="paymentBox">
             <div class="boxSubtitle">
               Saturday - Banquet Dinner Choices
             </div>
@@ -759,52 +763,18 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
-            <!-- <div class="boxSubtitle">
-              Wednesday - Olympic Museum, Garden of the Gods, and Lunch
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Donations
             </div>
             <div class="boxSubcontent">
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="9PD5E67DSBXC6">
-                <table>
-                  <tr>
-                    <td>
-                      <input type="hidden" name="on0" value="Tour Selections">
-                      Tour Selections
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <select name="os0">
-                        <option value="Olympic & Garden of Gods">Olympic & Garden of Gods $79.00 USD</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <input type="hidden" name="on1" value="Trading Post Meal Option">
-                      Trading Post Meal Option
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <select name="os1">
-                        <option value="Garden of the Gods Special">
-                          Garden of the Gods Special
-                        </option>
-                        <option value="Gateway Rock Grill Out">
-                          Gateway Rock Grill Out
-                        </option>
-                      </select>
-                    </td>
-                  </tr>
-                </table>
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-            </div> -->
+              If you wish to make a donation to help cover the expenses in hospitality room, any amount appreciated. For information, contact Carolyn Kethcart: <a href="mailto:carolynjk@bobcat.ws">carolynjk@bobcat.ws</a>
+            </div>
           </div>
+        </div>
+        <div class="policy">
+          <u>Reunion Cancellation Policy</u>: Members will not be reimbursed for costs incurred by the Association when  cancellations are made in less than 30 days before the reunion except in the case of death related reasons.
         </div>
       </div>
     </div>

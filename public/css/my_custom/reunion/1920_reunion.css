@@ -60,11 +60,15 @@
   position: relative;
   /* left: -615px; */
   left: -478px;
-  grid-template-columns: repeat(2,47%);
+  grid-template-columns: repeat(3,30%);
   column-gap: 6%;
   row-gap: 60px;
   /* width: 1230px; */
   width: 956px;
+}
+
+.policy {
+  margin: 0 15%;
 }
 
 #hotelReservation {

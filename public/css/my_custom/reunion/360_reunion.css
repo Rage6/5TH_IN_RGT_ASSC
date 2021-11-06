@@ -371,6 +371,12 @@
   margin-bottom: 30px;
 }
 
+.policy {
+  margin: 0 5%;
+  padding-bottom: 50px;
+  font-size: 1.5rem;
+}
+
 .hotelMap {
   padding: 0 0 5vh 0;
   height: 50vh;

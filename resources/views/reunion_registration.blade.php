@@ -578,194 +578,203 @@
           Registration Fee & Event Costs
         </div>
         <div class="boxContent">
-          <!-- <div class="boxTotal paymentTotal"> -->
-            <div class="paymentBox">
-              <div class="boxSubtitle">
-                Registration Fee
-              </div>
-              <div class="boxSubcontent">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="6HXT4WU8WSSMN">
-                  <table>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on0" value="Type of Registration">Type of Registration
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Single Registration">
-                            Single Registration $15.00 USD
-                          </option>
-                          <option value="Couple Registration">
-                            Couple Registration $25.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-              </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Registration Fee
             </div>
-            <div class="paymentBox">
-              <div class="boxSubtitle">
-                Wednesday - Olympic Museum, Garden of the Gods, and Lunch
-              </div>
-              <div class="boxSubcontent">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="9PD5E67DSBXC6">
-                  <table>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on0" value="Tour Selections">
-                        Tour Selections
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Olympic & Garden of Gods">Olympic & Garden of Gods $79.00 USD</option>
-                        </select>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on1" value="Trading Post Meal Option">
-                        Trading Post Meal Option
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os1" required>
-                          <option value="">SELECT A MEAL</option>
-                          <option value="Garden of the Gods Special">
-                            Garden of the Gods Special
-                          </option>
-                          <option value="Gateway Rock Grill Out">
-                            Gateway Rock Grill Out
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-              </div>
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="6HXT4WU8WSSMN">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Type of Registration">Type of Registration
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Single Registration">
+                          Single Registration $15.00 USD
+                        </option>
+                        <option value="Couple Registration">
+                          Couple Registration $25.00 USD
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
-            <div class="paymentBox">
-              <div class="boxSubtitle">
-                Thursday - Royal Gorge Route Railroad
-              </div>
-              <div class="boxSubcontent">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="YW3VSAECRN63Y">
-                  <table>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on0" value="Tour Selections">
-                        Tour Selections
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Club Car Option">
-                            Club Car Option $109.00 USD
-                          </option>
-                          <option value="Vista Dome Car Option">
-                            Vista Dome Car Option $125.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-              </div>
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Wednesday - Olympic Museum, Garden of the Gods, and Lunch
             </div>
-            <div class="paymentBox">
-              <div class="boxSubtitle">
-                Friday - Memorial Service
-              </div>
-              <div class="boxSubcontent">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="KFRQDZUAMXPL4">
-                  <table>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on0" value="Memorial Service & Lunch">
-                        Memorial Service & Lunch
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Memorial Service & Lunch">
-                            Memorial Service & Lunch $69.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-              </div>
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="9PD5E67DSBXC6">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Tour Selections">
+                      Tour Selections
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Olympic & Garden of Gods">Olympic & Garden of Gods $79.00 USD</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on1" value="Trading Post Meal Option">
+                      Trading Post Meal Option
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os1" required>
+                        <option value="">SELECT A MEAL</option>
+                        <option value="Garden of the Gods Special">
+                          Garden of the Gods Special
+                        </option>
+                        <option value="Gateway Rock Grill Out">
+                          Gateway Rock Grill Out
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
-            <div class="paymentBox">
-              <div class="boxSubtitle">
-                Saturday - Banquet Dinner Choices
-              </div>
-              <div class="boxSubcontent">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="N3WC58JSCKEP6">
-                  <table>
-                    <tr>
-                      <td>
-                        <input type="hidden" name="on0" value="Entree Choice">
-                        Entree Choice
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Flat Iron Steak">
-                            Flat Iron Steak $49.00 USD
-                          </option>
-                          <option value="Chicken Piccata">
-                            Chicken Piccata $49.00 USD
-                          </option>
-                          <option value="Broiled Tilapia">
-                            Broiled Tilapia $49.00 USD
-                          </option>
-                          <option value="Vegetable Wellington">
-                            Vegetable Wellington $49.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-              </div>
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Thursday - Royal Gorge Route Railroad
             </div>
-          <!-- </div> -->
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YW3VSAECRN63Y">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Tour Selections">
+                      Tour Selections
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Club Car Option">
+                          Club Car Option $109.00 USD
+                        </option>
+                        <option value="Vista Dome Car Option">
+                          Vista Dome Car Option $125.00 USD
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Friday - Memorial Service
+            </div>
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="KFRQDZUAMXPL4">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Memorial Service & Lunch">
+                      Memorial Service & Lunch
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Memorial Service & Lunch">
+                          Memorial Service & Lunch $69.00 USD
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Saturday - Banquet Dinner Choices
+            </div>
+            <div class="boxSubcontent">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="N3WC58JSCKEP6">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Entree Choice">
+                      Entree Choice
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Flat Iron Steak">
+                          Flat Iron Steak $49.00 USD
+                        </option>
+                        <option value="Chicken Piccata">
+                          Chicken Piccata $49.00 USD
+                        </option>
+                        <option value="Broiled Tilapia">
+                          Broiled Tilapia $49.00 USD
+                        </option>
+                        <option value="Vegetable Wellington">
+                          Vegetable Wellington $49.00 USD
+                        </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
+          </div>
+          <div class="paymentBox">
+            <div class="boxSubtitle">
+              Donations
+            </div>
+            <div class="boxSubcontent">
+              If you wish to make a donation to help cover the expenses in hospitality room, any amount appreciated. For information, contact Carolyn Kethcart: <a href="mailto:carolynjk@bobcat.ws">carolynjk@bobcat.ws</a>
+            </div>
+          </div>
+        </div>
+        <div class="policy">
+          <u>Reunion Cancellation Policy</u>: Members will not be reimbursed for costs incurred by the Association when  cancellations are made in less than 30 days before the reunion except in the case of death related reasons.
         </div>
       </div>
     </div>

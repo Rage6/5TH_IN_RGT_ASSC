@@ -67,6 +67,10 @@
   width: 956px;
 }
 
+.policy {
+  margin: 0 15%;
+}
+
 #hotelReservation {
   grid-column-start: 1;
   grid-column-end: 3;

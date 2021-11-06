@@ -316,7 +316,7 @@
               U.S. Olympic & Paralympic Museum (10 - 12)
             </div>
             <div class="boxSubcontent">
-              Public tours start with an inspirational 12-minute film and then a 45-minute outdoor walking tours of the training complex, including the weightlifting and wrestling facilities, the Aquatics Center and the Sports Center Gymnasiums. Visitors can then explore the U.S. Olympic Hall of Fame Rotunda, the Team USA Store and art exhibitions found throughout the facility.​
+              With 60,000 square feet of space, the new <a href="https://usopm.org" target="_blank">U.S. Olympic & Paralympic Museum</a> is a top attraction in downtown Colorado Springs — Olympic City USA. The museum showcases the history of some of America’s greatest athletes and features artifacts, interactive exhibits and immersive technology that embody the Olympic and Paralympic movements. The 12 galleries will take you on a journey through the personal struggles and career-defining moments of Team USA's athletes.
             </div>
             <div class="reunionBoxImg shuttle"></div>
           </div>
@@ -644,7 +644,8 @@
                   </tr>
                   <tr>
                     <td>
-                      <select name="os1">
+                      <select name="os1" required>
+                        <option value="">SELECT A MEAL</option>
                         <option value="Garden of the Gods Special">
                           Garden of the Gods Special
                         </option>

@@ -31,6 +31,10 @@
   row-gap: 60px;
 }
 
+.paymentBox:last-child {
+  border-bottom: none;
+}
+
 #hotelReservation {
   grid-column-start: 1;
   grid-column-end: 3;

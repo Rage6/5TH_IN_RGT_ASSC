@@ -318,6 +318,15 @@
   cursor: pointer;
 }
 
+.paymentBox {
+  border-top: 2px dashed white;
+  padding-top: 10px;
+}
+
+.paymentBox:last-child {
+  border-bottom: 2px dashed white;
+}
+
 .boxTotal {
   width: 100%;
 }
@@ -369,6 +378,10 @@
 
 .boxSubcontent {
   margin-bottom: 30px;
+}
+
+.paymentSubcontent div {
+  margin-bottom: 20px;
 }
 
 .policy {

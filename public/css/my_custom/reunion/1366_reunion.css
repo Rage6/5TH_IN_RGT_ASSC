@@ -66,6 +66,10 @@
   row-gap: 60px;
 }
 
+.paymentBox:last-child {
+  border-bottom: none;
+}
+
 .policy {
   margin: 0 15%;
 }

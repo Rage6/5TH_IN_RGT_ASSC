@@ -385,7 +385,7 @@
               Royal Gorge Route Railroad
             </div>
             <div class="boxSubcontent">
-              This is Colorado's first and only full-service railroad dining experience. The Royal Gorge Route Railroad features beautifully restored mid-century coach, dining, bar and lounge, and dome cars with luxurious seating. Take in the panoramic views from your seat or the open-air car. Full bar and extensive, well-curated wine list always available.
+              This is Colorado's first and only full-service railroad dining experience. The Royal Gorge Route Railroad features beautifully restored mid-century coach, dining, bar and lounge, and dome cars with luxurious seating. Take in the panoramic views from your seat or the open-air car. Full bar and extensive, well-curated wine list always available. A $20 food voucher will be issued per person toward the purchase of their meal along with their ticket.
             </div>
             <div class="reunionBoxImg memorialCollage">
               <div class="oneCorner upperLeft"></div>

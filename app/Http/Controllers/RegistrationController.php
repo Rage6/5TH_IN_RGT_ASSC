@@ -71,7 +71,7 @@ class RegistrationController extends Controller
       $new_submission->pay_method = Request::input('pay_method');
       $new_submission->email = Request::input('email');
       $new_submission->comments = Request::input('comments');
-      Mail::to(['nicholas.vogt2017@gmail.com','randy@bobcat.ws','toppop68@gmail.com','fpd@bobcat.ws'])->send(new RegistrationEmail($new_submission));
+      Mail::to([env('MEMBERSHIP_EMAIL_1'),env('MEMBERSHIP_EMAIL_2'),env('MEMBERSHIP_EMAIL_3'),env('MEMBERSHIP_EMAIL_4')])->send(new RegistrationEmail($new_submission));
       // Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
       // return redirect('/');
       if ($new_submission->pay_method == "checking") {

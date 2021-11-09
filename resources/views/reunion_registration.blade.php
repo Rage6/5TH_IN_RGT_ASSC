@@ -78,6 +78,9 @@
       </div>
       <div class="regForm" id="reunionForm" style="display:none">
         <div>
+          <!-- <div class="regPart">
+            PART 1
+          </div> -->
           <form method="POST" action="/reunion/registration">
             @csrf
             <div class="regFormFull">
@@ -158,6 +161,14 @@
             <button>REGISTER</button>
           </form>
         </div>
+        <!-- <div>
+          <div class="regPart">
+            PART 2
+          </div>
+          <div>
+
+          </div>
+        </div> -->
       </div>
       <div class="regRow">
         <div class="regSection hotelSection">

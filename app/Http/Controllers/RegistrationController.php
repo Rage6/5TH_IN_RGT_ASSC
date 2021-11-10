@@ -105,7 +105,7 @@ class RegistrationController extends Controller
       //   } else {
       //     return redirect('/');
       //   }
-        return redirect('/');
+        return redirect('/registration');
       };
     }
 

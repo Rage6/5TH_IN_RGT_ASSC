@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Mail\RegistrationEmail;
 
+use Illuminate\Support\Facades\App;
+
 class RegistrationController extends Controller
 {
     /**
@@ -20,9 +22,11 @@ class RegistrationController extends Controller
      */
     public function index()
     {
+      $currentYear = date("Y");
       $modern_conflicts = DB::table('conflicts')
         ->select('id','name')
-        ->where('start_year','>',1920)
+        ->where('end_year','>',$currentYear - 100)
+        ->orWhere('end_year','=',null)
         ->orderBy('start_year','asc')
         ->get();
       return view('member_registration',[
@@ -37,7 +41,7 @@ class RegistrationController extends Controller
     {
       $modern_conflicts = DB::table('conflicts')
         ->select('id','name')
-        ->where('start_year','>',1920)
+        ->where('end_year','>',1920)
         ->orderBy('start_year','asc')
         ->get();
       $init_submission = app();
@@ -71,9 +75,12 @@ class RegistrationController extends Controller
       $new_submission->pay_method = Request::input('pay_method');
       $new_submission->email = Request::input('email');
       $new_submission->comments = Request::input('comments');
-      Mail::to([env('MEMBERSHIP_EMAIL_1'),env('MEMBERSHIP_EMAIL_2'),env('MEMBERSHIP_EMAIL_3'),env('MEMBERSHIP_EMAIL_4')])->send(new RegistrationEmail($new_submission));
-      // Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
-      // return redirect('/');
+      if (App::environment() == 'local') {
+        Mail::to(['nvogt10@gmail.com','nicholas.vogt2017@gmail.com'])->send(new RegistrationEmail($new_submission));
+      } else {
+        Mail::to([env('MEMBERSHIP_EMAIL_1'),env('MEMBERSHIP_EMAIL_2'),env('MEMBERSHIP_EMAIL_3'),env('MEMBERSHIP_EMAIL_4')])->send(new RegistrationEmail($new_submission));
+      }
+
       if ($new_submission->pay_method == "checking") {
         return redirect('http://www.bobcat.ws/application.htm');
       } else {
@@ -98,7 +105,7 @@ class RegistrationController extends Controller
       //   } else {
       //     return redirect('/');
       //   }
-        return redirect('/');
+        return redirect('/registration');
       };
     }
 

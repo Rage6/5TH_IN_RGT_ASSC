@@ -215,13 +215,13 @@
         </div>
       </div>
       <div
-        class="reunionSectBox hotelBox"
+        class="hotelBox reunionSectBox"
         data-section="hotel"
         data-type="box">
         <div class="boxTitle">
           Hotel Details
         </div>
-        <div class="boxContent">
+        <div class="boxContent hotelContent">
           <div class="boxTotal">
             <div class="boxSubtitle">
               Location:
@@ -330,10 +330,10 @@
             <div class="boxSubtitle">
               Riding Tour @ Garden of the Gods (2 - 3:30)
             </div>
+            <div class="reunionBoxImg winery"></div>
             <div class="boxSubcontent">
               TBA
             </div>
-            <div class="reunionBoxImg winery"></div>
           </div>
           <div class="boxTotal">
             <div class="boxSubtitle">
@@ -354,21 +354,21 @@
                 NOTE: Lunch prices will be included in the tour total cost
               </div>
             </div>
-          </div>
-          <div class="boxTotal">
-            <div class="boxSubtitle">
-              Total Cost
+            <div class="boxTotal">
+              <div class="boxSubtitle">
+                Total Cost
+              </div>
+              <div class="boxSubcontent">
+                $79 (Tour + Lunch)
+              </div>
+              <!-- <a href="{{ url('/reunion?submitted') }}"> -->
+              <div
+                class="reserveBttn"
+                onclick="clickSection('payment','button')">
+                PAY HERE
+              </div>
+              <!-- </a> -->
             </div>
-            <div class="boxSubcontent">
-              $79 (Tour + Lunch)
-            </div>
-            <!-- <a href="{{ url('/reunion?submitted') }}"> -->
-            <div
-              class="reserveBttn"
-              onclick="clickSection('payment','button')">
-              PAY HERE
-            </div>
-            <!-- </a> -->
           </div>
         </div>
       </div>
@@ -387,7 +387,7 @@
             <div class="boxSubcontent">
               This is Colorado's first and only full-service railroad dining experience. The Royal Gorge Route Railroad features beautifully restored mid-century coach, dining, bar and lounge, and dome cars with luxurious seating. Take in the panoramic views from your seat or the open-air car. Full bar and extensive, well-curated wine list always available. A $20 food voucher will be issued per person toward the purchase of their meal along with their ticket.
             </div>
-            <div class="reunionBoxImg memorialCollage">
+            <div class="reunionBoxImg memorialCollage collageImgA">
               <div class="oneCorner upperLeft"></div>
               <div class="oneCorner upperRight"></div>
               <div class="oneCorner lowerLeft"></div>
@@ -418,6 +418,12 @@
                 </div>
               <!-- </a> -->
             </div>
+          </div>
+          <div class="reunionBoxImg memorialCollage collageImgB">
+            <div class="oneCorner upperLeft"></div>
+            <div class="oneCorner upperRight"></div>
+            <div class="oneCorner lowerLeft"></div>
+            <div class="oneCorner lowerRight"></div>
           </div>
         </div>
       </div>
@@ -503,17 +509,17 @@
             </div>
             <div class="boxSubcontent">
               <div class="banquetList">
-                <div>General Membership Meeting</div>
+                <div>+ General Membership Meeting</div>
                 <div>0900 - 1000</div>
-                <div>Ladies Breakfast</div>
+                <div>+ Ladies Breakfast</div>
                 <div>0900 - 1000</div>
-                <div>Fragging</div>
+                <div>+ Fragging</div>
                 <div>1030 - 1100</div>
               </div>
               <div>
                 Feel free to explore the surrounding area, Colorado Springs, while waiting for the evening banquet.
               </div>
-              <iframe width="auto" height="auto" src="https://www.youtube.com/embed/OcxUYUXg0xg" title="Colorado Springs, CO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe style="margin-top:40px" width="auto" height="auto" src="https://www.youtube.com/embed/OcxUYUXg0xg" title="Colorado Springs, CO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="boxTotal">
@@ -537,13 +543,6 @@
               <div style="margin-bottom:30px">
                 To pay for this event and/or any other events during this reunion, click below.
               </div>
-              <!-- <a href="http://bobcat.ws/dulles-virginia-reunion-shopping-cart.html" target="_blank" style="cursor:pointer"> -->
-              <div
-                class="reserveBttn"
-                onclick="clickSection('payment','button')">
-                PAY HERE
-              </div>
-              <!-- </a> -->
             </div>
           </div>
           <div class="boxTotal">
@@ -560,24 +559,29 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="reunionBoxImg shuttle"></div> -->
-          </div>
-          <div class="boxTotal">
-            <div class="boxSubtitle">
-              Bobcat Banquet
-            </div>
-            <div class="boxSubcontent">
-              <div class="banquetList">
-                <div>Cocktails</div>
-                <div>1700</div>
-                <div>Dinner</div>
-                <div>1800</div>
-                <div>Program</div>
-                <div>1900</div>
-                <div>Approx. Auction</div>
-                <div>2000</div>
+            <div class="boxTotal">
+              <div class="boxSubtitle">
+                Bobcat Banquet
+              </div>
+              <div class="boxSubcontent">
+                <div class="banquetList">
+                  <div>Cocktails</div>
+                  <div>1700</div>
+                  <div>Dinner</div>
+                  <div>1800</div>
+                  <div>Program</div>
+                  <div>1900</div>
+                  <div>Approx. Auction</div>
+                  <div>2000</div>
+                </div>
               </div>
             </div>
+            <div
+              class="reserveBttn"
+              onclick="clickSection('payment','button')">
+              PAY HERE
+            </div>
+            <!-- <div class="reunionBoxImg shuttle"></div> -->
           </div>
         </div>
       </div>

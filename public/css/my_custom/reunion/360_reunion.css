@@ -316,6 +316,10 @@
   font-size: 1.3rem;
 }
 
+.hotelContent {
+
+}
+
 .boxContent a {
   color: white;
   text-decoration: underline;
@@ -446,6 +450,14 @@
   grid-template-columns: 49% 49%;
   grid-template-rows: 49% 49%;
   grid-gap: 2%;
+}
+
+.collageImgA {
+  display: inherit;
+}
+
+.collageImgB {
+  display: none;
 }
 
 .oneCorner {

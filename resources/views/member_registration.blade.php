@@ -51,7 +51,8 @@
           <div class="regFormTitle">
             ONLINE
           </div>
-          <form method="POST" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <!-- <form method="POST" action="https://www.paypal.com/cgi-bin/webscr" target="_blank"> -->
+          <form method="POST" action="/registration">
             @csrf
             <div class="regText">
               <input name="first_name" type="text" placeholder="First Name" required/>

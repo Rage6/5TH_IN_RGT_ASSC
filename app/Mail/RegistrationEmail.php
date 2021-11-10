@@ -42,8 +42,8 @@ class RegistrationEmail extends Mailable
       // $subject = 'This is a demo!';
       // $name = 'Nicholas Vogt';
 
-      return $this->from($this->new_email)
-                  ->view('emails.registration')
+      //return $this->from($this->new_email)
+      return $this->view('emails.registration')
                   ->subject("Member Registration Submitted")
                   ->with([ 'content' => $this->submission ]);
     }

@@ -39,9 +39,11 @@ class RegistrationController extends Controller
 
     public function post(Request $request)
     {
+      $currentYear = date("Y");
       $modern_conflicts = DB::table('conflicts')
         ->select('id','name')
-        ->where('end_year','>',1920)
+        ->where('end_year','>',$currentYear - 100)
+        ->orWhere('end_year','=',null)
         ->orderBy('start_year','asc')
         ->get();
       $init_submission = app();
@@ -71,8 +73,8 @@ class RegistrationController extends Controller
         };
       };
       $new_submission->unit_details = Request::input('unit_details');
-      $new_submission->registration_type = Request::input('registration_type');
-      $new_submission->pay_method = Request::input('pay_method');
+      // $new_submission->registration_type = Request::input('registration_type');
+      // $new_submission->pay_method = Request::input('pay_method');
       $new_submission->email = Request::input('email');
       $new_submission->comments = Request::input('comments');
       if (App::environment() == 'local') {
@@ -81,9 +83,9 @@ class RegistrationController extends Controller
         Mail::to([env('MEMBERSHIP_EMAIL_1'),env('MEMBERSHIP_EMAIL_2'),env('MEMBERSHIP_EMAIL_3'),env('MEMBERSHIP_EMAIL_4')])->send(new RegistrationEmail($new_submission));
       }
 
-      if ($new_submission->pay_method == "checking") {
-        return redirect('http://www.bobcat.ws/application.htm');
-      } else {
+      // if ($new_submission->pay_method == "checking") {
+      //   return redirect('http://www.bobcat.ws/application.htm');
+      // } else {
       //   if ($new_submission->registration_type === "Renewal") {
       //     return redirect('http://bobcat.ws/membership-payment.html');
       //   } else if ($new_submission->registration_type === "Active Duty") {
@@ -105,8 +107,8 @@ class RegistrationController extends Controller
       //   } else {
       //     return redirect('/');
       //   }
-        return redirect('/registration');
-      };
+        return redirect('/registration/payment');
+      // };
     }
 
     /**

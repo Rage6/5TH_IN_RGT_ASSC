@@ -16,7 +16,6 @@
     <div>Phone #: {{ $content->phone_number }}</div>
     <div>Conflict(s): {{ $content->conflicts }}</div>
     <div>Jobs, Units, Times: {{ $content->unit_details }}</div>
-    <div>Registration Type: {{ $content->registration_type }}</div>
     <div>Email: {{ $content->email }}</div>
     <div>Comments: {{ $content->comments }}</div>
   </body>

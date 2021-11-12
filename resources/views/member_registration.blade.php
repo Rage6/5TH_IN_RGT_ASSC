@@ -96,26 +96,17 @@
                 </div>
               @endforeach
             </div>
-            <div class="regInputTitle">Payment Options:</div>
+            <!-- <div class="regInputTitle">Payment Options:</div>
             <input type="hidden" name="cmd" value="_s-xclick">
-            <!-- <select name="registration_type"> -->
             <select name="hosted_button_id">
-              <!-- <option value="Renewal">Renewal</option> -->
               <option value="QYJNBQCD33ER2">Active Duty</option>
-              <!-- <option value="Associate">Associate</option> -->
               <option value="UKGMW55X5UPQC">One Year</option>
               <option value="GT2SWY352RVF6">Two Year</option>
               <option value="BPK67K5YQFH6Y">Five Year</option>
               <option value="52FBJ8VLNVYLJ">Life member (49 or younger)</option>
               <option value="AX6VL9PNWMFKY">Life member (50 to 64)</option>
               <option value="9VQFT3CHBUD2L">Life member (65 or older)</option>
-              <!-- <option value="Just information please">Just information please</option> -->
-            </select>
-            <div class="regInputTitle">Payment Method:</div>
-            <select name="pay_method">
-              <option value="paypal">PayPal</option>
-              <option value="checking">Checking</option>
-            </select>
+            </select> -->
             <div class="regText">
               <textarea name="unit_details" placeholder="List the unit(s), job(s), and start/end time(s) in the Regiment. (Example: 'Driver, JUN 2006 - AUG 2007')"></textarea>
             </div>

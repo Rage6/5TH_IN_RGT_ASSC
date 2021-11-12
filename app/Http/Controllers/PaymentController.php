@@ -19,9 +19,9 @@ class PaymentController extends Controller
     public function index()
     {
       return view('payment',[
-        'style' => 'registration_payment_style',
-        'js' => '/js/my_custom/registration/registration.js',
-        'content' => 'registration_payment_content'
+        'style' => 'membership_payment_style',
+        'js' => '/js/my_custom/registration/membership.js',
+        'content' => 'membership_payment_content'
       ]);
     }
 

@@ -75,8 +75,13 @@ Route::prefix('/home')->group(function() {
   });
 });
 
-Route::get('registration','RegistrationController@index');
-Route::post('registration','RegistrationController@post');
+Route::prefix('registration')->group(function() {
+  Route::get('','RegistrationController@index');
+  Route::post('','RegistrationController@post');
+  Route::prefix('payment')->group(function() {
+    Route::get('','PaymentController@index');
+  });
+});
 
 Route::prefix('reunion')->group(function() {
   Route::get('','ReunionController@index');

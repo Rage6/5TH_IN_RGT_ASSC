@@ -81,9 +81,9 @@ class RegistrationController extends Controller
         Mail::to([env('MEMBERSHIP_EMAIL_1'),env('MEMBERSHIP_EMAIL_2'),env('MEMBERSHIP_EMAIL_3'),env('MEMBERSHIP_EMAIL_4')])->send(new RegistrationEmail($new_submission));
       }
 
-      if ($new_submission->pay_method == "checking") {
-        return redirect('http://www.bobcat.ws/application.htm');
-      } else {
+      // if ($new_submission->pay_method == "checking") {
+      //   return redirect('http://www.bobcat.ws/application.htm');
+      // } else {
       //   if ($new_submission->registration_type === "Renewal") {
       //     return redirect('http://bobcat.ws/membership-payment.html');
       //   } else if ($new_submission->registration_type === "Active Duty") {
@@ -106,7 +106,7 @@ class RegistrationController extends Controller
       //     return redirect('/');
       //   }
         return redirect('/registration');
-      };
+      // };
     }
 
     /**

@@ -16,7 +16,7 @@ class PaymentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function membership_index()
     {
       return view('payment',[
         'style' => 'membership_payment_style',

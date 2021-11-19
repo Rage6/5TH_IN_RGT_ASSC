@@ -12,5 +12,46 @@
 }
 
 .content {
-  min-height: 90vh;
+  padding-bottom: 2vh;
+  min-height: 88vh;
+}
+
+.partTitle {
+  margin-bottom: 30px;
+  padding: 0 5%;
+  text-align: left;
+  text-decoration: underline;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5rem;
+}
+
+.mainTitle {
+  margin: 0 0 60px 0;
+  padding-top: 35px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Vollkorn SC', sans-serif;
+  grid-area: mainTitle;
+}
+
+.regSection {
+  padding: 20px 5%;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Bellefair', serif;
+}
+
+.regSection a {
+  text-decoration: underline;
+  color: white;
+}
+
+.redSection {
+  background-color: rgba(139,0,0,0.8);
+  grid-area: redSection;
+}
+
+.greenSection {
+  background-color: rgba(0,100,0,0.8);
+  grid-area: greenSection;
 }

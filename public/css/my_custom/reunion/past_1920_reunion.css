@@ -120,3 +120,11 @@ body {
   grid-row-gap: 50px;
   justify-content: space-between;
 }
+
+.collageImgA {
+  display: none;
+}
+
+.collageImgB {
+  display: grid;
+}

@@ -117,6 +117,11 @@
               <input type="submit" name="post" value="SUBMIT"/>
             </div>
           </form>
+          <a href="{{ url('registration/payment') }}">
+            <div>
+              Already registered? Skip to Part 2
+            </div>
+          </a>
         </div>
         <div class="theOr">
           - OR -
@@ -215,7 +220,7 @@
               </div>
               <div>
                 <div>
-                  <u>Soldiers & Veterans</u>: If you are/or were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army.
+                  <u>Soldiers & Veterans</u>: If you are/were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army.
                 </div>
                 <div style="margin-top:10px">
                   <u>Associate Members</u>: We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.

@@ -2,6 +2,15 @@
   padding-top: 12vh;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20vh auto;
+  grid-template-areas:
+    "mainTitle mainTitle"
+    "redSection greenSection";
+}
+
 .mainTitle {
   margin: 0;
   font-size: 3.5rem;

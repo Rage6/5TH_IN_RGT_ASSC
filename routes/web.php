@@ -79,7 +79,7 @@ Route::prefix('registration')->group(function() {
   Route::get('','RegistrationController@index');
   Route::post('','RegistrationController@post');
   Route::prefix('payment')->group(function() {
-    Route::get('','PaymentController@index');
+    Route::get('','PaymentController@membership_index');
   });
 });
 

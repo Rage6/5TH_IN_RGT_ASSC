@@ -170,12 +170,13 @@
                 <select class="conflictInput" name="conflict">
                   <option value="">ALL</option>
                   @foreach ($all_conflicts as $one_conflict)
-                    <option value="{{ $one_conflict->name }}">
+                    <option value="{{ $one_conflict->id }}">
                       {{ $one_conflict->name }}
                     </option>
                   @endforeach
                 </select>
-                <input class="submitInput" type="submit" name="submitSearch" value="SEARCH" />
+                <!-- <input class="submitInput" type="submit" name="submitSearch" value="SEARCH" /> -->
+                <div class="submitInput">SEARCH JS</div>
               </div>
             </form>
         </div>
@@ -190,7 +191,14 @@
           <div class="allCasualtyListRows">
             @if ($all_casualty_basics != null)
               @foreach ($all_casualty_basics as $one_casualty_basic)
-              <div class="casualtyListRow">
+              <div
+                class="casualtyListRow"
+                data-first="{{ strtolower($one_casualty_basic->first_name) }}"
+                data-last="{{ strtolower($one_casualty_basic->last_name) }}"
+                data-unit="{{ strtolower($one_casualty_basic->unit) }}"
+                data-conflictid="{{ $one_casualty_basic->con_id }}"
+                data-conflictparent="{{ $one_casualty_basic->con_parent }}"
+                >
                 <div class="rowName">
                   {{ $one_casualty_basic->last_name }}, {{ $one_casualty_basic->first_name }}
                 </div>

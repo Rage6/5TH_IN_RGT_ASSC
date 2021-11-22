@@ -16,13 +16,11 @@ $(() => {
   };
 
   $(".submitInput").click(()=>{
-    console.log("submitted");
     $(".casualtyListRow").hide();
     let firstNameValue = $(".firstNameInput").val().toLowerCase();
     let lastNameValue = $(".lastNameInput").val().toLowerCase();
     let unitValue = $(".unitInput").val().toLowerCase();
     let conflictValue = $(".conflictInput").val().toLowerCase();
-    console.log(conflictValue);
 
     const inputSearch = () => {
       let allAttributes = "";
@@ -46,7 +44,7 @@ $(() => {
         let parentString = "[data-conflictparent='" + conflictValue+"']";
         allParentAttributes = allAttributes + parentString;
       };
-      if (allAttributes == "") {
+      if (allAttributes == "" && allChildAttributes == "" && allParentAttributes == "") {
         $(".casualtyListRow").show();
       } else if (allChildAttributes != "") {
         $(".casualtyListRow").hide();
@@ -56,7 +54,8 @@ $(() => {
         $(".casualtyListRow").hide();
         $(allAttributes).show();
       };
-      console.log(allAttributes);
+      let countShown = $(".casualtyListRow:visible").length;
+      $(".casualtyTotal span").text(countShown);
     };
     inputSearch();
   });

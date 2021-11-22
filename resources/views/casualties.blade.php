@@ -175,14 +175,14 @@
                     </option>
                   @endforeach
                 </select>
-                <!-- <input class="submitInput" type="submit" name="submitSearch" value="SEARCH" /> -->
-                <div class="submitInput">SEARCH JS</div>
+                <!-- <input class="submitInput" type="submit" name="submitSearch" value="SEARCH PHP" /> -->
+                <div class="submitInput">SEARCH</div>
               </div>
             </form>
         </div>
         <div class="casualtyList">
           <div class="casualtyTotal">
-            Total: {{ $casualty_count }}
+            Total: <span>{{ $casualty_count }}</span>
           </div>
           <div class="casualtyListTitle">
             <div>Name & Unit</div>

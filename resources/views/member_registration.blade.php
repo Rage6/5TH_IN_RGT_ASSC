@@ -51,6 +51,11 @@
           <div class="regFormTitle">
             ONLINE
           </div>
+          <a href="{{ url('registration/payment') }}">
+            <div>
+              Already registered? Skip to Part 2
+            </div>
+          </a>
           <!-- <form method="POST" action="https://www.paypal.com/cgi-bin/webscr" target="_blank"> -->
           <form method="POST" action="/registration">
             @csrf
@@ -117,11 +122,6 @@
               <input type="submit" name="post" value="SUBMIT"/>
             </div>
           </form>
-          <a href="{{ url('registration/payment') }}">
-            <div>
-              Already registered? Skip to Part 2
-            </div>
-          </a>
         </div>
         <div class="theOr">
           - OR -

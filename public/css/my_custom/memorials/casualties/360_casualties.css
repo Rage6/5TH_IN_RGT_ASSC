@@ -220,6 +220,7 @@ p {
   border-radius: 15px;
   grid-area: submit;
   color: white;
+  text-align: center;
   background-color: rgba(139,0,0,1);
 }
 

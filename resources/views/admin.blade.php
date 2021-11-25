@@ -1340,7 +1340,16 @@
                         type="number"
                         name="end_year"
                         placeholder="End Year" />
-                      <input class="addSubmitBttn" type="submit" value="ENTER" />
+                      <div class="conflictParent">
+                        <div>+ Part of...</div>
+                        <select name="parent_id">
+                          <option value="null">N/A</option>
+                          @foreach ($all_conflicts as $one_conflict)
+                            <option value="{{ $one_conflict->id }}">{{ $one_conflict->name }}</option>
+                          @endforeach
+                          <input class="addSubmitBttn" type="submit" value="ENTER" />
+                        </select>
+                      </div>
                     </form>
                   </div>
                 </div>
@@ -1364,6 +1373,35 @@
                             <input type="text" name="start_year" value="{{ $one_conflict->start_year }}">
                             <div class="infoTitle">End Year</div>
                             <input type="text" name="end_year" value="{{ $one_conflict->end_year }}">
+                            <div class="conflictParent">
+                              <div>Part of...</div>
+                              <select name="parent_id">
+                                @php $has_parent = false @endphp
+                                @foreach ($all_conflicts as $init_conflict)
+                                  @if ($init_conflict->id == $one_conflict->parent_id)
+                                    <option value="{{ $init_conflict->id }}">
+                                      {{ $init_conflict->name }}
+                                    </option>
+                                    <option value="null">
+                                      N/A
+                                    </option>
+                                    @php $has_parent = true @endphp
+                                  @endif
+                                @endforeach
+                                @if ($has_parent == false)
+                                  <option value="null">
+                                    N/A
+                                  </option>
+                                @endif
+                                @foreach ($all_conflicts as $check_conflict)
+                                  @if ($check_conflict->id != $one_conflict->parent_id && $check_conflict->id != $one_conflict->id)
+                                    <option value="{{ $check_conflict->id }}">
+                                      {{ $check_conflict->name }}
+                                    </option>
+                                  @endif
+                                @endforeach
+                              </select>
+                            </div>
                             <button type="submit" name="changeEmail" class="btn btn-success"/>CHANGE</button>
                           </form>
                         </div>

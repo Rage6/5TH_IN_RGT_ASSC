@@ -107,7 +107,7 @@ class AdminController extends Controller
           ->limit(25)
           ->get();
         $all_conflicts = DB::table('conflicts')
-          ->select('id','name','start_year','end_year')
+          ->select('id','name','start_year','end_year','parent_id')
           ->orderBy('start_year')
           ->get();
         $all_conflict_links = DB::table('conflict_links')
@@ -660,23 +660,33 @@ class AdminController extends Controller
 
     public function addConflict(Request $request)
     {
+      $parent_id = Request::input('parent_id');
+      if ($parent_id === "null") {
+        $parent_id = null;
+      };
       DB::table('conflicts')
         ->insert([
           'name'=>Request::input('conflict_name'),
           'start_year'=>Request::input('start_year'),
-          'end_year'=>Request::input('end_year')
+          'end_year'=>Request::input('end_year'),
+          'parent_id'=>$parent_id
         ]);
       return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }
 
     public function changeConflict(Request $request)
     {
+      $parent_id = Request::input('parent_id');
+      if ($parent_id === "null") {
+        $parent_id = null;
+      };
       DB::table('conflicts')
         ->where('id','=',Request::input('conflict_id'))
         ->update([
           'name' => Request::input('name'),
           'start_year' => Request::input('start_year'),
-          'end_year' => Request::input('end_year')
+          'end_year' => Request::input('end_year'),
+          'parent_id'=>$parent_id
         ]);
       return redirect('home/admin?casualty_num=0&member_num=0&recipient_num=0');
     }

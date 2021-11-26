@@ -90,6 +90,10 @@ Route::prefix('reunion')->group(function() {
 
 Route::prefix('history')->group(function() {
   Route::get('timeline','HistoryController@index');
+  Route::prefix('vietnam-history')->group(function() {
+    Route::get('preface','HistoryController@vietnam_preface');
+    Route::get('1966','HistoryController@vietnam_1966');
+  });
   Route::prefix('album')->group(function() {
     Route::get('ww2','AlbumController@ww2');
     Route::get('korea','AlbumController@korea');

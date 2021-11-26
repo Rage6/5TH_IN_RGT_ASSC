@@ -60,7 +60,7 @@ p {
     linear-gradient(0deg, black, transparent 13%, transparent 87%, black),
     grey;
   width: 150px;
-  height: 100%;
+  height: calc(100% - 2px);
   cursor: pointer;
 }
 
@@ -82,10 +82,21 @@ p {
   padding: 15px 3%;
 }
 
+.vietnamLogSegment {
+  background-color: white;
+}
+
 .nonTimeSegment {
   margin: 0px 2% 0 2%;
   border: 1px solid black;
   padding: 15px 3%;
+}
+
+.subChapters {
+  margin: 0 0 10px 10%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  text-decoration: none;
 }
 
 .warOf1812Segment {

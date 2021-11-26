@@ -648,6 +648,11 @@
     </div> -->
     <div class="allSegments">
       <div class="timeSegment vietnamLogSegment" data-section="preface">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>Preface</u></div>
         <div class="segmentContent">
           <div class="segmentWords">
@@ -753,7 +758,12 @@
     <div class="allSegments">
       <div class="timeSegment vietnamLogSegment" data-section="1966">
         <div class="segmentContent">
-          <div class="segmentTitle"><u>1966</u></div>
+          <div class="backBttn">
+            <a href="{{ url('/history/timeline') }}">
+              <div><< HISTORY</div>
+            </a>
+          </div>
+          <div class="segmentTitle"><u>Vietnam, 1966</u></div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jan">JANUARY</div>
             <p>

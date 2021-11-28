@@ -20,6 +20,17 @@ p {
 
 }
 
+.backBttn {
+  margin: 10px 0;
+  display: flex;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+.backBttn a {
+  color: black;
+}
+
 .timelineBox {
   position: sticky;
   top: 10vh;
@@ -295,10 +306,42 @@ p {
   font-family: 'Bellefair', serif;
 }
 
+.segmentWords ol {
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+}
+
 .segmentLinks {
   /* margin: 30px 0; */
   font-size: 1.3rem;
   font-family: 'Bellefair', serif;
+}
+
+.oneMonth {
+  margin: 50px 0 10px 0;
+  border-radius: 0 45px 0 0;
+  padding: 10px 0 5px 0;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  background-color: darkred;
+  width: 50%;
+}
+
+.vietnamLogLinkBox {
+  border-radius: 10px;
+  background-color: darkgreen;
+}
+
+.vietnamLogLinkBox ul li {
+  padding-bottom: 20px;
+  padding: 10px 4%;
+  color: white;
+}
+
+.vietnamLogLinkBox ul li a {
+  color: white;
+  cursor: pointer;
 }
 
 .linkBox {

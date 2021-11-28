@@ -51,6 +51,7 @@ class AdminController extends Controller
         $this_raw_num = 0;
         $next_raw_num = 1;
         foreach ($all_users as $one_raw) {
+          $all_timespan = [];
           foreach ($init_all_timespan as $one_init_timespan) {
             if ($one_raw->id === $one_init_timespan->user_id) {
               $all_timespan[] = $one_init_timespan;

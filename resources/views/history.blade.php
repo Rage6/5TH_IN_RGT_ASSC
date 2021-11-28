@@ -596,43 +596,6 @@
         <div>
           <div>Glossary</div>
         </div>
-
-        <!-- <div data-button="jan">
-          <div data-button="jan">January</div>
-        </div>
-        <div data-button="feb">
-          <div data-button="feb">February</div>
-        </div>
-        <div data-button="mar">
-          <div data-button="mar">March</div>
-        </div>
-        <div data-button="apr">
-          <div data-button="apr">April</div>
-        </div>
-        <div data-button="may">
-          <div data-button="may">May</div>
-        </div>
-        <div data-button="jun">
-          <div data-button="jun">June</div>
-        </div>
-        <div data-button="jul">
-          <div data-button="jul">July</div>
-        </div>
-        <div data-button="aug">
-          <div data-button="aug">August</div>
-        </div>
-        <div data-button="sep">
-          <div data-button="sep">September</div>
-        </div>
-        <div data-button="oct">
-          <div data-button="oct">October</div>
-        </div>
-        <div data-button="nov">
-          <div data-button="nov">November</div>
-        </div>
-        <div data-button="dec">
-          <div data-button="dec">December</div>
-        </div> -->
       </div>
     </div>
     <!-- <div>
@@ -688,35 +651,6 @@
   <div class="mainBody">
     <div class="timelineBox">
       <div class="timelineBar">
-        <!-- <a href="{{ url('/history/vietnam-history/preface') }}">
-          <div>
-            <div>Preface</div>
-          </div>
-        </a>
-        <a href="{{ url('/history/vietnam-history/1966') }}">
-          <div>
-            <div>1966</div>
-          </div>
-        </a>
-        <div>
-          <div>1967</div>
-        </div>
-        <div>
-          <div>1968</div>
-        </div>
-        <div>
-          <div>1969</div>
-        </div>
-        <div>
-          <div>1970</div>
-        </div>
-        <div>
-          <div>Maps</div>
-        </div>
-        <div>
-          <div>Glossary</div>
-        </div> -->
-
         <div data-button="jan" data-year="1966">
           <div data-button="jan" data-year="1966">January</div>
         </div>
@@ -772,6 +706,11 @@
             <p>
               The main body of the 2nd Brigade Task Force, 25th Infantry Division, arrived at Vung Tau, South Viet Nam on January 18, 1966. The 2nd Brigade Command Post was initially located in the area of Saigon University. Company B, 1st Bn 503 Bde, 173rd Abn Div was under the operational control of the 2nd Brigade Task Force and supplied the perimeter security for the Task Force. The 2nd Bn 27th Infantry supplied 9 rifle squads to Co B, 1/503rd Inf to reinforce the perimeter security of the staging area. The 1st Bn 27th Infantry and the 1st Bn (M) 5th Infantry were on standby to furnish 3 rifle squads each to Co B, 1/503 rd Infantry, should they be needed. Controlled issue of ammunition for the 2nd Brigade Task Force was to be maintained. Only those personnel occupying perimeter defensive positions and ambush sites were supposed to be issued ammunition.
             </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 1: Overview of South Vietnam</li>
+              </ul>
+            </div>
             <p>
               On January 22, 1966 an Operations Order was issued to alert units to prepare to move to the area of Cu Chi. Movement was to be in 4 segments. The first segment on January 25; the second on January 27; the third on January 29 and the fourth at a date to be determined.
             </p>
@@ -809,9 +748,21 @@
               On January 31, 1966, a booby trap was detonated killing two men from Company B, 1st Bn(M), 5th Infantry. The event emotionally jolted some the men of the company and impressed upon them that this was the real thing. Not training, not practice. Soldiers get horribly wounded and disfigured in wartime. Soldiers die in wartime! These were people you knew, if only by sight. One moment they are laughing, talking, breathing, living and the next moment they are very horribly dead.  How thin and delicate the thread between life and death is, was a lesson soon to be indelibly implanted in the consciousness of the soldiers of the battalion. Some wondered who would be next.
             </p>
             <p>
-              During January 1966, two Bobcats died in Viet Nam. They were: Armando Tesillo and Dan R Shearin . They were the second and third Bobcats to die in Vietnam. The first was Jerry W. Osborn who was killed on April 1, 1965 while TDY from the 1st Bn(M) 5th Infantry as a helicopter door gunner.
+              During January 1966, two Bobcats died in Viet Nam. They were:
             </p>
-            <b>Map 2 and Map 3, 1966 Operations Maps.</b>
+            <ul>
+              <li>Armando Tesillo</li>
+              <li>Dan R Shearin</li>
+            </ul>
+            <p>
+              They were the second and third Bobcats to die in Vietnam. The first was Jerry W. Osborn who was killed on April 1, 1965 while TDY from the 1st Bn(M) 5th Infantry as a helicopter door gunner.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 2: 1966 Operations I</li>
+                <li>Map 3: 1966 Operations II</li>
+              </ul>
+            </div>
             <div class="oneMonth" data-section="feb">
               FEBRUARY
             </div>
@@ -897,7 +848,11 @@
               <li>Donald Edward Daniels</li>
               <li>Walter Norris Ammons</li>
             </ul>
-            <b>Map 4 Cu Chi Base Camp and the "Filhol."</b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 4: Cu Chi Base Camp and the "Filhol."</li>
+              </ul>
+            </div>
             <p>
               "He knew no one and no one knew him. He had no friends here, no confidants. He was not in on the gags, he did not share in the trifles and the traditions. He was new in the outfit. A replacement."
             </p>
@@ -972,11 +927,21 @@
             <p>
               Furture ammunition was made with IMR Powder and the jamming problem disappeared as the Ball Propellant ammunition was replaced.
             </p>
-            <b>
-              The Rifle and the Myth: Congressional Sub-Committee held hearings on the problem in 1967</br>
-              Map 5    Northern Ho Bo Woods and Southern Ho Bo</br>
-              Map 6    Northern Filhol and Southern Ho Bo.
-            </b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>
+                  <a href="{{ url('/history/topic/the-rifle-and-the-myth') }}" target="_blank">
+                    The Rifle and the Myth: Congressional Sub-Committee held hearings on the problem in 1967
+                  </a>
+                </li>
+                <li>
+                  Map 5: Northern Ho Bo Woods and Southern Ho Bo
+                </li>
+                <li>
+                  Map 6: Northern Filhol and Southern Ho Bo.
+                </li>
+              </ul>
+            </div>
             <div class="oneMonth" data-section="apr">APRIL</div>
             <p>
               At 0730 hours on April 2, 1966, the battalion units moved along assigned routes to predetermined objective areas. Troop A, ¾ Cavalry was attached to the 1/5th(M) and Company C 1/5th(M) was OPCON to the 1/69th Armor. Company C had 2 APCs bog down and during the extrication process one Bobcat was shot and killed. Upon moving to a secondary objective, Company A had an APC destroyed by a command detonated 175mm Arty round at 1730 hours. A second was damaged by another mine. The 1st APC was flipped over onto its top and resulted in 4 Bobcats killed and 4 wounded. Two Vietnamese National Policemen were also wounded. Three Bobcats were wounded on the 2nd APC.  One of the men described it as one hectic evening and night. “The command detonated mine blew the track up and over onto its back, killing four and seriously wounding others. When I got there the track commander, who was seriously wounded, was determined to ‘call in my own damn dust off.’ Due to enemy contact we had to strip the track, evac the wounded and pull back for the night. We were in contact all night long ¼ then recovered the A5 in the am ... finding our cook, KIA, beneath the track.”
@@ -1073,15 +1038,16 @@
                 <li>Francisco Correa-Morales</li>
                 <li>John P. Isaacs</li>
                 <li>Walter J. Type</li>
-                <li>ONE whose name is unknown to us who are writing this work.</li>
+                <li>Donald Ray Johnson</li>
+                <li>John Parnella</li>
               </ul>
             </p>
-            <b>
-              1. Donald Ray Johnson</br>
-              2.  John Parnella</br>
-              Map 7    Trang Bang and Go Dau Ha.</br>
-              Map 8    Trang Bang north to Suoi Cao.</br>
-            </b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 7: Trang Bang and Go Dau Ha.</li>
+                <li>Map 8: Trang Bang north to Suoi Cao.</li>
+              </ul>
+            </div>
             <p>
               Casualties for the 25th Infantry Division(-) during the period of January 1, 1966 thru April 30, 1966 were: 91 KIA(killed in action), 914 WIA(wounded in action), 0 MIA(missing in action), 17 DOW(died of wounds), and 12 NBD(non-battle deaths).
             </p>
@@ -1148,9 +1114,11 @@
             <p>
               Cloudiness will prevail most of the day, with only about one quarter of the day in sunshine. But temperatures will not be affected much: the mean daily maximum should be 92 degrees with an average minimum of 75 degrees. Although the temperatures are lower for June than May, the high relative humidity will make it seem just as warm. The average relative humidity for the whole month will be between 80 and 90 per cent.”
             </p>
-            <b>
-              Map 9 Bao Trai area.
-            </b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 9: Bao Trai area</li>
+              </ul>
+            </div>
             <p>
               On June 1, 1966, a Bobcat, who was wounded on April 13th, died of his wounds. He was a medic who responded to the call for help from others and took a sniper's bullet in the head.
             </p>
@@ -1326,8 +1294,18 @@
               KIA- 132; WIA- 1,239; MIA- 0; DOW- 24; NBI- 34; NBD- 11.
             </p>
             <p>
-              During July 1966, eight Bobcats died in Viet Nam. They were: David L. Berry; James X. Gilch ; Richard D. Gill Jr. ; Samuel G. Harris; Leo E. Hinterlong ; Wilberto C. Sanchez; Larry Van Clief ; and Charlie Gray.
+              During July 1966, eight Bobcats died in Viet Nam. They were:
             </p>
+            <ul>
+              <li>David L. Berry</li>
+              <li>James X. Gilch</li>
+              <li>Richard D. Gill Jr.</li>
+              <li>Samuel G. Harris</li>
+              <li>Leo E. Hinterlong</li>
+              <li>Wilberto C. Sanchez</li>
+              <li>Larry Van Clief</li>
+              <li>Charlie Gray</li>
+            </ul>
             <div class="oneMonth" data-section="aug">AUGUST</div>
             <p>
               On August 1, 1966, the 1/5th(M) conducted S&D operations and also checked the effectiveness of a B-52 strike in the area of XT 640225 – XT 665240. Four extensive bunker- tunnel complexes were located and destroyed. Artillery dud rounds rigged for command detonation and some weapons and ammunition were located in the complexes. The battalion set up two night bases with Company A at XT 645227 and the battalion(-) at XT 608234. Night ambushes were employed.
@@ -1353,7 +1331,11 @@
             <p>
               On August 13, 1966, Company B, 1/5th(M) conducted reconnaissance of possible stream crossing sites north of Go Dau Ha in the area of XT 328407.
             </p>
-            <b>Map 10  Dong Hoa area.</b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 10: Dong Hoa area</li>
+              </ul>
+            </div>
             <p>
               On August 14, 1966, the 1/5th(M) became attached to the 1st Brigade. Company A was assigned to provide security for Battery A, 7/11th Artillery at Go Dau Ha. Company B provided security for the extraction of the 4/9th Infantry at XT 355432. Company C conducted S&D operations northeast of Go Dau Ha, in the area of XT 337437. The battalion established a forward base near Trung Mit at XT 4039. From August 14 thru the 20th, the 3rd Platoon of Company A was attached to the 1/27th Infantry.
             </p>
@@ -1376,8 +1358,16 @@
               In the battalion commander’s analysis of the operation it was noted that "Fragmenting a mechanized battalion reduces its firepower and shock action and seriously hampers its flexibility. Employing a mechanized unit in a static security role, ie., securing an artillery battery, protecting engineer work crews, ect., fails to make use of the mobility and shock action which characterize mechanized infantry."
             </p>
             <p>
-              During August 1966, six Bobcats died in Viet Nam. They were: Robbin A. Goodwin; Rodney W. Casselman; Joe L. Hill; Richard J. Willett; Steve W. Harris ; and Robert A. Schmid.
+              During August 1966, six Bobcats died in Viet Nam. They were:
             </p>
+            <ul>
+              <li>Robbin A. Goodwin</li>
+              <li>Rodney W. Casselman</li>
+              <li>Joe L. Hill</li>
+              <li>Richard J. Willett</li>
+              <li>Steve W. Harris</li>
+              <li>Robert A. Schmid</li>
+            </ul>
             <div class="oneMonth" data-section="sep">SEPTEMBER</div>
             <p>
               On September 1, 1966, elements of Company B were still attached to the 1/27th Infantry.
@@ -1464,8 +1454,27 @@
               Company A(-) was unable to get to the 2nd Bde CP because of stuck vehicles and established a night base at XT 478352. Company B was also forced to establish its own night perimeter at XT 510346. Company C managed to close the 2nd Brigade forward CP at 1930 hours.
             </p>
             <p>
-              During September 1966, seventeen Bobcats died in Viet Nam. They were: Earl E. Irving Jr.; Rolando L. Soliz; Billy J. Dailey ; James E. Miller; Gary A. Barnard; Gary R. Dopp; Roy D. Hutting; Ernest R. Martie; Terry L. Pundsack; Robert M. Waters; Walter Williams Jr.; Charles M. Centeno; Thomas A. Lowden;Thomas J. Ontiveros; Ralph G. Till ; Terry L. Snyder and ONE whose name is unknown to us writing this report.
+              During September 1966, seventeen Bobcats died in Viet Nam. They were:
             </p>
+            <ul>
+              <li>Earl E. Irving Jr.</li>
+              <li>Rolando L. Soliz</li>
+              <li>Billy J. Dailey</li>
+              <li>James E. Miller</li>
+              <li>Gary A. Barnard</li>
+              <li>Gary R. Dopp</li>
+              <li>Roy D. Hutting</li>
+              <li>Ernest R. Martie</li>
+              <li>Terry L. Pundsack</li>
+              <li>Robert M. Waters</li>
+              <li>Walter Williams Jr.</li>
+              <li>Charles M. Centeno</li>
+              <li>Thomas A. Lowden</li>
+              <li>Thomas J. Ontiveros</li>
+              <li>Ralph G. Till</li>
+              <li>Terry L. Snyder</li>
+              <li>ONE whose name is unknown to us writing this report.</li>
+            </ul>
             <p>
               "Higher temperatures and less thunderstorm activity can be expected in October as the autumn season sets in in the Cu Chi and Tay Ninh area. October marks the transition between the wet and the dry season. Temperatures during this period at Tay Ninh will increase to an average high of 90 degrees and a low of 75 degrees. Cu Chi temperatures will be slightly cooler. Warm moist air from the southwest will be replaced by the relatively cooler, drier air of the northeast monsoon."
             </p>
@@ -1497,7 +1506,11 @@
             <p>
               In the commander's analysis it was noted that the mines encountered were becoming larger, resulting in greater physical damage to the APCs. However, barring aggravating factors such as fires or secondary explosions, casualties from mine detonations remained relatively light.
             </p>
-            <b>Map 11 Tan Phu Trung.</b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 11: Tan Phu Trung</li>
+              </ul>
+            </div>
             <p>
               On October 12, 1966, the 1/5th(M) continued pacification and security operations at Tan Phu Trung.
             </p>
@@ -1564,10 +1577,9 @@
               <li>George W. Alexander Jr.</li>
               <li>Gerald J. Collier</li>
               <li>John C. Ardis</li>
-              <li>TWO whose names are unknown to us who are writing this work</li>
+              <li>Thomas William London</li>
+              <li>Jimmy Doyle Phipps</li>
             </ul>
-            <b>1. Thomas William London</b></br>
-            <b>2. Jimmy Doyle Phipps</b></br>
             <div class="oneMonth" data-section="nov">NOVEMBER</div>
             <p>
               On November 1, 1966, Company C continued exploring the tunnel complex at XT 702102. A large ammunition cache was located in the tunnel at 1010 hours. At 1745 hours the tunnel was destroyed.
@@ -1581,7 +1593,11 @@
             <p>
               Company C became engaged in a firefight at XT 638239. The fight went from 1253 hours until the VC broke contact at 1700 hours. During the fight, two Bobcats were killed and three were wounded. The Battalion CP and Company C established a base at XT 635235. Troop B had 3 APCs hit mines resulting in 3 troopers being wounded. Troop B established a base at XT 642228.
             </p>
-            <b>Map 12    Katum area.</b>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 12: Katum area</li>
+              </ul>
+            </div>
             <p>
               On November 4, 1966, a Chieu Hoi led Company B to a munitions and weapons cache. At 1250 hours a Company C APC hit an AT mine resulting in two Bobcats wounded. The battalion(-) closed into Cu Chi Base Camp by 2350 hours. Company A continued to move throughout the night.
             </p>
@@ -1701,6 +1717,7 @@
       </div>
     </div>
   </div>
+  @include ('footer.content')
 @stop
 
 @section('vietnam_1967_content')

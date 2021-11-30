@@ -429,7 +429,9 @@
                 <a href="{{ url('/history/vietnam-history/1966') }}">
                   <div>+ 1966</div>
                 </a>
-                <div>+ 1967</div>
+                <a href="{{ url('/history/vietnam-history/1967') }}">
+                  <div>+ 1967</div>
+                </a>
                 <div>+ 1968</div>
                 <div>+ 1969</div>
                 <div>+ 1970</div>
@@ -1178,6 +1180,7 @@
               <li>Clarence Gene Forman</li>
               <li>Arnoldo J. Cardenas.</li>
             </ul>
+            <div class="oneMonth" data-section="jul">JULY</div>
             <p>
               On July 1, the battalion terminated the operation at 0700 hours. Six Bobcats died during the operation and 81 were wounded with 39 being treated and returned to duty.
             </p>
@@ -1724,40 +1727,880 @@
   <div class="mainBody">
     <div class="timelineBox">
       <div class="timelineBar">
-        <div>
-          <div>Preface</div>
+        <div data-button="jan" data-year="1966">
+          <div data-button="jan" data-year="1966">January</div>
         </div>
-        <a href="{{ url('/history/vietnam-history/1966') }}">
-          <div>
-            <div>1966</div>
-          </div>
-        </a>
-        <div>
-          <div>1967</div>
+        <div data-button="feb" data-year="1966">
+          <div data-button="feb" data-year="1966">February</div>
         </div>
-        <div>
-          <div>1968</div>
+        <div data-button="mar" data-year="1966">
+          <div data-button="mar" data-year="1966">March</div>
         </div>
-        <div>
-          <div>1969</div>
+        <div data-button="apr" data-year="1966">
+          <div data-button="apr" data-year="1966">April</div>
         </div>
-        <div>
-          <div>1970</div>
+        <div data-button="may" data-year="1966">
+          <div data-button="may" data-year="1966">May</div>
         </div>
-        <div>
-          <div>Maps</div>
+        <div data-button="jun" data-year="1966">
+          <div data-button="jun" data-year="1966">June</div>
         </div>
-        <div>
-          <div>Glossary</div>
+        <div data-button="jul" data-year="1966">
+          <div data-button="jul" data-year="1966">July</div>
+        </div>
+        <div data-button="aug" data-year="1966">
+          <div data-button="aug" data-year="1966">August</div>
+        </div>
+        <div data-button="sep" data-year="1966">
+          <div data-button="sep" data-year="1966">September</div>
+        </div>
+        <div data-button="oct" data-year="1966">
+          <div data-button="oct" data-year="1966">October</div>
+        </div>
+        <div data-button="nov" data-year="1966">
+          <div data-button="nov" data-year="1966">November</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">December</div>
         </div>
       </div>
     </div>
     <div class="allSegments">
       <div class="timeSegment vietnamLogSegment" data-section="civilWar">
         <div class="segmentContent">
-          <div class="segmentTitle"><u>Civil War</u></div>
+          <div class="segmentTitle"><u>Vietnam, 1967</u></div>
           <div class="segmentWords">
-
+            <div class="oneMonth" data-section="jan">JANUARY</div>
+            <p>
+              From January 1 thru January 4, 1967, the battalion continued S&D and ambush operations in the area between the Filhol and the Ho Bo Woods without enemy contact. Enemy fortifications, tunnels, and supplies were discovered and destroyed.
+            </p>
+            <p>
+              On January 5, 1967, the battalion conducted maintenance at Cu Chi and prepared for future operations. For other than track drivers and maintenance personnel, that usually meant cleaning your weapons and catching up on sleep. When out on operations, and with ambushes, one was lucky to get 5 hours of sleep in any 24 hour period. After a few days it begins to catch up to a person.
+            </p>
+            <p>
+              On January 6, 1967, the 1/5th(M) became attached to the 196th Light Infantry Brigade.  Troop B of the 3/4 Cavelry became OPCON to the 1/5th(M). The battalion moved to the area north of Trung Lap in preparation for Operation Cedar Falls.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map: Operation Cedar Falls</li>
+              </ul>
+            </div>
+            <p>
+              On January 7, 1967, the battalion began to work its way north towards the Saigon River and the Ho Bo Woods. Three Bobcats from Company A were killed on January 7. A 105mm artillery dud, hung in a tree, was command detonated as they were checking out some suspicious noise.
+            </p>
+            <p>
+              The 1st Infantry Division along with the 173rd Airborne, 11th Armored Cavalry, and several ARVN units were beginning a detailed search of the Ben Suc, Thanh-Dien Forestry preserve and the so called "Iron Triangle" areas.
+            </p>
+            <p>
+              On January 8, 1967, the 196th LIB established blocking positions on the banks of the Saigon River. The 1/5th(M) was the right (east) flank element in the area north of the Rach Son Creek in the Ho Bo Woods (XT 669248). Four Bobcats died on January 8th. Three of them on a Company B ambush patrol that something went wrong on. The fourth was from Company C.
+            </p>
+            <p>
+              The battalion continued their blocking operation with some local patroling and ambushes.
+            </p>
+            <p>
+              On January 17, 1967, four Bobcats were killed when the helicopter they were passengers in crashed. All four helicopter crew members were also killed. The helicopter was on the return trip to Cu Chi Base Camp from a resupply mission to the battalion forward base when it developed mechanical problems.
+            </p>
+            <p>
+              On January 18, 1967, two Bobcats were killed in separate incidents. One from Company A and one from Company C.
+            </p>
+            <p>
+              On January 19, 1967 one of the companies came across the bodies of 9 VC who had been killed.
+            </p>
+            <p>
+              On January 20, 1967, Company B, with the guidence of a Chieu Hoi located an arms and ammunition cache at XT 661281. Two Bobcats from Company A died when a booby trap was detonated.
+            </p>
+            <p>
+              On January 21, 1967, one Bobcat from Company C died from small arms fire and a medic died from shrapnel. Also on January 21, Company A located a tunnel complex with a main tunnel 600 meters long and also 10 branch tunnels. This was in the area of XT 650235, some 1500 meters south  west of the Saigon River and just to the north of the Rach Son Creek. The tunnel complex was searched for four days and over 60 pounds of documents were evacuated from the area.
+            </p>
+            <p>
+              On January 26, 1967, Operation Cedar Falls ended.
+            </p>
+            <p>
+              From January 27 thru January 30, 1967, the battalion conducted maintenance, training and prepared for future operations at Cu Chi Base Camp.
+            </p>
+            <p>
+              One Bobcat from Company B was accidentally killed north of the Ben Muong Stream, on January 30th.
+            </p>
+            <p>
+              During January 1967, eighteen Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Danny C. Barnes</li>
+              <li>Willy V. Quast</li>
+              <li>David Young</li>
+              <li>Lynn A. Harris</li>
+              <li>Arnez F. Miller Jr.</li>
+              <li>Carlos M. Rodriguez</li>
+              <li>David L. Sheehy</li>
+              <li>Herbert H. Crowder</li>
+              <li>Herschel L. Epps Jr.</li>
+              <li>Larry G. Gray</li>
+              <li>Frank J. Krebs</li>
+              <li>Donald L. Helton</li>
+              <li>Leo V. Silbert</li>
+              <li>Morgan E. Savage</li>
+              <li>James B. Simmons</li>
+              <li>John L. Wilhelm</li>
+              <li>Richard L. Parham.</li>
+            </ul>
+            <p>
+              For the Quarterly Reporting Period of November 1, 1966 to January 31, 1967, the 25th Infantry Division(-) reported the following statistics: KIA- 123; WIA- 1029; MIA- 0; NBD- 0; NBI- 33.
+            </p>
+            <p>
+              Administration: There still remained a shortage in Infantry NCOs. The casualty rate and rotation losses among these NCOs has created a shortage greater than the rate of fill. Other MOS that the Division Headquarters placed in the critical short category were: 05B20; 11D20; 11D40; 11F20; 11F40; 26C20; 45F20; 63E20; 67M20; 67Q20; 72B10; 74D20; 82C10; 82C20; 91C20; 96C20.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 13: Nui Ba Den</li>
+              </ul>
+            </div>
+            <div class="oneMonth" data-section="feb">FEBRUARY</div>
+            <p>
+              On February 1, 1967, the battalion moved from Cu Chi to Tay Ninh. The battalion was attached and OPCON to the 196th Light Infantry Brigade. During the day one Bobcat from Company B died from small arms fire.
+            </p>
+            <p>
+              On February 2, 1967, Company A, 4/31st Infantry conducted an airmobile assault into the area of XT 055684, some 7 kilometers west of Hwy 22 and the village of Trai Bi.
+            </p>
+            <p>
+              At 0632 hours the 1/5th(M) left Tay Ninh and assaulted to the area where Company A, 4/31st Infantry was located. Lead elements of the 1/5th(M) linked up with the 4/31st at 1050 hours. A bridge was then airlifed to the site and installed by the 175th Engineer Company. The 1/5th(M) crossed the bridge and continued to XT 034717. The battalion secured an LZ for the helilift of the 4/31st Infantry(-) into the area at 1640 hours.
+            </p>
+            <p>
+              On February 03, 1967, the 1/5th(M) commenced an attack at 0818 hours to the area of WT 9869, which was near the Cambodian Border south of the "Dog's Head."  At 0900 hours the Recon Platoon was dispatched to sweep the flank of the battalion. At 0906 hours a Recon APC detonated an AT mine with negative casualties. At 1049 hours Company A located a TA/312 telephone in the area of WT 995699. At 1201 hours Company A, 1/5th(M), secured an LZ for the 2/1st Infantry.
+            </p>
+            <p>
+              At 1330 hours elements from Company B received fire from a 57 mm Recoilless Rifle while repairing a track that had broken down in the area of WT 999698. Two Bobcats were wounded. The Recon Platoon was dispatched to assist the Company B elements and while enroute received RR fire resulting in 2 Bobcats being wounded. Fire was returned and the Recon Platoon proceeded to link up with the elements from Company B.
+            </p>
+            <p>
+              At 1459 hours, an APC from Company C detonated an AT mine in the area of WT 999701 resulting in 13 Bobcats being wounded. At 1510 hours, the Recon Platoon, still providing security for the Company B elements, started to receive heavy small arms fire from an estimated 15 to 20 VC in the area of WT 000697. At this time the Recon Platoon had elements of Company B and Company A with them. The APC of the Company A XO was hit by a RR round, killing him and two others on the APC instantly. The VC managed to overtake and occupy the APC, firing its .50 caliber machine gun. A man from Company B was wounded while attempting to take the APC under fire.
+            </p>
+            <p>
+              "He was laying in a small depression next to me with real bad stomach wounds. We tried to comfort him and kept telling him he would be ok, but then all the color left his face and he died. I felt very helpless about not being able to do something for him," recalled a Bobcat that was with him.
+            </p>
+            <p>
+              The APC was recovered at 1555 hours after air and artillery fire was placed into the area and the VC broke contact. During the day 5 Bobcats were killed and 24 were wounded.  The VC wore a mixture of camoflauged uniforms and black "pajama" type clothing. It was noted that they fought with considerable determination and exhibited good discipline and fire control.
+            </p>
+            <p>
+              Elements of the battalion closed into a new battalion CP at 1750 hours in the area of WT 977698.
+            </p>
+            <p>
+              On February 04, 1967, the battalion conducted S&D operations in the area surrounding their night base. At 0910 hours Company B discovered an uncompleted base camp at WT 976706. At 1520 hours, Company C engaged 2 VC at WT 996693, killing both. Among the items found with the bodies were 7 rounds of 57mm HEAT ammunition and a tripod.
+            </p>
+            <p>
+              On February 05, 1967, at 0812 hours, an ambush patrol from Company A located at WT 969696 received fire from across the Tonle Roti River, which marked the border between Cambodia and South Viet Nam. The ambush returned fire into Cambodia, resulting in 2 VC being killed. One body fell into the river and the other was dangling in a tree. The ambush continued receiving fire from inside Cambodia until 0830 hours when they were retrieved by Company A.
+            </p>
+            <p>
+              At 1006 hours, Company A departed the battalion base camp following Company B. At 1025 hours Company C departed the base camp enroute to link up with the 4/31st Infantry. At 1033 hours Company A received small arms fire from their left flank. The fire was returned with unknown results. At 1244 hours, Company A passed through Company B and assumed the lead. At 1335 hours in the area of WT 983666, Company A became involved in a fire-fight with a force of unknown size. They began receiving RPG-2 fire, rifle grenades and small arms fire. 2 APCs were hit by RPG-2 fire and one detonated a mine. Contact was broken at 1735 hours. Two Bobcats were killed and 18 were wounded in the fire-fight. As elements of Company A were searching the trench line area of the fight, a sniper shot and killed one Bobcat.
+            </p>
+            <p>
+              The battalion established a new base camp at WT 996665. All elements closed the base by 1937 hours.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>
+                  <a href="http://175thengineers.homestead.com/BridgeGadsdenVietnam.html" target="_blank">
+                    Photographs from the 175th Engineers from this day
+                  </a>
+                </li>
+                <li>
+                  <a href="http://175thengineers.homestead.com/bridgerepair.html" target="_blank">
+                    More related material from the 175th Engineers
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <p>
+              On February 06, 1967, while conducting S&D operations in the area, elements of the battalion discovered a VC base camp and hospital at WT 988682. Documents found identified units of the Staff Directorate of COSVN. Several dead VC were located during the operations along with some radio equipment, weapons and ammunition.
+            </p>
+            <p>
+              On February 07, 1967, Company B departed the battalion forward base to examine the area of WT 995685 after a B-52 strike. Company A and Company C(-) conducted S&D operations in the area of WT 9868. At 1405 hours Company A received fire from an estimated VC platoon resulting in one Bobcat wounded. At 1425 hours, Company A again made contact with the VC, who were wearing kakhi uniforms. At 1450 hours contact was broken but again reestablished at 1501 hours in the area of WT 964670. Air strikes were placed into the area where the VC were firing from. After the air strikes, Company A moved into the area and discovered VC bodies and a cache of 18 tons of rice. All elements closed the battalion forward base at WT 995664 by 1906 hours.
+            </p>
+            <p>
+              On February 08, 1967, the battalion commenced operations "in accordance with the rules governing the TET truce period."  At 1035 hours Company A discovered VC bodies at WT 982666.  5 had been killed by small arms fire, 4 were in a bomb crater and 1 was in a covered bunker.  At 1335 hours, Company B received 3 rounds of small arms fire. At 1540 hours, in the area of WT 010688, Company B received automatic weapons fire from an unknown number of VC. Fire was returned with organic weapons. One Bobcat from Company B was killed in the initial exchange of fire. All elements closed the battalion forward base for the night.
+            </p>
+            <p>
+              On February 10, 1967, an LP outside the battalion perimeter received 1 hand grenade at 0207 hours with negative casualties. At 1315 hours the Recon Platoon received 10 rifle grenades in the area of WT 989650. There were negative casualties and fire was returned with unknown results.  In the area of WT 995670, elements of the battalion located a very sophisticated training area consisting of 44 structures and fortifications, 2 class rooms, 2 mess halls, and a 75 X 30 meter rifle range complete with silouette targets.
+            </p>
+            <p>
+              On February 12, 1967, Companies B and C departed the battalion base at 0730 hours and secured an LZ at FSB Delta in the area of WT 0364. The 2/1st Infantry was airlifted into the LZ. At 0949 hours the battalion headquarters and Company A departed the forward base and established a new battalion forward base at WT 984616. At 1140 hours, Companies B and C departed FSB Delta and closed the new battalion forward base at 1620 hours. During the evening 7 rifle grenades were received into the base.
+            </p>
+            <p>
+              On February 13, 1967, at 0815 hours, the battalion commenced S&D operations in the area of WT 9962.Elements discovered several VC base camps and an ordnance factory at WT 986642. It contained bombs, artillery rounds, hand grenades and tools and molds for manufacturing explosive devices. That night the battalion forward base received 5 rounds of mortar fire.
+            </p>
+            <p>
+              On February 14 and 15, 1967, the battalion continued S&D operations in the area of WT 0256 and 0358. On February 15th, seventeen rounds of 60mm mortar fire was received.
+            </p>
+            <p>
+              On February 16, 1967, the battalion broke camp at 0730 hours and moved to the bridge site at XT 0559. Lead elements crossed the bridge at 0800 hours and the battalion continued movement southeast to Tay Ninh, where they closed at 1330 hours.
+            </p>
+            <p>
+              War Zone C was located north of Tay Ninh City bounded on the north and the west by the Cambodian border. This area was a confirmed VC stronghold. The entire area was characterized by dense forest, with numerous enemy bunkers, tunnels and base camps. On February 22, 1967, the 2nd Brigade of the 25th Infantry Division, began Operation Junction City Alternate. The 2nd Brigade area of operatons was a portion of War Zone C which was heavily wooded and in which no US units had operated in for over a year. It was known that the area contained a lot of bunkers and base camp areas.
+            </p>
+            <p>
+              On February 22, 1967, the 1/5th(M) began Operation Junction City Alternate by moving from the area of Trai Bi at XT 1170 to secure FSB Pershing at XT 1375, which was some 3000 meters southeast of the junction of Highways 22 and 247.
+            </p>
+            <p>
+              On February 23, 1967, the battalion established a forward base at XT 151765, just to the north of Highway 247 and 5000 meters east of Highway 22. Elements of the battalion located a base camp of 5 bunkers and 15 structures north of the battalion forward base. 2 APCs detonated AT mines resulting in 5 Bobcats being wounded. One Bobcat from Company A died of his wounds.
+            </p>
+            <p>
+              On February 24, 1967, elements of the battalion located two base camps containing arms, ammunition and supplies. During the day, 12 Bobcats were wounded and 1 APC was damaged when VC were engaged at XT 166804. The VC employed command detonated mines. 3 of the VC killed in the exchange were identified as members of the 272nd VC Regiment.
+            </p>
+            <p>
+              On February 25, 1967, while further searching a VC base camp located on the 24th at XT 154834, an unknown number of VC were engaged. Among the items found in the base camp area after the fire-fight were 300 rounds of 105mm artillery ammunition.
+            </p>
+            <p>
+              On February 27, 1967, the 1/5th(M) moved to secure FSB Foche for the emplacement of the 1/8th Artillery and the 2nd Brigade forward command post.
+            </p>
+            <p>
+              On February 28, 1967, the battalion conducted S&D operations around and also provided security for the fire support base.
+            </p>
+            <p>
+              During February 1967, eleven Bobcats died in Viet Nam. They Were: Ervin L. Laird; Jackson Thomas; Paul T. Short Jr.; Marco J. Baruzzi; Raymond F. Demory; James E. Bostock; Joseph M. Brady; Henry R. Lopez; Jack M. Secrest Jr.; and Landon C. Ray.
+            </p>
+            <div class="oneMonth" data-section="mar">MARCH</div>
+            <p>
+              On March 01, 1967, the battalion conducted S&D operations to the north and east of FSB Foche, which was located approximately 18 kilometers southwest of Katum. At 0952 hours, an APC detonated an AT mine resulting in nine Bobcats being wounded and moderate damage to the APC. To the east, elements engaged an unknown number of VC, killing 2 and capturing 1. Five Bobcats were wounded in the exchange of fire.
+            </p>
+            <p>
+              On March 02, 1967, Companies A and B conducted S&D operations to the northeast of FSB Foche. An enemy base camp was located and destroyed at XT 165880. Company C provided security for the fire support base.
+            </p>
+            <p>
+              On March 03, 1967, Company A provided security for the base while Companies B and C conducted S&D operations in the area.
+            </p>
+            <p>
+              On March 04, 1967, the battalion provided security for the air extraction of the 2nd Brigade Headquarter's forward elements from the fire support base. At 1300 hours the 1st Battalion(M) 5th Infantry was attached and OPCON to the 11th Armored Cavalry Regiment.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 14 "French Fort."</li>
+              </ul>
+            </div>
+            <p>
+              On March 05, 1967, a Bobcat from Company B was killed by shrapnel when the battalion forward base received a 120 round 60mm and 82mm mortar barrage.
+            </p>
+            <p>
+              On March 13, 1967, a Bobcat from Company C was shot and killed.
+            </p>
+            <p>
+              On March 14, 1967, the 1/5th(M)(-) became OPCON to the 196th Light Infantry Brigade. At 1830 hours the battalion(-) closed the "French Fort", located 7 kilometers north of Nui Ba Den at XT 2868.
+            </p>
+            <p>
+              On March 15, 1967, the battalion units conducted local S&D operations and escorted convoys in the area of the French Fort. At 1300 hours the battalion established a command post about 3 kilometers northwest of the French Fort at XT 267734. At 1635 hours, the Recon Platoon was escorting a convoy north on Highway 4 when the lead APC was struck by an RPG-2 round near XT 273722. Two Bobcats were wounded. At 1640 hours an APC from Company B was hit by an RPG-2 round in the same area. Four Bobcats were wounded and one died of his wounds later in the day. The fire was returned with SA and AW fire with unknown results.
+            </p>
+            <p>
+              At 2000 hours the Cu Chi Base Camp received 50 rounds of 82mm mortar fire and 25 rounds of 75mm recoilless rifle fire.
+            </p>
+            <p>
+              On March 16, 1967, between 0135 and 0200 hours, 150 rounds of 60mm, 82mm mortar and 75mm RR rounds were received on the 196th LIB command post located at the French Fort. 4 men were killed and 22 were wounded. One of those killed was a Bobcat at the battalion's rear supply area, which was also located at the fort. 2 Bobcats from the unit were also among the wounded.
+            </p>
+            <p>
+              Units of the battalion cleared and secured roads and then conducted convoy escort from the junction of Highways 4 and 247, south to the French Fort. At 1320 hours, the Recon Platoon located an AT mine in the road at XT 270766 and blew it in place.
+            </p>
+            <p>
+              On March 17, 1967, the 1/5th(M) conducted S&D operations east of Highway 4. At 1600 hours, Company C, 1/5th(M) became OPCON to the 2/34th Armor. Company C, 2/34th Armor became OPCON to the 1/5th(M).
+            </p>
+            <p>
+              On March 18, 1967, the battalion(-) conducted S&D operations west to XT 193726 and at 1530 hours the battalion established a forward base at that location. At 1415 hours, a convoy being escorted by elements of Company B. A command detonated mine was set off against one of the vehcles in the convoy. At 1600 hours, the Recon Platoon was escorting a convoy on Highway 4, south from Prek Klok, when a vehicle was struck by a burst of automatic weapons fire. Fire was returned and gunships were employed with unknown results.
+            </p>
+            <p>
+              On March 19, 1967, units of the battalion conducted S&D operations in the area. Cross attachment with the 2/34th Armor was terminated at 1330 hours. One Bobcat from Company C was accidentally killed. All units closed the new battalion forward base located at XT 238726 by 1700 hours.
+            </p>
+            <p>
+              On March 20, 1967, the Recon Platoon and Company C(-) conducted convoy escort from Soui Da to Prek Klok after clearing and securing the highway. Companies A, B and C(-) conducted S&D operations in the area. Company A had one APC hit a large mine at 1045 hours at XT 241805.  Five Bobcats were wounded and dusted off. All units closed the battalion command post by 1650 hours.
+            </p>
+            <p>
+              On March 21, 1967, the battalion conducted road security and S&D operations in the area.
+            </p>
+            <p>
+              On March 22, 1967, the Recon Platoon with personnel from the 169th Engineers cleared and secured the road from the "French Fort" to the Soui Da turnoff. Company A conducted S&D operations north to the 82 grid line. Companies B and C conducted S&D operations east of Highway 4. At 0825 hours, an APC from Company A hit an AT mine resulting in one Bobcat being wounded.  At 0850 hours, Company C had an APC detonate a mine at XT 273744 resulting in eight Bobcats being wounded. At 1130 hours, an APC from Company A hit a mine at XT 245815. Four Bobcats were wounded. All elements closed the battalion forward base, now located at XT 255755, by 1700 hours. One of the wounded Bobcats from Company A died of his injuries.
+            </p>
+            <p>
+              On March 23, 1967, Company A provided security for the battalion base. Company B and part of Company C conducted S&D operations in the area. The Recon Platoon and part of Company C conducted road security and convoy escort operations.
+            </p>
+            <p>
+              On March 24, 1967, the Recon Platoon conducted road security and escort on Highway 4 from the "French Fort" to the Soui Da turnoff. Company B remained at the battalion base for security. Company C secured a drop zone for a resupply airdrop. Company A screened and blocked from XT 3074 to 3076.
+            </p>
+            <p>
+              On March 25, 1967, Recon Platoon and one platoon from Company C cleared and secured the roadway and escorted convoys. At 1305 hours, one platoon from Company C secured a drop zone at XT 267786. The drop was 90% effective. 10% was damaged and recovered. One platoon from Company C secured a crossing site while the 175th Engineers implaced an AVLB. Companies A and B crossed the bridge and conducted S&D operations from XT 3180 to 3178. There was negative contact and units closed the new battalion base at Prek Klok by 1900 hours.
+            </p>
+            <p>
+              On March 26, 1967, the Recon Platoon and one platoon from Company A were assigned route clearing and convoy escort duty from Prek Klok to Soui Da. The battalion(-) established blocking positions in coordination with sweeps made by the 3rd Brigade, 4th Infantry Division. At 1120 hours, an APC from Company B struck a mine at XT 295737. One Bobcat was wounded. At 1300 hours, one platoon from Company A secured a drop zone for a resupply drop at XT 269711.
+            </p>
+            <p>
+              On March 27, 1967, the Recon Platoon went to the "French Fort" and escorted the 3/13th Artillery to Prek Klok, closing at 0925 hours. Companies A and C departed the base at 0730 hours. At 1155 hours an AVLB was placed across the stream at XT 310804. Elements then conducted S&D operations east to XT 355933. Elements of Company B secured a drop zone for two resupply drops. One was at 1230 hours and the other at 1600 hours.
+            </p>
+            <p>
+              On March 28, 1967, the battalion began operations to secure areas for two new fire support bases. Companies A and C secured the first, untill they were relieved by the 4/31st Infantry at 1115 hours. Company B and the Recon Platoon secured the 2nd area at Katum. While enroute Company B had an APC detonate a mine resulting in extensive damage to the track and one Bobcat wounded. At 1611 hours the battalion CP, Companies A, C and the Recon Platoon(-) closed the fire support base at Katum. Company B secured a resupply drop zone and remained there for the night. Recon Platoon(-) secured an AVLB at XT 289865.
+            </p>
+            <p>
+              On March 29, 1967, the battalion secured an LZ for the airlift of the 2/1st Infantry Battalion from the "French Fort."  The 1/5th(M) then conducted local S&D operations and closed the new Battalion base at XT 276935, some 5000 meters northwest of Katum and 6000 meters south of the Cambodian border.
+            </p>
+            <p>
+              On March 30, 1967, Companies A and B conducted S&D operations in the area, and the Recon Platoon conducted a reconnaissance of the area.  Company C departed the battalion base to escort a convoy from Prek Klok. At 1134 hours, one APC from the Recon Platoon detonated an AT mine at XT 278914. At 1340 hours Company C engaged an unknown size enemy force at XT 249779. Two APCs were hit by 57mm recoilless rifle rounds. One of them was struck in the rear ramp with two rounds. Six Bobcats were wounded. Gunships overhead gave covering fire and contact was broken. The battalion established a new base at XT 281969, only 1500 meters south of the Cambodian Border.
+            </p>
+            <p>
+              On March 31, 1967, Companies A, B, and C conducted S&D operations to the west of the battalion base. The Recon Platoon remained in reserve with the battalion command group. Company A made a brief contact at 0830 hours, exchanging small arms fire with negative results.
+            </p>
+            <p>
+              At 1034 hours, Company B had one APC struck by an RPG-2 round at XT 229973. The fire was received from a trench line less than 1,000 meters south of the Cambodian Border. At 1052 hours while searching the area, Company B received more RPG-2 fire with negative hits. The area was taken under fire with 81mm mortars and organic weapons fire. At 1059 hours, 2 Company B APCs were hit by RPG-2 rounds. At 1125 hours, another APC was hit by RPG fire. Contact was broken at 1140 hours. At 1345 hours, Company B made contact in the same general area. One APC was hit by RPG fire, and contact was immediately broken. In all, four Bobcats from Company B were killed and 16 were wounded.
+            </p>
+            <p>
+              At 1645 hours an APC from Company C hit an AT mine, resulting in 4 Bobcats being wounded. All units closed the battalion base by 1815 hours.
+            </p>
+            <p>
+              During March 1967, ten Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Gerald J. Breen</li>
+              <li>Jerry L. Borgens</li>
+              <li>James P. Vadbunker</li>
+              <li>Robert S. Liszcz</li>
+              <li>Viril L. Austin</li>
+              <li>Charles M. Douglas</li>
+              <li>Kenneth L. Breshears</li>
+              <li>Charles C. Dickey Jr.</li>
+              <li>Gary F. Schuler</li>
+              <li>John A.Todi</li>
+            </ul>
+            <div class="oneMonth" data-section="apr">APRIL</div>
+            <p>
+              On April 01, 1967, Companies A and B conducted S&D operations in the area without enemy contact. Company C secured the battalion forward base while the Recon Platoon secured a drop zone for a resupply drop.
+            </p>
+            <p>
+              On April 03, 1967, the battalion conducted S&D operations in the area. At 1337 hours, Company A engaged some VC at XT 210945. A check of the area resulted in locating 23 60mm mortar rounds and 23 82mm mortar rounds, along with documents and miscellaneous equipment.
+            </p>
+            <p>
+              On April 04, 1967, at 1400 hours, an APC from Company C hit a mine. After striking the mine the APC was hit by a LAW fired from a bunker. Six Bobcats were wounded. At 1550 hours, while searching an area some 8,000 meters due west of Katum, an APC from Company A detonated an AT mine at resulting in five Bobcats being wounded. At 1558 hours, Company A located a communications wire line at XT 240906. While checking the line, an unknown number of VC opened fire with small arms and automatic weapons fire. Fire was returned and the VC broke contact at 1615 hours. One Bobcat from Company A was killed and one was wounded in the exchange of fire.
+            </p>
+            <p>
+              On April 05, 1967, the battalion conducted S&D operations in the area of XT 1582, 1588, 2182, 2188, with negative contact. The Recon Platoon conducted convoy escort for Battery B, 2/35th Artillery.
+            </p>
+            <p>
+              On both April 06 and 07, the battalion conducted S&D operations without contact.
+            </p>
+            <p>
+              On April 08, 1967, the 1/5th(M) secured an LZ for the extraction of the 2/1st Infantry. The battalion then moved overland to Tay Ninh.
+            </p>
+            <p>
+              From April 09, 1967 to April 21, 1967, the 2nd Brigade participated in in an operation in Gia Dinh Province with the mission of interdicting VC supply routes to and from the Saigon area.
+            </p>
+            <p>
+              On April 22, 1967, the 1/5th(M) began another operation in one of their favorite “homes away from home.”
+            </p>
+            <p>
+              Operation Manhattan had the objective of destroying VC elements, supplies and bases in the Ho Bo Woods, the Boi Loi Woods and along the Saigon River. The 2nd Brigade area of operations was the lower Boi Loi and Ho Bo Woods area.
+            </p>
+            <p>
+              An after action report stated "It apperared from the start that the VC had been forwarned of the operation. There was plain evidence that the VC, shortly before the operation began, had deliberately and unhurriedly evacuated the area. They employed AT and AP mines and booby traps along with 2 and 3 man sniper teams to delay friendly forces."
+            </p>
+            <p>
+              One Bobcat from the Recon Platoon was killed when an APC detonated a mine.
+            </p>
+            <p>
+              On April 23, 1967, the 1/5th(M) secured an LZ in the area of XT 5331 for the 1/27th Infantry. The battalion also secured routes of communication. Three APCs detonated AT mines resulting in two Bobcats from Company C being killed and three wounded.
+            </p>
+            <p>
+              On April 24, 1967, the battalion conducted S&D operations in the area of XT 5131 without enemy contact.
+            </p>
+            <p>
+              On April 25, 1967, the battalion continued S&D operations in the area. An APC from Company A detonated an AT mine resulting in one Bobcat being killed and eight others being wounded.  Only a few bunkers were located and destroyed during the day.
+            </p>
+            <p>
+              On April 26, 1967, units of the battalion continued S&D operations. At 1410 hours Company B came upon a VC who was in the process of setting up a Chicom Claymore mine at XT 520324. He was killed in the exchange of fire. The area of the Boi Loi was once again heavily booby-trapped. Eight Bobcats were wounded during the day.
+            </p>
+            <p>
+              On April 27, 1967, units of the battalion located an underground VC hospital complex. Again mines and booby traps were encountered in the area of operations. One Bobcat was killed and fifteen were wounded during the day.
+            </p>
+            <p>
+              On April 28 and 29, 1967, the battalion continued operations in the same area with no enemy contact. Some bunkers and tunnels were located and destroyed. On April 29, the battalion assumed responsibility for the security of engineer activities in the area.
+            </p>
+            <p>
+              On April 30, 1967, the battalion minus Company C conducted S&D operations from XT 538338 to the Saigon River and back without contact.
+            </p>
+            <p>
+              Company C was attached to the 1/27th Infantry. At 1005 hours the unit made contact at XT 578285, while conducting a sweep. The units remained in a fire-fight until 1115 hours, at which time the VC broke contact after friendly artillery was employed. One Bobcat from Company C was killed and two were wounded during the encounter.
+            </p>
+            <p>
+              During April 1967, seven Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>James K. Lindsey</li>
+              <li>James P. English</li>
+              <li>Stephen L. Colopy</li>
+              <li>James L. Russell</li>
+              <li>Gary L. Doose</li>
+              <li>Rom Worley</li>
+              <li>Gene D. Smith</li>
+            </ul>
+            <p>
+              For the Quarterly Reporting Period of  February 01, 1967 thru April 30, 1967 the 25th Infantry Division(-) reported the following: KIA- 116; WIA- 1,239; MIA- 0; NBD- 8; NBI- 46.
+            </p>
+            <p>
+              Use of highways by convoys continued to be the primary mode of resupply to Cu Chi, Tay Ninh and Dau Tieng base camps. During the last three months there were 448 convoys between Saigon and Cu Chi. Between Cu Chi, Tay Ninh and Dau Tieng there were 172 convoys.
+            </p>
+            <p>
+              Since July 1966 there have been 27 VC agents taken into custody from among the division base camp’s indigenous work force.
+            </p>
+            <p>
+              There continued to be a critical shortage of Infantry and Artillery NCOs in grades E-5 and E-6.
+            </p>
+            <div class="oneMonth" data-section="may">MAY</div>
+            <p>
+              On May 01, 1967, the1/5th(M)(-) conducted local S&D operations without contact. Company C remained attached to the 1/27th Infantry.
+            </p>
+            <p>
+              On May 02, 1967, the battalion conducted S&D operations in the area of XT 5333 and also provided resupply convoy escort.
+            </p>
+            <p>
+              On May 03, 1967, the 1/5th(M) commenced a two day sweep of the Ho Bo Woods. At 0925 hours, Company A made contact with an unknown number of VC at XT  604267.  Four Bobcats from Company B were killed when an APC hit a mine. There was intermittent contact throughout the day.
+            </p>
+            <p>
+              On May 04, 1967, the battalion continued the sweep through the Ho Bo. Six Bobcats were killed during the day by mines and booby traps; four from Headquarters Company, one from Company A and one from Company B.
+            </p>
+            <p>
+              On May 05, 1967, elements of the battalion conducted S&D operations in the area and also conducted a road sweep to Trang Bang. There was no enemy contact during the day.
+            </p>
+            <p>
+              On May 06, 1967, the battalion conducted operations in the middle of the Boi Loi Woods in the area of XT 5533. They also secured engineer operations in the area. There was no enemy contact.
+            </p>
+            <p>
+              On May 07, 1967, the battalion continued S&D operations and the securing of engineer activities. At 0840 hours, an APC from the Recon Platoon hit an AT mine. One Bobcat was killed and three were wounded by the explosion.
+            </p>
+            <p>
+              On May 08, 1967, the battalion continued operations without enemy contact.
+            </p>
+            <p>
+              On May 09, 1967, the battalion continued security for engineer activities until 1500 hours. At that time they moved from XT 554337 to the Cu Chi Base Camp, ending their participation in Operation Manhattan.
+            </p>
+            <p>
+              From May 10 thru May 12, 1967, the battalion remained at Cu Chi Base Camp conducting maintenance and preparing for future operations.
+            </p>
+            <p>
+              On May 13, 1967, Company A provided the Cu Chi Base Camp reaction force. Other units of the battalion conducted “roadrunner” operations on Highway 8A, from Cu Chi to Bao Trai and Fire Support Base Nickel, located 3 ½ kilometers east of Bao Trai at XT 565045. This began the battalion’s participation in Operation Kolekole which was concentrated in the areas of Duc Hoa, Bao Tri, Hiep Hoa and Loc Giang as well as along the Oriental River. The operation would “officially” begin on May 14, 1967.
+            </p>
+            <p>
+              On May 14, 1967, elements of the battalion continued roadrunner operations to Bao Trai and also provided security southwest of Bao Trai at XT 527043. At 1225 hours an APC from Company B detonated an AT mine resulting in four Bobcats being wounded. Company A remained the Cu Chi Base Camp reaction force.
+            </p>
+            <p>
+              On May 15 and 16, 1967, the battalion continued roadrunner and security operations in the area of Bao Trai. Company A continued its mission of base camp reaction force.
+            </p>
+            <p>
+              On May 17, 1967, the battalion(-) conducted S&D operations in the area of Ap Dong Hoa(3),  7 kilometers west of Bao Trai near the Oriental River. There was no enemy contact.
+            </p>
+            <p>
+              On May 18, 1967, the 1/5th(M)(-) conducted S&D operations south, north and northwest of Bao Trai.  At 1450 hours the Battalion Commander’s APC detonated an AT mine on Highway 10, one kilometer north of the junction of Highway 7A. One Bobcat was killed and four were wounded.
+            </p>
+            <p>
+              On May 19 and 20, 1967, the battalion(-) continued S&D operations to the east of Bao Trai in the area of  XT 5604. On the 20th, Company C assumed the role of Cu Chi Base reaction force. One Bobcat from Company C was killed by small arms fire.
+            </p>
+            <p>
+              On Sunday, May 21, 1967, the 1/5th(M)(-) along with the 1/27th Infantry(-), conducted a cordon and search of  Ap Duc Ngai (1), located north of Bao Trai, with no enemy contact. One Bobcat from Company C was killed by an explosive device during the day.
+            </p>
+            <p>
+              On May 22, 1967, the battalion conducted cordon and search operations with the 1/49th Infantry(ARVN) east of Bao Trai in the area of XT 5903. They then conducted S&D operations from that area to FSB/PB Nickel with negative enemy contact.
+            </p>
+            <p>
+              On May 23, 1967, the battalion(-) conducted roadrunner operations during the hours of darkness. During daylight they remained at FSB/PB Nickel.
+            </p>
+            <p>
+              From May 24 to 31, 1967, the battalion conducted roadrunner, search and destroy, cordon and search and security operations in the Bao Trai area with light, intermittent enemy contact.
+            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <li>Map 15  Duc Hoa area</li>
+              </ul>
+            </div>
+            <p>
+              During May 1967, fourteen Bobcats died in Viet Nam. They were:  James H. Flickinger; Chester G. Jordan; Glendell Morgan; Lee H. Russ; Thomas A. Brynelsen; John S. Cartwright; Ralph W. Crytzer Jr.; Jack R. Lenner; James N. Law; William E. McGinnis II; Daniel M. Kasten; Ronny L. Palmer; Mack E. Gregory;  and David A. Haraldson.
+            </p>
+            <div class="oneMonth" data-section="jun">JUNE</div>
+            <p>
+              From June 01, 1967 to June 06, 1967, the battalion continued a variety of operations in the Bao Trai, Duc Hoa and Cu Chi areas.
+            </p>
+            <p>
+              On June 02, 1967, Company C had an ambush patrol out. An APC from Company C was on road patrol near the ambush site and hit an AT mine. The track was flipped over onto its top. After the explosion, the ambush patrol went to the APC to help the wounded and secure the area. The platoon sergeant was lying next to the track with both his legs pinned underneath it. The driver was dead in the driver’s hatch.
+            </p>
+            <p>
+              On June 07, 1967, the battalion(-) conducted roadrunner operations between Bao Trai and Cu Chi on Highway 8A.  An APC from Company B hit a mine and burned. Six Bobcats were killed. Two of the bodies burned inside the track and could not be recovered until later in the day. Elements of the battalion also conducted a seal and search of Tho Mo on Highway 10, between Bao Trai and Duc Hoa. Elements also continued security missions in the area.
+            </p>
+            <p>
+              From June 08, 1967 to June 13, 1967, the battalion continued various types of operations in the same general area. On June13, a “County Fair” Operation was conducted at Thoi Moi (1), southeast of Bao Trai.
+            </p>
+            <p>
+              On June 14, 1967, the battalion conducted roadrunner operations in the vicinity of Bao Trai. Company C conducted combined security operations with one platoon of the 2/49th Infantry (ARVN) on the road running between Duc Lap and Duc Hoa. An APC from Company C detonated a mine. Two Bobcats were killed by the blast.
+            </p>
+            <p>
+              On June 15, 1967, the battalion conducted local security operations in the vicinity of Bao Trai. Company C worked the road between Duc Lap and Duc Hoa with the 49th Infantry (ARVN).
+            </p>
+            <p>
+              On June 16, 1967, Company A conducted road security operations with the 49th ARVN Infantry. The battalion(-) conducted a cordon and search in the area of Tho Mo, located on Highway10 about halfway between Bao Trai and Duc Hoa.
+            </p>
+            <p>
+              On June 17, 1967, Company C conducted a combined sweep operation of the FSB Nickel perimeter along with an ARVN MI squad.  The remainder of the battalion conducted security operations.
+            </p>
+            <p>
+              On June 18, 1967, the 1/5th(M) along with the 1st and 2nd Battalions of the 27th Infantry conducted a cordon and search operation of Giong Lon, located southeast of Bao Trai at XT 6102.
+            </p>
+            <p>
+              On June 19, 1967, Company B conducted road security operations with elements of the 2/49th ARVN Infantry. The remainder of the battalion conducted local security operations.
+            </p>
+            <p>
+              On June 20, 1967, the Recon Platoon conducted road clearing operations on Highway 8A south of Cu Chi, along with one platoon of ARVN Soldiers from the 2/49th Infantry. The battalion(-) conducted a sweep between Highways 8A and 9A, moving from the southwest to the northeast.
+            </p>
+            <p>
+              From June 21, 1967 to June 30, 1967, the battalion continued operations in the area of Bao Trai and FSB Nickel. The units of the battalion conducted combined operations with various elements of the Army of the Republic of Viet Nam. On June 24, there was a ceremony celebrating the reopening of Highway10 between Duc Hoa and Bao Trai. On the 29th of June units of the battalion conducted “Eagle Flights” to four landing zones east of Bao Trai with negative enemy contact.
+            </p>
+            <p>
+              During June 1967, Eight Bobcats died in Viet Nam. They were: Everdene Baker Jr.; Harris V. Davis; William L. Evans; Rex A. LaDuke;  Luis E. Milan-Anavitarte; Kenneth P. Newton; Robert L. Holland;  and Joseph H. Urmann.
+            </p>
+            <div class="oneMonth" data-section="jul">JULY</div>
+            <p>
+              From July 01, 1967 to July 09, 1967, the battalion concentrated its operations to the southeast of Bao Trai. Numerous combined operations were conducted with elements of the ARVN 49th Infantry. Airmobile combat assaults were made with no enemy contact, however, enemy fortifications were located and destroyed.
+            </p>
+            <p>
+              On July 10, 1967, the battalion shifted its operations to the northwest of Bao Trai, along the Oriental River.
+            </p>
+            <p>
+              On July 12, 1967, the battalion conducted S&D operations in the area bounded by Highways 6A, 10, 7A and the Oriental River. Company A located and destroyed 55 bunkers. Company B located and destroyed 9 bunkers, one tunnel and several booby traps.
+            </p>
+            <p>
+              On July 13, 1967, the battalion encountered light and sporadic enemy contact in the area of Loc Giang, located southeast of the road junction of Highways 10 and 6A. Two Bobcats were wounded by small arms fire and dusted off.
+            </p>
+            <p>
+              At 2135 hours Cu Chi Base Camp came under mortar attack. 16 rounds of 82mm Mortar fire impacted in less than one minute. 15 soldiers were wounded.
+            </p>
+            <p>
+              On July 14, 1967, at 0720 hours one Bobcat from Company B was wounded when an anti-personnel mine was detonated north of Highway 6A between Loc Hua and the Oriental River. At 0721 hours, an APC from Company A detonated an AT mine with negative casualties.
+            </p>
+            <p>
+              At 0745 hours, one Bobcat from Company A was killed and two were wounded when a man stepped on a mine near Loc Thuan. At 0900 hours, Company C suffered four wounded when two booby traps were detonated. Elements of the battalion located and destroyed numerous booby traps during the day.
+            </p>
+            <p>
+              On July 15, 1967, while working the same area, Company B located a munitions cache. Among the items found were 60 81mm mortar rounds, 43 60mm mortar rounds and 32- 2.75inch rockets.
+            </p>
+            <p>
+              From July 16 thru 19, 1967, the battalion conducted S&D operations in the area of Loc Giang. On July16, a search operation was conducted with the Trang Bang Regional Forces Company. Elements of the battalion provided security for engineer activities in the area.
+            </p>
+            <p>
+              On July 24, 1967, the battalion continued local security and S&D operations in the Loc Giang area. Companies A and B had light enemy contact. At 2000 hours Company B suffered four wounded when an AT mine was detonated.
+            </p>
+            <p>
+              At 2328 hours, Dau Tieng Base Camp received 70 82mm Mortar rounds impacting inside the base perimeter and 30 rounds impacting outside the perimeter. One aircraft was destroyed and 24 received substantial damage. 50 personnel were wounded.
+            </p>
+            <p>
+              From July 25 to July 31, 1967, the battalion continued working the Loc Giang area. Security was provided to engineer and artillery activities in the area. S&D operations were conducted along the Oriental River. On July 26th, Company A suffered two wounded when a booby trap was detonated at 1115 hours in the area of XT 435175, north of Highway 6A.
+            </p>
+            <p>
+              At 1320 hours, another man from Company A was wounded from a booby trap in the same general area. On July 27th, airmobile combat assaults were made on the east and west sides of the Oriental River. On July 28th, Company C had one man wounded from a booby trap explosion. On July 29th, four airmobile combat assaults were conducted by units of the battalion along with one Company of CIDG personnel from Hiep Hoa. Enemy contact was light and scattered. On July 30th, elements of the battalion continued to provide security for engineer and artillery activities in the area. Three Bobcats from Company C were wounded when a booby trap was detonated. On July 31st, S&D operations continued in the area.
+            </p>
+            <p>
+              During July 1967, one Bobcat died in Viet Nam. He was:
+            </p>
+            <ul>
+              <li>Guillermo Munoz</li>
+            </ul>
+            <p>
+              For the Quarterly Period of May 01, 1967 to July 31, 1967 the 25th Infantry Division reported the following: KIA: 123;   WIA: 1331;   MIA: 0;   DOW: 15;   NBD: 8;   NBI: 93.
+            </p>
+            <p>
+              There continued to be a shortage of approximately 50% of the authorized Infantry NCOs in grades E-5 and E-6 for the Division.
+            </p>
+            <p>
+              Convoys: Cu Chi to Saigon – 202</br>
+              Saigon to Cu Chi – 176</br>
+              Cu Chi to Tay Ninh / Dau Tieng – 176</br>
+            </p>
+            <p>
+              The 25th Infantry Division Quartermaster Bath Unit reported that “extensive support” was given to the 1st Bn(M), 5th Infantry and to the 4th Bn, 9th Infantry during field operations this reporting quarter.
+            </p>
+            <p>
+              A summary of enemy activities noted that VC activities for the Quarter consisted mainly of harassing attacks and tactics (Mines, booby traps, ect). These were directed toward delaying operations that were in support of rural development. There were also many acts of assassination and kidnapping against the civilian populace.
+            </p>
+            <div class="oneMonth" data-section="aug">AUGUST</div>
+            <p>
+              On August 01, 1967, security for engineer and artillery activities continued to be provided by units of the battalion. S&D operations were conducted in the Loc Giang area and an airmobile combat assault was made into an LZ 4 kilometers south of Trang Bang.
+            </p>
+            <p>
+              On August 02, 1967, airmobile combat assaults were made into three different landing zones southeast of Loc Giang along route 10. Enemy contact was light and 2 VC were killed. Security for the activities of engineer and artillery units in the area was provided by units of the battalion.
+            </p>
+            <p>
+              On August 04, 1966, at 1025 hours, a grenade factory was located 1 kilometer north of highway 6A, along the Oriental River at XT 406169. At 1420 hours, a second grenade factory was located several hundred meters to the northeast of the first location.
+            </p>
+            <p>
+              On August 05, 1967, the 1/5th(M)(-) conducted a cordon and search operation in the area of Loc Binh which is located 1 kilometer southeast of the junction of Highways 10A and 6A. That evening at 2145 hours three Bobcats were wounded by enemy mortar fire.
+            </p>
+            <p>
+              On August 06, 1967, at 1430 hours, a munitions factory was located in the area of XT 419180. This was only a couple of hundred meters north of the grenade factories located on August 4.
+            </p>
+            <p>
+              On August 07, 1967, at 1530 hours, a large ammo cache was located in the area of XT 404169, near the banks of the Oriental River.
+            </p>
+            <p>
+              The battalion continued to provide security for engineer and artillery units in the area. On August 9th, Company C had one man wounded from a booby trap. On August 10th, combat airmobile assaults were made into 5 different LZs. Contact was light. At 1145 hours, Company A had 4 men injured by a charging water buffalo in the area of XT 4713. On August 11th, S&D operations continued in the area. At 1215 hours, the Recon Platoon had an APC detonate an AT mine causing two Bobcats to be wounded. On August 12th, a munitions cache containing 268 Chicom grenades, 12 grenade launchers and assorted small arms ammunition was located at XT 414172. Again, this was in the same general area as the munitions factories that had been located earlier in the month. On August 13th, at 0630 hours, a Bobcat from Company C was wounded by a booby trap and dusted off. On August 16th, a small weapons cache was located along the Oriental River at XT 397184. Company C engaged four VC on August 17th and killed all four. At 1241 hours on August 18th, Company A located a weapon’s cache at XT 432146. At 1545 hours Company C located a weapon and ammunition cache at XT 430127.
+            </p>
+            <p>
+              On August 19, 1967, elements of the battalion continued to secure engineer work areas and to provide security for artillery units. At 0515 hours, an ambush patrol from the Recon Platoon that was set up on the Oriental River had one man evacuated with a gunshot wound.
+            </p>
+            <p>
+              On August 20, 1967, elements of the battalion conducted airmobile combat assaults into eight different landing zones. Contact was light and sporadic.
+            </p>
+            <p>
+              On August 22, 1967, at 1100 hours a Chieu Hoi directed the Recon Platoon to a location were several weapons were discovered. At 1425 hours another Chieu Hoi led Company C to a 1,400 pound rice cache at XT 453147.
+            </p>
+            <p>
+              On August 24, 1967, an ambush patrol from Company C engaged a motorized sampan on the Oriental River at 0255 hours, sinking the boat. Elements of the battalion conducted airmobile combat assaults. At 1040 hours, Company A suffered two Bobcats wounded from a booby trap at XT 459039.  Within the next hour the company located 3 small caches in the same area, containing small arms and mortar ammunition.
+            </p>
+            <p>
+              On August 25, 1967, the battalion continued Eagle Flights in the Loc Giang area. That afternoon, 11 detainees and 1 VC POW were apprehended and turned over to Vietnamese authorities.
+            </p>
+            <p>
+              On August 26, 1967, the Recon Platoon was led to a tunnel at XT 412165 by the VC POW of the previous day. One Chicom carbine and 200 rounds of ammunition were found inside the tunnel located several hundred meters north of Highway 6A. Eagle Flights were conducted to an area where a Chieu Hoi stated that a weapons cache was located. No cache could be found.
+            </p>
+            <p>
+              On August 28, 1967, at 1535 hours, Company C with the assistance of a Hoi Chanh located and destroyed 2 tunnels and 4 hidden spider holes. At 1900 hours, a Company C ambush patrol engaged 2 sampans and 5 VC on the Oriental River at XT 406143. The sampans, loaded with cargo were sunk and the VC were killed in the engagement.
+            </p>
+            <p>
+              On August 29, 1967, the battalion continued to provide security for engineer elements working on Highway 10 and also conducted S&D operations in the area.
+            </p>
+            <p>
+              On August 30, 1967, the Recon Platoon engaged and sunk a sampan on the river. Elements also assisted S-2 personnel in apprehending a female who was identified by Hoi Chanhs as a VC nurse.
+            </p>
+            <p>
+              During August 1967, no Bobcats died in Viet Nam.
+            </p>
+            <div class="oneMonth" data-section="sep">SEPTEMBER</div>
+            <p>
+              On September 01, 1967, the 1/5th(M) conducted S&D operations in the Loc Giang area and provided security for engineer work areas and artillery units. Three Bobcats from Company C were wounded when a booby trap was detonated at 0925 hours near Loc Hoa at XT 419180. Company A was led to a tunnel by a Hoi Chanh near Xom Mia at XT 453163. Several weapons and a US Claymore mine were located in the tunnel. At 1700 hours, Company C went OPCON to Task Force Hodson.
+            </p>
+            <p>
+              On September 02, 1967, elements of Company B conducted an airmobile combat assault to an LZ at XT 414149. Company A apprehended some detainees near XT 4417.  One platoon from Company B secured a bridge about 5 kilometers west of Trang Bang at XT 453191 during the night. Company C, while OPCON to TF Hodson, conducted security operations in the sugar cane fields near XT 438078.
+            </p>
+            <p>
+              On September 03, 1967, at 0023 hours, the platoon from Company B securing the bridge site received one round of mortar fire. The 1/5th(M)(-) conducted S&D operations in the Loc Giang area as part of the election security for the Republic of Viet Nam. Company C conducted security and S&D operations as part of TF Hodson.
+            </p>
+            <p>
+              On September 04, 1967, elements of the battalion conducted S&D operations in the Loc Giang area. One platoon from Company B remained at the bridge site as security. Company C remained OPCON to TF Hodson and conducted S&D and security operations in the Ap Dong Hoa area.
+            </p>
+            <p>
+              On September 05, 1967, Company C returned to battalion control at 0800 hours. Operations continued in the Loc Giang area.
+            </p>
+            <p>
+              On September 07, 1967, the battalion conducted S&D, saturation patrolling and security operations. At 1237 hours, the Recon Platoon apprehended a female detainee who was later identified as a VC intelligence agent. At 1415 hours, an APC from Company A detonated an AT mine. Four of the nine Bobcats who were wounded were dusted-off.
+            </p>
+            <p>
+              On September 08, 1967, Company A and the Recon Platoon conducted “Bushmaster” operations. Security for engineer and artillery activities was continued. Airmobile combat assaults were also conducted. At 1310 hours, a Bobcat from Company C was injured when a helicopter crashed due to a lost rotor blade.
+            </p>
+            <p>
+              On September 09, 1967, the battalion continued to provide security for artillery and engineer operations. Day and night ambush patrols were also conducted throughout the area. At 1620 hours, an APC from Company A detonated an AT mine with negative casualties. On September 10th, airmobile combat assaults were conducted with negative contact. On September 11th, the battalion conducted mounted sweep operations as well as dismounted search and destroy operations.
+            </p>
+            <p>
+              On September 12, 1967, elements of the battalion conducted an airmobile combat assault and established a blocking position west of Go Dau Ha at XT 2532. Company A remained in the area of FSB Diane, providing security for engineer and artillery operations. At 1445 hours, one Bobcat from Company C was killed by a “friendly” artillery long round. At 1515 hours, a Hoi Chanh led Company C to a small ammunition cache at XT 252324. By 1800 hours, the battalion- completed airmobile movement back to FSB Diane. The Recon Platoon provided security for FSB Carol located northwest of Go Dau Ha at XT 334357.
+            </p>
+            <p>
+              On September 13, 1967, “Eagle Flights” were conducted by units of the battalion to three LZs. One detainee was taken into custody by Company A at 1545 hours.
+            </p>
+            <p>
+              On September 14, 1967, the battalion continued security operations and also conducted saturation ambush patrolling in the area of Loc Giang. At 0515 hours, an ambush patrol from Company A engaged 2 VC with negative results. At 2220 hours, an ambush patrol from Company A, located 500 meters south of the junction of Highways10 and 6A, received small arms and automatic weapons fire at XT 435157. One Bobcat was killed and two were wounded.
+            </p>
+            <p>
+              On September 16, 1967, Company B returned to Cu Chi Base Camp and assumed the role of base reaction force. Company A continued to provide security for engineer operations at the laterite pit and west of the junction of Highways 1 and 7A. A Hoi Chanh led the Recon Platoon to 5 AT mines and they were destroyed in place. Company C, 2/27th Infantry became OPCON to the 1/5th(M) for security of engineer activities in the Loc Giang area. At 1930 hours, an ambush patrol from Company C, 1/5th(M), engaged and killed 3 VC in a sampan on the Oriental River. Company B, 1/5th(M) went OPCON to the 1st Brigade at 2015 hours.
+            </p>
+            <p>
+              On September 17, 1967, the battalion(-) continued operations in the Loc giang area. Company B was released from OPCON to the 1st Brigade at 1715 hours and continued as Cu Chi Base Camp reaction force.
+            </p>
+            <p>
+              On September 18, 1967, at 0621 hours, an APC from Company C detonated an AT mine. Four Bobcats were wounded and the APC was a combat loss. Company B remained at Cu Chi and the battalion with Company C, 2/27th Infantry continued operations in the Loc Giang area.
+            </p>
+            <p>
+              On September 19, 1967, the battalion(-) conducted security operations and prepared for night saturation ambush patrolling. Company B remained at Cu Chi and provided one platoon to secure engineer operations 6 kilometers northwest of Cu Chi.
+            </p>
+            <p>
+              On September 21, 1967, Co C, 2/27th Infantry provided security for engineer operations in the Loc Giang area. The 1/5th(M)(-) conducted S&D operations and saturation night ambush activities in the area. Company B was still the Cu Chi Base reaction force, but provided one platoon for security of engineer operations. At 0730 hours, an APC from Company B detonated an AT mine near Xom Thap at XT 543169. Two Bobcats were killed and four were wounded.
+            </p>
+            <p>
+              On September 22, 1967, the battalion(-) continued S&D operations and ambush patrolling. Company B provided one platoon for engineer security and remained the Cu Chi Base reaction force.
+            </p>
+            <p>
+              On September 25, 1967, Company B went OPCON to the 1/27th Infantry. The remainder of the battalion conducted S&D operations and night ambush patrols in the Loc Giang area.
+            </p>
+            <p>
+              On September 28, 1967, at 0700 hours, Company B was released OPCON from the 1/27th Infantry and secured Rome Plow operations between Highways 1 and 7A at XT 5416. The 1/5th(M)(-) occupied blocking positions along the Oriental River at XT 4116 and XT 4114.
+            </p>
+            <p>
+              On September 29, 1967, the battalion(-) conducted S&D operations and night ambush activities in the Loc Giang area. Company B continued to provide security for Rome Plow operations.
+            </p>
+            <p>
+              On September 30, 1967, the 1/5th(M)(-) occupied night positions at Fire Support/Patrol Base Diane at XT 424166. During the day they began movement to Cu Chi Base Camp, arriving at 1355 hrs. Company B remained at XT 545155 providing security for Rome Plow operations.
+            </p>
+            <p>
+              The battalion had been in the field for 142 days. It was a long time to be moving through the muck and mud. But it paid off in locating hidded enemy caches. During that time period, the battalion had a policy of using everything and anything that was available to throw at the enemy, before using troops.
+            </p>
+            <p>
+              Ambushes along the Oriental River were very successful. Besides mounting 106mm Recoilless Rifles on one APC in each platoon, 90mm Recoilless Rifles, were used on the ambushes. The men used “short rounds, making for one big shotgun. They would blow a sampan plum out of the water.”
+            </p>
+            <p>
+              During September 1967, four Bobcats died in Viet Nam. They were: Evaristo Sandoval; Harold J. Canan; Michael A. Roberts; and William E. Swensgard.
+            </p>
+            <div class="oneMonth" data-section="oct">OCTOBER</div>
+            <p>
+              From October 01, 1967 to October 07, 1967, the 1st Battalion(M) 5th Infantry remained at Cu Chi Base Camp conducting maintenance on vehicles and equipment.
+            </p>
+            <p>
+              On October 08, 1967, the battalion departed Cu Chi Base Camp and moved to an area 4 kilometers southeast of Trang Bang at XT 537168. Their mission was to establish a fire support / patrol base at that location. Platoon sized S&D operations were conducted in the area during the afternoon.
+            </p>
+            <p>
+              On October 09, 1967, the battalion(-) remained at the fire support / patrol base. Company B and Company C set up separate night base perimeters to the south, one north of  Highway 7A and one South of  Highway 7A. Company A provided one platoon for a Cu Chi Base Camp reaction force. Platoon size S&D operations were conducted in the area. At 2216 hours, an ambush patrol from Company B engaged and killed 3 VC, 1000 meters west of the Company night base.
+            </p>
+            <p>
+              On October 11, 1967, platoon sized S&D operations were continued in the area. Company A again provided one platoon for Cu Chi Base Camp reaction force. At 1930 hours, an ambush patrol from Company B, located 200 meters south of the one that was “tripped” on August 9th, engaged 4 VC, killing two of them.
+            </p>
+            <p>
+              On October 12, 1967, Company A provided one platoon for Cu Chi Base Camp reaction force and one platoon to secure Fire Support Base Martha, located 6 kilometers northwest of Trang Bang at XT 452266. The battalion(-) continued small unit S&D operations.
+            </p>
+            <p>
+              On October 13, 1967, the battalion(-) moved to a blocking position on the Oriental River in conjunction with a combined S&D operation of the 1/27th Infantry and the 49th ARVN Infantry. The battalion(-) returned to their forward base area at XT 546155 by 1800 hours. Company A continued to provide one platoon for Cu Chi Base Camp reaction force and one platoon to secure FSB Martha.
+            </p>
+            <p>
+              On October 15, 1967, platoon size S&D operations were conducted. At 1220 hours, in the area of XT 553143, an APC from Company B exploded an 81mm round that was rigged with a pressure type detonating device. One Bobcat was killed and three were wounded.
+            </p>
+            <p>
+              On October 16, 1967, Companies B and C conducted “Bushmaster” operations at Ap Binh Dong and Thai My along Highway 7A. Company A continued to provide one platoon to secure FSB Martha and one platoon for Cu Chi Base Camp. One Bobcat from the Recon Platoon was killed by a booby trap explosion.
+            </p>
+            <p>
+              On October 17, 1967, units of the battalion conducted S&D operations and a combined operation with the Trang Bang Popular Forces. Company B located 1 tunnel and had light contact, capturing 1 VC POW. Company C established a night base near Thai My and the battalion(-) established a base near Xom Thap.
+            </p>
+            <p>
+              On October 18, 1967, one daylight ambush was deployed. S&D operations were conducted with light contact.
+            </p>
+            <p>
+              On October 19, 1967, Company C provided security for Fire Support / Patrol Base Gertrude located southwest of Thai My at XT 524144. Company A provided one platoon to secure FSB Martha. One Bobcat from Company C was killed by a boobytrap explosion. At 2150 hours, an ambush patrol from Company B engaged three VC, killing one.
+            </p>
+            <p>
+              On October 20, 1967, Company B established a new base area south of Ap Dong Hoa (2) on Highway 7A. Company C provided security for FSB Gertrude and Company A provided security for FSB Joyce, north of Go Dau Ha (XT 383262), until relieved by the Recon Platoon.
+            </p>
+            <p>
+              At 2320 hours, a South Vietnamese CIDG patrol walked into the kill zone of a Company B ambush patrol that was set up on the edge of the sugar cane at XT 458079. Three South Vietnamese soldiers were killed and two were wounded.
+            </p>
+            <p>
+              On October 21, 1967, the battalion(-) conducted platoon size S&D operations. Company A provided one platoon to secure FSB Joyce and the Recon Platoon provided security for FSB Gertrude. Company B remained in the area south of Hiep Hoa and deployed extensive night ambush patrols.
+            </p>
+            <p>
+              On October 22 and 23, 1967, Company B deployed combined ambush patrols with elements of the Hiep Hoa Popular Forces.
+            </p>
+            <p>
+              On October 24, 1967, Company C moved to a new base camp in the area of FSB/PB Sandra located just west of Trang Bang. There they conducted security operations with the 34th ARVN Ranger Battalion, providing protection for engineer activity in the area. The Recon Platoon secured FSB Gertrude.
+            </p>
+            <p>
+              On October 25, 1967, Company C remained at FSB/PB Sandra providing local security with the 34th Rangers. Company B provided one platoon for Cu Chi Base Camp reaction force. Company A provided one platoon for the protection of FSB/PB Marilyn and one platoon to secure culvert construction work by engineers on Highway 7A. The Recon Platoon continued to provide protection for FSB Gertrude.
+            </p>
+            <p>
+              From October 26 to October 30, 1967, units of the battalion continued to provide protection for fire support bases and engineer work activities. Ambush patrols and small unit S&D operations were also conducted.
+            </p>
+            <p>
+              On October 31, 1967, Company B provided one platoon for a reaction force at Cu Chi Base Camp. Company C(-) continued working with the 34th ARVN Rangers in providing protection for engineer construction work. At 1950 hours, an APC from Company A detonated an AT mine on Highway 1 near the intersection of Highway 7A, half way between Cu Chi and Trang Bang. Four Bobcats were killed and two were wounded.
+            </p>
+            <p>
+              During October 1967, seven Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Frank A. Price III</li>
+              <li>Junior R. Burns</li>
+              <li>Gary P. Polley</li>
+              <li>Ralph J. DiPace</li>
+              <li>Gregory G. Hubbard</li>
+              <li>John C. Steer</li>
+              <li>Robert W. Larison</li>
+            </ul>
+            <div class="oneMonth" data-section="nov">NOVEMBER</div>
+            <p>
+              On November 01, 1967, elements of the battalion continued to protect engineers working at a culvert site near Xom Thap. Company C worked with the 34th ARVN Rangers securing the roadways in the area of Bao Trai. Ambushes were deployed. (Always).
+            </p>
+            <p>
+              On November 02, 1967, the battalion continued to provide protection for engineer activities. At 1550 hours, one Bobcat from Company B was wounded when he detonated a booby trapped hand grenade. At 1950 hours, the Recon Platoon received harassing sniper fire with negative casualties.
+            </p>
+            <p>
+              On November 03, 1967, at 0235 hours, the Recon Platoon received 30 rounds of enemy mortar fire. Two Bobcats were wounded. Company C continued to work with the 24th ARVN Rangers securing Highway 10 between Bao Trai and Duc Hoa. Protection also continued for the engineers working near Xom Thap. At 2130 hours, a listening post from Company A engaged one VC with unknown results.
+            </p>
+            <p>
+              On November 06, 1967, the 1/5th(M) went OPCON to the 1st Brigade, 25th Infantry Division.
+            </p>
+            <p>
+              On November 11, 1967, a Bobcat from Company C was killed by an explosion. This individual carried a Chicom grenade around with him that he had found. This day a dud artillery round was located and he was going to attempt to detonate the dud using the Chicom grenade. He activated the fuse and the grenade exploded, killing him. It had been rigged with an instantaneous fuse.
+            </p>
+            <p>
+              On November 15, 1967, two Bobcats from Headquarters Company were killed in a mortar attack on the battalion night forward base camp. A third Bobcat from Company C died from multiple fragmentation wounds.
+            </p>
+            <p>
+              On November 17, 1967, the battalion was released from OPCON to the 1st Brigade at 0600 hours. One platoon from Company B was assigned to protect FSPB Janet, located in the northeastern edge of the Filhol at XT 703207. The battalion(-) provided security for Rome Plow operations in the area of Thai My at XT 5415.
+            </p>
+            <p>
+              On November 19, 1967, the 1/5th(M)(-) continued to protect Rome Plow operations. Units also provided protection, along with elements of the 34th ARVN Rangers, for engineer activities along Highway 10 between Dong Hoa(2) and Loc Thanh. At 2102 hours, an ambush patrol from Company C exchanged small arms fire with an estimated 5 VC with negative casualties. At 2205 hours, an ambush patrol from Company C, located along Highway 10, fired on a small group of VC with a 106mm Recoilless Rifle, killing one. Company B(-) provided security for an engineer ferry crossing site on the Saigon River at XT 712209.
+            </p>
+            <p>
+              On November 20, 1967, the battalion forward base remained in the area of Thai My at XT 545155. Company C(-) provided security along Highway 10. Two squads from Company C were assigned to protect FSB Sandra. At 2015 hours, an ambush patrol from Company B engaged 2 VC in a sampan on the Saigon River. Using a 106mm RR, they killed the VC and sank the boat. At 2145 hours, the same ambush, located at XT 712211, killed another VC.
+            </p>
+            <p>
+              On November 21, 1967, Company B provided one platoon for Cu Chi Base Camp security patrol. One platoon was assigned to protect FSB Janet. The remainder of the company provided security for Rome Plow operations in the area of Thai My. Company A provided one platoon to secure an engineer culvert construction site on Highway 7A, at XT 557157. Company C continued operations along Highway 10 until 0800 hours. At that time they commenced movement to Cu Chi Base Camp, closing at 1015 hours.
+            </p>
+            <p>
+              On November 22, 1967, Company C remained at Cu Chi Base Camp as base reaction force. One platoon from Company A continued to protect the engineer culvert site on Highway 7A. The remainder of Company A secured Rome Plow operations. One platoon from Company B secured FSB Janet and the remainder of the company provided protection to the engineer ferry crossing site on the Saigon River at XT 702210.
+            </p>
+            <p>
+              On November 24, 1967, Company A continued to provide protection for engineer and Rome Plow activities. Company B sent one platoon to Cu Chi for base camp reaction force; one platoon to secure FSB Janet and the remainder of the company secured the ferry crossing site on the Saigon River. Company C provided 2 squads to secure FSB Sandra. The remainder of Company C secured motor movement along Highway 10 from Loc Thanh to Dong Hoa.
+            </p>
+            <p>
+              On November 26, 1967, Rome Plow clearing operations were completed and the 1/5th(M)(-) moved to Cu Chi Base Camp, arriving at 1600 hours. Company B(-) continued protecting the ferry crossing site and 2 squads from Company C secured FSB Sandra.
+            </p>
+            <p>
+              On November 27, 1967, at 1200 hours, Company C went OPCON to the 1st Brigade, 25th Infantry Division. The battalion(-) remained at Cu Chi Base.
+            </p>
+            <p>
+              On November 30, 1967, the battalion(-) remained at Cu Chi. Company C remained OPCON to the 1st Brigade. Company B assigned one platoon to secure an engineer ferry crossing site.
+            </p>
+            <p>
+              During November 1967, five Bobcats died in Viet Nam. They were: Robert W. Larison; Anderson Turner; Lorinzer P. Clark Jr; Jimmie L. McMorris; and Otis T. Smith.
+            </p>
+            <div class="oneMonth" data-section="dec">DECEMBER</div>
+            <p>
+              On December 01, 1967, the 1/5th(M) went OPCON to the 1st Brigade, 25th Infantry Division and ended their participation in Operation Kolekole.
+            </p>
+            <p>
+              Statistical data for units when they were involved in Operation Kolekole which “officially” terminated on December 07, 1967, was:
+            </p>
+            <p>
+              Unit  KIA WIA DOW NBI</br>
+              1/5th(M): 27 206 1 27</br>
+              1/27th Inf: 69 418 10 23</br>
+              2/27th Inf: 47 237 2 18</br>
+              4/23rd(M):   1   13 1 1</br>
+            </p>
+            <p>
+              From December 01, 1967 to December 07, 1967, the battalion participated in the close of Operation Barking Sands with the 1st Brigade. Operation Barking Sands involved pacification and Rome Plow clearing in Cu Chi and Trang Bang Districts of Hau Nghia Province.
+            </p>
+            <p>
+              From December 08, 1967 to December 19, 1967, the 1st Battalion(M) 5th Infantry was OPCON to the 25th Infantry Division. The battalion operated in the northern part of Tay Ninh Province, providing road security and protection for engineer work projects.
+            </p>
+            <p>
+              On December 13, 1967, one Bobcat from Company C was killed when the APC he was in was hit by an RPG round. He was an RTO, who spent time the night before taking care of personal matters as if he sensed something was going to happen.
+            </p>
+            <p>
+              On December 16, 1967, the battalion forward base camp was located near Highway 22 at XT 079839, about 8 kilometers north of Highway 247.  At 1100 hours, an estimated platoon sized VC force struck from the west and southwest and southeast. Approximately 20 to 30 rounds of RPG-2 were fired along with AK-47 fire. At 1120 hours, the VC broke contact. Two Bobcats from Company C were killed and 16 were wounded. Two other Bobcats from Company C burned to death inside an APC that was hit by an RPG-2. Their remains had to be removed by Graves Registration personnel. 2 APCs were destroyed in the attack. The VC had 3 men killed by body count.
+            </p>
+            <p>
+              At 1415 hours, a tank that had hit a mine was stripped and destroyed in place.
+            </p>
+            <p>
+              From December 20, 1967 to December 23, 1967, the battalion was OPCON to the 1st Brigade, 25th Infantry Division.
+            </p>
+            <p>
+              During December 1967, five Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Gene F. Lee</li>
+              <li>Michael T. Collins</li>
+              <li>Edward A. Finlay</li>
+              <li>James Y. Hidalgo</li>
+              <li>Kenneth D. Kralick</li>
+            </ul>
           </div>
           <div class="segmentLinks">
             <div class="linkBox">

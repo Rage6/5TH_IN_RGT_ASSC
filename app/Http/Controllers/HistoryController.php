@@ -38,6 +38,15 @@ class HistoryController extends Controller
        ]);
     }
 
+    public function vietnam_1967()
+    {
+       return view('history',[
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'vietnam_1967_content'
+       ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

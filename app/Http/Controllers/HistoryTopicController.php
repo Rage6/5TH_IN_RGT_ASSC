@@ -18,7 +18,12 @@ class HistoryTopicController extends Controller
      $ben_cui_casualties = DB::table('casualties')
       ->join('conflicts','conflicts.id','casualties.conflict_id')
       ->select('casualties.id','rank','first_name','last_name','name')
-      ->where('name','like','%Ben Cui%')
+      ->where([
+        ['name','like','%Ben Cui%'],
+        ['day_of_death','=','21'],
+        ['month_of_death','=','8'],
+        ['year_of_death','=','1968']
+      ])
       ->orderBy('casualties.last_name')
       ->get();
      return view('history_topic_with_lists',[

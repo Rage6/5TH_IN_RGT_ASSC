@@ -398,6 +398,9 @@ p {
   background: linear-gradient(45deg, transparent, transparent);
   width: 96%;
   min-height: 200px;
+  /* Below CSS is to fix the Safari issue */
+  -webkit-text-fill-color: #880000;
+  opacity: 1;
 }
 
 .casualtyDetails {

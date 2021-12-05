@@ -399,7 +399,7 @@ p {
   width: 96%;
   min-height: 200px;
   /* Below CSS is to fix the Safari issue */
-  -webkit-text-fill-color: #880000;
+  -webkit-text-fill-color: white;
   opacity: 1;
 }
 

@@ -82,10 +82,12 @@
                   <div>
                     {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
                   </div>
-                  <div class="fullArrow">
-                    <div class="topArrowHalf"></div>
-                    <div class="bottomArrowHalf"></div>
-                  </div>
+                  <a href="/memorials/casualties?id={{ $one_casualty->id }}&selected=yes">
+                    <div class="fullArrow">
+                      <div class="topArrowHalf"></div>
+                      <div class="bottomArrowHalf"></div>
+                    </div>
+                  </a>
                 </div>
               @endforeach
               <!-- <div class="shadeBottom">

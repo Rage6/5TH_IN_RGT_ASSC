@@ -260,7 +260,7 @@
                 </div>
                 <div class="onePanelBox">
                   <div class="onePanelTitle">
-                    Tom Framer
+                    Tom Frame
                   </div>
                   <div class="onePanelImg" id="framer"></div>
                   <div class="onePanelBio">

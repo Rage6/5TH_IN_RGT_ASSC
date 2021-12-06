@@ -22,7 +22,7 @@ class HistoryController extends Controller
 
     public function vietnam_preface()
     {
-       return view('history',[
+       return view('vietnam_log',[
          'style' => 'history_style',
          'js' => '/js/my_custom/history/history.js',
          'content' => 'vietnam_preface_content'
@@ -31,7 +31,7 @@ class HistoryController extends Controller
 
     public function vietnam_1966()
     {
-       return view('history',[
+       return view('vietnam_log',[
          'style' => 'history_style',
          'js' => '/js/my_custom/history/history.js',
          'content' => 'vietnam_1966_content'
@@ -40,7 +40,7 @@ class HistoryController extends Controller
 
     public function vietnam_1967()
     {
-       return view('history',[
+       return view('vietnam_log',[
          'style' => 'history_style',
          'js' => '/js/my_custom/history/history.js',
          'content' => 'vietnam_1967_content'

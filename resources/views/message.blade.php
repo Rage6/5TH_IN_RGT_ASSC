@@ -14,11 +14,35 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <div class="card">
+                      <form method="POST">
+                        @csrf
+                        <input type="hidden" name="receiver" value="{{ $view_user->id }}" readonly />
+                        <input type="hidden" name="sender" value="{{ $this_user->id }}" readonly />
+                        <textarea name="content" class="card-text" style="height:200px;width:100%" placeholder="Insert your message here..." required ></textarea>
+                        <div class="form-group">
+                          <input class="btn-primary btn" type="submit" name="sendMessage" value="SEND"/>
+                          <button class="btn">
+                            <a href="{{ route('home') }}">
+                              {{ __('BACK') }}
+                            </a>
+                          </button>
+                        </div>
+                      </form>
+                      @foreach ($conversation as $one_talk)
+                        @if ($this_user->id == $one_talk->sent_id)
+                        <div style="background-color:blue">
+                        @else
+                        <div style="background-color:red">
+                        @endif
+                          {{ $one_talk->content }}
+                        </div>
+                      @endforeach
+                    </div>
                     @csrf
                     <div class="card">
                       <!-- <form method="POST" action="home/{{ $this_user->id }}"> -->
-                      <form method="POST">
+                      <!-- <form method="POST">
                         @csrf
                         <div class="card-title">
                           <u>TO:</u> <span>{{ $view_user->first_name }} {{ $view_user->last_name }}</span>
@@ -36,7 +60,7 @@
                             </a>
                           </button>
                         </div>
-                      </form>
+                      </form> -->
                     </div>
                 </div>
             </div>

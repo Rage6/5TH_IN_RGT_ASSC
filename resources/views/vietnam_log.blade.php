@@ -33,9 +33,11 @@
             <div>1966</div>
           </div>
         </a>
-        <div>
-          <div>1967</div>
-        </div>
+        <a href="{{ url('/history/vietnam-history/1967') }}">
+          <div>
+            <div>1967</div>
+          </div>
+        </a>
         <div>
           <div>1968</div>
         </div>

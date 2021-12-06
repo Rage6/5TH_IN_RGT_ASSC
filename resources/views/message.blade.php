@@ -14,11 +14,41 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    @csrf
-                    <div class="card">
-                      <!-- <form method="POST" action="home/{{ $this_user->id }}"> -->
+                    <div class="card messageCard">
                       <form method="POST">
+                        @csrf
+                        <input type="hidden" name="receiver" value="{{ $view_user->id }}" readonly />
+                        <input type="hidden" name="sender" value="{{ $this_user->id }}" readonly />
+                        <textarea name="content" class="card-text messageText" placeholder="Insert your message here..." required ></textarea>
+                        <div class="form-group">
+                          <input class="btn-primary btn" type="submit" name="sendMessage" value="SEND"/>
+                          <button class="btn">
+                            <a href="{{ route('home') }}">
+                              {{ __('BACK') }}
+                            </a>
+                          </button>
+                        </div>
+                      </form>
+                      @if (count($conversation) > 0)
+                        @foreach ($conversation as $one_talk)
+                          @if ($this_user->id == $one_talk->sent_id)
+                          <div class="selfMessage allMessages">
+                          @else
+                          <div class="otherMessage allMessages">
+                          @endif
+                            {{ $one_talk->content }}
+                          </div>
+                        @endforeach
+                      @else
+                        <div class="noMessages">
+                          <i>No conversation yet.</i>
+                        </div>
+                      @endif
+                    </div>
+                    <!-- @csrf -->
+                    <!-- <div class="card"> -->
+                      <!-- <form method="POST" action="home/{{ $this_user->id }}"> -->
+                      <!-- <form method="POST">
                         @csrf
                         <div class="card-title">
                           <u>TO:</u> <span>{{ $view_user->first_name }} {{ $view_user->last_name }}</span>
@@ -36,8 +66,8 @@
                             </a>
                           </button>
                         </div>
-                      </form>
-                    </div>
+                      </form> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </div>

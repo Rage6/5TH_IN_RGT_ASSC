@@ -147,6 +147,41 @@
 
 /* END Edit page */
 
+/* START Message page */
+
+.messageCard {
+  border: none;
+}
+
+.messageText {
+  height:100px;
+  width:100%
+}
+
+.noMessages {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.allMessages {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px 2%;
+  color: white;
+  width: 70%;
+}
+
+.selfMessage {
+  margin-left: 30%;
+  background-color: green;
+}
+
+.otherMessage {
+  background-color: red;
+}
+
+/* END Message page */
+
 /* START Administration page */
 
 .adminCard {

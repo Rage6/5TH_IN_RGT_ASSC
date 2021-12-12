@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class WelcomeController extends Controller
 {
@@ -13,7 +15,17 @@ class WelcomeController extends Controller
      */
     public function index()
     {
+        if (Auth::user()) {
+          $unread_count = DB::table('messages')
+            ->where([
+              ['messages.received_id',Auth::user()->id],
+              ['messages.is_read','==',0]
+            ])
+            ->count();
+        };
+
         return view('welcome',[
+          'unread_count' => $unread_count,
           'style' => 'welcome_style',
           'js' => '/js/my_custom/welcome/welcome.js',
           'content' => 'welcome_content'

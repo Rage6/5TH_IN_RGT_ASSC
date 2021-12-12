@@ -92,6 +92,22 @@
                         </div>
                       </div>
                     </div>
+                    <div id="mail" class="card customCard">
+                      <div class="customCardBody">
+                        <div class="card-header customHeader">
+                          UNREAD MAIL
+                        </div>
+                        <div class="card-body">
+                          @foreach ($all_unread_messages as $one_message)
+                            <div>
+                              <a href="/home/message/{{ $one_message->sent_id }}">
+                                {{ $one_message->first_name }} {{ $one_message->last_name }}
+                              </a>
+                            </div>
+                          @endforeach
+                        </div>
+                      </div>
+                    </div>
                     <div class="card customCard">
                       <div class="customCardBody">
                         <div class="card-header customHeader">

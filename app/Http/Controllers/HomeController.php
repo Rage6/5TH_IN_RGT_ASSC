@@ -80,7 +80,18 @@ class HomeController extends Controller
           ->select('url','name')
           ->where('member_id','=',$this_id)
           ->get();
-        return view('home',compact('this_user','final_all_users','all_jobs','all_links'));
+
+
+        $all_unread_messages = DB::table('messages')
+          ->join('users','users.id','sent_id')
+          ->select('sent_id','users.first_name','users.last_name')
+          ->where([
+            ['messages.received_id',$this_id],
+            ['messages.is_read','==',0]
+          ])
+          ->distinct()
+          ->get();
+        return view('home',compact('this_user','final_all_users','all_jobs','all_links','all_unread_messages'));
     }
 
 }

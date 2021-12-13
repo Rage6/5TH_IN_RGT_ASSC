@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HistoryController extends Controller
 {
@@ -13,38 +15,98 @@ class HistoryController extends Controller
      */
     public function index()
     {
-       return view('history',[
-         'style' => 'history_style',
-         'js' => '/js/my_custom/history/history.js',
-         'content' => 'history_content'
-       ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('history',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'history_content'
+         ]);
+      } else {
+        return view('history',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'history_content'
+        ]);
+      }
     }
 
     public function vietnam_preface()
     {
-       return view('vietnam_log',[
-         'style' => 'history_style',
-         'js' => '/js/my_custom/history/history.js',
-         'content' => 'vietnam_preface_content'
-       ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('vietnam_log',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'vietnam_preface_content'
+         ]);
+      } else {
+          return view('vietnam_log',[
+            'style' => 'history_style',
+            'js' => '/js/my_custom/history/history.js',
+            'content' => 'vietnam_preface_content'
+          ]);
+      }
     }
 
     public function vietnam_1966()
     {
-       return view('vietnam_log',[
-         'style' => 'history_style',
-         'js' => '/js/my_custom/history/history.js',
-         'content' => 'vietnam_1966_content'
-       ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('vietnam_log',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'vietnam_1966_content'
+         ]);
+      } else {
+          return view('vietnam_log',[
+            'style' => 'history_style',
+            'js' => '/js/my_custom/history/history.js',
+            'content' => 'vietnam_1966_content'
+          ]);
+      }
     }
 
     public function vietnam_1967()
     {
-       return view('vietnam_log',[
-         'style' => 'history_style',
-         'js' => '/js/my_custom/history/history.js',
-         'content' => 'vietnam_1967_content'
-       ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('vietnam_log',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'vietnam_1967_content'
+         ]);
+      } else {
+          return view('vietnam_log',[
+            'style' => 'history_style',
+            'js' => '/js/my_custom/history/history.js',
+            'content' => 'vietnam_1967_content'
+          ]);
+      }
     }
 
     /**

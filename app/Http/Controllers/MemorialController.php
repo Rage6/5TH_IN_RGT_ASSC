@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class MemorialController extends Controller
@@ -131,17 +132,38 @@ class MemorialController extends Controller
        } else {
          $casualty_data = null;
        };
-       return view('casualties',[
-         'style' => 'casualties_style',
-         'js' => '/js/my_custom/memorials/memorials.js',
-         'content' => 'casualties_content',
-         'all_casualty_basics' => $all_casualty_basics,
-         'all_conflicts' => $all_conflicts,
-         'casualty_count' => $casualty_count,
-         'already_selected' => $already_selected,
-         'cas_links' => $cas_links,
-         'casualty_data' => $casualty_data
-       ]);
+       if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('casualties',[
+           'unread_count' => $unread_count,
+           'style' => 'casualties_style',
+           'js' => '/js/my_custom/memorials/memorials.js',
+           'content' => 'casualties_content',
+           'all_casualty_basics' => $all_casualty_basics,
+           'all_conflicts' => $all_conflicts,
+           'casualty_count' => $casualty_count,
+           'already_selected' => $already_selected,
+           'cas_links' => $cas_links,
+           'casualty_data' => $casualty_data
+         ]);
+       } else {
+         return view('casualties',[
+           'style' => 'casualties_style',
+           'js' => '/js/my_custom/memorials/memorials.js',
+           'content' => 'casualties_content',
+           'all_casualty_basics' => $all_casualty_basics,
+           'all_conflicts' => $all_conflicts,
+           'casualty_count' => $casualty_count,
+           'already_selected' => $already_selected,
+           'cas_links' => $cas_links,
+           'casualty_data' => $casualty_data
+         ]);
+       };
      }
 
     /**

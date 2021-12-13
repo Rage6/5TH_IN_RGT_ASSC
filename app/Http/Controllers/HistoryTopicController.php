@@ -35,7 +35,7 @@ class HistoryTopicController extends Controller
           ])
           ->count();
        return view('history_topic_with_lists',[
-         'unread_count' => $unread_count
+         'unread_count' => $unread_count,
          'style' => 'history_style',
          'js' => '/js/my_custom/history/history.js',
          'content' => 'ben_cui_battle_content',

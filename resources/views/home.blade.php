@@ -98,13 +98,19 @@
                           UNREAD MAIL
                         </div>
                         <div class="card-body">
-                          @foreach ($all_unread_messages as $one_message)
+                          @if (count($all_unread_messages) > 0)
+                            @foreach ($all_unread_messages as $one_message)
+                              <div>
+                                <a href="/home/message/{{ $one_message->sent_id }}">
+                                  {{ $one_message->first_name }} {{ $one_message->last_name }}
+                                </a>
+                              </div>
+                            @endforeach
+                          @else
                             <div>
-                              <a href="/home/message/{{ $one_message->sent_id }}">
-                                {{ $one_message->first_name }} {{ $one_message->last_name }}
-                              </a>
+                              <i>No new messages at this time</i>
                             </div>
-                          @endforeach
+                          @endif
                         </div>
                       </div>
                     </div>

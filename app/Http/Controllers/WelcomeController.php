@@ -22,14 +22,19 @@ class WelcomeController extends Controller
               ['messages.is_read','==',0]
             ])
             ->count();
+          return view('welcome',[
+            'unread_count' => $unread_count,
+            'style' => 'welcome_style',
+            'js' => '/js/my_custom/welcome/welcome.js',
+            'content' => 'welcome_content'
+          ]);
+        } else {
+          return view('welcome',[
+            'style' => 'welcome_style',
+            'js' => '/js/my_custom/welcome/welcome.js',
+            'content' => 'welcome_content'
+          ]);
         };
-
-        return view('welcome',[
-          'unread_count' => $unread_count,
-          'style' => 'welcome_style',
-          'js' => '/js/my_custom/welcome/welcome.js',
-          'content' => 'welcome_content'
-        ]);
     }
 
     /**

@@ -3,18 +3,20 @@
     <a class="mainMenuLink" href="{{ url('/') }}">
       <img src="/images/welcome/5INF_crest-min.png"/>
     </a>
-    @auth
-    <a href="{{ url('/home#mail') }}">
-      <div>
-        <span>M:</span>
-        <span>{{ $unread_count }}</span>
+    <div class="userBox">
+      @auth
+      <a href="{{ url('/home#mail') }}">
+        <div class="mailBox">
+          <div></div>
+          <div>{{ $unread_count }}</div>
+        </div>
+      </a>
+      @endauth
+      <div id="mainMenuTopBttn" class="mainMenuTopSquare">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-    </a>
-    @endauth
-    <div id="mainMenuTopBttn" class="mainMenuTopSquare">
-      <div></div>
-      <div></div>
-      <div></div>
     </div>
   </div>
   <div class="mainMenuBox">

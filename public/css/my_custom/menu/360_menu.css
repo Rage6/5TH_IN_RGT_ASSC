@@ -51,6 +51,40 @@ a {
   font-size: 0;
 }
 
+.userBox {
+  display: flex;
+}
+
+.userBox a {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.mailBox {
+  margin-top: 1vh;
+  color: #d3d3d3;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 8vw;
+  height: 7vh;
+  cursor: pointer;
+}
+
+.mailBox div {
+  text-align: center;
+}
+
+.mailBox div:first-of-type {
+  background-image: url('/images/inbox.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mailBox div:last-of-type {
+  font-size: 1rem;
+}
+
 .mainMenuBttn {
   padding: 8px 5%;
   color: white;

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class HistoryTopicController extends Controller
@@ -26,48 +27,124 @@ class HistoryTopicController extends Controller
       ])
       ->orderBy('casualties.last_name')
       ->get();
-     return view('history_topic_with_lists',[
-       'style' => 'history_style',
-       'js' => '/js/my_custom/history/history.js',
-       'content' => 'ben_cui_battle_content',
-       'all_casualties' => $ben_cui_casualties
-     ]);
+     if (Auth::user()) {
+        $unread_count = DB::table('messages')
+          ->where([
+            ['messages.received_id',Auth::user()->id],
+            ['messages.is_read','==',0]
+          ])
+          ->count();
+       return view('history_topic_with_lists',[
+         'unread_count' => $unread_count
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'ben_cui_battle_content',
+         'all_casualties' => $ben_cui_casualties
+       ]);
+     } else {
+       return view('history_topic_with_lists',[
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'ben_cui_battle_content',
+         'all_casualties' => $ben_cui_casualties
+       ]);
+     };
     }
 
     public function presidential_citation()
     {
-     return view('history_topic',[
-       'style' => 'history_style',
-       'js' => '/js/my_custom/history/history.js',
-       'content' => 'presidential_citation_content'
-     ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('history_topic',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'presidential_citation_content'
+         ]);
+      } else {
+        return view('history_topic',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'presidential_citation_content'
+        ]);
+      }
     }
 
     public function michelin_rubber_plant_battle()
     {
-      return view('history_topic',[
-        'style' => 'history_style',
-        'js' => '/js/my_custom/history/history.js',
-        'content' => 'michelin_rubber_plant_battle_content'
-      ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+        return view('history_topic',[
+          'unread_count' => $unread_count,
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'michelin_rubber_plant_battle_content'
+        ]);
+      } else {
+        return view('history_topic',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'michelin_rubber_plant_battle_content'
+        ]);
+      };
     }
 
     public function the_rifle_and_the_myth()
     {
-      return view('history_topic',[
-        'style' => 'history_style',
-        'js' => '/js/my_custom/history/history.js',
-        'content' => 'the_rifle_and_the_myth_content'
-      ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+        return view('history_topic',[
+          'unread_count' => $unread_count,
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'the_rifle_and_the_myth_content'
+        ]);
+      } else {
+        return view('history_topic',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'the_rifle_and_the_myth_content'
+        ]);
+      };
     }
 
     public function ben_cui_forum()
     {
-      return view('history_topic',[
-        'style' => 'history_style',
-        'js' => '/js/my_custom/history/history.js',
-        'content' => 'ben_cui_forum_content'
-      ]);
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+        return view('history_topic',[
+          'unread_count' => $unread_count,
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'ben_cui_forum_content'
+        ]);
+      } else {
+        return view('history_topic',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'ben_cui_forum_content'
+        ]);
+      }
     }
 
     /**

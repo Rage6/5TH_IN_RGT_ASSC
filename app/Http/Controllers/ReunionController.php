@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Auth;
-// use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 use App\Mail\ReunionEmail;
@@ -27,20 +27,28 @@ class ReunionController extends Controller
     public function index()
     {
       $this_user = Auth::user();
-      // if ($this_user != NULL) {
+      if (Auth::user()) {
+        $unread_count = DB::table('messages')
+          ->where([
+            ['messages.received_id',Auth::user()->id],
+            ['messages.is_read','==',0]
+          ])
+          ->count();
+        return view('reunion_registration',[
+          'unread_count' => $unread_count,
+          'style' => 'reunion_style',
+          'js' => '/js/my_custom/reunion/reunion.js',
+          'content' => 'reunion_content',
+          'this_user' => $this_user
+        ]);
+      } else {
         return view('reunion_registration',[
           'style' => 'reunion_style',
           'js' => '/js/my_custom/reunion/reunion.js',
           'content' => 'reunion_content',
           'this_user' => $this_user
         ]);
-      // } else {
-      //   return view('reunion_registration',[
-      //     'style' => 'reunion_style',
-      //     'js' => '/js/my_custom/reunion/reunion.js',
-      //     'content' => 'reunion_content'
-      //   ]);
-      // }
+      };
     }
 
     public function post(Request $request)

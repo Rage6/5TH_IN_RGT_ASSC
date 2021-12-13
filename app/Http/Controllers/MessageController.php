@@ -45,6 +45,9 @@ class MessageController extends Controller
           ['received_id','=',$this_id]
         ])->orderBy('id','desc')
         ->get();
+      DB::table('messages')
+        ->where('received_id',$this_id)
+        ->update(['is_read' => 1]);
       return view('message',compact('this_user','view_user','conversation'));
     }
 

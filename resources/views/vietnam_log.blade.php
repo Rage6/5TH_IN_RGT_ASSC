@@ -1182,46 +1182,46 @@
   <div class="mainBody">
     <div class="timelineBox">
       <div class="timelineBar">
-        <div data-button="jan" data-year="1966">
-          <div data-button="jan" data-year="1966">January</div>
+        <div data-button="jan" data-year="1967">
+          <div data-button="jan" data-year="1967">January</div>
         </div>
-        <div data-button="feb" data-year="1966">
-          <div data-button="feb" data-year="1966">February</div>
+        <div data-button="feb" data-year="1967">
+          <div data-button="feb" data-year="1967">February</div>
         </div>
-        <div data-button="mar" data-year="1966">
-          <div data-button="mar" data-year="1966">March</div>
+        <div data-button="mar" data-year="1967">
+          <div data-button="mar" data-year="1967">March</div>
         </div>
-        <div data-button="apr" data-year="1966">
-          <div data-button="apr" data-year="1966">April</div>
+        <div data-button="apr" data-year="1967">
+          <div data-button="apr" data-year="1967">April</div>
         </div>
-        <div data-button="may" data-year="1966">
-          <div data-button="may" data-year="1966">May</div>
+        <div data-button="may" data-year="1967">
+          <div data-button="may" data-year="1967">May</div>
         </div>
-        <div data-button="jun" data-year="1966">
-          <div data-button="jun" data-year="1966">June</div>
+        <div data-button="jun" data-year="1967">
+          <div data-button="jun" data-year="1967">June</div>
         </div>
-        <div data-button="jul" data-year="1966">
-          <div data-button="jul" data-year="1966">July</div>
+        <div data-button="jul" data-year="1967">
+          <div data-button="jul" data-year="1967">July</div>
         </div>
-        <div data-button="aug" data-year="1966">
-          <div data-button="aug" data-year="1966">August</div>
+        <div data-button="aug" data-year="1967">
+          <div data-button="aug" data-year="1967">August</div>
         </div>
-        <div data-button="sep" data-year="1966">
-          <div data-button="sep" data-year="1966">September</div>
+        <div data-button="sep" data-year="1967">
+          <div data-button="sep" data-year="1967">September</div>
         </div>
-        <div data-button="oct" data-year="1966">
-          <div data-button="oct" data-year="1966">October</div>
+        <div data-button="oct" data-year="1967">
+          <div data-button="oct" data-year="1967">October</div>
         </div>
-        <div data-button="nov" data-year="1966">
-          <div data-button="nov" data-year="1966">November</div>
+        <div data-button="nov" data-year="1967">
+          <div data-button="nov" data-year="1967">November</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">December</div>
+        <div data-button="dec" data-year="1967">
+          <div data-button="dec" data-year="1967">December</div>
         </div>
       </div>
     </div>
     <div class="allSegments">
-      <div class="timeSegment vietnamLogSegment" data-section="civilWar">
+      <div class="timeSegment vietnamLogSegment" data-section="1967">
         <div class="segmentContent">
           <div class="segmentTitle"><u>Vietnam, 1967</u></div>
           <div class="segmentWords">
@@ -2072,6 +2072,1544 @@
 
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
+@section('vietnam_1968_content')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <div data-button="jan" data-year="1968">
+          <div data-button="jan" data-year="1968">January</div>
+        </div>
+        <div data-button="feb" data-year="1968">
+          <div data-button="feb" data-year="1968">February</div>
+        </div>
+        <div data-button="mar" data-year="1968">
+          <div data-button="mar" data-year="1968">March</div>
+        </div>
+        <div data-button="apr" data-year="1968">
+          <div data-button="apr" data-year="1968">April</div>
+        </div>
+        <div data-button="may" data-year="1968">
+          <div data-button="may" data-year="1968">May</div>
+        </div>
+        <div data-button="jun" data-year="1968">
+          <div data-button="jun" data-year="1968">June</div>
+        </div>
+        <div data-button="jul" data-year="1968">
+          <div data-button="jul" data-year="1968">July</div>
+        </div>
+        <div data-button="aug" data-year="1968">
+          <div data-button="aug" data-year="1968">August</div>
+        </div>
+        <div data-button="sep" data-year="1968">
+          <div data-button="sep" data-year="1968">September</div>
+        </div>
+        <div data-button="oct" data-year="1968">
+          <div data-button="oct" data-year="1968">October</div>
+        </div>
+        <div data-button="nov" data-year="1968">
+          <div data-button="nov" data-year="1968">November</div>
+        </div>
+        <div data-button="dec" data-year="1968">
+          <div data-button="dec" data-year="1968">December</div>
+        </div>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="timeSegment vietnamLogSegment" data-section="1968">
+        <div class="segmentContent">
+          <div class="backBttn">
+            <a href="{{ url('/history/timeline') }}">
+              <div><< HISTORY</div>
+            </a>
+          </div>
+          <div class="segmentTitle"><u>Vietnam, 1968</u></div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="jan">JANUARY</div>
+            <p>
+              On January 01, 1968, TF 1/5th(M) was released from OPCON to the 1st Brigade. The battalion held a defensive posture and conducted security patrolling in the northwest portion of the Michelin Rubber Plantation in the area of XT 520522.
+            </p>
+            <p>
+              On January 02, 1968, at 1200 hours, the 1/5th(M) became OPCON to the 2nd Brigade, 25th Infantry Division. Company C of the 3/22 Infantry and Company B of the 4/23rd(M) became attached to the 1/5th(M). The task force conducted a road march to a new night location, southwest of Highway 22 and 247.
+            </p>
+            <p>
+              On January 03, 1968, Company A provided security for a Fire Support Base located at XS 728926. An APC from Company A detonated an AT mine killing three Bobcats and wounding several others. The remainder of the task force conducted RIF operations in the area.
+            </p>
+            <p>
+              On January 04, 1968, TF 1/5th(M) conducted cordon and search operations in the area of Binh Hanh at XS 7197 and 7296. The Recon Platoon provided security for the battalion forward base.
+            </p>
+            <p>
+              On January 05, 1968, the task force conducted cordon and search operations in the area of XS 7303. One Bobcat from company A died in hospital from the wounds he received on January 03.
+            </p>
+            <p>
+              On January 06, 1968, TF 1/5th(M) conducted RIF operations in the area of XT 7200. One Popular Forces Company blocked along the road on the north side of the village. APCs from the 1/5th(M) blocked on the south and the west.
+            </p>
+            <p>
+              On January 07, 1968, combined RIF operations were conducted with two Popular Forces platoons from Tam Binh District in the area of XS 728953 and 723915.
+            </p>
+            <p>
+              On January 08, 1968, at 1100 hours, the 1/5th(M) became OPCON to the 3rd Brigade, 25th Infantry Division. The battalion then conducted a road march to Dau Tieng.
+            </p>
+            <p>
+              On January 09, 1968, Companies C and D of the 3/22nd Infantry became OPCON to the 1/5th(M). The battalion remained at Dau Tieng.
+            </p>
+            <p>
+              On January 10, 1968, the battalion conducted cordon and search operations in the Michelin Plantation in the area of XT 520497. At 1145 hours, three Bobcats from Company C were wounded when a booby trapped hand grenade was detonated.
+            </p>
+            <p>
+              On January 11, 1968, the 1/5th(M) Task Force continued daylight patrolling in the Michelin Plantation. At 1043 hours Company D, 3/22nd Infantry engaged one VC at XT 534475. During a sweep of the contact area one short wave radio, a map with positions plotted, one bicycle and miscellaneous documents were located. Two Bobcats from Company B were killed by shrapnel from an explosion.
+            </p>
+            <p>
+              On January 12, 1968, elements of the Task Force continued company size operations in the Michelin Plantation, primarily in the area of XT 5252. At 0755 hours, Company A received 5 RPG rounds along with small arms and automatic weapon fire in the area of XT 436448 in the Ben Cui Rubber Plantation. Fire was returned with unknown results. One tank and two APCs received minor damage. One Bobcat was wounded. At 1320 hours, Company C 1/5th(M) and Company D 3/22nd Infantry conducted a cordon and search of Ap Chanh(2) located at XT 518518 with negative results. At 1528 hours, Company C received 5 or 6 rounds of 60mm mortar fire in the area of XT 522518. One Bobcat was killed. The enemy fire was returned with mortars and a helicopter LFT with unknown results. At 1759 hours, Company C located and destroyed a tilt rod mine.
+            </p>
+            <p>
+              On January 13, 1968, units of the task force conducted S&D operations in the “Michelin” with no enemy contact.
+            </p>
+            <p>
+              On January 14, 1968, the battalion and its attachments continued S&D operations in the Michelin Rubber Plantation. At 1406 hours Company C received sporadic automatic weapons fire in the area of XT 545487. The AW fire was returned with artillery shelling with unknown results.
+            </p>
+            <p>
+              On January 15, 1968, company size operations continued in the Michelin. At 0840 hours Company C received four 60mm mortar rounds and automatic weapons fire in the area of XT 554537.  Artillery was fired at the suspected enemy positions with unknown results. Two Bobcats from Company C were killed in the action.
+            </p>
+            <p>
+              On January 16, 1968, the battalion continued sweep operations in the plantation. On January 17th, Company C, 1/5th(M), established a blocking position while Companies C and D of the 3/22nd Infantry conducted an airmobile combat assault. At 1020 hours, Company C, 1/5th(M) made contact with an unknown sized VC force. They killed three VC by body count and suffered one Bobcat wounded.
+            </p>
+            <p>
+              On January 18, 1968, Company D, 3/22nd Infantry was released OPCON from 1/5th(M) and was airlifted to FSB Burt. Company B, 3/22nd Infantry was air lifted to Dau Tieng and became OPCON to the 1/5th(M). Company C, 3/22nd Infantry remained OPCON to the 1/5th(M).
+            </p>
+            <p>
+              Map 16 Dau Tieng and Michelin Rubber Plantation.
+            </p>
+            <p>
+              Map 17 Dau Tieng and Michelin Rubber Plantation.
+            </p>
+            <p>
+              On January 19, 1968, elements of the task force conducted S&D operations in the Michelin Plantation and the area south of Dau Tieng. At 1723 hours, an APC from Company B, which was escorting a convoy on Highway 239 through the Ben Cui Rubber Plantation, was hit by an RPG round. Two Bobcats were killed instantly. While attempting to get the driver out of the damaged APC, another Bobcat from Company B was shot and killed. He had run over to the track that got hit, jumped on top and grabbed a hold of the driver, who had been wounded and was attempting to pull him out. A shot rang out and he fell off the track, into the ditch and died before anyone got to him. The bullet had hit him in the side.
+            </p>
+            <p>
+              From January 20, 1968 to January 22, 1968, the task force continued operations in the Dau Tieng area.
+            </p>
+            <p>
+              On January 23, 1968, at 0600 hours the 1/5th(M) was relieved from OPCON to the 3rd Brigade. At 1015 hours, the battalion became OPCON to the 1st Brigade and departed the 3rd Brigade area of operations.
+            </p>
+            <p>
+              On January 27, 1968, the 1/5th(M)(-) was released from OPCON to the 1st Brigade, 25th Infantry Division.
+            </p>
+            <p>
+              On January 29, 1968, at 0500 hours, the 1/5th(M) became OPCON to the 3rd Brigade. The battalion secured a fire support base northeast of the intersection of Highways 19 and 13 in the area of XT 384626. They then prepared to link up with the 2/22nd(M).
+            </p>
+            <p>
+              On January 30, 1968, the battalion forward base was located near the intersection of Highways 19 and 13 at XT 371630. Units of the battalion provided convoy security between Tay Ninh and Loc Ninh. Elements also conducted defensive patrolling in the area.
+            </p>
+            <p>
+              On January 31, 1968, the 1/5th(M)(-) was released from OPCON to the 3rd Brigade and became OPCON to the 1st Brigade. Company B, 1/5th(M) remained OPCON to the 2/34th Armor. At 2144 hours, an intelligence report indicated that there were 800 VC heading for Tay Ninh market.
+            </p>
+            <p>
+              During January 1968, 12 Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Harry B. Bartholomew</li>
+              <li>James L. Scherer</li>
+              <li>Paul R. Striepe</li>
+              <li>Bruce J. Moran</li>
+              <li>Larry F. Kujawa</li>
+              <li>Leonard H. Snead Jr.</li>
+              <li>Bernard C. Mattson</li>
+              <li>Harry J. Boston</li>
+              <li>Brian T. Cady</li>
+              <li>Charles E. Davis</li>
+              <li>Michael P. Halpin</li>
+              <li>Jack J. Kupferer</li>
+            </ul>
+            <p>
+              For the Quarterly Period ending January 31, 1968 the 25th Infantry Division reported the following:
+            </p>
+            <p>
+              Friendly casualties - KIA: 344;  WIA: 1,259;  MIA: 0;  NBD: 17;  NBI: 168.
+            </p>
+            <p>
+              There was a shortage of Infantry Captains during the Quarter and the shortage of Infantry NCOs continued to be a problem.
+            </p>
+            <p>
+              VC Activity: In November and December 1967 VC activities were primarily directed to delaying and harassment operations. During January 1968, VC offensive activity increased. The large number of attacks by fire are believed to have been conducted to cover the movement of VC forces to the Saigon area. By creating a threat to the base camps, the VC had hoped to restrict allied reinforcing capabilities to the population centers, where their main ground efforts were directed.
+            </p>
+            <p>
+              The main infiltration routes ran, generally, north to south, east to west. The north to south route started in the “Fish Hook” area well north of the 2nd Brigade area of operations and ran south through War Zone C, the Michelin Rubber Plantation, the Trapezoid and down to the Boi Loi and Ho Bo Woods.
+            </p>
+            <p>
+              The east to west started in the “Angel’s Wing” area and forked both northeast and into the Citadel and then southwest toward Saigon on multiple approaches. These infiltration routes were the standard ones used by the enemy prior to the TET Offensive of 1968.
+            </p>
+            <p>
+              Road convoys continued to be the primary method of resupply for the Cu Chi, Tay Ninh, and Dau Tieng base camps. During the Quarter there were:
+            </p>
+            <ul>
+              <li>Cu Chi to Saigon – 182 convoys.</li>
+              <li>Saigon to Cu Chi / Tay Ninh – 179 convoys.</li>
+              <li>Tay Ninh to Dau Tieng – 178 convoys.</li>
+              <li>Tay Ninh to Katum – 48 convoys.</li>
+              <li>Tay Ninh to Suoi Dau – 61 convoys.</li>
+              <li>Tay Ninh to Hoc Mon – 46 convoys.</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="feb">FEBRUARY</div>
+            <p>
+              On February 01, 1968, the 1/5th(M)(-) base was located at Tay Ninh West. One platoon  from Company C departed at 1135 hours to provide security for engineers who would be repairing a culvert on Highway 239, west of the Ben Cui. The platoon closed back at the forward base at 1530 hours with negative contact. At 2200 hours, an intelligence report was received from brigade indicating that two VC battalions were located 24 kilometers south of Tay Ninh , 3 kilometers inside South Viet Nam from the Cambodian border.
+            </p>
+            <p>
+              On February 02, 1968, Company B 1/5th(M) was returned to operational control of the battalion. At 0655 hours, a mortar attack was launched on Cu Chi base camp.  The 4/23rd Infantry ammo dump was hit and the resulting explosions destroyed the Bobcat Headquarters and B Company areas. B Company and Headquarters Company mess halls were totaled. Company A and C mess halls were damaged. Two Bobcats were wounded.
+            </p>
+            <p>
+              The battalion moved from West Tay Ninh to a new base location 2 kilometers northeast of Tay Ninh at XT 281528. At 1030 hours, one platoon from Company C left the forward base area to secure an engineer work party who were to repair two bridge sites and install AVLBs on Highway 26, east of Tay Ninh in grid square 3148. Elements from the battalion conducted S&D operations in that area also.
+            </p>
+            <p>
+              On February 03, 1968, at 0710 hours, Company B sent 4 APCs to escort engineer dump trucks to the rock quarry and then to the bridge site. At 0815 hours, the Recon Platoon escorted a convoy to Tay Ninh.
+            </p>
+            <p>
+              Map 18   Tay Ninh area.
+            </p>
+            <p>
+              On February 04, 1968, Company A departed the forward base at 0630 hours for operations in the area of grid XT 3256. Company C departed at 0705 hours to provide security for engineer activities and secure convoys. Company B departed at 0747 hours for operations in the area of grid XT 3249. The Recon Platoon provided convoy escort.
+            </p>
+            <p>
+              At 1050 hours an APC from Company C hit a mine on Highway 4, on the north side of Nui Ba Den at XT 284618. Three Bobcats were wounded and dusted off. The APC was a combat loss.
+            </p>
+            <p>
+              On February 05, 1968, elements of the battalion conducted S&D operations in the area 5000 meters east of where Highways 13 and 26 split, east of Tay Ninh. Other units conducted convoy security and provided protection for engineer road repair crews. That night ambushes and listening posts were deployed, as always.
+            </p>
+            <p>
+              On February 06, 1968, the battalion moved to a new forward base area at XT 283509, which was east of Tay Ninh, just north of Ap Phuoc Hoa on Highway 26. Elements of the battalion provided security for a convoy from Tay Ninh to Go Dau Ha and also secured engineer activities in the area.
+            </p>
+            <p>
+              On February 07, 1968, two platoons from Company B departed the forward base at 0645 to begin road clearing operations. Company C provided protection for a convoy traveling from Katum to Tay Ninh.  At 1048 hours, Company C requested that the convoy leader be contacted and advised to have people in the convoy cease firing their M-16s into the wood line along the route, as this was endangering the security elements posted along the route.
+            </p>
+            <p>
+              Elements also provided partial escort for a convoy from Tay Ninh to Cu Chi. One platoon from Company B spent the night providing security for part of the convoy due to mechanical problems with some of the convoy vehicles.
+            </p>
+            <p>
+              On February 08, 1968, elements again provided security for engineer activities and convoy escort and route protection. At 1012 hours, a message from Tropic 6 advised that it may be necessary for the 1/5th(M) to move their forward base south on notice. At 1843 hours, the Recon platoon reported one man wounded by sniper fire, no dust off needed. At 2016 hours, the Tay Ninh ammo dump was hit by a friendly “short round”. At 2131 hours, Company B had two Bobcats wounded from an incoming 60mm mortar round.
+            </p>
+            <p>
+              On February 09, 1968, Company B conducted a RIF of the area, checking for any enemy buildup. Company C conducted convoy and route security. At 1450 hours, Company B was ordered OPCON to the 4/23 and proceeded to join them south of Go Dau Ha. At 1708 hours, Company B reported that one Bobcat received 2nd degree burns over 70% of his body when the radiator on his vehicle blew. At 1720 hours Company B met up with the 4/23.
+            </p>
+            <p>
+              On February 10, 1968, the 1/5th(M)(-) was released from OPCON to the 1st Brigade and went OPCON to the 2nd Brigade. At 1820 hours the battalion(-) closed Cu Chi base camp. At 2326 hours the battalion left Cu Chi base camp and became OPCON to the 3rd Brigade.
+            </p>
+            <p>
+              On February 11, 1968, at 0058 hours, the battalion arrived at a forward base located some 3000 meters northwest of Tan Son Nhut at XS 773993. During the day the battalion was deployed in a blocking position northeast of Tan Son Nhut airfield at XT 833993.
+            </p>
+            <p>
+              On February 12, 1968, the battalion remained in a blocking posture. At 1400 hours, the 1/5th(M) was instructed to set up a new night position at Tan Hiep, located 2000 meters north of Hoc Mon at XT 7406. All units closed the new forward base by 1900 hours. Night ambushes and LPs were deployed.
+            </p>
+            <p>
+              Map 19Tan Son Nhut and Hoc Mon.
+            </p>
+            <p>
+              On February 13, 1968, Companies B and C departed the perimeter for S&D operations in the area. At 0830 hours, Company B had one mortar APC catch fire and burn out of control. There were no injuries. Units from the Recon platoon secured the vehicle till it finally blew up at 0930 hours. During the search of their respective objective areas Companies B and C located VC bodies, ammo, weapons, equipment and documents. All elements closed the battalion perimeter by 1900 hours.
+            </p>
+            <p>
+              Also on the 13th, a misdirected B-52 strike caused considerable damage to Ap Binh Dong Hamlet at XT 8406. 51 civilians were killed and 93 were injured.
+            </p>
+            <p>
+              On February 14, 1968, The battalion conducted RIF operations. Company B and Company C worked the area east of Hoc Mon. Company A worked the area 6 kilometers south of Hoc Mon. Companies B and C began blowing bunkers they encountered in their respective areas and discovered VC bodies, weapons, equipment, and a number of US weapons and documents.
+            </p>
+            <p>
+              At 1210 hours, Company C reported light contact with an unknown sized enemy force 2 kilometers northeast of Hoc Mon. The fight escalated and an APC from Company C was hit by an RPG and caught fire. Company C requested a dust-off for 3 wounded Bobcats at 1344 hours. At 1436 hours they reported one Bobcat killed. Company B and the Recon platoon reinforced the Company C elements. At 1631 hours, a dust-off was requested for three more wounded Bobcats.   At 1800 hours, tank cannons and artillery were fired to cover an attempt to extract wounded from the contact area. At 1823 hours ,Company C requested a dust-off. Two wounded and one dead Bobcat were placed on this dust-off. At 1855 hours, Companies B and C set up a perimeter. All the wounded were dusted-off. At 2006 hours, it was reported that 6 Bobcats from Company C and one Bobcat from Company B were known to be dead, but that the bodies of six of them had not yet been recovered.
+            </p>
+            <p>
+              On February 15, 1968, an assault was planned into the area of Company C’s previous contact. The area was prepped with Artillery and air strikes during the night. Company B, Company C and Troop B, ¾ Cavalry began the sweep (XT 777045) at 0720 hours. At 0945 hours, the units involved in the sweep reported negative contact. At 1137 hours, five of the MIAs were located at XT 773046. They had been stripped of all weapons and equipment. At 1155 hours, the body of the 6th MIA was located in the burned APC at XT 770045. The vehicle also had been stripped of all weapons. By 1341 hours, all the KIAs were dusted-off. In a search of the area the bodies of several VC soldiers along with equipment and supplies were located. Bunkers found in the area were destroyed. At 1535 hours, 3 Bobcats from Company B were dusted-off with wounds, along with one man from Troop B, ¾ Cavalry.  The battalion command group and the Recon Platoon established a new base area, 6 kilometers south of Hoc Mon at XT 744988, near Tan Thoi Nhut on Highway 236.
+            </p>
+            <p>
+              Company B and Company C along with Troop B, ¾ Cavalry set up a night perimeter in the area of XT 7704, where the day’s sweep had taken place.
+            </p>
+            <p>
+              On February 16, 1968, elements of the battalion task force conducted RIFs in the area west of Hoc Mon. Engineer demolition teams were assigned to each company. At 0900 hours, the Recon Platoon and Headquarters Company(-) departed to establish a new base area. Company B reported destroying approximately 200 bunkers southeast of Hoc Mon at XT 764036. Company C had destroyed approximately 130 bunkers. By 1900 hours, Companies B, C and headquarters had closed the new night position, located 2500 meters southeast of Hoc Mon at XT 781033. The Recon Platoon went OPCON to the 3rd Brigade for the night.
+            </p>
+            <p>
+              On February 17, 1968, The Recon Platoon escorted a convoy from Hoc Mon to the battalion forward base area at 0655 hours. At 0955 hours, Company C received small arms fire and one APC was damaged by a command detonated mine. There were two minor injuries. At 1137 hours, the Recon Platoon was assigned to escort a tank to gate 51 at Tan Son Nhut.
+            </p>
+            <p>
+              At 1230 hours, Company B began receiving heavy sniper fire. At 1245 hours, Company C received small arms and automatic weapons fire. Company B requested a dust-off for one Bobcat shot in the head. At 1340 hours, Company B requested another dust-off for two wounded Bobcats. The two companies continued to attack the hedgerow. At 1445 hours, Company B dusted off 3 more wounded Bobcats. A CS gas drop was delivered into the area at 1558 hours and both companies continued the attack. At 1630 hours, Company C had another APC hit by a command detonated mine. The vehicle was a total loss but there were no casualties. At 1644 hours, another dust-off was requested by Company B. At 1653 hours an APC from Company B was hit by an RPG round. At 1654 hours, two APCs from Company C were hit by RPG rounds. At 1713 hours, the two companies pulled back to allow artillery and mortars to fire into the enemy area. At 1829 hours, Company B received heavy RPG, small arms and automatic weapons fire from XT 756046.
+            </p>
+            <p>
+              Both Companies again pulled back to the new battalion forward base at XT 803046 and airstrikes with 1000 and 750 pound bombs and napalm were called in.
+            </p>
+            <p>
+              In the day’s action there were nine Bobcats wounded and four APC’s taken out of action. Two of the APC’s were total combat losses.
+            </p>
+            <p>
+              On February 18, 1968, several Bobcats were slightly wounded by enemy mortar fire during the night. The morning’s operation was postponed due to lack of fuel for the APCs. At 0820 hours, two platoons from Company C were assigned the mission of providing security for the 1/27th Artillery at their Fire Support Base located at XT 802049. At 1535 hours, CS gas was deployed and Company B, elements of the Recon Platoon and Company A, 2/34th Armor moved towards the objective area. At 1702 hours, the units moved through the area of the previous day’s encounter with negative contact. Some enemy weapons and equipment were located and destroyed. The units closed back to the night base at 1845 hours. Night ambushes were deployed. Company A remained OPCON to the 3rd Brigade.
+            </p>
+            <p>
+              On February 19, 1968, at 0748 hours, the Recon Platoon departed the night base to conduct a RIF of the area along the Cau Sang River, north west of Hoc Mon. At 0800 hours Company B and Company A, 2/34th Armor departed to conduct a RIF of grid 8005. Company C remained at the base as battalion reaction force.
+            </p>
+            <p>
+              At 0900 hours the Recon Platoon had one Bobcat shot in the leg by sniper fire. Three tanks from Company A, 2/34th Armor left Company B and started towards the Recon Platoon area with Company C. At 1052 hours, the Recon Platoon received machine gun fire at XT 768053.  At 1134 hours, one APC from Recon was hit by an RPG round and they started receiving small arms fire from their front and rear. One Bobcat had to be dusted off as light fire teams suppressed the fire. At 1421 hours, Recon requested a dust-off for a Bobcat who lost his hand while loading a mortar tube.
+            </p>
+            <p>
+              Company B started closing the area of contact also. At 1539 hours, Company C requested a dust-off for 7 wounded Bobcats. At 1637 hours, Company C requested another dust-off for 4 wounded Bobcats.
+            </p>
+            <p>
+              By 1708 hours one platoon from Company C had been pinned down and was extracted after three attempts to attack and overtake the enemy position at XT 768050. The VC were well dug in with automatic weapons and RPGs covering a 100 meter front. Four Bobcats were confirmed dead and had to be left when the platoon was extracted. Two were from Company C and two were medics. Company B then attacked on line in an attempt to recover the dead Bobcats. One body was recovered and two more Bobcats from Company C were wounded and dusted-off. All units pulled back to the night base by 1915 hours. Air strikes were called in on the area of contact.
+            </p>
+            <p>
+              On February 20, 1968, Companies B and C and Company A of the 2/34th Armor departed the base area at 0700 hours and started to the area of where the dead Bobcats were located. At 0750 hours, Company C captured a wounded NVA soldier. He stated that there were 3 companies in the area of yesterday’s contact and they were well dug in. At 0800 hours the companies were told to halt their advance.
+            </p>
+            <p>
+              At 0815 hours the Recon Platoon left to escort an engineer element to Cu Chi. At 0832 hours, the Recon Platoon had one man wounded in the ankle by a sniper. After numerous airstrikes, the units continued their movement into the area of the previous contact. At 1700 hours, the Recon Platoon located one of the dead Bobcats. At 1745 hours, Company B located and recovered the other two.
+            </p>
+            <p>
+              On February 21, 1968, the Recon Platoon and Company B conducted searches of the area around the grids XT 7603 and 7604, east of Hoc Mon. Some bunkers were located and destroyed. All elements closed the battalion forward base by 1630 hours.
+            </p>
+            <p>
+              On February 22, 1968, Companies B and C, with tanks attached, conducted S&D operations in the area east of Hoc Mon. At 1420 hours, one platoon from Company B was pinned down by machinegun fire. At 1426 hours, the company started receiving automatic weapons and RPG fire. At 1500 hours a dust-off was requested for numerous wounded. At 1535 hours, another dust-off was requested. Company B also had one Bobcat killed. At 1640 hours, Company B suffered two minor wounded from an artillery short round.
+            </p>
+            <p>
+              Companies B and C with attached tanks joined together at 1815 hours and attacked from south to north at XT 7604. At 1945 hours a “snake” was deployed and detonated by engineers with the units. At 2027 hours, all units had closed the night base perimeter.
+            </p>
+            <p>
+              On February 23, 1968, the Recon Platoon escorted an Engineer element to Hoc Mon at 0650 hours and then returned to the forward base. Companies B and C departed for operations in the area of Grid XT 8006. At 1710 hours, the point man from Company C was killed by a burst of enemy fire from XT 815057. The enemy fire was returned with S/A, mortar and artillery fire. The dead Bobcat was left in place and all units closed the battalion forward base. LPs and APs were deployed.
+            </p>
+            <p>
+              On February 24, 1968, At 0801 hours, Companies B and C departed the forward base. At 1320 hours, after artillery prep was fired, the companies moved into the area of the previous day’s contact. At 1400 hours the body of the dead Bobcat from Company C was located and extracted. All units closed the battalion forward base.
+            </p>
+            <p>
+              On February 25, 1968, the battalion conducted sweeps in the area of grid XT 7905 during the morning. At 1315 hours, Company C departed for Cu Chi to prepare for an operation with the 2/34th Armor. Company B and the Recon Platoon remained at the battalion forward base.
+            </p>
+            <p>
+              On February 26, 1968, Company B and the Recon Platoon deployed daytime ambushes starting at 0442 hours. At 1330 hours Company A, 1/5th(M) returned to battalion control after being OPCON to the 2/27th Infantry. Company A closed the battalion’s forward base.
+            </p>
+            <p>
+              On February 27, 1968, Companies A and B, with tanks attached, departed to conduct sweeps in the area of Grid XT 7604, east of Hoc Mon. At 1310 hours, a large bunker complex was located at XT 765054.
+            </p>
+            <p>
+              On February 28, 1968, at 0007 hours, an ambush patrol from Recon killed one VC. At 0107 hours the same ambush patrol suffered one wounded when it received fire form an unknown size VC force. Sweeps of the area were conducted during the day.
+            </p>
+            <p>
+              On February 29, 1968, Company B, one platoon from Company A and the Recon Platoon, with tanks attached, departed the forward base at 0734 hours for a sweep in the XT 7906 grid area, just south of the Cau Sang River. At 1105 hours, the Recon Platoon established enemy contact. Company B and the Company A Platoon moved to flank the contact. LFTs were called in to work over the area. At 1350 hours, a dust-off was requested for 2 wounded Bobcats. At 1517 hours, the units were reported in heavy contact. At 1530 hours, a dust-off was requested for 5 wounded from the tank support element. At 1645 hours, two Bobcats were killed. One was from Company A and the other was from the Recon Platoon. An airstrike and mortar fires were called in before the bodies could be extracted from the contact area at 1745 hours.
+            </p>
+            <p>
+              At 1026 hours, an APC from Company C, 1/5th(M), while attached to the 2/34th Armor, was hit by two RPG rounds. Two Bobcats were wounded. One of the Bobcats died from his injuries shortly therafter.
+            </p>
+            <p>
+              During February 1968, 16 Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Jose J. Santiago</li>
+              <li>David G. Isbell</li>
+              <li>David E. Keister</li>
+              <li>Earl Mack</li>
+              <li>Richard P. Vellance</li>
+              <li>Ralph L. Williams</li>
+              <li>Roger G. Wilson</li>
+              <li>Thomas J. Loback</li>
+              <li>Joseph P. Zale</li>
+              <li>Joseph T. Gallagher</li>
+              <li>Sam W. Stewart</li>
+              <li>Kenneth W. Roche</li>
+              <li>Bruce J. Dent</li>
+              <li>Patricio Maldonado</li>
+              <li>Frederick L. Martin</li>
+              <li>Edgar C. Spence</li>
+            </ul>
+            <p>
+              The weaponary of enemy forces, both local and main force, consisted of light and medium equipment. AK-47 Rifles, light machine guns, RPG-2 and RPG-7 launchers and mortars were his primary weapons. Support units were equipped with .51 caliber machine guns and a limited amount of 107 and 122 mm rockets. Mines and booby traps were also deployed and accounted for the majority of casualties.
+            </p>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="mar">MARCH</div>
+            <p>
+              On March 01, 1968, Company C remained OPCON to the 2/34th Armor. Companies A and B searched the area northeast of Hoc Mon at XT7906. The Recon Platoon provided security for the battalion forward base, which was still located 5 kilometers east of Hoc Mon at XT 803048.
+            </p>
+            <p>
+              On March 02, 1968, Companies A and B searched the area attempting to locate sites from which rockets were being fired into the Saigon Military District. This “Rocket Belt” was referred to by the soldiers as “Cape Canaveral.”
+            </p>
+            <p>
+              At 0006 hours, Company C, still OPCON to the 2/34th Armor, received approximately 30 rounds of mortar fire, wounding two Bobcats. At 0908 hours, at XT 748156, Company C received sniper fire. One Bobcat was hit and later died from his wounds. This individual was in the field when he first came to Viet Nam. He was then made company clerk. He had volunteered to go back into the field and was shot by a VC firing from a spider hole. He was due to end his tour on April 18.
+            </p>
+            <p>
+              On March 03, 1968, the battalion(-) continued S&D operations in the area east of Hoc Mon. Company C remained OPCON to the 4/23rd Armor and provided protection for Rome Plow cutting operations at XT 7614.
+            </p>
+            <p>
+              On March 04, 1968, the 1/5th(M)(-) conducted sweeps northeast of Hoc Mon. The bodies of several VC soldiers were located along with RPG and mortar ammunition. Company C continued providing protection for Rome Plow operations.
+            </p>
+            <p>
+              On March 05, 1968, the battalion(-) continued sweeps in the area with scattered light enemy contact.
+            </p>
+            <p>
+              On March 06, 1968, Companies A and B along with the Recon Platoon(-) and Company A, 2/34th Armor conducted a sweep in the area of  XT 7605, northeast of Hoc Mon. At 1604 hours, units made heavy contact at XT 769045. At 1615 hours Company A 2/34th Armor reported one killed and one wounded.
+            </p>
+            <p>
+              A Bobcat from Company B was moving along a tree line when he got shot in the head. Two men from Company B went to check him out to see if they could help him. One of them got shot in the chest and killed, the other was shot and wounded in the leg and hip. The Bobcat shot in the chest only had a few weeks to go before he was to get out of the Army. He had plans to get married as soon as he got out. At 1629 hours, Company B requested a dust-off for 8 Bobcats.
+            </p>
+            <p>
+              Company A was moving with men walking in front of the APCs. They received some sniper fire and turned on line to advance toward the sniper fire. The 3rd Platoon was in the middle and got hit first. An M-60 gunner got shot in the stomach and called out for help. The man next to him turned and got shot in the head. People called for a medic and as the medic advanced he was shot and killed. The soldiers were ordered to pull back, “but the M-60 gunner was still alive.” Air strikes with napalm were called in during the night.
+            </p>
+            <p>
+              At 0755 hours, on March 07, 1968, the body of the dead medic was recovered. At 0821 hours, the bodies of the other two were located. The M-60 gunner was found “with a rosary wrapped around his hands, he probably was praying up to the time he died.”
+            </p>
+            <p>
+              During the contact on March 6th, Company A suffered 8 wounded and 3 killed. Company B suffered 5 wounded and 2 killed. One of the Bobcats killed had only been in Viet Nam for 20 days. One APC had been destroyed and one tank and one APC were damaged. At 1720 hours, all personnel were accounted for and the units closed back to the battalion forward base.
+            </p>
+            <p>
+              Company C continued providing security for Rome Plow operations.
+            </p>
+            <p>
+              On March 08, 1968, the battalion(-) conducted RIFs in the area with negative contact. One Bobcat from Company B died from wounds he had previously received.
+            </p>
+            <p>
+              On March 09, 1968, one platoon from Company A provided security at the Hoc Mon Bridge on Highway 1. The remainder of the task force conducted vehicle maintenance at the battalion forward base.
+            </p>
+            <p>
+              On March 11, 1968, at 0601 hours, an ambush patrol from the Recon Platoon killed one VC. That morning the 1/5th(M) moved their forward base to an area 3 kilometers east of the Cu Chi base camp at XT 695145.
+            </p>
+            <p>
+              On March 12, 1968, the battalion conducted RIF operations northwest of the junction of Highways 8A and 15 in the area of XT 7214 and 7115. Company B located and destroyed 98 rounds of 60mm mortar ammunition. One platoon from Company A continued to provide security at the Hoc Mon Bridge. Company C remained OPCON to the 2/34th Armor and provided road and convoy security on Highway 1.
+            </p>
+            <p>
+              On March 13, 1968, the battalion(-) moved to Cu Chi Base Camp and the proceeded to a new forward base in the northwest corner of the Filhol at XT 640217.  At 1155 hours an APC from the Recon Platoon detonated a mine resulting in one Bobcat being wounded.
+            </p>
+            <p>
+              On March 14, 1968, the battalion(-) conducted RIF operations in the area of XT 6321 and 6421. At 1229 hours, in the northwest area of the Filhol at XT 642219, Company A, moving with men on the ground in front of the tracks, received sniper fire. One Bobcat was shot in the chest and died before a dust-off could get him out.  The men were ordered to take cover as artillery was called in. The artillery rounds mistakenly landed on top of the men of Company A, killing two Bobcats and wounding twenty-three.
+            </p>
+            <p>
+              Also on the 14th, a Bobcat from the Recon Platoon died from the wounds he had received the day before.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor and conducted operations in the lower Boi Loi Woods in the area of XT 5726.
+            </p>
+            <p>
+              On March 15, 1968, Companies A and B conducted operations in the northwest area of the Filhol near Bao Trang at XT 637217. At 1410 hours, at that location Company B found an ammunition cache of over 12,000 small arms rounds.
+            </p>
+            <p>
+              One man from Company B passed out while in a well. A second man was lowed into the well with belt links fastened to his own belt. He passed out and the belt broke dropping him into the well. A third man attempted rescue, wearing a gas mask, but he too passed out. He was pulled out and a forth man was lowed in with a gas mask, but he also passed out. A man was lowered down and holding his breath, retrieved the men in the well one at a time.
+            </p>
+            <p>
+              Two of the Bobcats could not be revived and died. A third man died while enroute to hospital on a dust-off.
+            </p>
+            <p>
+              On March 16, 1968, the battalion(-) continued operations in the northwest area of the Filhol. At 1937 hours, in the area of XT 640126, four Bobcats were wounded when 7 rounds of 60mm mortar fire were received.
+            </p>
+            <p>
+              Company C conducted operations in the Ho Bo Woods, still attached to the 2/34th Armor.
+            </p>
+            <p>
+              On March 17, 1968, the battalion continued sweeping operations northwest of the Filhol. At 0835 hours, one tank from Company A 2/34th Armor was hit by an RPG round wounding one man. At 0945 hours, another tank was hit by an RPG round during an engagement in the area of XT 632199. At 1000 hours, a small ammunition cache was located and the items destroyed. At 1810 hours, the Recon Platoon discovered and retained an 81mm mortar tube.
+            </p>
+            <p>
+              On March 19, 1968, The battalion(-), with Company A, 2/34th Armor attached, moved to a new forward base at XT 668235 on the north fringe of the Filhol, along the Saigon River.
+            </p>
+            <p>
+              On March 20, 1968, Companies A and B conducted RIF operations to the area of the junction of the Rach Son Creek and the Saigon River. During the day, miscellaneous items of equipment and ammunition were found and destroyed. At 1450 hours, at XT 675230, units discovered a cache containing 29 rounds of 82mm mortar CS Gas rounds, 13 tons of rice, along with peas, peanuts and beans. The food stuffs were stacked and covered with plastic sheets. Vegetation from the area was placed on top of the plastic in an effort to camouflage the material.  One platoon from Company B and the Recon Platoon remained at the cache site over night. The remainder of Company B and Company A withdrew to the battalion night location.
+            </p>
+            <p>
+              At 1420 hours, four Bobcats from Company C were wounded in a fire fight at XT 629293 in the Ho Bo Woods, while still attached to the 2/34th Armor.
+            </p>
+            <p>
+              On March 21, 1968, an extensive search of the cache site was conducted. Located were 24 mines, 20 mortar rounds, over 200 RPG rounds, over 2500 rounds of small arms ammunition and miscellaneous equipment and weapons. An additional 15 tons of rice, 2 tons of salt and 1000 pounds of canned food were also located.
+            </p>
+            <p>
+              The overall cache site consisted of four different complexes. Almost 100 underground bunkers and tunnels were discovered. One tunnel was 200 meters in length and ran under Highway TL15. Ten pound sacks of CS were placed inside the tunnel complex, spaced about 20 meters apart. All demolition charges and sacks of CS were connected and detonated simultaneously. This method sealed the tunnel, trapping the CS gas inside.
+            </p>
+            <p>
+              By nightfall all the bunkers and tunnels were destroyed and the located material had been transferred to the battalion forward base site.
+            </p>
+            <p>
+              On March 22, 1968, the 1/5th(M) along with Company A 2/34th Armor prepared to move back to Cu Chi Base camp. A convoy of 10 five ton trucks arrived at the battalion forward base and were loaded with the captured material from the cache site. The battalion and the convoy then departed for Cu Chi, closing by 1700 hours.
+            </p>
+            <p>
+              On March 23, 1968, the battalion(-) remained at Cu Chi, preparing for future operations.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor.
+            </p>
+            <p>
+              On March 25, 1968, the battalion(-) remained at Cu Chi. One platoon was dispatched to secure engineer operations on Highway 8A.
+            </p>
+            <p>
+              Company C remained OPCON 2/34th Armor. At 1200 hours, the Recon Platoon of the 4/23(M) made heavy contact near Trang Bang at XT 523187.  The platoon suffered 11 killed and 16 wounded. Company C, 1/5th(M) and Company C, 4/23(M) were committed to assist the platoon.
+            </p>
+            <p>
+              On March 26, 1968, the 1/5th(M)(-) departed Cu Chi Base Camp and established a forward base approximately half way between Tan Son Nhut and Duc Hoa at XT 698933.
+            </p>
+            <p>
+              Company C remained attached to the 2/34th Armor and conducted RIF operations in the area of Trang Bang.
+            </p>
+            <p>
+              On March 27, 1968, the battalion(-) conducted a reconnaissance in force operation along the Cau An Ha Canal from XT 683020 to 663940. At 2135 hours, an ambush patrol killed 2 VC.
+            </p>
+            <p>
+              On March 28, 1968, at 0203 hours, an ambush patrol from Company A killed one VC.  During the day, elements of the battalion conducted a reconnaissance in the area of XT 740995. At 1430 hours 400 pounds of rice was located.
+            </p>
+            <p>
+              On March 29, 1968, one company conducted a cordon and search in the area of XT 735982. Other elements conducted a RIF operation in the area of XT 7304 and 7401. That night at 2315 hours, the Recon Platoon engaged 7 VC, killing 6 of them.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor and provided security for Rome Plow cutting operations.
+            </p>
+            <p>
+              On March 30, 1968, the Recon Platoon captured one VC in the area of the previous night’s contact. The battalion conducted a RIF operation in the area of XT 7497. At 0755 hours, an APC from Company A detonated an AT mine.
+            </p>
+            <p>
+              The 1/5th(M)(-) was released from OPCON to the 3rd Brigade at the end of the day. Company C continued providing security for Rome Plow cutting operations.
+            </p>
+            <p>
+              On March 31, 1968, at 0700 hours the 1/5th(M)(-) returned to 2nd Brigade control. The battalion(-), with one company of Popular Forces Soldiers from Sa Tan Binh, conducted a combined cordon and search of Vin Loc in the area of XT 7197.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor.
+            </p>
+            <p>
+              During March 1968, fourteen Bobcats died in Viet Nam. They were:
+            <ul>
+              <li>Charles G. Rehberger</li>
+              <li>John L. Haines</li>
+              <li>Anthony Patrizi</li>
+              <li>Joseph D. Seibert</li>
+              <li>Stephen W. Downey</li>
+              <li>Larry Munoz</li>
+              <li>Guy T. Jones</li>
+              <li>Roger W. Letto</li>
+              <li>William E. Price</li>
+              <li>Raul Robledo</li>
+              <li>Sammie R. Sneed Jr.</li>
+              <li>Edward A. Lionetta</li>
+              <li>David R. Young Jr.</li>
+              <li>Paul A. Young</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="apr">APRIL</div>
+            <p>
+              On April 01, 1968, the 1/5th(M)(-) with one company of Regional Force Soldiers conducted reconnaissance in force operations in the area of XS 701980.
+            </p>
+            <p>
+              On April 02, 1968, Company B conducted air mobile combat assaults. At 1435 hours, the company engaged an unknown number of VC with organic weapons. 3 VC were killed by body count and two Bobcats were wounded. That evening, elements of the battalion conducted a night ambush with Popular Force Soldiers from Sa Tan Binh District.
+            </p>
+            <p>
+              Map 20   Vinh Loc area.
+            </p>
+            <p>
+              On April 03, 1968, the Recon Platoon was OPCON to the 2/27th Infantry. Company C, 2/14th Infantry was OPCON to the 1/5th(M).
+            </p>
+            <p>
+              Company B, 1/5th(M) and Company C, 2/14th Infantry conducted combined RIF operations with one Popular Force Platoon in the area of XT 6994.
+            </p>
+            <p>
+              At 1135 hours, an APC from the Recon Platoon detonated an AT mine at XT 5599. Two Bobcats were wounded and the APC was a combat loss.
+            </p>
+            <p>
+              On April 04, 1968, Company C remained OPCON to the 2/34th Armor. The Recon Platoon remained OPCON to the 2/27th Infantry. Companies A and B, with one company of National Police, conducted combined cordon and search operations, of  Ap Tay, Ap Go and Vin Loc.
+            </p>
+            <p>
+              On April 05, 1968, Companies A and B and one company of National Police conducted a combined cordon and search of Cu Lao.
+            </p>
+            <p>
+              The Recon Platoon remained OPCON to the 2/27th Infantry and conducted road clearing operations along Highway 1 from Cu Chi to Hoc Mon.
+            </p>
+            <p>
+              On April 08, 1968, at 0700 hours, the Recon Platoon went OPCON to the 2/14th Infantry. The platoon conducted road clearing and convoy security for the Duc Hoa convoy.
+            </p>
+            <p>
+              Company C, 1/5th(M) remains OPCON to the 2/34th Armor. At 1200 hours, Company D, 2/27th Infantry became OPCON to the 1/5th(M).
+            </p>
+            <p>
+              On April 09, 1968, the battalion forward base was located 10 kilometers west of the City of Saigon, in the area of XS 6993. Company A conducted a RIF operation with 4 platoons of Popular Force Soldiers. Company B, 1/5th(M) and Company D, 2/27th Infantry provided security for the battalion forward base and were on stand-by as the battalion reaction force.
+            </p>
+            <p>
+              On April 10, 1968, at 0700 hours, Company D, 2/27th Infantry was released from OPCON to the 1/5th(M). Company A, 2/34th Armor remained OPCON to the 1/5th(M).
+            </p>
+            <p>
+              At 0800 hours, the battalion conducted a motor march to the area of Vinh Loc to establish a new battalion forward base at XS 727986.
+            </p>
+            <p>
+              Company C, remained OPCON to the 2/34th Armor and conducted road security on Highway 1 from Trang Bang to Go Dau Ha.
+            </p>
+            <p>
+              The Recon Platoon cleared Highway 1 from Hoc Mon to the junction of Highway 7A.
+            </p>
+            <p>
+              From April 11, 1968 to April 15, 1968, units conducted sweeps of the area with South Vietnamese Forces. Company C remained OPCON to the 2/34th Armor and continued highway security operations. The Recon Platoon remained OPCON to the 2/14th Infantry.
+            </p>
+            <p>
+              On April 16, 1968, Company B(-) provided security for the move of two batteries of artillery from the Hoc Mon area to the battalion forward base. At 0925 hours, one Bobcat from Company B was killed when a canister round accidentally detonated.
+            </p>
+            <p>
+              On April 17, 1968, Companies A and B conducted airmobile combat assaults.
+            </p>
+            <p>
+              On April 18, 1968, Company B(-) conducted a Medcap at Vinh Loc Village. The Recon Platoon continued route security of Highway 1.  Company C remained OPCON 2/34th Armor. At 1840 hours, an APC from Company B detonated an AT mine wounding three Bobcats.
+            </p>
+            <p>
+              On April 19, 1968, the battalion(-) moved to a new forward base location at XS 733945, located four kilometers south of Vinh Loc.
+            </p>
+            <p>
+              On April 20, 1968, the 1/5th(M) participated in a multi-battalion cordon and search of Tan Thoi Trung Village, located just south of Hoc Mon. The 2/14th Infantry, 1/27th Infantry and one platoon of MPs from the 25th Infantry Division were the other units involved.
+            </p>
+            <p>
+              Cu Chi Base Camp received 7 rounds of 122mm Rocket fire resulting in 24 soldiers being wounded.
+            </p>
+            <p>
+              On April 22, 1968, the Recon Platoon and Company C remained OPCON to the 2/14th Infantry and the 2/34th Armor respectively.  The Recon Platoon conducted road sweeps along Highway 8A.
+            </p>
+            <p>
+              The battalion(-) conducted combined search and screen operations of personnel and vehicles with Popular Force Soldiers in the area of XS 694910.
+            </p>
+            <p>
+              On April 23, 1968, intelligence information indicated that there would be an attack on Saigon on May 01.  All but two of the 25th Infantry Division’s maneuver battalions were positioned to block the main approaches to Saigon from the west. The 2/22nd(M) and the 2/12th Infantry assumed responsibility for Tay Ninh and Dau Tieng.
+            </p>
+            <p>
+              Company C 1/5th(M) remained OPCON to the 2/34th Armor, 1st Brigade. The Recon Platoon was returned to the control of the battalion. One platoon from Company A, 2/34th Armor remained OPCON to the 1/5th(M).
+            </p>
+            <p>
+              At 0630 hours, the battalion(-) with Popular Force Soldiers conducted a cordon and search of Vin Loc Village. They then established and maintained three checkpoints in the area. At 1503 hours, a mine was detonated wounding one Bobcat from Company A.
+            </p>
+            <p>
+              On April 24, 1968, the battalion conducted a cordon and search / Medcap of Ap Binh Hoa at XS 729935.
+            </p>
+            <p>
+              At 2045 hours, Cu Chi Base Camp received 3 rounds of 60mm mortar fire. The rounds landed in the 1/5th(M) area, wounding six soldiers.
+            </p>
+            <p>
+              On April 25, 1968, the battalion(-) conducted a RIF operation in the area of XS 7194, south of Vin Loc. Three screen and search sites were established with National Police Officers from Duc Hoa District. At 1536 hours, Company B had two Bobcats wounded by a booby trap detonation. Company C remained OPCON to the 2/34th Armor.
+            </p>
+            <p>
+              On April 26, 1968, the 1/5th(M) provided security for Fire Support Base Pike II at XS 702910, located 6 kilometers south of Vinh Loc. Elements of the battalion conducted sweeps in the area and also participated in a cordon and search of Vin Loc Village with Regional Force Soldiers from Tan Binh District. Personnel / vehicle checkpoints were also established and maintained in the area.
+            </p>
+            <p>
+              On April 27, 1968, one platoon from Company A provided security for FSB Pike II. The remainder of Company A and the Recon Platoon provided security for the battalion forward base. A cordon and search of Ap Tan Hoa was conducted with National Police and 25th Infantry Division MPs. Checkpoints were also established throughout the area. At 1950 hours, the Recon Platoon received small arms fire from an unknown number of VC. Fire was returned with unknown results. Two Bobcats were wounded.
+            </p>
+            <p>
+              On April 29, 1968, Company C, still OPCON to the 2/34th Armor, participated in conducting road security on Highway 1 from Go Dau Ha to the Hoc Mon Bridge.
+            </p>
+            <p>
+              The 1/5th(M)(-), with one platoon from the 2/34th Armor and one company of RF soldiers, conducted a cordon and search of Ap Binh Hoa, located 4 kilometers south of Vinh Loc. Check points were also established in the area.
+            </p>
+            <p>
+              On April 30, 1968, two platoons from Company A and one platoon from Company A, 2/34th Armor, conducted a RIF operation in the area of XT 7597, the grid just south of Tan Thoi Nhut. The Recon Platoon provided security for a resupply convoy. Other elements of the battalion established check points in the area in union with Popular Force units.
+            </p>
+            <p>
+              During April 1968, one Bobcat died in Viet Nam. He was:
+            <ul>
+              <li>James E. Young</li>
+            </ul>
+            <p>
+              The 25th Infantry Division reported the following losses for the Quarterly Period of February 01, 1968 to April 30, 1968: KIA: 520;  WIA: 1,641;  MIA: 0;  NBD: 18;  NBI: 34.
+            </p>
+            <p>
+              A 25th Infantry Division Intelligence Summary for the Quarterly Period stated:  “VC/NVA activity during February and March consisted of trying to maintain their foothold in the Saigon area. They made a determined attempt to control the areas adjacent to Saigon. After great manpower and equipment loss the enemy withdrew to base areas.
+            </p>
+            <p>
+              The time period of March 15 to April 15 was characterized by little action. This period was used by the enemy to refit and receive replacements.
+            </p>
+            <p>
+              During the last 15 days of April enemy activity reached a peak. Large groups of replacements were identified in the TAOI. Supply caches with large amounts of food, ammunition, and arms were located.”
+            </p>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="may">MAY</div>
+            <p>
+              On May 01, 1968, Company C remained OPCON to the 2/34th Armor. One Bobcat from Company C died from wounds he received during an enemy mortar attack.
+            </p>
+            <p>
+              Two platoons from Company A, one platoon from Company A, 2/34th Armor and one company of Regional Force Soldiers conducted a sweep operation. One platoon from Company A secured the battalion’s forward base area located at XS 733945. Company B established checkpoints in the area of Binh Hung Hoa and Xom Go May. Night ambushes were deployed throughout the area.
+            </p>
+            <p>
+              On May 02, 1968, elements of the battalion task force conducted checkpoint operations and a sweep of Grid XS 7292.
+            </p>
+            <p>
+              Company C, still OPCON to the 2/34th Armor, started the day conducting road clearing and security operations on Highway 1 between Trang Bang and Phuoc My. Later that day, at 1500 hours, while working the area of Highway 237, just northwest of Trung Lap, a booby trapped hand grenade was detonated and wounded two Bobcats from Company C. Both men died from the wounds they received.
+            </p>
+            <p>
+              On May 03, 1968, elements of the battalion conducted sweeps in the area of Ap Cu Lao, 5 kilometers west of Tan Son Nhut, with negative contact. Company A, 1/5th(M) went OPCON directly to 2nd Brigade Headquarters.
+            </p>
+            <p>
+              Company C conducted road security operations in the Trang Bang area.
+            </p>
+            <p>
+              On May 04, 1968, elements of the battalion conducted sweeps of the area and provided security for checkpoints. At 1220 hours, Company A was released back to battalion control.
+            </p>
+            <p>
+              One Bobcat from Company C died from multiple fragmentation wounds.
+            </p>
+            <p>
+              On May 05, 1968, Company B provided security for the battalion forward base area. Other units conducted RIF operations and also established and maintained security checkpoints. At 1300 hours, Company B, 1/27th Infantry became OPCON to the 1/5th(M).
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor and conducted operations east of Bao Trai, where there had been heavy enemy contact.
+            </p>
+            <p>
+              On May 06, 1968, the 4/23(M) and the 2/34th Armor were sent to reinforce the Bao Trai ARVN garrison, which had been attacked that morning by a three battalion sized enemy force.
+            </p>
+            <p>
+              Company C, 1/5th(M), with the 4/9th Infantry conducted a sweep of the contact area east of Bao Trai and discovered many enemy bodies along with weapons, ammunition and supplies.
+            </p>
+            <p>
+              The Recon Platoon, 1/5th(M) provided security for the resupply convoy. Company C, 1/27th Infantry secured the 1/5th(M) forward base area. Other elements of the battalion conducted RIF operations throughout the area with negative contact.
+            </p>
+            <p>
+              On May 07, 1968, at 2030 hours, the 1/5th(M) Task Force was released from the operational control of the 2nd Brigade, but remained in the area of the Capital Military District.
+            </p>
+            <p>
+              On May 08, 1968, at 0805 hours, Company C, still OPCON 2/34th Armor, killed one VC and captured four others south of Hoc Mon.
+            </p>
+            <p>
+              On May 09, 1968, three Bobcats from Company A were killed when an APC blew up from an accidental internal explosion. Speculation was that somehow a hand grenade accidentally blew up inside the track, causing a large secondary explosion.
+            </p>
+            <p>
+              A Bobcat from Company B was shot and killed later in the day.
+            </p>
+            <p>
+              On May 12, 1968, at 0820 hours, the 1/5th(M)(-) became OPCON to the 1st Brigade and moved from the Capital Military District to the northwest corner of the Filhol (XT 665236) near the Rach Son Tributary of the Saigon River. The battalion(-) deployed security patrols and prepared the night defensive perimeter.
+            </p>
+            <p>
+              Company C, still OPCON to the 2/34th Armor, was conducting a sweep southwest of Vinh Loc near XS 7097, when they encountered an estimated VC platoon hiding in bunkers. Supported by artillery and air strikes, the company over ran the enemy positions.
+            </p>
+            <p>
+              On May 13, 1968, the 1/5th(M)(-) conducted a RIF operation in the Filhol. At 1200 hours, the battalion(-) went OPCON to the 3rd Brigade and began to move to a new location for the night. At 1803 hours, Company A received RPG and small arms fire on its right flank, east of the junction of Highway 7A and Highway 1. Enemy fire was returned with organic weapons. At 1841 hours, Company B received 60mm mortar fire. The enemy broke contact and the battalion(-) established a night position off Highway 1 in the area of Phuoc My.  One Bobcat from Company A was killed and twenty other Bobcats from the battalion were wounded, fourteen of them were dusted-off.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor and operated in the Vinh Loc area.
+            </p>
+            <p>
+              On May 14, 1968, at 0720 hours, the battalion(-) started moving north. At 1155 hours, the lead APC for Company A hit an AT mine on Highway 7A, just southwest of Trung Lap. One Bobcat was killed and six were wounded and dusted-off. The APC was a combat loss.
+            </p>
+            <p>
+              At 1530 hours, Company B started receiving small arms, automatic weapons and RPG fire. After an airstrike, Company B started assaulting the contact area. At 1750 hours, the company received two 60mm mortar rounds. By 1800 hours, they overran the contact area, capturing some enemy weapons and finding one VC body.
+            </p>
+            <p>
+              At 1830 hours, the Medic APC from Company A hit a 20 pound mine but only the fuse detonated. At 1855 hours, an APC from Company A detonated an AT mine 3 kilometers northwest of Trung Lap at XT 567238. One Bobcat was killed and three were wounded and dusted-off. The battalion(-) established a night position at XT 565247.
+            </p>
+            <p>
+              On May 15, 1968, the battalion(-), with one platoon from Company A, 2/34th Armor attached, conducted sweeps in the area with light scattered contact.  All units closed the battalion forward base. At 2020 hours, the night base area received nine 82mm mortar rounds. Six Bobcats were wounded and dusted-off. Six ambush patrols were established, all within 400 meters of the base perimeter. At 2250 hours, all three of Company B’s APs reported seeing a light moving to the northeast.
+            </p>
+            <p>
+              On May 16, 1968, at 0038 hours, the night base started receiving small arms and RPG fire. At 0040 hours, one of Company B’s patrols reported that they were returning to the perimeter with 3 casualties. At 0042 hours, one of Company A’s patrols was in direct contact. One of Company B’s APCs on the night perimeter was hit by an RPG round and started burning. Elements returned fire with organic weapons, air strikes and mortars.
+            </p>
+            <p>
+              Two soldiers from the 2/34th were wounded, as were six Bobcats from Company A and eight Bobcats from Company B. Six Bobcats from Company B were killed at their ambush site location. Their bodies could not be retrieved because of the contact.
+            </p>
+            <p>
+              At 0325 hours, patrols were sent out to search the area. At 0500 hours, Company B pulled all their patrols in because of enemy movement in the area.
+            </p>
+            <p>
+              A search of the area in the daylight revealed the bodies of VC soldiers, weapons, ammunition and equipment. Numerous blood trails were also found in the area. The bodies of the six Bobcats from the Company B ambush were retrieved. “Word” circulated amongst the soldiers that the men had apparently fallen asleep and had their throats cut.
+              A tracker dog team was brought out to the battalion base area and a detailed search of the area was conducted during the day.
+            </p>
+            <p>
+              Company C remained OPCON to the 2/34th Armor and continued operations in the Vinh Loc area.
+            </p>
+            <p>
+              On May 17, 1968, two Bobcats died from burns they had received previously. One was from Company B and the other was a medic. The battalion(-) conducted RIF operations and moved north to the southern edge of the Boi Loi Woods and established a new forward base.
+            </p>
+            <p>
+              On May 18, 1968, the battalion(-) moved to a new base area at XT 533290, located just off  Highway 6A and 4 kilometers south of Highway 238. Ambush patrols departed the perimeter shortly after 1900 hours. At 2015 hours the ambush patrol from the Recon Platoon reported that they had one man accidentally shot in the foot. He was brought back to the base and dusted-off.
+            </p>
+            <p>
+              An 18 man ambush patrol from Company A returned to the perimeter after expending a good part of their ammunition on an unknown size enemy force they encountered on their way out to their ambush site. They were ordered back out and set up about 300 meters from the perimeter when they again detected enemy movement to their front.
+            </p>
+            <p>
+              On May 19, 1968, at approximately 0500 hours, the battalion base area started receiving mortar and RPG fire. The Company A ambush set off its Claymores on a large enemy force. In the ensuing firefight, four Bobcats were killed and several others were wounded. Those still alive fought their way back to the perimeter with the wounded members of the patrol. The enemy attack was repulsed with organic weapons, artillery and air strikes.  Many VC bodies were found in front of the Company A ambush location.
+            </p>
+            <p>
+              During the day Company A(-) and Company B(-) conducted a RIF operation west and north of the base area.
+            </p>
+            <p>
+              On May 20, 1968, One bobcat from Company C died from wounds he had previously received.  Company C remained OPCON to the 2/34th Armor, operating in the Vinh Loc area.
+            </p>
+            <p>
+              The battalion(-) moved to a new night location at XT 530288
+            </p>
+            <p>
+              On May 21, 1968, the battalion(-) moved into an area north of Trang Bang and established a forward base at XT 533290.
+            </p>
+            <p>
+              On May 22, 1968, at 0005 hours, an attack was launched against the battalion night perimeter. Organic weapons, artillery and helicopter light fire teams were used to suppress the enemy assault. Contact was broken by the enemy at 0345 hours. Five Bobcats were killed in the action. Two were from the Recon Platoon and three were from Company A.
+            </p>
+            <p>
+              At daylight, enemy bodies and miscellaneous equipment were policed up from around the battalion perimeter.
+            </p>
+            <p>
+              On May 23, 1968, the 2/34th Armor was released from OPCON to the 2nd Brigade at 1530 hours.
+            </p>
+            <p>
+              On May 24, 1968, the 1/5th(M) returned to Cu Chi Base Camp.
+            </p>
+            <p>
+              On May 26, 1968, the 1/5th(M) continued stand-down at Cu Chi and acted as division ready reaction force.
+            </p>
+            <p>
+              On May 29, 1968, the 1/5th(M) relieved the 2/22(M) of road security. Company A secured the battalion forward base at XT 483196. Company C moved to Tay Ninh Base Camp and the Recon Platoon moved to Dau Tieng Base Camp to provide convoy security between Tay Ninh, Bau Co and Dau Tieng.
+            </p>
+            <p>
+              On May 30, 1968, elements of the battalion cleared Highway 1 from Tay Ninh to the Hoc Mon Bridge. At 1310 hours, an APC from the Recon Platoon detonated an AT mine at XT 391432. One Bobcat was wounded. Company C cleared roads and secured convoys between Tay Ninh and Dau Tieng and also secured the rock crusher site at XT 2856.
+            </p>
+            <p>
+              On May 31, 1968, elements of the 1/5th(M) cleared the main supply route (Highway 1) from Tay Ninh to the Hoc Mon Bridge. After clearing the road Company A reconnoitered the area of XT 6511. Company B reconnoitered the area of XT 4722. Company C and the Recon Platoon cleared roads and provided security for convoys between Tay Ninh and Dau Tieng and also secured the rock crusher site at XT 2856.
+            </p>
+            <p>
+              During May 1968, twenty-eight Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>David A. Stremler</li>
+              <li>James D. Molpus</li>
+              <li>Charles H. Turner Jr.</li>
+              <li>Kellum W. Grant</li>
+              <li>Samuel S. Linville</li>
+              <li>Claude D. Protz</li>
+              <li>Joseph Greene</li>
+              <li>Robert G. Hoop</li>
+              <li>Stephen R. Powell</li>
+              <li>Kenneth D. Rynning</li>
+              <li>Clifton Cubbage</li>
+              <li>Otis E. Isbell</li>
+              <li>Henry J. Kirchner Jr.</li>
+              <li>Louie J. Sandoval</li>
+              <li>Daniel L. Underwood</li>
+              <li>Paul E. Watson</li>
+              <li>Dennis L. Everts</li>
+              <li>Guy L. Jewett</li>
+              <li>William C. Baldwin</li>
+              <li>Overtis Hinton Jr.</li>
+              <li>Kenneth R. Wilson</li>
+              <li>Gary W. Dunn</li>
+              <li>Joe R. Courtney</li>
+              <li>Gale W. Dixon</li>
+              <li>William M. Clarke Jr.</li>
+              <li>Paul A. Proehl</li>
+              <li>Joe R. Hines</li>
+              <li>Timothy McKee Hamilton</li>
+              <li>James V. Antolini</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="jun">JUNE</div>
+            <p>
+              No data could be located for the month of June 1968.
+            </p>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="jul">JULY</div>
+            <p>
+              On July 22, 1968, at 1100 hours, the 2nd Bn, 506th Infantry encountered an unknown sized enemy force 3 kilometers east-northeast of Trang Bang. The contact continued throughout the day and into the night.
+            </p>
+            <p>
+              At the same time to the west, Company B, 4/23rd(M) engaged an unknown sized enemy force 4 kilometers north of Go Dau Hau at XT 392301. Companies A and B of the 1/5th (M) were sent to reinforce Company B, 4/23rd (M). The contact lasted throughout the day and into the night.
+            </p>
+            <p>
+              Data for the month of July 1968 was virtually non-existant.
+            </p>
+            <p>
+              On July 22, 1968, at 1100 hours, the 2nd Battalion, 506th AB Infantry encountered an unknown sized enemy force 3 kilometers east-northeast of Trang Bang. The contact continued throughout the day and into the night.
+            </p>
+            <p>
+              At the same time to the west, Company B, 4/23rd(M) engaged an unknown sized enemy force 4 kilometers north of Go Dau Hau at XT 392301. Companies A and B of the 1/5th(M) were sent to reinforce Company B, 4/23rd(M). The contact lasted throughout the day and into the night.
+            </p>
+            <p>
+              Map 21   The Ben Cui Rubber Plantation area.
+            </p>
+            <p>
+              The 25th Infantry Division reported the following statistical data for the Quarterly Period of May 01, 1968 to July 31, 1968: KIA: 345;  WIA: 1,424;  NBD: 24;  NBI: 28.
+            </p>
+            <p>
+              Personnel shortages continued to exist in Infantry Captains and Infantry NCOs in grades E-6 and E-7.
+            </p>
+            <p>
+              During the quarterly period defoliation missions were flown in areas of operation to clear vegetation bordering roads, paths, trails and waterways (Oriental and Saigon Rivers); clearing vegetation from fields of fire and avenues of approach and clearing vegetation surrounding Cu Chi Base Camp and other critical installations.
+            </p>
+            <p>
+              Throughout the quarterly period several units were reorganized under new TOE. These units were: 1st Bn, 5th Inf(Mech); 2nd Bn, 22nd Inf(Mech); 4th Bn, 23rd Inf(Mech).  The new TOE was TOE 7-45G per USARPAC GO 226 dated 7 May 1968.
+            </p>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="aug">AUGUST</div>
+            <p>
+              On August 03, 1968, Company B was conducting a sweep in the eastern portion of the Michelin Rubber Plantation. Contact was made and the VC took shelter in a village. Company A was dispatched to reinforce Company B. At 0915 hours, the village was evacuated with the help of a loud speaker helicopter. One of the villagers stated that there were still 100 VC in the village. CS was dropped on the village and a LFT was called in. At 0958 hours, a dust-off was requested. One of the LFT helicopters had fired a rocket that exploded on Company B soldiers. One Bobcat was killed and five were wounded. Also wounded by the rocket blast were one engineer and one Vietnamese civilian. A search of the village resulted in negative contact.
+            </p>
+            <p>
+              The Recon Platoon provided security for a convoy from Dau Tieng to Tay Ninh. At 2150 hours, elements of Company C providing security at the Dau Tieng Bridge over the Saigon River engaged and destroyed one sampan.
+            </p>
+            <p>
+              On August 07, 1968, at 1825 hours, Dau Tieng Base Camp received small arms fire. Fire was returned with organic weapons. The enemy fire continued for almost 30 minutes before the VC broke contact. One Bobcat from Company C was killed and another wounded in the exchange.
+            </p>
+            <p>
+              On August 09, 1968, Companies A and C conducted sweeps in the area of AP 12, located in the center of the Michelin at XT 557505. At 1345 hours, Company C received sniper fire while moving back to Dau Tieng. There were negative casualties. At 1445 hours, the Recon Platoon departed Tay Ninh with a 48 vehicle convoy. At 1507 hours, Company A received small arms fire from 3 or 4 VC. The VC broke contact when fire was returned. A dust-off was requested for one Bobcat from Company A who was shot in the chest. He died of his wounds later in the day.
+            </p>
+            <p>
+              On August 14, 1968, at 2323 hours, Company C reported that one VC walked toward the night perimeter and was shot.
+            </p>
+            <p>
+              On August 15, 1968, at 0545 hours it was reported that the person killed on August 14, was a US Soldier from Company C, 1/5th(M). He had no weapons or web gear when found. Speculation on how he got outside the perimeter and then walked back towards it varied.
+            </p>
+            <p>
+              On August 16, 1968, Companies A, B, and C conducted a cordon and search of Dau Tieng City with South Vietnamese District officials. 102 people were detained for questioning.
+            </p>
+            <p>
+              On August 17, 1968, at 0400 hours, Dau Tieng Base Camp was hit by a mortar and rocket barrage. Five people were wounded. The enemy fire was returned with artillery fire with unknown results.
+            </p>
+            <p>
+              On August 18, 1968, the battalion departed Dau Tieng to conduct a seacrh of the area northwest of the Ben Cui Airstrip. At 0750 hours, Company B engaged a large enemy force at XT 438467. Company C and the Recon Platoon soon reinforced the action and were supported by artillery, air strikes and helicopter gun ships. Company A remained in a blocking position to the northwest. Seven Bobcats were wounded in the engagement.
+            </p>
+            <p>
+              On August 19, 1968, Company A, 1/5th(M) was dispatched with Company B, 4/23(M) to assist Troop A, ¾ Cavalry who were ambushed while moving from Cu Chi to Tay Ninh on Highway 26.
+            </p>
+            <p>
+              Companies B and C with the Recon Platoon were sweeping the area on the western edge of the previous day’s engagement. At 1225 hours, Company B made contact with an unknown size enemy force. Company C and the Recon Platoon joined Company B in the fight. Artillery, air strikes and helicopter gun ships were called in for support. The units made two assaults on the enemy position before they were able to move through it and the enemy broke contact. The units headed back to Dau Tieng Base Camp after sweeping the area of contact.
+            </p>
+            <p>
+              Company B was then dispatched to head towards Tay Ninh on Highway 239 and meet a Platoon from the ¾ Cavalry who were enroute to Dau Tieng and then to escort them to Dau Tieng. Company B received some enemy fire as it moved west on highway 239.
+            </p>
+            <p>
+              After linking up with the ¾ Cavalry element, they started their return trip to Dau Tieng. At 1828 hours, the Recon Platoon received fire from the south side of Highway 239 at XT 443445. At 1833 hours, Company B received RPG fire in the area of Highway 239 at XT 416444. At 1843 hours, one APC was reported hit by RPG fire shortly after the units had entered the rubber trees at XT 456449. Another APC and a tank were also hit in the same area. The units fought their way east and where Highway 239 turns north, another tank was hit by RPG fire. A little further north at XT 462458 two more APCs were hit. The units had to leave one tank and one APC on the highway. They were too badly damaged to tow. With the help of helicopter gunships and artillery the units made their way around the curve to where Highway 239 heads in an easterly direction. They took some fire at the curve, but once past it, enemy contact ceased. The units closed Dau Tieng Base Camp at 2050 hours.
+            </p>
+            <p>
+              During the day, 9 Bobcats from Company B were killed. Company A had 2 wounded. Company B had 43 wounded and Company C had 20 wounded. The Recon Platoon had 3 wounded. The platoon from ¾ Cavalry had 13 wounded and 1 killed. Four APCs from Company B were heavily damaged and two tanks from the ¾ Cavalry were out of action.
+            </p>
+            <p>
+              On August 20, 1968, at 0625 hours, Company C and the Recon Platoon and the 3rd Brigade CRIP unit departed Dau Tieng to check out the previous day’s contact area on Highway 239, south of the abandoned Ben Cui airstrip at XT 4545. The village at XT 463450 was searched. Villagers reported that a large VC force was in the area. At 1310 hours, the units closed on the contact area where the tank and APC had been left the evening before. One damaged tank and one damaged APC were taken into tow to be returned to Dau Tieng. The body of one tanker from the ¾ Cavalry was found inside the tank.
+            </p>
+            <p>
+              In a search of the immediate area around XT 4545, blood trails, web gear and miscellaneous ammunition were located. The units closed back at Dau Tieng Base Camp by 1600 hours.
+            </p>
+            <p>
+              At  1731 hours the Dau Tieng Base Camp received a 47 round mortar barrage.
+            </p>
+            <p>
+              Company A, still OPCON to the 4/23(M), had one Bobcat shot and killed by a sniper, leaving only one commissioned officer in Company A.
+            </p>
+            <p>
+              On August 21, 1968, at 0640 hours, Company C departed Dau Tieng for a RIF operation through the Ben Cui Rubber Plantation. The company was to be approximately 1 kilometer south of the MSR[Highway 239]. The company had a Scout Dog team with them. At 0658 hours, the Recon Platoon with one “Duster” attached and the 3rd Brigade CRIP Platoon, left Dau Tieng to sweep Highway 239. As Company C moved through the rubber plantation, the Recon Platoon paralleled their movement along the highway.
+            </p>
+            <p>
+              At 1110 hours, Company C, moving with troops on the ground in front of the APCs,  received sniper fire. One Bobcat was killed. The Company then started to receive automatic weapons fire and heavy RPG fire.
+            </p>
+            <p>
+              “I called the S-3, who was flying above me in the air, and told him that at first I was just receiving heavy sniper fire and it constantly started to increase. At this time I pulled my 2nd Platoon up on the right flank of my 1st Platoon, so I could put more fire power up on my front because this is where all the fire was coming from. The enemy fire continued to increase and for a while there it seemed like there must have been hundreds of AKs firing at us. At this time I gave the order for everyone to pull back around where I had my 4th Platoon providing rear security for us, and set up in a perimeter. Just as we started to move back RPGs started raining in like someone shooting M-79s. I never seen so many RPGs and automatic weapons fire in my life. It was so suppressing that people couldn’t hardly move.”
+            </p>
+            <p>
+              At 1149 hours, the Recon Platoon, located on Highway 239, reported that hundreds of enemy soldiers were moving south from the village at XT 4545 to reinforce the enemy contact with Company C. The Recon Platoon fired on these soldiers with their .50 caliber machineguns and the twin 40mm “Duster” but the fire power was not enough to stop the enemy movement.
+            </p>
+            <p>
+              “Once I gave the order for us to move back and form a perimeter around my 4th Platoon, I first moved my 2nd Platoon which was on the right flank back to the 4th Platoon area. Just as the 3rd Platoon and the 1st Platoon started moving back, we started taking very heavy fire from the front and both our flanks and RPGs were flying all over the place. We got up and slowly started moving back. We got back to approximately 50 to 75 yards from where the 2nd and 4th Platoons were. An RPG hit the track close to me or the track that I was by or the ground, I’m not sure what it hit, and knocked me, I was wounded, it hit both my RTOs and 3 or 4 other people around there. And I know the track I was standing by was knocked out and I finally managed to get up and the two other tracks about 5 or 10 meters from me took very heavy RPG fire and they were both knocked out. At this time I was pretty dazed and I lost so much blood that I was just getting weak and they finally grabbed me and throwed me inside one of the tracks and the 3rd Platoon leader took charge of the company. One thing of importance that I might mention too is the fact that we had trouble getting artillery fire in there at first because it was very thick and the choppers in the air had a hard time identifying our smoke plus my artillery FO was wounded. My four-duce FO was wounded, in fact I guess practically everyone in my headquarters group was wounded.”
+            </p>
+            <p>
+              At 1200 hours, Company C reported that their situation was critical and that they were pulling back. In the 50 minute firefight, Company C had 6 APC’s destroyed, 17 men killed and 21 wounded. At 1201 hours the first helicopter light fire team arrived in the area. At 1202 hours, Company B 1/5th(M) was alerted to stand-by to assist Company C, but never left the Dau Tieng Base Camp.
+            </p>
+            <p>
+              “And we fell back about 100 yards to try and get the artillery into that area and trying to give us a little working room so that we could continue keeping them away from us. We drew back about 100 yards and three more of our tracks got hit. By the time we started pulling back the gooks were already swarming all over the first three tracks that were hit. We pulled back about 100 yards and the command group was down behind one of the tracks and that track took a hit from an RPG 7. When it hit, it wounded the company commander and the FO. It killed one of the RTOs and seriously wounded one of the other RTOs.
+            </p>
+            <p>
+              At this point the company was totally disorganized. They were in a rough perimeter, the tracks were still firing toward the front and the fire was still coming at us from the right flank, a little bit from the left flank but not too much, but mostly from the front and right flank. The 1st Platoon Leader had been killed in the initial contact, and so they were without leadership there. The 3rd Platoon, I was still around but I had several men killed and a lot of em wounded. We pulled back. I had lost all three of my tracks. The 2nd Platoon and Mortar Platoon were in the rear and they were quite a ways back and they were only receiving light contact. They hadn’t had anybody hurt, but I had no knowledge of them whatsoever.
+            </p>
+            <p>
+              What I had around me was so disorganized and there were so many killed and wounded at that point, that I just started getting everybody in the tracks. I started yelling at everybody, ‘get in the tracks and get the tracks moving.’ And it took me about 10 minutes before I could get everybody I could get, the dead I just had to leave there. The wounded people, everybody I could get my hands on and everybody that anybody else could get their hands on we started throwing in the tracks. I got everybody thrown into the tracks and the tracks started moving out. Those that were still outside the tracks, we yelled at em to get on the tracks and to my knowledge everybody that was still alive and moving at that time got on the tracks. They could see the tracks were moving out and if they didn’t get on them they were going to be left there. So they all managed to get on the tracks and we pulled back out.”
+            </p>
+            <p>
+              What was left of Company C moved back through the rubber plantation to a clearing they had passed through at the beginning of their sweep. 16 Bobcats and one ARVN soldier were left on the battlefield. At the clearing, Company C was joined by the Recon Platoon(+) and CRIP element and established a perimeter for dust-offs. The dust-offs of the wounded were completed at 1254 hours. The units closed back into Dau Tieng base camp at 1315 hours to regroup.
+            </p>
+            <p>
+              At 1330 hours, Company C made a preliminary report that they had 2 Bobcats killed and 21 wounded and the Recon element had 2 wounded. The 3rd Brigade CRIP had one man killed. At 1343 hours, Dau Tieng base camp started receiving sporadic mortar fire.
+            </p>
+            <p>
+              At 1430 hours, one platoon from the battalion was dispatched to provide security for the Saigon River Bridge at Dau Tieng. At 1445 hours, the Recon Platoon and the 3rd Brigade CRIP unit departed the base camp and established a position at the edge of the woodline of the rubber plantation. At 1600 hours, all elements were ordered to pull back to Dau Tieng Base Camp. Some Company C soldiers wanted to go back into the Ben Cui immediately and retrieve their fellow soldiers. But that was not allowed.
+            </p>
+            <p>
+              At 1843 hours, a battalion preliminary report stated that Company C had 21 wounded, 1 killed and 13 missing in action and 3 MIA who were known to be dead. Also missing was a Vietnamese Soldier who was an interpreter for Company C.
+            </p>
+            <p>
+              Sergeant Marvin R. Young:
+            </p>
+            <p>
+              “On August 21, 1968 Charlie Company of the 1st Battalion (Mechanized), 5th Infantry was conducting a sweep in the Ben Cui Rubber Plantation. At 1100 hours the company came under heavy small arms, automatic weapons, RPG and mortar attack from an estimated North Vietnamese Regiment. On Initial contact the acting platoon leader was shot and killed. Sergeant Young then took charge and started directing our fire and deploying us into better positions. At this time the rest of the company started pulling back but our communications had been knocked out and we had no way to know they were pulling back to regroup. Sergeant Young finally found out the company had pulled back and so he ordered us to do the same. He stayed to provide fire while we withdrew until he thought we were all back. Then he noticed six men still fighting on the right front flank. With complete disregard for his own safety he ran to their location. On the way he was shot through the side of his face completely losing one eye. He kept on to their position and he laid down a base of fire as they all withdrew. When they got back a ways, Sergeant Young was unable to move too good with the one eye gone. He dropped behind and one man of his squad helped him. As they started back again, a group of North Vietnamese came up from behind and shot Sergeant Young again in the upper arm and he went down. The man helping him stayed to hold off the enemy. Another North Vietnamese sprayed the area again and hit Sergeant Young in the leg. The fire also wounded the other man in the foot. Sergeant Young sized up the situation and knowing he couldn’t get out, ordered the man with him to leave and try to save himself. The man protested and stayed a few minutes more. Sergeant Young could tell the enemy would over run them in a matter of minutes and he once again ordered his helper to leave. He told him he had done a good job, but it was time to go and that he knew he couldn’t make it. Sergeant Young gave his life in the cause of freedom, and helped the men he had worked with.”
+            </p>
+            <p>
+              Sergeant Marvin R. Young was later, posthumously, awarded the Congressional Medal of Honor for his actions.
+            </p>
+            <p>
+              The Intelligence Officer of the 1/5th(M) summed up the action of August 21st this way:
+            </p>
+            <p>
+              “This contact on the 21st of August correlates with all the contact that we’ve had since the 18th of August. Now the mission that was assigned Charlie Company today was to sweep through the southern portion of the Ben Cui to try to find any locations, bodies, web gear, documents, also to try to find if any VC were still in the area. The intelligence reports had been building up since our contact on the 18th. We received reports that to the east in the Michelin Rubber, that the 4th Battalion of the Phu Loi Regiment was located in the center of Ap So 13. Now from this report and another report that I received that to the south a large size force was moving north toward the Ben Cui, we thought that the possibility existed that on the 20th we would get hit. However, that night things were generally quiet. The following morning Charlie Company had the mission to sweep in the Ben Cui, primarily to the southern portion of the area of contact on the 19th. Again their mission was to see if there were any gooks left in there, find any bodies, anything, any documents, just to see what was out there in that area.
+            </p>
+            <p>
+              Our friendly losses were, we had 2 KIA, 1 of em from the CRIP Platoon and the acting platoon leader of the 1st Platoon, Charlie Company was killed in the initial contact, a sniper shot him in the head. We had 14 MIA, 2 of these are confirmed KIA. We had 23 wounded. Most of them were able to return to duty. Approximately 8 or 10 of them were serious wounds.
+            </p>
+            <p>
+              We estimate that there’s at least a regiment in there. Tonight the possibility does exist that we may get hit, however, we’re calling in as much artillery and air strikes and so forth that we can within that area. Now the refugees in the village, in those two villages, did evacuate themselves. There’s approximately 200 refugees that came out of the village. They informed myself and MI personnel that the NVA and VC forces were occupying both villages, so we’re going to try and bring as much fire power as we can against those two villages tonight. In tomorrow’s operation we’ll probably be able to get some more information, go out there and see if they have withdrawn completely or if they’re still there.”
+            </p>
+            <p>
+              More details for the actions that took place on August 21, 1968
+            </p>
+            <p>
+              On August 22, 1968, at 0235 hours, the 1/5th(M) was placed under OPCON to the 1/27th Infantry for the day’s operations. At 0300 hours, the 1/5th(M) S-3 and the S-3 from the 1/27th Infantry coordinated plans for the day’s activities. At 0640 hours, Company B, 1/5th (M) with an element of the ¾ Cavalry attached departed Dau Tieng. Company C, 1/5th(M), stood by outside the west gate of Dau Tieng Base Camp.
+            </p>
+            <p>
+              At 0700 hours, the Commanding Officer of the 1/27th Infantry arrived to take command of the day’s operation. At 0715 hours, the Recon Platoon, 1/5th(M) departed Dau Tieng and proceeded west on Highway 239 and then turned south, paralleling Highway 19. The platoon turned west into the Ben Cui, just south of the 46 Grid line.
+            </p>
+            <p>
+              Company B(+) continued west into the Ben Cui along Highway 239. Company C moved south about 500 meters and then turned west into the Ben Cui. Elements of the 2/27th Infantry were located immediately to the rear of Company C. At 0900 hours, all units reported negative contact.
+            </p>
+            <p>
+              At 0918 hours, Company B(+)  moved west from where Highway 239 turns south and Highway 19 goes west. The plan was for them to proceed and check out the area north of the abandoned Ben Cui Airstrip. They reported finding NVA web gear and some hand grenades. At 0919 hours, the Recon Platoon turned in a northerly direction towards Company B.
+            </p>
+            <p>
+              At 0928 hours, Company B(+) reported that they were in heavy contact just west of the highway 239 and 19 split. The soldiers were moving on the ground in front of the APCs. At 1040 hours, Company B(+) reported that they were still receiving RPG fire and automatic weapons fire. Two APCs from the ¾ Cavalry element had been hit by RPG rounds. By 1145 hours, Company B had five wounded. The fighting was intense with an occasional lull. Artillery fire was called in on the enemy positions. The troops would advance and then fall back. Company B(+) was ordered to pull back and regroup on line. The line was staggered and in the confusion of battle two men were left in front of the line.
+            </p>
+            <p>
+              The Recon Platoon and Company C had moved north and linked up with Company B(+) at 1200 hours. Air strikes, artillery and helicopter light fire teams were employed in and around the original contact area. At 1303 hours, a dust-off was requested for one badly burned individual.
+            </p>
+            <p>
+              At 1306 hours, a “duster” and a Quad 50 were moved to the north of the contact area. By 1400 hours, more air strikes were completed. At 1455 hours, it was reported that units were attempting to locate and extract the 2 Company B personnel. Searching elements found one of the Bobcats and his M-60 machinegun. He was dead. They also located the M-60 machinegun of the second Bobcat but there was no sign of him.
+            </p>
+            <p>
+              After searching the area again with negative results, all elements departed the contact area and moved to the area of the abandoned Ben Cui airstrip to establish a night perimeter at XT 444457. All elements closed by 1930 hours. Four ambush patrols were deployed. At 1935 hours, the 1/5th(M) became OPCON to the 2nd Brigade.
+            </p>
+            <p>
+              Also on the 22nd one Bobcat from Company A died from wounds he had received earlier.
+            </p>
+            <p>
+              On August 23, 1968, Company B departed the night base perimeter and began search operations at 0800 hours. Company C followed at 0852 hours. The Recon Platoon provided security for the night perimeter location. At 0950 hours, Troop A, ¾ Cavalry was released from OPCON to the 1/5th(M) and departed the night perimeter. At 1040 hours, Company A, 1/5th(M) was released from OPCON to the 4/23rd(M).
+            </p>
+            <p>
+              At 1051 hours, Company C moved closer to the contact area of August 21. At XT 460444 they located approximately 100 bunkers that had been used in the last few days. At 1120 hours, the company located the first body of the 17 soldiers who were MIA from the fight on the August 21st. At 1125 hours, Company C was instructed to secure the area of the MIAs and not disturb or touch anything. The Battalion Commander, the 2nd Brigade Commander and personnel from the 25th Division Headquarters were going to visit and inspect the battlefield scene.
+            </p>
+            <p>
+              At 1130 hours, Company B was instructed to secure Highway 239 for a convoy from Dau Tieng to Tay Ninh and then for one going in the opposite direction. At 1255 hours, Company A, 1/5th(M) closed the battalion forward base location at the Ben Cui Airstrip.
+            </p>
+            <p>
+              At 1330 hours, Company C reported that they had located 14 bodies of the Company C MIAs. At 1430 hours, it was reported that all 17 bodies that were left on the battlefield some 48 hours earlier had been located and secured.
+            </p>
+            <p>
+              By 1900 hours, all units had closed into the battalion night perimeter at the Ben Cui Airfield.
+            </p>
+            <p>
+              On August 24, 1968, at 0030 hours, FSB Schofield, (XT 407440), located 3 kilometers southwest of the 1/5th(M) night location, was attacked by a large enemy force. At 0530 hours, Companies A, B, and C, 1/5th(M) departed the night location to establish a blocking position north and east of FSB Schofield. At 0800 hours, the units began search operations to the west.
+            </p>
+            <p>
+              At 1604 hours, Company A was sent to reinforce the garrison at Dau Tieng Base Camp. The Recon Platoon was dispatched to secure a bridge site and the other battalion units closed the night perimeter at the Ben Cui “airstrip.”
+            </p>
+            <p>
+              On August 25, 1968, the 1/5th(M) moved its area of operations into the Michelin Rubber Plantation. At 1030 hours, an APC from the Recon Platoon detonated an AT mine. One Bobcat was wounded.
+            </p>
+            <p>
+              On August 26, 1968, at 1005 hours, an APC from Company A detonated an AT mine at XT 550495, in the middle of the Michelin. Three Bobcats were wounded and the APC was a combat loss. Shortly afterwards, Company C had an APC detonate a mine about 1000 meters to the east of the Company A mine incident. There were no injuries.
+            </p>
+            <p>
+              On August 27, 1968, FSB Rawlins, located 3 kilometers east of Tay Ninh at XT 297489, came under heavy mortar, rocket and ground attack by an estimated 2 enemy battalions.
+            </p>
+            <p>
+              On August 28, 1968, at 0910 hours, an APC from Company A detonated an AT mine in the Michelin at XT 547483. Two Bobcats were wounded.
+            </p>
+            <p>
+              On August 29, 1968, the 2nd Brigade departed Dau Tieng and returned to Cu Chi. The operational responsibility for the Dau Tieng area was returned to the 1st Brigade.
+            </p>
+            <p>
+              During August 1968, thirty-two Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Charles R. Crim</li>
+              <li>Marshall D. Wolford</li>
+              <li>Paul L. Sullivan</li>
+              <li>Bruce W. Collins</li>
+              <li>Terrence E. Butler</li>
+              <li>Willie S. Fields</li>
+              <li>Aubrey R. Henley</li>
+              <li>Joe E. Lofton</li>
+              <li>Jack P. Pashano</li>
+              <li>Richard Ramirez Jr.</li>
+              <li>Frederick V. Seaborne</li>
+              <li>Rene Serrano</li>
+              <li>Arthur Watson</li>
+              <li>John A. Connell</li>
+              <li>Bruce E. Bartlett</li>
+              <li>James L. Bowden</li>
+              <li>Edward V. Coffey</li>
+              <li>Jose R. Colon-Rivera</li>
+              <li>Jerry W. Combest</li>
+              <li>Richard A. Damschen Jr.</li>
+              <li>Gary L. Dobbins</li>
+              <li>Edward J. Dull</li>
+              <li>James L. Harbottle</li>
+              <li>Manior D. Lang Jr.</li>
+              <li>David W. Ledbetter</li>
+              <li>Michael R. Mangan</li>
+              <li>Hubert W. Martin</li>
+              <li>Jesus Rivera</li>
+              <li>James E. Rush</li>
+              <li>Delbert R. Stogsdill</li>
+              <li>Marvin R. Young</li>
+              <li>Phillip T. Delorenzo</li>
+            </ul>
+            <p>
+              There was one Bobcat missing in action:
+            </p>
+            <ul>
+              <li>Humberto Acosta-Rosario</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="sep">SEPTEMBER</div>
+            <p>
+              On September 02, 1968, at 1755 hours, an APC from Company A detonated an AT mine while conducting a sweep in the Michelin. Four Bobcats were wounded and the APC was written off as a combat loss.
+            </p>
+            <p>
+              At 2330 hours, an ambush patrol from Company B set up in the Michelin at XT 517506 opened fire on approximately 15 VC. In the firefight that followed, three Bobcats were wounded. There was one confirmed VC killed.
+            </p>
+            <p>
+              On September 03, 1968, at 1715 hours, Company C was engaged by enemy troops along Highway 239 between XT 4545 and 4645. During the course of the engagement the company received RPG, mortar and small arms fire. In the initial outbreak, one APC was hit and destroyed. At 1820 hours, another APC was hit by RPG fire and also one towing a downed APC was hit. Helicopter Light Fire Teams, artillery fire and Super Spooky Gunships were utilized in suppressing the enemy fire along with the organic weapons of Company C.
+            </p>
+            <p>
+              At 2006 hours, Company B moved out of Dau Tieng to the edge of the Ben Cui on Highway 239. At 2155 hours, Company A moved from the west gate to the edge of the rubber. Company A passed through Company B and proceeded through the area of contact and back again. During the evening’s engagement 33 Bobcats were wounded and one Bobcat from Company C died from the wounds he received. There were also two men wounded from the 65th Engineer Battalion.
+            </p>
+            <p>
+              On  September 04, 1968, at 1715 hours, an APC from the Recon Platoon detonated an AT mine while moving through Ben Cui Village. Four Bobcats were wounded and the track was a combat loss.
+            </p>
+            <p>
+              At 2010 hours, a small VC force made a ground probe of the perimeter of the Dau Tieng Base Camp.
+            </p>
+            <p>
+              On September 05, 1968, at 0730 hours, an APC from the Recon Platoon detonated an AT mine at XT 447453, south of the abandoned Ben Cui Air Strip. Four Bobcats were wounded and the track received minor damage.
+            </p>
+            <p>
+              On September 11, 1968, at 0145 hours, Dau Tieng Base Camp started to receive a barrage of 11 mortar rounds. Company A was in a night perimeter at XT 437451, located about 300 meters west of the Ben Cui Air Strip. The Company C night perimeter was located at XT 463448, about 1000 meters southeast of Company A.
+            </p>
+            <p>
+              At 0425 hours, Company A started receiving mortar, RPG and small arms fire. They did sustain an unknown number of wounded in the initial contact. An enemy ground assault was also launched against the company perimeter. A helicopter LFT was on station at 0435 hours. At 0444 hours, Company C fired mortar illumination over Company A. At 0509 hours, Company C was alerted to be ready to move dismounted to Company A’s location. At 0533 hours Company A reported that they were receiving mortar and small arms fire from the south.
+            </p>
+            <p>
+              At 0542 hours, Company C was ordered to maneuver to prevent enemy movement to the northeast. The Recon Platoon was dispatched to relieve Company B providing security at the bridge site on the Saigon River. At 0545 hours, Company B was ordered to prepare for air deployment. At 0600 hours, Company A reported that they were receiving more fire from the northwest. At 0611 hours, Company C reported that their lead element was pinned down by heavy sniper fire and that they had some wounded. At 0630 hours, Company C reported that they were fighting off an assault on their position from the west. Airstrikes with napalm were utilized as well as helicopter gunships.
+            </p>
+            <p>
+              At 0745 hours, Company B was air inserted at XT 454434 and then proceeded north toward the Ben Cui Airstrip. Company A, 3/22 Infantry was flown in from Tay Ninh to an LZ to the north at XT 440463.
+            </p>
+            <p>
+              At 0711 hours, the Dust-offs for Company A, 1/5th(M) were complete.
+            </p>
+            <p>
+              At 0833 hours, Company C was instructed to move from their night perimeter due west.
+            </p>
+            <p>
+              At 0905 hours, Company C established a blocking position and Company B swept towards them.
+            </p>
+            <p>
+              At 1100 hours, Company A, 3/22nd Infantry was extracted from the area. Company B swept through the Ben Cui Village and then joined Company A, 1/5th(M) and helped in policing the area of VC bodies and equipment. It was estimated that the attacking enemy force had been near battalion size.
+            </p>
+            <p>
+              At 1635 hours, Company A closed Dau Tieng Base Camp. Company B established their night perimeter at XT 438451, where Company A had been the night before.
+            </p>
+            <p>
+              Three Bobcats were killed and 20 were wounded during the encounter.
+            </p>
+            <p>
+              On September 12, 1968, Companies A and B were assigned to escort a three serial convoy from Dau Tieng. The first serial of vehicles was able to proceed to Tay Ninh. Enemy ambushes forced the second serial to spend the night at FSB Rawlins and the third serial was forced to return to Dau Tieng.  Company A suffered two Bobcats killed and five wounded. Company B suffered four wounded. Several APCs were hit by RPG fire in the contact.
+            </p>
+            <p>
+              On September 14, 1968, at 1250 hours, an APC from Company B detonated an AT mine on Highway 239, two kilometers east of Highway 26. Two Bobcats were wounded. A short time later a second APC from Company B detonated another AT mine in the same area, wounding six Bobcats.
+            </p>
+            <p>
+              On September 16, 1968, Company A was set up in a night defensive perimeter at the Ben Cui Air Strip near XT 443451. At 0020 hours, a flare ship was operating over the area of the perimeter. Enemy movement had been observed to the south of the perimeter since late evening. After 0100 hours Company A received heavy RPG, small arms and automatic weapons fire as well as a ground assault against the perimeter. At 0122 hours, contact was reported as still heavy and that two Bobcats had been killed and three wounded, so far. At 0150 hours, Company A reported a renewed ground assault coming from the west. At 0209 hours, Company A reported that the enemy contact had ceased. An occasional RPG round was fired at the perimeter during the remainder of the morning. Dust-offs were completed at 0402 hours. It was an estimated reinforced enemy company that attacked the Company A position. Company A suffered two Bobcats killed and ten wounded.
+            </p>
+            <p>
+              Later in the day at 1136 hours, an APC from Company C detonated an AT mine on Highway 239, about 200 meters east of the junction of Highways 239 and 26. Four Bobcats were wounded.
+            </p>
+            <p>
+              Company B, 1/5th(M) relieved Company A and occupied the night defensive position at the Ben Cui Air Strip.
+            </p>
+            <p>
+              On September 17, 1968, at 0202 hours, Company B reported that they were receiving mortar, RPG and small arms fire from the north and east. At 0220 hours, Company B reported that it was receiving a heavy ground attack. At 0325 hours, RPG and automatic weapons fire was still being received. At 0422 hours, Company B reported that enemy contact had ceased. Air strikes were being employed in the area. At 0435 hours, Company B requested a dust-off.
+            </p>
+            <p>
+              At 0452 hours, another enemy ground assault was launched against the perimeter. Enemy mortar fire was also received. The assault was short lived. At 0516 hours, dust-offs were again requested. By 0640 hours, the dust-offs were completed. Two Bobcats from Company B were killed in the contact and fourteen were wounded.
+            </p>
+            <p>
+              On September 20, 1968, Company A was again occupying the night defensive perimeter at the Ben Cui Airstrip. At 0005 hours, the night base started receiving a heavy volume of RPG and mortar fire. The Communists then launched a ground assault with an estimated battalion sized force. Artillery, helicopter gun ships, air strikes and a “Spooky” gun ship were all used in repulsing the assault. Five Bobcats were wounded in the attack. Three more Bobcats from Company A were wounded when a booby trap was detonated as elements policed up enemy bodies and equipment from around the perimeter.
+            </p>
+            <p>
+              On September 21, 1968, units of the battalion swept the area of the Ben Cui Rubber Plantation.
+            </p>
+            <p>
+              On September 23, 1968, Dau Tieng Base Camp was hit by 7 rounds of 82mm mortar fire.
+            </p>
+            <p>
+              Map 22   Dau Tieng - Thanh An - Boi Loi Woods area.
+            </p>
+            <p>
+              On September 29, 1968, The Recon Platoon provided convoy escort between Dau Tieng and Tay Ninh.
+            </p>
+            <p>
+              During September 1968, ten Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Richard A. Akin Jr.</li>
+              <li>Albert L. Lazzarotto</li>
+              <li>Akos D. Szekely</li>
+              <li>Thomas W. Roberts</li>
+              <li>Donald R. Butler</li>
+              <li>Dave C. Dahlin</li>
+              <li>Lowell E. Lunzmann</li>
+              <li>Colombo P. Del Terzo</li>
+              <li>Ronald W. Zydel</li>
+              <li>Arnold B. Wimberly</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="oct">OCTOBER</div>
+            <p>
+              On October 01, 1968, The battalion units conducted RIFs in the area of Dau Tieng. One Bobcat from Company B died in hospital from an illness he had contracted.
+            </p>
+            <p>
+              Thru October 15, 1968, the 1/5th(M) conducted operations around Dau Tieng Base Camp, including road and convoy security missions.
+            </p>
+            <p>
+              On October 17, 1968, at 1445 hours, an APC from Company B detonated an AT mine on Highway 19 about three kilometers south of Dau Tieng. Two Bobcats were wounded and the APC was a combat loss.
+            </p>
+            <p>
+              On October 19, 1968, at 1115 hours, while sweeping through an area south of the Ben Cui Rubber Plantation at XT 456419, one Bobcat from Company B was killed and another was wounded when a booby trapped RPG round was detonated. About 500 meters to the west, the Recon Platoon located a small food and ammunition cache.
+            </p>
+            <p>
+              At 1656 hours, Company C, working the area just to the southeast of the Highway 19 and 238 split, discovered a cache containing 7 weapons.
+            </p>
+            <p>
+              On October 20, 1968, at 1215 hours, the Recon Platoon had one Bobcat wounded when an AT mine was detonated about 5 kilometers southwest of Dau Tieng.
+            </p>
+            <p>
+              On October 21, 1968, Company B located an abandoned enemy base camp in the southern part of the Ben Cui. The body of a dead VC soldier was located along with a few hundred pounds of rice and some mortar ammunition.
+            </p>
+            <p>
+              On October 22, 1968, units from the battalion were providing security for Rome Plow operations 2 kilometers northeast of Trung Mit. At 1045 hours, an APC detonated an AT mine wounding one Bobcat.
+            </p>
+            <p>
+              On October 24, 1968, Company A cleared and secured Highway 14 between Dau Tieng and Thanh An for the movement of convoys. The 1/27th Infantry was to deploy around Thanh An and FSB Mahone was to be constructed at XT 538375. At 0930 hours, sniper fire was received in the area of a bridge crossing on Route 14 at XT 524408.
+            </p>
+            <p>
+              On October 26, 1968, one Bobcat from Company A was wounded when the APC he was in hit an AT mine on Highway 14, four kilometers north of Thanh An. The APC was a combat loss.
+            </p>
+            <p>
+              On October 27, 1968, Company A and Company B of the 1/5th(M) were assigned the mission to clear and secure Highway 14, between Dau Tieng and Thanh An. At XT 510430 a mine was located and destroyed. At 1000 hours, about 500 meters south of that location, an APC from Company B detonated an AT mine. One medic was killed and five other Bobcats from Company B were injured. The APC was damaged beyond repair.
+            </p>
+            <p>
+              At  1125 hours, Company A located and destroyed 3 anti-tank mines. At 1135 hours, at the bridge site at XT 524408, three Bobcats from Company B were wounded when 2 boobytraps were detonated. At 1208 hours, Company B suffered 3 more wounded when an APC detonated an AT mine along the roadway. At 1612 hours, Company B came under small arms fire 1 ½  kilometers north of Thanh An. Fire was returned with organic weapons, artillery and helicopter gun ships. Three Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On October 28, 1968, Company A cleared and secured Highway 14 between Dau Tieng and Thanh An. 5 AT mines were located and destroyed. Companies B and C conducted a sweep down the west side of the Saigon River from Dau Tieng. At 1345 hours, a food and ammunition cache was located.
+            </p>
+            <p>
+              On October 29, 1968, at 1705 hours, a convoy being escorted by elements of the 1/5th(M) received small arms and RPG fire north of Thanh An. The enemy fire was returned with unknown results. Two soldiers were wounded in the contact.
+            </p>
+            <p>
+              That evening, an ambush patrol from Company B 1/5th(M) set up in Dau Tieng, near the Catholic Church over looking the graveyard. At 2300 hours, after several hours with no activity, the patrol leader took half the ambush patrol and commenced a roving patrol in the general area.
+            </p>
+            <p>
+              The patrol moved south and then turned down an alley. About 75 meters down the alley the patrol came upon a fence blocking the alley, with a gate in the middle. The point man pushed on the gate to open it and there was an explosion. The pointman was killed and the patrol leader and two other Bobcats were wounded. The remainder of the patrol was sent for and the unit then moved to the bridge, where a dust-off was called in.
+            </p>
+            <p>
+              On October 30, 1968, Company C conducted a sweep of the northern portion of the Ben Cui. The unit then returned to Dau Tieng Base Camp to provide night security. At 1942 hours, an unknown size force probed the base perimeter. They were repelled, leaving four dead. One Bobcat from Company C was wounded in the exchange.
+            </p>
+            <p>
+              On October 31, 1968, at 1400 hours, Company A became engaged in a fire fight 1 kilometer north of Thanh An. Fire was returned with organic weapons with unknown results. Three Bobcats were wounded during the contact.
+            </p>
+            <p>
+              During October 1968 four Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Allen P. Broekhuizen</li>
+              <li>Paul E. McGinness</li>
+              <li>Raymond M. Tanner</li>
+              <li>Clarence R. Chaffin</li>
+            </ul>
+            <p>
+              During the Quarterly Period of August 01 thru October 31, 1968, the 25th Infantry Division reported the following personnel statistics:
+            </p>
+            <p>
+              KIA: 309;  WIA: 1,837 of whom 1,050 were evacuated; NBD: 14;  NBI: 33;  MIA: 7.
+            </p>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="nov">NOVEMBER</div>
+            <p>
+              The beginning of November 1968 found the 1/5th(M) still working out of Dau Tieng and conducting extensive sweeps in the Ben Cui and Michelin Rubber Plantations.
+            </p>
+            <p>
+              On November 01, 1968, Company C, working with members of the 65th Engineers, located and destroyed 3 AT mines on Route 14, 5 kilometers south of Dau Tieng.
+            </p>
+            <p>
+              Company B conducted a sweep along Highway 239 in the Ben Cui.
+            </p>
+            <p>
+              At 1600 hours, a bulldozer from the 65th Engineers and attached to the 1/5th(M) detonated an AT mine on Highway 14 about 2 kilometers north of Thanh An. Eight personnel in the general area were wounded and the vehicle was damaged beyond repair.
+            </p>
+            <p>
+              On November 02, 1968, Company C took part in the daily sweep of Highway 14 between Dau Tieng and Thanh An. The Recon Platoon conducted a sweep along Highway 239 in the Ben Cui.
+            </p>
+            <p>
+              On November 03, 1968, Company A helped sweep Highway 14 south of Dau Tieng. At 1030 hours, a vehicle using the road detonated an AT mine wounding six personnel.
+            </p>
+            <p>
+              On November 04, 1968, Company B conducted the sweep of Route 14. At 1020 hours, two Bobcats from Company B were wounded when a booby trapped hand grenade was detonated about 8 kilometers south of Dau Tieng.
+            </p>
+            <p>
+              On November 07, 1968, Company B was conducting a clear and secure operation on Highway 14. An AT mine was discovered and destroyed at XT 517419. Just north of the bridge at XT 524408, an APC from the company detonated an AT mine at 1042 hours. Two Bobcats from Company B were killed and three others were wounded. One of the Bobcats was trapped under the APC, which was destroyed.
+            </p>
+            <p>
+              Companies A and C conducted a sweep of the Ben Cui. A small ammunition cache was located and destroyed.
+            </p>
+            <p>
+              At 1540 hours, Company B got into a brief firefight at the bridge on Highway 14 at XT 524408. Fire was returned with unknown results. Two Bobcats were wounded by shrapnel from an RPG round.
+            </p>
+            <p>
+              On November 08, 1968, elements of the battalion participated in a clear and secure operation of Route 14 south of Dau Tieng.
+            </p>
+            <p>
+              Company A conducted a sweep of Highway 239 west of Dau Tieng.
+            </p>
+            <p>
+              On November 13, 1968, Company A conducted a sweep of Route 14 south of Dau Tieng. 3 AT mines were located and destroyed.
+            </p>
+            <p>
+              Company C participated in a search operation south of the Ben Cui. At 1430 hours, a small ammunition cache was located at XT 461415.
+            </p>
+            <p>
+              On November 14, 1968, Company A was sweeping Highway 14 south from Dau Tieng. At 1000 hours, a command detonated claymore type mine was exploded on the point element at XT 520415. Three Bobcats were killed. Two members of a scout dog team were also killed along with one scout dog. One ARVN Soldier was wounded and two Bobcats were wounded.
+            </p>
+            <p>
+              The Recon Platoon conducted a sweep of Highway 239 from Dau Tieng to Highway 26 without incident.
+            </p>
+            <p>
+              On November 15, 1968, the 1/5th (M) moved their operations to the Boi Loi Woods area.
+            </p>
+            <p>
+              On November 16, 1968, Company A swept the area south of Bao Don. At XT 445340, the company located a small food and weapons cache.
+            </p>
+            <p>
+              On November 20, 1968, Company C continued securing Rome Plow operations in the area of Thai My, located along Highway 7A around XT 5415. During the morning the company located and destroyed some booby traps and 2 anti-tank mines.
+            </p>
+            <p>
+              The Recon Platoon swept Highway 7A from Route 1 to the Company C night base location.
+            </p>
+            <p>
+              Company B was working an area just northwest of Trung Lap. At 1000 hours, a booby trapped hand grenade located at XT 578228 detonated. One Bobcat was wounded. At 1145 hours, one Bobcat from Company B was killed by a booby trap explosion. A South Vietnamese Soldier was also killed in the explosion. Four Bobcats were wounded by the blast and dusted-off. After completing its sweep of the area, Company B returned to FSB Patton.
+            </p>
+            <p>
+              On November 21, 1968, The Recon Platoon came under small arms and mortar fire on Highway 7A, north of Trung Lap at XT 601222. The enemy fire was returned with fire from the platoon’s weapons, with unknown results. Two Bobcats were wounded in the incident.
+            </p>
+            <p>
+              Company A swept Highway 7A north of the junction of Highway 1. Several AT mines and booby traps were discovered and destroyed with the assistance of elements of Company C, 65th Engineers.
+            </p>
+            <p>
+              On November 23, 1968, at 0928 hours, an APC from the Recon Platoon detonated a 105mm WP round about one kilometer northwest of Trung Lap. There were no injuries nor damage.
+            </p>
+            <p>
+              At 1015 hours, elements of Company C conducting a sweep on Highway 7A in the Thai My area detonated an AT mine. One Bobcat from Company C was killed and one man from the 65th Engineers was wounded by the explosion.
+            </p>
+            <p>
+              At 1225 hours, Company A was searching one kilometer northeast of the junction of Highways 1 and 7A. A booby trap was detonated and six Bobcats from the company were wounded.
+            </p>
+            <p>
+              Later in the day, two Bobcats from Company C were wounded when they received small arms fire in the area of Thai My.
+            </p>
+            <p>
+              On November 28, 1968, at 1200 hours, the Recon Platoon swept along Highway 7A. As they passed through the area of Thai My Village, the platoon apprehended 82 suspected VC for questioning.
+            </p>
+            <p>
+              The 3rd Platoon of Company C closed FSB Stuart at 1855 hours to provide night security.
+            </p>
+            <p>
+              On November 29, 1968, at 0750 hours, an APC from the Recon Platoon detonated an AT mine on Highway 7A, 2 kilometers north of the Highway 1 junction. The vehicle overturned trapping one Bobcat underneath. This Bobcat was killed and another one was wounded. Two South Vietnamese Soldiers were also injured in the blast. The APC was written off as a combat loss.
+            </p>
+            <p>
+              At 0920 hours, the Recon Platoon started moving south. At 0940 hours, a command detonated Claymore Mine was exploded against an APC. Two Bobcats were wounded by the blast. The platoon then started to receive sniper fire, which was returned with 50 caliber fire. The two wounded Bobcats were dusted-off. The helicopter came under small arms fire as it lifted off out of the area.
+            </p>
+            <p>
+              At 0959 hours a command detonated mortar round was set off against members of the platoon. Initially one Bobcat was killed and three were wounded. At 1005 hours, Companies B and C started moving toward the contact area.
+            </p>
+            <p>
+              A Dust-Off helicopter set down for the three wounded. As it touched down, what was believed to be a mine, exploded, killing one Bobcat and wounding four others.
+            </p>
+            <p>
+              At 1410 hours, a dust-off was requested by Company A for one wounded Bobcat. A VC threw a hand grenade from a spider hole, causing the injury. Company A worked the area and killed three VC.
+            </p>
+            <p>
+              One of the Bobcats from the Recon Platoon who was wounded earlier, died from his injuries.
+            </p>
+            <p>
+              One platoon from Company B was assigned to provide security for FSB Stuart. One Platoon from Company C was assigned to Cu Chi Base Camp for the night.
+            </p>
+            <p>
+              On November 30, 1968, a truck from the 1/5th(M) detonated a mine on Highway 1, east of Trang Bang at 0900 hours. The vehicle was destroyed. At 1440 hours, Company C received small arms fire south of Trang Bang. In the exchange, three Bobcats were wounded.
+            </p>
+            <p>
+              During November 1968 eleven Bobcats died in Vietnam. They were:
+            </p>
+            <ul>
+              <li>David W. Brooks</li>
+              <li>James R. Springer</li>
+              <li>David A. Bradshaw</li>
+              <li>Wayne M. Horne</li>
+              <li>Robert T. Jones Jr.</li>
+              <li>Horace V. Robinson Jr.</li>
+              <li>Grady R. Nelson</li>
+              <li>Harold L. Basham</li>
+              <li>Johnnie R. Godwin Jr.</li>
+              <li>Richard A. Weaver</li>
+              <li>Hurston E. Worrell</li>
+            </ul>
+          </div>
+          <div class="segmentWords">
+            <div class="oneMonth" data-section="dec">DECEMBER</div>
+            <p>
+              On December 01, 1968, Company C was conducting a sweep two kilometers southeast of Trang Bang, when a booby trapped hand grenade was detonated at 1345 hours. Four Bobcats were wounded in the explosion. One of the men died a short time later from his wounds.
+            </p>
+            <p>
+              On December 03, 1968, Company C was conducting a RIF southeast of Trang Bang. At 1012 hours, one Bobcat from the company was wounded when an anti-tank mine was detonated at XT 502164. At 1130 hours, another Bobcat was wounded when a booby trapped hand grenade was tripped and exploded in the same general area. At 1449 hours, another booby trapped hand grenade was detonated wounding one Bobcat. At 1545 hours, an APC from Company C detonated an AT mine. One Bobcat was wounded and the track was a combat loss.
+            </p>
+            <p>
+              On December 05, 1968, a Bobcat from Company C was killed when the vehicle he was in accidentally crashed.
+            </p>
+            <p>
+              On December 06, 1968, Company B was searching an area 2 kilometers southwest of Trung Lap when they discovered a large ammunition cache at 0945 hours. Over 130 RPG rounds and 127 mortar rounds were among the items found.
+            </p>
+            <p>
+              Company C was conducting a sweep at 1058 hours, southeast of Trang Bang, when an APC detonated an AT mine wounding two Bobcats.
+            </p>
+            <p>
+              On December 07, 1968, Company C was conducting a sweep northeast of Trung Lap at 1600 hours when the company received small arms fire. The fire was returned with unknown results. One Bobcat was wounded in the exchange.
+            </p>
+            <p>
+              Company A joined Company C and they established a night defensive perimeter in the area of XT 6023. At 1855 hours, the night defensive base received a mortar barrage. Ten Bobcats were wounded. Fire was returned with artillery and mortars with unknown results.
+            </p>
+            <p>
+              On December 08, 1968, at 0445 hours, the night perimeter of Companies A and C came under small arms and RPG attack. The attack was repulsed with artillery and mortar support. Five Bobcats were wounded in the exchange of fire. In a search of the perimeter area at first light, several VC bodies and weapons were located.
+            </p>
+            <p>
+              At 0857 hours, an APC from Company B detonated an AT mine northeast of Trang Bang at XT 505225. Two Bobcats were wounded. At 1325 hours, an APC from Company B detonated an AT mine east of Trung Lap. Five Bobcats were wounded in the explosion. One Medic later died from his wounds.
+            </p>
+            <p>
+              On December 09, 1968, Company A was conducting a RIF operation 7 kilometers northeast of Trung Lap in the Ho Bo Woods. At 1154 hours, the company encountered a dug in enemy force of unknown size at XT 635260. A helicopter LFT and Dust-Off were requested. At 1217 hours, Company C began moving to the area of Company A’s contact. At 1237 hours, Company A reported that they had three Bobcats killed and two wounded. Helicopter Light Fire Teams, air strikes and artillery pounded the enemy position. The dust-off was completed at 1315 hours.
+            </p>
+            <p>
+              Companies A and C then assaulted the position. The bodies of enemy soldiers were located along with miscellaneous weapons and equipment.
+            </p>
+            <p>
+              At 1343 hours, The Recon Platoon had an APC detonate an AT mine on Highway 7A, one kilometer north of the Highway 1 junction. There were no injuries but the track was a combat loss.
+            </p>
+            <p>
+              On December 10, 1968, the battalion conducted its operations around the Trung Lap area. At 1945 hours, an APC from Company B detonated an AT mine on Highway 7A, north of Trung Lap at XT 609221. Six Bobcats were wounded in the explosion.
+            </p>
+            <p>
+              On December 11, 1968, at 0855 hours, as Company C conducted a RIF north of Trung Lap, they made contact with a small force of VC. Assaulting the position, the company located some enemy dead, one machinegun and one RPG-7 launcher.
+            </p>
+            <p>
+              At 0945 hours, one Bobcat from Company B was wounded when he tripped a booby trapped hand grenade one kilometer northeast of Trung Lap.
+            </p>
+            <p>
+              In the early afternoon, Companies A and C conducted an S&D operation in the northern Ho Bo Woods. At 1715 hours the companies received heavy enemy fire. The fire was returned with organic weapons and artillery fire. After the VC broke contact, the bodies of VC soldiers and one POW were located in the area. Five Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On December 12, 1968, an APC from Company C detonated an AT mine on Highway 7A on the northern fringe of the village of Trung Lap. Four Bobcats were wounded.
+            </p>
+            <p>
+              On December 13, 1968, at 0628 hours, the Recon Platoon left the battalion forward base to sweep Highway 7A to the junction of Highway 1.
+            </p>
+            <p>
+              At 1206 hours, Company A began to receive RPG and automatic weapons fire 3 kilometers west of Trung Lap at XT 558200. One APC was hit by RPG fire and the company began calling in artillery fire on the enemy position. At 1225 hours, the company reported three Bobcats wounded and requested a Dust-Off.
+            </p>
+            <p>
+              At 1245 hours, Company B, 2/12th Infantry was airlifted into the area. At 1301 hours, Company A dusted-off three wounded and one dead Bobcat. Air strikes and helicopter gun ships bombed and strafed the enemy position. At 1328 hours, Company B, 1/5th(M) was sent to the area of Mit Nai on the report of a large VC force in that area. At 1440 hours, Company A, 2/12th Infantry was airlifted to an LZ at XT 536201, west of the enemy position that Company A, 1/5th(M) had engaged.
+            </p>
+            <p>
+              At 1517 hours, Company B had an APC detonate a booby trap of unknown type at XT 565186. Two Bobcats were wounded and dusted off. At 1608 hours, Company A reported that they were receiving fire.
+            </p>
+            <p>
+              At 1615 hours, Company B reported that they were receiving mortar, RPG, small arms and automatic weapons fire. At 1626 hours, Company B backed up their APCs to get better suppressive fire on the enemy position. At 1631 hours, Company B reported that they had casualties and also had a unit pinned down by enemy fire.
+            </p>
+            <p>
+              At 1644 hours, Companies A and B, 2/12th Infantry linked up to form a blocking force. At 1703 hours, Company B, 1/5th(M) reported that they had two Bobcats killed and several wounded from a 60mm mortar barrage. At 1708 hours, Company A, 1/5th(M) requested a Dust-off for at least two wounded. At 1723 hours, the Company B wounded were dusted-off. At 1730 hours, Company A reported that one of their wounded died and they still had three wounded to be taken out. At 1750 hours, the Dust-off was completed. The VC force broke contact and a sweep of the contact area revealed the bodies of  enemy soldiers along with weapons and equipment.
+            </p>
+            <p>
+              During the day’s contact five Bobcats were killed and fourteen were wounded.
+            </p>
+            <p>
+              On December 16, 1968, at 1100 hours, Company B was operating one kilometer north of the junction of Highways 1 and 7A, when they received small arms fire. One Bobcat was wounded. Fire was returned with unknown results.
+            </p>
+            <p>
+              At 1650 hours, the battalion CRIP unit requested a dust-off for two Bobcats wounded and two Bobcats killed. A jeep with the unit had detonated a mine on Highway 7A, just north of the junction of Highway 1.
+            </p>
+            <p>
+              On December 17, 1968, at 1914 hours, Company A reported that its ambush patrol located south of Trung Lap at XT 588196 was receiving small arms, automatic weapons and mortar fire. At 1915 hours, Company B reported that it was receiving heavy small arms fire at XT 580195. The enemy broke contact with both elements by 1930 hours. Company B dusted-off two wounded Bobcats from the encounter.
+            </p>
+            <p>
+              On December 18, 1968, at 0603 hours, the Recon Platoon departed the night encampment to begin a sweep of Highway 7A. At 0719 hours, the platoon requested a Dust-off for one wounded at the junction of Highway 7A and 237.
+            </p>
+            <p>
+              At 1013 hours, Company A reported that they were receiving small arms, automatic weapons and RPG fire 2 kilometers north of Phuoc My at XT 595173. At 1015 hours, they requested a Dust-off as one APC was hit by RPG fire. At 1018 hours, Company B started moving towards the Company A contact. At 1043 hours, Company B started receiving fire from their left flank. Company A put a hold on the Dust-off until a landing zone could be secured. At 1101 hours, three wounded Bobcats were dusted-off. One KIA remained at the Company A location.
+            </p>
+            <p>
+              At 1244 hours, Company A requested a Dust-off for two Bobcats who had been shot. Company B also dusted-off two wounded. Two APCs had been hit by RPG fire so far in the contact. There was a lull till 1521 hours, when both Companies A and B reported receiving sniper fire. Soon Company A started receiving small arms and RPG fire in the same general area of the earlier contact. A Dust-off was requested at 1547 hours for six wounded Bobcats from Company A. Air strikes and helicopter gun ship fire were placed on the enemy position.
+            </p>
+            <p>
+              At 1602 hours, Companies A and B received 60mm mortar fire. Air strikes and light fire team ordinance was again applied to the enemy positions.  At 1715 hours, another barrage of 60mm mortar fire was received. At 1720 hours, Company A had an APC hit by RPG fire. Airstrikes and helicopter light fire teams were again requested. At 1728 hours, Company A had two more APCs hit by RPG fire. Company B requested a Dust-off  at 1742 hours for two wounded Bobcats. Company A received a few more 60mm mortar rounds.
+            </p>
+            <p>
+              The VC broke contact and the two companies made a quick sweep of the area. They then closed into the night perimeter at 1915 hours. Air strikes and artillery were applied to suspected locations of enemy forces in the area. During the contact twenty Bobcats were wounded. One Bobcat from Company A was killed and one Bobcat from Company B was killed.
+            </p>
+            <p>
+              On December 19, 1968, an ambush patrol from Company C was established 1.5 kilometers southwest of the junction of Highways 7A and 1. At 2005 hours, the patrol killed six of ten VC who walked into the kill zone.
+            </p>
+            <p>
+              On December 20, 1968, Company B was conducting a RIF one kilometer north of the junction of Highways 1 and 7A, when at 1355 hours, they made contact with an estimated reinforced enemy company at XT 560180. Company C, 1/5th(M) along with Companies B and D of the 2/12th Infantry and Troop A, ¾ Cavalry were moved into the area of contact. Air strikes, LFTs and artillery were called in to support the forces. After the contact ended, a sweep of the battlefield was conducted. Enemy dead along with miscellaneous weapons and equipment were cleared from the battlefield.
+            </p>
+            <p>
+              Friendly units suffered fourteen wounded and one killed.
+            </p>
+            <p>
+              On December 21, 1968, Company C was assigned to provide security for Rome Plows cutting in the Bau Dieu area at XT 575173. At 0935 hours, an APC from the company detonated a booby trap. Two Bobcats were wounded and one was killed.
+            </p>
+            <p>
+              At 1043 hours, Company B was sweeping the area of the previous day’s contact when an APC detonated a booby trap. One Bobcat was wounded.
+            </p>
+            <p>
+              On December 22, 1968, elements of the battalion continued to sweep the area of the August 20 contact, policing up various enemy ordinance and equipment.
+            </p>
+            <p>
+              On December 28, 1968, at 1425 hours, an APC assigned to secure Rome Plow operations at XT 577177 detonated an AT mine. A second APC detonated another AT mine about a half hour later.
+            </p>
+            <p>
+              On December 29, 1968, at 0900 hours, a member of the Recon Platoon was wounded by a booby trapped hand grenade. Company B was operating 2 kilometers northwest of Trung Lap. At 1014 hours, at XT 571233, a booby trapped 155mm artillery round was detonated by an APC. Five Bobcats from Company B were killed and eleven wounded by the explosion, which also destroyed the APC.
+            </p>
+            <p>
+              At 1050 hours, an APC from Company C detonated a booby trap injuring three Bobcats.
+            </p>
+            <p>
+              During December 1968, twenty-one Bobcats died in Vietnam. They were:
+            </p>
+            <ul>
+              <li>Curtis R. Crum</li>
+              <li>Joseph R. Thornton</li>
+              <li>Robert P. English</li>
+              <li>Durward G. Morse</li>
+              <li>Donald A. Pettitt</li>
+              <li>Alan C. Lockard</li>
+              <li>Ronald L. Niewahner</li>
+              <li>Jerry M. White</li>
+              <li>Michael R. Bishop</li>
+              <li>Gary W. Gross</li>
+              <li>Roger C. McCord</li>
+              <li>James E. Sparks</li>
+              <li>James F. Rummage</li>
+              <li>Leonard E. Bradford</li>
+              <li>James I. Cutler</li>
+              <li>William S. DeBoer</li>
+              <li>Dan M. James</li>
+              <li>Joseph E. Strawbridge</li>
+              <li>THREE whose names are unknown to us writing this report</li>
+            </ul>
           </div>
         </div>
       </div>

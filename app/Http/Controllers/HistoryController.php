@@ -109,6 +109,30 @@ class HistoryController extends Controller
       }
     }
 
+    public function vietnam_1968()
+    {
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+         return view('vietnam_log',[
+           'unread_count' => $unread_count,
+           'style' => 'history_style',
+           'js' => '/js/my_custom/history/history.js',
+           'content' => 'vietnam_1968_content'
+         ]);
+      } else {
+          return view('vietnam_log',[
+            'style' => 'history_style',
+            'js' => '/js/my_custom/history/history.js',
+            'content' => 'vietnam_1968_content'
+          ]);
+      }
+    }
+
     /**
      * Show the form for creating a new resource.
      *

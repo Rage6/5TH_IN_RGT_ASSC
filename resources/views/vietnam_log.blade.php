@@ -4175,139 +4175,327 @@ On November 20, 1969, a Bobcat from the Recon Platoon died from injuries he had 
             <div class="oneMonth" data-section="jan">JANUARY</div>
             <p>
               On January 07, 1970, a Bobcat from Company C died as the result of an accidental explosion.
-         On January 11, 1970, two Chieu Hoi’s provided information leading to a concealed tunnel four kilometers west of Trung Lap at XT 543206. One VC surrendered from within the tunnel. Others were killed when the tunnel was destroyed.
-         On January 22, 1970, Company C, working with one company from the 1/49th ARVN Infantry, discovered a weapons, ammunition and equipment cache in a tunnel northwest of Trung Lap at XT 574249.
- On January 25, 1970, at 1600 hours, the responsibility of the defense of Cu Chi Base Camp was passed from the 2nd Brigade to the 3rd Brigade.
-        During January 1970, one Bobcat died in Viet Nam. He was: Raymond A. White III.
-
-        The 25th Infantry Division reported the following for the Quarterly Reporting Period of  November 01, 1969 thru January 31, 1970:
-
-          KIA: 71;  WIA: 1037;  NBD: 22;  NBI: 107;  MIA: 0.
-
-          Personnel shortages continued to exist in Infantry Captains and Field Artillery Lieutenants as well as NCOs in the grade of E-6 thru E-9 in 11B, 11C, 12B, 17B, 17K, 31G, 63A, 63C, 76P, 76Y, 76Z and 94B MOS.
-
-          It was also noted that: “With the increased Vietnamization of the war, 25th Infantry Division forces were able to maintain a posture of “protective reaction” as the mode of operations within the division’s tactical area of operations. Protective reaction refers to the type of combat operations used by allied commanders against Communist forces in the Republic of Viet Nam to provide for the security of his unit, his tactical area of operations and the Vietnamese people. This is accomplished primarily by small unit reconnassiance patrols to locate the enemy, disrupt his movements and find his caches of arms, ammunition and food.”
+            </p>
+            <p>
+              On January 11, 1970, two Chieu Hoi’s provided information leading to a concealed tunnel four kilometers west of Trung Lap at XT 543206. One VC surrendered from within the tunnel. Others were killed when the tunnel was destroyed.
+            </p>
+            <p>
+              On January 22, 1970, Company C, working with one company from the 1/49th ARVN Infantry, discovered a weapons, ammunition and equipment cache in a tunnel northwest of Trung Lap at XT 574249.
+            </p>
+            <p>
+              On January 25, 1970, at 1600 hours, the responsibility of the defense of Cu Chi Base Camp was passed from the 2nd Brigade to the 3rd Brigade.
+            </p>
+            <p>
+              During January 1970, one Bobcat died in Viet Nam. He was:
+            </p>
+            <ul>
+              <li>Raymond A. White III</li>
+            </ul>
+            <p>
+              The 25th Infantry Division reported the following for the Quarterly Reporting Period of  November 01, 1969 thru January 31, 1970:
+            </p>
+            <p>
+              KIA: 71;  WIA: 1037;  NBD: 22;  NBI: 107;  MIA: 0
+            </p>
+            <p>
+              Personnel shortages continued to exist in Infantry Captains and Field Artillery Lieutenants as well as NCOs in the grade of E-6 thru E-9 in 11B, 11C, 12B, 17B, 17K, 31G, 63A, 63C, 76P, 76Y, 76Z and 94B MOS.
+            </p>
+            <p>
+              It was also noted that: “With the increased Vietnamization of the war, 25th Infantry Division forces were able to maintain a posture of “protective reaction” as the mode of operations within the division’s tactical area of operations. Protective reaction refers to the type of combat operations used by allied commanders against Communist forces in the Republic of Viet Nam to provide for the security of his unit, his tactical area of operations and the Vietnamese people. This is accomplished primarily by small unit reconnassiance patrols to locate the enemy, disrupt his movements and find his caches of arms, ammunition and food.”
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="feb">FEBRUARY</div>
             <p>
               At the beginning of February, planning guidence stressed the promotion of small unit combined operations with emphasis on upgrading ARVN Regional Forces and Popular Forces while stressing night operations.
-         The 2nd Brigade operated with two battalions and one cavalry squadron [1/5th(M); 2/12th Infantry; ¾ Cavelry(-)] in the central portion of the division tactical area of interest and also conducted security along Highways 6A, 7A, 19 and 26.
-
-          On February 05, 1970, at 0055 hours, an ambush patrol from Company C, located in the Ho Bo Woods at XT 573279, received hand grenades from an unknown sized enemy force. Helicopter gunships were called in to pound the enemy location. Several enemy soldiers were killed and one Bobcat was wounded in the contact.
-         On February 06, 1970, at 0017 hours, an ambush patrol from Company C engaged an enemy force 2 kilometers southwest of the previous night’s contact. The unknown size enemy force returned the ambush’s fire with small arms and automatic weapons fire. Artillery and helicopter gunship fire was called in to help suppress the enemy fire. During the contact, two Bobcats from Company C were killed and two were wounded.
-          On February 26, 1970, the 1/5th(M) became OPCON to the 1st Brigade, 25th Infantry Division. The battalion moved to the Michelin Rubber Plantation. There was also a new boundary between the 25th Infantry Division and the 1st Air Cavalry Division effective on February 26th. This new boundary change had the 25th Infantry Division give up its portion of War Zone C to the 1st Air Cavalry Division.
-        On February 28, 1970, at 1216 hours, the lead APC of a resupply convoy headed to Dau Tieng from the battalion forward base detonated an explosive device on one of the dirt roads running through the Michelin at XT 557512. The APC was completely destroyed and seven Bobcats were killed. At 1250 hours, a Dust-off was requested for two Bobcats who were in shock.
-         Graves registration personnel were called to the location to help recover body parts. The explosive device was later estimated to be in the 500 pound bomb category. An M-548 TVR was also damaged in the blast. The ramp from the APC was blown backwards into the 548, knocking out its final drive.
-
-
-          During February 1970, nine Bobcats died in Viet Nam. They were: Robert J. Dupell; Erick O. Olson; Charles R. Baggett; Eugene Carter; Donnie R. Chastain;  James P. DeVaney; Robert E. Guthrie; Billy J. Roberts; and Douglas M. Woodward.
             </p>
+            <p>
+              The 2nd Brigade operated with two battalions and one cavalry squadron [1/5th(M); 2/12th Infantry; ¾ Cavelry(-)] in the central portion of the division tactical area of interest and also conducted security along Highways 6A, 7A, 19 and 26.
+            </p>
+            <p>
+              On February 05, 1970, at 0055 hours, an ambush patrol from Company C, located in the Ho Bo Woods at XT 573279, received hand grenades from an unknown sized enemy force. Helicopter gunships were called in to pound the enemy location. Several enemy soldiers were killed and one Bobcat was wounded in the contact.
+            </p>
+            <p>
+              On February 06, 1970, at 0017 hours, an ambush patrol from Company C engaged an enemy force 2 kilometers southwest of the previous night’s contact. The unknown size enemy force returned the ambush’s fire with small arms and automatic weapons fire. Artillery and helicopter gunship fire was called in to help suppress the enemy fire. During the contact, two Bobcats from Company C were killed and two were wounded.
+            </p>
+            <p>
+              On February 26, 1970, the 1/5th(M) became OPCON to the 1st Brigade, 25th Infantry Division. The battalion moved to the Michelin Rubber Plantation. There was also a new boundary between the 25th Infantry Division and the 1st Air Cavalry Division effective on February 26th. This new boundary change had the 25th Infantry Division give up its portion of War Zone C to the 1st Air Cavalry Division.
+            </p>
+            <p>
+              On February 28, 1970, at 1216 hours, the lead APC of a resupply convoy headed to Dau Tieng from the battalion forward base detonated an explosive device on one of the dirt roads running through the Michelin at XT 557512. The APC was completely destroyed and seven Bobcats were killed. At 1250 hours, a Dust-off was requested for two Bobcats who were in shock.
+            </p>
+            <p>
+              Graves registration personnel were called to the location to help recover body parts. The explosive device was later estimated to be in the 500 pound bomb category. An M-548 TVR was also damaged in the blast. The ramp from the APC was blown backwards into the 548, knocking out its final drive.
+            </p>
+            <p>
+              During February 1970, nine Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+             <li>Robert J. Dupell</li>
+             <li>Erick O. Olson</li>
+             <li>Charles R. Baggett</li>
+             <li>Eugene Carter</li>
+             <li>Donnie R. Chastain</li>
+             <li>James P. DeVaney</li>
+             <li>Robert E. Guthrie</li>
+             <li>Billy J. Roberts</li>
+             <li>Douglas M. Woodward</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="mar">MARCH</div>
             <p>
               On March 02, 1970, the 2nd Brigade of the 25th Infantry Division became OPCON to 2nd Field Force Vietnam [II FFV]. With the redeployment of the 1st Infantry Division to the United States, the area of operations of the 25th Infantry Division became extended. To facilitate command and control of this area of operations, II FFV took operational control of the 2nd Brigade, 25th Infantry Division.
-          On March 11, 1970, at 0800 hours, Company B requested a Dust-off at XT 439579 for nine Bobcats wounded in an explosion. Four of the nine wounded Bobcats died as a result of their injuries.
-          At first it was thought that the explosion was caused by an incoming enemy rocket. Later investigation determined that a Claymore mine was accidentally detonated in the area where the soldiers were standing.
-         On March 19, 1970, Company C conducted a RIF operation northeast of Dau Tieng. At 1650 hours, the bodies of several enemy soldiers killed by artillery were located at XT 524564.
- On March 28, 1970, Company C, the Recon Platoon and the 1st Brigade Mini-Cav engaged a small enemy force in bunkers north of Dau Tieng in the “Razorbacks” at XT 491473. Artillery, air strikes and helicopter gunships were called in to suppress the enemy position. During the contact one soldier was killed and 3 were wounded. One “Kit Carson Scout” was also wounded.
-
-
-           During March 1970, four Bobcats died in Viet Nam. They were: John M. Chappey; Roger L. Coffman; Rodney G. Helsel; and Olaf T. Olsen.
             </p>
+            <p>
+              On March 11, 1970, at 0800 hours, Company B requested a Dust-off at XT 439579 for nine Bobcats wounded in an explosion. Four of the nine wounded Bobcats died as a result of their injuries.vAt first it was thought that the explosion was caused by an incoming enemy rocket. Later investigation determined that a Claymore mine was accidentally detonated in the area where the soldiers were standing.vOn March 19, 1970, Company C conducted a RIF operation northeast of Dau Tieng. At 1650 hours, the bodies of several enemy soldiers killed by artillery were located at XT 524564.
+            </p>
+            <p>
+              On March 28, 1970, Company C, the Recon Platoon and the 1st Brigade Mini-Cav engaged a small enemy force in bunkers north of Dau Tieng in the “Razorbacks” at XT 491473. Artillery, air strikes and helicopter gunships were called in to suppress the enemy position. During the contact one soldier was killed and 3 were wounded. One “Kit Carson Scout” was also wounded.
+            </p>
+            <p>
+              During March 1970, four Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+             <li>John M. Chappey</li>
+             <li>Roger L. Coffman</li>
+             <li>Rodney G. Helsel</li>
+             <li>Olaf T. Olsen</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="apr">APRIL</div>
             <p>
               On April 02, 1970, the 1/5th(M) was placed under the operational control of the 1st Air Cavelry Division.
-          On April 09, 1970, a Bobcat from Company C died from multiple fragmentation wounds.
-            On April 10, 1970, two Bobcats from Company C were killed.
-          On April 11, 1970, two Bobcats from Company A were shot and killed.
-          On April 12, 1970, the 1/5th(M) returned to the operational control of the 1st Brigade, 25th Infantry Division.
-          On April 19, 1970, a Bobcat from Company A died in hospital from wounds he had received at an earlier time.
-         On April 23, 1970, at 1900 hours, the Recon Platoon engaged two enemy soldiers in the “Straightedge Woods” at XT 177337.
-          Also on April 23rd, a Bobcat from Company C died from wounds he had previously received.
-         On April 25, 1970, at 1405 hours, Company B received small arms and RPG fire from an unknown sized enemy force at XT 180374. Artillery, air strikes and helicopter light fire teams were called in to help suppress the enemy fire. Two Bobcats were wounded in the contact.
-          On April 28, 1970, elements of the South Vietnamese Army [ARVN] crossed the border into Cambodia to search for and destroy bases belonging to Communist Forces.
-
-
-          During April 1970, seven Bobcats died in Viet Nam. They were: Nick A. Aguilar Jr.; Charles A. Pursell; Kevin A. Stout; Valentine B. Gomez Jr.; Gary D. Jefferson;  Lee A. Stedman; and Harry C. Greer.
-
-Map 23   Base Area 354 in Cambodia.
-
-
-          During the Quarterly Reporting Period of February 01, 1970 thru April 30, 1970, the 25th Infantry Division reported the following personnel statistics:
-
-          KIA: 113;  WIA: 1112;  NBD: 28;  NBI: 103;  MIA: 0.
-
-         Personnel shortages continued to exist in Infantry, Signal Corps and Engineer Captains and NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
+            </p>
+            <p>
+              On April 09, 1970, a Bobcat from Company C died from multiple fragmentation wounds.
+            </p>
+            <p>
+              On April 10, 1970, two Bobcats from Company C were killed.
+            </p>
+            <p>
+              On April 11, 1970, two Bobcats from Company A were shot and killed.
+            </p>
+            <p>
+              On April 12, 1970, the 1/5th(M) returned to the operational control of the 1st Brigade, 25th Infantry Division.
+            </p>
+            <p>
+              On April 19, 1970, a Bobcat from Company A died in hospital from wounds he had received at an earlier time.
+            </p>
+            <p>
+              On April 23, 1970, at 1900 hours, the Recon Platoon engaged two enemy soldiers in the “Straightedge Woods” at XT 177337.
+            </p>
+            <p>
+              Also on April 23rd, a Bobcat from Company C died from wounds he had previously received.
+            </p>
+            <p>
+              On April 25, 1970, at 1405 hours, Company B received small arms and RPG fire from an unknown sized enemy force at XT 180374. Artillery, air strikes and helicopter light fire teams were called in to help suppress the enemy fire. Two Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On April 28, 1970, elements of the South Vietnamese Army [ARVN] crossed the border into Cambodia to search for and destroy bases belonging to Communist Forces.
+            </p>
+            <p>
+              During April 1970, seven Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Nick A. Aguilar Jr.</li>
+              <li>Charles A. Pursell</li>
+              <li>Kevin A. Stout</li>
+              <li>Valentine B. Gomez Jr.</li>
+              <li>Gary D. Jefferson</li>
+              <li>Lee A. Stedman</li>
+              <li>Harry C. Greer</li>
+            </ul>
+            <p>
+              Map 23   Base Area 354 in Cambodia.
+            </p>
+            <p>
+              During the Quarterly Reporting Period of February 01, 1970 thru April 30, 1970, the 25th Infantry Division reported the following personnel statistics:
+            </p>
+            <p>
+              KIA: 113;  WIA: 1112;  NBD: 28;  NBI: 103;  MIA: 0
+            </p>
+            <p>
+              Personnel shortages continued to exist in Infantry, Signal Corps and Engineer Captains and NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="may">MAY</div>
             <p>
               On May 01, 1970, American Military Forces crossed the Cambodian Border to join ARVN Forces in the destruction of enemy supply and personnel bases in the Parrot’s Beak, the Angel’s Wing and the Fish Hook regions of Cambodia. The first American Forces into Cambodia were the 1st Air Cavalry Division, including the 2/47th(M) Infantry, the 2/34th Armor and the 11th Armor Cavalry Regiment.
-          The President of the United States announced that American Forces had entered Cambodia, however, he stated that they would only remain there until June 30, 1970. Furthermore they would only be allowed to venture 30 kilometers into Cambodia and no further. When word of these restrictions finally reached the soldiers, it took a good deal of the wind out of their sails of enthusiasm of finally taking the war to “Charlie’s” safe havens.
-          On May 03, 1970, an operations order was issued for elements of the 25th Infantry Division to attack into Cambodia.
-          On May 04 and 05, 1970, elements of the 1st Brigade [1/5th(M), 2/22nd(M), 3/22nd Infantry] moved into northwestern War Zone C to the area of Thien Ngon to relieve elements of the 1st Cavelry Division and to prepare for the attack into Cambodia.
-           On May 06, 1970, at 0330 hours, a commando vault [15,000 pound bomb] insertion took place on the Cambodian side of a potential bridge site at XT 967752. Another commando vault insertion was made at 0430 hours. At 0710 hours, the 3/22nd Infantry Battalion made an air combat assault into Cambodia in the area of the village of Tasuos. One company from the battalion secured the bridgehead on the western bank of the river at WT 967752. The 2/22nd (M) attacked to seize the bridgehead on the eastern bank. Company E, 65th Engineer Battalion then commenced construction of a pontoon float bridge at that location.
-           At 0955 hours, Company C, 3/22nd Infantry received a number of artillery rounds killing 2 soldiers and wounding 8. The fire was determined to be friendly artillery.
-          The float bridge was completed and became operational by 2315 hours. 2 platoons from the 1/5th(M) crossed the bridge and assisted in the night security on the western bank of the river.
-        On May 07, 1970, beginning at 0715 hours, the 1/5th(M) and the 2/22nd(M) crossed the river on the pontoon bridge. The 1/5th(M) assaulted west towards Tasuos. The 2/22nd(M) assaulted south along the river.
-          At 1200 hours, Company B, 7/11th Artillery crossed the bridge and followed the 1/5th(M).
-          At 1300 hours, Company A, 1/5th(M) engaged an enemy force about 6 kilometers north east of Kampong Trach at WT 905670. The fire fight lasted ten minutes. Several enemy soldiers were killed. Also in the contact, one Bobcat from Company A was killed and one was wounded.
-          At 2050 hours, a patrol from the Recon Platoon received small arms and RPG fire northeast of Kampong Trach at WT 911666. One Bobcat was killed and one wounded in the initial contact. One platoon from Company B reacted to the contact and the Communists broke off the fight.
-         On May 08, 1970, units of the 1st Brigade continued searching Base Area 354.
-       On May 09, 1970, at 1010 hours, Company C engaged a few individuals and when checking the area of contact at WT 890658, they located a large base camp area with mess halls and bunkers. The base was approximately 400 meters long and 400 meters wide.
-         At 1130 hours, Company A engaged an estimated enemy platoon one kilometer northeast of Trapeang Pikar at WT 833684. In the exchange of fire one Bobcat was killed and fourteen were wounded.
-         At 1130 hours, Company B engaged an unknown size enemy force at WT 835705. A helicopter light fire team was employed and the enemy broke contact.
-         At 1610 hours, Company C received automatic weapons and RPG fire at WT 840674. Helicopter light fire teams, artillery fire and air strikes were called in to suppress the enemy fire with unknown results. One Bobcat was killed and fourteen were wounded in the contact.
-         At 2030 hours, an ambush patrol from the Recon Platoon received small arms fire while enroute to their ambush position. Fire was returned and the enemy broke contact. Two Bobcats were wounded in the contact.
-          On May 10, 1970, elements continued a detailed search of Base Area 354. Contacts during the day were limited to hit and run encounters with one to two individuals.
-          On May 11, 1970, elements continued searching for cache sites and base camps. In three separate incidents, APCs from the 1/5th(M) detonated AT mines. Eight Bobcats were wounded in the explosions.
-         On May 12, 1970, at 0545 hours, the Company C night perimeter at WT 928682 received small arms, automatic weapons, RPG and mortar fire from an unknown size enemy force. Company C returned fire with organic weapons, artillery and helicopter light fire teams. Six APCs were destroyed and five Bobcats were killed. Forty-four Bobcats were wounded. Thirty of these were minor wounds not requiring Dust-off. One Kit Carson Scout was killed when he went to assist the loading of a .50 caliber machine gun and an RPG hit the track and started it on fire.
-          At 1820 hours, an APC from Company C detonated an AT mine. The APC was a combat loss and four Bobcats were wounded.
-          On May 13, 1970, the search of Base Area 354 continued with scattered contacts and limited rice and munitions caches located.
-          On May 14, 1970, the 1st Brigade withdrew from Base Area 354 and moved to Katum to begin operations in Base Area 353. The last elements of the Brigade withdrew from Base Area 354 at 1925 hours.
-          Base Area 354 was dispersed over a large jungle area, which made detailed searching difficult and time consuming. Although a substantial quantity of supplies was located and a large number of facilities destroyed, the time and forces available permitted a neutralization of only a portion of the base area.
-          On May 15, 1970, the 1st Brigade completed movement into its assigned area of operations north of Katum.
-On May 16, 1970, at 1340 hours, Company B engaged an unknown size enemy force about 3 kilometers inside Cambodia northwest of Katum at XT 253997. Artillery and air strikes were called in to assist in suppressing the enemy fire. Two Bobcats from Company B were killed and six were wounded in the contact.
-          At 2000 hours, Company C was on stand down at Tay Ninh Base Camp attending a floor show. A soldier from another unit attempted to gain entry to the show but was turned away. This soldier returned with an M-16 rifle and opened fire on the soldiers watching the show. Two Bobcats from Company C were murdered and ten were wounded.
-          A Specialist 4th Class named James E. Paul from the 125th Signal Battalion was later convicted in a Courts Martial of two counts of voluntary manslaughter and ten counts of assault to commit voluntary manslaughter.
-Soldier Is Convicted In Manslaughter Case
-         On May 17, 1970, at 1230 hours, Company A located a large communications cache about 7 kilometers southwest of Memut. The large amount of radio equipment located was evacuated to Katum. At 1400 hours, a second cache was located 400 meters southwest of the earlier one.
-Also on May17th, a Bobcat from Company B died in hospital from wounds he had received on an earlier date.
-          On May 18, 1970, the 1st and 2nd Brigades continued to operate in north central Tay Ninh Province and a portion of Kampong Province, Cambodia.
- At 1330 hours, the Recon Platoon located a base camp and weapons cache just northwest of Romeas Chol at XU 249016.
-          One Bobcat from Company A was killed in an accidental explosion.
-          On May 19, 1970, at 0900 hours, the Recon Platoon located a small rice cache between the villages of Khley and Romeas Chol. At 1015 hours, Company A located a hospital complex 4 kilometers west of Sotey at XT 233986. It consisted of approximately 130 bunkers, 50 houses and 3 kitchens. At 1330 hours, the Recon Platoon located a small communications cache at XU 235020.
-         On May 20, 1970, at 0955 hours, Company A received small arms and RPG fire from an unknown size enemy force southeast of Dar at XU 223003. Fire was returned with organic weapons and a helicopter light fire team with unknown results. The enemy broke contact at 1045 hours. Two Bobcats from Company A were killed and five were wounded in the fight.
- At 1245 hours, Company A received fire from individuals in a bunker. The fire was returned with organic weapons, air strikes with napalm and helicopter light fire teams. Enemy fire ceased at 1415 hours.
-          On May 21, 1970, the 1/5th(M) became OPCON to the 3rd Brigade, 25th Infantry Division.
-          On May 22, 1970, two Bobcats from the Recon Platoon died from multiple fragmentation wounds in Cambodia.
-          On May 30, 1970, one Bobcat from Company B was shot and killed in Cambodia.
-
-
- During May 1970, twenty-one Bobcats died in Cambodia or Viet Nam. They were:
-John E. Dayton; Michael J. Orwig; Raymond M. Morris; Dan R. Stewart; Oscar A. Solis; Ronald E. Campbell; Ardie R. Copas; Stephen J. Keesler; Leopoldo A. Lopez; Thomas A. Stephens; David W. Hensel; Clyde W. Lawrence Jr.; Gary R. White; Joe E. Raber; David F. Johnson; Mark W. Bacher; Craig Rathbun; Kenneth S. Vore; and Jerry Roy Marco.
             </p>
+            <p>
+              The President of the United States announced that American Forces had entered Cambodia, however, he stated that they would only remain there until June 30, 1970. Furthermore they would only be allowed to venture 30 kilometers into Cambodia and no further. When word of these restrictions finally reached the soldiers, it took a good deal of the wind out of their sails of enthusiasm of finally taking the war to “Charlie’s” safe havens.
+            </p>
+            <p>
+              On May 03, 1970, an operations order was issued for elements of the 25th Infantry Division to attack into Cambodia.
+            </p>
+            <p>
+              On May 04 and 05, 1970, elements of the 1st Brigade [1/5th(M), 2/22nd(M), 3/22nd Infantry] moved into northwestern War Zone C to the area of Thien Ngon to relieve elements of the 1st Cavelry Division and to prepare for the attack into Cambodia.
+            </p>
+            <p>
+              On May 06, 1970, at 0330 hours, a commando vault [15,000 pound bomb] insertion took place on the Cambodian side of a potential bridge site at XT 967752. Another commando vault insertion was made at 0430 hours. At 0710 hours, the 3/22nd Infantry Battalion made an air combat assault into Cambodia in the area of the village of Tasuos. One company from the battalion secured the bridgehead on the western bank of the river at WT 967752. The 2/22nd (M) attacked to seize the bridgehead on the eastern bank. Company E, 65th Engineer Battalion then commenced construction of a pontoon float bridge at that location.
+            </p>
+            <p>
+              At 0955 hours, Company C, 3/22nd Infantry received a number of artillery rounds killing 2 soldiers and wounding 8. The fire was determined to be friendly artillery.
+            </p>
+            <p>
+              The float bridge was completed and became operational by 2315 hours. 2 platoons from the 1/5th(M) crossed the bridge and assisted in the night security on the western bank of the river.
+            </p>
+            <p>
+              On May 07, 1970, beginning at 0715 hours, the 1/5th(M) and the 2/22nd(M) crossed the river on the pontoon bridge. The 1/5th(M) assaulted west towards Tasuos. The 2/22nd(M) assaulted south along the river.
+            </p>
+            <p>
+              At 1200 hours, Company B, 7/11th Artillery crossed the bridge and followed the 1/5th(M).
+            </p>
+            <p>
+              At 1300 hours, Company A, 1/5th(M) engaged an enemy force about 6 kilometers north east of Kampong Trach at WT 905670. The fire fight lasted ten minutes. Several enemy soldiers were killed. Also in the contact, one Bobcat from Company A was killed and one was wounded.
+            </p>
+            <p>
+              At 2050 hours, a patrol from the Recon Platoon received small arms and RPG fire northeast of Kampong Trach at WT 911666. One Bobcat was killed and one wounded in the initial contact. One platoon from Company B reacted to the contact and the Communists broke off the fight.
+            </p>
+            <p>
+              On May 08, 1970, units of the 1st Brigade continued searching Base Area 354.
+            </p>
+            <p>
+              On May 09, 1970, at 1010 hours, Company C engaged a few individuals and when checking the area of contact at WT 890658, they located a large base camp area with mess halls and bunkers. The base was approximately 400 meters long and 400 meters wide.
+            </p>
+            <p>
+              At 1130 hours, Company A engaged an estimated enemy platoon one kilometer northeast of Trapeang Pikar at WT 833684. In the exchange of fire one Bobcat was killed and fourteen were wounded.
+            </p>
+            <p>
+              At 1130 hours, Company B engaged an unknown size enemy force at WT 835705. A helicopter light fire team was employed and the enemy broke contact.
+            </p>
+            <p>
+              At 1610 hours, Company C received automatic weapons and RPG fire at WT 840674. Helicopter light fire teams, artillery fire and air strikes were called in to suppress the enemy fire with unknown results. One Bobcat was killed and fourteen were wounded in the contact.
+            </p>
+            <p>
+              At 2030 hours, an ambush patrol from the Recon Platoon received small arms fire while enroute to their ambush position. Fire was returned and the enemy broke contact. Two Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On May 10, 1970, elements continued a detailed search of Base Area 354. Contacts during the day were limited to hit and run encounters with one to two individuals.
+            </p>
+            <p>
+              On May 11, 1970, elements continued searching for cache sites and base camps. In three separate incidents, APCs from the 1/5th(M) detonated AT mines. Eight Bobcats were wounded in the explosions.
+            </p>
+            <p>
+              On May 12, 1970, at 0545 hours, the Company C night perimeter at WT 928682 received small arms, automatic weapons, RPG and mortar fire from an unknown size enemy force. Company C returned fire with organic weapons, artillery and helicopter light fire teams. Six APCs were destroyed and five Bobcats were killed. Forty-four Bobcats were wounded. Thirty of these were minor wounds not requiring Dust-off. One Kit Carson Scout was killed when he went to assist the loading of a .50 caliber machine gun and an RPG hit the track and started it on fire.
+            </p>
+            <p>
+              At 1820 hours, an APC from Company C detonated an AT mine. The APC was a combat loss and four Bobcats were wounded.
+            </p>
+            <p>
+              On May 13, 1970, the search of Base Area 354 continued with scattered contacts and limited rice and munitions caches located.
+            </p>
+            <p>
+              On May 14, 1970, the 1st Brigade withdrew from Base Area 354 and moved to Katum to begin operations in Base Area 353. The last elements of the Brigade withdrew from Base Area 354 at 1925 hours.
+            </p>
+            <p>
+              Base Area 354 was dispersed over a large jungle area, which made detailed searching difficult and time consuming. Although a substantial quantity of supplies was located and a large number of facilities destroyed, the time and forces available permitted a neutralization of only a portion of the base area.
+            </p>
+            <p>
+              On May 15, 1970, the 1st Brigade completed movement into its assigned area of operations north of Katum.
+            </p>
+            <p>
+              On May 16, 1970, at 1340 hours, Company B engaged an unknown size enemy force about 3 kilometers inside Cambodia northwest of Katum at XT 253997. Artillery and air strikes were called in to assist in suppressing the enemy fire. Two Bobcats from Company B were killed and six were wounded in the contact.
+            </p>
+            <p>
+              At 2000 hours, Company C was on stand down at Tay Ninh Base Camp attending a floor show. A soldier from another unit attempted to gain entry to the show but was turned away. This soldier returned with an M-16 rifle and opened fire on the soldiers watching the show. Two Bobcats from Company C were murdered and ten were wounded.
+            </p>
+            <p>
+              A Specialist 4th Class named James E. Paul from the 125th Signal Battalion was later convicted in a Courts Martial of two counts of voluntary manslaughter and ten counts of assault to commit voluntary manslaughter.
+            </p>
+            <p>
+              Soldier Is Convicted In Manslaughter Case
+            </p>
+            <p>
+              On May 17, 1970, at 1230 hours, Company A located a large communications cache about 7 kilometers southwest of Memut. The large amount of radio equipment located was evacuated to Katum. At 1400 hours, a second cache was located 400 meters southwest of the earlier one.
+            </p>
+            <p>
+              Also on May17th, a Bobcat from Company B died in hospital from wounds he had received on an earlier date.
+            </p>
+            <p>
+              On May 18, 1970, the 1st and 2nd Brigades continued to operate in north central Tay Ninh Province and a portion of Kampong Province, Cambodia.
+            </p>
+            <p>
+              At 1330 hours, the Recon Platoon located a base camp and weapons cache just northwest of Romeas Chol at XU 249016.
+            </p>
+            <p>
+              One Bobcat from Company A was killed in an accidental explosion.
+            </p>
+            <p>
+              On May 19, 1970, at 0900 hours, the Recon Platoon located a small rice cache between the villages of Khley and Romeas Chol. At 1015 hours, Company A located a hospital complex 4 kilometers west of Sotey at XT 233986. It consisted of approximately 130 bunkers, 50 houses and 3 kitchens. At 1330 hours, the Recon Platoon located a small communications cache at XU 235020.
+            </p>
+            <p>
+              On May 20, 1970, at 0955 hours, Company A received small arms and RPG fire from an unknown size enemy force southeast of Dar at XU 223003. Fire was returned with organic weapons and a helicopter light fire team with unknown results. The enemy broke contact at 1045 hours. Two Bobcats from Company A were killed and five were wounded in the fight.
+            </p>
+            <p>
+              At 1245 hours, Company A received fire from individuals in a bunker. The fire was returned with organic weapons, air strikes with napalm and helicopter light fire teams. Enemy fire ceased at 1415 hours.
+            </p>
+            <p>
+              On May 21, 1970, the 1/5th(M) became OPCON to the 3rd Brigade, 25th Infantry Division.
+            </p>
+            <p>
+              On May 22, 1970, two Bobcats from the Recon Platoon died from multiple fragmentation wounds in Cambodia.
+            </p>
+            <p>
+              On May 30, 1970, one Bobcat from Company B was shot and killed in Cambodia.
+            </p>
+            <p>
+              During May 1970, twenty-one Bobcats died in Cambodia or Viet Nam. They were:
+            </p>
+            <ul>
+              <li>John E. Dayton</li>
+              <li>Michael J. Orwig</li>
+              <li>Raymond M. Morris</li>
+              <li>Dan R. Stewart</li>
+              <li>Oscar A. Solis</li>
+              <li>Ronald E. Campbell</li>
+              <li>Ardie R. Copas</li>
+              <li>Stephen J. Keesler</li>
+              <li>Leopoldo A. Lopez</li>
+              <li>Thomas A. Stephens</li>
+              <li>David W. Hensel</li>
+              <li>Clyde W. Lawrence Jr.</li>
+              <li>Gary R. White</li>
+              <li>Joe E. Raber</li>
+              <li>David F. Johnson</li>
+              <li>Mark W. Bacher</li>
+              <li>Craig Rathbun</li>
+              <li>Kenneth S. Vore</li>
+              <li>Jerry Roy Marco</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
               On June 04, 1970, at 1400 hours, Company A received small arms and RPG fire four kilometers east of the junction of Highways 19 and 26 at XT 473368. The enemy fire was returned with organic weapons, artillery, a helicopter light fire team and finally air strikes. At 1500 hours, the company swept through the area and located a destroyed bunker system and dead enemy soldiers. Four Bobcats were killed and eighteen were wounded in the fight.
-          On June 13, 1970, a Bobcat from Company A died in hospital from wounds he had previously received.
-          On June 17, 1970, a Bobcat from Company A died of injuries sustained as the result of an accidental motor vehicle crash.
-          On June 18, 1970, Company B established a night defensive perimeter in the Boi Loi Woods at XT 528352. At 2340 hours, the position received small arms, RPG and mortar fire. The enemy fire was returned with organic weapons, artillery and helicopter light fire teams. Seventeen Bobcats were wounded in the exchange. One wounded POW and several enemy dead were located in a sweep of the area at first light.
-          On June 21, 1970, a Bobcat from Company A died in hospital from wounds he had earlier received.
-          On June 23, 1970, a Bobcat from Company A died in hospital from injuries he had received as the result of an earlier accidental motor vehicle crash.
-
-
-         During June 1970, seven Bobcats died in Viet Nam or Cambodia. They were:
-Alan G. Demorow; Stephen C. Foht; Richard E. Rutherford; Arcadio Torres; Franklin J. Krantz Jr.; Preston H. Ellis; and Larry W. Anderson.
             </p>
+            <p>
+              On June 13, 1970, a Bobcat from Company A died in hospital from wounds he had previously received.
+            </p>
+            <p>
+              On June 17, 1970, a Bobcat from Company A died of injuries sustained as the result of an accidental motor vehicle crash.vOn June 18, 1970, Company B established a night defensive perimeter in the Boi Loi Woods at XT 528352. At 2340 hours, the position received small arms, RPG and mortar fire. The enemy fire was returned with organic weapons, artillery and helicopter light fire teams. Seventeen Bobcats were wounded in the exchange. One wounded POW and several enemy dead were located in a sweep of the area at first light.
+            </p>
+            <p>
+              On June 21, 1970, a Bobcat from Company A died in hospital from wounds he had earlier received.
+            </p>
+            <p>
+              On June 23, 1970, a Bobcat from Company A died in hospital from injuries he had received as the result of an earlier accidental motor vehicle crash.
+            </p>
+            <p>
+              During June 1970, seven Bobcats died in Viet Nam or Cambodia. They were:
+            </p>
+            <ul>
+              <li>Alan G. Demorow</li>
+              <li>Stephen C. Foht</li>
+              <li>Richard E. Rutherford</li>
+              <li>Arcadio Torres</li>
+              <li>Franklin J. Krantz Jr.</li>
+              <li>Preston H. Ellis</li>
+              <li>Larry W. Anderson</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jul">JULY</div>
@@ -4344,72 +4532,138 @@ Everett E. Wells Jr.; James H. Heppler; and Charles P. Hutton.
             <div class="oneMonth" data-section="sep">SEPTEMBER</div>
             <p>
               During the first week of September 1970, the 2nd Brigade continued their operations. There were no significant shelling incidents or ground contacts reported. The enemy units in the 2nd Brigades area of operations suffered from acute logistical shortages.
-           On September 12, 1970, an APC from Company A detonated an AT mine. The track was flipped over by the force of the blast, killing one Bobcat.
-           On September 17, 1970, at 2045 hours, Company C received small arms and automatic weapons fire at their night defensive perimeter south of Xuan Loc at YT 480005. The enemy fire was suppressed with organic weapons, artillery fire and helicopter light fire teams with unknown results. Five Bobcats were wounded in the contact.
-
-
-         During September 1970, one Bobcat died in Viet Nam. He was: Dean W. Hardman.
             </p>
+            <p>
+              On September 12, 1970, an APC from Company A detonated an AT mine. The track was flipped over by the force of the blast, killing one Bobcat.
+            </p>
+            <p>
+              On September 17, 1970, at 2045 hours, Company C received small arms and automatic weapons fire at their night defensive perimeter south of Xuan Loc at YT 480005. The enemy fire was suppressed with organic weapons, artillery fire and helicopter light fire teams with unknown results. Five Bobcats were wounded in the contact.
+            </p>
+            <p>
+              During September 1970, one Bobcat died in Viet Nam. He was:
+            </p>
+            <ul>
+              <li>Dean W. Hardman</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="oct">OCTOBER</div>
             <p>
               During October 1970 the 2nd Brigade continued operating in Long Khanh and Phuoc Tuy Provinces and added a portion of Bien Hoa Province to their AO.
-         On October 12, 1970, the Keystone Message directing redeployment of the 25th Infantry Division was received by division headquarters.
-          On October 15, 1970, the 25th Infantry Division’s Operations Order 183-70 for the redeployment of the division(-) and the constitution of the 2nd Brigade as a separate brigade was published.
-
-
- During October 1970, no Bobcats died in Viet Nam.
-
-
-         The following personnel statistics were reported by the 25th Infantry Division for the Quarterly Period of August 01, 1970 thru October 31, 1970:
-
-          KIA: 39;  WIA: 542;  NBD: 13;  NBI: 131; MIA: 0.
-
-           Personnel shortages continued to exist in Infantry and Artillery Captains as well as NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
+            </p>
+            <p>
+              On October 12, 1970, the Keystone Message directing redeployment of the 25th Infantry Division was received by division headquarters.
+            </p>
+            <p>
+              On October 15, 1970, the 25th Infantry Division’s Operations Order 183-70 for the redeployment of the division(-) and the constitution of the 2nd Brigade as a separate brigade was published.
+            </p>
+            <p>
+              During October 1970, no Bobcats died in Viet Nam.
+            </p>
+            <p>
+              The following personnel statistics were reported by the 25th Infantry Division for the Quarterly Period of August 01, 1970 thru October 31, 1970:
+            </p>
+            <p>
+              KIA: 39;  WIA: 542;  NBD: 13;  NBI: 131; MIA: 0.
+            </p>
+            <p>
+              Personnel shortages continued to exist in Infantry and Artillery Captains as well as NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="nov">NOVEMBER</div>
             <p>
               On November 01, 1970, units to redeploy were moved to stand-down locations from the field concurrent with the shrinking of the 25th Infantry Division’s Area of Operations from north to south.
-           The 2nd Brigade continued to operate as part of the 25th Infantry Division with three maneuver battalions [1/5th(M), 4/23rd (M), 3/22nd Infantry] in Bien Hoa, Long Khanh and Phuoc Tuy Provinces.
-          On November 06, 1970, at 1830 hours, Company C received small arms fire and hand grenades from an unknown size enemy force 4 kilometers south of Long Thanh at YS 118945. The enemy fire was returned with organic weapons with unknown results. Two Bobcats were wounded in the contact.
-          On November 08, 1970, the stand-down of units was to take place at two locations; Cu Chi Base Camp and Camp Frenzell-Jones. Units which had rear elements at Cu Chi stood down at that location while all others, with the exception of the 2/34th Armor, went to Camp Frenzell-Jones.
-         Structuring of the 2nd Brigade was accomplished during the same time period as the redeployment of the 25th Infantry Division(-). The units of the Brigade were designated in the original Keystone Message [ 2/12th Infantry; 3/22nd Infantry; 1/27th Infantry; 1/5th(M) Infantry; 1/8th Artillery; B Company, 65th Engineer Battalion; D Troop, ¾ Cavalry; 125th Signal Company; 25th Combat Support battalion; 38th Scout Dog Platoon; 66th Combat Tracker Team; F Company, 75th Ranger(-); 18th Military History Detachment; 25th Military Intelligence Company; 25th Military Police Company, 20th Public Information Office Detachment; 9th Chemical Detachment.] and a personnel ceiling of 5,796 spaces was imposed.
-          The 2nd Brigade, although not fully constituted, was activated on November 08, 1970 and placed OPCON to II Field Force Vietnam. The 2nd Brigade continued operating in Phuoc Tuy, Long Khnah and Nhon Trach District of Bien Hoa Province with three maneuver battalions during the second week of November.
-On November 09, 1970, an ambush patrol made up of members of Company B and South Vietnamese Regional Force soldiers was engaged by enemy soldiers as it was enroute to its ambush position. Two Bobcats were killed and one was wounded in the contact.
-On November 11, 1970, a Bobcat who was wounded in the November 9 ambush patrol contact, died in hospital from his wounds.
-          On November 12, 1970, a Dust-off  helicopter, while attempting to take out wounded from a 3/22nd Infantry contact was hit and forced to crash land at 1530 hours. The helicopter was secured by one platoon from Company A, 1/5th(M) until it was extracted at 1730 hours.
-          On November 18, 1970, all the maneuver elements of the 25th Infantry Division had moved into stand down and the Division(-) occupied only Cu Chi Base Camp and a small area of operations around it for local security reasons. The 1/27th Infantry(-), while assigned to the 2nd Brigade, was under the operational control of the 25th Division and was assigned as the security element for Cu Chi Base Camp during stand down and roll up actions.
-           On November 25, 1970, the 25th Infantry Division held its farewell ceremony at Cu Chi Base Camp.
-          At 1705 hours, the Recon Platoon along with Regional Force soldiers engaged an unknown size enemy force four kilometers south of Long Thanh at YS 131880. Two POWs were captured with negative friendly casualties.
-
-
- During November 1970, three Bobcats died in Vietnam. They were:
-Randall L. Ellis; Francis W. Harter; and Ronald J. DiBartolomeo.
             </p>
+            <p>
+              The 2nd Brigade continued to operate as part of the 25th Infantry Division with three maneuver battalions [1/5th(M), 4/23rd (M), 3/22nd Infantry] in Bien Hoa, Long Khanh and Phuoc Tuy Provinces.
+            </p>
+            <p>
+              On November 06, 1970, at 1830 hours, Company C received small arms fire and hand grenades from an unknown size enemy force 4 kilometers south of Long Thanh at YS 118945. The enemy fire was returned with organic weapons with unknown results. Two Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On November 08, 1970, the stand-down of units was to take place at two locations; Cu Chi Base Camp and Camp Frenzell-Jones. Units which had rear elements at Cu Chi stood down at that location while all others, with the exception of the 2/34th Armor, went to Camp Frenzell-Jones.
+            </p>
+            <p>
+              Structuring of the 2nd Brigade was accomplished during the same time period as the redeployment of the 25th Infantry Division(-). The units of the Brigade were designated in the original Keystone Message [ 2/12th Infantry; 3/22nd Infantry; 1/27th Infantry; 1/5th(M) Infantry; 1/8th Artillery; B Company, 65th Engineer Battalion; D Troop, ¾ Cavalry; 125th Signal Company; 25th Combat Support battalion; 38th Scout Dog Platoon; 66th Combat Tracker Team; F Company, 75th Ranger(-); 18th Military History Detachment; 25th Military Intelligence Company; 25th Military Police Company, 20th Public Information Office Detachment; 9th Chemical Detachment.] and a personnel ceiling of 5,796 spaces was imposed.
+            </p>
+            <p>
+              The 2nd Brigade, although not fully constituted, was activated on November 08, 1970 and placed OPCON to II Field Force Vietnam. The 2nd Brigade continued operating in Phuoc Tuy, Long Khnah and Nhon Trach District of Bien Hoa Province with three maneuver battalions during the second week of November.
+            </p>
+            <p>
+              On November 09, 1970, an ambush patrol made up of members of Company B and South Vietnamese Regional Force soldiers was engaged by enemy soldiers as it was enroute to its ambush position. Two Bobcats were killed and one was wounded in the contact.
+            </p>
+            <p>
+              On November 11, 1970, a Bobcat who was wounded in the November 9 ambush patrol contact, died in hospital from his wounds.
+            </p>
+            <p>
+              On November 12, 1970, a Dust-off  helicopter, while attempting to take out wounded from a 3/22nd Infantry contact was hit and forced to crash land at 1530 hours. The helicopter was secured by one platoon from Company A, 1/5th(M) until it was extracted at 1730 hours.
+            </p>
+            <p>
+              On November 18, 1970, all the maneuver elements of the 25th Infantry Division had moved into stand down and the Division(-) occupied only Cu Chi Base Camp and a small area of operations around it for local security reasons. The 1/27th Infantry(-), while assigned to the 2nd Brigade, was under the operational control of the 25th Division and was assigned as the security element for Cu Chi Base Camp during stand down and roll up actions.
+            </p>
+            <p>
+              On November 25, 1970, the 25th Infantry Division held its farewell ceremony at Cu Chi Base Camp.
+            </p>
+            <p>
+              At 1705 hours, the Recon Platoon along with Regional Force soldiers engaged an unknown size enemy force four kilometers south of Long Thanh at YS 131880. Two POWs were captured with negative friendly casualties.
+            </p>
+            <p>
+              During November 1970, three Bobcats died in Vietnam. They were:
+            </p>
+            <ul>
+              <li>Randall L. Ellis</li>
+              <li>Francis W. Harter</li>
+              <li>Ronald J. DiBartolomeo</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="dec">DECEMBER</div>
             <p>
               The 2nd Brigade (Provisional)(Separate) continued to operate in Bien Hoa, Long Khanh and Phuoc Tuy Provinces during the first and second week of December with four maneuver battalions.
-           On December 04, 1970, the Commanding Officer of the 2nd Brigade issued a directive to establish a policy governing the use of mechanical ambushes. The directive stated in part:
- “Ambush Position: The location of the personnel conducting the ambush.
-          Attended Mechanical Ambush: A mechanical ambush that is located not less than 100 meters and not more than 500 meters from the ambush position. The word “attended” implies that friendly personnel are able to observe and/or move immediately to the mechanical ambush.
-          Unattended Mechanocal Ambush: A mechanical ambush that is located more than 500 meters from the ambush position and cannot be observed by friendly personnel.
-          It is the Brigade Commander’s policy that MAs will be fully utilized to assist in the destruction of the enemy. Inherent in this policy is the responsibility of subordinate comanders to impress upon personnel the hazards connected with the MA and the safety precautions required.
-         The Brigade Commander retains the authority to approve employment of UMAs. UMAs will not be employed in populated areas. Request for permission to employ UMAs in unpopulated areas will be submitted to this Headquarters, attention: AVDCSB-C and include the proposed location, duration, provisions for recovery and a statement to the effect that the UMA has been coordinated with and approved by District and Province.”
-          On December 06, 1970, a Bobcat from the Recon Platoon died from non-hostile accidental causes.
-          On December 15, 1970, the last area of Cu Chi Base Camp was turned over to South Vietnamese Army Personnel and the last United States combat units departed the base camp.
-          On December 18, 1970, the Recon Platoon swept an area at YS 187783 where a mechanical ambush was detonated. They located weapons and equipment from two dead enemy soldiers.
-         On December 20, 1970, the 2nd Brigade was officially notified of its designation for redeployment. The Brigade was operating with four maneuver battalions with its forward location at Xuan Loc and its rear area at Camp Frenzell-Jones. The Brigade was to complete its stand down not later than April 28, 1971.
-          On December 26, 1970, at 1115 hours, Company B made contact with a squad sized element of enemy soldiers five kilometers south of Hung Loc at YT 316044. Artillery fire and a helicopter fire team were called in to help suppress the force. Three POWs were captured after the firing ceased.
-          On December 30, 1970, at 1145 hours, a light observation helicopter crashed after hitting power lines 18 kilometers northwest of Xuan Loc. Company A secured the downed aircraft until the bodies of the crew and the aircraft were extracted.
-
-
-          During December 1970, one Bobcat died in Viet Nam. He was: Robert J. Seufert.
             </p>
+            <p>
+              On December 04, 1970, the Commanding Officer of the 2nd Brigade issued a directive to establish a policy governing the use of mechanical ambushes. The directive stated in part:
+            </p>
+            <p>
+              “Ambush Position: The location of the personnel conducting the ambush.
+            </p>
+            <p>
+              Attended Mechanical Ambush: A mechanical ambush that is located not less than 100 meters and not more than 500 meters from the ambush position. The word “attended” implies that friendly personnel are able to observe and/or move immediately to the mechanical ambush.
+            </p>
+            <p>
+              Unattended Mechanocal Ambush: A mechanical ambush that is located more than 500 meters from the ambush position and cannot be observed by friendly personnel.
+            </p>
+            <p>
+              It is the Brigade Commander’s policy that MAs will be fully utilized to assist in the destruction of the enemy. Inherent in this policy is the responsibility of subordinate comanders to impress upon personnel the hazards connected with the MA and the safety precautions required.
+            </p>
+            <p>
+              The Brigade Commander retains the authority to approve employment of UMAs. UMAs will not be employed in populated areas. Request for permission to employ UMAs in unpopulated areas will be submitted to this Headquarters, attention: AVDCSB-C and include the proposed location, duration, provisions for recovery and a statement to the effect that the UMA has been coordinated with and approved by District and Province.”
+            </p>
+            <p>
+              On December 06, 1970, a Bobcat from the Recon Platoon died from non-hostile accidental causes.
+            </p>
+            <p>
+              On December 15, 1970, the last area of Cu Chi Base Camp was turned over to South Vietnamese Army Personnel and the last United States combat units departed the base camp.
+            </p>
+            <p>
+              On December 18, 1970, the Recon Platoon swept an area at YS 187783 where a mechanical ambush was detonated. They located weapons and equipment from two dead enemy soldiers.
+            </p>
+            <p>
+              On December 20, 1970, the 2nd Brigade was officially notified of its designation for redeployment. The Brigade was operating with four maneuver battalions with its forward location at Xuan Loc and its rear area at Camp Frenzell-Jones. The Brigade was to complete its stand down not later than April 28, 1971.
+            </p>
+            <p>
+              On December 26, 1970, at 1115 hours, Company B made contact with a squad sized element of enemy soldiers five kilometers south of Hung Loc at YT 316044. Artillery fire and a helicopter fire team were called in to help suppress the force. Three POWs were captured after the firing ceased.
+            </p>
+            <p>
+              On December 30, 1970, at 1145 hours, a light observation helicopter crashed after hitting power lines 18 kilometers northwest of Xuan Loc. Company A secured the downed aircraft until the bodies of the crew and the aircraft were extracted.
+            </p>
+            <p>
+              During December 1970, one Bobcat died in Viet Nam. He was:
+            </p>
+            <ul>
+              <li>Robert J. Seufert</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -4455,124 +4709,174 @@ Randall L. Ellis; Francis W. Harter; and Ronald J. DiBartolomeo.
             <div class="oneMonth" data-section="jan">JANUARY</div>
             <p>
               On January 06, 1971, Company B located a small ammunition cache 14 kilometers north of Xuan Loc.
-         On January 11, 1971, at 1735 hours, Company B located a small food cache five kilometers north of Hung Loc at YT 328145. That evening at their night defensive perimeter, located two kilometers north of Hung Loc the company engaged an unknown size enemy force. The enemy fire was suppressed with organic weapons. One Bobcat was killed in the encounter.
-          Even at this late date the numbers game was still of importance to someone. One cooking pot was listed amongst the items that were “captured.”
-          On January 30, 1971, at 0923 hours, members of a patrol from Company C detonated a booby trapped hand grenade 3 kilometers northwest of Long Thanh. Eight Bobcats were wounded in the incident.
-          On January 31, 1971, the 2nd Brigade transferred all of its area of operations within Phuoc Tuy Province to the 1st Australian Task Force. Also a large portion of the operating area east of Xuan Loc was transferred to the 1st Cavelry Division (AM).
-         Also effective this date, replacements were no longer received by the 2nd Brigade.
-
-
-          During January 1971, one Bobcat died in Viet Nam. He was: Jose R. Sandoval.
             </p>
+            <p>
+              On January 11, 1971, at 1735 hours, Company B located a small food cache five kilometers north of Hung Loc at YT 328145. That evening at their night defensive perimeter, located two kilometers north of Hung Loc the company engaged an unknown size enemy force. The enemy fire was suppressed with organic weapons. One Bobcat was killed in the encounter.
+            </p>
+            <p>
+              Even at this late date the numbers game was still of importance to someone. One cooking pot was listed amongst the items that were “captured.”
+            </p>
+            <p>
+              On January 30, 1971, at 0923 hours, members of a patrol from Company C detonated a booby trapped hand grenade 3 kilometers northwest of Long Thanh. Eight Bobcats were wounded in the incident.
+            </p>
+            <p>
+              On January 31, 1971, the 2nd Brigade transferred all of its area of operations within Phuoc Tuy Province to the 1st Australian Task Force. Also a large portion of the operating area east of Xuan Loc was transferred to the 1st Cavelry Division (AM).
+            </p>
+            <p>
+              Also effective this date, replacements were no longer received by the 2nd Brigade.
+            </p>
+            <p>
+              During January 1971, one Bobcat died in Viet Nam. He was:
+            </p>
+            <ul>
+              <li>Jose R. Sandoval.</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="feb">FEBRUARY</div>
             <p>
               On February 01, 1971, a Bobcat from Headquarters Company died from what was termed non-hostile, accidental, self-destruction.
-         On February 05, 1971, at 1110 hours, in the vicinity of the old fire support base Henderson, elements of the 1/5th(M) located and evacuated a medium sized ammunition cache.
-        On February 06, 1971, one Bobcat from Company A was killed. He was riding high in the cupola of an APC when a105mm artillery round exploded in front of the APC. A fragment from the exploding shell penetrated his chest, killing him instantly.
-          On February 14, 1971, Company A located a small weapons cache 13 kilometers east of Black Horse at YS 565946.
-          On February 15, 1971, all 2nd Brigade requisitions, except 02 and Redball were cancelled.
-          On February 25, 1971, one Bobcat from Headquarters Company died from what was termed non-hostile, accidental, self-destruction.
-
-
-           During February 1971, three Bobcats died in Viet Nam. They were: Keith A. Stoddard; Frank J. Gasperich Jr.; and  David D. Peoples Jr.
             </p>
+            <p>
+              On February 05, 1971, at 1110 hours, in the vicinity of the old fire support base Henderson, elements of the 1/5th(M) located and evacuated a medium sized ammunition cache.
+            </p>
+            <p>
+              On February 06, 1971, one Bobcat from Company A was killed. He was riding high in the cupola of an APC when a105mm artillery round exploded in front of the APC. A fragment from the exploding shell penetrated his chest, killing him instantly.
+            </p>
+            <p>
+              On February 14, 1971, Company A located a small weapons cache 13 kilometers east of Black Horse at YS 565946.
+            </p>
+            <p>
+              On February 15, 1971, all 2nd Brigade requisitions, except 02 and Redball were cancelled.
+            </p>
+            <p>
+              On February 25, 1971, one Bobcat from Headquarters Company died from what was termed non-hostile, accidental, self-destruction.
+            </p>
+            <p>
+              During February 1971, three Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Keith A. Stoddard</li>
+              <li>Frank J. Gasperich Jr.</li>
+              <li>David D. Peoples Jr.</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="mar">MARCH</div>
             <p>
               On March 01, 1971, the 38th Scout Dog Platoon, the 66th Combat tracker Detachment, the 9th Chemical Detachment and the Warrior Training Academy commenced stand-down.
- Fire Support Base Barbara shut down.
-          On March 02, 1971, a Bobcat from Company A was killed when a booby trap was detonated.
-          On March 03, 1971, the 2nd Brigade further consolidated its area of operation by transferring the Nhon Trach area to Bien Hoa Province.
-          Fire Support Base Rivers shut down on this date also.
-          On March 05, 1971, Company F, 75th Infantry (RGR) commenced stand down.
-          On March 06, 1971, the 2nd Brigade forward command post returned to Camp Frenzell-Jones.
-          On March 09, 1971, Ogle Compound was transferred to the 18th ARVN Infantry Division.
-          On March 10, 1971, Fire Support Base Asper shut down operations.
-          On March 12, 1971, the 2/12th Infantry disengaged from active operations.
- The Husky Compound was turned over to the 52nd Regiment, 18th ARVN Infantry Division.
- Fire Support Base Heidi shut down operations.
-          On March 13, 1971, the 2nd Brigade was no longer responsible for reinforcement of Xuan Loc and Black Horse Base Camp.
-          The 2/12th Infantry and Battery C, 1/8th Artillery commenced stand down.
-         On March 15, 1971, a Bobcat from Company A died in hospital from fragmentation wounds he had received on an earlier date.
-          On March 20, 1971, the 584th Military Intelligence Detachment started stand-down.
-          On March 22, 1971, Fire Support Base Leopard was turned over to the 3rd Battalion, 1st Brigade, Royal Thai Army Volunteer Force.
-          On March 23, 1971, the 1/27th Infantry was disengaged from active operations and with Battery D, 1/8th Artillery, commenced stand-down.
- Fire Support Base Schwartz was turned over to Long Khanh Province.
-          On March 25, 1971, the 54th Engineer Company began stand-down.
-          On March 26, 1971, FSB Marisa and FSB Joan shut down operations.
-          On March 27, 1971, the 1st Battalion (M) 5th Infantry disengaged from combat operations and commenced stand-down.
-          On March 28, 1971, the 1/5th(M) held a battalion awards ceremony.
-
-
-          During March 1971, two Bobcats died in Viet Nam. They were:
- Byron A. Bangert and Phillip D. Monson.
             </p>
+            <p>
+              Fire Support Base Barbara shut down.
+            </p>
+            <p>
+              On March 02, 1971, a Bobcat from Company A was killed when a booby trap was detonated.
+            </p>
+            <p>
+              On March 03, 1971, the 2nd Brigade further consolidated its area of operation by transferring the Nhon Trach area to Bien Hoa Province.
+            </p>
+            <p>
+              Fire Support Base Rivers shut down on this date also.
+            </p>
+            <p>
+              On March 05, 1971, Company F, 75th Infantry (RGR) commenced stand down.
+            </p>
+            <p>
+              On March 06, 1971, the 2nd Brigade forward command post returned to Camp Frenzell-Jones.
+            </p>
+            <p>
+              On March 09, 1971, Ogle Compound was transferred to the 18th ARVN Infantry Division.
+            </p>
+            <p>
+              On March 10, 1971, Fire Support Base Asper shut down operations.
+            </p>
+            <p>
+              On March 12, 1971, the 2/12th Infantry disengaged from active operations.
+            </p>
+            <p>
+              The Husky Compound was turned over to the 52nd Regiment, 18th ARVN Infantry Division.
+            </p>
+            <p>
+              Fire Support Base Heidi shut down operations.
+            </p>
+            <p>
+              On March 13, 1971, the 2nd Brigade was no longer responsible for reinforcement of Xuan Loc and Black Horse Base Camp.
+            </p>
+            <p>
+              The 2/12th Infantry and Battery C, 1/8th Artillery commenced stand down.
+            </p>
+            <p>
+              On March 15, 1971, a Bobcat from Company A died in hospital from fragmentation wounds he had received on an earlier date.
+            </p>
+            <p>
+              On March 20, 1971, the 584th Military Intelligence Detachment started stand-down.
+            </p>
+            <p>
+              On March 22, 1971, Fire Support Base Leopard was turned over to the 3rd Battalion, 1st Brigade, Royal Thai Army Volunteer Force.
+            </p>
+            <p>
+              On March 23, 1971, the 1/27th Infantry was disengaged from active operations and with Battery D, 1/8th Artillery, commenced stand-down.
+            </p>
+            <p>
+              Fire Support Base Schwartz was turned over to Long Khanh Province.
+            </p>
+            <p>
+              On March 25, 1971, the 54th Engineer Company began stand-down.
+            </p>
+            <p>
+              On March 26, 1971, FSB Marisa and FSB Joan shut down operations.
+            </p>
+            <p>
+              On March 27, 1971, the 1st Battalion (M) 5th Infantry disengaged from combat operations and commenced stand-down.
+            </p>
+            <p>
+              On March 28, 1971, the 1/5th(M) held a battalion awards ceremony.
+            </p>
+            <p>
+              During March 1971, two Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Byron A. Bangert</li>
+              <li>Phillip D. Monson</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="apr">APRIL</div>
             <p>
               On April 05, 1971, at 1800 hours, at Camp Frenzell-Jones, the 1st Battalion (M), 5th Infantry ceased its operational mission requirement in Viet Nam.
- On April 12, 1971, the 2nd Brigade farewell ceremony was held.
- On April 30, 1971, the 2nd Brigade Color Guard departed Tan Son Nhut for Hawaii.
-
-           “Morale remained quite high throughout the stand down period. The major contributing factors were frequent shows, cook outs, sports activities and an increased number of movies. In addition, early shipment of excess personnel eliminated a large number of people who would have  otherwise had nothing to do.
-          The augmentation of the PX with additional items was a great benefit to all personnel. It provided the opportunity for personnel to purchase high quality items that had previously not been available.
-           The 2nd Brigade operated a Vung Tau Special R&R Center, which was excellent and achieved every goal it was created to accomplish.
-           Increased funding for bands and shows was a definite asset.”
-
-
-          During April 1971, no Bobcats died in Viet Nam. *
+            </p>
+            <p>
+              On April 12, 1971, the 2nd Brigade farewell ceremony was held.
+            </p>
+            <p>
+              On April 30, 1971, the 2nd Brigade Color Guard departed Tan Son Nhut for Hawaii.
+            </p>
+            <p>
+              “Morale remained quite high throughout the stand down period. The major contributing factors were frequent shows, cook outs, sports activities and an increased number of movies. In addition, early shipment of excess personnel eliminated a large number of people who would have  otherwise had nothing to do.
+            </p>
+            <p>
+              The augmentation of the PX with additional items was a great benefit to all personnel. It provided the opportunity for personnel to purchase high quality items that had previously not been available.
+            </p>
+            <p>
+              The 2nd Brigade operated a Vung Tau Special R&R Center, which was excellent and achieved every goal it was created to accomplish.
+            </p>
+            <p>
+              Increased funding for bands and shows was a definite asset.”
+            </p>
+            <p>
+              During April 1971, no Bobcats died in Viet Nam. *
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="may">MAY</div>
             <p>
-
+              No records were found regarding May.
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
               During June 1971, One Bobcat died of wounds received on December 28, 1969. He was Thomas Charles Littles
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="jul">JULY</div>
-            <p>
-
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="aug">AUGUST</div>
-            <p>
-
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="sep">SEPTEMBER</div>
-            <p>
-
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="oct">OCTOBER</div>
-            <p>
-
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="nov">NOVEMBER</div>
-            <p>
-
-            </p>
-          </div>
-          <div class="segmentWords">
-            <div class="oneMonth" data-section="dec">DECEMBER</div>
-            <p>
-
             </p>
           </div>
         </div>

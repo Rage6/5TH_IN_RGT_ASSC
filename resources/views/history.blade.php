@@ -435,8 +435,15 @@
                 <a href="{{ url('/history/vietnam-history/1968') }}">
                   <div>+ 1968</div>
                 </a>
-                <div>+ 1969</div>
-                <div>+ 1970</div>
+                <a href="{{ url('/history/vietnam-history/1969') }}">
+                  <div>+ 1969</div>
+                </a>
+                <a href="{{ url('/history/vietnam-history/1970') }}">
+                  <div>+ 1970</div>
+                </a>
+                <a href="{{ url('/history/vietnam-history/1971') }}">
+                  <div>+ 1971</div>
+                </a>
                 <div>+ Maps</div>
                 <div>+ Glossary</div>
               </div>

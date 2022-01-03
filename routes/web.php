@@ -95,6 +95,9 @@ Route::prefix('history')->group(function() {
     Route::get('1966','HistoryController@vietnam_1966');
     Route::get('1967','HistoryController@vietnam_1967');
     Route::get('1968','HistoryController@vietnam_1968');
+    Route::get('1969','HistoryController@vietnam_1969');
+    Route::get('1970','HistoryController@vietnam_1970');
+    Route::get('1971','HistoryController@vietnam_1971');
   });
   Route::prefix('album')->group(function() {
     Route::get('ww2','AlbumController@ww2');

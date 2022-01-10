@@ -128,6 +128,13 @@ class MemorialController extends Controller
           ->select('casualties.id AS cas_id','first_name','last_name','rank','place','injury_type','city','state','burial_site','middle_name','day_of_death','month_of_death','year_of_death','comments','moh_id','conflicts.name AS con_name','conflicts.id AS con_id','photo','unit','when_displayed','comments')
           ->where('casualties.id','=',$casualty_id)
           ->get();
+         // $casualty_links = DB::table('other_urls')
+         //  ->select('name','url')
+         //  ->where('casualty_id','=',$casualty_id)
+         //  ->get();
+         // $casualty_data_raw[0] = (array)$casualty_data_raw[0];
+         // $casualty_data_raw[0]['all_links'] = (array)$casualty_links;
+         // $casualty_data_raw[0] = (object)$casualty_data_raw[0];
          $casualty_data = $casualty_data_raw[0];
        } else {
          $casualty_data = null;

@@ -1290,7 +1290,7 @@
             <p>
               During January 1967, eighteen Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Danny C. Barnes</li>
               <li>Willy V. Quast</li>
               <li>David Young</li>
@@ -1308,6 +1308,17 @@
               <li>James B. Simmons</li>
               <li>John L. Wilhelm</li>
               <li>Richard L. Parham.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               For the Quarterly Reporting Period of November 1, 1966 to January 31, 1967, the 25th Infantry Division(-) reported the following statistics: KIA- 123; WIA- 1029; MIA- 0; NBD- 0; NBI- 33.
@@ -1420,8 +1431,22 @@
               On February 28, 1967, the battalion conducted S&D operations around and also provided security for the fire support base.
             </p>
             <p>
-              During February 1967, eleven Bobcats died in Viet Nam. They Were: Ervin L. Laird; Jackson Thomas; Paul T. Short Jr.; Marco J. Baruzzi; Raymond F. Demory; James E. Bostock; Joseph M. Brady; Henry R. Lopez; Jack M. Secrest Jr.; and Landon C. Ray.
+              During February 1967, eleven Bobcats died in Viet Nam. They Were:
             </p>
+            <!-- <p>
+              Ervin L. Laird; Jackson Thomas; Paul T. Short Jr.; Marco J. Baruzzi; Raymond F. Demory; James E. Bostock; Joseph M. Brady; Henry R. Lopez; Jack M. Secrest Jr.; and Landon C. Ray.
+            </p> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="oneMonth" data-section="mar">MARCH</div>
             <p>
               On March 01, 1967, the battalion conducted S&D operations to the north and east of FSB Foche, which was located approximately 18 kilometers southwest of Katum. At 0952 hours, an APC detonated an AT mine resulting in nine Bobcats being wounded and moderate damage to the APC. To the east, elements engaged an unknown number of VC, killing 2 and capturing 1. Five Bobcats were wounded in the exchange of fire.
@@ -1515,7 +1540,7 @@
             <p>
               During March 1967, ten Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Gerald J. Breen</li>
               <li>Jerry L. Borgens</li>
               <li>James P. Vadbunker</li>
@@ -1526,6 +1551,17 @@
               <li>Charles C. Dickey Jr.</li>
               <li>Gary F. Schuler</li>
               <li>John A.Todi</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="apr">APRIL</div>
             <p>
@@ -1588,7 +1624,7 @@
             <p>
               During April 1967, seven Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>James K. Lindsey</li>
               <li>James P. English</li>
               <li>Stephen L. Colopy</li>
@@ -1596,6 +1632,17 @@
               <li>Gary L. Doose</li>
               <li>Rom Worley</li>
               <li>Gene D. Smith</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               For the Quarterly Reporting Period of  February 01, 1967 thru April 30, 1967 the 25th Infantry Division(-) reported the following: KIA- 116; WIA- 1,239; MIA- 0; NBD- 8; NBI- 46.
@@ -1676,8 +1723,22 @@
               </ul>
             </div>
             <p>
-              During May 1967, fourteen Bobcats died in Viet Nam. They were:  James H. Flickinger; Chester G. Jordan; Glendell Morgan; Lee H. Russ; Thomas A. Brynelsen; John S. Cartwright; Ralph W. Crytzer Jr.; Jack R. Lenner; James N. Law; William E. McGinnis II; Daniel M. Kasten; Ronny L. Palmer; Mack E. Gregory;  and David A. Haraldson.
+              During May 1967, fourteen Bobcats died in Viet Nam. They were:
             </p>
+            <!-- <p>
+              James H. Flickinger; Chester G. Jordan; Glendell Morgan; Lee H. Russ; Thomas A. Brynelsen; John S. Cartwright; Ralph W. Crytzer Jr.; Jack R. Lenner; James N. Law; William E. McGinnis II; Daniel M. Kasten; Ronny L. Palmer; Mack E. Gregory;  and David A. Haraldson.
+            </p> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
               From June 01, 1967 to June 06, 1967, the battalion continued a variety of operations in the Bao Trai, Duc Hoa and Cu Chi areas.
@@ -1716,8 +1777,22 @@
               From June 21, 1967 to June 30, 1967, the battalion continued operations in the area of Bao Trai and FSB Nickel. The units of the battalion conducted combined operations with various elements of the Army of the Republic of Viet Nam. On June 24, there was a ceremony celebrating the reopening of Highway10 between Duc Hoa and Bao Trai. On the 29th of June units of the battalion conducted “Eagle Flights” to four landing zones east of Bao Trai with negative enemy contact.
             </p>
             <p>
-              During June 1967, Eight Bobcats died in Viet Nam. They were: Everdene Baker Jr.; Harris V. Davis; William L. Evans; Rex A. LaDuke;  Luis E. Milan-Anavitarte; Kenneth P. Newton; Robert L. Holland;  and Joseph H. Urmann.
+              During June 1967, Eight Bobcats died in Viet Nam. They were:
             </p>
+            <!-- <p>
+              Everdene Baker Jr.; Harris V. Davis; William L. Evans; Rex A. LaDuke;  Luis E. Milan-Anavitarte; Kenneth P. Newton; Robert L. Holland;  and Joseph H. Urmann.
+            </p> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 6)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="oneMonth" data-section="jul">JULY</div>
             <p>
               From July 01, 1967 to July 09, 1967, the battalion concentrated its operations to the southeast of Bao Trai. Numerous combined operations were conducted with elements of the ARVN 49th Infantry. Airmobile combat assaults were made with no enemy contact, however, enemy fortifications were located and destroyed.
@@ -1761,8 +1836,19 @@
             <p>
               During July 1967, one Bobcat died in Viet Nam. He was:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Guillermo Munoz</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 7)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               For the Quarterly Period of May 01, 1967 to July 31, 1967 the 25th Infantry Division reported the following: KIA: 123;   WIA: 1331;   MIA: 0;   DOW: 15;   NBD: 8;   NBI: 93.
@@ -1904,8 +1990,22 @@
               Ambushes along the Oriental River were very successful. Besides mounting 106mm Recoilless Rifles on one APC in each platoon, 90mm Recoilless Rifles, were used on the ambushes. The men used “short rounds, making for one big shotgun. They would blow a sampan plum out of the water.”
             </p>
             <p>
-              During September 1967, four Bobcats died in Viet Nam. They were: Evaristo Sandoval; Harold J. Canan; Michael A. Roberts; and William E. Swensgard.
+              During September 1967, four Bobcats died in Viet Nam. They were:
             </p>
+            <!-- <p>
+              Evaristo Sandoval; Harold J. Canan; Michael A. Roberts; and William E. Swensgard.
+            </p> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 9)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="oneMonth" data-section="oct">OCTOBER</div>
             <p>
               From October 01, 1967 to October 07, 1967, the 1st Battalion(M) 5th Infantry remained at Cu Chi Base Camp conducting maintenance on vehicles and equipment.
@@ -1967,7 +2067,7 @@
             <p>
               During October 1967, seven Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Frank A. Price III</li>
               <li>Junior R. Burns</li>
               <li>Gary P. Polley</li>
@@ -1975,6 +2075,17 @@
               <li>Gregory G. Hubbard</li>
               <li>John C. Steer</li>
               <li>Robert W. Larison</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 10)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="nov">NOVEMBER</div>
             <p>
@@ -2023,8 +2134,26 @@
               On November 30, 1967, the battalion(-) remained at Cu Chi. Company C remained OPCON to the 1st Brigade. Company B assigned one platoon to secure an engineer ferry crossing site.
             </p>
             <p>
-              During November 1967, five Bobcats died in Viet Nam. They were: Robert W. Larison; Anderson Turner; Lorinzer P. Clark Jr; Jimmie L. McMorris; and Otis T. Smith.
+              During November 1967, five Bobcats died in Viet Nam. They were:
             </p>
+            <!-- <p>
+              Robert W. Larison;
+              Anderson Turner;
+              Lorinzer P. Clark Jr;
+              Jimmie L. McMorris;
+              Otis T. Smith.
+            </p> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 11)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="oneMonth" data-section="dec">DECEMBER</div>
             <p>
               On December 01, 1967, the 1/5th(M) went OPCON to the 1st Brigade, 25th Infantry Division and ended their participation in Operation Kolekole.
@@ -2060,12 +2189,23 @@
             <p>
               During December 1967, five Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Gene F. Lee</li>
               <li>Michael T. Collins</li>
               <li>Edward A. Finlay</li>
               <li>James Y. Hidalgo</li>
               <li>Kenneth D. Kralick</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 12)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentLinks">
@@ -2225,7 +2365,7 @@
             <p>
               During January 1968, 12 Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Harry B. Bartholomew</li>
               <li>James L. Scherer</li>
               <li>Paul R. Striepe</li>
@@ -2238,6 +2378,17 @@
               <li>Charles E. Davis</li>
               <li>Michael P. Halpin</li>
               <li>Jack J. Kupferer</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               For the Quarterly Period ending January 31, 1968 the 25th Infantry Division reported the following:
@@ -2412,7 +2563,7 @@
             <p>
               During February 1968, 16 Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Jose J. Santiago</li>
               <li>David G. Isbell</li>
               <li>David E. Keister</li>
@@ -2429,6 +2580,17 @@
               <li>Patricio Maldonado</li>
               <li>Frederick L. Martin</li>
               <li>Edgar C. Spence</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               The weaponary of enemy forces, both local and main force, consisted of light and medium equipment. AK-47 Rifles, light machine guns, RPG-2 and RPG-7 launchers and mortars were his primary weapons. Support units were equipped with .51 caliber machine guns and a limited amount of 107 and 122 mm rockets. Mines and booby traps were also deployed and accounted for the majority of casualties.
@@ -2579,7 +2741,8 @@
             </p>
             <p>
               During March 1968, fourteen Bobcats died in Viet Nam. They were:
-            <ul>
+            </p>
+            <!-- <ul>
               <li>Charles G. Rehberger</li>
               <li>John L. Haines</li>
               <li>Anthony Patrizi</li>
@@ -2594,6 +2757,17 @@
               <li>Edward A. Lionetta</li>
               <li>David R. Young Jr.</li>
               <li>Paul A. Young</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -2708,8 +2882,20 @@
             </p>
             <p>
               During April 1968, one Bobcat died in Viet Nam. He was:
-            <ul>
+            </p>
+            <!-- <ul>
               <li>James E. Young</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               The 25th Infantry Division reported the following losses for the Quarterly Period of February 01, 1968 to April 30, 1968: KIA: 520;  WIA: 1,641;  MIA: 0;  NBD: 18;  NBI: 34.
@@ -2868,7 +3054,7 @@
             <p>
               During May 1968, twenty-eight Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>David A. Stremler</li>
               <li>James D. Molpus</li>
               <li>Charles H. Turner Jr.</li>
@@ -2898,6 +3084,17 @@
               <li>Joe R. Hines</li>
               <li>Timothy McKee Hamilton</li>
               <li>James V. Antolini</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -3124,7 +3321,7 @@
             <p>
               During August 1968, thirty-two Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Charles R. Crim</li>
               <li>Marshall D. Wolford</li>
               <li>Paul L. Sullivan</li>
@@ -3163,6 +3360,17 @@
             </p>
             <ul>
               <li>Humberto Acosta-Rosario</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 8)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -3257,7 +3465,7 @@
             <p>
               During September 1968, ten Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Richard A. Akin Jr.</li>
               <li>Albert L. Lazzarotto</li>
               <li>Akos D. Szekely</li>
@@ -3268,6 +3476,17 @@
               <li>Colombo P. Del Terzo</li>
               <li>Ronald W. Zydel</li>
               <li>Arnold B. Wimberly</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 9)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -3329,11 +3548,22 @@
             <p>
               During October 1968 four Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Allen P. Broekhuizen</li>
               <li>Paul E. McGinness</li>
               <li>Raymond M. Tanner</li>
               <li>Clarence R. Chaffin</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 10)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               During the Quarterly Period of August 01 thru October 31, 1968, the 25th Infantry Division reported the following personnel statistics:
@@ -3458,7 +3688,7 @@
             <p>
               During November 1968 eleven Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>David W. Brooks</li>
               <li>James R. Springer</li>
               <li>David A. Bradshaw</li>
@@ -3470,6 +3700,17 @@
               <li>Johnnie R. Godwin Jr.</li>
               <li>Richard A. Weaver</li>
               <li>Hurston E. Worrell</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 11)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -3600,7 +3841,7 @@
             <p>
               During December 1968, twenty-one Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Curtis R. Crum</li>
               <li>Joseph R. Thornton</li>
               <li>Robert P. English</li>
@@ -3620,6 +3861,17 @@
               <li>Dan M. James</li>
               <li>Joseph E. Strawbridge</li>
               <li>THREE whose names are unknown to us writing this report</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 12)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
         </div>

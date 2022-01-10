@@ -63,6 +63,10 @@ class HistoryController extends Controller
 
     public function vietnam_1966()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1966)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -72,12 +76,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => $year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1966_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => $year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1966_content'
@@ -87,6 +93,10 @@ class HistoryController extends Controller
 
     public function vietnam_1967()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1967)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -96,12 +106,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => $year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1967_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => $year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1967_content'
@@ -111,6 +123,10 @@ class HistoryController extends Controller
 
     public function vietnam_1968()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1968)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -120,12 +136,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => $year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1968_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => $year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1968_content'
@@ -135,6 +153,10 @@ class HistoryController extends Controller
 
     public function vietnam_1969()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1969)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -144,12 +166,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => $year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1969_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => $year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1969_content'
@@ -159,6 +183,10 @@ class HistoryController extends Controller
 
     public function vietnam_1970()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1970)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -168,12 +196,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => $year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1970_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => $year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1970_content'
@@ -183,6 +213,10 @@ class HistoryController extends Controller
 
     public function vietnam_1971()
     {
+      $year_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','middle_name','last_name','month_of_death')
+        ->where('year_of_death',1971)
+        ->get();
       if (Auth::user()) {
          $unread_count = DB::table('messages')
            ->where([
@@ -192,12 +226,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties'=>$year_casualties,
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_1971_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties'=>$year_casualties,
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_1971_content'

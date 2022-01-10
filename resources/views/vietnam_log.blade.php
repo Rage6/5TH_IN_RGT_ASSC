@@ -3743,13 +3743,24 @@
             <p>
               During January 1969, 6 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Anthony L. Lema</li>
               <li>David M. Williams</li>
               <li>Richard Adiutori</li>
               <li>Roger L. Langford</li>
               <li>James L. Miller</li>
               <li>William D. Murray Jr.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -3883,7 +3894,7 @@
             <p>
               During February 1969, 19 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Lee E. Burnor</li>
               <li>Steven M. Britton</li>
               <li>Harold R. Richardson</li>
@@ -3903,6 +3914,17 @@
               <li>Ralph E. Nathan</li>
               <li>William S. Potter</li>
               <li>ONE whose name is unknown to us writing this report.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4048,7 +4070,7 @@
             <p>
               During March 1969, 22 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Mounce E. West</li>
               <li>Joseph A. Goodson</li>
               <li>Robert L. Sloan</li>
@@ -4071,6 +4093,17 @@
               <li>Stephen H. Doane</li>
               <li>Norman C. Smoots</li>
               <li>ONE whose name is unknown to us writing this report.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4165,7 +4198,7 @@
             <p>
               During April 1969, X Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Charles L. Hathorn Jr.</li>
               <li>Stanley E. Mc Creary</li>
               <li>Wayne Y. Stewart</li>
@@ -4177,6 +4210,17 @@
               <li>Robert C. King</li>
               <li>David Lee</li>
               <li>Richard A. Oman</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4229,11 +4273,22 @@
             <p>
               During May 1969, 4 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>James D. Blasko</li>
               <li>Ronald A. Hill</li>
               <li>Stephen W. DeAro</li>
               <li>Charles E. McMillion</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4289,7 +4344,7 @@
             <p>
               During June 1969, 10 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Charles M. Ramsey</li>
               <li>Robert E. Langston</li>
               <li>Patrick E. Poppenga</li>
@@ -4300,6 +4355,17 @@
               <li>William C. Dabbert</li>
               <li>Steven L. McGinnis</li>
               <li>Charles M. Kiniyalocts</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 6)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4355,10 +4421,21 @@
             <p>
               During July 1969, 3 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Thomas J. Lyons</li>
               <li>Jesse Uptigrove</li>
               <li>Paul E. Fabrisi</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 7)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4396,11 +4473,22 @@
             <p>
               During August 1969, 4 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Richard M. Wise</li>
               <li>Richard D. Laxson</li>
               <li>Ronald W. Panno</li>
               <li>Thomas M. Ralston</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 8)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4429,10 +4517,21 @@
             <p>
               During September 1969, 3 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Albert L. Belanger</li>
               <li>James D. Darwin</li>
               <li>James Jennings Jr.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 9)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4488,11 +4587,22 @@
             <p>
               During November 1969, 4 Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Franklin T. James</li>
               <li>David S. Kline</li>
               <li>Stanley Joseph Egan</li>
               <li>Keith Colwell</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 11)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4539,9 +4649,20 @@
             <p>
               During December 1969, two Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Joe B. Ojeda</li>
               <li>Billy B. Leyerle</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 12)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
         </div>
@@ -4619,8 +4740,19 @@
             <p>
               During January 1970, one Bobcat died in Viet Nam. He was:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Raymond A. White III</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               The 25th Infantry Division reported the following for the Quarterly Reporting Period of  November 01, 1969 thru January 31, 1970:
@@ -4661,7 +4793,7 @@
             <p>
               During February 1970, nine Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
              <li>Robert J. Dupell</li>
              <li>Erick O. Olson</li>
              <li>Charles R. Baggett</li>
@@ -4671,6 +4803,17 @@
              <li>Robert E. Guthrie</li>
              <li>Billy J. Roberts</li>
              <li>Douglas M. Woodward</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4687,11 +4830,22 @@
             <p>
               During March 1970, four Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
              <li>John M. Chappey</li>
              <li>Roger L. Coffman</li>
              <li>Rodney G. Helsel</li>
              <li>Olaf T. Olsen</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4729,7 +4883,7 @@
             <p>
               During April 1970, seven Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Nick A. Aguilar Jr.</li>
               <li>Charles A. Pursell</li>
               <li>Kevin A. Stout</li>
@@ -4737,6 +4891,17 @@
               <li>Gary D. Jefferson</li>
               <li>Lee A. Stedman</li>
               <li>Harry C. Greer</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               Map 23   Base Area 354 in Cambodia.
@@ -4876,7 +5041,7 @@
             <p>
               During May 1970, twenty-one Bobcats died in Cambodia or Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>John E. Dayton</li>
               <li>Michael J. Orwig</li>
               <li>Raymond M. Morris</li>
@@ -4896,6 +5061,17 @@
               <li>Craig Rathbun</li>
               <li>Kenneth S. Vore</li>
               <li>Jerry Roy Marco</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4918,7 +5094,7 @@
             <p>
               During June 1970, seven Bobcats died in Viet Nam or Cambodia. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Alan G. Demorow</li>
               <li>Stephen C. Foht</li>
               <li>Richard E. Rutherford</li>
@@ -4926,6 +5102,17 @@
               <li>Franklin J. Krantz Jr.</li>
               <li>Preston H. Ellis</li>
               <li>Larry W. Anderson</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 6)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4969,10 +5156,21 @@
             <p>
               During August 1970, three Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Everett E. Wells Jr.</li>
               <li>James H. Heppler</li>
               <li>Charles P. Hutton</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 8)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -4989,8 +5187,19 @@
             <p>
               During September 1970, one Bobcat died in Viet Nam. He was:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Dean W. Hardman</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 9)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -5058,10 +5267,21 @@
             <p>
               During November 1970, three Bobcats died in Vietnam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Randall L. Ellis</li>
               <li>Francis W. Harter</li>
               <li>Ronald J. DiBartolomeo</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 11)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -5108,8 +5328,19 @@
             <p>
               During December 1970, one Bobcat died in Viet Nam. He was:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Robert J. Seufert</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 12)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
         </div>
@@ -5175,8 +5406,19 @@
             <p>
               During January 1971, one Bobcat died in Viet Nam. He was:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Jose R. Sandoval.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -5202,10 +5444,21 @@
             <p>
               During February 1971, three Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Keith A. Stoddard</li>
               <li>Frank J. Gasperich Jr.</li>
               <li>David D. Peoples Jr.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -5282,9 +5535,20 @@
             <p>
               During March 1971, two Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Byron A. Bangert</li>
               <li>Phillip D. Monson</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
           <div class="segmentWords">
@@ -5313,18 +5577,51 @@
             <p>
               During April 1971, no Bobcats died in Viet Nam. *
             </p>
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="may">MAY</div>
             <p>
               No records were found regarding May.
             </p>
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
               During June 1971, One Bobcat died of wounds received on December 28, 1969. He was Thomas Charles Littles
             </p>
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 6)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
           </div>
         </div>
       </div>

@@ -218,9 +218,20 @@
             <p>
               During January 1966, two Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Armando Tesillo</li>
               <li>Dan R Shearin</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 1)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               They were the second and third Bobcats to die in Vietnam. The first was Jerry W. Osborn who was killed on April 1, 1965 while TDY from the 1st Bn(M) 5th Infantry as a helicopter door gunner.
@@ -297,7 +308,7 @@
             <p>
               During February 1966, Fourteen Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Safford S. Pye</li>
               <li>Robert O. Cantrell</li>
               <li>William A Hoos Jr.</li>
@@ -315,6 +326,17 @@
               <li>Dwight Alley</li>
               <li>Donald Edward Daniels</li>
               <li>Walter Norris Ammons</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 2)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="vietnamLogLinkBox">
               <ul>
@@ -376,9 +398,20 @@
             <p>
               During March 1966 , two Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>George E. Snodgrass</li>
               <li>Daniel G. Stands Jr.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 3)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               A major malfunction of the M-16 Rifle started to appear amongst soldiers in Viet Nam. The rifle would fire, but the extractor would be unable to remove the spent cartridge from the chamber of the rifle. A rod would then have to be inserted down the barrel and the spent cartridge would have to be “punched” out of the chamber. Initially, it was related that the soldiers were not clearning their weapons properly and this was the cause of the jamming.
@@ -482,34 +515,45 @@
             </p>
             <p>
               During April 1966, 24 Bobcats died in Viet Nam. They were:
-              <ul>
-                <li>Jesse J. Coffey</li>
-                <li>Curtis E. Dorris</li>
-                <li>George S. Franklin</li>
-                <li>Keith L. Shipp</li>
-                <li>Lester J. Thornell</li>
-                <li>Jimmy B. Taylor</li>
-                <li>Larry J. Nichols</li>
-                <li>Hamp J. Sykes Jr.</li>
-                <li>Johnny B. Boston</li>
-                <li>Roger D. Jarrell</li>
-                <li>Arthur C. Morris Jr.</li>
-                <li>Steven M. Smith</li>
-                <li>Donald R. Brown</li>
-                <li>Green Conley</li>
-                <li>Frank A. D’Amico</li>
-                <li>Clinton B. Fackrell</li>
-                <li>Phillips LaMarr</li>
-                <li>James R. Taylor</li>
-                <li>Lewis M. Thomas</li>
-                <li>Howard E. Rothring Jr.</li>
-                <li>Francisco Correa-Morales</li>
-                <li>John P. Isaacs</li>
-                <li>Walter J. Type</li>
-                <li>Donald Ray Johnson</li>
-                <li>John Parnella</li>
-              </ul>
             </p>
+            <!-- <ul>
+              <li>Jesse J. Coffey</li>
+              <li>Curtis E. Dorris</li>
+              <li>George S. Franklin</li>
+              <li>Keith L. Shipp</li>
+              <li>Lester J. Thornell</li>
+              <li>Jimmy B. Taylor</li>
+              <li>Larry J. Nichols</li>
+              <li>Hamp J. Sykes Jr.</li>
+              <li>Johnny B. Boston</li>
+              <li>Roger D. Jarrell</li>
+              <li>Arthur C. Morris Jr.</li>
+              <li>Steven M. Smith</li>
+              <li>Donald R. Brown</li>
+              <li>Green Conley</li>
+              <li>Frank A. D’Amico</li>
+              <li>Clinton B. Fackrell</li>
+              <li>Phillips LaMarr</li>
+              <li>James R. Taylor</li>
+              <li>Lewis M. Thomas</li>
+              <li>Howard E. Rothring Jr.</li>
+              <li>Francisco Correa-Morales</li>
+              <li>John P. Isaacs</li>
+              <li>Walter J. Type</li>
+              <li>Donald Ray Johnson</li>
+              <li>John Parnella</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 4)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
+            </ul>
             <div class="vietnamLogLinkBox">
               <ul>
                 <li>Map 7: Trang Bang and Go Dau Ha.</li>
@@ -565,7 +609,7 @@
             <p>
               During May 1966, Eight Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>James E. Johnson</li>
               <li>Hermando S. Moya</li>
               <li>Ismael Lebron-Lopez</li>
@@ -574,6 +618,17 @@
               <li>Frederick C. Bullington</li>
               <li>Jesus Lopez Ramos Jr.</li>
               <li>Pekka Trunkhahn</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 5)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
@@ -632,7 +687,7 @@
             <p>
               During June 1966, 12 Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Jimmy L. Scott</li>
               <li>Elton O. Harris</li>
               <li>Garry L. Burgess</li>
@@ -645,6 +700,17 @@
               <li>Rickey D. Castleman</li>
               <li>Clarence Gene Forman</li>
               <li>Arnoldo J. Cardenas.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 6)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="jul">JULY</div>
             <p>
@@ -765,7 +831,7 @@
             <p>
               During July 1966, eight Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>David L. Berry</li>
               <li>James X. Gilch</li>
               <li>Richard D. Gill Jr.</li>
@@ -774,6 +840,17 @@
               <li>Wilberto C. Sanchez</li>
               <li>Larry Van Clief</li>
               <li>Charlie Gray</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 7)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="aug">AUGUST</div>
             <p>
@@ -829,13 +906,24 @@
             <p>
               During August 1966, six Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Robbin A. Goodwin</li>
               <li>Rodney W. Casselman</li>
               <li>Joe L. Hill</li>
               <li>Richard J. Willett</li>
               <li>Steve W. Harris</li>
               <li>Robert A. Schmid</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 8)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="sep">SEPTEMBER</div>
             <p>
@@ -925,7 +1013,7 @@
             <p>
               During September 1966, seventeen Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Earl E. Irving Jr.</li>
               <li>Rolando L. Soliz</li>
               <li>Billy J. Dailey</li>
@@ -943,6 +1031,17 @@
               <li>Ralph G. Till</li>
               <li>Terry L. Snyder</li>
               <li>ONE whose name is unknown to us writing this report.</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 9)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <p>
               "Higher temperatures and less thunderstorm activity can be expected in October as the autumn season sets in in the Cu Chi and Tay Ninh area. October marks the transition between the wet and the dry season. Temperatures during this period at Tay Ninh will increase to an average high of 90 degrees and a low of 75 degrees. Cu Chi temperatures will be slightly cooler. Warm moist air from the southwest will be replaced by the relatively cooler, drier air of the northeast monsoon."
@@ -1042,12 +1141,23 @@
             <p>
               During the month of October 1966, five Bobcats died in Viet nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>George W. Alexander Jr.</li>
               <li>Gerald J. Collier</li>
               <li>John C. Ardis</li>
               <li>Thomas William London</li>
               <li>Jimmy Doyle Phipps</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 10)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="nov">NOVEMBER</div>
             <p>
@@ -1100,10 +1210,21 @@
             <p>
               During November 1966, three Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Riccardo B. Dickerson</li>
               <li>Milburn H. Starnes</li>
               <li>Dock J. Pinion</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 11)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
             <div class="oneMonth" data-section="dec">DECEMBER</div>
             <p>
@@ -1175,11 +1296,22 @@
             <p>
               During December 1966, four Bobcats died in Viet Nam. They were:
             </p>
-            <ul>
+            <!-- <ul>
               <li>Melvin L. Sherrell</li>
               <li>Dennis F. Delasandro</li>
               <li>William L. McLaughlin</li>
               <li>One whose name is unknown to us who are writing this report</li>
+            </ul> -->
+            <ul>
+              @foreach ($year_casualties as $one_casualty)
+                @if ($one_casualty->month_of_death == 12)
+                  <a href="{{ URL::to('/memorials/casualties?id='.$one_casualty->id.'&selected=yes') }}">
+                    <li>
+                      {{ $one_casualty->rank }} {{ $one_casualty->first_name }} {{ $one_casualty->last_name }}
+                    </li>
+                  </a>
+                @endif
+              @endforeach
             </ul>
           </div>
         </div>

@@ -3684,384 +3684,815 @@
             <div class="oneMonth" data-section="jan">JANUARY</div>
             <p>
               On January 03, 1969, At 0925 hours, Company B received enemy small arms fire on Highway 7A about one kilometer north of the junction of Highway 1. The fire was returned with unknown results. One Bobcat was wounded in the exchange.
-          At 1125 hours, an APC from the Recon Platoon detonated an AT mine just north of the area of Company B’s earlier contact. The APC was a combat loss.
-          Company C was assigned to provide security for Rome Plow operations northeast of Trang Bang. At 1555 hours a Rome Plow detonated an AT mine at XT 504216.
-          On January 06, 1969, Company A conducted an S&D operation northeast of Trang Bang. At 1600 hours, a small ammunition cache was located. At 1615 hours, an APC from Company A detonated an AT mine in the same area. At 1830 hours, an ambush patrol from Company A engaged an unknown number of VC, northwest of the cache site at XT 517207. One body of an enemy soldier was located in a later search of the area.
-          On January 07, 1969, Company B was conducting a RIF on the north side of Highway 1, about 1 kilometer northwest of the junction of highway 7A.  At 1025 hours, one Bobcat from the company was wounded when a booby trapped hand grenade was tripped and detonated at XT 551177.
-          At 2130 hours, an ambush patrol from Company A engaged an unknown number of  VC about 3 kilometers northeast of Trang Bang at XT 510210. The body of one enemy soldier with his weapon was found after the contact.
-          On January 09, 1969, Company B was securing Rome Plow operations one kilometer southwest of Trung Lap. At 1000 hours, an APC from Company B detonated an AT mine. One Bobcat was wounded and the APC was a combat loss. At 1030 hours, another APC from Company B detonated an AT mine in the same general area. At 1330 hours, the company received a barrage of eight 60mm mortar rounds. One Bobcat was wounded. Fire was returned with unknown results. At 1400 hours, a Rome Plow was damaged when it detonated an AT mine. At 1430 hours, members of the company engaged and killed one VC.
-         On January 10, 1969, Company A was conducting an S&D operation northwest of the junction of Highways 1 and 7A.  At  1400 hours, one Bobcat from the company was wounded when a booby trapped hand grenade exploded at XT 559184. At 1538 hours, as the company was sweeping west, it came under small arms fire. The fire was returned with unknown results. Two Bobcats were wounded in the contact.
-         On January 11, 1969, an ambush patrol from Company C engaged an unknown number of VC shortly after midnight, along Highway 7A, 1 kilometer north of Highway 1. In a search of the area after the contact the bodies of four enemy soldiers were found along with weapons and equipment. One wounded VC soldier was captured.
-         At 1120 hours, the Scout Platoon requested a Dust-off for two injured Bobcats. The pair was wounded as they began to search a tunnel and a booby trap exploded just inside the tunnel. Both men died of their injuries later in the day.
-         On January 12, 1969, Company A’s night perimeter located just north of the junction of Highways 7A and 1 at XT 567173, received 16 rounds of 60mm mortar fire. The fire was returned with unknown results. One Bobcat was wounded in the incident.
-         On January 14, 1969, at 1755 hours, an APC from Company B detonated an AT mine on Highway 7A, one kilometer north of the Highway 1 junction. The APC was turned over by the force of the blast. One Bobcat from Company B was killed and four were wounded.
-         On January 17, 1969, at 1113 hours, a Bobcat from Company B detonated a hand grenade that was rigged with a trip wire and instantaneous fuse at XT 548192. He died within a few minutes of the blast. This incident occurred as the company was sweeping the area southwest of Trung Lap.
-         On January 18, 1969, at 0845 hours, an APC from Company C detonated an AT mine 2 kilometers northwest of Thai My at XT 513165. The vehicle was a combat loss.
-         At 1140 hours, another APC from Company C detonated an AT mine along Highway 7A, 2 kilometers north of the Highway 1 junction.
-         On January 21, 1969, Company B was assigned to sweep and clear Highway 7A from north of Trung Lap to the junction of Highway 1. At 0745 hours, the sweep was delayed until the fog lifted. The sweep was resumed and at 0806 hours, a 30 pound AT mine was located and destroyed. At 0837 hours, Company B reported that while moving through Trung Lap one vehicle hit and killed a pig. At 0939 hours, an APC from Company B detonated an AT mine on Highway 7A, one kilometer north of Highway 1 at XT 572178. The blast flipped the track over pinning one Bobcat underneath, killing him. Another Bobcat was wounded.
-         On January 26, 1969, at 0852 hours, a Bobcat from a flame track assigned to Company C stepped on and detonated a 30 pound AT mine. He was killed instantly and another Bobcat suffered busted eardrums from the blast. The incident occurred ½ kilometer northwest of Trung Lap at XT 585223. Two booby trapped hand grenades were located within 30 meters of the mine and were destroyed in place.
-
-          During January 1969, six Bobcats died in Viet Nam. They were: Anthony L. Lema; David M. Williams; Richard Adiutori; Roger L. Langford; James L. Miller; and William D. Murray Jr.
-
-
-          The 25th Infantry Division reported the following personnel losses for the quarterly period of November 01, 1968 to January 31, 1969:
-          KIA: 236;   WIA: 3,955 (669 evacuated);  MIA: 0.
-
-          “Under the direction of the commanding general all available chain link fence was issued to mechanized units of the division. The use of chain link fencing has long been recognized as a means of reducing the effectiveness of RPG rounds in the protection of friendly bunkers, however little attention has been given to tracked vehicles. It has been found that this material can also be carried in tracked vehicles, easily installed, and provides similar effectiveness in reducing damage. One 50 foot roll of fence, divided into two equal lengths, seven eight foot pickets and communications wire is all that is required to construct a “car port.” The two sections of fence and pickets can be carried without difficulty and can be installed within ten minutes. Sufficient chain link fence to insure one roll per tracked vehicle and artillery piece with a 10% stockage for replacement was made available immediately.”
             </p>
             <p>
-              During January 1969, X Bobcats died in Vietnam. They were:
+              At 1125 hours, an APC from the Recon Platoon detonated an AT mine just north of the area of Company B’s earlier contact. The APC was a combat loss.
+            </p>
+            <p>
+              Company C was assigned to provide security for Rome Plow operations northeast of Trang Bang. At 1555 hours a Rome Plow detonated an AT mine at XT 504216.
+            </p>
+            <p>
+              On January 06, 1969, Company A conducted an S&D operation northeast of Trang Bang. At 1600 hours, a small ammunition cache was located. At 1615 hours, an APC from Company A detonated an AT mine in the same area. At 1830 hours, an ambush patrol from Company A engaged an unknown number of VC, northwest of the cache site at XT 517207. One body of an enemy soldier was located in a later search of the area.
+              On January 07, 1969, Company B was conducting a RIF on the north side of Highway 1, about 1 kilometer northwest of the junction of highway 7A.  At 1025 hours, one Bobcat from the company was wounded when a booby trapped hand grenade was tripped and detonated at XT 551177.
+            </p>
+            <p>
+              At 2130 hours, an ambush patrol from Company A engaged an unknown number of  VC about 3 kilometers northeast of Trang Bang at XT 510210. The body of one enemy soldier with his weapon was found after the contact.
+            </p>
+            <p>
+              On January 09, 1969, Company B was securing Rome Plow operations one kilometer southwest of Trung Lap. At 1000 hours, an APC from Company B detonated an AT mine. One Bobcat was wounded and the APC was a combat loss. At 1030 hours, another APC from Company B detonated an AT mine in the same general area. At 1330 hours, the company received a barrage of eight 60mm mortar rounds. One Bobcat was wounded. Fire was returned with unknown results. At 1400 hours, a Rome Plow was damaged when it detonated an AT mine. At 1430 hours, members of the company engaged and killed one VC.
+            </p>
+            <p>
+              On January 10, 1969, Company A was conducting an S&D operation northwest of the junction of Highways 1 and 7A.  At  1400 hours, one Bobcat from the company was wounded when a booby trapped hand grenade exploded at XT 559184. At 1538 hours, as the company was sweeping west, it came under small arms fire. The fire was returned with unknown results. Two Bobcats were wounded in the contact.
+            </p>
+            <p>
+              On January 11, 1969, an ambush patrol from Company C engaged an unknown number of VC shortly after midnight, along Highway 7A, 1 kilometer north of Highway 1. In a search of the area after the contact the bodies of four enemy soldiers were found along with weapons and equipment. One wounded VC soldier was captured.
+            </p>
+            <p>
+              At 1120 hours, the Scout Platoon requested a Dust-off for two injured Bobcats. The pair was wounded as they began to search a tunnel and a booby trap exploded just inside the tunnel. Both men died of their injuries later in the day.
+            </p>
+            <p>
+              On January 12, 1969, Company A’s night perimeter located just north of the junction of Highways 7A and 1 at XT 567173, received 16 rounds of 60mm mortar fire. The fire was returned with unknown results. One Bobcat was wounded in the incident.
+            </p>
+            <p>
+              On January 14, 1969, at 1755 hours, an APC from Company B detonated an AT mine on Highway 7A, one kilometer north of the Highway 1 junction. The APC was turned over by the force of the blast. One Bobcat from Company B was killed and four were wounded.
+            </p>
+            <p>
+              On January 17, 1969, at 1113 hours, a Bobcat from Company B detonated a hand grenade that was rigged with a trip wire and instantaneous fuse at XT 548192. He died within a few minutes of the blast. This incident occurred as the company was sweeping the area southwest of Trung Lap.
+            </p>
+            <p>
+              On January 18, 1969, at 0845 hours, an APC from Company C detonated an AT mine 2 kilometers northwest of Thai My at XT 513165. The vehicle was a combat loss.
+            </p>
+            <p>
+              At 1140 hours, another APC from Company C detonated an AT mine along Highway 7A, 2 kilometers north of the Highway 1 junction.
+            </p>
+            <p>
+              On January 21, 1969, Company B was assigned to sweep and clear Highway 7A from north of Trung Lap to the junction of Highway 1. At 0745 hours, the sweep was delayed until the fog lifted. The sweep was resumed and at 0806 hours, a 30 pound AT mine was located and destroyed. At 0837 hours, Company B reported that while moving through Trung Lap one vehicle hit and killed a pig. At 0939 hours, an APC from Company B detonated an AT mine on Highway 7A, one kilometer north of Highway 1 at XT 572178. The blast flipped the track over pinning one Bobcat underneath, killing him. Another Bobcat was wounded.
+            </p>
+            <p>
+              On January 26, 1969, at 0852 hours, a Bobcat from a flame track assigned to Company C stepped on and detonated a 30 pound AT mine. He was killed instantly and another Bobcat suffered busted eardrums from the blast. The incident occurred ½ kilometer northwest of Trung Lap at XT 585223. Two booby trapped hand grenades were located within 30 meters of the mine and were destroyed in place.
+            </p>
+            <p>
+              The 25th Infantry Division reported the following personnel losses for the quarterly period of November 01, 1968 to January 31, 1969:
+            </p>
+            <p>
+              KIA: 236;   WIA: 3,955 (669 evacuated);  MIA: 0.
+            </p>
+            <p>
+              “Under the direction of the commanding general all available chain link fence was issued to mechanized units of the division. The use of chain link fencing has long been recognized as a means of reducing the effectiveness of RPG rounds in the protection of friendly bunkers, however little attention has been given to tracked vehicles. It has been found that this material can also be carried in tracked vehicles, easily installed, and provides similar effectiveness in reducing damage. One 50 foot roll of fence, divided into two equal lengths, seven eight foot pickets and communications wire is all that is required to construct a “car port.” The two sections of fence and pickets can be carried without difficulty and can be installed within ten minutes. Sufficient chain link fence to insure one roll per tracked vehicle and artillery piece with a 10% stockage for replacement was made available immediately.”
+            </p>
+            <p>
+              During January 1969, 6 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Anthony L. Lema</li>
+              <li>David M. Williams</li>
+              <li>Richard Adiutori</li>
+              <li>Roger L. Langford</li>
+              <li>James L. Miller</li>
+              <li>William D. Murray Jr.</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="feb">FEBRUARY</div>
             <p>
               On February 01, 1969, Company A was conducting a RIF operation about 4 kilometers northeast of Trang Bang. At 1450 hours, a small food cache was located and four suspected VC were detained. At 1715 hours, one Bobcat from the company was wounded when he detonated a booby trap. At 2240 hours, an ambush patrol from Company A located at XT 512220 engaged 2 VC, killing one.
-          On February 02, 1969, Company B was operating northeast of Trang Bang in the area of XT 5322. In the morning the company located two six ton rice caches.
- At 1653 hours, a tracked recovery vehicle attached to Company C detonated an AT mine 3 kilometers northeast of Trang Bang. The vehicle was a combat loss.
-          At 2000 hours, an ambush patrol from Company A located 2 kilometers south of Trung Lap, received RPG fire which wounded 3 Bobcats. Fire was returned with small arms and artillery with unknown results.
-          On February 03, 1969, at 1025 hours, an APC from Company B detonated an AT mine
-1 ½  kilometers north of the junction of Highways 1 and 7A, at XT 563185. One Bobcat was wounded and the track was a combat loss.
-        On February 04, 1969, at 1400 hours, a 75 round artillery barrage of white phosphorous was fired along a 3 kilometer axis of XT 5927 to 6130 in the Ho Bo Woods in the hopes of starting a fire.
-          At 1432 hours, to the south of the above location at XT 578253, Company A requested a Dust-off for three wounded Bobcats and two Bobcats who had been killed. The casualties were the result of two 155mm booby trapped rounds being detonated. They were rigged with trip wires and set 25 meters apart. One was set in a tree to create a low air burst. One of the Bobcats who was wounded, died shortly after being dusted-off.
-          At 1506 hours, Company A had an APC detonate an AT mine that was set in a rice paddy dike in the same general area. The vehicle was a combat loss.
-          On February 05, 1969, Companies A and B were conducting a RIF operation 2 kilometers northeast of Trung Lap in the area of XT 6023. At 1637 hours, Company B requested a Dust-off for two wounded Bobcats. A grenade rigged with a trip wire was detonated at XT 600228, causing the injuries. One of the injured Bobcats died later in the day in hospital from his wounds.
-          On February 08, 1969, the Recon Platoon conducted a RIF southwest of Trung Lap in the area of XT 5619. Companies A and B were conducting a RIF 2 kilometers east of Trung Lap in the area of XT 6222. Scattered contact started at around 1200 hours.
-          At 1338 hours, Company A requested a Dust-off for three wounded Bobcats at XT 625220. The company had engaged an unknown number of VC. After the firefight they found four enemy bodies, a machinegun and an RPG launcher. The company also had four wounded who did not require Dust-off. At 1411 hours, Company A requested another Dust-off for a Bobcat with a gunshot wound. They also had one Bobcat with shrapnel wounds. At 1442 hours, Company A requested another Dust-off for one wounded Bobcat. These were in the same location as the first Dust-off. At 1640 hours an air strike was directed on enemy positions in the area. At 1648 hours, Company A requested a Dust-off for a Bobcat with a severed artery.
-          At 1811 hours, Company B had two APCs hit by RPG rounds at XT 627220. The company Dusted-off six wounded Bobcats and one dead Bobcat. At 1846 hours, an airstrike was delivered on suspected enemy positions.
-         At 2037 hours, Company A linked up with elements of the 2/14th Infantry and established a night perimeter. At 2107 hours, Company B established a night perimeter at XT 618217 and dusted-off three additional dead Bobcats on resupply helicopters.
-          On February 10, 1969, Company A made contact with an estimated VC squad, one kilometer north of Trung Lap at XT 590225. At 1250 hours, Company A requested a Dust-off for one man with a gunshot wound. At 1304 hours, the Dust-off was canceled as the Bobcat had died from his wounds. At 1310 hours, Company A reported that they had an estimated 15 VC on line at XT 586232. Company B was committed to respond to the Company A contact. Air strikes and artillery were called in on the enemy position. At 1411 hours, Company B arrived on scene. A sweep of the enemy position located one enemy body.
-          On February 11, 1969, Companies A and B conducted a RIF operation east of Trung Lap in the area of XT 6121. The bodies of several enemy soldiers that had been killed by earlier air strikes were located in the area.
- At 1345 hours, Company C, operating on the northern fringe of the Filhol, had an APC detonate an AT mine at XT 656227. The vehicle was a combat loss.
-          On February 12, 1969, Company B was operating 6 kilometers north of Trung Lap with elements of the 2/12th Infantry. At 1000 hours, the company found and destroyed 20 meters of tunnel containing candles at XT 575266.  At 1100 hours, Company B requested a Dust-off for two wounded Bobcats and one dead Bobcat. A Bobcat was probing for possible mines on a dirt road when there was an explosion killing him and wounding two others.
-          On February 13, 1969, Company C was conducting a RIF operation about 3 kilometers south of the junction of Routes 238 and 6A in the Boi Loi Woods. At 1400 hours, they discovered a large rice cache at XT 553297.
-        On February 14, 1969, Company B was conducting operations east of Trung Lap. At 1648 hours, Company B requested a Dust-off for seven wounded Bobcats at XT 605213. An APC from the company had detonated an AT mine and then caught fire and burned out of control. At 1705 hours, the Dust-off was complete, however, the body of one dead Bobcat was still next to the burning APC and could not be removed until the fire was out.
- Company C conducted operations during the day with one company from the 2/12th Infantry.
-          On February 15, 1969, the battalion conducted an S&D operation in the southern Ho Bo Woods in the area of XT 6025. At 1345 hours, an APC from the Recon Platoon detonated an AT mine. One Bobcat was wounded. At 1355 hours, another APC from the platoon hit an AT mine. The track was a combat loss. At 1430 hours, Company C located a rice cache at XT 599299.
-          On February 16, 1969, the Recon Platoon located and destroyed three booby trapped hand grenades near Trung Lap. Companies A and B conducted a RIF three kilometers northeast of Trung Lap. At 0905 hours, an APC from Company A detonated an AT mine. The vehicle was a combat loss. At 1345 hours, Company A located and destroyed 6 rounds of 82mm mortar ammunition.
-          Also at 1345 hours, an APC from Headquarters Company detonated an AT mine just north of Trung Lap at XT 606226. At 1530 hours, Company C had a brief exchange of small arms fire at XT 566246.
-          On February 17, 1969, the night perimeter of Companies A and B received small arms and RPG fire at 0036 hours. The fire was returned with unknown results. One Bobcat was wounded in the exchange.
- Company C and Company C, 2/12th Infantry conducted a combined RIF operation northwest of Trung Lap in the area of XT 5627.
-          On February 18, 1969, at 1145 hours, Company B located an ammunition cache 5 kilometers north of Trang Bang at XT 513242. At 1512 hours, the company received small arms fire, but suffered no casualties.
-          At 1630 hours, Company A received small arms and RPG fire in the Ho Bo Woods at XT 623279. Fire was returned with organic weapons, artillery and air strikes. The bodies of several enemy soldiers with their weapons were located in a sweep of the area.
-          On February 21, 1969, at 1625 hours, an APC from Company A detonated an AT mine northwest of Trung Lap at XT 560232. The vehicle was a combat loss.
-          On  February 22, 1969, the Recon Platoon was assigned to work with the 2/12th Infantry in the Boi Loi Woods area. At 1110 hours, an APC from Company B detonated an AT mine in the area of Xom Moi north of Trung Lap. The vehicle was a combat loss.
-        On February 23, 1969, at 0048 hours, the battalion night perimeter began receiving an 82mm mortar barrage. At 0117 hours, the battalion aid station requested a Dust-off for five wounded Bobcats and one dead Bobcat. At 0158 hours, the Dust-off was completed. Company A had 1 WIA and 1 KIA, Company B had 1 WIA, Company C had 2 WIA and Headquarters Company had 1 WIA. At 0225 hours, another mortar barrage was received without casualties.
-          At 0535 hours, it was reported that FSB Mahone was under ground attack. At 0708 hours, Company A started a sweep of Highway 1 to the junction of Highway 7A and then north on 7A. At 0944 hours, Highway 7A was reported open for traffic.
-           At 0905 hours Company B departed the forward base for a RIF operation. At 0930 hours, Company C departed for a RIF. At 1010 hours, Company B reported receiving RPG and small arms fire 7 kilometers north of Trung Lap at XT 602276. Artillery and air strikes were called in on the suspected enemy positions. A sweep revealed a couple of dead bodies of NVA soldiers with weapons. At 1324 hours, Company B requested a Dust-off for one Bobcat with a gunshot wound.
-          At 1448 hours, Company C reported receiving RPG fire in the area of Xom Moi at XT 620223. At 1453 hours, Company C requested a Dust-off. One APC had been hit twice by RPG fire. At 1512 hours, the Dust-off was complete for three wounded Bobcats and one dead Bobcat.  At 1531 hours, Company C requested another Dust-off for four wounded in the same area. At 1550 hours, the dust-off was completed and air strikes started pounding the area. At 1703 hours, Company C reported that they had one APC hit by RPG fire and that they were pulling back to allow more air strikes in the area. At 1757 hours, Company C requested a Dust-off for more wounded Bobcats in the same location as the last Dust-off. At 1830 hours, the Dust-off was complete for six wounded Bobcats and one dead Bobcat. At 1856 hours, as air strikes and heavy artillery were being placed into the area, Company C began moving to FSB Patton.
-          On February 25, 1969, at 0857 hours, Company A was conducting a RIF operation 2 kilometers northeast of the junction of Highways 1 and 7A, when an unknown type booby trap exploded. Three Bobcats were wounded. At 0915 hours, in the same area the company located and destroyed a booby trapped 105mm and a 155mm artillery round.
- At 1820 hours, Company A and Company A, 2/34th Armor received small arms and RPG fire. Fire was returned with organic weapons and artillery. Several enemy soldiers were killed in the contact. One Bobcat from Company A was killed and four soldiers were wounded.
-           On February 26, 1969, at 0445 hours, Cu Chi Base Camp was attacked. Enemy soldiers penetrated the perimeter and destroyed 9 CH-47 Helicopters. Two others were severely damaged.
-          Company B was operating on Highway 7A, 2 kilometers north of the junction of Highway 1, with elements of the 65th Engineer Battalion. At 1005 hours, three command detonated mines were exploded and they also received small arms fire. Fire was returned with unknown results. Three soldiers were wounded in the contact.
-           On February 27, 1969, Company C was conducting a RIF operation with elements of the 2/34th Armor, 5 kilometers northwest of the junction of Highways 7A and 1. At 1804 hours, the battalion LOH was hit and made a successful crash landing in the area of Company C APCs. At 1840 hours, the units received small arms, automatic weapons and RPG fire. The fire was returned with organic weapons, artillery and helicopter gun ships. At 1849 hours, Company C requested a Dust-off at XT 545217. Two Bobcats from Company C were killed and three were wounded in the contact.
-          At 2045 hours, an APC from Company C detonated an AT mine with only minor damage resulting from the blast. At 2230 hours, another APC from Company C detonated an AT mine along Highway 7A, one kilometer south of Trung Lap. Three Bobcats were wounded in the explosion.
-           On February 28, 1969, at 1125 hours, the Recon Platoon, while attached to Company C, 2/12th Infantry, made contact with an unknown size enemy force while conducting a RIF operation east of Go Dau Ha in the area of XT 4525. They received small arms, automatic weapons and RPG fire. Fire was returned with organic weapons, artillery and air strikes. One Bobcat was killed and three were wounded in the contact. One APC was also a combat loss.
-          At 1230 hours, an APC from Company A detonated an AT mine on Highway 7A, 2 kilometers southwest of Trung Lap. Three Bobcats were wounded and the APC was a combat loss.
-
-
-          During February 1969, nineteen Bobcats died in Viet Nam. They were: Lee E. Burnor; Steven M. Britton; Harold R. Richardson; John W. Spafford; David P. Haegele; Arthur L. Klaus; Alexander A.S. Peoples; Christopher S. Smith; Kerry F. Wilson;  Dale R. Jackson; Joe J. Miles; Alvin R. Fritz; Donald H. Sisson; Robert R. Buck;
-Paul F. Clark; James E. Wise; Ralph E. Nathan; William S. Potter; and ONE whose name is unknown to us writing this report.
             </p>
             <p>
-              During February 1969, X Bobcats died in Vietnam. They were:
+              On February 02, 1969, Company B was operating northeast of Trang Bang in the area of XT 5322. In the morning the company located two six ton rice caches.
+            </p>
+            <p>
+              At 1653 hours, a tracked recovery vehicle attached to Company C detonated an AT mine 3 kilometers northeast of Trang Bang. The vehicle was a combat loss.
+            </p>
+            <p>
+              At 2000 hours, an ambush patrol from Company A located 2 kilometers south of Trung Lap, received RPG fire which wounded 3 Bobcats. Fire was returned with small arms and artillery with unknown results.
+            </p>
+            <p>
+              On February 03, 1969, at 1025 hours, an APC from Company B detonated an AT mine
+            </p>
+            <p>
+              1 ½  kilometers north of the junction of Highways 1 and 7A, at XT 563185. One Bobcat was wounded and the track was a combat loss.
+            </p>
+            <p>
+              On February 04, 1969, at 1400 hours, a 75 round artillery barrage of white phosphorous was fired along a 3 kilometer axis of XT 5927 to 6130 in the Ho Bo Woods in the hopes of starting a fire.
+            </p>
+            <p>
+              At 1432 hours, to the south of the above location at XT 578253, Company A requested a Dust-off for three wounded Bobcats and two Bobcats who had been killed. The casualties were the result of two 155mm booby trapped rounds being detonated. They were rigged with trip wires and set 25 meters apart. One was set in a tree to create a low air burst. One of the Bobcats who was wounded, died shortly after being dusted-off.
+            </p>
+            <p>
+              At 1506 hours, Company A had an APC detonate an AT mine that was set in a rice paddy dike in the same general area. The vehicle was a combat loss.
+            </p>
+            <p>
+              On February 05, 1969, Companies A and B were conducting a RIF operation 2 kilometers northeast of Trung Lap in the area of XT 6023. At 1637 hours, Company B requested a Dust-off for two wounded Bobcats. A grenade rigged with a trip wire was detonated at XT 600228, causing the injuries. One of the injured Bobcats died later in the day in hospital from his wounds.
+            </p>
+            <p>
+              On February 08, 1969, the Recon Platoon conducted a RIF southwest of Trung Lap in the area of XT 5619. Companies A and B were conducting a RIF 2 kilometers east of Trung Lap in the area of XT 6222. Scattered contact started at around 1200 hours.
+            </p>
+            <p>
+              At 1338 hours, Company A requested a Dust-off for three wounded Bobcats at XT 625220. The company had engaged an unknown number of VC. After the firefight they found four enemy bodies, a machinegun and an RPG launcher. The company also had four wounded who did not require Dust-off. At 1411 hours, Company A requested another Dust-off for a Bobcat with a gunshot wound. They also had one Bobcat with shrapnel wounds. At 1442 hours, Company A requested another Dust-off for one wounded Bobcat. These were in the same location as the first Dust-off. At 1640 hours an air strike was directed on enemy positions in the area. At 1648 hours, Company A requested a Dust-off for a Bobcat with a severed artery.
+            </p>
+            <p>
+              At 1811 hours, Company B had two APCs hit by RPG rounds at XT 627220. The company Dusted-off six wounded Bobcats and one dead Bobcat. At 1846 hours, an airstrike was delivered on suspected enemy positions.
+            </p>
+            <p>
+              At 2037 hours, Company A linked up with elements of the 2/14th Infantry and established a night perimeter. At 2107 hours, Company B established a night perimeter at XT 618217 and dusted-off three additional dead Bobcats on resupply helicopters.
+            </p>
+            <p>
+              On February 10, 1969, Company A made contact with an estimated VC squad, one kilometer north of Trung Lap at XT 590225. At 1250 hours, Company A requested a Dust-off for one man with a gunshot wound. At 1304 hours, the Dust-off was canceled as the Bobcat had died from his wounds. At 1310 hours, Company A reported that they had an estimated 15 VC on line at XT 586232. Company B was committed to respond to the Company A contact. Air strikes and artillery were called in on the enemy position. At 1411 hours, Company B arrived on scene. A sweep of the enemy position located one enemy body.
+            </p>
+            <p>
+              On February 11, 1969, Companies A and B conducted a RIF operation east of Trung Lap in the area of XT 6121. The bodies of several enemy soldiers that had been killed by earlier air strikes were located in the area.
+            </p>
+            <p>
+              At 1345 hours, Company C, operating on the northern fringe of the Filhol, had an APC detonate an AT mine at XT 656227. The vehicle was a combat loss.
+            </p>
+            <p>
+              On February 12, 1969, Company B was operating 6 kilometers north of Trung Lap with elements of the 2/12th Infantry. At 1000 hours, the company found and destroyed 20 meters of tunnel containing candles at XT 575266.  At 1100 hours, Company B requested a Dust-off for two wounded Bobcats and one dead Bobcat. A Bobcat was probing for possible mines on a dirt road when there was an explosion killing him and wounding two others.
+            </p>
+            <p>
+              On February 13, 1969, Company C was conducting a RIF operation about 3 kilometers south of the junction of Routes 238 and 6A in the Boi Loi Woods. At 1400 hours, they discovered a large rice cache at XT 553297.
+            </p>
+            <p>
+              On February 14, 1969, Company B was conducting operations east of Trung Lap. At 1648 hours, Company B requested a Dust-off for seven wounded Bobcats at XT 605213. An APC from the company had detonated an AT mine and then caught fire and burned out of control. At 1705 hours, the Dust-off was complete, however, the body of one dead Bobcat was still next to the burning APC and could not be removed until the fire was out.
+            </p>
+            <p>
+              Company C conducted operations during the day with one company from the 2/12th Infantry.
+            </p>
+            <p>
+              On February 15, 1969, the battalion conducted an S&D operation in the southern Ho Bo Woods in the area of XT 6025. At 1345 hours, an APC from the Recon Platoon detonated an AT mine. One Bobcat was wounded. At 1355 hours, another APC from the platoon hit an AT mine. The track was a combat loss. At 1430 hours, Company C located a rice cache at XT 599299.
+            </p>
+            <p>
+              On February 16, 1969, the Recon Platoon located and destroyed three booby trapped hand grenades near Trung Lap. Companies A and B conducted a RIF three kilometers northeast of Trung Lap. At 0905 hours, an APC from Company A detonated an AT mine. The vehicle was a combat loss. At 1345 hours, Company A located and destroyed 6 rounds of 82mm mortar ammunition.
+            </p>
+            <p>
+              Also at 1345 hours, an APC from Headquarters Company detonated an AT mine just north of Trung Lap at XT 606226. At 1530 hours, Company C had a brief exchange of small arms fire at XT 566246.
+            </p>
+            <p>
+              On February 17, 1969, the night perimeter of Companies A and B received small arms and RPG fire at 0036 hours. The fire was returned with unknown results. One Bobcat was wounded in the exchange.
+            </p>
+            <p>
+              Company C and Company C, 2/12th Infantry conducted a combined RIF operation northwest of Trung Lap in the area of XT 5627.
+            </p>
+            <p>
+              On February 18, 1969, at 1145 hours, Company B located an ammunition cache 5 kilometers north of Trang Bang at XT 513242. At 1512 hours, the company received small arms fire, but suffered no casualties.
+            </p>
+            <p>
+              At 1630 hours, Company A received small arms and RPG fire in the Ho Bo Woods at XT 623279. Fire was returned with organic weapons, artillery and air strikes. The bodies of several enemy soldiers with their weapons were located in a sweep of the area.
+            </p>
+            <p>
+              On February 21, 1969, at 1625 hours, an APC from Company A detonated an AT mine northwest of Trung Lap at XT 560232. The vehicle was a combat loss.
+            </p>
+            <p>
+              On  February 22, 1969, the Recon Platoon was assigned to work with the 2/12th Infantry in the Boi Loi Woods area. At 1110 hours, an APC from Company B detonated an AT mine in the area of Xom Moi north of Trung Lap. The vehicle was a combat loss.
+            </p>
+            <p>
+              On February 23, 1969, at 0048 hours, the battalion night perimeter began receiving an 82mm mortar barrage. At 0117 hours, the battalion aid station requested a Dust-off for five wounded Bobcats and one dead Bobcat. At 0158 hours, the Dust-off was completed. Company A had 1 WIA and 1 KIA, Company B had 1 WIA, Company C had 2 WIA and Headquarters Company had 1 WIA. At 0225 hours, another mortar barrage was received without casualties.
+            </p>
+            <p>
+              At 0535 hours, it was reported that FSB Mahone was under ground attack. At 0708 hours, Company A started a sweep of Highway 1 to the junction of Highway 7A and then north on 7A. At 0944 hours, Highway 7A was reported open for traffic.
+            </p>
+            <p>
+              At 0905 hours Company B departed the forward base for a RIF operation. At 0930 hours, Company C departed for a RIF. At 1010 hours, Company B reported receiving RPG and small arms fire 7 kilometers north of Trung Lap at XT 602276. Artillery and air strikes were called in on the suspected enemy positions. A sweep revealed a couple of dead bodies of NVA soldiers with weapons. At 1324 hours, Company B requested a Dust-off for one Bobcat with a gunshot wound.
+            </p>
+            <p>
+              At 1448 hours, Company C reported receiving RPG fire in the area of Xom Moi at XT 620223. At 1453 hours, Company C requested a Dust-off. One APC had been hit twice by RPG fire. At 1512 hours, the Dust-off was complete for three wounded Bobcats and one dead Bobcat.  At 1531 hours, Company C requested another Dust-off for four wounded in the same area. At 1550 hours, the dust-off was completed and air strikes started pounding the area. At 1703 hours, Company C reported that they had one APC hit by RPG fire and that they were pulling back to allow more air strikes in the area. At 1757 hours, Company C requested a Dust-off for more wounded Bobcats in the same location as the last Dust-off. At 1830 hours, the Dust-off was complete for six wounded Bobcats and one dead Bobcat. At 1856 hours, as air strikes and heavy artillery were being placed into the area, Company C began moving to FSB Patton.
+            </p>
+            <p>
+              On February 25, 1969, at 0857 hours, Company A was conducting a RIF operation 2 kilometers northeast of the junction of Highways 1 and 7A, when an unknown type booby trap exploded. Three Bobcats were wounded. At 0915 hours, in the same area the company located and destroyed a booby trapped 105mm and a 155mm artillery round.
+            </p>
+            <p>
+              At 1820 hours, Company A and Company A, 2/34th Armor received small arms and RPG fire. Fire was returned with organic weapons and artillery. Several enemy soldiers were killed in the contact. One Bobcat from Company A was killed and four soldiers were wounded.
+            </p>
+            <p>
+              On February 26, 1969, at 0445 hours, Cu Chi Base Camp was attacked. Enemy soldiers penetrated the perimeter and destroyed 9 CH-47 Helicopters. Two others were severely damaged.
+            </p>
+            <p>
+              Company B was operating on Highway 7A, 2 kilometers north of the junction of Highway 1, with elements of the 65th Engineer Battalion. At 1005 hours, three command detonated mines were exploded and they also received small arms fire. Fire was returned with unknown results. Three soldiers were wounded in the contact.
+            </p>
+            <p>
+              On February 27, 1969, Company C was conducting a RIF operation with elements of the 2/34th Armor, 5 kilometers northwest of the junction of Highways 7A and 1. At 1804 hours, the battalion LOH was hit and made a successful crash landing in the area of Company C APCs. At 1840 hours, the units received small arms, automatic weapons and RPG fire. The fire was returned with organic weapons, artillery and helicopter gun ships. At 1849 hours, Company C requested a Dust-off at XT 545217. Two Bobcats from Company C were killed and three were wounded in the contact.
+            </p>
+            <p>
+              At 2045 hours, an APC from Company C detonated an AT mine with only minor damage resulting from the blast. At 2230 hours, another APC from Company C detonated an AT mine along Highway 7A, one kilometer south of Trung Lap. Three Bobcats were wounded in the explosion.
+            </p>
+            <p>
+              On February 28, 1969, at 1125 hours, the Recon Platoon, while attached to Company C, 2/12th Infantry, made contact with an unknown size enemy force while conducting a RIF operation east of Go Dau Ha in the area of XT 4525. They received small arms, automatic weapons and RPG fire. Fire was returned with organic weapons, artillery and air strikes. One Bobcat was killed and three were wounded in the contact. One APC was also a combat loss.
+            </p>
+            <p>
+              At 1230 hours, an APC from Company A detonated an AT mine on Highway 7A, 2 kilometers southwest of Trung Lap. Three Bobcats were wounded and the APC was a combat loss.
+            </p>
+            <p>
+              During February 1969, 19 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Lee E. Burnor</li>
+              <li>Steven M. Britton</li>
+              <li>Harold R. Richardson</li>
+              <li>John W. Spafford</li>
+              <li>David P. Haegele</li>
+              <li>Arthur L. Klaus</li>
+              <li>Alexander A.S. Peoples</li>
+              <li>Christopher S. Smith</li>
+              <li>Kerry F. Wilson</li>
+              <li>Dale R. Jackson</li>
+              <li>Joe J. Miles</li>
+              <li>Alvin R. Fritz</li>
+              <li>Donald H. Sisson</li>
+              <li>Robert R. Buck</li>
+              <li>Paul F. Clark</li>
+              <li>James E. Wise</li>
+              <li>Ralph E. Nathan</li>
+              <li>William S. Potter</li>
+              <li>ONE whose name is unknown to us writing this report.</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="mar">MARCH</div>
             <p>
               On March 01, 1969, one Bobcat from Company A died in hospital from wounds he had received in an earlier contact.
-           On March 04, 1969, at 0535 hours, the Company C night perimeter, located along Highway 237, 4 kilometers northwest of Trung Lap, received small arms and RPG fire. Fire was returned with organic weapons and helicopter gunships. There were no friendly casualties.
-          At 0745 hours, Companies C and D of the 2/12th Infantry made an airmobile combat assault into Grid XT 5425, several kilometers northwest of the Company C, 1/5th(M) night perimeter. They immediately established heavy contact and Companies A and C, 1/5th(M) were dispatched to reinforce the contact.
-          At 1308 hours, Company A requested a Dust-off at XT 556258 for one Bobcat with a gunshot wound. At 1315 hours, Company C requested a Dust-off for three Bobcats with gunshot wounds. At 1327 hours, Companies A and C arrived in the area of the 2/12th Infantry contact.
-          At 1340 hours, Company C requested a Dust-off for five wounded Bobcats. At 1345 hours, Company A requested a Dust-off for two wounded Bobcats.
-          At 1432 hours, Company D, 2/12th Infantry cleared the area of contact and Companies A and C, 1/5th(M) began a sweep of the contact area. At 1703 hours, the mech companies reported that they were no longer receiving enemy fire. The dead bodies of  enemy soldiers along with weapons had been located in a search of the contact area.
-          At 1749 hours, Company C reported that two APCs had been hit by RPG fire and one was on fire. Company C requested a Dust-off at 1757 hours for eleven wounded Bobcats. At 1851 hours, Company C requested a Dust-off for one wounded. At 1933 hours, a Dust-off was requested for six Bobcats from Company A with fragmentation wounds.
-         At 2019 hours, at XT 560263, Company C received 3 RPG rounds and some small arms fire. At 2045 hours, Company C reported that all its APCs were now on Highway 7A, in the area of Trung lap. At 2101 hours, they closed their night perimeter. At 2111 hours, Company B closed their night perimeter.
-         During the day’s contact two Bobcats from Company C were killed and Companies A and C suffered a total of 38 wounded.
-         On March 05, 1969, Company A, 1/5th(M) along with Companies C and D, 2/12th Infantry, were in a combined night perimeter at XT 548251, near the area of the previous day’s contact. At 0451 hours, the perimeter began to receive mortar, RPG and small arms fire from the north. A flare ship and helicopter light fire team were requested. At 0536 hours, two Dust-offs were requested for at least 12 litter and more ambulatory casualties. At 0650 hours, the Dust-offs were completed.
-         At 0700 hours, Company B began a road sweep of Highway 1 and then Highway 7A.
-At 0710 hours, Company A began a search of the area north of the night perimeter. At 0840 hours, Company C and the recon Platoon began movement to link up with Company A. They reached the area at 1105 hours. The day was spent policing enemy bodies, weapons and equipment from the area of contact.
- Company A and Company C, and the Recon Platoon, 1/5th(M) closed FSB Patton by 1730 hours. There were three Bobcats from Company A killed in the day’s action.
-         On March 06, 1969, at 1020 hours, an APC from Company A detonated an AT mine 2 kilometers northwest of Trung Lap at XT 560205. Three Bobcats were wounded and the APC was a combat loss.
-         On March 09, 1969, at 1930 hours, the night perimeter of Company B, located 3 kilometers north of Trung Lap, received four 60mm mortar rounds. A Dust-off was requested for eight wounded Bobcats and one wounded soldier from the 2/34th Armor. The Dust-off was completed at 1950 hours. One of the wounded Bobcats died at the hospital that evening.
-         On March 10, 1969, the Recon Platoon was attached to the 2/12th Infantry and conducted S&D operations northeast of Trang Bang.
-          Companies A and B were assigned highway clearing and route security for portions of Highways 1, 7A and 19. At 0720 hours, Company B received one mortar round and several RPG rounds at its night perimeter, northeast of Trung Lap. One Bobcat was killed.
-          On March 11, 1969, the Recon Platoon was operating 3 kilometers northwest of Trung Lap with elements of the 2/12th Infantry. At 1045 hours, an APC from the platoon exploded an AT mine. One Bobcat was killed and two were wounded. The APC was a combat loss.
-          On March 12, 1969, the 1/5th(M) continued operations in the Trung Lap area. Companies A and C conducted a RIF operation near Trung Lap. Company A had an APC detonate a mine, wounding two Bobcats.
-          Company B was operating northeast of Trung Lap, when at 1005 hours, an APC detonated an AT mine southwest of the junction of Routes 7A and 15. One Bobcat was wounded and the APC was a combat loss. As the Dust-off came in to pick up the wounded, it detonated another AT mine, causing major damage to the helicopter.
-On March 13, 1969, Company A conducted a RIF operation northeast of Trung Lap. At 1615 hours, two booby traps were detonated wounding five Bobcats from the company. Two of them died from wounds before they could get to hospital.
-          A duce and a half truck from the 1/5th(M) detonated an AT mine on Highway 7A, 1 kilometer south of Trung Lap at 1000 hours. The vehicle was destroyed. At 1325 hours, Company B, while sweeping around Trung Lap, had 1 round of RPG fired at one of their tracks, but it missed. Fire was returned with unknown results.
-         On March 14, 1969, at 1859 hours, Company C received a mortar barrage on their night perimeter. Two Bobcats were wounded and Dusted-off.
-         At 2315 hours, Company B departed the night perimeter for a night move.
-       On March 15,1969, at 0007 hours, Company C departed their night perimeter for a link up site. At 0031 hours, Company C was located at XT 601240 and moving east. At 0118 hours, Company C was located at XT 607240. They reported hearing movement to their front and received one round of RPG fire. At 0122, a helicopter light fire team was requested and Company C reported that it had 2 APCs hit at this time. At 0130 hours, Company C reported that they were receiving fire from the front and on both flanks. They reported that there were wounded and killed on the two lead APCs and that the column was backing out of the contact at that time. Company B began closing on the Company C contact area. At 0156 hours, Company C requested a Dust-off to stand-by until they could secure an LZ. At 0228 hours, Company C sent a dismounted patrol to pick up any personnel from the lead APCs. Star Clusters had been fired from the APCs.
-          At 0252 hours, the first Dust-off was complete for 8 wounded Bobcats. At 0320 hours, the 2nd Dust-off was complete for 9 wounded Bobcats and one dead Bobcat. At 0321 hours, Company C reported that they were no longer receiving enemy fire.
- At 0402 hours, the dismounted patrol reached the downed APCs. They found no one alive. At 0701 hours, Company C moved through the area of contact.
- Five Bobcats were killed and nineteen were wounded in the contact.
-          On March 16, 1969, Companies A and B provided security for Rome Plow operations north of Trung Lap. Company C conducted a RIF along Highway 7A.
-          On March 17, 1969, at 0402 hours, the Company A night perimeter at XT 555271, received 12 rounds of 60mm mortar fire. Two Bobcats were wounded. Fire was returned with unknown results.
-          Companies B and C cleared and secured Highway 7A for convoy use.
-          On March 19, 1969, Company B was operating east of Phouc My at XT 599157. At 1230 hours, a booby trap was detonated wounding one Bobcat. Company C was providing security for Rome Plow operations north of Trung Lap at XT 575275. At 1400 hours they received small arms and RPG fire, wounding one Bobcat. Fire was returned with unknown results. At 1600 hours, Company C again received small arms and RPG fire. Fire was returned with organic weapons and artillery. One Bobcat was killed and two were wounded in the second contact.
-          On March 20, 1969, at 1336 hours, Company C requested a Dust-off. While securing Rome Plow operations at XT 575270, an APC from Company C detonated an AT mine wounding two Bobcats. The track was a combat loss.
-         At 1608 hours, The Recon Platoon received sniper fire at XT 519263, while escorting two flame tracks and a downed APC. Fire was returned with unknown results.
-          At 2320 hours, the Company C night perimeter at XT 552273, received small arms, automatic weapons, RPG and mortar fire. The fire was returned with organic weapons, artillery, helicopter gunships, C-119 gunships and air strikes. Seven Bobcats were wounded in the contact. A check of the area at first light revealed enemy dead along with miscellaneous weapons and ammunition.
-          On March 24, 1969, Company B was assigned to provide security for Rome Plow operations north of Trung Lap. At 0845 hours, Company B received small arms, automatic weapons and RPG fire. The fire was returned with the support of artillery and helicopter gunships. One Bobcat was wounded in the contact.
-At 1524 hours, Company C requested a Dust-off northwest of Trung Lap at XT 565242. An APC had detonated an AT mine. Three dead Bobcats and three wounded bobcats from Company C were dusted-off. The APC was a combat loss. At 1555 hours, another Dust-off was requested for a Bobcat with eardrum damage and for one with heat stroke.
-At 1740 hours, Company B again received small arms and RPG fire in the same area. Fire was returned and the enemy fire was suppressed. One Bobcat was wounded in the contact.
-On March 25, 1969, at 0655 hours, Company C departed the night perimeter for a sweep of Highway 7A from FSB Patton to Highway 1. They were then to provide convoy escort and road security with the Recon Platoon.
-         At 0825 hours, Company B departed their night perimeter to provide security for Rome Plow operations. At 0845 hours, Company B advised that a tank from the 2/34th Armor struck a mine at XT 566263. The mine blew off the rear road wheel and the track. At 0930 hours, Company B received sniper fire at XT 569261. At 0955 hours, Company B reported receiving small arms fire and one RPG round. At 1000 hours, Company B was advised that the battalion would not be using artillery fire so that they could remain in the contact area and the Rome Plows could keep working. At 1007 hours, Company B requested a Dust-off for 2 wounded Bobcats. One of the wounded still had to be rescued from the area of contact. At 1105 hours, Company B reported that as the patrol was moving in to get the wounded Bobcat, a VC threw a hand grenade and they now have one possible KIA. At 1112 hours, a helicopter light fire team was requested to assist Company B. Brigade informed the battalion that no helicopter light fire teams were available. At 1118 hours, Company B requested a Dust-off for two dead Bobcats and one wounded Bobcat. At 1138 hours, the Dust-off was completed.
-         At 1154 hours, a light fire team arrived at the Company B area of contact. At 1324 hours, Company B received small arms fire from 150 meters away on their right flank. At 1331 hours, Company B requested a Dust-off for two Bobcats wounded by RPG fire. At 1431 hours, Company B received another RPG round. At 1515 hours, Company B received a 10 round 82mm mortar barrage. At 1525 hours, Company A requested a Dust-off for two wounded, same location as Company B. At 1618 hours, Company A requested another Dust-off at the same location for two wounded by RPG shrapnel. In a sweep of the contact area at 1712 hours, the bodies of enemy soldiers with weapons, ammunition and miscellaneous equipment were located and policed up.
-
-          “While sweeping one area at approximately 0900 hours in the morning, the enemy opened up with AK-47 fire. I was hit in the abdomen and both legs. I fell to the ground and noticed two other men taking cover in a partially destroyed house. The platoons pulled back and attempted to destroy the positions the enemy were in. There were three positions pinning us down, two on one side and one on the other. The platoons attempted several times to get to us but were unable to because of the RPG and AK-47 fire coming from the enemy positions. Soon the enemy started firing AK-47s and RPGs at the house I was next to and the other men were in. Then all our elements started firing on the enemy and I noticed two of the lieutenants low crawling towards the two bunkers which were about 10 meters apart. Lt. Doane, platoon leader of the second platoon, reached the first bunker and threw in several grenades and also fired his M-16 into the bunker. I then saw a grenade thrown from the next bunker and heard the yell “grenade.” I could see that Lt. Doane had been wounded. We yelled at Lt. Doane to go back because he couldn’t make it. But he crawled to the next bunker anyway. When he reached it a burst of AK-47 fire came from the bunker and I could see that it had hit Lt. Doane. He then pulled the pin of a grenade and threw himself into the bunker. Lt. Doane had destroyed the two bunkers on one side of us, and the platoon moved in quickly and pulled the three of us out of the area.”
- Lt. Stephen H. Doane was later posthumously awarded the Congressional Medal of Honor for his actions.
-
-          On March 28, 1969, at 1200 hours, Company A was operating north of Trung Lap when they received small arms and RPG fire. One APC received a minor RPG hit. Fire was returned and with the support of a helicopter light fire team the enemy fire was suppressed. At 1830 hours, an APC from Company A detonated an AT mine. One Bobcat was wounded and the APC was a combat loss.
-          Company C lost a TVR (tracked vehicle retriever) when it detonated an AT mine south of Trung Lap.
-          On March 29, 1968, at 1230 hours, Company A had an APC detonate a booby trapped 105mm artillery round north of Trung Lap. There were no casualties but the vehicle suffered considerable damage.
-
-          During March 1969, twenty-two Bobcats died in Viet Nam. They were:
-Mounce E. West; Joseph A. Goodson; Robert L. Sloan; David P. Jacobs;  Daniel W. Lawson; John A. Nowakowski; Larry M. Smith; Clarence E. Nunnery Jr.; Donnie W. Caudill; Daniel W. Lloyd; John W. Camp; Julio Hernandez Jr.;  Carl W. Hughes ; Dennis R. Hunsley; Michael Lynch; Jack L. Rexrode; John D. Hamilton Jr.; Robert A. Holan Jr.; Dennis M. Silveri; Stephen H. Doane ; Norman C. Smoots; and ONE whose name is unknown to us writing this report.
             </p>
             <p>
-              During March 1969, X Bobcats died in Vietnam. They were:
+              On March 04, 1969, at 0535 hours, the Company C night perimeter, located along Highway 237, 4 kilometers northwest of Trung Lap, received small arms and RPG fire. Fire was returned with organic weapons and helicopter gunships. There were no friendly casualties.
+            </p>
+            <p>
+              At 0745 hours, Companies C and D of the 2/12th Infantry made an airmobile combat assault into Grid XT 5425, several kilometers northwest of the Company C, 1/5th(M) night perimeter. They immediately established heavy contact and Companies A and C, 1/5th(M) were dispatched to reinforce the contact.
+            </p>
+            <p>
+              At 1308 hours, Company A requested a Dust-off at XT 556258 for one Bobcat with a gunshot wound. At 1315 hours, Company C requested a Dust-off for three Bobcats with gunshot wounds. At 1327 hours, Companies A and C arrived in the area of the 2/12th Infantry contact.
+            </p>
+            <p>
+              At 1340 hours, Company C requested a Dust-off for five wounded Bobcats. At 1345 hours, Company A requested a Dust-off for two wounded Bobcats.
+            </p>
+            <p>
+              At 1432 hours, Company D, 2/12th Infantry cleared the area of contact and Companies A and C, 1/5th(M) began a sweep of the contact area. At 1703 hours, the mech companies reported that they were no longer receiving enemy fire. The dead bodies of  enemy soldiers along with weapons had been located in a search of the contact area.
+            </p>
+            <p>
+              At 1749 hours, Company C reported that two APCs had been hit by RPG fire and one was on fire. Company C requested a Dust-off at 1757 hours for eleven wounded Bobcats. At 1851 hours, Company C requested a Dust-off for one wounded. At 1933 hours, a Dust-off was requested for six Bobcats from Company A with fragmentation wounds.
+            </p>
+            <p>
+              At 2019 hours, at XT 560263, Company C received 3 RPG rounds and some small arms fire. At 2045 hours, Company C reported that all its APCs were now on Highway 7A, in the area of Trung lap. At 2101 hours, they closed their night perimeter. At 2111 hours, Company B closed their night perimeter.
+            </p>
+            <p>
+              During the day’s contact two Bobcats from Company C were killed and Companies A and C suffered a total of 38 wounded.
+            </p>
+            <p>
+              On March 05, 1969, Company A, 1/5th(M) along with Companies C and D, 2/12th Infantry, were in a combined night perimeter at XT 548251, near the area of the previous day’s contact. At 0451 hours, the perimeter began to receive mortar, RPG and small arms fire from the north. A flare ship and helicopter light fire team were requested. At 0536 hours, two Dust-offs were requested for at least 12 litter and more ambulatory casualties. At 0650 hours, the Dust-offs were completed.
+            </p>
+            <p>
+              At 0700 hours, Company B began a road sweep of Highway 1 and then Highway 7A.
+            </p>
+            <p>
+              At 0710 hours, Company A began a search of the area north of the night perimeter. At 0840 hours, Company C and the recon Platoon began movement to link up with Company A. They reached the area at 1105 hours. The day was spent policing enemy bodies, weapons and equipment from the area of contact.
+            </p>
+            <p>
+              Company A and Company C, and the Recon Platoon, 1/5th(M) closed FSB Patton by 1730 hours. There were three Bobcats from Company A killed in the day’s action.
+            </p>
+            <p>
+              On March 06, 1969, at 1020 hours, an APC from Company A detonated an AT mine 2 kilometers northwest of Trung Lap at XT 560205. Three Bobcats were wounded and the APC was a combat loss.
+            </p>
+            <p>
+              On March 09, 1969, at 1930 hours, the night perimeter of Company B, located 3 kilometers north of Trung Lap, received four 60mm mortar rounds. A Dust-off was requested for eight wounded Bobcats and one wounded soldier from the 2/34th Armor. The Dust-off was completed at 1950 hours. One of the wounded Bobcats died at the hospital that evening.
+            </p>
+            <p>
+              On March 10, 1969, the Recon Platoon was attached to the 2/12th Infantry and conducted S&D operations northeast of Trang Bang.
+            </p>
+            <p>
+              Companies A and B were assigned highway clearing and route security for portions of Highways 1, 7A and 19. At 0720 hours, Company B received one mortar round and several RPG rounds at its night perimeter, northeast of Trung Lap. One Bobcat was killed.
+            </p>
+            <p>
+              On March 11, 1969, the Recon Platoon was operating 3 kilometers northwest of Trung Lap with elements of the 2/12th Infantry. At 1045 hours, an APC from the platoon exploded an AT mine. One Bobcat was killed and two were wounded. The APC was a combat loss.
+            </p>
+            <p>
+              On March 12, 1969, the 1/5th(M) continued operations in the Trung Lap area. Companies A and C conducted a RIF operation near Trung Lap. Company A had an APC detonate a mine, wounding two Bobcats.
+            </p>
+            <p>
+              Company B was operating northeast of Trung Lap, when at 1005 hours, an APC detonated an AT mine southwest of the junction of Routes 7A and 15. One Bobcat was wounded and the APC was a combat loss. As the Dust-off came in to pick up the wounded, it detonated another AT mine, causing major damage to the helicopter.
+            </p>
+            <p>
+              On March 13, 1969, Company A conducted a RIF operation northeast of Trung Lap. At 1615 hours, two booby traps were detonated wounding five Bobcats from the company. Two of them died from wounds before they could get to hospital.
+            </p>
+            <p>
+              A duce and a half truck from the 1/5th(M) detonated an AT mine on Highway 7A, 1 kilometer south of Trung Lap at 1000 hours. The vehicle was destroyed. At 1325 hours, Company B, while sweeping around Trung Lap, had 1 round of RPG fired at one of their tracks, but it missed. Fire was returned with unknown results.
+            </p>
+            <p>
+              On March 14, 1969, at 1859 hours, Company C received a mortar barrage on their night perimeter. Two Bobcats were wounded and Dusted-off.
+            </p>
+            <p>
+              At 2315 hours, Company B departed the night perimeter for a night move.
+            </p>
+            <p>
+              On March 15,1969, at 0007 hours, Company C departed their night perimeter for a link up site. At 0031 hours, Company C was located at XT 601240 and moving east. At 0118 hours, Company C was located at XT 607240. They reported hearing movement to their front and received one round of RPG fire. At 0122, a helicopter light fire team was requested and Company C reported that it had 2 APCs hit at this time. At 0130 hours, Company C reported that they were receiving fire from the front and on both flanks. They reported that there were wounded and killed on the two lead APCs and that the column was backing out of the contact at that time. Company B began closing on the Company C contact area. At 0156 hours, Company C requested a Dust-off to stand-by until they could secure an LZ. At 0228 hours, Company C sent a dismounted patrol to pick up any personnel from the lead APCs. Star Clusters had been fired from the APCs.
+            </p>
+            <p>
+              At 0252 hours, the first Dust-off was complete for 8 wounded Bobcats. At 0320 hours, the 2nd Dust-off was complete for 9 wounded Bobcats and one dead Bobcat. At 0321 hours, Company C reported that they were no longer receiving enemy fire.
+            </p>
+            <p>
+              At 0402 hours, the dismounted patrol reached the downed APCs. They found no one alive. At 0701 hours, Company C moved through the area of contact.
+            </p>
+            <p>
+              Five Bobcats were killed and nineteen were wounded in the contact.
+            </p>
+            <p>
+              On March 16, 1969, Companies A and B provided security for Rome Plow operations north of Trung Lap. Company C conducted a RIF along Highway 7A.
+            </p>
+            <p>
+              On March 17, 1969, at 0402 hours, the Company A night perimeter at XT 555271, received 12 rounds of 60mm mortar fire. Two Bobcats were wounded. Fire was returned with unknown results.
+            </p>
+            <p>
+              Companies B and C cleared and secured Highway 7A for convoy use.
+            </p>
+            <p>
+              On March 19, 1969, Company B was operating east of Phouc My at XT 599157. At 1230 hours, a booby trap was detonated wounding one Bobcat. Company C was providing security for Rome Plow operations north of Trung Lap at XT 575275. At 1400 hours they received small arms and RPG fire, wounding one Bobcat. Fire was returned with unknown results. At 1600 hours, Company C again received small arms and RPG fire. Fire was returned with organic weapons and artillery. One Bobcat was killed and two were wounded in the second contact.
+            </p>
+            <p>
+              On March 20, 1969, at 1336 hours, Company C requested a Dust-off. While securing Rome Plow operations at XT 575270, an APC from Company C detonated an AT mine wounding two Bobcats. The track was a combat loss.
+            </p>
+            <p>
+              At 1608 hours, The Recon Platoon received sniper fire at XT 519263, while escorting two flame tracks and a downed APC. Fire was returned with unknown results.
+            </p>
+            <p>
+              At 2320 hours, the Company C night perimeter at XT 552273, received small arms, automatic weapons, RPG and mortar fire. The fire was returned with organic weapons, artillery, helicopter gunships, C-119 gunships and air strikes. Seven Bobcats were wounded in the contact. A check of the area at first light revealed enemy dead along with miscellaneous weapons and ammunition.
+            </p>
+            <p>
+              On March 24, 1969, Company B was assigned to provide security for Rome Plow operations north of Trung Lap. At 0845 hours, Company B received small arms, automatic weapons and RPG fire. The fire was returned with the support of artillery and helicopter gunships. One Bobcat was wounded in the contact.
+            </p>
+            <p>
+              At 1524 hours, Company C requested a Dust-off northwest of Trung Lap at XT 565242. An APC had detonated an AT mine. Three dead Bobcats and three wounded bobcats from Company C were dusted-off. The APC was a combat loss. At 1555 hours, another Dust-off was requested for a Bobcat with eardrum damage and for one with heat stroke.
+            </p>
+            <p>
+              At 1740 hours, Company B again received small arms and RPG fire in the same area. Fire was returned and the enemy fire was suppressed. One Bobcat was wounded in the contact.
+            </p>
+            <p>
+              On March 25, 1969, at 0655 hours, Company C departed the night perimeter for a sweep of Highway 7A from FSB Patton to Highway 1. They were then to provide convoy escort and road security with the Recon Platoon.
+            </p>
+            <p>
+              At 0825 hours, Company B departed their night perimeter to provide security for Rome Plow operations. At 0845 hours, Company B advised that a tank from the 2/34th Armor struck a mine at XT 566263. The mine blew off the rear road wheel and the track. At 0930 hours, Company B received sniper fire at XT 569261. At 0955 hours, Company B reported receiving small arms fire and one RPG round. At 1000 hours, Company B was advised that the battalion would not be using artillery fire so that they could remain in the contact area and the Rome Plows could keep working. At 1007 hours, Company B requested a Dust-off for 2 wounded Bobcats. One of the wounded still had to be rescued from the area of contact. At 1105 hours, Company B reported that as the patrol was moving in to get the wounded Bobcat, a VC threw a hand grenade and they now have one possible KIA. At 1112 hours, a helicopter light fire team was requested to assist Company B. Brigade informed the battalion that no helicopter light fire teams were available. At 1118 hours, Company B requested a Dust-off for two dead Bobcats and one wounded Bobcat. At 1138 hours, the Dust-off was completed.
+            </p>
+            <p>
+              At 1154 hours, a light fire team arrived at the Company B area of contact. At 1324 hours, Company B received small arms fire from 150 meters away on their right flank. At 1331 hours, Company B requested a Dust-off for two Bobcats wounded by RPG fire. At 1431 hours, Company B received another RPG round. At 1515 hours, Company B received a 10 round 82mm mortar barrage. At 1525 hours, Company A requested a Dust-off for two wounded, same location as Company B. At 1618 hours, Company A requested another Dust-off at the same location for two wounded by RPG shrapnel. In a sweep of the contact area at 1712 hours, the bodies of enemy soldiers with weapons, ammunition and miscellaneous equipment were located and policed up.
+            </p>
+            <p>
+              “While sweeping one area at approximately 0900 hours in the morning, the enemy opened up with AK-47 fire. I was hit in the abdomen and both legs. I fell to the ground and noticed two other men taking cover in a partially destroyed house. The platoons pulled back and attempted to destroy the positions the enemy were in. There were three positions pinning us down, two on one side and one on the other. The platoons attempted several times to get to us but were unable to because of the RPG and AK-47 fire coming from the enemy positions. Soon the enemy started firing AK-47s and RPGs at the house I was next to and the other men were in. Then all our elements started firing on the enemy and I noticed two of the lieutenants low crawling towards the two bunkers which were about 10 meters apart. Lt. Doane, platoon leader of the second platoon, reached the first bunker and threw in several grenades and also fired his M-16 into the bunker. I then saw a grenade thrown from the next bunker and heard the yell “grenade.” I could see that Lt. Doane had been wounded. We yelled at Lt. Doane to go back because he couldn’t make it. But he crawled to the next bunker anyway. When he reached it a burst of AK-47 fire came from the bunker and I could see that it had hit Lt. Doane. He then pulled the pin of a grenade and threw himself into the bunker. Lt. Doane had destroyed the two bunkers on one side of us, and the platoon moved in quickly and pulled the three of us out of the area.”
+            </p>
+            <p>
+              Lt. Stephen H. Doane was later posthumously awarded the Congressional Medal of Honor for his actions.
+            </p>
+            <p>
+              On March 28, 1969, at 1200 hours, Company A was operating north of Trung Lap when they received small arms and RPG fire. One APC received a minor RPG hit. Fire was returned and with the support of a helicopter light fire team the enemy fire was suppressed. At 1830 hours, an APC from Company A detonated an AT mine. One Bobcat was wounded and the APC was a combat loss.
+            </p>
+            <p>
+              Company C lost a TVR (tracked vehicle retriever) when it detonated an AT mine south of Trung Lap.
+            </p>
+            <p>
+              On March 29, 1968, at 1230 hours, Company A had an APC detonate a booby trapped 105mm artillery round north of Trung Lap. There were no casualties but the vehicle suffered considerable damage.
+            </p>
+            <p>
+              During March 1969, 22 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Mounce E. West</li>
+              <li>Joseph A. Goodson</li>
+              <li>Robert L. Sloan</li>
+              <li>David P. Jacobs</li>
+              <li>Daniel W. Lawson</li>
+              <li>John A. Nowakowski</li>
+              <li>Larry M. Smith</li>
+              <li>Clarence E. Nunnery Jr.</li>
+              <li>Donnie W. Caudill</li>
+              <li>Daniel W. Lloyd</li>
+              <li>John W. Camp</li>
+              <li>Julio Hernandez Jr.</li>
+              <li>Carl W. Hughes</li>
+              <li>Dennis R. Hunsley</li>
+              <li>Michael Lynch</li>
+              <li>Jack L. Rexrode</li>
+              <li>John D. Hamilton Jr.</li>
+              <li>Robert A. Holan Jr.</li>
+              <li>Dennis M. Silveri</li>
+              <li>Stephen H. Doane</li>
+              <li>Norman C. Smoots</li>
+              <li>ONE whose name is unknown to us writing this report.</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="apr">APRIL</div>
             <p>
               On April 02, 1969, Company C along with Company B, 2/14th Infantry conducted a RIF operation north of Trung Lap in the western fringes of the Ho Bo Woods. Several mines were located and destroyed.
-          On April 04, 1969, Company C continued to conduct RIF operations northeast of Trung Lap in the Ho Bo Woods area. By 0900 hours, several booby trapped artillery and mortar rounds had been located and destroyed. At 1050 hours, an APC from Company C detonated an AT mine. The track was a combat loss. At 1345 hours, another APC from Company C detonated an AT mine. That vehicle was also a combat loss.
-         On April 05, 1969, Company B was conducting road security when an APC from the company detonated an AT mine. One Bobcat was wounded in the explosion.
-       On April 07, 1969, at 0655 hours, the Recon Platoon departed for a sweep of Highway 7A and Highway 1. At 0715 hours, both Companies A and C departed for a RIF operation with Company B, 2/14th Infantry. At 0735 hours, Company B, 1/5th(M) departed for a sweep of Highway 19.
-         At 0844 hours, the Recon Platoon requested a Dust-off for one Bobcat wounded when a booby trap was detonated south of Trung Lap. At 0927 hours, Company A requested a Dust-off for one Bobcat wounded by a booby trap. At 0948 hours, Company C received one incoming mortar round 3 kilometers northwest of Trung Lap. At 0954 hours, Company C requested a Dust-off for one Bobcat wounded by a booby trap at XT 575244.
-         At 1028 hours, Company C reported that the area they were searching had fighting positions containing RPG ammunition and grenades. They found a couple of bodies and each position had a gas mask in it. At 1050 hours, Company C began receiving small arms and RPG fire. A helicopter light fire team was requested. At 1103 hours, Company C requested a Dust-off for two wounded  Bobcats and one dead Bobcat. At 1157 hours, the Dust-off was completed for two dead Bobcats and three wounded Bobcats. At 1250 hours, another Dust-off was requested for one dead and one wounded Bobcat, also from Company C.
-          At 1548 hours, Company A reported that it was receiving RPG fire. At 1558 hours, Company A requested a Dust-off for four wounded Bobcats.
-          During a sweep of the contact area, enemy bodies, weapons and equipment were policed up and disposed of.
-         On April 09, 1969, at 0049 hours, the Company A night perimeter in the Ho Bo Woods at XT 589294 received some RPG fire. At 0052 hours, one company mortar track was hit and burned out of control. That morning after first light, a graves registration team and an explosives ordinance disposal team was flown to the Company A perimeter to extract two dead Bobcats from the inside of the burned mortar track.
-         On April 10, 1969, at 0240 hours, a Spooky Gunship was operating near the Company B night perimeter. At 0428 hours, Company B reported that they had one Bobcat killed and two wounded from stray rounds from the Spooky Gunship and needed a Dust-off. The Dust-off was completed at 0454 hours.
-        On April 11, 1969, at 0320 hours, the Company B night perimeter, located 8 kilometers northwest of Trung Lap at XT 560280, was attacked by an estimated company size VC force. The enemy attack was suppressed by fire from organic weapons, artillery, helicopter and AC-47 Gunships. In a sweep that morning, the company policed up numerous dead enemy bodies, weapons and equipment. No Bobcats were injured in the contact.
-          At 1310 hours, the CRIP element of the 1/5th(M) was operating southeast of Trung Lap when they engaged an estimated enemy platoon sized force at XT 600187. Artillery and Helicopter gunships were called in for support. Several enemy soldiers and two Bobcats were killed in the contact.
-         On April 12, 1969, Company C was clearing a road north of Highway 8A, about 9 kilometers west of Cu Chi Base Camp. At 0645 hours, an APC detonated an AT mine at XT 745154. One Bobcat from Company C was killed and heavy damage was done to the track.
-          On April 13, 1969, Company B had their night defensive perimeter established 2 kilometers northeast of Bao Trai at XT 560070. An enemy force of unknown size attacked the perimeter with small arms, automatic weapons and RPG fire. The fire was returned and suppressed with the assistance of artillery, helicopter gunships and air strikes. One Bobcat was wounded and one APC was destroyed in the contact. The bodies of enemy soldiers with weapons and miscellaneous equipment were policed from the area of contact and disposed of.
-          At 0830 hours, an APC from the Recon Platoon detonated an AT mine on Highway 7A, one kilometer north of the Highway 1 junction. One Bobcat was wounded in the explosion.
-          On April 15, 1969, an APC from Company A detonated an AT mine in the Ho Bo Woods at XT 615280. The company was conducting a RIF while under OPCON to the 2/34th Armor. The APC was a combat loss.
-          On April 18, 1969, Company B was assigned to provide route security for Highway 7A.
-At 1600 hours, while Company A was conducting a RIF operation from Cu Chi to FSB Pershing. They engaged a small force of VC, killing several.
-At 1618 hours, an APC from Company A detonated an AT mine in the same general area as the Company B contact. One Bobcat from Company A was wounded and the APC was a combat loss.
-        On April 22, 1969, Company C was providing security to Route 7A. At 1300 hours, Company A was dispatched to assist a LRRP team that was in contact north of Cu Chi.
-          At 1305 hours, Company B reported that they had one man killed when a booby trapped 105mm artillery round was detonated. A general supply helicopter was requested to extract the Bobcat’s body from the scene.
-          On April 23, 1969, Company C was operating west of Trung Lap when a booby trapped hand grenade was tripped and detonated. One Bobcat was wounded. Companies B and A were operating north of Trung Lap during the day.
-          On April 24, 1968, an M-548 LTVR (Light Tracked Vehicle Retriever) was destroyed when it detonated an AT mine on Highway 7A, south of Trung Lap at 1530 hours.
-          On April 26, 1969, patrol base Frontier City located northwest of Go Dau Ha at XT 202291 and defended by Company C, 4/9th Infantry was attacked by the 271st NVA Regiment at 0035 hours. The company held with the support of artillery, gunships and air strikes.
-On April 27, 1969, at about 0330 hours, Fire Support Base Patton, located on the north fringe of Trung Lap at XT 593217, began receiving 82mm mortar rounds. Fire was returned with unknown results. One Bobcat from the 4.2 mortar section was killed and 3 were wounded. One Bobcat from the Recon Platoon was also wounded.
-          Company C was sent north of Trung Lap to assist the 2/12th Infantry who were in contact. The members of Company C spent the next two days sweeping the area of the 2/12th Infantry contact, policing up enemy bodies, weapons and equipment.
-
-
-         During April 1969, eleven Bobcats died in Viet Nam. They were:
-Charles L. Hathorn Jr.; Stanley E. Mc Creary; Wayne Y. Stewart; James G. Bunch Jr.; Rodney T. Fukunaga; Gerald A. Decker; Gonzalo H. Villasenor; Martin Lechuga; Robert C. King; David Lee; and Richard A. Oman.
-
-
-          The 25th Infantry Division reported the following personnel statistics for the Quarterly Period of February 01, 1969 to April 30, 1969:
-          KIA: 308;  WIA: 2910;  MIA: 0;  NBD: 9;  NBI: 23.
-
-          “The 25th Infantry Division G-2 Section rapidly and accurately developed their estimate of the enemy’s intentions for the spring and summer of 1969. The enemy campaign plans did not promise or call for total victory as in the past. Instead they indicated that victory would be achieved in an indirect and complicated way. Military activity would be conducted to gain political and psychological advantage over the United States and the Government of South Viet Nam, thus weakening our resolve, hastening our departure, and leaving the Communist National Liberation Front politically dominant in South Viet Nam.”
+            </p>
+            <p>
+              On April 04, 1969, Company C continued to conduct RIF operations northeast of Trung Lap in the Ho Bo Woods area. By 0900 hours, several booby trapped artillery and mortar rounds had been located and destroyed. At 1050 hours, an APC from Company C detonated an AT mine. The track was a combat loss. At 1345 hours, another APC from Company C detonated an AT mine. That vehicle was also a combat loss.
+            </p>
+            <p>
+              On April 05, 1969, Company B was conducting road security when an APC from the company detonated an AT mine. One Bobcat was wounded in the explosion.
+            </p>
+            <p>
+              On April 07, 1969, at 0655 hours, the Recon Platoon departed for a sweep of Highway 7A and Highway 1. At 0715 hours, both Companies A and C departed for a RIF operation with Company B, 2/14th Infantry. At 0735 hours, Company B, 1/5th(M) departed for a sweep of Highway 19.
+            </p>
+            <p>
+              At 0844 hours, the Recon Platoon requested a Dust-off for one Bobcat wounded when a booby trap was detonated south of Trung Lap. At 0927 hours, Company A requested a Dust-off for one Bobcat wounded by a booby trap. At 0948 hours, Company C received one incoming mortar round 3 kilometers northwest of Trung Lap. At 0954 hours, Company C requested a Dust-off for one Bobcat wounded by a booby trap at XT 575244.
+            </p>
+            <p>
+              At 1028 hours, Company C reported that the area they were searching had fighting positions containing RPG ammunition and grenades. They found a couple of bodies and each position had a gas mask in it. At 1050 hours, Company C began receiving small arms and RPG fire. A helicopter light fire team was requested. At 1103 hours, Company C requested a Dust-off for two wounded  Bobcats and one dead Bobcat. At 1157 hours, the Dust-off was completed for two dead Bobcats and three wounded Bobcats. At 1250 hours, another Dust-off was requested for one dead and one wounded Bobcat, also from Company C.
+            </p>
+            <p>
+              At 1548 hours, Company A reported that it was receiving RPG fire. At 1558 hours, Company A requested a Dust-off for four wounded Bobcats.
+            </p>
+            <p>
+              During a sweep of the contact area, enemy bodies, weapons and equipment were policed up and disposed of.
+            </p>
+            <p>
+              On April 09, 1969, at 0049 hours, the Company A night perimeter in the Ho Bo Woods at XT 589294 received some RPG fire. At 0052 hours, one company mortar track was hit and burned out of control. That morning after first light, a graves registration team and an explosives ordinance disposal team was flown to the Company A perimeter to extract two dead Bobcats from the inside of the burned mortar track.
+            </p>
+            <p>
+              On April 10, 1969, at 0240 hours, a Spooky Gunship was operating near the Company B night perimeter. At 0428 hours, Company B reported that they had one Bobcat killed and two wounded from stray rounds from the Spooky Gunship and needed a Dust-off. The Dust-off was completed at 0454 hours.
+            </p>
+            <p>
+              On April 11, 1969, at 0320 hours, the Company B night perimeter, located 8 kilometers northwest of Trung Lap at XT 560280, was attacked by an estimated company size VC force. The enemy attack was suppressed by fire from organic weapons, artillery, helicopter and AC-47 Gunships. In a sweep that morning, the company policed up numerous dead enemy bodies, weapons and equipment. No Bobcats were injured in the contact.
+            </p>
+            <p>
+              At 1310 hours, the CRIP element of the 1/5th(M) was operating southeast of Trung Lap when they engaged an estimated enemy platoon sized force at XT 600187. Artillery and Helicopter gunships were called in for support. Several enemy soldiers and two Bobcats were killed in the contact.
+            </p>
+            <p>
+              On April 12, 1969, Company C was clearing a road north of Highway 8A, about 9 kilometers west of Cu Chi Base Camp. At 0645 hours, an APC detonated an AT mine at XT 745154. One Bobcat from Company C was killed and heavy damage was done to the track.
+            </p>
+            <p>
+              On April 13, 1969, Company B had their night defensive perimeter established 2 kilometers northeast of Bao Trai at XT 560070. An enemy force of unknown size attacked the perimeter with small arms, automatic weapons and RPG fire. The fire was returned and suppressed with the assistance of artillery, helicopter gunships and air strikes. One Bobcat was wounded and one APC was destroyed in the contact. The bodies of enemy soldiers with weapons and miscellaneous equipment were policed from the area of contact and disposed of.
+            </p>
+            <p>
+              At 0830 hours, an APC from the Recon Platoon detonated an AT mine on Highway 7A, one kilometer north of the Highway 1 junction. One Bobcat was wounded in the explosion.
+            </p>
+            <p>
+              On April 15, 1969, an APC from Company A detonated an AT mine in the Ho Bo Woods at XT 615280. The company was conducting a RIF while under OPCON to the 2/34th Armor. The APC was a combat loss.
+            </p>
+            <p>
+              On April 18, 1969, Company B was assigned to provide route security for Highway 7A.
+            </p>
+            <p>
+              At 1600 hours, while Company A was conducting a RIF operation from Cu Chi to FSB Pershing. They engaged a small force of VC, killing several.
+            </p>
+            <p>
+              At 1618 hours, an APC from Company A detonated an AT mine in the same general area as the Company B contact. One Bobcat from Company A was wounded and the APC was a combat loss.
+            </p>
+            <p>
+              On April 22, 1969, Company C was providing security to Route 7A. At 1300 hours, Company A was dispatched to assist a LRRP team that was in contact north of Cu Chi.
+            </p>
+            <p>
+              At 1305 hours, Company B reported that they had one man killed when a booby trapped 105mm artillery round was detonated. A general supply helicopter was requested to extract the Bobcat’s body from the scene.
+            </p>
+            <p>
+              On April 23, 1969, Company C was operating west of Trung Lap when a booby trapped hand grenade was tripped and detonated. One Bobcat was wounded. Companies B and A were operating north of Trung Lap during the day.
+            </p>
+            <p>
+              On April 24, 1968, an M-548 LTVR (Light Tracked Vehicle Retriever) was destroyed when it detonated an AT mine on Highway 7A, south of Trung Lap at 1530 hours.
+            </p>
+            <p>
+              On April 26, 1969, patrol base Frontier City located northwest of Go Dau Ha at XT 202291 and defended by Company C, 4/9th Infantry was attacked by the 271st NVA Regiment at 0035 hours. The company held with the support of artillery, gunships and air strikes.
+            </p>
+            <p>
+              On April 27, 1969, at about 0330 hours, Fire Support Base Patton, located on the north fringe of Trung Lap at XT 593217, began receiving 82mm mortar rounds. Fire was returned with unknown results. One Bobcat from the 4.2 mortar section was killed and 3 were wounded. One Bobcat from the Recon Platoon was also wounded.
+            </p>
+            <p>
+              Company C was sent north of Trung Lap to assist the 2/12th Infantry who were in contact. The members of Company C spent the next two days sweeping the area of the 2/12th Infantry contact, policing up enemy bodies, weapons and equipment.
+            </p>
+            <p>
+              The 25th Infantry Division reported the following personnel statistics for the Quarterly Period of February 01, 1969 to April 30, 1969:
+            </p>
+            <p>
+              KIA: 308;  WIA: 2910;  MIA: 0;  NBD: 9;  NBI: 23.
+            </p>
+            <p>
+              “The 25th Infantry Division G-2 Section rapidly and accurately developed their estimate of the enemy’s intentions for the spring and summer of 1969. The enemy campaign plans did not promise or call for total victory as in the past. Instead they indicated that victory would be achieved in an indirect and complicated way. Military activity would be conducted to gain political and psychological advantage over the United States and the Government of South Viet Nam, thus weakening our resolve, hastening our departure, and leaving the Communist National Liberation Front politically dominant in South Viet Nam.”
             </p>
             <p>
               During April 1969, X Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Charles L. Hathorn Jr.</li>
+              <li>Stanley E. Mc Creary</li>
+              <li>Wayne Y. Stewart</li>
+              <li>James G. Bunch Jr.</li>
+              <li>Rodney T. Fukunaga</li>
+              <li>Gerald A. Decker</li>
+              <li>Gonzalo H. Villasenor</li>
+              <li>Martin Lechuga</li>
+              <li>Robert C. King</li>
+              <li>David Lee</li>
+              <li>Richard A. Oman</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="may">MAY</div>
             <p>
               At the beginning of May 1969, the 1/5th(M) had the mission of locating and destroying base areas and caches and eliminating Viet Cong Cadre in the Trung Lap – Ho Bo Woods area as well as preventing attacks by fire against Cu Chi Base Camp.
-          During the period, elements of the 1/5th(M) and the 2/14th Infantry, under the operational control of the 2/34th Armor, provided security for the Phu Cuong (XT 8114) and the Ba Bep (XT 7813) Bridges on Highway 8A.
-      On May 01, 1969, one Bobcat from Company A died in hospital from wounds he had previously received. Another Bobcat from the Recon Platoon died from non-hostile causes.
-          On May 08, 1969, Companies B and C were providing route security for Highway 1, east of Trang Bang. Enemy troops were observed about 1 kilometer north of the highway and were taken under fire with organic weapons, artillery and helicopter gunships.
-          On May 10, 1969, Company A and one platoon from Company D, 2/12th Infantry established a night defensive perimeter in the Boi Loi Woods at XT 559278. After establishing their positions, a test fire of weapons was ordered after dark. During the test fire, a mortar illumination round was fired. The light exposed a force of about 30 enemy soldiers advancing toward the perimeter. They were taken under fire and fled in surprise. The next morning, the bodies of dead enemy soldiers with weapons and equipment were policed from the area of contact.
-On May 12, 1969, at 0315 hours, the 1/5th(M) CRIP element was positioned at the Cu Chi Sub-Sector when an 82mm mortar barrage hit the position. Six Bobcats were wounded and one was killed in the attack.
-          On May 13, 1969, at 0955 hours, Companies B and D of the 2/12th Infantry commenced a combat assault into a suspected NVA base area between the Ho Bo and Boi Loi Woods at XT 569311. Meeting intense enemy fire, Company D withdrew to allow helicopter gunships and artillery to pound the area. Company A, 1/5th(M) set up a blocking position during the air strikes. After the air strikes, the companies moved through the area policing dead enemy bodies, weapons and equipment from the bunker complexes.
-          On May 21, 1969, at 0500 hours, Company B with one platoon from Company C and the 132nd Regional Force Company commenced a cordon and search operation of Giong Viec Hamlet located between Phuoc My and Cu Chi at XT 605155. Immediately upon moving into the objective area, the South Vietnamese RF soldiers captured a VC with his AK-47 Rifle. He said he was a squad leader and that there were 20 other VC in the hamlet. A PSYOPS broadcast was made and one VC surrendered.
-          The RF Company and two platoons from Company B made a sweep of the area. They found a number of VC dead from the preparatory artillery fire that had been placed on the area. They also took 6 VC prisoners, along with weapons, ammunition and equipment.
-          Among the POWs was a nurse who had previously worked for the 554th Engineer Battalion on Cu Chi Base Camp. The nurse was instrumental in the capture of 3 females employed at Cu Chi Base Camp who worked for the VC and were involved in the mining of the 554th Engineer Battalion mess hall on January 03, 1969.
-          On May 26, 1969, based on intelligence gathered from the May 21 operation, another combined operation was commenced in Giong Viec. Killed in this operation was the C-20 Local Force Company Commander and a squad of his soldiers.
-          On May 29, 1969, elements of the 1/5th(M) participated in a combined cordon and search operation 3 kilometers northwest of Trung Lap. As forces moved into the area, the fleeing VC were subjected to artillery and helicopter gunship fire. The blocking forces were Company B(-) on the right, Company A 2/34th Armor and Company C, 2/12th Infantry on the left. To the east was Company C, 2/27th Infantry. Company C,1/5th(M) and ARVN forces would conduct the search.
-          At 1137 hours, Company C requested a Dust-off for one wounded Bobcat. At 1232 hours, Company C requested another Dust-off for one man with a gunshot wound and one with wounds from a booby trapped hand grenade.
-          At 1330 hours, Company C received RPG fire from hedgerows to their front. Two APCs were hit. A Dust-off was requested for one wounded Bobcat. The two damaged APCs were extracted from the area and air strikes were called in. At 1440 hours, Company C had another APC hit by RPG fire. A Dust-off was requested for five wounded Bobcats and one dead Bobcat. Air support was again employed before the units swept through the area.
-          On May 31, 1969, Company B located a rice cache in the Ho Bo Woods while conducting a RIF operation.
-
-
-          During May 1969, four Bobcats died in Viet Nam. They were: James D. Blasko; Ronald A. Hill; Stephen W. DeAro; and Charles E. McMillion .
             </p>
             <p>
-              During May 1969, X Bobcats died in Vietnam. They were:
+              During the period, elements of the 1/5th(M) and the 2/14th Infantry, under the operational control of the 2/34th Armor, provided security for the Phu Cuong (XT 8114) and the Ba Bep (XT 7813) Bridges on Highway 8A.
+            </p>
+            <p>
+              On May 01, 1969, one Bobcat from Company A died in hospital from wounds he had previously received. Another Bobcat from the Recon Platoon died from non-hostile causes.
+            </p>
+            <p>
+              On May 08, 1969, Companies B and C were providing route security for Highway 1, east of Trang Bang. Enemy troops were observed about 1 kilometer north of the highway and were taken under fire with organic weapons, artillery and helicopter gunships.
+            </p>
+            <p>
+              On May 10, 1969, Company A and one platoon from Company D, 2/12th Infantry established a night defensive perimeter in the Boi Loi Woods at XT 559278. After establishing their positions, a test fire of weapons was ordered after dark. During the test fire, a mortar illumination round was fired. The light exposed a force of about 30 enemy soldiers advancing toward the perimeter. They were taken under fire and fled in surprise. The next morning, the bodies of dead enemy soldiers with weapons and equipment were policed from the area of contact.
+            </p>
+            <p>
+              On May 12, 1969, at 0315 hours, the 1/5th(M) CRIP element was positioned at the Cu Chi Sub-Sector when an 82mm mortar barrage hit the position. Six Bobcats were wounded and one was killed in the attack.
+            </p>
+            <p>
+              On May 13, 1969, at 0955 hours, Companies B and D of the 2/12th Infantry commenced a combat assault into a suspected NVA base area between the Ho Bo and Boi Loi Woods at XT 569311. Meeting intense enemy fire, Company D withdrew to allow helicopter gunships and artillery to pound the area. Company A, 1/5th(M) set up a blocking position during the air strikes. After the air strikes, the companies moved through the area policing dead enemy bodies, weapons and equipment from the bunker complexes.
+            </p>
+            <p>
+              On May 21, 1969, at 0500 hours, Company B with one platoon from Company C and the 132nd Regional Force Company commenced a cordon and search operation of Giong Viec Hamlet located between Phuoc My and Cu Chi at XT 605155. Immediately upon moving into the objective area, the South Vietnamese RF soldiers captured a VC with his AK-47 Rifle. He said he was a squad leader and that there were 20 other VC in the hamlet. A PSYOPS broadcast was made and one VC surrendered.
+            </p>
+            <p>
+              The RF Company and two platoons from Company B made a sweep of the area. They found a number of VC dead from the preparatory artillery fire that had been placed on the area. They also took 6 VC prisoners, along with weapons, ammunition and equipment.
+            </p>
+            <p>
+              Among the POWs was a nurse who had previously worked for the 554th Engineer Battalion on Cu Chi Base Camp. The nurse was instrumental in the capture of 3 females employed at Cu Chi Base Camp who worked for the VC and were involved in the mining of the 554th Engineer Battalion mess hall on January 03, 1969.
+            </p>
+            <p>
+              On May 26, 1969, based on intelligence gathered from the May 21 operation, another combined operation was commenced in Giong Viec. Killed in this operation was the C-20 Local Force Company Commander and a squad of his soldiers.
+            </p>
+            <p>
+              On May 29, 1969, elements of the 1/5th(M) participated in a combined cordon and search operation 3 kilometers northwest of Trung Lap. As forces moved into the area, the fleeing VC were subjected to artillery and helicopter gunship fire. The blocking forces were Company B(-) on the right, Company A 2/34th Armor and Company C, 2/12th Infantry on the left. To the east was Company C, 2/27th Infantry. Company C,1/5th(M) and ARVN forces would conduct the search.
+            </p>
+            <p>
+              At 1137 hours, Company C requested a Dust-off for one wounded Bobcat. At 1232 hours, Company C requested another Dust-off for one man with a gunshot wound and one with wounds from a booby trapped hand grenade.
+            </p>
+            <p>
+              At 1330 hours, Company C received RPG fire from hedgerows to their front. Two APCs were hit. A Dust-off was requested for one wounded Bobcat. The two damaged APCs were extracted from the area and air strikes were called in. At 1440 hours, Company C had another APC hit by RPG fire. A Dust-off was requested for five wounded Bobcats and one dead Bobcat. Air support was again employed before the units swept through the area.
+            </p>
+            <p>
+              On May 31, 1969, Company B located a rice cache in the Ho Bo Woods while conducting a RIF operation.
+            </p>
+            <p>
+              During May 1969, 4 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>James D. Blasko</li>
+              <li>Ronald A. Hill</li>
+              <li>Stephen W. DeAro</li>
+              <li>Charles E. McMillion</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jun">JUNE</div>
             <p>
               On June 05, 1969, Companies A and C began participation in a five day RIF in an area northwest of Trung Lap. Also participating in the operation on the first day were Companies B and C of the 2/12th Infantry, Company A, 2/34th Armor, and elements of the ARVN 3/49th Infantry.
-          At 1248 hours, a large enemy force in fortified positions was engaged at XT 568255. Elements from Companies A and C, 1/5th(M) received heavy small arms, automatic weapons and RPG fire. Artillery and helicopter gunship fires were called in called in to help suppress the enemy fire. During the firefight, a helicopter gunship was shot down, killing all four members of the crew. Three APCs were also destroyed by enemy fire.
-          Three Bobcats from Company A, two Bobcats from Company C and one Bobcat medic were killed in the encounter. Fourteen Bobcats were wounded.
-          During a sweep of the area after the firefight, bodies of dead enemy soldiers along with weapons and equipment were policed up and disposed of.
-          On June 08, 1969, Company A, 1/5th(M) and Company A, 2/14th Infantry, conducted a RIF operation to assess bomb damage from an air strike north of Trung Lap at XT 573247. The units located several dead enemy soldiers with their weapons. At 1705 hours, an unknown size enemy force was engaged in the same general area. Artillery and Helicopter gunship fires were called in for support. While policing up enemy bodies and weapons after the contact, documents were found indicating that the enemy unit was an element of the 268th VC/NVA Regiment.
-          On June 09, 1969, one Bobcat from Company A was killed by a booby trap explosion.
-          On June 13, 1969, Company C, conducted a sweep north of Trung Lap towards a blocking position established by a Regional Force Company. At 1105 hours, an unknown size enemy force was engaged. One APC was hit by an RPG round, causing major damage and wounding two Bobcats. Artillery and air strikes were called in, eliminating the enemy force.
-          At 2120 hours, an ambush patrol from Company A engaged an enemy squad just north of Phuoc My at XT 587168. One Bobcat was wounded in the exchange, which killed several enemy soldiers.
-          At 2330 hours, a night combat patrol from Company A called in artillery on a suspected enemy position at XT 571164. The enemy responded with RPG fire which hit one APC, wounding four Bobcats. Helicopter gunships were called into the area and one of them was shot down, wounding the four crew members. In a sweep of the area at first light, enemy bodies, weapons and equipment were policed up.
-          On June 15, 1969, Company B responded to assist Troop A, ¾ Cavalry, north of Trang Bang at XT 482243. Also responding were the CRIP element of the 2/12th Infantry and a Regional Force Company. The Cavalry unit had made contact with a large enemy force. Artillery, air strikes and helicopter gunships were employed to destroy the enemy, who were fighting from fortified positions. Many enemy bodies were located in the area of contact after the firing had ceased. 12 US troops were wounded and one was killed in the battle.
-          On June 27, 1969, Company B reacted to reinforce Company C, 2/14th Infantry, who were in contact with an enemy force near the Saigon River, east of Cu Chi, at XT 758170. Artillery and helicopter gunships were used to suppress the enemy fire. After the VC broke contact, many bodies of dead enemy soldiers were found on the field of battle. Weapons and over 100 rounds of RPG ammunition were also located and disposed of.
-          On June 28, 1969, at 1425 hours, elements of Company C detonated a booby trap consisting of two 105mm rounds along Highway 237, southeast of Trung Lap at XT 598181. Two Bobcats were killed and two were wounded by the blast. The Company was providing security for Rome Plow cutting operations.
-          Company A conducted a RIF a few kilometers southeast of Trang Bang without incident.
-        On June 29, 1969, Company C was providing security for Rome Plow cutting operations southwest of Trung Lap. Several booby traps were located during the morning and were disposed of. At 1435 hours, the Company located a booby trapped 155mm artillery round and blew it in place. At 1445 hours, Company C requested a gunship as they were receiving sporadic mortar fire. Also they reported that they had one Bobcat dead at XT 576206, who had stepped on a booby trapped 105mm artillery round, detonating it.
-          At 1642 hours, Company C reported that they found an 81mm mortar tube and a number of rounds of mortar ammunition in a bunker inside a small house at XT 569206.
-          The Recon Platoon provided security along Route 19 during the day.
-
-
- During June 1969, ten Bobcats died in Viet Nam. They were: Charles M. Ramsey; Robert E. Langston; Patrick E. Poppenga; James D. Walker; David P. Callahan; James A. Mardis Jr.; Lionel T. Rachal; William C. Dabbert; Steven L. McGinnis; and Charles M. Kiniyalocts.
             </p>
             <p>
-              During June 1969, X Bobcats died in Vietnam. They were:
+              At 1248 hours, a large enemy force in fortified positions was engaged at XT 568255. Elements from Companies A and C, 1/5th(M) received heavy small arms, automatic weapons and RPG fire. Artillery and helicopter gunship fires were called in called in to help suppress the enemy fire. During the firefight, a helicopter gunship was shot down, killing all four members of the crew. Three APCs were also destroyed by enemy fire.
+            </p>
+            <p>
+              Three Bobcats from Company A, two Bobcats from Company C and one Bobcat medic were killed in the encounter. Fourteen Bobcats were wounded.
+            </p>
+            <p>
+              During a sweep of the area after the firefight, bodies of dead enemy soldiers along with weapons and equipment were policed up and disposed of.
+            </p>
+            <p>
+              On June 08, 1969, Company A, 1/5th(M) and Company A, 2/14th Infantry, conducted a RIF operation to assess bomb damage from an air strike north of Trung Lap at XT 573247. The units located several dead enemy soldiers with their weapons. At 1705 hours, an unknown size enemy force was engaged in the same general area. Artillery and Helicopter gunship fires were called in for support. While policing up enemy bodies and weapons after the contact, documents were found indicating that the enemy unit was an element of the 268th VC/NVA Regiment.
+            </p>
+            <p>
+              On June 09, 1969, one Bobcat from Company A was killed by a booby trap explosion.
+            </p>
+            <p>
+              On June 13, 1969, Company C, conducted a sweep north of Trung Lap towards a blocking position established by a Regional Force Company. At 1105 hours, an unknown size enemy force was engaged. One APC was hit by an RPG round, causing major damage and wounding two Bobcats. Artillery and air strikes were called in, eliminating the enemy force.
+            </p>
+            <p>
+              At 2120 hours, an ambush patrol from Company A engaged an enemy squad just north of Phuoc My at XT 587168. One Bobcat was wounded in the exchange, which killed several enemy soldiers.
+            </p>
+            <p>
+              At 2330 hours, a night combat patrol from Company A called in artillery on a suspected enemy position at XT 571164. The enemy responded with RPG fire which hit one APC, wounding four Bobcats. Helicopter gunships were called into the area and one of them was shot down, wounding the four crew members. In a sweep of the area at first light, enemy bodies, weapons and equipment were policed up.
+            </p>
+            <p>
+              On June 15, 1969, Company B responded to assist Troop A, ¾ Cavalry, north of Trang Bang at XT 482243. Also responding were the CRIP element of the 2/12th Infantry and a Regional Force Company. The Cavalry unit had made contact with a large enemy force. Artillery, air strikes and helicopter gunships were employed to destroy the enemy, who were fighting from fortified positions. Many enemy bodies were located in the area of contact after the firing had ceased. 12 US troops were wounded and one was killed in the battle.
+            </p>
+            <p>
+              On June 27, 1969, Company B reacted to reinforce Company C, 2/14th Infantry, who were in contact with an enemy force near the Saigon River, east of Cu Chi, at XT 758170. Artillery and helicopter gunships were used to suppress the enemy fire. After the VC broke contact, many bodies of dead enemy soldiers were found on the field of battle. Weapons and over 100 rounds of RPG ammunition were also located and disposed of.
+            </p>
+            <p>
+              On June 28, 1969, at 1425 hours, elements of Company C detonated a booby trap consisting of two 105mm rounds along Highway 237, southeast of Trung Lap at XT 598181. Two Bobcats were killed and two were wounded by the blast. The Company was providing security for Rome Plow cutting operations.
+            </p>
+            <p>
+              Company A conducted a RIF a few kilometers southeast of Trang Bang without incident.
+            </p>
+            <p>
+              On June 29, 1969, Company C was providing security for Rome Plow cutting operations southwest of Trung Lap. Several booby traps were located during the morning and were disposed of. At 1435 hours, the Company located a booby trapped 155mm artillery round and blew it in place. At 1445 hours, Company C requested a gunship as they were receiving sporadic mortar fire. Also they reported that they had one Bobcat dead at XT 576206, who had stepped on a booby trapped 105mm artillery round, detonating it.
+            </p>
+            <p>
+              At 1642 hours, Company C reported that they found an 81mm mortar tube and a number of rounds of mortar ammunition in a bunker inside a small house at XT 569206.
+            </p>
+            <p>
+              The Recon Platoon provided security along Route 19 during the day.
+            </p>
+            <p>
+              During June 1969, 10 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Charles M. Ramsey</li>
+              <li>Robert E. Langston</li>
+              <li>Patrick E. Poppenga</li>
+              <li>James D. Walker</li>
+              <li>David P. Callahan</li>
+              <li>James A. Mardis Jr.</li>
+              <li>Lionel T. Rachal</li>
+              <li>William C. Dabbert</li>
+              <li>Steven L. McGinnis</li>
+              <li>Charles M. Kiniyalocts</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="jul">JULY</div>
             <p>
               During July 1969, the 1/5th(M) continued operating in the area north of Trung Lap and Trang Bang. A part of the area had become known by the nickname “The Citadel.” Elements of the battalion also continued to provide security along roadways in the area. The battalion forward base continued to be located at FSB Devin.
-
-          On July 03, 1969, the Recon Platoon swept and opened Highway 1 and 7A. At 0932 hours, Company B departed FSB Patton with a Rome Plow for cutting operations.
- That morning at 0930 hours, some men from Company B, 2/14th infantry fired a LAW into a hedgerow. When it did not detonate, 4 men went to check it out. It exploded while they were examining it, killing one and injuring 3.
-          At 1130 hours, Company B reported that one of the Rome Plows hit a mine with negative casualties. At 1152 hours, Company B reported that they were receiving small arms and one round of RPG fire northwest of Trung Lap at XT 567215. Fire was returned with unknown results. At 1255 hours, Company B requested a Dust-off for three Bobcats wounded by a booby trap explosion at XT 561216. At 1408 hours, Company B requested another Dust-off for four Bobcats wounded by a booby trap explosion in the same general area.
-          Company A conducted a RIF of the area immediately northwest of the junction of Highways 1 and 7A during the afternoon with negative contact.
-          On July 07, 1969, Company B was operating along Highway 7A, northwest of Trung Lap. At 1250 hours, Company B requested a Dust-off for one Bobcat wounded by a booby trap detonation at XT 605223. At 1325 hours, Company B requested another Dust-off at the same location. One Bobcat had been killed and two others wounded when a booby trap exploded.
-          At 1343 hours, Company B requested two flame baths in the cutting area at XT 602220.
-On July 08, 1969, at 1500 hours, Company A requested a Dust-off  5 kilometers northwest of Cu Chi Base Camp on Highway 237. Two ARVN soldiers and one Bobcat had been wounded by a booby trap explosion. The Company A Bobcat died from his injuries before he got to hospital.
- Earlier in the day, three Bobcats from Company B were wounded from a booby trap detonation.
-          On July 15, 1969, Company A was OPCON to the 2/14th Infantry when they captured a wounded NVA soldier. The POW gave directions which led to a small arms cache in the lower Filhol.
-          On July 28, 1969, Company B took part in a one day RIF operation north of Trung Lap. At 1455 hours, Company B started to receive small arms fire at XT 575230. At 1543 hours, the company requested a Dust-off for two wounded Bobcats. One died of his wounds at hospital. By 1700 hours, Company B had 3 POWs, along with several weapons and miscellaneous equipment  which were policed from among the dead bodies of the enemy soldiers in the area of contact.
-           On July 29, 1969, the Recon Platoon was working with a squad from the 162nd RF Company sweeping Highway 7A. At 1620 hours, southwest of Thai My at XT 517144, a VC was observed exiting what appeared to be a tunnel entrance. He was fired on and dove back under cover. As the units approached the area, they observed that it was a bunker with overhead cover. Upon receiving no response to calls to surrender, several LAWs were fired at the bunker. Two VC emerged from the bunker. One ran and was wounded and taken POW with the other one. In talking to him, the RFs learned that there were more VC soldiers in the bunker.
-          While checking around the bunker, a booby trap was detonated wounding one Bobcat and one ARVN soldier. A surrender appeal was again announced. With no response, a shape charge was detonated on top of the bunker. Upon checking, dead enemy soldiers were found inside the bunker.
-
-
-          During July 1969, three Bobcats died in Viet Nam. They were: Thomas J. Lyons; Jesse Uptigrove; and Paul E. Fabrisi.
-
-
-          During the Quarterly Period of  May 01, 1969 to July 31, 1969, the 25th Infantry Division reported the following personnel statistics:
-          KIA: 179;  WIA: 2,070 (572 evacuated);  NBD: 21;  NBI: 36; MIA: 0.
-
-          During the reporting period there continued to be a personnel shortage in the division of Infantry Captains and Lieutenants and Field Artillery Lieutenants. There also continued to be a shortage of NCOs in grades E6 through E9 in the 11B, 11C, 11F, 12B, 17B, 17K, 31G, 63A, 63C, 76A, 76P, 76Y, 76Z and 94B MOS.
             </p>
             <p>
-              During July 1969, X Bobcats died in Vietnam. They were:
+              On July 03, 1969, the Recon Platoon swept and opened Highway 1 and 7A. At 0932 hours, Company B departed FSB Patton with a Rome Plow for cutting operations.
+            </p>
+            <p>
+              That morning at 0930 hours, some men from Company B, 2/14th infantry fired a LAW into a hedgerow. When it did not detonate, 4 men went to check it out. It exploded while they were examining it, killing one and injuring 3.
+            </p>
+            <p>
+              At 1130 hours, Company B reported that one of the Rome Plows hit a mine with negative casualties. At 1152 hours, Company B reported that they were receiving small arms and one round of RPG fire northwest of Trung Lap at XT 567215. Fire was returned with unknown results. At 1255 hours, Company B requested a Dust-off for three Bobcats wounded by a booby trap explosion at XT 561216. At 1408 hours, Company B requested another Dust-off for four Bobcats wounded by a booby trap explosion in the same general area.
+            </p>
+            <p>
+              Company A conducted a RIF of the area immediately northwest of the junction of Highways 1 and 7A during the afternoon with negative contact.
+            </p>
+            <p>
+              On July 07, 1969, Company B was operating along Highway 7A, northwest of Trung Lap. At 1250 hours, Company B requested a Dust-off for one Bobcat wounded by a booby trap detonation at XT 605223. At 1325 hours, Company B requested another Dust-off at the same location. One Bobcat had been killed and two others wounded when a booby trap exploded.
+            </p>
+            <p>
+              At 1343 hours, Company B requested two flame baths in the cutting area at XT 602220.
+            </p>
+            <p>
+              On July 08, 1969, at 1500 hours, Company A requested a Dust-off  5 kilometers northwest of Cu Chi Base Camp on Highway 237. Two ARVN soldiers and one Bobcat had been wounded by a booby trap explosion. The Company A Bobcat died from his injuries before he got to hospital.
+            </p>
+            <p>
+              Earlier in the day, three Bobcats from Company B were wounded from a booby trap detonation.
+            </p>
+            <p>
+              On July 15, 1969, Company A was OPCON to the 2/14th Infantry when they captured a wounded NVA soldier. The POW gave directions which led to a small arms cache in the lower Filhol.
+            </p>
+            <p>
+              On July 28, 1969, Company B took part in a one day RIF operation north of Trung Lap. At 1455 hours, Company B started to receive small arms fire at XT 575230. At 1543 hours, the company requested a Dust-off for two wounded Bobcats. One died of his wounds at hospital. By 1700 hours, Company B had 3 POWs, along with several weapons and miscellaneous equipment  which were policed from among the dead bodies of the enemy soldiers in the area of contact.
+            </p>
+            <p>
+              On July 29, 1969, the Recon Platoon was working with a squad from the 162nd RF Company sweeping Highway 7A. At 1620 hours, southwest of Thai My at XT 517144, a VC was observed exiting what appeared to be a tunnel entrance. He was fired on and dove back under cover. As the units approached the area, they observed that it was a bunker with overhead cover. Upon receiving no response to calls to surrender, several LAWs were fired at the bunker. Two VC emerged from the bunker. One ran and was wounded and taken POW with the other one. In talking to him, the RFs learned that there were more VC soldiers in the bunker.
+            </p>
+            <p>
+              While checking around the bunker, a booby trap was detonated wounding one Bobcat and one ARVN soldier. A surrender appeal was again announced. With no response, a shape charge was detonated on top of the bunker. Upon checking, dead enemy soldiers were found inside the bunker.
+            </p>
+            <p>
+              During the Quarterly Period of  May 01, 1969 to July 31, 1969, the 25th Infantry Division reported the following personnel statistics:
+            </p>
+            <p>
+              KIA: 179;  WIA: 2,070 (572 evacuated);  NBD: 21;  NBI: 36; MIA: 0.
+            </p>
+            <p>
+              During the reporting period there continued to be a personnel shortage in the division of Infantry Captains and Lieutenants and Field Artillery Lieutenants. There also continued to be a shortage of NCOs in grades E6 through E9 in the 11B, 11C, 11F, 12B, 17B, 17K, 31G, 63A, 63C, 76A, 76P, 76Y, 76Z and 94B MOS.
+            </p>
+            <p>
+              During July 1969, 3 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Thomas J. Lyons</li>
+              <li>Jesse Uptigrove</li>
+              <li>Paul E. Fabrisi</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="aug">AUGUST</div>
             <p>
               As August 1969 began, the 1/5th(M) would be assigned offensive operations in the Ho Bo Woods, the “Citadel” area and the Filhol. They would also be responsible for road security operations on sections of the area roadways.
-          On August 04, 1969, The CRIP elements of the 1/5th(M) and the 2/14th Infantry engaged an enemy squad northeast of Cu Chi at XT 628179. In close fighting they eliminated the enemy force.
-On August 14, 1969, a Bobcat from Company B died as the result of injuries he sustained in an accidental vehicle crash.
-          On August 15, 1969, the Recon Platoon conducted operations southeast of Cu Chi Base Camp in the area of XT 672122. Company C conducted a sweep south of the junction of  Highways 1 and 7A in the area of XT 561142. At 1152 hours, Company B requested a Dust-off  2 kilometers northwest of Thai My at XT 518168. Two Bobcats from the company had been wounded and one was killed when a booby trapped hand grenade was tripped and detonated.
-          On August 17, 1969, Company B was providing security for Rome Plow cutting operations 3 kilometers southeast of Trang Bang. At 1320 hours, the company requested a Dust-off for one Bobcat with shrapnel wounds to his left arm.
-At 1400 hours, Company A requested a Dust-off. An APC from the company had detonated what was estimated to be a 100 pound mine three kilometers northwest of Cu Chi Base Camp at XT 624184. Five Bobcats were wounded and the APC was a combat loss. One of the wounded Bobcats from Company A died of his wounds in hospital later that day.
-           On August 20, 1969, an unusual sighting was made by US Forces at Duc Hue. Ten enemy were engaged with artillery and fled into Cambodia in the vicinity of XT 3014. At 1845 hours, two helicopters landed in the area to which the enemy personnel had escaped. Helicopters were sighted in the “Angel’s Wing” earlier in 1969 but their manner of employment and ownership remained undetermined.
-           On August 21, 1969, at 1215 hours, the Recon Platoon with one flame track attached, discovered four tunnels along a hedgerow at XT 549195 about 2 kilometers northwest of FSB Devins. The tunnels showed signs of recent use and as they approached the next hedgerow, one VC was observed running from the high grass into the hedgerow. The flame track doused the hedgerow and the VC ran and was shot. A search of the hedgerow revealed the body of another enemy soldier. Suddenly another VC jumped up from the tall grass and ran into the hedgerow. The platoon pulled back and sprayed the hedgerow and area with automatic weapons fire. An airstrike was requested and Company C, with two additional flame tracks responded from FSB Devins. Following the air strike and an artillery barrage, soldiers from Company C dismounted and approached the hedgerow. Bursts of automatic weapons fire from several positions greeted them. As these targets were engaged, an RPG was fired hitting an APC which began to burn. A soldier on the track had risen to throw a hand grenade into a spider hole and the blast knocked him from the track. His hand grenade rolled and detonated wounding two Bobcats. The force withdrew and an LFT expended its load on the hedgerow. The three flame tracks then sprayed the hedgerow and a portion of the tall grass to the right. The soldiers again advanced on the hedgerow and met no resistance.
-On August 22, 1969, a Bobcat from the Recon Platoon died from multiple fragmentation wounds.
-
-
- During August 1969,  four Bobcats died in Viet Nam. They were: Richard M. Wise; Richard D. Laxson; Ronald W. Panno; and Thomas M. Ralston.
             </p>
             <p>
-              During August 1969, X Bobcats died in Vietnam. They were:
+              On August 04, 1969, The CRIP elements of the 1/5th(M) and the 2/14th Infantry engaged an enemy squad northeast of Cu Chi at XT 628179. In close fighting they eliminated the enemy force.
+            </p>
+            <p>
+              On August 14, 1969, a Bobcat from Company B died as the result of injuries he sustained in an accidental vehicle crash.
+            </p>
+            <p>
+              On August 15, 1969, the Recon Platoon conducted operations southeast of Cu Chi Base Camp in the area of XT 672122. Company C conducted a sweep south of the junction of  Highways 1 and 7A in the area of XT 561142. At 1152 hours, Company B requested a Dust-off  2 kilometers northwest of Thai My at XT 518168. Two Bobcats from the company had been wounded and one was killed when a booby trapped hand grenade was tripped and detonated.
+            </p>
+            <p>
+              On August 17, 1969, Company B was providing security for Rome Plow cutting operations 3 kilometers southeast of Trang Bang. At 1320 hours, the company requested a Dust-off for one Bobcat with shrapnel wounds to his left arm.
+            </p>
+            <p>
+              At 1400 hours, Company A requested a Dust-off. An APC from the company had detonated what was estimated to be a 100 pound mine three kilometers northwest of Cu Chi Base Camp at XT 624184. Five Bobcats were wounded and the APC was a combat loss. One of the wounded Bobcats from Company A died of his wounds in hospital later that day.
+            </p>
+            <p>
+              On August 20, 1969, an unusual sighting was made by US Forces at Duc Hue. Ten enemy were engaged with artillery and fled into Cambodia in the vicinity of XT 3014. At 1845 hours, two helicopters landed in the area to which the enemy personnel had escaped. Helicopters were sighted in the “Angel’s Wing” earlier in 1969 but their manner of employment and ownership remained undetermined.
+            </p>
+            <p>
+              On August 21, 1969, at 1215 hours, the Recon Platoon with one flame track attached, discovered four tunnels along a hedgerow at XT 549195 about 2 kilometers northwest of FSB Devins. The tunnels showed signs of recent use and as they approached the next hedgerow, one VC was observed running from the high grass into the hedgerow. The flame track doused the hedgerow and the VC ran and was shot. A search of the hedgerow revealed the body of another enemy soldier. Suddenly another VC jumped up from the tall grass and ran into the hedgerow. The platoon pulled back and sprayed the hedgerow and area with automatic weapons fire. An airstrike was requested and Company C, with two additional flame tracks responded from FSB Devins. Following the air strike and an artillery barrage, soldiers from Company C dismounted and approached the hedgerow. Bursts of automatic weapons fire from several positions greeted them. As these targets were engaged, an RPG was fired hitting an APC which began to burn. A soldier on the track had risen to throw a hand grenade into a spider hole and the blast knocked him from the track. His hand grenade rolled and detonated wounding two Bobcats. The force withdrew and an LFT expended its load on the hedgerow. The three flame tracks then sprayed the hedgerow and a portion of the tall grass to the right. The soldiers again advanced on the hedgerow and met no resistance.
+            </p>
+            <p>
+              On August 22, 1969, a Bobcat from the Recon Platoon died from multiple fragmentation wounds.
+            </p>
+            <!-- <p>
+              During August 1969,  four Bobcats died in Viet Nam. They were: Richard M. Wise; Richard D. Laxson; Ronald W. Panno; and Thomas M. Ralston.
+            </p> -->
+            <p>
+              During August 1969, 4 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Richard M. Wise</li>
+              <li>Richard D. Laxson</li>
+              <li>Ronald W. Panno</li>
+              <li>Thomas M. Ralston</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="sep">SEPTEMBER</div>
             <p>
               On September 13, 1969, an element from Company C had established an ambush position outside the Cu Chi Base Camp with members of the 167th Popular Forces Company. The ambush was set up at XT 668145, southeast of the base camp. At 2153 hours, hand grenades were thrown into the ambush position. Two Bobcats from Company C were killed and one ARVN soldier was killed. One ARVN soldier was also wounded.
-          On September 19, 1969, Helicopter gunships received heavy ground fire while flying over an area about 2 kilometers east of Phuoc My at grid XT 6116.
- Companies A and B and the Recon Platoon were dispatched to the area along with the 132nd Regional Forces Company and elements of the 2/12th Infantry. Company B established a blocking position on the west and Company A with the 132nd RF Company set up on the east. The Recon Platoon and the elements of the 2/12th set up on the south side of the contact area.
- As the air strikes and artillery fires were lifted, Company A and the 132nd began a sweep of the area. The only resistance came from two NVA soldiers in spider holes. Two POWs and  enemy dead with weapons and equipment were located in the area. There were no allied casualties.
-          On September 22 and 23, 1969, snipers from the 1/5th(M) were positioned along Highway 1 and were successful in engaging several targets in the evening hours.
-          On September 24, 1969, Company C and elements of the 10th ARVN Cavalry Regiment established a night defensive perimeter in the Ho Bo Woods at XT 656262. At 0150 hours, the perimeter was attacked by an unknown size enemy force with small arms, automatic weapons, mortar and RPG fire. The attack was repulsed with organic weapons and artillery fires. Two Bobcats were wounded in the contact. Enemy bodies and weapons and ammunition were policed from the area at first light.
-          On September 29, 1969, a Bobcat from Company B died in hospital from burns he had received on an earlier date.
-
-
-          During September 1969, three Bobcats died in Viet Nam. They were:
-Albert L. Belanger; James D. Darwin; and James Jennings Jr.
             </p>
             <p>
-              During September 1969, X Bobcats died in Vietnam. They were:
+              On September 19, 1969, Helicopter gunships received heavy ground fire while flying over an area about 2 kilometers east of Phuoc My at grid XT 6116.
+            </p>
+            <p>
+              Companies A and B and the Recon Platoon were dispatched to the area along with the 132nd Regional Forces Company and elements of the 2/12th Infantry. Company B established a blocking position on the west and Company A with the 132nd RF Company set up on the east. The Recon Platoon and the elements of the 2/12th set up on the south side of the contact area.
+            </p>
+            <p>
+              As the air strikes and artillery fires were lifted, Company A and the 132nd began a sweep of the area. The only resistance came from two NVA soldiers in spider holes. Two POWs and  enemy dead with weapons and equipment were located in the area. There were no allied casualties.
+            </p>
+            <p>
+              On September 22 and 23, 1969, snipers from the 1/5th(M) were positioned along Highway 1 and were successful in engaging several targets in the evening hours.
+            </p>
+            <p>
+              On September 24, 1969, Company C and elements of the 10th ARVN Cavalry Regiment established a night defensive perimeter in the Ho Bo Woods at XT 656262. At 0150 hours, the perimeter was attacked by an unknown size enemy force with small arms, automatic weapons, mortar and RPG fire. The attack was repulsed with organic weapons and artillery fires. Two Bobcats were wounded in the contact. Enemy bodies and weapons and ammunition were policed from the area at first light.
+            </p>
+            <p>
+              On September 29, 1969, a Bobcat from Company B died in hospital from burns he had received on an earlier date.
+            </p>
+            <p>
+              During September 1969, 3 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Albert L. Belanger</li>
+              <li>James D. Darwin</li>
+              <li>James Jennings Jr.</li>
             </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="oct">OCTOBER</div>
             <p>
               During October 1969, no Bobcats died in Viet Nam.
-
-
-         The 25th Infantry Division reported the following personnel statistics for the Quarterly Period of August 01, 1969 thru October 31, 1969:
- KIA: 87;  WIA: 1107;  MIA: 0;  NBD: 18;  NBI: 27.
-
-          Personnel shortages in Infantry Captains, Infantry Lieutenants and Artillery Lieutenants continued. There also continued to be a shortage of NCOs in grades E-6 thru E-9 in the 11B, 11C, 12B, 17B, 17K, 31G, 63A, 63C, 76Z, and 94B MOS.
-
-          Rallier Tran Minh Dao, a former high ranking Communist officer of Sub-Region One, in further debriefing, maintained that the VC/NVA would take into consideration the demonstrations planned by US groups opposed to the Viet Nam War. He also estimated that North Vietnamese political objectives centering on the Paris Peace Talks would be supported by military action.
-
-          Chemical Operations: “During the Quarterly Period numerous defoliation missions have been flown supporting tactical operations of the 2nd Brigade. The 2nd Brigade experienced difficulty in obtaining Air Force Trail Dust missions in the Ho Bo Woods and the Filhol; thus an attempt was made to spray selected areas within approved Trail Dust areas. Utilizing a slick with attached defoliation spray kit, an extensive program of selective spraying was completed. The results of these missions have significantly reduced the enemy’s movement across traditional infiltration routes and have reduced his cover from aerial observers. During the period, the infamous “Spider Web”, an intricate complex of streams, marsh and heavily booby trapped thick vegetation along the Saigon River northwest of the Phu Cuong Bridge was defoliated. Defoliation with “Orange” defoliant in selected, previously Rome Plowed sites in the “Citadel” area were also completed during the period.”
             </p>
             <p>
-              During October 1969, X Bobcats died in Vietnam. They were:
+              The 25th Infantry Division reported the following personnel statistics for the Quarterly Period of August 01, 1969 thru October 31, 1969:
             </p>
-            <ul>
-              <li></li>
-            </ul>
+            <p>
+              KIA: 87;  WIA: 1107;  MIA: 0;  NBD: 18;  NBI: 27.
+            </p>
+            <p>
+              Personnel shortages in Infantry Captains, Infantry Lieutenants and Artillery Lieutenants continued. There also continued to be a shortage of NCOs in grades E-6 thru E-9 in the 11B, 11C, 12B, 17B, 17K, 31G, 63A, 63C, 76Z, and 94B MOS.
+            </p>
+            <p>
+              Rallier Tran Minh Dao, a former high ranking Communist officer of Sub-Region One, in further debriefing, maintained that the VC/NVA would take into consideration the demonstrations planned by US groups opposed to the Viet Nam War. He also estimated that North Vietnamese political objectives centering on the Paris Peace Talks would be supported by military action.
+            </p>
+            <p>
+              Chemical Operations: “During the Quarterly Period numerous defoliation missions have been flown supporting tactical operations of the 2nd Brigade. The 2nd Brigade experienced difficulty in obtaining Air Force Trail Dust missions in the Ho Bo Woods and the Filhol; thus an attempt was made to spray selected areas within approved Trail Dust areas. Utilizing a slick with attached defoliation spray kit, an extensive program of selective spraying was completed. The results of these missions have significantly reduced the enemy’s movement across traditional infiltration routes and have reduced his cover from aerial observers. During the period, the infamous “Spider Web”, an intricate complex of streams, marsh and heavily booby trapped thick vegetation along the Saigon River northwest of the Phu Cuong Bridge was defoliated. Defoliation with “Orange” defoliant in selected, previously Rome Plowed sites in the “Citadel” area were also completed during the period.”
+            </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="nov">NOVEMBER</div>
             <p>
               Beginning in November 1969, the 2nd Brigade operated with 3 battalions and one cavalry squadron [2/12th Infantry; 2/14th Infantry; 1/5th(M); ¾ Cavalry(-)] conducting extensive combat patrols, ground and mounted reconnaissance, and combat assault operations in the central portion of the 25th Division area of operations. The brigade also conducted security along sections of Highways 6A, 7A, 8A, 19, 15, and 1. The 2nd Brigade was also instructed to conduct combined operations with the South Vietnamese 5th and 25th Infantry Divisions.
-On November 03, 1969, Company A proceeded to a location 2 kilometers west of Phuoc My at XT 560142 to relieve the Recon Platoon who were established in a blocking position. At 1440 hours, Company A requested a Dust-off for one dead Bobcat and one wounded Bobcat from a bobby trap that was detonated. The dead Bobcat was a lawyer in the Reserves, just doing his time, when he stepped on a mine.
-          On November 16, 1969, a Chieu Hoi led the Recon Platoon to a weapons cache east of Trang Bang.
-On November 20, 1969, a Bobcat from the Recon Platoon died from injuries he had earlier received.
-          On November 22, 1969, a Bobcat from Company A died from wounds he had previously received.
-          On November 25, 1969, a patrol from Company A engaged an enemy force at 2014 hours, 4 kilometers southeast of Trung Lap. Several enemy soldiers were killed in the contact.
-          On November 28, 1969, at 1220 hours, Company A located an ammunition cache 3 kilometers southeast of Trung Lap in a water hole.
-          On November 29, 1969, Company B, working with the 132nd RF Company, captured two POWs 7 kilometers northeast of Cu Chi.
-
-
-          During November 1969, Four Bobcats died in Viet Nam. They were:  Franklin T. James; David S. Kline; Stanley Joseph Egan; and Keith Colwell.
             </p>
             <p>
-              During November 1969, X Bobcats died in Vietnam. They were:
+              On November 03, 1969, Company A proceeded to a location 2 kilometers west of Phuoc My at XT 560142 to relieve the Recon Platoon who were established in a blocking position. At 1440 hours, Company A requested a Dust-off for one dead Bobcat and one wounded Bobcat from a bobby trap that was detonated. The dead Bobcat was a lawyer in the Reserves, just doing his time, when he stepped on a mine.
+            </p>
+            <p>
+              On November 16, 1969, a Chieu Hoi led the Recon Platoon to a weapons cache east of Trang Bang.
+            </p>
+            <p>
+              On November 20, 1969, a Bobcat from the Recon Platoon died from injuries he had earlier received.
+            </p>
+            <p>
+              On November 22, 1969, a Bobcat from Company A died from wounds he had previously received.
+            </p>
+            <p>
+              On November 25, 1969, a patrol from Company A engaged an enemy force at 2014 hours, 4 kilometers southeast of Trung Lap. Several enemy soldiers were killed in the contact.
+            </p>
+            <p>
+              On November 28, 1969, at 1220 hours, Company A located an ammunition cache 3 kilometers southeast of Trung Lap in a water hole.
+            </p>
+            <p>
+              On November 29, 1969, Company B, working with the 132nd RF Company, captured two POWs 7 kilometers northeast of Cu Chi.
+            </p>
+            <!-- <p>
+              During November 1969, Four Bobcats died in Viet Nam. They were:  Franklin T. James; David S. Kline; Stanley Joseph Egan; and Keith Colwell.
+            </p> -->
+            <p>
+              During November 1969, 4 Bobcats died in Vietnam. They were:
             </p>
             <ul>
-              <li></li>
+              <li>Franklin T. James</li>
+              <li>David S. Kline</li>
+              <li>Stanley Joseph Egan</li>
+              <li>Keith Colwell</li>
             </ul>
           </div>
           <div class="segmentWords">
@@ -4501,32 +4932,48 @@ On November 20, 1969, a Bobcat from the Recon Platoon died from injuries he had 
             <div class="oneMonth" data-section="jul">JULY</div>
             <p>
               On July 01, 1970, the 2nd Brigade, 25th Infantry Division assumed control of a new operations area in Long Khanh and Phuoc Tuy Provinces [These two Provinces border Bien Hoa Province on the east and southeast]. Operations Base Lynch, located 12 kilometers south of Xuan Loc, would be the forward command headquarters for the 2nd Brigade from July until early November 1970.
-          The 1st Brigade continued operations in north central Tay Ninh Province. The 3rd Brigade continued operations in Tay Ninh and Binh Duong Provinces.
-          On July 06, 1970, the 1st Battalion(M) 5th Infantry became OPCON to the 2nd Brigade and moved to the Xuan Loc area.
-          On July 28, 1970, Company C was in a night defensive perimeter west of Xuan Loc at YT 339068. At 2010 hours, the position received small arms and RPG fire from an unknown size enemy force. The fire was returned with organic weapons and artillery. Four Bobcats from Company C were wounded in the action.
-
-
-          During July 1970, no Bobcats died in Viet Nam.
-
-
-         For the Quarterly Period of May 01, 1970 thru July 31, 1970 the 25th Infantry Division reported the following personnel statistics:
-
-          KIA: 114;  WIA: 1,259;  NBD: 7;  NBI: 114;  MIA: 4.
-
-          Personnel shortages continued to exist in Infantry Captains and NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
+            </p>
+            <p>
+              The 1st Brigade continued operations in north central Tay Ninh Province. The 3rd Brigade continued operations in Tay Ninh and Binh Duong Provinces.
+            </p>
+            <p>
+              On July 06, 1970, the 1st Battalion(M) 5th Infantry became OPCON to the 2nd Brigade and moved to the Xuan Loc area.
+            </p>
+            <p>
+              On July 28, 1970, Company C was in a night defensive perimeter west of Xuan Loc at YT 339068. At 2010 hours, the position received small arms and RPG fire from an unknown size enemy force. The fire was returned with organic weapons and artillery. Four Bobcats from Company C were wounded in the action.
+            </p>
+            <p>
+              During July 1970, no Bobcats died in Viet Nam.
+            </p>
+            <p>
+              For the Quarterly Period of May 01, 1970 thru July 31, 1970 the 25th Infantry Division reported the following personnel statistics:
+            </p>
+            <p>
+              KIA: 114;  WIA: 1,259;  NBD: 7;  NBI: 114;  MIA: 4.
+            </p>
+            <p>
+              Personnel shortages continued to exist in Infantry Captains and NCOs in grades E-6 thru E-8 in the 11B, 11C, 12B, 13E, 17K, 31G, 63C and 76P MOS.
             </p>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="aug">AUGUST</div>
             <p>
               In the beginning of August 1970, the 2nd Brigade continued operations in Long Khanh and Phuoc Tuy Provinces with three maneuver battalions.
-          On August 23, 1970, a Bobcat from Company A died in hospital from Malaria.
-          On August 31, 1970, at 0930 hours, Company B, 3/22nd Infantry made contact with a large enemy force. At 1545 hours, Company A, 1/5th(M) was sweeping an area 500 meters north of the contact area when they received small arms and RPG fire from an unknown size enemy force at YT 534014. The enemy fire was returned with organic weapons and artillery with unknown results. Two Bobcats from Company A were killed and five were wounded. Two APCs received heavy damage in the fight.
-
-
-          During August 1970, three Bobcats died in Viet Nam. They were:
-Everett E. Wells Jr.; James H. Heppler; and Charles P. Hutton.
             </p>
+            <p>
+              On August 23, 1970, a Bobcat from Company A died in hospital from Malaria.
+            </p>
+            <p>
+              On August 31, 1970, at 0930 hours, Company B, 3/22nd Infantry made contact with a large enemy force. At 1545 hours, Company A, 1/5th(M) was sweeping an area 500 meters north of the contact area when they received small arms and RPG fire from an unknown size enemy force at YT 534014. The enemy fire was returned with organic weapons and artillery with unknown results. Two Bobcats from Company A were killed and five were wounded. Two APCs received heavy damage in the fight.
+            </p>
+            <p>
+              During August 1970, three Bobcats died in Viet Nam. They were:
+            </p>
+            <ul>
+              <li>Everett E. Wells Jr.</li>
+              <li>James H. Heppler</li>
+              <li>Charles P. Hutton</li>
+            </ul>
           </div>
           <div class="segmentWords">
             <div class="oneMonth" data-section="sep">SEPTEMBER</div>

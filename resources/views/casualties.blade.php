@@ -285,9 +285,6 @@
           </textarea>
         </div>
         @endif
-        <pre>
-        @php var_dump($casualty_data) @endphp
-        </pre>
       </div>
       @endif
     </div>

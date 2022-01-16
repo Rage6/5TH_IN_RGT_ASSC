@@ -444,8 +444,12 @@
                 <a href="{{ url('/history/vietnam-history/1971') }}">
                   <div>+ 1971</div>
                 </a>
-                <div>+ Maps</div>
-                <div>+ Glossary</div>
+                <a href="{{ url('/history/vietnam-history/maps') }}">
+                  <div>+ Maps</div>
+                </a>
+                <a href="{{ url('/history/vietnam-history/glossary') }}">
+                  <div>+ Glossary</div>
+                </a>
               </div>
               <a href="{{ url('/history/topic/ben-cui-battle') }}">
                 <li>Ben Cui Battle</li>

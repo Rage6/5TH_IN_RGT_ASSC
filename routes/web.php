@@ -98,6 +98,8 @@ Route::prefix('history')->group(function() {
     Route::get('1969','HistoryController@vietnam_1969');
     Route::get('1970','HistoryController@vietnam_1970');
     Route::get('1971','HistoryController@vietnam_1971');
+    Route::get('glossary','HistoryTopicController@vietnam_glossary');
+    Route::get('maps','AlbumController@vietnam_maps');
   });
   Route::prefix('album')->group(function() {
     Route::get('ww2','AlbumController@ww2');

@@ -147,6 +147,30 @@ class HistoryTopicController extends Controller
       }
     }
 
+    public function vietnam_glossary()
+    {
+      if (Auth::user()) {
+         $unread_count = DB::table('messages')
+           ->where([
+             ['messages.received_id',Auth::user()->id],
+             ['messages.is_read','==',0]
+           ])
+           ->count();
+        return view('history_topic',[
+          'unread_count' => $unread_count,
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'vietnam_glossary'
+        ]);
+      } else {
+        return view('history_topic',[
+          'style' => 'history_style',
+          'js' => '/js/my_custom/history/history.js',
+          'content' => 'vietnam_glossary'
+        ]);
+      }
+    }
+
     /**
      * Show the form for creating a new resource.
      *

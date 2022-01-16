@@ -19,6 +19,350 @@
   @include ('footer.style')
 @stop
 
+@section('vietnam_glossary')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <a href="{{ url('/history/timeline') }}">
+          <div>
+            <div> RETURN </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>Glossary</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <ul>
+              <li>
+                Ambush Patrol (AP): A group of soldiers sent out to attempt to surprise and kill enemy soldiers.
+              </li>
+              <li>
+                “Angel” Track: An armored personnel carrier used for medical evacuation and treatment.
+              </li>
+              <li>
+                Angel’s Wing: XT 2510. Portion of the Cambodian border shaped like a wing.
+              </li>
+              <li>
+                AO: Area of Operations.
+              </li>
+              <li>
+                APC: Armored Personnel Carrier.
+              </li>
+              <li>
+                ARTY: Slang for artillery.
+              </li>
+              <li>
+                ARVN: Army of the Republic of Viet Nam.
+              </li>
+              <li>
+                AT: Anti-Tank.
+              </li>
+              <li>
+                AW: Automatic Weapon.
+              </li>
+              <li>
+                BC: Body Count.
+              </li>
+              <li>
+                Bde:  Brigade.
+              </li>
+              <li>
+                Bn: Battalion.
+              </li>
+              <li>
+                Battalion(-): A battalion not at full strength.
+              </li>
+              <li>
+                Bunker: Fortified fighting position with over head cover.
+              </li>
+              <li>
+                Bushmaster Operation: When a man is sent out with a K-Bar knife and a .45 pistol to locate a used trail. He hides in a tree and when a VC comes along he drops down and either captures or kills the VC. (Not really. Just seeing if everyone is paying attention.)
+              </li>
+              <li>
+                Camp Rainier: XT 495475. Base Camp at Dau Tieng.
+              </li>
+              <li>
+                CBU: Cluster Bomb Unit. Unexploded ones were often used by the Communists as booby-traps.
+              </li>
+              <li>
+                C&C: Command and Control.
+              </li>
+              <li>
+                Chieu Hoi: A Communist who has voluntarily rallied to the South Viet Nam Government.
+              </li>
+              <li>
+                Chinese Claymore: Anti-personnel mine that explodes and sends projectiles in a 360 degree circle.
+              </li>
+              <li>
+                Citadel: XT 5325. An area of the southern Boi Loi Woods.
+              </li>
+              <li>
+                Claymore Mine: Anti-personnel mine of US manufacture.
+              </li>
+              <li>
+                CO: Commanding Officer.
+              </li>
+              <li>
+                Co: Abbreviation for company.
+              </li>
+              <li>
+                Co(-): A company not at full strength.
+              </li>
+              <li>
+                COP: Combat Outpost. Position in front of a unit’s perimeter that is prepared to fight and hold its own.
+              </li>
+              <li>
+                County Fair: Party atmosphere medical treatment day for civilians. (Med-Cap).
+              </li>
+              <li>
+                Crescent: XT 4352 –3760.
+              </li>
+              <li>
+                CS Gas: Tear gas.
+              </li>
+              <li>
+                Duster:  Twin 40mm anti-aircraft gun. Usually on a self-propelled vehicle and used as an anti-personnel weapon. Very effective on offense or defense.
+              </li>
+              <li>
+                Dust-off: Medical evacuation helicopter.
+              </li>
+              <li>
+                Eagle Flights: Usually a platoon or company size air combat assault into an area of suspicious activity.
+              </li>
+              <li>
+                FAC: Forward Air Controller. Person who directs air strikes onto their target.
+              </li>
+              <li>
+                FSB:  Fire support base. Usually containing a battery of artillery.
+              </li>
+              <li>
+                FSB/PB: Fire Support Base / Patrol Base.
+              </li>
+              <li>
+                FSB St. Barbara: XT 272683. 17 Km north of Tay Ninh at Bau Co.
+              </li>
+              <li>
+                FSB Buell: XT 213532.  3 Km NW of Tay Ninh on Route 4.
+              </li>
+              <li>
+                FSB Buell II: XT 227568.
+              </li>
+              <li>
+                FSB Carol: XT 334357.
+              </li>
+              <li>
+                FSB Chamberlain: XT 554984.
+              </li>
+              <li>
+                FSB Crook: XT 055595.
+              </li>
+              <li>
+                FSB Dees: XT 554227.
+              </li>
+              <li>
+                FSB Devins: XT 548180.
+              </li>
+              <li>
+                FSB/PB Diane: XT 424166.
+              </li>
+              <li>
+                FSB/PB Dragon: XT 638284.
+              </li>
+              <li>
+                FSB/PB Gertrude: XT 524144.
+              </li>
+              <li>
+                FSB Jackson: XT 425168.
+              </li>
+              <li>
+                FSB Janet: XT 703207.
+              </li>
+              <li>
+                FSB Joyce: XT 383262.
+              </li>
+              <li>
+                FSB Mahone: XT 538375. Near Thanh An.
+              </li>
+              <li>
+                FSB Mahone II: XT 521419.
+              </li>
+              <li>
+                FSB Martha: XT 452266.
+              </li>
+              <li>
+                FSB Nickel: XT 565045.
+              </li>
+              <li>
+                FSB Patton: XT 582155.
+              </li>
+              <li>
+                FSB Pike II: XS 702910. 6 Km south of Vinh Loc.
+              </li>
+              <li>
+                FSB Rawlins: XT 301502. 6 Km east of Tay Ninh.
+              </li>
+              <li>
+                FSB/PB Sandra: Just west of Trang Bang.
+              </li>
+              <li>
+                FSB Schofield: XT 407440.
+              </li>
+              <li>
+                FSB Stuart: XT 499198.
+              </li>
+              <li>
+                FSB Washington: XT 146568.
+              </li>
+              <li>
+                Fish Hook: Area of the Cambodian border.
+              </li>
+              <li>
+                Frontier City: XT 202292. Patrol Base northwest of Go Dau Ha.
+              </li>
+              <li>
+                HEAT ammunition: High Explosive Anti-Tank ammunition.
+              </li>
+              <li>
+                Kill Zone: Area in front of an ambush that the maximum fire power is directed at.
+              </li>
+              <li>
+                Kit Carson Scout: A Chieu Hoi who works with and guides friendly forces.
+              </li>
+              <li>
+                LAW: Light anti-tank weapon. Disposable anti-tank rocket of US manufacture.
+              </li>
+              <li>
+                LD:  Line of departure.
+              </li>
+              <li>
+                LFT: Armed Helicopter Light Fire Team.
+              </li>
+              <li>
+                LOC:  Line of Communication.
+              </li>
+              <li>
+                LP:  Listening Post. One or two men sent forward of the unit’s perimeter to warn of any enemy approach.
+              </li>
+              <li>
+                MSR:  Main supply route.
+              </li>
+              <li>
+                NLT: Not later than.
+              </li>
+              <li>
+                OP:  Out Post. Observation Post. Similar to an LP.
+              </li>
+              <li>
+                OPCON:  Operational Control.
+              </li>
+              <li>
+                Organic Weapons:  Weapons that are normally carried and used by a unit.
+              </li>
+              <li>
+                Parrot’s Beak: Portion of the Cambodian Border.
+              </li>
+              <li>
+                PB: Patrol Base.
+              </li>
+              <li>
+                PB Bragg: XT 343580.
+              </li>
+              <li>
+                PB Diamond: XT 337187.
+              </li>
+              <li>
+                PB Houston: XT 440068.
+              </li>
+              <li>
+                PB Hunsley: XT 595270.
+              </li>
+              <li>
+                PB Lorence: XT 551218.
+              </li>
+              <li>
+                PB Rittgers: XT 354145.
+              </li>
+              <li>
+                PB Rock Crusher: XT 270564.
+              </li>
+              <li>
+                Plain of Reeds: XT 355900.
+              </li>
+              <li>
+                Razorbacks:  Hilly area north of DauTieng.
+              </li>
+              <li>
+                Renegade Woods: XT 2828 –2832.
+              </li>
+              <li>
+                RIF Operation:  Reconnaissance in force operation.
+              </li>
+              <li>
+                RP: Rendezvous Point.
+              </li>
+              <li>
+                RPG-2: Rocket anti-tank grenade launcher. RPG is from the Russian:”Reaktivniy Protivotankovyi  Granatomet.”
+              </li>
+              <li>
+                RPG-7: An advanced version of the RPG-2.
+              </li>
+              <li>
+                RTO: Radio Operator.
+              </li>
+              <li>
+                SA Fire: Small arm’s fire.
+              </li>
+              <li>
+                S&D Operation: Search and destroy operation.
+              </li>
+              <li>
+                Snake: A coil of explosive charge several meters long.
+              </li>
+              <li>
+                Straight Edge Woods: XT 204386 – XT 177337.
+              </li>
+              <li>
+                Sugar Mill: XT 4704.
+              </li>
+              <li>
+                TF: Task Force.
+              </li>
+              <li>
+                The “Thumb”: XT 5534. An area of the Boi Loi Woods.
+              </li>
+              <li>
+                Trapezoid: The Trapezoid is that jungled area south of Dau Tieng and the Michelin Rubber Plantation and north of the Iron Triangle. It is bordered on the west by the Saigon River and on the east by the Rach Thi Tinh. Route 14, an unimproved road running south from Dau Tieng parallel to the Saigon River is the principle artery for ground transportation through the area.
+              </li>
+              <li>
+                Tripped: Refers to the act of detonating a booby-trap or can also refer to an ambush being activated against a force entering the kill zone.
+              </li>
+              <li>
+                TVR or LTVR:  Tracked vehicle retriever.
+              </li>
+              <li>
+                VC: Viet Cong. Communist soldier.
+              </li>
+              <li>
+                VCC: Viet Cong confirmed.
+              </li>
+              <li>
+                VCS: Viet Cong Suspect.
+              </li>
+              <li>
+                XT, XS: Indicates Map Grid Coordinates
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
 @section('michelin_rubber_plant_battle_content')
   <div class="mainBody">
     <div class="timelineBox">

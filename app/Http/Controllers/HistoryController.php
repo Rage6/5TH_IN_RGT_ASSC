@@ -48,12 +48,14 @@ class HistoryController extends Controller
            ->count();
          return view('vietnam_log',[
            'unread_count' => $unread_count,
+           'year_casualties' => [],
            'style' => 'history_style',
            'js' => '/js/my_custom/history/history.js',
            'content' => 'vietnam_preface_content'
          ]);
       } else {
           return view('vietnam_log',[
+            'year_casualties' => [],
             'style' => 'history_style',
             'js' => '/js/my_custom/history/history.js',
             'content' => 'vietnam_preface_content'

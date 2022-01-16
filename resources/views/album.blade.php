@@ -849,3 +849,342 @@
   </div>
   @include ('footer.content')
 @stop
+
+@section('vietnam_map_content')
+  <div class="mainBody">
+    <div class="mainTitle">
+      <div>Vietnam War</div>
+      <div>MAPS</div>
+    </div>
+    <div class="backBttn">
+      <a href="{{ url('/history/timeline') }}">
+        <div><< HISTORY</div>
+      </a>
+    </div>
+    <div class="allImgBox">
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map1.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map1.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 1: Overview of South Vietnam
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map2.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map2.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 2: 1966 Operations Maps
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map3.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map3.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 3: 1966 Operations Maps
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map4.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map4.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 4: Cu Chi Base Camp and the "Filhol"
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map5.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map5.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 5: Northern Ho Bo Woods and Southern Ho Bo
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map6.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map6.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 6: Northern Filhol and Southern Ho Bo
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map7.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map7.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 7: Trang Bang and Go Dau Ha
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map8.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map8.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 8: Trang Bang north to Suoi Cao
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map9.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map9.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 9: Bao Trai area.
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map10.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map10.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 10: Dong Hoa area.
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map11.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map11.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 11: Tan Phu Trung
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map12.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map12.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 12: Katum area
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map13.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map13.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 13: Nui Ba Den
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map14.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map14.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 14: "French Fort"
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map15.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map15.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 15: Duc Hoa area.
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map16.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map16.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 16: Dau Tieng and Michelin Rubber Plantation
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map17.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map17.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 17: Dau Tieng and Michelin Rubber Plantation
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map18.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map18.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 18: Tay Ninh area
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map19.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map19.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 19: Tan Son Nhut and Hoc Mon
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map20.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map20.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 20: Vinh Loc area
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map21.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map21.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 21: The Ben Cui Rubber Plantation area
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox evenBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map22.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map22.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 22: Dau Tieng - Thanh An - Boi Loi Woods area
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+      <div class="oneImgBox oddBox">
+        <div class="oneImg">
+          <a href="../../../images/history/albums/vietnam/maps/map23.jpeg" target="_blank">
+            <img src="../../../images/history/albums/vietnam/maps/map23.jpeg" />
+          </a>
+        </div>
+        <div class="oneCaption">
+          <div>
+            Map 23: Base Area 354 in Cambodia
+          </div>
+        </div>
+        <div class="photographer">
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop

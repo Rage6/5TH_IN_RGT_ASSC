@@ -138,4 +138,28 @@ class AlbumController extends Controller
     }
   }
 
+  public function vietnam_maps()
+  {
+    if (Auth::user()) {
+       $unread_count = DB::table('messages')
+         ->where([
+           ['messages.received_id',Auth::user()->id],
+           ['messages.is_read','==',0]
+         ])
+         ->count();
+      return view('album',[
+        'unread_count' => $unread_count,
+        'style' => 'album_style',
+        'js' => '/js/my_custom/history/album/album.js',
+        'content' => 'vietnam_map_content'
+      ]);
+    } else {
+      return view('album',[
+        'style' => 'album_style',
+        'js' => '/js/my_custom/history/album/album.js',
+        'content' => 'vietnam_map_content'
+      ]);
+    }
+  }
+
 }

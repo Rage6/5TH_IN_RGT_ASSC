@@ -176,7 +176,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 1: Overview of South Vietnam</li>
+                <a href="../../../images/history/albums/vietnam/maps/map1.jpeg" target="_blank">
+                  <li>Map 1: Overview of South Vietnam</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -238,8 +240,12 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 2: 1966 Operations I</li>
-                <li>Map 3: 1966 Operations II</li>
+                <a href="../../../images/history/albums/vietnam/maps/map2.jpeg" target="_blank">
+                  <li>Map 2: 1966 Operations I</li>
+                </a>
+                <a href="../../../images/history/albums/vietnam/maps/map3.jpeg" target="_blank">
+                  <li>Map 3: 1966 Operations II</li>
+                </a>
               </ul>
             </div>
             <div class="oneMonth" data-section="feb">
@@ -340,7 +346,9 @@
             </ul>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 4: Cu Chi Base Camp and the "Filhol."</li>
+                <a href="../../../images/history/albums/vietnam/maps/map4.jpeg" target="_blank">
+                  <li>Map 4: Cu Chi Base Camp and the "Filhol."</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -435,12 +443,16 @@
                     The Rifle and the Myth: Congressional Sub-Committee held hearings on the problem in 1967
                   </a>
                 </li>
-                <li>
-                  Map 5: Northern Ho Bo Woods and Southern Ho Bo
-                </li>
-                <li>
-                  Map 6: Northern Filhol and Southern Ho Bo.
-                </li>
+                <a href="../../../images/history/albums/vietnam/maps/map5.jpeg" target="_blank">
+                  <li>
+                    Map 5: Northern Ho Bo Woods and Southern Ho Bo
+                  </li>
+                </a>
+                <a href="../../../images/history/albums/vietnam/maps/map6.jpeg" target="_blank">
+                  <li>
+                    Map 6: Northern Filhol and Southern Ho Bo.
+                  </li>
+                </a>
               </ul>
             </div>
             <div class="oneMonth" data-section="apr">APRIL</div>
@@ -556,8 +568,12 @@
             </ul>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 7: Trang Bang and Go Dau Ha.</li>
-                <li>Map 8: Trang Bang north to Suoi Cao.</li>
+                <a href="../../../images/history/albums/vietnam/maps/map7.jpeg" target="_blank">
+                  <li>Map 7: Trang Bang and Go Dau Ha.</li>
+                </a>
+                <a href="../../../images/history/albums/vietnam/maps/map8.jpeg" target="_blank">
+                  <li>Map 8: Trang Bang north to Suoi Cao.</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -639,7 +655,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 9: Bao Trai area</li>
+                <a href="../../../images/history/albums/vietnam/maps/map9.jpeg" target="_blank">
+                  <li>Map 9: Bao Trai area</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -879,7 +897,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 10: Dong Hoa area</li>
+                <a href="../../../images/history/albums/vietnam/maps/map10.jpeg" target="_blank">
+                  <li>Map 10: Dong Hoa area</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -1076,7 +1096,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 11: Tan Phu Trung</li>
+                <a href="../../../images/history/albums/vietnam/maps/map11.jpeg" target="_blank">
+                  <li>Map 11: Tan Phu Trung</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -1174,7 +1196,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 12: Katum area</li>
+                <a href="../../../images/history/albums/vietnam/maps/map12.jpeg" target="_blank">
+                  <li>Map 12: Katum area</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -1380,7 +1404,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map: Operation Cedar Falls</li>
+                <a href="../../../images/history/albums/vietnam/maps/cedar-falls.jpeg" target="_blank">
+                  <li>Map: Operation Cedar Falls</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -1460,7 +1486,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 13: Nui Ba Den</li>
+                <a href="../../../images/history/albums/vietnam/maps/map13.jpeg" target="_blank">
+                  <li>Map 13: Nui Ba Den</li>
+                </a>
               </ul>
             </div>
             <div class="oneMonth" data-section="feb">FEBRUARY</div>
@@ -1594,7 +1622,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 14 "French Fort."</li>
+                <a href="../../../images/history/albums/vietnam/maps/map14.jpeg" target="_blank">
+                  <li>Map 14 "French Fort."</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -1851,7 +1881,9 @@
             </p>
             <div class="vietnamLogLinkBox">
               <ul>
-                <li>Map 15  Duc Hoa area</li>
+                <a href="../../../images/history/albums/vietnam/maps/map15.jpeg" target="_blank">
+                  <li>Map 15  Duc Hoa area</li>
+                </a>
               </ul>
             </div>
             <p>
@@ -2467,12 +2499,16 @@
             <p>
               On January 18, 1968, Company D, 3/22nd Infantry was released OPCON from 1/5th(M) and was airlifted to FSB Burt. Company B, 3/22nd Infantry was air lifted to Dau Tieng and became OPCON to the 1/5th(M). Company C, 3/22nd Infantry remained OPCON to the 1/5th(M).
             </p>
-            <p>
-              Map 16 Dau Tieng and Michelin Rubber Plantation.
-            </p>
-            <p>
-              Map 17 Dau Tieng and Michelin Rubber Plantation.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map16.jpeg" target="_blank">
+                  <li>Map 16 Dau Tieng and Michelin Rubber Plantation</li>
+                </a>
+                <a href="../../../images/history/albums/vietnam/maps/map17.jpeg" target="_blank">
+                  <li>Map 17 Dau Tieng and Michelin Rubber Plantation</li>
+                </a>
+              </ul>
+            </div>
             <p>
               On January 19, 1968, elements of the task force conducted S&D operations in the Michelin Plantation and the area south of Dau Tieng. At 1723 hours, an APC from Company B, which was escorting a convoy on Highway 239 through the Ben Cui Rubber Plantation, was hit by an RPG round. Two Bobcats were killed instantly. While attempting to get the driver out of the damaged APC, another Bobcat from Company B was shot and killed. He had run over to the track that got hit, jumped on top and grabbed a hold of the driver, who had been wounded and was attempting to pull him out. A shot rang out and he fell off the track, into the ditch and died before anyone got to him. The bullet had hit him in the side.
             </p>
@@ -2566,9 +2602,13 @@
             <p>
               On February 03, 1968, at 0710 hours, Company B sent 4 APCs to escort engineer dump trucks to the rock quarry and then to the bridge site. At 0815 hours, the Recon Platoon escorted a convoy to Tay Ninh.
             </p>
-            <p>
-              Map 18   Tay Ninh area.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map18.jpeg" target="_blank">
+                  <li>Map 18) Tay Ninh area.</li>
+                </a>
+              </ul>
+            </div>
             <p>
               On February 04, 1968, Company A departed the forward base at 0630 hours for operations in the area of grid XT 3256. Company C departed at 0705 hours to provide security for engineer activities and secure convoys. Company B departed at 0747 hours for operations in the area of grid XT 3249. The Recon Platoon provided convoy escort.
             </p>
@@ -2602,9 +2642,13 @@
             <p>
               On February 12, 1968, the battalion remained in a blocking posture. At 1400 hours, the 1/5th(M) was instructed to set up a new night position at Tan Hiep, located 2000 meters north of Hoc Mon at XT 7406. All units closed the new forward base by 1900 hours. Night ambushes and LPs were deployed.
             </p>
-            <p>
-              Map 19Tan Son Nhut and Hoc Mon.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map19.jpeg" target="_blank">
+                  <li>Map 19Tan Son Nhut and Hoc Mon</li>
+                </a>
+              </ul>
+            </div>
             <p>
               On February 13, 1968, Companies B and C departed the perimeter for S&D operations in the area. At 0830 hours, Company B had one mortar APC catch fire and burn out of control. There were no injuries. Units from the Recon platoon secured the vehicle till it finally blew up at 0930 hours. During the search of their respective objective areas Companies B and C located VC bodies, ammo, weapons, equipment and documents. All elements closed the battalion perimeter by 1900 hours.
             </p>
@@ -2910,9 +2954,13 @@
             <p>
               On April 02, 1968, Company B conducted air mobile combat assaults. At 1435 hours, the company engaged an unknown number of VC with organic weapons. 3 VC were killed by body count and two Bobcats were wounded. That evening, elements of the battalion conducted a night ambush with Popular Force Soldiers from Sa Tan Binh District.
             </p>
-            <p>
-              Map 20   Vinh Loc area.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map20.jpeg" target="_blank">
+                  <li>Map 20) Vinh Loc area</li>
+                </a>
+              </ul>
+            </div>
             <p>
               On April 03, 1968, the Recon Platoon was OPCON to the 2/27th Infantry. Company C, 2/14th Infantry was OPCON to the 1/5th(M).
             </p>
@@ -3252,9 +3300,13 @@
             <p>
               At the same time to the west, Company B, 4/23rd(M) engaged an unknown sized enemy force 4 kilometers north of Go Dau Hau at XT 392301. Companies A and B of the 1/5th(M) were sent to reinforce Company B, 4/23rd(M). The contact lasted throughout the day and into the night.
             </p>
-            <p>
-              Map 21   The Ben Cui Rubber Plantation area.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map21.jpeg" target="_blank">
+                  <li>Map 21) The Ben Cui Rubber Plantation area</li>
+                </a>
+              </ul>
+            </div>
             <p>
               The 25th Infantry Division reported the following statistical data for the Quarterly Period of May 01, 1968 to July 31, 1968: KIA: 345;  WIA: 1,424;  NBD: 24;  NBI: 28.
             </p>
@@ -3588,9 +3640,13 @@
             <p>
               On September 23, 1968, Dau Tieng Base Camp was hit by 7 rounds of 82mm mortar fire.
             </p>
-            <p>
-              Map 22   Dau Tieng - Thanh An - Boi Loi Woods area.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map22.jpeg" target="_blank">
+                  <li>Map 22) Dau Tieng - Thanh An - Boi Loi Woods area</li>
+                </a>
+              </ul>
+            </div>
             <p>
               On September 29, 1968, The Recon Platoon provided convoy escort between Dau Tieng and Tay Ninh.
             </p>
@@ -5287,9 +5343,13 @@
                 @endif
               @endforeach
             </ul>
-            <p>
-              Map 23   Base Area 354 in Cambodia.
-            </p>
+            <div class="vietnamLogLinkBox">
+              <ul>
+                <a href="../../../images/history/albums/vietnam/maps/map23.jpeg" target="_blank">
+                  <li>Map 23) Base Area 354 in Cambodia</li>
+                </a>
+              </ul>
+            </div>
             <p>
               During the Quarterly Reporting Period of February 01, 1970 thru April 30, 1970, the 25th Infantry Division reported the following personnel statistics:
             </p>

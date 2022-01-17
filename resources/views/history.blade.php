@@ -418,7 +418,8 @@
           <div class="linkBox">
             <div class="linkTitle learnMore">LEARN MORE</div>
             <ul class="linkContent">
-              <a href="http://bobcat.ws/after-action-reports.html">
+              <!-- <a href="http://bobcat.ws/after-action-reports.html"> -->
+              <a href="{{ url('/history/topic/after-action-reports') }}">
                 <li>After Action Reports (AAR)</li>
               </a>
               <li>"In The Vietnam War 1966 - 1971" by Larry Hadzim</li>

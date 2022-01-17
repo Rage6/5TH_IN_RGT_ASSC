@@ -19,6 +19,389 @@
   @include ('footer.style')
 @stop
 
+@section('after_action_reports')
+  <div class="mainBody">
+    <div class="timelineBox">
+      <div class="timelineBar">
+        <a href="{{ url('/history/timeline') }}">
+          <div>
+            <div> RETURN </div>
+          </div>
+        </a>
+        <div data-button="jan" data-year="1966">
+          <div data-button="jan" data-year="1966">"CLEAN SWEEP"</div>
+        </div>
+        <div data-button="feb" data-year="1966">
+          <div data-button="feb" data-year="1966">"KAHUKU"</div>
+        </div>
+        <div data-button="mar" data-year="1966">
+          <div data-button="mar" data-year="1966">"HONOLULU"</div>
+        </div>
+        <div data-button="apr" data-year="1966">
+          <div data-button="apr" data-year="1966">"CIRCLE PINES"</div>
+        </div>
+        <div data-button="may" data-year="1966">
+          <div data-button="may" data-year="1966">"KALAMAZOO"</div>
+        </div>
+        <div data-button="jun" data-year="1966">
+          <div data-button="jun" data-year="1966">"WAIKIKI"</div>
+        </div>
+        <div data-button="jul" data-year="1966">
+          <div data-button="jul" data-year="1966">"WAHIAWA"</div>
+        </div>
+        <div data-button="aug" data-year="1966">
+          <div data-button="aug" data-year="1966">"COCO PALMS"</div>
+        </div>
+        <div data-button="sep" data-year="1966">
+          <div data-button="sep" data-year="1966">"MAKIKI"</div>
+        </div>
+        <div data-button="oct" data-year="1966">
+          <div data-button="oct" data-year="1966">"MOKOLEIA"</div>
+        </div>
+        <div data-button="nov" data-year="1966">
+          <div data-button="nov" data-year="1966">KOKO HEAD</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"OAHU"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"KIPAPA"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"SUNSET BEACH"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"KAILUA"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"ATTLEBORO"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"CEDAR FALLS"</div>
+        </div>
+        <div data-button="dec" data-year="1966">
+          <div data-button="dec" data-year="1966">"BEN CUI"</div>
+        </div>
+      </div>
+    </div>
+    <div class="allSegments">
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: CLEAN SWEEP</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <div>
+              <div>HEADQUARTERS</div>
+              <div>1ST BATTALION (MECH) 5TH INFANTRY</div>
+              <div>APO San Francisco 96225</div>
+            </div>
+            <div>
+              TLMAA-C February 1966
+            </div>
+            <div>
+              SUBJECT: After Action Report – Operation Clean Sweep
+            </div>
+            <div>
+              <div>TO: Commanding Officer</div>
+              <div>2d Bde, 25th Inf Div</div>
+              <div>APO U.S. Forces 96225</div>
+            </div>
+            <div>
+              1. Reference:   (our order) OPORD 11-66, 1st Bn (Mech) 5th Inf.
+            </div>
+            <div>
+              2. Date:   220730FEB66 to 241615FEB66.
+            </div>
+            <div>
+              3. Place: Wooded area running from coordinates 674135 to 691118 to 693128.
+            </div>
+            <div>
+              4. Mission: Search and destroy; protect ARVN bulldozers leveling the area.
+            </div>
+            <div>
+              5. General Summary of Operation: The operation was a coordinated attack between the 1/5th Mech and the 49th Inf (ARVN) Regt. Elements of the 1/8th Arty and Co C, 65th Engr Bn, were in support. The 1/5th Mech crossed the LD at 0830 (prescribed time). The 1/49th (ARVN) Regt, attacking on the right of the 1/5th Mech, crossed the LD 17 minutes late. The 1/5th Mech attacked with two Co’s abrest, A on the right (E), and B on the left (W). Recon plat screened the left (W) flank and a platoon of Co C searched and cleared the wooded area centered at coord 677118. Co C (-) was in reserve with the mission of protecting the bulldozers. The two forward companies proceeded slowly through rather heavy woods at first. The 1/49th (ARVN) Regt proceeded rapidly to the objective area mounted on APC’s. Apparently they never dismounted to search and destroy in the zone until they arrived on their Obj 12 (698113). During this perion both the Recon Plat and Co B received sniper fire, primarily from their left flank and rear from the vicinity of the woods centered at 676118. As the Recon Platoon broke into the rice paddy short of the objective area (vic coord 684117) they received considerable fire from the woodline vic coord 684119. Fire included that from two automatic weapons believed to be .50 cal. VC elements were engaged by machine gun fire, small arms fire and artillery. It is believed that one of the MG’s was knocked out. From the time the units crossed the LD until about 1130 hours all three companies and the Recon Platoon were subjected to sniper fire. Most of the fire was delivered from the flanks and rear. Co B ran into extensive tunnels vic coord 688120. Co B then searched the area thoroughly, after which they pushed approximately 800 meters into the woods to the NW in an attempt to run down the VC who had fled in that direction; no contact was made. Co A searched out the entire area from 691118 to 693128 with no further contact. Recon Platoon reconnoitered along the woodline from coord 687120 to 682133 and back with no contact. Co B returned to the perimeter using the rice paddy SW of the area in which they were searching (coord of rice paddy – 680120). A platoon of Co C supported this move from a position vic coord 679120. As Co B moved into the rice paddy they received machine gun and small arms fire from their right rear from the vic coord 676120. The battalion spent the night in a perimeter vic coord 688119. Nine ambushes were set outside the perimeter; two were triggered (4 VC confirmed killed, 3 more estimated killed).
+            </div>
+            <div>
+              On 23 Feb six tanks from Troop B, 3/4 Cav, joined the attack. The battalion searched and cleared the entire area centered at coord 680125 and the area centered at 676118. The only contact consisted of sniper fire from VC located vic coord 673137. Fire was effectively returned. The battalion went into a perimeter at the same location as the previous night. Ambushes were established at coord 668122, 673129, 682132. Five additional ambushes were established close to the battalion perimeter. The only contact was made by ambush at coord 668122 which observed 6 - 8 VC just before dark vic coord 665123. VC were taken under fire by artillery and small arms. Results are unknown.
+            </div>
+            <div>
+              On 24 Feb Co A searched and destroyed a wooded area centered at 665128; Recon Platoon searched and destroyed area centered at 663133 but made no contact. Co B moved through the rubber plantation to the left (SW) of the road running through coord 6613. Co C checked rice paddies around objective area and protected the bulldozers. Upon returning to base camp, Co C received sniper fire from a lone sniper located vic coord 667126 – the only contact of the day.  Throughout the entire operation security was provided the six ARVN bulldozers which leveled the entire area centered at coord 692122.
+            </div>
+            <div>
+              6. Description of Area of Operation: Area searched on 22 and 23 Feb was heavily fortified. There were trenches behind every hedgerow. Foxholes were everywhere and there were numerous small bunkers. Defensive tunnels were dug throughout the area; extensive tunnels were located vic 688120. The area obviously had been recently used. Area checked the last day (24 Feb) did not show any evidence that VC had stayed there. There was evidence of fresh digging in the rubber plantation. The holes were about two feet deep and were located vic coord 662125.
+            </div>
+            <div>
+              7. Enemy Encountered: First day: Estimated 2 squads reinforced with 2 heavy machine guns. They wore steel helmets and black uniforms. Second day: A total of about 10 men. Third day: Lone sniper.
+            </div>
+            <div>
+              8. Results of Operation:
+              <div>
+                <div>
+                  a. VC killed: 11 confirmed, 13 additional estimated killed.
+                </div>
+                <div>
+                  b.  Destroyed:
+                  <ul>
+                    <li>25 bunkers</li>
+                    <li>8 booby traps</li>
+                    <li>4 AP mines</li>
+                    <li>5 bags of black powder (regular sugar bag size)</li>
+                    <li>79 tunnel entrances (4 of these were extensive. One was a two level tunnel about 200 meters long. Two one level tunnels of 40 and 75 meters were also destroyed. All four of these were located vic coord 688120. This area was apparently a VC training area. ARVN LNO stated that signs indicated that the cadre was from North Vietnam. An APC caved in a huge hole about 15' deep and 12' in diameter vic coord 689121 (this apparently was some sort of underground classroom).</li>
+                    <li>800 pounds of rice</li>
+                    <li>3 caches of food</li>
+                    <li>20 duds (included 12 artillery rounds and 8 Air Force bombs)</li>
+                  </ul>
+                </div>
+                <div>
+                  c. Numerous documents and miscellaneous articles of clothing were found and turned over to Bde S-2.
+                </div>
+              </div>
+            </div>
+            <div>
+              9. Friendly Casualties: 5 KIA, 18 WIA. Of the WIA, 8 were returned to duty the same day they were wounded. One additional man was slightly wounded enroute to objective area when a .50 cal MG accidently discharged. List of casualties is attached at Inclosure 1.
+            </div>
+            <div>
+              10. Equipment Damaged:
+              <div>
+                <div>
+                  a. One APC was hit by what was believed to have been a booby trap which contained a shape charge. Round completely penetrated  front of track and came out the other side. Extensive damage was done and the APC will have to be evacuated.
+                </div>
+                <div>
+                  b. Two other APC’s were deadlined as a result of the operation. Both should be repaired within 24-48 hours.
+                </div>
+                <div>
+                  c. One 1 ½ ton trailer was damaged when a main spring was apparently ripped out from under the trailer.
+                </div>
+                <div>
+                  d. No weapons were lost.
+                </div>
+              </div>
+            </div>
+            <div>
+              11. Lessons Learned:
+              <div>
+                <div>
+                  a. It was determined that the battalion is capable of operating for 3 days on this type operation without resupply of anything except water. However the 1 ½ ton trailers pulled behind tracks received rough treatment during the cross country movement. These trailers cannot sustain such treatment. The ammo trailers, on the other hand, stood up very well. Surprisingly, the APC’s consumed on the average of only 40 gallons of gas (this is one-half their capacity) for the three day operation.
+                </div>
+                <div>
+                  b. Troops do not properly follow-up ambushes. When an ambush is tripped, the force should stay in place, attempt to locate and search the bodies, secure the VC weapons, and, where the situation permits, cover the bodies by fire in an attempt to further ambush any VC attempting to recover the bodies.
+                </div>
+                <div>
+                  c. It is extremely difficult to coordinate and control the movement of APC’s through heavily wooded areas. An air observer in the helicopter is essential for control and even then the rate of movement is slow and constant shifting of APC’s back and forth to straighten the lines is essential.
+                </div>
+                <div>
+                  d. Troops are unnecessarily exposing themselves in the APC’s by sticking their heads and bodies too far out of the tracks.
+                </div>
+                <div>
+                  e. Reconnaissance by air and map is considered very inadequate. The woods were much thicker than anticipated. The use of recon patrols several days in advance of such an operation, when possible, is recommended. This would also permit more adequate intelligence of the area. It is also felt that intelligence support from Brigade must be improved upon. What intelligence we got from the area we got ourselves from the 49th ARVN Inf Regt.
+                </div>
+                <div>
+                  f. Traffic control points are essential when using Route One. Civilian traffic was heavy and interfered considerably with the operation.
+                </div>
+                <div>
+                  g. Value of Mechanized Infantry was again proven. Had a straight Infantry Battalion attempted to cross the open rice paddy under the heavy enemy fire from the well dug in positions along the wood line, they would have received heavy casualties.
+                </div>
+                <div>
+                  h. Use of extensive ambushes to screen preparation of perimeter and protect perimeters proved to be highly effective.
+                </div>
+                <div>
+                  i. Casualty reporting from Co to Bn and from Bn to Bde must be more accurate and reports must be submitted more rapidly. It is believed the log net should be used for this to keep command net free. Minor wounds where a man stayed with his unit were not being reported. A standard form should be established by Brigade to permit giving casualty reports in the clear (i.e., fill in the blanks by line number).
+                </div>
+                <div>
+                  j. Our system of keeping Brigade abreast of the situation must be improved upon. Forward CP must make at least hourly reports. Rear CP which should constantly monitor all transmissions should supplement information with periodic landline reports. It is also most helpful on a single battalion operation to have Bde monitor our net in an effort to stay informed.
+                </div>
+                <div>
+                  k. Our communications secuity must be improved upon.
+                </div>
+                <div>
+                  l. Companies must report enemy information more rapidly on the command net so that all units will have the benefit of the information.
+                </div>
+                <div>
+                  m. More effective use can be made of artillery fire. The first day we should have preceded our movement by artillery fire. It was much better the second day. Use of H&I fires around perimeter at night was effective and could have been more so were it not for the proximity of the ARVN forces.
+                </div>
+              </div>
+              <div>
+                FOR THE COMMANDER:
+                BILLY J. HAMMONS as Captain, Infantry
+                Adjutant
+              </div>
+              <div>
+                CASUALTIES SUSTAINED DURING OPERATION CLEAN SWEEP
+              </div>
+              <div>
+                <div>NAME</div><div>RANK & MOS</div>
+                <div>FAIN, James L.</div><div>SP4	11B10</div><div>KIA</div>
+                <div>ROBINSON, Grant</div><div>PFC	11D10</div><div>WIA</div>
+                <div>ROBINSON, Jessie C.</div><div>SP4	11B20</div><div>WIA</div>
+                <div>HEGBERG, Alfred</div><div>PFC	11E10</div><div>WIA</div>
+                <div>RAYMOND, Donald W.</div><div>SGT 11D40</div><div>WIA</div>
+                <div>CARTER, William</div><div>PFC 	11C20</div><div>WIA</div>
+                <div>AGUIRRE, Luis H. I</div><div>SP4	11D20</div><div>WIA</div>
+                <div>BELL, Amos Jr.</div><div>SSG 	11D40</div><div>WIA</div>
+                <div>BAILEY, Kedric L.</div><div>PFC	11D10</div><div>WIA</div>
+                <div>HARRIS, Steve W</div><div>PFC	11D10</div><div>WIA</div>
+                <div>BAKER, Albert</div><div>PFC	11C20</div><div>WIA</div>
+                <div>Co.  A</div>
+                <div>JACKSON, Carl</div><div>SP4 11B20</div><div>WIA</div>
+                <div>MCNEIL, Eddie Jr.</div><div>SP4 11B20</div><div>WIA</div>
+                <div>MOLIERE, Larry D.</div><div>PFC	11B10</div><div>WIA</div>
+                <div>Co. B</div>
+                <div>DAY, Billy B.</div><div>PVT 11B20</div><div>KIA</div>
+                <div>PARNELL, William B.</div><div>SSG	11B40</div><div>KIA</div>
+                <div>GARIS, Gary W.</div><div>SP4	11B20</div><div>KIA</div>
+                <div>MARTIN, Guy W.</div><div>SSG	11B40</div><div>WIA</div>
+                <div>CAVALIER, Clark P.</div><div>SSG	11B40</div><div>WIA</div>
+                <div>DRAKE, Melvin P.</div><div>SP4	11B20</div><div>WIA</div>
+                <div>Co. C</div>
+                <div>CASSUBE, Richard H.</div><div>SGT 11B40</div><div>KIA</div>
+                <div>BENNETT, Bertram S</div><div>SSG 11B40</div><div>WIA</div>
+                <div>PAQUETTE, Earl R</div><div>SP4 11B20</div><div>WIA</div>
+                <div>THOMPSON, David M.</div><div>SSG	11B40</div><div>WIA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: KAHUKU</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: HONOLULU</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: CIRCLE PINES</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: KALAMAZOO</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: WAIKIKI</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: WAHIAWA</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: COCO PALMS</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: MAKIKI</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: MOKOLEIA</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: KOKO HEAD</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: OAHU</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: KIPAPA</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: SUNSET BEACH</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: KAILUA</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: ATTLEBORO</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: CEDAR FALLS</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="nonTimeSegment topicSegment">
+        <div class="segmentTitle"><u>OPERATION: BEN CUI</u></div>
+        <div class="segmentContent">
+          <div class="segmentWords">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @include ('footer.content')
+@stop
+
 @section('vietnam_glossary')
   <div class="mainBody">
     <div class="timelineBox">

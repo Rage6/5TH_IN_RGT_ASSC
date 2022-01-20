@@ -67,7 +67,7 @@
           <span>Bobcat</span> <span>Reunion</span>
         </div>
         <div class="reunionDate dateAndLocation">
-          September 13 - 18
+          August 23 - 28
         </div>
         <div class="reunionLocation dateAndLocation">
           Colorado Springs, CO

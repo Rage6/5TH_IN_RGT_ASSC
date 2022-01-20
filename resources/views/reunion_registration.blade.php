@@ -227,12 +227,16 @@
               Location:
             </div>
             <div class="boxSubcontent">
-              Hotel Elegant&eacute; Conference & Event Center</br>
+              <!-- Hotel Elegant&eacute; Conference & Event Center</br>
               2886 S. Circle Drive</br>
-              Colorado Springs, CO 80906</br>
+              Colorado Springs, CO 80906</br> -->
+              Embassy Suites Colorado Springs</br>
+              7290 Commerce Center Drive,</br>
+              Colorado Springs, CO, 80919</br>
             </div>
             <div class="hotelMap">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.256067646065!2d-104.7978941686085!3d38.7980823243563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134462d12b8335%3A0x9b5a074af68729fe!2s2886%20S%20Circle%20Dr%2C%20Colorado%20Springs%2C%20CO%2080906!5e0!3m2!1sen!2sus!4v1634250360925!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4117.256067646065!2d-104.7978941686085!3d38.7980823243563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134462d12b8335%3A0x9b5a074af68729fe!2s2886%20S%20Circle%20Dr%2C%20Colorado%20Springs%2C%20CO%2080906!5e0!3m2!1sen!2sus!4v1634250360925!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.4452133814566!2d-104.81607328466578!3d38.93665625223428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134e6e6f594951%3A0x3a98a2a746854c62!2sEmbassy%20Suites%20by%20Hilton%20Colorado%20Springs!5e0!3m2!1sen!2sus!4v1642640943331!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
           <div>
@@ -245,13 +249,16 @@
                   Free parking
                 </li>
                 <li>
-                  Shuttle Service to/from the Airport & within an 8 mile radius of the hotel based on request and  availability
+                  Free 2-hour Cocktail (5-7) Nightly
                 </li>
                 <li>
-                  Breakfast for 2 included in Room Rate​ for single/double, additional $10 per person for triple/quadruple rooms.
+                  Breakfast for 2 included in Room Rate​
                 </li>
                 <li>
-                  Free Wi-Fi in guestrooms
+                  Free Wi-Fi
+                </li>
+                <li>
+                  Uber, Lyft, or Yellow Cab for appx. $50. No Airport Shuttle.
                 </li>
               </ul>
             </div>
@@ -260,7 +267,7 @@
                 Cost:
               </div>
               <div class="boxSubcontent">
-                <ul>
+                <!-- <ul>
                   <li>King or Double Queen room:
                     <ul>
                       <li>Single/Double - $119</li>
@@ -276,6 +283,10 @@
                       <li>Triple/Quadruple - $209</li>
                     </ul>
                   </li>
+                </ul> -->
+                <ul>
+                  <li>King 2 Room Suite - $129</li>
+                  <li>Queens 2 Room Suite - $139</li>
                 </ul>
               </div>
             </div>
@@ -287,21 +298,21 @@
             <div class="boxSubcontent">
               <div class="rowIntro">To make a reservation:</div>
               <div class="reservationRow">
-                <a href="https://www.reseze.net/servlet/SendPage?hotelid=1410&amp;skipfirstpage=true&amp;page=2714178" target="_blank" style="cursor:pointer">
+                <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hilton.com%2Fen%2Fbook%2Freservation%2Fdeeplink%2F%3Fctyhocn%3DCOSCCES%26groupCode%3DCESX5I%26arrivaldate%3D2022-08-23%26departuredate%3D2022-08-28%26cid%3DOM%2CWW%2CHILTONLINK%2CEN%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=04%7C01%7CSheri.Neely%40Hilton.com%7C3f2b4922d4064723085408d9db8e0ea4%7C660292d2cfd54a3db7a7e8f7ee458a0a%7C0%7C0%7C637782225433341539%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=EXpEdvfMdIJEiTZmhgnjkw7GZS%2FXxqlniScPS5aacdE%3D&reserved=0" target="_blank" style="cursor:pointer">
                   <div class="reserveBttn">BOOK ONLINE</div>
                 </a>
-                <div>
+                <!-- <div>
                   <div>
                     <u>Book By Email</u>
                   </div>
                   <div>mcm09reservations1@mcmelegante.com</div>
-                </div>
+                </div> -->
                 <div>
                   <div>
                     <u>Book By Phone</u>
                   </div>
                   <div>
-                    Call (719) 576-5900 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by Friday, August 12th, 2022.
+                    Call (719) 599-9100 and, when booking, tell them "5th Infantry Regiment Association". Booking prices are good up to 3 days before and after the reunion dates. Reservations must be made by Friday, July 22nd, 2022.
                   </div>
                 </div>
               </div>
@@ -331,9 +342,9 @@
               Riding Tour @ Garden of the Gods (2 - 3:30)
             </div>
             <div class="reunionBoxImg winery"></div>
-            <div class="boxSubcontent">
+            <!-- <div class="boxSubcontent">
               TBA
-            </div>
+            </div> -->
           </div>
           <div class="boxTotal">
             <div class="boxSubtitle">

@@ -325,7 +325,7 @@
         data-section="wednesday"
         data-type="box">
         <div class="boxTitle">
-          Wednesday, Sept. 14th, 10:00 am - 3:30 pm
+          Wednesday, Aug. 24th, 10:00 am - 3:30 pm
         </div>
         <div class="boxContent">
           <div class="boxTotal">
@@ -388,7 +388,7 @@
         data-section="thursday"
         data-type="box">
         <div class="boxTitle">
-          Thursday, Sept. 15th, 9:00 am - 4:00 pm
+          Thursday, Aug. 25th, 9:00 am - 4:00 pm
         </div>
         <div class="boxContent">
           <div class="boxTotal">
@@ -443,7 +443,7 @@
         data-section="friday"
         data-type="box">
         <div class="boxTitle">
-          Friday, Sept. 16th, 9:00 am - 4:00 pm
+          Friday, Aug. 26th, 9:00 am - 4:00 pm
         </div>
         <div class="boxContent">
           <!-- <div class="boxTotal">
@@ -511,7 +511,7 @@
         data-section="saturday"
         data-type="box">
         <div class="boxTitle">
-          Saturday, Sept. 17th
+          Saturday, Aug. 27th
         </div>
         <div class="boxContent">
           <div class="boxTotal">
@@ -539,14 +539,14 @@
             </div>
             <div class="boxSubcontent">
               <div class="mealList">
-                <div>Chicken Piccata: grilled chicken breast, lemon caper herb sauce</div>
-                <div>$49</div>
-                <div>Brilled Tilapia: herb & butter crusted white fish, garlic butter, lemon crown</div>
-                <div>$49</div>
-                <div>Flat Iron Steak: grilled, cracked peper demi</div>
-                <div>$49</div>
-                <div>Vegetable Wellington: grilled vegetables, boursin cheese, parmesan-wrapped pastry</div>
-                <div>$49</div>
+                <div>Chicken Piccata: Sautéed with Lemon, Capers & White Wine, Linguini, Roasted Broccoli and Apple Cobbler</div>
+                <div>$39</div>
+                <!-- <div>Brilled Tilapia: herb & butter crusted white fish, garlic butter, lemon crown</div>
+                <div>$49</div> -->
+                <div>Ribeye Steak: Sautéed Mushrooms, Gouda Mashed Potatoes, Fresh Vegetables and Apple Cobbler</div>
+                <div>$59</div>
+                <!-- <div>Vegetable Wellington: grilled vegetables, boursin cheese, parmesan-wrapped pastry</div>
+                <div>$49</div> -->
               </div>
               <div>
                 Each meal also includes: salad w/ choice of dressing, assorted rolls and butter, chef's choice of a soup, vegetables, and dessert.
@@ -755,7 +755,7 @@
               Saturday - Banquet Dinner Choices
             </div>
             <div class="boxSubcontent">
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="N3WC58JSCKEP6">
                 <table>
@@ -780,6 +780,28 @@
                         <option value="Vegetable Wellington">
                           Vegetable Wellington $49.00 USD
                         </option>
+                      </select>
+                    </td>
+                  </tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form> -->
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="N3WC58JSCKEP6">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="hidden" name="on0" value="Entree Choice">Entree Choice
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="os0">
+                        <option value="Ribeye Steak">Ribeye Steak $59.00 USD</option>
+                        <option value="Chicken Piccata">Chicken Piccata $39.00 USD</option>
                       </select>
                     </td>
                   </tr>

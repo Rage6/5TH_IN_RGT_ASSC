@@ -47,6 +47,19 @@ $(() => {
     openNewVideo("#button5","#video5");
   });
 
+  const changeAAR = (buttonName) => {
+    $("[data-opname]").css('display','none');
+    let selectedAAR = "[data-opname="+buttonName+"]";
+    $(selectedAAR).css('display','block');
+    return true;
+  }
+
+  $("[data-opbutton]").click(()=>{
+    changeAAR(event.target.dataset.opbutton);
+  });
+
+  changeAAR("clean_sweep");
+
   // Used this to change the tags in the original source code to avoid some of the repetiion
   // let originalText = ``;
   //

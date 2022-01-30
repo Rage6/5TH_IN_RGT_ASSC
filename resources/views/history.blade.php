@@ -22,7 +22,7 @@
 @section('history_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="warOf1812">
           <div data-button="warOf1812">War of 1812</div>
         </div>

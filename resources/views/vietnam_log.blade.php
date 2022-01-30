@@ -22,7 +22,7 @@
 @section('vietnam_preface_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <a href="{{ url('/history/vietnam-history/preface') }}">
           <div>
             <div>Preface</div>
@@ -118,7 +118,7 @@
 @section('vietnam_1966_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1966">
           <div data-button="jan" data-year="1966">January</div>
         </div>
@@ -1348,7 +1348,7 @@
 @section('vietnam_1967_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1967">
           <div data-button="jan" data-year="1967">January</div>
         </div>
@@ -2398,7 +2398,7 @@
 @section('vietnam_1968_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1968">
           <div data-button="jan" data-year="1968">January</div>
         </div>
@@ -4072,7 +4072,7 @@
 @section('vietnam_1969_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1969">
           <div data-button="jan" data-year="1969">January</div>
         </div>
@@ -5115,7 +5115,7 @@
 @section('vietnam_1970_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1970">
           <div data-button="jan" data-year="1970">January</div>
         </div>
@@ -5797,7 +5797,7 @@
 @section('vietnam_1971_content')
   <div class="mainBody">
     <div class="timelineBox">
-      <div class="timelineBar">
+      <div class="timelineBar timelineBar_12">
         <div data-button="jan" data-year="1971">
           <div data-button="jan" data-year="1971">January</div>
         </div>

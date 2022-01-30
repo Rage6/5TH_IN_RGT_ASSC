@@ -173,26 +173,43 @@ class HistoryTopicController extends Controller
 
     public function after_action_reports()
     {
+      $all_casualties = DB::table('casualties')
+        ->select('id','rank','first_name','last_name')
+        ->where([
+          ['day_of_death','>','21'],
+          ['day_of_death','<','25'],
+          ['month_of_death','=','2'],
+          ['year_of_death','=','1966']
+        ])
+        ->orWhere([
+          ['day_of_death','>','13'],
+          ['day_of_death','<','20'],
+          ['month_of_death','=','3'],
+          ['year_of_death','=','1966']
+        ])
+        ->get();
       if (Auth::user()) {
-         $unread_count = DB::table('messages')
-           ->where([
-             ['messages.received_id',Auth::user()->id],
-             ['messages.is_read','==',0]
-           ])
-           ->count();
-        return view('history_topic',[
-          'unread_count' => $unread_count,
-          'style' => 'history_style',
-          'js' => '/js/my_custom/history/history.js',
-          'content' => 'after_action_reports'
-        ]);
+        $unread_count = DB::table('messages')
+          ->where([
+            ['messages.received_id',Auth::user()->id],
+            ['messages.is_read','==',0]
+          ])
+          ->count();
+       return view('history_topic_with_lists',[
+         'unread_count' => $unread_count,
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'after_action_reports_content',
+         'all_casualties' => $all_casualties
+       ]);
       } else {
-        return view('history_topic',[
-          'style' => 'history_style',
-          'js' => '/js/my_custom/history/history.js',
-          'content' => 'after_action_reports'
-        ]);
-      }
+       return view('history_topic_with_lists',[
+         'style' => 'history_style',
+         'js' => '/js/my_custom/history/history.js',
+         'content' => 'after_action_reports_content',
+         'all_casualties' => $all_casualties
+       ]);
+      };
     }
 
     /**

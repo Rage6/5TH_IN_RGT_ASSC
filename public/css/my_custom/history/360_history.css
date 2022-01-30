@@ -796,9 +796,54 @@ p {
       rgba(0,0,0,0));
 }
 
-/* .shadeBottom {
-  position: relative;
-  top: -20px;
-  background: linear-gradient(0deg, white, transparent);
-  height: 20px;
-} */
+/* For After Action Reports only */
+
+.aarSegment {
+  display: none;
+}
+
+.aarHqAddress {
+  text-align: center;
+}
+
+.aarTopic {
+  margin-bottom: 25px;
+}
+
+.topicTitle {
+  text-decoration: underline;
+}
+
+.casListTitle {
+  text-align: center;
+}
+
+.columnNames {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.columnNames div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.casUnitName {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: 1px dashed black;
+}
+
+.casUnitList {
+  display: grid;
+  grid-template-columns: 50% 35% 15%;
+  font-size: 1rem;
+}
+
+.aarWords {
+  font-size: 1.3rem;
+  font-family: 'Bellefair', serif;
+}

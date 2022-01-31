@@ -177,47 +177,47 @@
         <div data-opbutton="circle_pines">
           <div data-opbutton="circle_pines">"CIRCLE PINES"</div>
         </div>
-        <div data-opbutton="clean_sweep">
-          <div data-opbutton="clean_sweep">"KALAMAZOO"</div>
+        <div data-opbutton="kalamazoo">
+          <div data-opbutton="kalamazoo">"KALAMAZOO"</div>
         </div>
-        <div data-opbutton="clean_sweep">
-          <div data-opbutton="clean_sweep">"WAIKIKI"</div>
+        <div data-opbutton="waikiki">
+          <div data-opbutton="waikiki">"WAIKIKI"</div>
         </div>
-        <div data-opbutton="clean_sweep">
-          <div data-opbutton="clean_sweep">"WAHIAWA"</div>
+        <div data-opbutton="wahiawa">
+          <div data-opbutton="wahiawa">"WAHIAWA"</div>
         </div>
-        <div data-opbutton="clean_sweep">
-          <div data-button="aug" data-year="1966">"COCO PALMS"</div>
+        <div data-opbutton="coco_palms">
+          <div data-opbutton="coco_palms">"COCO PALMS"</div>
         </div>
-        <div data-button="sep" data-year="1966">
-          <div data-button="sep" data-year="1966">"MAKIKI"</div>
+        <div data-opbutton="makiki">
+          <div data-opbutton="makiki">"MAKIKI"</div>
         </div>
-        <div data-button="oct" data-year="1966">
-          <div data-button="oct" data-year="1966">"MOKOLEIA"</div>
+        <div data-opbutton="mokoleia">
+          <div data-opbutton="mokoleia">"MOKOLEIA"</div>
         </div>
-        <div data-button="nov" data-year="1966">
-          <div data-button="nov" data-year="1966">KOKO HEAD</div>
+        <div data-opbutton="koko_head">
+          <div data-opbutton="koko_head">"KOKO HEAD"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"OAHU"</div>
+        <div data-opbutton="oahu">
+          <div data-opbutton="oahu">"OAHU"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"KIPAPA"</div>
+        <div data-opbutton="kipapa">
+          <div data-opbutton="kipapa">"KIPAPA"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"SUNSET BEACH"</div>
+        <div data-opbutton="sunset_beach">
+          <div data-opbutton="sunset_beach">"SUNSET BEACH"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"KAILUA"</div>
+        <div data-opbutton="kailua">
+          <div data-opbutton="kailua">"KAILUA"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"ATTLEBORO"</div>
+        <div data-opbutton="attleboro">
+          <div data-opbutton="attleboro">"ATTLEBORO"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"CEDAR FALLS"</div>
+        <div data-opbutton="cedar_falls">
+          <div data-opbutton="cedar_falls">"CEDAR FALLS"</div>
         </div>
-        <div data-button="dec" data-year="1966">
-          <div data-button="dec" data-year="1966">"BEN CUI"</div>
+        <div data-opbutton="ben_cui">
+          <div data-opbutton="ben_cui">"BEN CUI"</div>
         </div>
       </div>
     </div>
@@ -382,7 +382,7 @@
                 <div>
                   @foreach ($all_casualties as $one_casualty)
                     @if ($one_casualty->first_name == "James" && $one_casualty->last_name == "Fain")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}</a>
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
                 </div>
@@ -410,7 +410,7 @@
                 <div>
                   @foreach ($all_casualties as $one_casualty)
                     @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}</a>
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
                 </div>
@@ -419,7 +419,7 @@
                 <div>
                   @foreach ($all_casualties as $one_casualty)
                     @if ($one_casualty->first_name == "William" && $one_casualty->last_name == "Parnell")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}</a>
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
                 </div>
@@ -428,7 +428,7 @@
                 <div>
                   @foreach ($all_casualties as $one_casualty)
                     @if ($one_casualty->first_name == "Gary" && $one_casualty->last_name == "Garis")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ $one_casualty->last_name }}, {{ $one_casualty->first_name }}</a>
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
                 </div>
@@ -457,138 +457,1779 @@
         </div>
       </div>
       <div data-opname="kahuku" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: KAHUKU</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <div>HEADQUARTERS</div>
+              <div>1ST BATTALION (MECH) 5TH INFANTRY</div>
+              <div>APO San Francisco 96225</div>
+            </div>
+            <div class="aarTopic">
+              TLMAA-C 29 April 1966
+            </div>
+            <div class="aarTopic">
+              <div>SUBJECT: Commanding Officer</div>
+              <div>2d Bde Task Force</div>
+              <div>25th Infantry Division</div>
+              <div>APO U. S. Forces 96225</div>
+            </div>
+            <div class="aarTopic">
+              1. Operation KAHUKU, search and destroy.
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>: 7 April 1966
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">General</span>:
+              <div>
+                The operation was conducted in Phuoc Vinh Ninh (XT 6814). The Bn OPIRD 16-66 was issued 061400APR66. The operation was conducted with elements of the 2d Bde Task Force. Lt Col Greer is the reporting officer. Task organization and commanders were as follows:
+              </div>
+              <div>
+                1st Bn (Mech) 5th Inf: Lt Col T. U. Greer, commanding.</br>
+                Co A: Capt. J. A. Renner, commanding.</br>
+                B Trp, 3/4 Cav: Capt C. R. Quickmire, commanding.</br>
+                Co C, 1/69th Armored: Capt P. C. Gutzman, commanding.</br>
+                2d Platoon, Co B, 1/5th Mech:  1/Lt T. Jagosc, Plat Ldr.</br>
+                Hvy Mort Plat:  1/Lt J. E. McQuinn, Plat Ldr.</br>
+                Attachments and detachments: Incl 1.</br>
+              </div>
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Intelligence</span>:
+              <ol type="a">
+                <li>
+                  One platoon of local guerrillas had been reported in the area of operations. Exact location of the VC platoon was not known. It was believed that when the VC determined a major U.S. attack was under way they would attempt to withdraw to the safe areas vicinity Tan Hoa (XT 695145) and/or Dong Sao (XT 700105). It was suspected that the same general harassing and delaying tactics -- sniper fire and boobytraps -- would be employed by the VC. The VC were known to have several MG's and automatic weapons.
+                </li>
+                <li>
+                  During the operation no platoon size force was encountered at any one time. The primary mission of the TF was to seal off all routes of escape with platoon size elements while the main force conducted search and destroy operations throughout the entire area of operations. The mission was accomplished, but only four - and five - man VC groups were encountered by our forces. Upon deploying into the AO, small groups of VC were engaged and killed in trenches, bunkers and spider holes.
+                </li>
+                <li>
+                  The terrain consisted primarily of dry rice paddies,  moderate to thickly vegetated woods and scattered marshy streambeds. Observation and fields of fire were both restricted by the numerous hedgerows in the objective area. The only obstacle to tracked movement was the low marshy stream areas, but these posed no obstacle to dismounted personnel. The weather caused no change in the course of action.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">Mission</span>: TF GREER attacks 070700APR to conduct search and destroy operations in assigned area of operations (Incl 1).
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Concept of Operations</span>: The Task Force established platoon size blocking positions on CP 6 (XT 690128) and CP 7 (XT 669132) to prevent VC movement in or out of Phuoc Vinh Ninh and attacked rapidly to conduct search and destroy operations in Phuoc Vinh Ninh.
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Execution</span>: The Task Force crossed the LD on time with the 2d Plat, Co B, 1/5th Mech moving rapidly to establish the blocking position on CP 6. The TF moved rapidly into the area and at 0750 Co C, 1/69th, operating the center of the area, received small arms fire from vic XT 676134. Automatic weapons fire was returned and contact broken but no results could be determined. At 0807 2d Plat, Co B, 1/5th Mech secured and established the blocking position vic XT 669132 without enemy contact. At 0811, B Trp, 3/4 Cav spotted nine civilians moving into a hole on the right of PL EGG (XT 686117). A small element was left to apprehend the civilians and the unit continued on its search and destroy mission. At the same time, Co A, 1/5 Mech sustained two WIA's from small arms fire from XT 675123. The casualties were minor and after treatment remained with the unit. At 0812, Co C, 1/69th Armored saw nine people moving into a hole vic XT 676118 and detached an element to apprehend the civilians. The civilians captured by B Trp, 3/4 Cav and Co C, 1/69th Armored were later turned over to the National Police. At 0813, Co A, 1/5 Mech received small arms fire and contact was broken. By 0817 all units had crossed PL CANDY (XT 678119). At the same time, the Bn Cmd Gp, which was to the rear of the forward elements, spotted five VC's getting out of a trench on PL CANDY vic XT 678119 with a MG and automatic weapons to engage the rear of the TF. The Bn Cmd Gp moved back and opened fire on the VC's who retreated into a trench with the machinegun. The VC's were pursued and killed and their MG and three carbines captured. Documents on one of the VC's disclosed that he was a squad leader of the C 306 Bn, Local Force, Cu Chi. Two WIA's were sustained by the Bn Cmd Gp. Co C, 1/69th Armored destroyed an enemy area with demolitions at 0841 and sustained one WIA from a falling tree vic XT 684127. At the same time, the 1st Plat, B Trp, 3/4 Cav seized and established the blocking position vic XT 690128. At 0851, Co C, 1/69th Armored spotted five VC's in a trench. The unit maneuvered and engaged the Vc's with automatic weapons and small arms fire, killing three (confirmed) and wounding one who died shortly thereafter. Intelligence received from the 2d Bde indicated that a VC company with a strength of 110 men with automatic weapons capability was in the operations area. At 0855 the Bn Cmdr aborted the Co C, 1/5th Mech planned mission in another area and committed Co C to assist in Operation KAHUKU. At 0902 a helicopter in support of Operation KAHUKU was hit by fire and forced down vicinity XT 695115. The pilot sustained serious wounds by burns and there were three ambulatory casualties. The WIA's were evacuated by Dust Off and the equipment was extracted by ground troops in the area. At 0909 another helicopter received fire and had to return to Cu Chi. No casualties were sustained. At 0922, B Trp, 3/4 Cav found a VC base camp vicinity XT 684123.  A detailed search of the area disclosed no weapons or equipment and the area was destroyed. At 0925 a VC PW in the area stated that the VC's had moved out and were in the Bao Cap area and artillery fires were placed throughout the Bao Cap area. At 0933, Co A, 1/27th Inf was dispatched forward to augment the effectiveness of the blocking position vic XT 669132. By 0937 TF GREER had swept through the entire objective area and received the order to return to PL EGG and make another sweep through the area. At 0950, Co C, 1/5th Mech arrived in the objective area and was given the mission of conducting a detailed search of the area north of the LD up to PL CANDY attacking from west to east between CP 13 (XT 675120) and CP 17 (XT 677118). At 1000, Hvy Mortar Platoon, unable to fire due to the employment of friendly troops throughout the objective area, received orders to displace and establish a blocking position to the southwest, vic CP 3 (XT 677112). At 1027, Co C, 1/69th Armored reported the killing of nine VC's in a trench on PL BUNNY (XT 691124) and captured several documents and weapons. Co A, 1/5th Mech also killed two VC's  in a tunnel at 1052 on CP 4 (XT 677124) and gave chase to a third who escaped with an automatic weapon. B Trp, 3/4 Cav located a house vicinity XT 677122 that was boobytrapped and destroyed the structure. By 1115 all units had returned to PL EGG and immediately started the return search of the area. The search progressed slowly and without contact and at 1132 Co C, 1/5th Mech found a 250 lb bomb that was rigged for command detonation vicinity XT 686125.  The bomb was destroyed and the unit continued its search and at 1146 found an undetermined number of AP mines in a house vic XT 677118. A further search of the area revealed a cache of small arms ammunition. No enemy could be found and all munitions and VC structures were destroyed. At 1152, Co C, 1/5th Mech found a large cache of military equipment and documents in another house vic XT 677188. A check of the cache revealed that it was boobytrapped with CBU bombs. The house and the cache were destroyed. at 1201, B Trp, 3/4 Cav killed one VC and captured and destroyed an undetermined number of grenades on PL BASKET vicinity XT 693124. At 1215, B Trp, 3/4 Cav found a dead VC, female, in a tunnel in the same area. There were several boobytraps and hand grenades found with the body. The boobytraps and grenades were destroyed. Between1216 and 1430 sporadic and ineffective sniper fire was received from the southwestern section of PL EGG vic XT 658116 and at 1430 Co A and Co C,  1/5th Mech received the order to conduct a two company sweep through the Ap Dong Sao area (XT 700105). Both units made a NW-SE sweep through the entire area finding and destroying three boobytraps; however, no enemy contact was made and the units made a return sweep through the area and closed into base camp at 1620. The 49th ARVN Regt assumed the responsibility of the mop-up operation and moved in with dozers as the TF started a homeward sweep toward base camp. B Trp, 3/4 Cav sustained two minor WIA's from small arms fire from vic XT 689118 and killed one VC vic XT 689117 who was attempting to depart the area of operations. At 1613, B Trp killed another VC in a trench vicinity XT 689116. By 1800 all elements had closed to base camp with the exception of  B Trp, 3/4 Cav, which was providing security for the downed helicopter.
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Supporting Forces</span>: Co C, 1/5th Mech, Capt J. G. Andress, commanding, responded rapidly and greatly enhanced the effectiveness of the search and destruction of VC's and Vc structures in the area of operations. The Bde reaction force, Co A, 1/27th Inf, Capt L. J. Mayene, commanding, was committed into the area of operations by the Bde CO to strengthen the blocking position on CP #7 vic XT 669132. Light fire team, UH1B armed helicopters supported the TF.
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Results</span>:
+              <div>
+                a. VC's killed:
+                <ol>
+                  <li>
+                    26 VC's killed (body  count )
+                  </li>
+                  <li>
+                    19 VC's killed (estimated)
+                  </li>
+                  <li>
+                    18 civilians detained and turned over to National Police
+                  </li>
+                </ol>
+                b. Destroyed:
+                <ol>
+                  <li>
+                    17 bunkers
+                  </li>
+                  <li>
+                    5 tunnels
+                  </li>
+                  <li>
+                    20 buildings
+                  </li>
+                  <li>
+                    18 boobytraps
+                  </li>
+                  <li>
+                    30 hand grenades
+                  </li>
+                  <li>
+                    8 CBU bombs (boobytrapped)
+                  </li>
+                  <li>
+                    1  250lb bomb (boobytrapped).
+                  </li>
+                </ol>
+                c. Captured:
+                <ol>
+                  <li>
+                    Miscellaneous papers and documents
+                  </li>
+                  <li>
+                    4 Russian carbines, 7.62mm
+                  </li>
+                  <li>
+                    1 U. S. carbine, M2
+                  </li>
+                  <li>
+                    (4) 2 U. S. BAR's
+                  </li>
+                  <li>
+                    2 Chicom 7.62mm assault rifles
+                  </li>
+                  <li>
+                    1 Russian MG 34,  7.92mm LMG
+                  </li>
+                  <li>
+                    1 Chicom 7.62mm carbine.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Administrative Matters:</span>:
+              <ol type="a">
+                <li>
+                  <u>Supplies</u>:Operation KAHUKU was a one day operation and no resupply was necessary.
+                </li>
+                <li>
+                  <u>Maintenance</u>: During the course of the operation the TF had several tanks and APC's mired; however, all were extracted and no major maintenance problem occurred during the operation as all vehicles returned to base camp under their own power.
+                </li>
+                <li>
+                  <u>Transportation</u>: The TF vehicles consumed approximately one-half the fuel in their tanks during the operation and no refueling was necessary during the operation.
+                </li>
+                <li>
+                  <u>Medical</u>: Casualty list, Incl 2.
+                </li>
+                <li>
+                  <u>Communications</u>: No communications problems were encountered during the operation.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              <span class="topicTitle">Special Equipment & Techniques</span>: None
+            </div>
+            <div class="aarTopic">
+              <span class="topicTitle">Commander's Analysis</span>: The commitment of Co C, 1/5th Mech into the area of operations was necessitated by the large number of tunnels, bunkers and buildings in the area which required a thorough search. The Tank Co and Cac Troop were not capable of nor prepared for conducting detailed ground or underground searches.
+            </div>
+            <div class="aarTopic">
+              13. <span class="topicTitle">Conclusions & Lessons Learned</span>:
+              <ol type="a">
+                <li>
+                  The speed and violence of the attack prevented most of the VC from escaping.
+                </li>
+                <li>
+                  No air or artillery preparations were fired to forewarn the VC of an impending attack. Extensive preparations are habitually employed by both ARVN and U.S. Forces prior to any attack. Supporting fires were preplanned and on call for this operation.
+                </li>
+                <li>
+                  The coordinated use of blocking positions and armed helicopters to seal off  the area was very effective.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              FOR THE COMMANDER</br>
+              BILLY J. HAMMONDS</br>
+              Captain, Infantry</br>
+              Adjutant
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION KAHUKU
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName">HHC</div>
+              <div class="casUnitList">
+                <div>JORDAN, Herman</div><div>Maj 1542</div><div>WIA</div>
+                <div>BOX, Delbert</div><div>PFC 11B10</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">Co A</div>
+              <div class=casUnitList>
+                <div>CROWLEY, Morris</div><div>SGT 	11B40</div><div>WIA</div>
+                <div>FRANKS, Mack H.</div><div>PFC	11B10</div><div>WIA</div>
+                <div>JEROLDS, James R.</div><div>SSG	11B40</div><div>WIA</div>
+                <div>FORMAN, Thomas G.</div><div>PFC	11H10</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">B Trp, 3/4 CAV</div>
+              <div class="casUnitList">
+                <div>MICHALAK, Stanley</div><div>PFC	11E10</div><div>WIA</div>
+                <div>ROBINSON, William F.</div><div>PVT E2	11B20</div><div>WIA</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="honolulu" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: HONOLULU</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="circle_pines" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: CIRCLE PINES</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="kalamazoo" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: KALAMAZOO</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="waikiki" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: WAIKIKI</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="wahiawa" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: WAHIAWA</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="coco_palms" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: COCO PALMS</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="makiki" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: MAKIKI</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="mokoleia" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: MOKOLEIA</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="koko_head" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: KOKO HEAD</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="oahu" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: OAHU</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="kipapa" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: KIPAPA</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="sunset_beach" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: SUNSET BEACH</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="kailua" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: KAILUA</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="attleboro" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: ATTLEBORO</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="cedar_falls" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: CEDAR FALLS</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div data-opname="ben_cui" class="nonTimeSegment topicSegment">
+        <div class="backBttn">
+          <a href="{{ url('/history/timeline') }}">
+            <div><< HISTORY</div>
+          </a>
+        </div>
         <div class="segmentTitle"><u>OPERATION: BEN CUI</u></div>
         <div class="segmentContent">
-          <div class="segmentWords">
-            <p></p>
+          <div class="segmentWords aarWords">
+            <div class="aarHqAddress aarTopic">
+              <!-- Headquarters -->
+            </div>
+            <div class="aarTopic">
+              <!-- TLMAA-C February 1966 -->
+            </div>
+            <div class="aarTopic">
+              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+            </div>
+            <div class="aarTopic">
+              <!-- To, with address -->
+            </div>
+            <div class="aarTopic">
+              1. <span class="topicTitle">Reference</span>:
+            </div>
+            <div class="aarTopic">
+              2. <span class="topicTitle">Date</span>:
+            </div>
+            <div class="aarTopic">
+              3. <span class="topicTitle">Place</span>:
+            </div>
+            <div class="aarTopic">
+              4. <span class="topicTitle">Mission</span>:
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">General Summary of Operation</span>:
+              <div>
+
+              </div>
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Description of Area of Operation</span>:
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Enemy Encountered</span>:
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Results of Operation</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Friendly Casualties</span>:
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Equipment Damaged</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Lessons Learned</span>:
+              <ol type="a">
+                <li>
+
+                </li>
+              </ol>
+              <div>
+                <!-- FOR THE COMMANDER:</br> -->
+              </div>
+            </div>
+            <div class="casSegment">
+              <div class="casListTitle">
+                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+              </div>
+              <div class="casUnitList columnNames">
+                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
+              </div>
+              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>

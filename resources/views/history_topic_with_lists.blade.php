@@ -612,10 +612,10 @@
               </ol>
             </div>
             <div class="aarTopic">
-              <span class="topicTitle">Special Equipment & Techniques</span>: None
+              11. <span class="topicTitle">Special Equipment & Techniques</span>: None
             </div>
             <div class="aarTopic">
-              <span class="topicTitle">Commander's Analysis</span>: The commitment of Co C, 1/5th Mech into the area of operations was necessitated by the large number of tunnels, bunkers and buildings in the area which required a thorough search. The Tank Co and Cac Troop were not capable of nor prepared for conducting detailed ground or underground searches.
+              12. <span class="topicTitle">Commander's Analysis</span>: The commitment of Co C, 1/5th Mech into the area of operations was necessitated by the large number of tunnels, bunkers and buildings in the area which required a thorough search. The Tank Co and Cac Troop were not capable of nor prepared for conducting detailed ground or underground searches.
             </div>
             <div class="aarTopic">
               13. <span class="topicTitle">Conclusions & Lessons Learned</span>:

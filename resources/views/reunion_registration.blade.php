@@ -612,6 +612,7 @@
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="6HXT4WU8WSSMN">
+                <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                 <table>
                   <tr>
                     <td>
@@ -645,6 +646,7 @@
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="9PD5E67DSBXC6">
+                <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                 <table>
                   <tr>
                     <td>
@@ -693,6 +695,7 @@
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="YW3VSAECRN63Y">
+                <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                 <table>
                   <tr>
                     <td>
@@ -727,6 +730,7 @@
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="KFRQDZUAMXPL4">
+                <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                 <table>
                   <tr>
                     <td>
@@ -761,25 +765,14 @@
                 <table>
                   <tr>
                     <td>
-                      <input type="hidden" name="on0" value="Entree Choice">
-                      Entree Choice
+                      <input type="hidden" name="on0" value="Entree Choice">Entree Choice
                     </td>
                   </tr>
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="Flat Iron Steak">
-                          Flat Iron Steak $49.00 USD
-                        </option>
-                        <option value="Chicken Piccata">
-                          Chicken Piccata $49.00 USD
-                        </option>
-                        <option value="Broiled Tilapia">
-                          Broiled Tilapia $49.00 USD
-                        </option>
-                        <option value="Vegetable Wellington">
-                          Vegetable Wellington $49.00 USD
-                        </option>
+                        <option value="Ribeye Steak">Ribeye Steak $59.00 USD</option>
+                        <option value="Chicken Piccata">Chicken Piccata $39.00 USD</option>
                       </select>
                     </td>
                   </tr>
@@ -791,6 +784,7 @@
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="N3WC58JSCKEP6">
+                <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                 <table>
                   <tr>
                     <td>
@@ -800,8 +794,12 @@
                   <tr>
                     <td>
                       <select name="os0">
-                        <option value="Ribeye Steak">Ribeye Steak $59.00 USD</option>
-                        <option value="Chicken Piccata">Chicken Piccata $39.00 USD</option>
+                        <option value="Ribeye Steak">
+                          Ribeye Steak $59.00 USD
+                        </option>
+                        <option value="Chicken Piccata">
+                          Chicken Piccata $39.00 USD
+                        </option>
                       </select>
                     </td>
                   </tr>
@@ -824,6 +822,7 @@
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="TUL2YF3JGK45L">
+                  <input type="hidden" name="shopping_url" value="http://fifth-infantry-regiment-assoc.herokuapp.com/reunion">
                   <table>
                     <tr>
                       <td>

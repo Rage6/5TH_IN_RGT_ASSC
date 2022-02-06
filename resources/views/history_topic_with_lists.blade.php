@@ -986,89 +986,316 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS</br>
+              1ST BATTALION (MECH) 5TH INFANTRY</br>
+              APO San Francisco 96225</br>
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              TIMAA-C 10 April 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT:  After-Action Report
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO:</br>
+              2d Bde Task Force</br>
+              25th Infantry Division</br>
+              APO U. S. Forces 96225</br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. <span class="topicTitle">Operation Circle Pines</span>, search and destroy.
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. <span class="topicTitle">Date</span>: 29 March - 5 April 1966
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
-            </div>
-            <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
-            </div>
-            <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
-              <div>
-
-              </div>
-            </div>
-            <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
-            </div>
-            <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              3. <span class="topicTitle">General</span>: The operation started in the rubber plantation west of Phu Hoa Dong (XT 7119) and continued through the Ho Bo Woods (XT 6229). The Bn OPORD 15-66 was issued 271000MAR66. The operation was conducted with the 2d Bde Task Force. Lt Col Greer is the reporting officer. Task organization and commanders were as follows:
               <ol type="a">
                 <li>
-
+                  1st Bn (Mech) 5th Inf:  Lt Col T. U. Greer, commanding.
+                  <ol>
+                    <li>Co A: Capt J. A. Renner, commanding.</li>
+                    <li>Co B:  1/Lt F. G. Trenery, commanding.</li>
+                    <li>Co C: Capt J. G. Andress, commanding.</li>
+                    <li>Recon Plat:  1/Lt D. T. Schou.</li>
+                    <li>Hvy Mort Plat:  1/Lt J. E. McQuinn.</li>
+                  </ol>
+                </li>
+                <li>
+                  Recon Platoon was attached to Co A and Co C was detached to the 1/69th Armor.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
-            </div>
-            <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              4. <span class="topicTitle">Intelligence</span>:
               <ol type="a">
                 <li>
-
+                  One Main Force Battalion, the 307 Bn of the 165A Regt, has been reported in the operations area. The 048 Heavy Weapons Company was reported supporting the 307 Bn. Exact locations and dispositions of the VC forces were not known. It was believed that when the VC determined that a major U.S. attack was underway they would attempt to withdraw and exfiltrate in small groups to safe areas in the Ho Bo Woods (XT 6228) and the Iron Triangle (XT 7025). It was expected that the same general harassing and delaying tactics, sniper fire, and boobytraps would be employed by the VC. The VC were known to have anti-armor capability through the use of the Soviet RLRPG-2,  which is capable of penetrating 6-7 inches of armor and is effective up to 150 meters.
+                </li>
+                <li>
+                  During the operation in the plantation, no large VC force was encountered. The primary mission of the Bn was to seal off all routes of escape out of Phu Hoa Dong while the 7th Regt (ARVN) conducted search and destroy operations throughout the entire village area. This mission was accomplished, but only two- and three-man VC groups were encountered by our blocking position. Upon deploying into the Ho Bo Woods with objectives in the area of XT 6527 and XT 6526, no major enemy contact was made, although ambushes around company perimeters engaged and killed small groups of VC attempting to probe the unit defenses or bypass and depart the area. Co A was ordered into an area vic XT 629305 which reportedly was occupied by small elements from the VC 7th Regt. Co A met heavy resistance in the area from an estimated two VC platoons, but they succeeded in securing the objective. The VC encountered in this area were wearing complete black uniforms, helmets, web and harness equipment. The VC also employed 175mm duds as command detonated mines triggered from well concealed bunkers. A complete battalion attack into the north-western side of the Ho Bo Woods resulted in the following:</b>
+                  Co C completely searched a heavily wooded area within which the Recon Platoon had located a large rice and military equipment cache (XT 598265). There was some enemy contact in the area, but these VC were believed to be only guarding the cache area. Co B and Recon Platoon encountered light to heavy resistance when they moved in the attack vic XT 585290. These VC elements were not identified and throughout the entire operation the battalion did not encounter any VC elements larger than two platoons. Specific identification of units was not made, although several documents, maps, photos, ect., found in tunnels referred to units which had been in the area recently.
+                </li>
+                <li>
+                  Terrain and Weather. The weather caused no significant changes in plans throughout the operational period. The terrain in the plantation area consisted of sparse to heavily undergrown rubber plantations and open flat fields. Observation in this area is good to excellent and fields of fire are excellent. There are no obstacles to tracked movement in the plantation area. The streams and bordering marshy fields are obstacles to tracked movement. The Ho Bo Woods area consists of rubber plantations, sparse to dense woods and open rice paddies with some extremely large dikes in the area of XT 605215. Some were approximately four feet high and four feet wide but did not present an obstacle to tracked movement.
+                </li>
+                <li>
+                  Fortifications: Extensive three and four level tunnel complexes were located and destroyed in the vic of XT 658247. Small tunnels were also located and destroyed in the vicinity of XT 630303 and XT 658258. The following were recently used by VC for bivouac areas, storage, or both: XT 598265, XT 590270, XT 590275, XT 585305 to XT 598326 to XT 615312. All of the above were reported to Bde S-2 as continuous H&I targets.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
+              5. <span class="topicTitle">Mission</span>: 1/5th Mech attacks 290700MAR to seize Obj 1 and conduct search and destroy operations in assigned area of operation.
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Concept of Operation</span>: Task Force attacked rapidly through the plantation to seize Obj's 1 and 2 and establish blocking positions A, B, C and D to prevent VC movement in and out of Phu Hoa Dong. Preplanned fires were on call (Incl 1).
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Execution</span>: The Task Force departed the LD on time and secured Obj's 1 and 2 by 0900 hours. All blocking positions were established and occupied by 0935 hours. Upon securing Obj 1, Co A shot one VC attempting to swim the river from the south to the north and detained several indigenous personnel they spotted leaving the area. Co B killed two VC's and captured one, together with several documents, weapons, ammunition and miscellaneous equipment. Co C made no contact. During the afternoon sporadic contact was made by each company, and four VC kills (conf) and one VC wounded were made while the battalion suffered two WIA's. A POW revealed the location of a rice cache which was investigated and confirmed by Co A and turned over to the ARVN for disposition. Co A also located a second rice cache, as well as miscellaneous weapons,  ammunition and equipment. Co B also located various small arms, ammunition and equipment. Recon Platoon located several tunnels, weapons and documents, as well as several sampans, which were sunk, and a landing site. The companies coiled for the night in company perimeters and established nine ambushes to augment the security and increase the effectiveness of the blocking positions. By 1945 the task force had killed a total of ten VC (conf) and captured three VC. In addition, six suspects were detained. On the following day all units conducted extensive searches in their areas, resulting in Recon Platoon finding and destroying a tunnel complex and Co A finding two large stores of ammunition, grenades, documents, tng equipment and a considerable amount of penicillin, heroin and miscellaneous medical supplies. Extensive damage was done to one Recon Platoon APC by a command detonated mine. Ten ambushes were established that night, making negative enemy contact. On the third day the Task Force area of operations was enlarged by an additional 12,000 square meters for search and destroy operations. Search and destroy operations commenced early that morning and seven tunnels were destroyed, one M-1 rifle and various documents captured, plus two VC killed (conf) and one VC wounded. One friendly WIA was sustained, and one track suffered moderate damage from an AT mine. That night seven ambush sites were established which accounted for four VC kills confirmed and six estimated in three contacts. One friendly WIA was sustained. On 1 Apr 66 the Task Force continued to occupy blocking positions in conjunction with the ARVN search of Phu Hoa Dong, which was completed that afternoon. At 0915 hours, a new order was received from the Bde CO to move to and occupy a new assembly area in preparation for the continuation of the attack into the Ho Bo Woods (incl 2). At 1330 hours the Bn CP departed the original assembly area, closing on the new assembly area BOBCAT at 1625, with one APC sustaining extensive damage from an AT mine enroute. Shortly thereafter, Capt. E. B. Vickery returned to duty, resuming command of Co B. Upon closing into the assembly area, an attachment of A Trp, 3/4 Cav, commanded by Capt J. R. Monahan, was effected. Eight ambushes were established that night, one of which made enemy contact, reporting one confirmed VC kill and one estimated, as well as one rifle and a small quantity of ammunition and miscellaneous documents captured. The attack was launched at 0730, 2 Apr 66, along assigned axes. The Objectives PAM and KIM were seized at 0901 and 0912, respectively. Objective CAROL was seized by 1200 hours. No enemy contact was made, though A Trp, 3/4 Cav had three vehicles damaged by AT mines. Due to reported VC activity north of the Bde TF objectives, the Bn was given the mission to seize a new blocking position vic OP D (XT 628304). Co A was dispatched to the area at 1450 hours and arrived at 1545 hours. Upon arriving in the vicinity of OP D, they encountered an estimated VC force of two squads and in the ensuring fire fight killed six VC (conf). The objective was secured by 1632 hours. One APC was destroyed by a command detonated mine and resulted in four KIA and six WIA (which included two National Policemen). The mine was later determined to be a 175mm Arty round rigged for electrical detonation. During the search of the TF's area of operations, many weapons, munitions, documents, maps and pictures were captured. Two 100 lb bags of rice and two tunnels were also found and destroyed. Recon Platoon suffered two WIA's in the day's operation while killing one VC (conf), destroying many tunnels and capturing one carbine and a large supply of arms, munitions, and miscellaneous equipment. Eight ambushes were employed by the battalion to supplement the security of each company base. One of the ambushes was sprung at 1955 hours, resulting in eight VC killed (five conf, three est). Several weapons and some munitions, equipment and documents were taken from the bodies. On 3 Apr 66 all units conducted a systematic search of their respective areas, resulting in the capture of several weapons and a quantity of munitions, equipment and documents. Co B suffered two WIA's due to boobytraps. One of the boobytraps captured by Co A consisted of a 175mm shell, fuzed for command detonation and wired to a bicycle generator affixed to a rotary grindstone. Co B dispatched a platoon to check on reported ground fire from vic XT 657273. One of the tracks was destroyed by a mine which ignited the gas tank. One KIA and four WIA's were suffered. The unit suffered another WIA due to small arms fire in the same area. One VC suspect was captured. Recon Platoon estimated killing two VC in tunnels. Eight ambushes were established during the hours of darkness, but none made contact. Final instructions for the continuation of the operation were received at 1900 hours. All units were alerted and at 2300 hours the TF Frag O was issued (Incl 3). The next phase of Operation CIRCLE PINES commenced at 040700APR66. Co C returned to Bn control at 0630 and A Trp, 3/4 Cav reported to the 1/69th Armor at the same time. At 0819 hours the Recon Platoon discovered several large rice caches in a well concealed and fortified area. Co C was diverted from its preplanned mission to conduct a thorough search of the area vic XT 600265. The remainder of the Bn continued on its preplanned operation. At 0855 hours a heavy volume of  rifle grenade fire was received while passing through CP 6. Co B suffered three WIA's. The VC were engaged by artillery, gunships and small arms fire. The initial sweep to the north was supported by artillery, Tac air, and  gunships. Light VC contact was made by each unit. During the southeast sweep,  Co B and Co C were diverted to vic XT 598259. Air and artillery supported the sweep. By 1800 hours Co A closed into a base area. The Bn(-) closed into a new assembly area at 2400 hours. During the day 23 VC were killed (6 conf and 15 est). Several tunnels, five tons of rice,  and four rifles were destroyed. Over four tons of rice, a large amount of military equipment, munitions and arms were captured. The Bn suffered 19 WIA's and 1 KIA. At       051610APR66 the Recon Platoon was committed to the 2/27th Inf to assist in securing the area which was attacked earlier that morning. By 0900 hours Co B was also committed to the 2/27th Inf. Co C was placed under Bde OPCON to assist the return movement of the Bde complex. All elements closed into the Bn base camp by 1621 hours. No enemy contact was made.
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Supporting Forces</span>:
+              <ul type="a">
+                <li>Btry C, 1/8th Arty (DS)</li>
+                <li>1/8th Arty (-) (GS)</li>
+                <li>25th Inf Div.</li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Results</span>:
               <ol type="a">
                 <li>
-
+                  VC killed (Confirmed and estimated):</br>
+                  (1) 40 VC killed (body count).</br>
+                  (2) 57 VC killed (est).</br>
+                  (3) 3 VC captured.</br>
+                  (4) 6 VC suspects detained.</br>
+                </li>
+                <li>Destroyed:</br>
+                  (1) 1,420 rounds, Russian, 7.62mm.</br>
+                  (2) 90 carbine rounds.</br>
+                  (3) 60 .45 cal rounds.</br>
+                  (4) 40 crimped cartridges.</br>
+                  (5) 4  .45 cal SMG magazines.</br>
+                  (6) 74 hand grenades.</br>
+                  (7) 19 rifle grenades.</br>
+                  (8) 11 AT mines.</br>
+                  (9) 3 AP mines</br>
+                  (10)  1  175mm command detonated mine.</br>
+                  (11)  1  155mm command detonated mine.</br>
+                  (12) 30 bobbytraps.</br>
+                  (13) 2  81mm boobytraps.</br>
+                  (14) 2 small Claymores.</br>
+                  (15) 6 houses.</br>
+                  (16) 71 tunnels.</br>
+                  (17) 8 bunkers</br>
+                  (18) 4.7 tons of spoiled rice.</br>
+                </li>
+                <li>
+                  Captured:</br>
+                  (1) 5 tons of rice.</br>
+                  (2) 3-55 gal drums of miscellaneous military equipment, including 90 flashlights, web equipment, ammo pouches and gloves (all new).</br>
+                  (3) 10 pistol belts.</br>
+                  (4) 13 packs.</br>
+                  (5) miscellaneous maps, narcotics, penicillin and tng manuals.</br>
+                  (6) 1 medical aid kit.</br>
+                  (7) 5 large bags of documents.</br>
+                  (8) 1 SMG.</br>
+                  (9) 1 RPG-2 rocket launcher.</br>
+                  (10) 6 Russian 7.62mm rifles.</br>
+                  (11) 4 bolt action rifles (destroyed).</br>
+                  (12) 3 M1 rifles.</br>
+                  (13) 3 bolt action rifles.</br>
+                  (14) 1 pistol, homemade.</br>
                 </li>
               </ol>
-              <div>
-                <!-- FOR THE COMMANDER:</br> -->
-              </div>
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Administrative Matters</span>:
+              <ol type="a">
+                <li>
+                  Supplies:  Resupply was accomplished by two methods. Primary method was aerial resupply by helicopter from base camp. The other method was the positioning of Class III and Class IV at OP Ann Margaret while operating in the plantation and then positioning the same supplies in a Bn trains located in the Bde trains area vic Trung Lap. During the operation, 126 sorties delivered the following supplies: Class I - 21,862 pounds; Class II and IV - 8,900 pounds; Class III - 46,000 pounds (5,750 gallons); Class V - 22,198 pounds; and water - 23,925 pounds (2,981 gallons). The largest problem encountered in resupply was receiving the attached unit, A Trp, 3/4 Cav,  on the fourth day of the operation and being informed at approximately 1600 hours that they needed 1,000 gallons of MOGAS and 1,500 gallons of diesel fuel to accomplish their mission. The fuel was delivered despite a shortage of daylight time. Another problem encountered was water resupply at base camp. During the first two days of the operation, a 5,000 gallon water tanker was positioned at the helipad; however, its pump was inoperable. It was removed on the third day. Then, and continuously afterwards, the water points were either closed or a long waiting time existed. Recommend that if a completely operational water tanker is not positioned on the helipad that one of the water points be designated for use only by vehicles involved in resupply by helicopters. The availability of helicopters in the early morning and late evening still caused some problems in resupply. Helicopters were never available earlier than 0800 hours and at most times were released at 1700 hours. The tactical operation required constant or considerable movement before 0800 hours and after 1700 hours. Therefore, it is essential that  helicopters be available for resupply missions, especially during the periods of 0700-0900 and 1600-1900 hours. The Bn expended 46,000 rounds of 5.56mm, 62,000 rounds of 7.62mm, 22,200 rounds of cal .50, 858 40mm grenades, 180 81mm mortar rounds, 803 hand grenades, 43 incendiary grenades, 195 smoke grenades, 30 M18A1 mines, 1440 pounds of demolitions,  and 720 pounds of C4 demolitions.
+                </li>
+                <li>
+                  Maintenance: The Bn started the operations with two APC's  short due to vehicles being inoperable and turned into support maintenance. During the operations, nine APC's, M113, were damaged by mines; one APC, M113, was slightly damaged by a rocket launcher round; one APC, M113, was damaged by a claymore mine; one Carrier Command Post, M577, was damaged by a mine; and one mortar SP track 4.2", M106, was destroyed completely by fire and secondary explosions. Two of the APC's, M113, which hit mines were further damaged by fire.
+                </li>
+                <li>
+                  Transportation: The Task Force consumed 8,058 gallons of MOGAS and 1,700 gallons of diesel fuel.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">Special Equipment & Techniques</span>: None
+            </div>
+            <div class="aarTopic">
+              12. <span class="topicTitle">Commander's Analysis</span>: Co C was diverted from its preplanned objective on 4 April due to the Recon Platoon's findings. The area was too large for a platoon and showed every indication of being a VC stronghold.
+            </div>
+            <div class="aarTopic">
+              13. <span class="topicTitle">Conclusions and Lessons Learned</span>:
+              <ol type="a">
+                <li>
+                  Ambushes again proved to be most effective. Of five ambushes making contact, a total of 20 VC were killed (11 conf and 9 est).
+                </li>
+                <li>
+                  Operating with ARVN was very difficult. The major problems were:
+                  <ol>
+                    <li>
+                      ARVN would not stay on line.
+                    </li>
+                    <li>
+                      After the first day they did not follow their plan and hence did not asequately clear the village.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Cross attachment of mechanized and armored elements created a distinct recovery problem. This unit does not have the capability  to recover a damaged tank.
+                </li>
+                <li>
+                  Every TC must constantly be aware of his location by  frequent reference to the map and through use of the compass.
+                </li>
+                <li>
+                  Women and children would leave the village during artillery fires and move toward or through the CP areas.
+                </li>
+                <li>
+                  A helicopter pad can be cleared in lightly wooded areas in less than 15 minutes for a single helicopter. This enhances the unit's flexibility in selecting an assembly area.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              FOR THE COMMANDER:</br>
+              D. M. SNODGRASS</br>
+              CWO (W-3)</br>
+              Ass't Adjutant</br>
             </div>
             <div class="casSegment">
               <div class="casListTitle">
-                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
+                CASUALTIES SUSTAINED DURING OPERATION CIRCLE PINES
               </div>
               <div class="casUnitList columnNames">
                 <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
               </div>
-              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitName">HHC</div>
               <div class="casUnitList">
-                <!-- <div>DAY, Billy B.</div> -->
-                <!-- <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div> -->
-                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+                <div>BEARD, Harley E.</div><div>SGT E5 11B40</div><div>WIA</div>
+                <!-- <div>SHIPP, Keith L.</div><div>PFC E3	11C10</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Keith" && $one_casualty->last_name == "Shipp")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- <div>NICHOLS, Larry J.</div><div>SP4 E4 11B20</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Larry" && $one_casualty->last_name == "Nichols")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP4 E4 11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <div>BLISS, Harvey L</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>STOCKER, Clemon</div><div>SGT E5	11C40</div><div>WIA</div>
+                <div>ROGERS, Fred L.</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>ADKINS, Herbert A.</div><div>PVT E2 11C10</div><div>WIA</div>
+                <div>SAGONIA, John P.</div><div>PFC E3 11C10</div><div>WIA</div>
+                <div>GRAHAM, Thomas D.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>BROWN, Donald H.</div><div>SGT E5 11B40</div><div>WIA</div>
+                <div>CARLYLE, Billy S.</div><div>SP4 E4	11C20</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">A Co.</div>
+              <div class="casUnitList">
+                <!-- <div>COFFEY, Jesse J.</div><div>SGT E5	11B40</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Jesse" && $one_casualty->last_name == "Coffey")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SGT E5 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- <div>FRANKLIN, George S.</div><div>SP4 E4	11B20</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "George" && $one_casualty->last_name == "Franklin")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP4 E4 11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- <div>THORNELL, Lester J.</div><div>SP4 E4	76K30</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Lester" && $one_casualty->last_name == "Thornell")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP4 76K30</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- <div>DORRIS, Curtis E.</div><div>SP5 E5 94B20</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Curtis" && $one_casualty->last_name == "Dorris")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP5 E5 94B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <div>DE JESUS, Miguel</div><div>SP4 E4 	11B20</div><div>WIA</div>
+                <div>STURGES, Scott L.</div><div>1st Lt 1542</div><div>WIA</div>
+                <div>SULLIVAN, Harold A</div><div>SSG E6 11B40</div><div>WIA</div>
+                <div>HARRIS, John M.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>COFFORTH, Alfred</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>JOHNSON, William D.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>PARKER, James R</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>BRANCH, Walter A</div><div>PFC E3 11B10</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">B Co.</div>
+              <div class="casUnitList">
+                <div>HOUSLEY, Leonard D.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>CASTRO-CRESPO, Anidal</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>GOEHRKE, Lance M.</div><div>PVT E2	11B10</div><div>WIA</div>
+                <div>HOLMAN, James A.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>PRILLWITZ, Walter</div><div>SGT E5 11B40</div><div>WIA</div>
+                <div>BAY, Donald E.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>MCMILLAN, Thomas</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>JOHNSON, Ronald D.</div><div>PFC E3 11C10</div><div>WIA</div>
+                <div>ARNOLD, Robert E.</div><div>SSG E6	11B40</div><div>WIA</div>
+                <div>JOHNSON, Donald R.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <!-- <div>SMITH, Steven M.</div><div>PFC E3 11B10</div><div>KIA</div> -->
+                <div>OWENS, Walter Jr.</div><div>SGT E5	11C40</div><div>WIA</div>
+                <div>KAVANAUGH, John</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>MARTIN, Guy W.</div><div>SSG E6 11B40</div><div>WIA</div>
+                <div>MCGOUGH, John W.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>BALDWIN, Donald D.</div><div>PVT E1 11B10</div><div>WIA</div>
+                <div>MURDOCK, Anthony W.</div><div>SGT E5	11B40</div><div>WIA</div>
+                <!-- <div>SYKES, Hamp J. Jr.</div><div>PFC E3	11B10</div><div>KIA</div> -->
+                <div>BRAY, Dillard R. Jr.</div><div>SFC E7 11B40</div><div>WIA</div>
+                <div>MEDGETT, Dewey</div><div>PVT E2 11B10</div><div>WIA</div>
+                <div>GOODMAN, James R.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>FLYNN, James</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>HARLER, Ashby W.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>MILLER, Jerry D.</div><div>SP4 E4 11B20</div><div>WIA</div>
+                <div>COLLIER, Gerald</div><div>SP4 E4	11B20</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">C Co.</div>
+              <div class="casUnitList">
+                <!-- <div>MORRIS, Arthur C.</div><div>SGT E5 11B40</div><div>KIA</div> -->
+                <!-- <div>JARRELL, Roger D.</div><div>PFC E3 11B10</div><div>KIA</div> -->
+                <!-- <div>TAYLOR, Jimmy B.</div><div>SGT E5 11B40</div><div>KIA</div> -->
+                <div>BRASHER, Daniel E.</div><div>1st Lt 1542</div><div>WIA</div>
+                <div>SEXTON, Dennis W.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>MCCARTNEY, Samuel</div><div>SSG E6	11B40</div><div>WIA</div>
+                <div>WONG, Paul A.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>DUVALL, Ernest F.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>HOPKINS, Charles R.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>SMITH, Donnie R.</div><div>SGT E5 11B40</div><div>WIA</div>
+                <div>TORREY, Edward L.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>BARNEY, Ernest E.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>DECOT, Michael E.</div><div>PFC E3	11B20</div><div>WIA</div>
+                <div>BISSONNETTE, Don W.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>KNOTT, Elvin V.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>HAROLDSON, Jerry L.</div><div>SP4 E4 11B20</div><div>WIA</div>
+                <div>PEAL, Jerry C</div><div>SSG E6	11B40</div><div>WIA</div>
+                <div>WELLS, Anthony D.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>MASON, Wesley J.</div><div>1st Lt 1542</div><div>WIA</div>
+                <div>BEVIS, Reynolds R.</div><div>PVT E2 11B10</div><div>WIA</div>
+                <div>MELVIN, Clyde D.</div><div>SP4 E4 11B20</div><div>WIA</div>
               </div>
             </div>
           </div>

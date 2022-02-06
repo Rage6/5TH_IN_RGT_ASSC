@@ -191,6 +191,9 @@
               Every member of the 5th Infantry Regiment Association gains:
               <ul>
                 <li>
+                  A personal account within our website. This provides an easy way to: find other members, send direct messages to another member, and customize your profile. No apps or Facebook required!
+                </li>
+                <li>
                   Quarterly newsletters
                 </li>
                 <li>
@@ -223,7 +226,7 @@
                   <u>Soldiers & Veterans</u>: If you are/were a member of the 5th Infantry Regiment, and would like to rejoin your unit, you have found the right place. We are the 5th Infantry Regiment Association, and we need a few good men to fill the ranks of the finest chapter in the US Army.
                 </div>
                 <div style="margin-top:10px">
-                  <u>Associate Members</u>: We also offer an associates membership to those that were a family member to a veteran of the 5th Infantry Regiment.
+                  <u>Associate Members</u>: We also offer an associates membership to those that were a family member of a veteran that was in the 5th Infantry Regiment. Associate members share the same dues as regular members do.
                 </div>
               </div>
             </div>
@@ -232,7 +235,7 @@
                 <i>What are the membership costs?</i>
               </div>
               <div>
-                If you would like to become a member, the dues and how long each due lasts are listed below. The prices of the "Lifetime" options are based on your age when you paid that particular option.
+                If you would like to become a member, the dues and how long each due lasts are listed below. The prices of the "Lifetime" options are based on your age when you paid for your Lifetime membership.
               </div>
               <div class="costList">
                 <div class="costTitle">

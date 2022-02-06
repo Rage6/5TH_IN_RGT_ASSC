@@ -925,7 +925,7 @@
                 <div>SHONO, David D.</div><div>SP4</div><div>WIA</div>
                 <!-- <div>STANDS, Daniel G.</div><div>PVT</div><div>KIA</div> -->
                 @foreach ($all_casualties as $one_casualty)
-                  @if ($one_casualty->first_name == "Daniel" && $one_casualty->last_name == "Stands")
+                  @if ($one_casualty->first_name == "Daniel" && $one_casualty->last_name == "Stands Jr")
                     <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     </div>
@@ -957,17 +957,15 @@
                 <div>VINCENT, James B.</div><div></div><div>WIA</div>
                 <div>SZABO, Michael M.</div><div>SP4</div><div>WIA</div>
                 <!-- <div>SNODGRASS, George</div><div>SP4</div><div>KIA</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "George" && $one_casualty->last_name == "Snodgrass")
-                      <div>
-                        <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                      </div>
-                      <div>SP4</div>
-                      <div>KIA</div>
-                    @endif
-                  @endforeach
-                </div>
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "George" && $one_casualty->last_name == "Snodgrass")
+                    <div>
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    </div>
+                    <div>SP4</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>THOMPSON, John T.</div><div>SP4</div><div>WIA</div>
                 <div>POLK, Harry E.</div><div>SSG</div><div>WIA</div>
                 <div>KNOTT, Elvin</div><div>SP4</div><div>WIA</div>

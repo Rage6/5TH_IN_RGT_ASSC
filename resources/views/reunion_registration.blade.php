@@ -134,13 +134,13 @@
                   <input type='radio' name='event_three' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='event_three' value='No'/><span>No</span>
                 </div>
-                <!-- <div class='radioTypeBox'>
+                <div class='radioTypeBox'>
                   <div>
                     Do you plan on attending the ladies breakfast 9am Saturday morning? There is no charge.
                   </div>
                   <input type='radio' name='ladies_breakfast' value='Yes'/><span>Yes</span>
                   <input checked type='radio' name='ladies_breakfast' value='No'/><span>No</span>
-                </div> -->
+                </div>
                 <div class='radioTypeBox'>
                   <div>
                     Are you driving?

@@ -379,14 +379,15 @@
               </div>
               <div class="casUnitList">
                 <!--- <div>FAIN, James L.</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "James" && $one_casualty->last_name == "Fain")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "James" && $one_casualty->last_name == "Fain")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
-                <div>SP4	11B10</div><div>KIA</div>
+                    </div>
+                    <div>SP4	11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>ROBINSON, Grant</div><div>PFC	11D10</div><div>WIA</div>
                 <div>ROBINSON, Jessie C.</div><div>SP4	11B20</div><div>WIA</div>
                 <div>HEGBERG, Alfred</div><div>PFC	11E10</div><div>WIA</div>
@@ -407,32 +408,35 @@
               <div class="casUnitName">Co. B</div>
               <div class="casUnitList">
                 <!-- <div>DAY, Billy B.</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
-                <div>PVT 11B20</div><div>KIA</div>
+                    </div>
+                    <div>PVT 11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <!-- <div>PARNELL, William B.</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "William" && $one_casualty->last_name == "Parnell")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "William" && $one_casualty->last_name == "Parnell")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
-                <div>SSG	11B40</div><div>KIA</div>
+                    </div>
+                    <div>SSG	11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <!-- <div>GARIS, Gary W.</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Gary" && $one_casualty->last_name == "Garis")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Gary" && $one_casualty->last_name == "Garis")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
-                <div>SP4	11B20</div><div>KIA</div>
+                    </div>
+                    <div>SP4	11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>MARTIN, Guy W.</div><div>SSG	11B40</div><div>WIA</div>
                 <div>CAVALIER, Clark P.</div><div>SSG	11B40</div><div>WIA</div>
                 <div>DRAKE, Melvin P.</div><div>SP4	11B20</div><div>WIA</div>
@@ -440,14 +444,15 @@
               <div class="casUnitName">Co. C</div>
               <div class="casUnitList">
                 <!-- <div>CASSUBE, Richard H.</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Richard" && $one_casualty->last_name == "Cassube")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Richard" && $one_casualty->last_name == "Cassube")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
-                <div>SGT 11B40</div><div>KIA</div>
+                    </div>
+                    <div>SGT 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>BENNETT, Bertram S</div><div>SSG 11B40</div><div>WIA</div>
                 <div>PAQUETTE, Earl R</div><div>SP4 11B20</div><div>WIA</div>
                 <div>THOMPSON, David M.</div><div>SSG	11B40</div><div>WIA</div>
@@ -919,13 +924,15 @@
                 <div>BROWER, Larry N.</div><div>SP4</div><div>WIA</div>
                 <div>SHONO, David D.</div><div>SP4</div><div>WIA</div>
                 <!-- <div>STANDS, Daniel G.</div><div>PVT</div><div>KIA</div> -->
-                <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Daniel" && $one_casualty->last_name == "Stands")
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Daniel" && $one_casualty->last_name == "Stands")
+                    <div>
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div>
+                    </div>
+                    <div>PVT</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
               </div>
               <div class="casUnitName">Co. B</div>
               <div class="casUnitList">
@@ -953,7 +960,11 @@
                 <div>
                   @foreach ($all_casualties as $one_casualty)
                     @if ($one_casualty->first_name == "George" && $one_casualty->last_name == "Snodgrass")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                      <div>
+                        <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                      </div>
+                      <div>SP4</div>
+                      <div>KIA</div>
                     @endif
                   @endforeach
                 </div>

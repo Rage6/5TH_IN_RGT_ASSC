@@ -921,7 +921,7 @@
                 <!-- <div>STANDS, Daniel G.</div><div>PVT</div><div>KIA</div> -->
                 <div>
                   @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "David" && $one_casualty->last_name == "Shono")
+                    @if ($one_casualty->first_name == "Daniel" && $one_casualty->last_name == "Stands")
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach

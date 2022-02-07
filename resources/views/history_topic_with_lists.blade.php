@@ -1256,8 +1256,22 @@
                 <div>MCMILLAN, Thomas</div><div>PFC E3 11B10</div><div>WIA</div>
                 <div>JOHNSON, Ronald D.</div><div>PFC E3 11C10</div><div>WIA</div>
                 <div>ARNOLD, Robert E.</div><div>SSG E6	11B40</div><div>WIA</div>
-                <div>JOHNSON, Donald R.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <!-- <div>JOHNSON, Donald R.</div><div>PFC E3 11B10</div><div>WIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Donald" && $one_casualty->last_name == "Johnson")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <!-- <div>SMITH, Steven M.</div><div>PFC E3 11B10</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Steven" && $one_casualty->last_name == "Smith")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>OWENS, Walter Jr.</div><div>SGT E5	11C40</div><div>WIA</div>
                 <div>KAVANAUGH, John</div><div>SP4 E4	11B20</div><div>WIA</div>
                 <div>MARTIN, Guy W.</div><div>SSG E6 11B40</div><div>WIA</div>
@@ -1265,6 +1279,13 @@
                 <div>BALDWIN, Donald D.</div><div>PVT E1 11B10</div><div>WIA</div>
                 <div>MURDOCK, Anthony W.</div><div>SGT E5	11B40</div><div>WIA</div>
                 <!-- <div>SYKES, Hamp J. Jr.</div><div>PFC E3	11B10</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Hamp" && $one_casualty->last_name == "Sykes")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>BRAY, Dillard R. Jr.</div><div>SFC E7 11B40</div><div>WIA</div>
                 <div>MEDGETT, Dewey</div><div>PVT E2 11B10</div><div>WIA</div>
                 <div>GOODMAN, James R.</div><div>SP4 E4	11B20</div><div>WIA</div>
@@ -1276,8 +1297,29 @@
               <div class="casUnitName">C Co.</div>
               <div class="casUnitList">
                 <!-- <div>MORRIS, Arthur C.</div><div>SGT E5 11B40</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Arthur" && $one_casualty->last_name == "Morris")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SGT E5 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <!-- <div>JARRELL, Roger D.</div><div>PFC E3 11B10</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Roger" && $one_casualty->last_name == "Jarrell")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <!-- <div>TAYLOR, Jimmy B.</div><div>SGT E5 11B40</div><div>KIA</div> -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Jimmy" && $one_casualty->last_name == "Taylor")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SGT E5 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
                 <div>BRASHER, Daniel E.</div><div>1st Lt 1542</div><div>WIA</div>
                 <div>SEXTON, Dennis W.</div><div>PFC E3 11B10</div><div>WIA</div>
                 <div>MCCARTNEY, Samuel</div><div>SSG E6	11B40</div><div>WIA</div>

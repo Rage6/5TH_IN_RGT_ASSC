@@ -193,7 +193,7 @@ class HistoryTopicController extends Controller
           ['year_of_death','=','1966']
         ])
         ->orWhere([
-          ['day_of_death','<','6'],
+          ['day_of_death','<','7'],
           ['month_of_death','=','4'],
           ['year_of_death','=','1966']
         ])

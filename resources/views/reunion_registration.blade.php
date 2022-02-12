@@ -357,9 +357,9 @@
                 <li>
                   <u>Garden of the Gods Special</u>: Assorted Roast Beef, Ham, and Turkey Sandwiches, Soup of the Day, Creamy Potato Salad, Assorted Dessert, Bars, Beverage Station
                 </li>
-                <li>
+                <!-- <li>
                   <u>Gateway Rock Grill Out</u>: 1/3lb Hamburgers and 1/4lb All Beef Franks, Crisp House Chips, Hamburger and Hot dog Fixings, Assorted Dessert Bars, Beverage Station
-                </li>
+                </li> -->
               </ul>
               <div>
                 NOTE: Lunch prices will be included in the tour total cost

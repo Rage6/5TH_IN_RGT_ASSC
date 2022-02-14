@@ -1621,7 +1621,7 @@
               <div class="casUnitList">
                 <!-- SCOTT, Jimmy L.	SP5 E5	91B20	HHC	WIA-KIA -->
                 @foreach ($all_casualties as $one_casualty)
-                  @if ($one_casualty->first_name == "Jimmy" && $one_casualty->last_name == "Scott")
+                  @if ($one_casualty->first_name == "Jimmie" && $one_casualty->last_name == "Scott")
                     <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
                     <div>SP5 E5 91B20</div>
                     <div>KIA</div>
@@ -1705,7 +1705,7 @@
                 </div>
                 <!-- ROTHRANG, Howard F. Jr.	PFC E3	11B10	Co B 	KIA -->
                 @foreach ($all_casualties as $one_casualty)
-                  @if ($one_casualty->first_name == "Howard" && $one_casualty->last_name == "Rothrang")
+                  @if ($one_casualty->first_name == "Howard" && $one_casualty->last_name == "Rothring")
                     <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
                     <div>PFC E3 11B10</div>
                     <div>KIA</div>
@@ -1746,7 +1746,7 @@
                 @endforeach
                 <!-- LAMARR, Phillip 	SP4 E4	11B20	Co B	KIA -->
                 @foreach ($all_casualties as $one_casualty)
-                  @if ($one_casualty->first_name == "Phillip" && $one_casualty->last_name == "Lamarr")
+                  @if ($one_casualty->first_name == "Phillip" && $one_casualty->last_name == "La Marr")
                     <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
                     <div>SP4 E4	11B20</div>
                     <div>KIA</div>

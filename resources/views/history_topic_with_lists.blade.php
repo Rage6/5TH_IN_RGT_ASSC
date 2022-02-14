@@ -1353,69 +1353,261 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS<br>
+              1ST  BATTALION  (MECH)  5TH  INFANTRY<br>
+              APO San Francisco 96225
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVTLSBA-C
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT:  After-Action Report, Operation KALAMAZOO
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO:<br>
+              Commanding Officer<br>
+              2d Brigade<br>
+              25th Infantry Division<br>
+              APO U. S. Forces 96225
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. <span class="topicTitle">Operation</span>: KALAMAZOO, search and destroy.
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. <span class="topicTitle">Date</span>: 130600APR66 - 141830APR66.
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              3. <span class="topicTitle">General</span>: The 1st Bn (mech) 5th Infantry, 2d Bde, 25th Inf Div, conducted search and destroy operations in TAOR (Incl 1). The Bn OPORD No 17-66 was issued at 121400APR66. Lt Col T. U. Greer is the reporting officer. Task organization and commanders were as follows:
+              <ul>
+                <li>
+                  1st Bn (Mech) 5th Inf (Lt Col T. U. Greer, commanding).
+                </li>
+                <li>
+                  Tm RENNER (Capt J. A. Renner, commanding), Co A, 1/5th Mech; 2/C/1/69th Armored/ 1 demo tm.
+                </li>
+                <li>
+                  Tm GUTZMAN (Capt P. C. Gutzman, commanding),  Co C (-), 1/69th Armored; 3/A/1/5th Mech; 1/B/1/5th Mech; 1 demo tm.
+                </li>
+                <li>
+                  Tm VICKERY (Capt E. B. Vickery, commanding), Co B (-), 1/5th Mech; 3/C/1/69th Armored; 1 demo tm.
+                  <ul>
+                    <li>
+                      Recon Platoon (1/Lt D. T. Schou).
+                    </li>
+                    <li>
+                      Hvy Mort Plat (1/Lt J. E. McQuinn).
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
+              4. <span class="topicTitle">Intelligence</span>
+              <ol type="a">
+                <li>
+                  The 305th Battalion of the 165th A Regiment had established bases in the Filhol Plantation and continues to conduct harassing type activities within the plantation and the outlying areas. During the hours of darkness, radar has detected vehicular movement along the roads and trails running through the plantation area. The last reported location of the 305th Bn was in vic coord XT 650208 on 9 Apr 66. Documents captured at this location revealed that personnel from the 1st and 4th Companies of the 305th were involved in the action. It was also believed that elements of the 305th Bn took part in the attack on A/2/27th on 5 April. The 307th Bn was believed to be operating in the Ho Bo Woods area with the last reported location on 11 Apr in the vic XT 614255,  XT 614268 and XT 634267. As a result of recent combat operations, the 305th Bn was not considered to be at full strength.
+                </li>
+                <li>
+                  During the operation no major enemy force of significant size was engaged by this unit. Several ambushes were employed; however no night contact was made. Elements of the TF received automatic weapons fire from approximately 15-20 VC. This was the largest enemy contact during the entire operation. It was expected that once the VC determined a major U. S. effort was launched the VC would exfiltrate north to the Ho Bo Woods.
+                </li>
+                <li>
+                  The terrain was primarily dense to sparsely populated rubber trees and rice paddies. There were scattered, thickly wooded areas which considerably limited visibility. There were no natural obstacles to tracked movement; however, all roads, trails and trafficable areas were mined. The weather caused no change in plans or courses of action.
+                </li>
+              </ol>
             </div>
             <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
+              5. <span class="topicTitle">Mission</span>: TF GREER conducts search and destroy operations in the TAOR, commencing 130600APR66, establishes TF base vicinity Psn VICKY (XT 647207) and prepared for operations into the Ho Bo Woods on order.
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">Concept of Operation</span>: TF GREER attacks with Tm VICKERY, TM GUTZMAN and Tm RENNER to seize VICKY, GRACE and ROSE, respectively. Each team conducts search and destroy operations in AO and continues to attack on order (Incl 1).
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle"> Execution</span>:
               <div>
-
+                TF GREER departed base camp at 0600 and all elements crossed the LD by 0630 hours, Tm VICKERY arrived on the edge of Psn VICKY at 0700 and by 0718 the psn was seized and occupied without enemy resistance. Tm GUTZMAN seized and secured Psn GRACE at 0722. As Tm VICKERY and Tm GUTZMAN commenced the search in their AO, Tm RENNER seized and secured Psn ROSE at 0800 and immediately started a detailed search of the AO. The search progressed methodically and at 0811 one APC from Co C, 1/69th hit a mine vic XT 655176. No casualties were sustained; however, the vehicle could not be repaired in place and was evacuated. By 0905 Tm VICKERY was occupying Psn VIOLET and preparing to move to Psn VERA. Meanwhile, Tm GUTZMAN, enroute to Psn GLORIA, had three APC's throw tracks due to dense vegetation. Forward progress was temporarily impeded; however, the vehicles were repaired in place and continued with the advance to Psn GLORIA. One APC from Tm RENNER hit an AT mine 200 meters east of Psn ROSE. No casualties were sustained; however, the vehicle had to be evacuated due to the extent of damage. Personnel from Tm RENNER found and destroyed a box of grenades in the vicinity of the downed APC. At 0950 Tm GUTZMAN arrived on Psn GLORIA and began searching operations. Tm RENNER received automatic weapons fire from the SE of Psn ROSE at 0958 and quickly maneuvered elements in an attempt to run down the VC. At 0950 gunships reported receiving heavy automatic fire from XT 632238 (Area ZULU)  and Tm VICKERY was diverted into the area. Arty fires were adjusted throughout Area ZULU as Tm VICKERY moved rapidly into the area with the mission of sweeping the area around the creek vic XT 643233. Co A, 1/5th Mech reported one man slightly wounded by rifle grenade fragments while chasing a small VC element vic Psn VICKY at 1030. Helicopters reported receiving ground fire from XT 627175 at 1110 and Tm GUTZMAN was instructed to move to that vicinity and develop the situation. A med evac track of Tm RENNER hit an AT mine on Psn ROSE at 1120 that blew one track off and damaged the road wheel. No casualties were sustained and the vehicle was evacuated. Tm GUTZMAN, working in the southern edge of Psn GLORIA, received mortar fire at 1123 and elements were maneuvered in the direction of the fire in an attempt to suppress it. One tank of Tm GUTZMAN was hit by a round from an AT weapon at 1140 that penetrated the tank and wounded one man. The tank was slightly damaged and continued the movement. The AT weapon was later identified as an RPG-2, when the fin assembly was found. Co A received rifle grenade fire on Psn ROSE at 1157 from an estimated reinforced rifle squad. The unit returned 81mm mortar fire on the enemy as troops were maneuvered against the enemy, but the enemy broke contact. During the engagement, Tm RENNER sustained five WIA's from rifle grenade shrapnel. At 1210, Tm VICKERY arrived in Area ZULU where the helicopter received fire (XT 627175) and began a systematic search of the area and at 1212 an airborne observer spotted approximately 10 VC breaking out into the open 200 meters in front of Tm Vickery's elements who quickly pushed in that direction while 4.2" mortar fire was adjusted into the target area. A systematic search of tunnels and bunkers in the area revealed a rice cache but no VC and the search was continued. At 1216 hours the lead tank hit an AT mine that blew one track off and damaged the road wheel. Two APC's from Tm Renner hit AT mines at 1230 while searching Psn ROSE, causing moderate damage to the APC's and three minor WIA's, who were treated and remained with the unit. At 1255 the Bn Cmdr in a C & C helicopter spotted 10 VC who were flushed in the open by Tm VICKERY vic XT 64172238. 4.2" mortar fire was delivered on the VC and two VC kills were estimated. Tm VICKERY continued to search Area ZULU and at 1302 the unit sustained two KIA's and one WIA from small arms fire from spider holes vic XT 638236. Small arms and automatic weapons fire was returned. Recon Platoon found a rice cache of approximately 1000 lbs at 1348 vic XT 678222. Two VC were seen entering a house in the 6117 grid square by gunships at 1402. An airstrike was delivered on the house at 1419 and a secondary explosion occurred. At 1415 Tm RENNER found and destroyed a small ammunition cache vic XT 646229. Tm VICKERY sustained two KIA's and six WIA's from a heavy volume of accurate rifle grenades and small arms fire from XT 635235 at 1442. The unit immediately engaged the VC by fire and maneuver, but the VC broke contact. The search was continued and at 1510 the crew chief of a resupply helicopter, diverted to the area for evacuation of Co B's WIA's was wounded. At 1520, the TF VTR hit an AT mine vic XT 640223, causing moderate damage to the track; however, no casualties were sustained. Recon Platoon found 40 graves at 1620 hours vic XT 654223. An inspection of the grave sites disclosed that the tombstones were engraved with VC flags and carbines engraved under the flag. The graves were determined to be one month old. One APC from Co A, 1/5th Mech hit an AT mine vic XT 640227. Extensive damage was done to the right track; however, no casualties were sustained. Tm GUTZMAN spotted a VC who was getting into a well. The unit gave chase as the VC moved down into the well and into a tunnel entrance that branched off from the well. A through search of the well and tunnel disclosed no VC or equipment. The well and all tunnel entrances were destroyed. Another APC from Tm RENNER hit an AT mine vic XT 666225 at 1825, causing minor damage to the track. The vehicle was repaired and placed into action. A tank of Tm GUTZMAN, while towing a damaged tank, hit an AT mine at 1833, causing minor damage to the track. Tm RENNER killed one VC at 1834 who emerged from a hole and threw a grenade at an APC vic XT 639217. At 1840 a tank crew with a stuck vehicle vic XT 628229 shot and killed three VC who were attempting to emplace a machinegun approximately 100 meters from the mired tank. By 1857 Tm RENNER, Tm GUTZMAN, and Recon Platoon closed into the Bn area and were preparing defenses for the night. At the same time a flare ship was requested for the personnel extracting three tanks which had become mired in Tm VICKERY's area during the afternoon. The vehicles were finally extracted and closed into TM VICKERY's area at 2325 hours. Between 2330 and 0200 no enemy contact was made. Tm VICKERY received an undetermined number of rifle grenades into their position vic XT 632235 at 0205 causing one casualty (minor) who was treated and remained with the unit until 0750. Tm RENNER departed the Bn perimeter at 0645 enroute to check the area bordered by roads from XT 641221 to XT 644214 to XT 670235 to XT 667238. At the same time Tm GUTZMAN moved out to check the sector bordered by roads from XT 644214 to XT 648207 to XT 677225 to XT 673231 with a NE direction of attack. The teams had the additional mission of checking the trench area vicinity Psn VICKY and VERA. By 0743, Tm RENNER had completed searching the first portion of their objective area and immediately moved to check the remainder of its sector. At 0750 one APC hit an AT mine. No damage was done to the track; however, two minor WIA's were sustained and, after treatment remained with the unit. Two command detonated mines were set off  against one of Tm RENNER's APC's vic XT 643219 at 0803 hours. No damage was done to the track and the unit commenced a chase attempting to overrun the VC. Tm VICKERY received automatic weapons fire at 0846 from the streamline vic XT 628223. Arty fire was adjusted on the area and the enemy broke contact. No results could be determined. The Bn Smaj, traveling with one tank and one APC, received fire at 0915 from an estimated 15-20 VC vic XT 628223. Arty fire was immediately adjusted on the enemy. Three VC kills were estimated. Tm VICKERY began a sweeping search of their area at 0950 and immediately started to receive light small arms fire. Automatic and small arms fire was returned and in the ensuing fire fight, one WIA was sustained before the enemy broke contact. Tm VICKERY pursued in the direction of the fleeing VC and at 1107 spotted one VC getting into a hole. As the VC moved into the hole, five AT mines were set off  around the hole. Elements of Tm VICKERY moved up to the hole and a check disclosed that three more AT mines were around the hole and that the VC was inside. The VC was killed and the mines destroyed and the team was instructed to complete its mission and return to the Bn CP. On its way back, Co B, 1/5th Mech was given the mission of checking the area where a secondary explosion was observed on 13 Apr vic XT 636253. Tm RENNER located a rice cache at 1535 vic XT 645215. In the process of checking the rice cache it was found to be boobytrapped and the unit sustained one KIA and two WIA's.  A Dust Off helicopter received automatic weapons fire from vic XT 640225 and could not land. Gunships and Arty took the automatic weapons under attack. Operation KALAMAZOO was terminated at 1707 and by 1900 all elements of TF GREER had returned to base camp.
               </div>
             </div>
             <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
+              8. <span class="topicTitle">Supporting Forces</span>:
+              <ul type="a">
+                <li>
+                  Btry C, 1/8th Arty (DS)
+                </li>
+                <li>
+                  1/8th Arty (-)(GS); 3/13th Arty (GS)
+                </li>
+                <li>
+                  Lt Fire Tm (UH1D)
+                </li>
+                <li>
+                  Tac Air
+                </li>
+              </ul>
             </div>
             <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              9. <span class="topicTitle">Results</span>:
               <ol type="a">
                 <li>
-
+                  VC killed (confirmed and estimated)
+                  <ol>
+                    <li>
+                      9 VC killed (body count)
+                    </li>
+                    <li>
+                      15 VC killed (estimated)
+                    </li>
+                    <li>
+                      15 VC suspects detained
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    Destroyed:
+                    <li>
+                      69 hand grenades
+                    </li>
+                    <li>
+                      68 tunnels (short)
+                    </li>
+                    <li>
+                      12 CBU bombs
+                    </li>
+                    <li>
+                      4 rifle grenades
+                    </li>
+                    <li>
+                      15 AT mines
+                    </li>
+                    <li>
+                      3 60mm duds
+                    </li>
+                    <li>
+                      9  105mm duds
+                    </li>
+                    <li>
+                      1  8" dud
+                    </li>
+                    <li>
+                      1 M72 LAW
+                    </li>
+                    <li>
+                      7 20mm rounds
+                    </li>
+                    <li>
+                      20 .50 cal rounds
+                    </li>
+                    <li>
+                      13  1/4 lb blocks of dynamite
+                    </li>
+                    <li>
+                      350 rounds 7.62mm linked ammo
+                    </li>
+                    <li>
+                      41 bunkers
+                    </li>
+                    <li>
+                      36 buildings
+                    </li>
+                    <li>
+                      3 trenches
+                    </li>
+                    <li>
+                      50 boobytraps
+                    </li>
+                    <li>
+                      2,600 lbs of rice (boobytrapped)
+                    </li>
+                    <li>
+                      1 Russian MG
+                    </li>
+                    <li>
+                      300 M1 rounds.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li>
+                      Miscellaneous papers and documents
+                    </li>
+                    <li>
+                      1 rifle, U.S., M1
+                    </li>
+                    <li>
+                      2 RPG rounds
+                    </li>
+                    <li>
+                      2 RPG charges
+                    </li>
+                    <li>
+                      1 large Chicom grenade.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    U.S. Equipment Damaged:
+                    <li>
+                      8 APC's - AT mines
+                    </li>
+                    <li>
+                      1 VTR - AT mine
+                    </li>
+                    <li>
+                      2 tanks - AT weapons
+                    </li>
+                    <li>
+                      1 tank - AT mine.
+                    </li>
+                  </ol>
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
-            </div>
-            <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              10. <span class="topicTitle">Administrative Matters</span>:
               <ol type="a">
                 <li>
-
+                  Personnel: 484 personnel started the operation and 452 completed, three of whom were WIA's  who had returned to duty. There were seven KIA's and 27 WIA's (Incl 2).
+                </li>
+                <li>
+                  Supplies: Resupply was accomplished by helicopter from base camp. At times the unit had three helicopters working and at other times only one. Bde made all necessary helicopter support available. Due to experience gained in previous operations the resupply use of helicopters was more efficient. The previous average per lift was 935 lbs. During Operation KALAMAZOO, the average per lift was 1125 lbs. 5,700lbs of water, 5,880 lbs of Class I, 8,270 lbs Class V and 1910 lbs Class II and Iv were lifted. It was not necessary to effect resupply of  Class III. The Bn expended 600 rounds of 5.56mm, 1000 rounds of 7.62mm, 900 rounds of .50 cal, 45 rounds of 40mm, 106 rounds of 4.2" mortar HE (16 VT fused and 20 WP), 132 hand grenades, 5 CS-1 grenades, 31 smoke grenades and 100 lbs of TNT.
+                </li>
+                <li>
+                  Maintenance. One M88 and eight M113's became inoperable. The M88 and five M113's were disabled due to a combination of mines and mechanical failure. The M88 and five of the M113's were returned to duty during the operation. All three of the M113's not returned to duty were disabled due to combat damage.
+                </li>
+                <li>
+                  Transportation. The Bn consumed 2968 gallons of MOGAS.
+                </li>
+                <li>
+                  Communications. No communication problems were encountered during the operation.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
+              11. <span class="topicTitle">Special Equipment and Techniques</span>: None
+            </div>
+            <div class="aarTopic">
+              12. <span class="topicTitle">Commander's Analysis</span>:
               <ol type="a">
                 <li>
-
+                  The area in the vicinity of Obj ROSE was laced with mines and the VC were continuously laying them throughout the operation. It is a difficult area to traverse without hitting mines, as there are only a few areas traversable without difficulty by track vehicles.
+                </li>
+                <li>
+                  It was surprising that there were so many unblown tunnels in the Obj ROSE area, since the area has been worked before by this division.
+                </li>
+                <li>
+                  The area north of Rach Son Creek between XT 645232 and XT 653255 has never been worked by this division. It is believed that this area is well tunneled and well used by the VC.
                 </li>
               </ol>
+            </div>
+            <div class="aarTopic">
+              12. <span class="topicTitle">Conclusions and Lessons Learned</span>: No new lessons learned.
+            </div>
+            <div>
               <div>
-                <!-- FOR THE COMMANDER:</br> -->
+                FOR THE COMMANDER:<br>
+                BILLY J. HAMMONDS<br>
               </div>
             </div>
             <div class="casSegment">
@@ -1425,17 +1617,176 @@
               <div class="casUnitList columnNames">
                 <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
               </div>
-              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitName">HHC</div>
               <div class="casUnitList">
-                <!-- <div>DAY, Billy B.</div> -->
-                <!-- <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div> -->
-                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+                <!-- SCOTT, Jimmy L.	SP5 E5	91B20	HHC	WIA-KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Jimmy" && $one_casualty->last_name == "Scott")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP5 E5 91B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+              </div>
+              <div class="casUnitName">A Co.</div>
+              <div class="casUnitList">
+                <div>CONWAY, Richard A.</div><div>SGT E5 11B40</div><div>WIA</div>
+                <div>MATHALLER, Kenneth L.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>SULLIVAN, Donald L</div><div>PVT E2	11B10</div><div>WIA</div>
+                <div>BROWN, Girnie R.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>SKATES, Dale E.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>SCOTT, William Jr.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>RODRIGUEZ, Rodolfo</div><div>SSG E6 11B40</div><div>WIA</div>
+                <div>WILLIAMS, Walter J.</div><div>SP4 E4 11B20</div><div>WIA</div>
+                <div>CASTLEMAN, Rickey D.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>RHODES, James Jr.</div><div>PFC E3	91B20</div><div>WIA</div>
+                <div>LOVE, John E. L.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>SHAFFER, Paul K</div><div>SFC E7	11C40</div><div>WIA</div>
+                <div>SEWELL, Bernard</div><div>SSG E6	11B40</div><div>WIA</div>
+                <div>SELDON, Melvin R</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>MOLIERE, Larry J. Jr.</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>LANIER, Warren M</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>HARRIS, Elton O</div><div>SSG E6	11B40</div><div>WIA</div>
+                <!-- THOMAS, Lewis M.	PFC E3	11B10	Co A 	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Lewis" && $one_casualty->last_name == "Thomas")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+              </div>
+              <div class="casUnitName">B Co.</div>
+              <div class="casUnitList">
+                <div>
+                  WALDROP, Winford P.
+                </div>
+                <div>
+                  SSG E6	11C40
+                </div>
+                <div>
+                  WIA
+                </div>
+                <div>
+                  MCCULLION, Joseph R.
+                </div>
+                <div>
+                  PVT E2	11B10
+                </div>
+                <div>
+                  WIA
+                </div>
+                <div>
+                  ESPER, James V.
+                </div>
+                <div>
+                  SFC E6	11B40
+                </div>
+                <div>
+                  WIA
+                </div>
+                <div>
+                  HACKETT, Robert W.
+                </div>
+                <div>
+                  SP4 E4 11B20
+                </div>
+                <div>
+                  WIA
+                </div>
+                <div>
+                  PURCELL, John W.
+                </div>
+                <div>
+                  SGT E5 11B40
+                </div>
+                <div>
+                  WIA
+                </div>
+                <!-- ROTHRANG, Howard F. Jr.	PFC E3	11B10	Co B 	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Howard" && $one_casualty->last_name == "Rothrang")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PFC E3 11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <div>
+                  STEVER, Frank E.
+                </div>
+                <div>
+                  SGT E5 11B40
+                </div>
+                <div>
+                  WIA
+                </div>
+                <!-- D'AMICO, Frank A.	1ST LT 	1542	Co B 	 KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Frank" && $one_casualty->last_name == "D'Amico")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>1ST LT 1542</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- FACKRELL, Clinton B.	SGT E5 	11B40	Co B	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Clinton" && $one_casualty->last_name == "Fackrell")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SGT E5 11B40</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- TAYLOR, James R. 	PVT E2	11B10	Co B 	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "James" && $one_casualty->last_name == "Taylor")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>PVT E2	11B10</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <!-- LAMARR, Phillip 	SP4 E4	11B20	Co B	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Phillip" && $one_casualty->last_name == "Lamarr")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP4 E4	11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <div>
+                  CHEWNING, Leroy R.
+                </div>
+                <div>
+                  SP4 E4	11B20
+                </div>
+                <div>
+                  WIA
+                </div>
+                <!-- CONLEY, Green 	SP4 E4 	11B20	Co B	KIA -->
+                @foreach ($all_casualties as $one_casualty)
+                  @if ($one_casualty->first_name == "Green" && $one_casualty->last_name == "Conley")
+                    <div><a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a></div>
+                    <div>SP4 E4 11B20</div>
+                    <div>KIA</div>
+                  @endif
+                @endforeach
+                <div>
+                  HARRIS, David K.
+                </div>
+                <div>
+                  SP4 E4	11B20
+                </div>
+                <div>
+                  WIA
+                </div>
+                <div>
+                  BENNETT, Robert
+                </div>
+                <div>
+                  SGT E5 11B40
+                </div>
+                <div>
+                  WIA
+                </div>
               </div>
             </div>
           </div>

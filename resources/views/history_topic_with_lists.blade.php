@@ -1802,90 +1802,168 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS<br>
+              1ST BATTALION (MECH) 5TH INFANTRY<br>
+              APO San Francisco 96225<br>
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              TLMAA-C 20 MARCH 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT: After-Action Report
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO: Commanding Officer<br>
+              2d Bde TF, 25th Inf Div<br>
+              APO US Forces 96225<br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. OPORD 12-66 (Operation WAIKIKI).
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. 040710MAR-041830MAR66.
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              3. 1st Bn (Mech) 5th Infantry, in conjunction with the 2nd Bn, 27th Infantry, conducted search and destroy operations in Hau Nghia Province vic Xom Moi (XT 612170), Giong Viec (XT 605153) and Ba Xa (XT 595172). The Bn OPORD No 12-66 was issued 022000MAR66 and detailed instructions were issued 030930MAR66. Lt Col T.U. Greer is the reporting officer. Task organization and commanders were as follows:
+              <ul>
+                <li>
+                  Task Force Steel (Lt Col T.U. Greer, commanding).
+                  <ol>
+                    <li>
+                      Recon Platoon (Lt D. T. Schou)
+                    </li>
+                    <li>
+                      Hvy Mort Plat (Lt J.E. McQuinn). Three spt squads, Trp A, 3/4 Cav.
+                    </li>
+                    <li>
+                      Team Smash (Capt J.A. Renner, commanding)
+                      <ol type="a">
+                        <li>
+                          Co A (-), 1/5th Mech.
+                        </li>
+                        <li>
+                          3d Plat, Trp A, 3/4 Cav.
+                        </li>
+                        <li>
+                          Three demolition teams, Co B, 65th Engr Bn.
+                        </li>
+                    </ol>
+                    </li>
+                    <li>
+                      Company B (Capt E. B. Vickery, commanding).
+                      <ol type="a">
+                        <li>
+                          (a) Four demolition Teams, Co B, 65th Engr Bn.
+                        </li>
+                        <li>
+                          (b) Two mechanized flame APC’s, 1st Inf Div.
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      Team Crusher (Capt J.R. Monihan, commanding).
+                      <ol type="a">
+                        <li>
+                          Trp A (-), 3/4 Cav.
+                        </li>
+                        <li>
+                          3d Plat, Co A, 1/5th Mech.
+                        </li>
+                        <li>
+                          Two demolition teams, Co B, 65th Engr Bn.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+              </ul>
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
-            </div>
-            <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
-              <div>
-
-              </div>
-            </div>
-            <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
-            </div>
-            <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              4. <span class="topicTitle">Intelligence</span>:
               <ol type="a">
                 <li>
-
+                  Intelligence prior to the operation indicated that two estimated VC LF companies C1/306and C 54, to include two VC guerrilla platoons, were known to have temporarily occupied small houses and defensive positions in the area of operations. The enemy was expected to utilize small elements up to platoon size to harass attacking elements through the use of heavy sniper fire, boobytraps and mines. The enemy was expected to harass attacking forces from concealed positions in the vic of Xom Moi (XT 6117), Gia Be (XT 6018), Ba Xa #1 (XT 5917), Ba Xa #2 (XT 6119), Coy Tram (XT 5816) and Giong Viec (XT 6015).
+                </li>
+                <li>
+                  During the conduct of the operation some sniper fire was received upon moving into the attack position vic Giong Viec (XT 605155). Contact with and questioning of an old man from that area resulted in the determination that approximately 10 VC were in the Giong Viec area, but they ran to Ba Xa #1 (XT 5917) when the attacking forces approached. Approximately fifteen (15) SA rounds and eight (8) rifle grenades were received by the Recon Platoon from Ba Xa #1. A bunker with approximately seven (7) VC was destroyed vic XT 624174. There was no enemy contact in the Xom Moi area. A mounted sweep of the Ba Xa #1 area by a reinforced company resulted in light enemy contact - primarily SA sniper fire. There were no specific indicators of VC unit identification.
+                </li>
+                <li>
+                  Terrain and Weather
+                  <ol>
+                    <li>
+                      Cover and concealment: The primary objective area of Xom Moi (XT 6117) was considerably destroyed by continuous Air Force bombing and artillery shelling. The remaining vegetation, rubber trees, underbrush, bamboo hedgerows and small thick clumps of tall trees with underbrush afforded the enemy good concealment for harassing sniper type action. Extensive trench networks as indicated on the aerial photo of Xom Moi also afforded additional concealment to the enemy forces. The only cover that existed in the area was afforded by the moderate tunnel networks which generally connected small houses in the area. Mounted attacking friendly forces by the very nature of the attack and rapid movement were afforded minimum or no concealment by the terrain.
+                    </li>
+                    <li>
+                      Obstacles: There were no obstacles in the area of operations that would seriously impede or limit mounted or dismounted movement.
+                    </li>
+                    <li>
+                      Observation: During movement into the attack position, open fields vic XT 6015, observation was excellent. Hedgerows and moderate underbrush in the attack position and Xom Moi objective area caused extremely limited observation, usually from one hedgerow to the next. This caused considerable difficulty in detecting the enemy as well as in controlling movement of friendly elements.
+                    </li>
+                    <li>
+                      Avenues of approach to the attack position from the RP and from the LD to the southern edge of Xom Moi woodline (XT 605163) were excellent and afforded rapid movement with excellent dispersion of mounted elements.
+                    </li>
+                    <li>
+                      The weather was no factor in the operation and caused no changes in plans or courses of action.
+                    </li>
+                  </ol>
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
+              5. <span class="topicTitle">Mission</span>: To attack rapidly through the lower portion (S) of Obj Pine and conduct search and destroy operations in the upper (N) portion of Obj Pine on order.
             </div>
             <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              6. The battalion task force moved from its base camp to an attack position, during which time the 2d Bn, 27th Infantry conducted a helicopter assault landing. On order the battalion conducted a mounted attack on three axes through the lower and upper portions of Obj Pine up to PL Zulu; continued the mounted sweep back to PL X-ray, then searched back to PL Zulu with dismounted infantry following the track vehicles (Incl 1, Operation Overlay).
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">Execution</span>: 2d Bde Opn Order 14-66 was received on 281500FEB66 and Frag Order 15-66 on 031146MAR66. Task Force Steel crossed the LD at 0710 hours (as planned) and moved along Route Jack to occupy attack Position Apple (Co B), Orange (Tm Smash), and Cherry (Tm Crusher). Recon Platoon screened the movement along Route Jack and Co B secured the attack positions. At 0740 hours Heavy Mortar Platoon occupied Position Plum to support the attack. Each unit received some small arms fire while moving into their attack positions but suffered no casualties.  Recon Platoon occupied blocking position Prune at 0746 with negative contact. By 0820 all elements were in position to commence the attack and permission to cross the LD was received at 0833 hours. The TF, less Recon Plat, crossed the LD at 0834 hours without contact, except for Tm Crusher, which received some small arms fire from the woods to their front. By 0835 hours all units were on PL X-ray. The Recon Platoon started receiving what was believed to be 60mm mortar fire from vic XT 595172 at 0908 hours. The fire was not effective and 4.2" mortar fire suppressed the VC fires. The TF mounted attack continued to PL Zulu at 0916 hours against light small arms fire and completed the first sweep at 0952. Tm Crusher located an enemy bunker with seven VC vic XT 624174 which was taken under fire and estimated two VC were killed and four wounded. Co B occupied blocking position Pear and Tm Crusher occupied Position Peach with elements of their respective units. The remainder of the TF continued its mounted sweep back to PL X-ray at 1020 hours but no contact was made on the return movement. TF Steel then dismounted from their personnel carriers and started a detailed search from PL X-ray to PL Zulu. Co B located a tunnel complex vic XT 61151700 which contained grenades and .50 cal ammo.  Tm Crusher located three VC in black uniforms and steel helmets vic XT 637173, employed small arms fire and estimated killing two and wounding one. At 1115 hours small arms fire was received by the Recon Platoon on Obj Cedar but no casualties were sustained. At 1212 hours Recon Platoon received rifle grenade fire from vic XT 605175 and again sustained no casualties. At 1252 hours Recon Platoon was attached to Tm Smash to search Obj Cedar. Tm Smash found and destroyed a heavily boobytrapped weapons cache vic XT 615175. Tm Crusher located a heavily boobytrapped area vic XT 617173 and 600 pounds of rice vic XT 620170. All units closed on PL Zulu by 1422 hours with no enemy contact. Team Crusher was detached from TF Steel and attached to the 2/27 Inf at 1452 hours. Tm Smash completed their exploration through Obj Cedar and started their return to the Bn base camp. Co B swept back through Positions Apple and Orange, then returned to Bn base.  All elements closed into the base at 1825 hours.
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">Supporting Forces</span>: One battery of artillery was in direct support of the TF and fired the preparation, but, due to the scheme of maneuver, limited VC contact, and lack of targets, was not extensively utilized.
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Results</span>:
               <ol type="a">
                 <li>
-
+                  Friendly: No casualties. 597 personnel participated in the operation.
+                </li>
+                <li>
+                  Enemy: Six (6) killed (conf); three (3) (est) for a total on nine (9). Captured items included 14 bags of rice, three bags of peanuts, five US steel helmets, two US bayonets and two entrenching tools. Equipment and facilities which were destroyed included: nine Chicom hand grenades, three rifles, one submachinegun, 200 rounds of cal .30 ammunition, two boxes of Chicom grenades, 50 rounds of Chicom cal .51 ammunition, two French AT mines, 25 tunnels, 21 bunkers, 20 boobytraps, four boobytrapped 155mm duds, and miscellaneous clothing.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
+              10. <span class="topicTitle">Administrative Matters</span>:
               <ol type="a">
                 <li>
-
+                  Supply. The TF expended 2,000 rounds of 7.62mm, 3,000 cal .50, 100 40mm grenades, 70 4.2" mortar rounds, 53 hand grenades and 1200 lbs of demolitions.
+                </li>
+                <li>
+                  Maintenance. Requirements were light. Largest problem was the replacement of thrown tracks due to heavy underbrush and trees; however, this was corrected at 1st echelon level.
+                </li>
+                <li>
+                  Transportation. TF consumed 1200 gallons of MOGAS.
                 </li>
               </ol>
-              <div>
-                <!-- FOR THE COMMANDER:</br> -->
-              </div>
             </div>
-            <div class="casSegment">
-              <div class="casListTitle">
-                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
-              </div>
-              <div class="casUnitList columnNames">
-                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
-              </div>
-              <div class="casUnitName"><!-- Unit name --></div>
-              <div class="casUnitList">
-                <!-- <div>DAY, Billy B.</div> -->
-                <!-- <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div> -->
-                <!-- <div>PVT 11B20</div><div>KIA</div> -->
-              </div>
+            <div class="aarTopic">
+              11. Special equipment and techniques. Flame throwers were taken into the operation but were not needed.
+            </div>
+            <div class="aarTopic">
+              12. The light resistance encountered by the rapid sweep and an unopposed detailed search resulted in an early termination of the operation. After seizing the objective area, the TF continued its sweep into the surrounding areas in an attempt to make contact; however, the results were negative.
+            </div>
+            <div class="aarTopic">
+              13. <span class="topicTitle">Conclusions and lessons learned.</span>:
+              <ol type="a">
+                <li>
+                  Extensive air strikes, which were conducted during the week preceeding the operation, and the air and artillery preparation of the objective, which began at 0700 hours, apparently drove the VC out of the area. Recommend that future air strikes be limited to D-day preparation and close air support for all search and destroy operations.
+                </li>
+              </ol>
+            </div>
+            <div>
+              FOR THE COMMANDER:<br>
+              1 Incl BILLY J. HAMMONS<br>
+              as Captain, Infantry Adjutant
             </div>
           </div>
         </div>

@@ -65,6 +65,8 @@ class ReunionController extends Controller
       $new_submission->event_one = Request::input('event_one');
       $new_submission->event_two = Request::input('event_two');
       $new_submission->event_three = Request::input('event_three');
+      $new_submission->mil_id = Request::input('mil_id');
+      $new_submission->comp_mil_id = Request::input('comp_mil_id');
       $new_submission->ladies_breakfast = Request::input('ladies_breakfast');
       $new_submission->driving = Request::input('driving');
       $new_submission->first_reunion = Request::input('first_reunion');

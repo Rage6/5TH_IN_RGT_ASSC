@@ -1978,69 +1978,275 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS<br>
+              1ST BATTALION (MECH) 5TH INFANTRY<br>
+              APO San Francisco 96225
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVTLSBA-C 10 JUNE 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT:  Combat Operations After-Action Report (RCS/J3/32)
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO:  Commanding Officer<br>
+              2d Brigade, 25th Infantry Division<br>
+              ATTN:  AVTLBDB-T<br>
+              APO U. S. Forces 96225<br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. <span class="topicTitle">Operation WAHIAWA, search and destroy</span>
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. <span class="topicTitle">Dates of Operation</span>:  151200May 66-271830MAY66
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              3. <span class="topicTitle">General</span>: The 1st Bn (Mech), 5th Infantry, as part of the 2Bde Task Force, 25th Inf Div, conducted search and destroy operations in conjunction with airmobile and ground operations conducted by two other battalion task forces to locate and destroy VC forces, supplies and bases in the area of operation. The Bn OPORD 20-66  (Operation WAHIAWA) was isssued 141200MAY66.
+              <ol type="a">
+                <li>
+                  Reporting Officer:  Lt Col T. U. Greer.
+                </li>
+                <li>
+                  Task Organization:
+                  <ol>
+                    <li>
+                      1st Bn (Mech), 5th Inf:  Lt Col T. U. Greer, commanding.<br>
+                      Co A:  Capt J. A. Renner, commanding.<br>
+                      Co B:  Capt E. B. Vickery, commanding.<br>
+                      Co C:  Lt W. A. Blair, commanding.<br>
+                      Heavy Mort Plat:  Lt L. W. Phillips.<br>
+                    </li>
+                    <li>
+                      detached:  Recon Plat:  Lt Dirck T. Schou.
+                    </li>
+                  </ol>
+                </li>
+              </ol>
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
+              <span class="topicTitle">Intelligence</span>:
+              <ol type="a">
+                <li>
+                  Intelligence prior to Operation. Annex A (Intelligence) to OPORD 20-66 provided an estimate of VC strength, location, disposition and situation within the AO. Of primary concern were the 320th Bn (XT 5434, 7 May 66, A-1) and elements of the 272nd Regiment (XT 6137) which were in excellent position to reinforce VC units in the Boi Loi Woods.  The Boi Loi Woods area (XT 5034) was a known VC stronghold and probable supply area. During Operation MASTIFF (March 66) the U.S. 1st Infantry Division had uncovered ten base camp areas, two large caches (75 tons or more), and a VC training camp within the area. On 7 May, B/1/5th contacted C403 Company,  320th Bn vic XT 508316 and received heavy, accurate and well disciplined AW fire. Because of this it was assumed that the 320th Bn was well trained and well equipped with automatic weapons. VR indicated extensive trenchwork and numerous well used trails. It was estimated that caches were most likely to be found within 50 to 100 meters off the trails. VC squad and possibly platoon sized harassing operations were expected.
+                </li>
+                <li>
+                  Enemy situation during operation. Initial contact was attained by Co A, when, on 15 May, they apprehended 16 VCS vic XT 481300. These VCS were evacuated to the 25th MID where further interrogation revealed five VCC, two VCS and nine civilians. The civilians were released. Contact was again made by Co A, when, on 17 May, they surprised four VC in a small base camp area. The VC were fired upon and immediately broke contact. One VC was later found dead in a tunnel along with various munitions at XT 499317. Co A discovered four more VC in a small base camp area vic XT 500316, took them under fire and the VC again broke contact. Search of the area up to XT 505320 produced a typewriter, three ledger books, a telephone, TA312, and a radio PRC-10 and indicated a CP area which had obviously been surprised. The ledgers turned out to be the intelligence files of the Tay Ninh Military Intelligence Subsector. Co B discovered a major base camp area including living quarters, mess hall, training areas and a firing range, complete with silhouette targets vic XT 496322. Subsequent enemy contact consisted of day and night ambushes during which on only one occasion was a force of larger than four VC encountered. On 26 May a Co C daylight ambush saw seven VC outside of the kill zone vic XT 515309. Again, the VC immediately broke contact when fired upon. On numerous occasions the VC made contact with the same ambush and more than once inthe same location on the same day. This indicates either poor communications within the VC units contacted or poor coordination between VC units operating in the general area. The VC tended to move more during the hours pf daylight than during the hours of darkness. Ambushes made more contact during the day than at night. Loss of the PRC-10 radio was of significance to the VC. Documents taken from a dead VC eight days after the capture of the radio indicated higher headquarters (VC) had lost contact with units in the Boi Loi Woods. A large cache of rice, kerosene, cloth, and other items was discovered by Co A vic XT 564324 on 19 May. Co B discovered many caches of rice, kerosene and other items vic XT 5830 on 23-24 May. Discovery of such large caches and interpretation of enemy documents in the area indicate the presence of a major VC supply area in the AO. The VC employed AT mines and AP boobytraps extensively in the AO. The mines were placed in old tracks, especially at paddy dikes and in likely avenues of approach. Most mines encountered were pressure activated; however, assessment of damage to some APC's indicates that some mines were either command detonated or activated by some electrical device, causing the point of detonation to be in the APC's belly rather than on the tracks. It is believed that the latter is true due to the absence of any CD wires. Cache areas were extensively boobytrapped, especially with CBU bomblets.
+                </li>
+                <li>
+                  Terrain and Weather.
+                  <ol>
+                    <li>
+                      Climatic and weather conditions. The weather picture presented by the May Climatic Summary was quite accurate. Adverse climatic conditions had minimal effect upon operations. Low ceilings delayed use of command and control helicopters on three occasions and caused the postponement of two air strikes. Rain and cloud cover adversely affected the use of the starlight devices. The amount of rain experienced had little effect upon trafficability other than on some occasions making it necessary for vehicles to spread out and avoid using the same tracks, thus increasing the chances of detonating AT mines.
+                    </li>
+                    <li>
+                      Relief and drainage systems. Significant relief patterns were encountered along the Saigon River from XT 565325 to XT596325. Slopes varied from moderate to steep and are in some cases an obstacle to tracked vehicle movement, especially vic XT 580310 to XT 596323. Areas adjacent to major creeks in the area are presently trafficable for mechanized operations. However, their trafficability will be greatly reduced, if not entirely eliminated, with the expected increasing rains during the months of June, July and August. The area vic XT 517310 will prevent no obstacle as rains increase.
+                    </li>
+                    <li>
+                      Vegetation. The forest areas in the AO represented by dark green on the map are definitely not suited for mechanized operation. The undergrowth is so dense that tracked vehicles are just able to punch their way through single file. It would be impossible to maintain tactical formations with sufficient control. The map is accurate in depicting forest patterns in the general area of XT 5830, XT 5931 and XT 6031; these areas shown in dark green are extremely thick in this area. Although the area shown as plantation has more undergrowth than is usually found in plantations, it was still easily traversed by APC's. There are many trails throughout the area. Trails in the Boi Loi Woods vic XT 5132 are accurately shown on the map. They are, however, more extensive than shown. The trail entering vic XT 503316 exits at XT 498319. There is now a trail, courtesy of the 1/5th Mech, about the width of an APC which enters at XT 511315 and exits at XT 505324. The forrest area in XT 5130 is not as thick as shown. There is only one band, 50 meters wide, of thick forest extending from XT 510305 to XT 513300. The area vic XT 532305 has extensive hedgerows and several sizable patches of woods. The area shown as light forest and scrub vic XT 5532, XT 5533, and XT 5434 is more of an obstacle to mechanized operations than indicated by its map representation. This is also thick undergrowth through which APC's must negotiate in single file.
+                    </li>
+                    <li>
+                      Obstacles to Mechanized Operations.
+                      <ol type="a">
+                        <li>
+                          Natural. Those areas represented as heavy woods on the map are obstacles through which APC's can move only by punching their way through. Control of  tactical formations in these areas is nearly impossible. The areas represented as light forest and scrub growth (see C 3 above) are also obstacles. The major streams in the AO may be crossed but at only a few points. Crossing sites used and known by the 1st Bn (Mech, 5th Inf are at the following coordinates:<br>
+                          <u>Rach Suoi (west) XT 499322 to XT 538344</u>:
+                          <ul>
+                            <li>XT 502323</li>
+                            <li>XT 513332</li>
+                            <li>XT 527344</li>
+                          </ul>
+                          There are other possible crossing points from XT 499322 to XT 512329:<br>
+                          <u>Rach Suoi (east) XT 540300 to XT 541343</u>:
+                          <ul>
+                            <li>XT 542311</li>
+                            <li>XT 548323</li>
+                            <li>XT 546333</li>
+                          </ul>
+                          <u>Rach Thai Thai, XT 572278 to XT 619318</u>. There are many probable sites along the southernmost 500 meters and other possible sites along the upper portions. The following are known excellent crossing sites:
+                          <ul>
+                            <li>XT 574283</li>
+                            <li>XT 586305</li>
+                            <li>XT 612310</li>
+                          </ul>
+                          These streams will present more of an obstacle as rains increase. The areas along their banks will become increasingly difficult to use also. The areas adjacent to Rach Thai Thai are already getting quite soft and it was necessary for vehicles to spread out and not track each other, which increased the chances of hitting AT mines.One tracked flame thrower was seen bogged down along Rach Suoi (west) vic XT 533342. The rice paddies will become more of an obstacle as they become flooded. Experience has indicated that when a paddy won't hold water, it won't hold a track. The ground seems to absorb rather than hold the water in this area. The dikes were in most cases no obstacle, although a few were high enough to provide a serious hindrance. They will slow rather than stop mechanized movement. The area northeast to the river from the road running from XT 999326 to XT 615312 is untrafficable.
+                        </li>
+                        <li>
+                          Man-made. There are four types of man-made obstacles in the AO: fortifications, minefields, bomb craters, and cultivated fields. Fortifications in the form of trenches and foxholes were found around most major clearings which might be used as a landing zone. These clearings were vic XT 496314, XT 489338, XT 516323, XT 574297 and XT 576307. They presented no obstacle to tracked vehicle movement but would undoubtedly, if occupied, jeopardize any attempted heliborne landing. There were many small bunkers and well positions along the southern edge of the triangle of land from XT 595306 to XT 614311. Again, these presented no obstacle to tracked movement, but would become a serious threat to heliborne landings attempted between those positions and the stream or to a dismounted attack from the south. Mines were encountered throughout the AO, AT mines of considerable size were used by the VC extensively (see 2 above). Two heavily mined areas were encountered, one at XT 584304 and one vic XT 577288. The corridor bounded by the stream and heavy woods was especially susceptible to heavy mining by the VC. Particular attention should be paid in future operations to the open areas vic XT 493317, XT 542312, XT 577287 as areas susceptible to mining. Bomb craters caused by large bombs dropped in the AO are obstacles to tracked vehicle movement due to their proximity to each other, their depth, and the quantity of loose spoil thrown up by the explosion. On one occasion a unit was so channelized by bomb craters that only two tracks could remain abreast while passing between a series of craters (vic XT 573297). Cultivated fields are an obstacle to tracked vehicle movement only in that they tend to channelize movement. Civil affairs doctrine states that, whenever possible, units will avoid destruction of civilian's crops and cultivated fields, thus, to an admittedly minor though undeniable degree, introducing a restrictive element upon maneuver. This will become more important as the rice harvest approaches.
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      Conclusions Pertaining to Terrain and Weather.  During the dry season, the AO is suited for mechanized operations if in conjunction with non-mechanized forces. During the period of the Southwest Monsoon (June-Sept) the AO is unsuited for mechanized operations.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Fortifications. (See C 4 (b) above). Fortifications are shown in detail on the overlay. Trenches were from 2 1/2 to 4 1/2 feet deep, made in the standard zig-zag pattern and generally had small horizontal off-shoots that provided enough space for one man to obtain overhead cover. In no cases were supplies found stored in the trenches other than an occasional discarded clip of ammunition or a stray document. Trenches were not destroyed except to run APC's over them. Bunkers were of standard construction. Most had overhead cover consisting of logs about six inches in diameter covered with dirt 2 to 2 1/2 feet thick. The bunkers were 4 to 5 feet deep and from 4x4 to 5x5 feet wide. They had from one to three firing ports each at ground level, the apertures of which were one foot wide inside and extended to about 2 1/2 feet wide outside. The bunkers sometimes had an additional horizontal hole to provide cover should the overhead be destroyed. Those portions of the bunkers' walls which were above ground level were 2 to 2 1/2 feet thick. No supplies were found stored in bunkers other than an occasional misplaced item. Foxholes were of standard construction, about 3 to 4 1/2 feet deep, 2x3 to 4 feet, without overhead cover. Some had from 6 inches to 1 foot of overhead cover. One VC fortified village was found. The bunkers and trenches conformed to the description stated above. The living quarters, mess hall and other structures within the village were of various sizes, but were generally excavated 3 to 3 1/2 feet deep and had a tin covered roof 2 to 4 feet off the ground, supported by logs. Under the roof was a flat pan-like structure designed to give overhead cover to the structure. The pan was supported by logs from 3 inches to 5 inches thick and covered with an additional 3 to 6 inches of dirt supported by tin.
+                </li>
+                <li>
+                  CA/Psy Ops. During Operation WAHIAWA, the Bn's CA/Psy Ops activities were passive rather than active. There was no opportunity to utilize MEDCAP or distribute Helping Hand material. The Bn requested no Psy Ops missions. There were only two areas found which were heavily occupied by civilian personnel: Xom Bung Binh, XT 555343, and the area vic XT 535303. These areas were occupied mainly by women, children and old men. They had a neutral attitude to U.S. forces and there were no incidents. There were, however, many cultivated areas, areas in which there were homes recently occupied and in which water buffalo were abundant but areas without people. These include the village at XT 603321.
+                </li>
+                <li>
+                  Conclusions.
+                  <ol>
+                    <li>
+                      VC communications are poor at best and loss of any radio communications equipment is seriously detrimental to their effort.
+                    </li>
+                    <li>
+                      Use of daylight ambushes should be increased as the VC in the Boi Loi area tended to move freely during hours of daylight.
+                    </li>
+                    <li>
+                      The 16 VCS (of which at least 5 turned out to be VCC) apprehended on 15 May appeared to be on some sort of Sunday pass. If other indications confirm this Sunday pass system, it would appear the Div could capitalize on this procedure through the initiation of operations on Sundays.
+                    </li>
+                    <li>
+                      The area vic XT 5931 and XT 5031 is probably a base area for transplant or regrouping Bn to regiment sized VC forces.
+                    </li>
+                    <li>
+                      The AO is a major COSVN rear service supply area.
+                    </li>
+                    <li>
+                      The VC are using AT mines of 50 lbs and more and activating them, in some cases, with electrical devices designed to cause the point of detonation to be under the body of the APC, as opposed to under the track itself.
+                    </li>
+                    <li>
+                      Areas adjacent to major streams in the AO will be of doubtful trafficability as the Southwest Monsoon becomes firmly established.
+                    </li>
+                  </ol>
+                </li>
+              </ol>
             </div>
             <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
+              5. <span class="topicTitle">Mission</span>:
               <div>
-
+                1/5th Mech moves 151200MAY66 to forward base areas and conducts deceptive operations. Conducts search and destroy operations in AO "A" and Obj 4, commencing 160700MAY66. Prepares to conduct search and destroy operations in AO "C" on order. Conducts S&D opns in Obj 5 on order (Incl 1, Operation Overlay).
               </div>
             </div>
             <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
+              6. <span class="topicTitle">Concept of Operation</span>:
+              <div>
+                1/5th Mech moves from base camp commencing 151200MAY66 to occupy blocking positions DAISY, ORCHID, and LILY as a deceptive maneuver (these same blocking positions were occupied by the 1/5th Mech less than two weeks prior to this operation in securing critical bridge sites along the road to Tay Ninh). Moves across LD 160700MAY66 to conduct S&D operations in AO "A" and Obj 4 with three companies. Priority of Hvy Mort fires to Co A.  The commander's concept visualized the following:
+                <ol type="a">
+                  <li>
+                    Co A would escort and secure the Bde Quartering Party commencing 151000MAY66 to vic XT 480272 (fwd Bde CP). Upon release the Co would proceed to establish a forward base at Obj LILY. On 160700MAY66 the unit would conduct S%D operations along Axis SLUGGER, searching and clearing the trench line along the southern edge of Obj 4 and reporting any trails leading along the axis. The unit would be prepared to conduct S&D operations along SUMMIT and OREGON from N to S on order. Co B would move to establish a forward base at Obj DAISY from which to conduce deceptive recon patrols along the Cu Nan Creek for possible crossing sites. On 160700MAY66 the unit would cross the LD in direction IRIS, POPPY and PANSY to conduct thorough S&D operations in zone and be prepared to conduct S&D operations along SUMMIT and OREGON on order. Co C would escort and secure movement of the Bde trains commencing 151400MAY66 to vic XT 480272 and upon release move to occupy forward base ORCHID. On 160700MAY66 the unit would move along Axis BUTCH conducting S&D operations and occupying blocking psns TULIP and ROSE. On order, the company will conduct S&D opns along SANTA FE and into Obj ZINNIA.
+                  </li>
+                </ol>
+              </div>
             </div>
             <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
+              7. <span class="topicTitle">Execution</span>:
+              <div>
+                At 151002MAY66 Co A departed base camp escorting the Bde Quartering Party to vic XT 480272. As the Bde forward CP was closing the intended area, the Bn CO, from the air, observed several civilians departing rapidly on bicycles in the direction of the Boi Loi Woods. A platoon was dispatched to pursue the group and at vic XT 481300 apprehended 16 VC suspects, consisting of 14 young men, one old man and one young woman. The suspects were turned over to the National Police at the Bde fwd CP. At 1200 Co B and the Bn CP departed base camp to establish its position vic Obj ORCHID. At 1400 Co C departed base camp, escorting the Bde trains to vic XT 480272. At 1407, Co A was released and moved to assist the Recon Plat in a road clearing operation. At 1415 Co B and the Bn CP arrived at Obj ORCHID and initiated defensive preparations while selected B Co elements conducted deceptive recon patrols along Cu Nan Creek. At 1520, Bde trains vehicles being escorted by Co C became bogged down in mud enroute to the fwd CP and Co C remained overnight to aid in extraction and to provide security. Co A completed its mission and arrived at Obj LILY at 1800 hours. The Bn CO then directed Co A to move to Obj ORCHID to provide security for the night due to the absence of Co C.  After a Bde directed delay, Co's A and B departed at 160835 for the objective area. Co C was released from Bde control and moved to the rendezvous vic Boi Loi Woods in order to accomplish its mission. Co A reached the edge of Obj 4 at 0922 and initiated S&D operations along Axis SLUGGER. At 0924 Co B reached the vic Boi Loi Woods and continued along its direction of attack to Obj IRIS. At 0935 Co C initiated its movement along Axis BUTCH to establish blocking positions vic XT 500320, XT 504324, and XT 512327.Co B moved rapidly through IRIS with negative contact and entered Obj POPPY at 0940. Co B continued on to Obj PANSY, arriving there at 1005. At 1126 Co A reached the edge of its objective area and initiated the return sweep back along Axis SLUGGER. Co C, meanwhile, located at vic XT 513324 a heavily boobytrapped area at 1155. Co uncovered a cache of rice at 1225 consisting of 58 100 lb bags. Co B, searching PANSY, uncovered 50 100 lb bags of rice. At 1314 Co A and Co C linked up vic SUMMIT and OREGON to conduct S&D operations through the wooded area from NW to SE, including a search of Obj LILAC, which resulted in negative contact. At 1405 Co C located a major supply cache vic XT 513326 consisting generally of sheet steel, roofing tin, wax, medical supplies, buttons and cloth (see 9 b). By 1410 Co B had completed its search of PANSY and returned to search Obj POPPY in detail. Co A established its night defensive position vic XT 484305 and employed four ambushes, Co B was positioned vic XT 502299 during the hours of darkness and employed three ambushes. Co C remained in sector vic XT 513328 to protect a large cache and suspected additional caches. During darkness, Co C employed five ambushes. At 1804, Co C located a cache consisting of 30 sheets of steel 1/8" thick and three feet by seven feet vic XT 516313. At 2007 the Co C ambush enroute to its position vic XT 531328 was grenaded short of its position and also received AW fire from vic XT 512332. The element returned fire and adjusted mortar/Arty fire in the area as it relocated. All ambushes returned at first light. At 170646MAY66 Co A departed along Axis BUTCH with the mission to conduct S&D operations along Axis BUTCH in order to check the trails and woods edge for hidden caches. At 0715 Co B initiated S&D operations along the wooded area north of the trail on Axis BUTCH extending from SW (XT 491317) to NE (XT 509333). At 0700 Co C continued work in the cache area and started a thorough search of the area along SUMMIT and Obj ZINNIA. At 0745 Co C elements found a piston-type machine vic XT 513327. At 1055 Co B found a base camp area vic XT 496322 which contained living quarters, mess hall, training area and training range. A check of the area indicated that the area had been used as recently as that same day or late the afternoon prior. The area was destroyed and the search continued. At 1100 Co A located six "lean-to's," fresh food and several bicycles at XT 509321. At 1305 Co C elements established a blocking position to block VC flushed by an element of the 2/27th conducting S&D operations. Also, one platoon from Co C was dispatched to secure an LZ site and provide security for a downed helicopter of the 2/27th Inf. At 1330 Co A elements continuing their search surprised four VC in a base camp vic XT 500313. The VC were fired on and two were hit. The VC broke contact and Co A gave chase following blood trails. Co B, at 1355, dispatched one platoon to cut off VC moving to escape through that area. At 1500 Co B sustained two WIA from a boobytrap while destroying  a VC camp and later received two rifle grenades when they departed the area. The unit made a search with negative results. At 1535 Co A elements following blood trails from their previous VC contact located a tunnel complex vic XT 499317 in which was found one dead VC confirmed to be a result of the unit's engagement. Also found was one M1 rifle, miscellaneous munitions and grenades. At 1625, elements of Co A found a small CP vic XT 500316. Upon entering the area four VC were sighted and taken under fire with an estimated two KIA resulting. A search of the area revealed ledger books and a portable typewriter. At the same time other Co A elements found another CP area vic XT 505320 which contained a TA312 telephone and one PRC-10 radio (on freq 40.0). At 1830 an APC from Co C hit an AT mine vic XT 512339, injuring three persons and causing extensive damage to the track. At 1855 the medical APC evacuating the casualties hit an AT mine vic XT 493316 which caused moderate damage to the vehicle but no injuries. During darkness Co C established its base vic XT 513328 and employed six ambushes. A Co established its perimeter around the Bn CP vic XT 483306 and employed three ambushes. Co B established itself vic XT 502299 and employed three ambushes. At 2056 the C Co ambush located vic XT 508326 engaged an undetermined number of VC approximately 50 meters from their position with Claymore mines, SA AW fire and mortars. Two VC kills were estimated. A short time later the ambush located vic XT 510328 received SA fire and rifle grenades. The ambush returned fire and estimated one VC killed. During this action,  two friendly WIA's were sustained. All ambush patrols returned at first light. At 0700 Co B initiated a search of the area extending SW (XT 501326) to NE (XT 516348). Eight water cans and a bicycle were found shortly thereafter vic XT 496323. At 0708 Co A started a search of the area extending from SW (XT 493310) to NE (XT 513320) at which point the unit would swing S, searching N to S. Departing its area at 0830, Co C conducted a search through the woods' edge on both sides of SANTA FE. At 0950 Co A elements discovered one typewriter and a small amount of rice vic XT 500316 and an arms room with anti-aircraft spare parts and an armorer school graduation certificate vic XT 505320. At 1257 Co A had completed the search of its assigned sector and received orders to search the area vic XT 486330. By 1506 Co B completed its search to XT 508335 in their area. At 1632 two VC attempting to emplace a Claymore mine in Co A's new search area were surprised and engaged by Co A resulting in one VC killed (BC) and one captured carbine and Claymore mine. During the hours of darkness, night defensive positions were established by Co A vic XT 484306; Co B vic XT 503298 and Co C vic XT 484306. The Bn established six ambushes which returned at first light with negative contact. The Bn moved at 190743 to conduct S&D operations in AO "C" vic XT 5634 IAW Bn FRAG ORDER #1 (see Incl 2,  Operation Overlay). At 0833 the lead APC of Co C hit an AT mine vic XT 531306, which caused two casualties and extensive damage to the track. At 0910 Co B passed PL CHEVY with negative contact. At 1027 Co A reached Obj DE SOTO and began its search and at 1027 found a large cache consisting of 200 100 lb bags of rice, 150 5 gal cans of kerosene and 500 sheets of tin, all stored on pallets. At 1132 Co A flushed and engaged three VC on DE SOTO killing one VC (BC) and capturing one 9mm SMG. Co B crossed PL DODGE at 1112 and continued its sweep to Obj OLDSMOBILE. At 1116 Co C found a rice cache in ground holes vic XT 555320. At 1214 Co A located seven tons of rice, a large quantity of black cloth, several sewing machines and 1500 lbs of dried fish in their objective area. Arriving at 1330 hours, Co B initiated its search of Obj OLDSMOBILE. At 1620 all elements had finalized their search and initiated movement to the Bn CP vic XT 554335. During darkness eight ambushes were employed with negative contact. At 200700 the Bn was enroute to support the 2/27th Inf by screening and blocking N, W and SW of the 2/27th's planned operation in AO "A" vic XT 5233 IAW Bn FRAG ORDER #2 (oral). After a lengthy delay vic AO "A," awaiting the lifting of air strikes and artillery in the area,  The companies deployed to accomplish their assigned mission. The commander's concept visualized Co A screening and blocking N of the 2/27th between XT 503347 and XT 535345, then conducting S&D operations N to the Saigon River. Co B would screen and block W of the 2/27th between XT 505347 and XT 510330, then conduct S&D operations to GL 49. Co C would establish squad size ambushes along SANTA FE from vic XT 513329 to vic XT 518312 and provide a southern blocking position for the 2/27th. Between 1020 and 1105 Co A elements found 2500 lbs of rice, 27 new bicycles, salt and 20 hand grenades. In the meantime, Co B located 1500 lbs of loose rice vic XT 513344. At 1257 Co A shot and killed one VC (BC) vic XT 527359 and captured one unidentified rifle and miscellaneous documents. At 1317 an APC from Co B hit an AT mine vic XT 510338 causing extensive damage to the vehicle. The units completed their missions and initiated movement to the Bn CP vic XT 484306. At 1743 the lead element of Co C enroute to the Bn CP engaged five VC vic XT 520308, resulting in the capture of one wounded VC and one M1 rifle. On-the-spot interrogation of the VC and documents found later revealed that the VC was a member of the 1st platoon, 320th Bn, and a member of a 20 man recon element dispatched to the Boi Loi Woods to determine why communications contact had been lost with the resident unit. The company arrived at the Bn area at 2045. During darkness three ambushes were employed. All returned at daylight with negative contact. Throughout the day the entire Bn conducted care, cleaning and maintenance of vehicles, weapons and equipment in preparation for the next phase of operation WAHIAWA.  At 1800 Bn FRAG ORDER #3 (oral) was issued. During the night, Co B established four ambushes, three of which were to remain in position until 221500MAY66. One ambush would shift its position at 0600 in order to cover the movement of the Bde CP, which was displacing. Co C established eight ambushes which were to remain in position until 221500MAY66. At 0709 Co A departed the area in order to secure the LZ vic XT 542296 for the 2/27th Inf. At 0715 the Bn CP and command elements moved to vic XT 554276. At 0820 the LZ was reached and Co A  initiated a sweep of the area. At 0903 the 3rd platoon of Co A was dispatched to the new Bde CP to provide security for the Bde CP complex. At 0930 the Co C ambush located vic XT 488296 wounded and captured one VC armed with two Chicom grenades. The VC died at 1020 before he could be evacuated. At 0945 the Co B ambush located vic XT 517308 engaged three VC headed in another direction who approached within 200 meters of the ambush site. One VC was killed (BC) and one Chicom carbine and documents were captured. At 1035 screening elements of Co A located 40 plastic canteens and 13 100 lb bags of rice, miscellaneous documents and personal letters, including a citation for bravery. At 1330 Co A (-) was released from its LZ security mission and proceeded to the new Bn CP area, arriving there at 1410. Co A's 3rd platoon completed its security mission; however, they remained at the new Bde CP to provide added security. At 1440 the same Co B ambush which had relocated after the previous incident engaged four VC, killing one (BC) and estimating three others killed. One Russian 7.62 SMG, three magazines of 7.62mm ammo and two grenades were captured. Co C initiated the extraction of their ambushes at 1500 and were completed by 1730. The companies coiled in the vic XT 555277 during darkness and established one ambush each in sector. At 230730MAY66 the Bn attacked in zone in a new area of operations IAW FRAG ORDER #4 (Incl 3, Operation Overlay). The commander's concept planned the Bn attacking in zone with Co B, Co C and Co A. Co B would seize and establish a blocking position on Obj IMPALA while Co C and Co A sweep rapidly along the outer edge of their respective sectors to seize Objectives WILDCAT and FAIRLANE. If no major force were encountered, Co A and Co C were to sweep back to PL SEDAN along HARDTOP, then conduct a detailed search of their zones to locate and destroy VC caches. Arty/mortar preparation from H hour to H+10 minutes on Obj IMPALA; air strikes on Obj WILDCAT at H+30 minutes and on Obj FAIRLANE at H+1.5 hours. Recon platoon would join the Bn for the operation and would move abreast of Co A sweeping the creek until it arrived vic XT 591306 where it would block and be the Bn reaction force. As Co C entered its zone at 0803, elements discovered one camouflaged bunker-type shack and a cache of 400 bags of rice vic XT 587308. At 0805 two Co A APC's hit mines vic XT 584304, injuring four personnel and causing extensive damage to both tracks. At 0815, as Co B moved to its objective, one APC hit an AT mine vic XT 582305, injuring four personnel and causing extensive damage to the track. At 0823 Co B elements discovered 350 100 lb bags of rice, 45 grenades and nine CBU bomblets vic XT 584308. Shortly thereafter, the unit uncovered a suspected minefield vic XT 578310. At vic XT 580309 the same unit discovered 18 55 gal drums of kerosene and 93 3x15 foot straw mats. At 1030 Co C elements located a landing site vic XT 595316. At 1043, Co B elements located a cache of documents consisting of ledgers and logs vic XT 580309. At 1036 one Co A APC hit a mine vic XT 607313, causing extensive damage. At 1104 Co A engaged several VC in a trench vic XT611315, killing one VC (BC) and estimating two other kills. At 1113 3,000 empty rice bags were found vic XT 580309. At 1216 Co C was moving with lead elements on PL WAGON. Co A, at 1232, reached PL WAGON vic XT 612315. At 1245 Co B elements uncovered rice and miscellaneous documents vic XT 584308. At 1259 Co C elements received small arms fire and a command detonated mine vic XT 607318 and XT 609323. The unit was in thick brush; however, it broke to an open field and maneuvered against the enemy while Arty/mortar fires were adjusted in the area. One WIA was sustained as the VC broke contact. At 1410 a Co A APC hit an AT mine vic XT 608318, resulting in extensive damage and three WIA. At 1440 one Recon Platoon APC hit an AT mine vic XT 563282 resulting in minor damage to the track. The Bn CP displaced at 1555 to vicinity XT 582305 to coil for the evening with Co B. Co A and Co C coiled together and established night defensive positions vic XT 608318 and eight ambushes were employed. Co B employed three ambushes in its area. At 0345 and 0445 the ambush located XT 611320 engaged two sampans resulting in two sampans destroyed and two VC kia (estimated). At 0700 Co A and Co C resumed the searches of their areas in order to complete the S&D mission in the AO (Co C also employed daylight ambushes along infiltration routes). Co B resumed the search of their area as other elements attempted to destroy the large rice caches which could not be evacuated. At 0800, while Recon Platoon was moving to the Bde CP, one APC hit an AT mine injuring two personnel slightly and causing damage to the track. At 1116 Co C found four tons of peanuts vic XT 599324. At 1155 elements from the same company captured one six hp outboard engine and sank one sampan vic XT 607324. At 1235 Co B elements searching the area vic XT 587308 found large amounts of rice, dried fish, and brown sugar type sorghum and continued to work that area. Co A at 1250 completed their search and proceeded  to the Bn CP. At 1345 Co A received a new mission and departed the area to conduct a search and destroy operation vic XT 578308 NW to XT 575314 in order to attempt link-up with the 1/27th Inf. By 1420 Co C had completed its search and reported that seven sampans had been destroyed (two by gunships called in earlier). At 1445 Co A, searching vic XT 579311, discovered a landing site and a cache of rice and empty rice sacks. By 1730 all units were coiled at the Bn CP vic XT 582305. During darkness nine ambushes were established by the Bn; however, no night contact was made. At light Co B ambushes remained in position and all others returned to their units. At 250700 the Bn initiated action to screen and secure flanks of the 1/27th Inf and the 2/27th Inf as those units moved overland to new areas. At 0700 Co A dispatched two platoons, one each, to XT 550300 and XT 550320 to assist in the above security mission by establishing several ambushes. One platoon was left in the Bn CP area to establish a stay-behind ambush. Co C at 0900 dispatched two platoons to vic XT 533305 in order to also provide ambushes as security. A third platoon completed the Bn S&D mission in the AO by screening E from XT 536308 to GL 59. At 1005 the Co B ambush located vic XT 578296 killed two VC (BC) and captured four Chicom grenades and miscellaneous documents. One friendly WIA resulted from fragments from an M79 round fired at the VC. At 1240 the C Co platoon completed its S&D operation and returned to the Bn CP. At 1305 the Bn CP group, Hvy Mort Plat and the command elements of  A and B Co's moved to a new CP location vic XT 555275. At 1420 the C Co ambush located vic XT 531305 engaged two VC, killing one (BC) and captured one Chicom rifle, two hand grenades and miscellaneous web gear. At 1430 Co B extracted its ambushes and made a sweep in an area vic XT 573300. Aerial observation indicated a suspected VC base camp. The company sweep proved that the area checked had not been used in quite a while; however, several documents were found. Three additional ambushes were established during darkness in the vic of the Bn CP. At 1900 the Co A ambush located vic XT 545309 engaged two VC. Both VC were shot and wounded; however, one VC escaped. At 2040 the ambush located vic XT 536318 received approximately three rounds of possible 120mm mortar fire resulting in one WIA. At 0703 the Co A ambush located vic XT 553313 killed two VC (BC) and captured a Chicom assault rifle, seven ammo magazines and two Chicom grenades. At 0810, as Co C initiated extraction of the ambushes, one EM was killed when a boobytrap he was disarming exploded. By 0910 Co A and Co B ambushes had returned to the Bn area. At 1150 the Recon Platoon replaced the Co C ambush located vic XT 509304 which returned to the Bn area. At 1440 the Recon Platoon spotted four VC in the open vic XT 515314. Arty fire was adjusted effectively on the target. Four VC kills were estimated. Co B returned from its sweep at 1540. The Recon Platoon returned to the Bn CP at 1625. At 1800 Co B was dispatched to vic XT 499249 to secure the 2/27th CP. They arrived at 1920 and performed their mission under the OPCON of the 2/27th Inf. During darkness six ambushes were employed. At 270730 Co B returned to the 1/5th's control with an attached Engr platoon and initiated clearance and security of the road between XT 508259 and Trang Bang. At 0741 Co C initiated its mission to secure the road from XT 508259 to XT 496236 which B/1/5th had cleared. At 0659 Co A departed on its mission to secure the road from vic XT 532285 to vic XT 508259 which the 1/27th had cleared. At 0830 Co B turned over the cleared sector to Co C for security as planned. The Recon Platoon secured and escorted damaged salvage vehicles at 0920 to waiting lowboys at Trang Bang. At 1107 one WIA was sustained from SA fire as the Bn CP vic XT 555272 initiated movement to base camp. At 1515 elements of Bde and supporting Arty had passed through Co A's area. Co A then secured one AVLB from vic XT 518266 and moved through Co C. As Co A cleared, Co C secured one AVLB at XT 508259 and initiated movement to base camp. As all elements passed through Co B's area, Co B initiated movement. All elements closed into base by 1855 hours, bringing to a close the Bn's participation in Operation WAHIAWA.
+              </div>
             </div>
             <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              8. <span class="topicTitle">Supporting Forces</span>:
+              <ul>
+                <li>Artillery:
+                  <ul>
+                    <li>1st Bn, 8th Arty (-) GS</li>
+                    <li>B/3/13th Arty, GSR, 1/8th Arty (-)</li>
+                  </ul>
+                </li>
+              </ul>
+              <div>
+                Artillery support in the form of preparatory, preplanned, "on call" and H&I fires was found to be accurate, timely, and met all requirements of the tactical situation. The 1/8th Arty LNO monitored all requests which led to proper and fitting control. Preparations were controlled by the Bn LNO from the air.
+              </div>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">Results Casualties</span>:
+              <div>
+                <ol type="a">
+                  <li>Personnel Summary:
+                    <ol>
+                      <li>(1) Friendly: KIA - 2.  WIA - 43 (25 returned to duty).</li>
+                      <li>(2) Enemy : KIA - 29 (13 BC; 16 est). Captured: 6 (VCC) 2 (VCS).</li>
+                    </ol>
+                  </li>
+                  <li>
+                    Equipment and Material Losses.
+                    <ol>
+                      <li>
+                        Friendly - 11 APC's were damaged by AT mines.
+                      </li>
+                      <li>
+                        Enemy:
+                        <ol type="a">
+                          <li>
+                            Ammunition: 2 Claymore mines; 107 hand grenades; 13 rifle grenades; 6 AP mines; 7 AT mines; 20 CBU bomblets; 1 105mm boobytrap; 1  1/2 lb block of TNT;  4 grenade-type boobytraps; 60 rds of 9mm ammo; 140 rds of 7.62mm (in 10 magazines); 8 rds of .30 cal ammo; 3 rds of carbine ammo.
+                          </li>
+                          <li>
+                            Weapons: 1 SMG 9mm; 1 SMG 7.62mm, Russian "Sudayev"; 8 carbines (Chicom); 2 M1 rifles; 1 rifle, unk.
+                          </li>
+                          <li>
+                            Food Supplies: 167 1/2 tons rice; 5 1/2 tons peanuts;  1 1/2 tons dried fish; 50 5 gal cans dried fish; 300 lbs salt; 2 boxes red pepper;  25 tons brown sugar type sorghum.
+                          </li>
+                          <li>
+                            Medical Supplies:  2 boxes medical supplies and instruments; 15 gals quinine; 3 gals strychnine; 1 IV (blood) stand.
+                          </li>
+                          <li>
+                            Documents: 3 ledger books; 2 billfolds;  personal letters; miscellaneous documents.
+                          </li>
+                          <li>
+                            Construction Material: 525 sheets tin.
+                          </li>
+                          <li>
+                            Installations: 3 buildings; 1 mess hall; 14 sleeping quarters; 1 command bunker; 3 tunnels; 10 sampans.
+                          </li>
+                          <li>
+                            Miscellaneous: 2430 gals kerosene; 8 sewing machines; 130 bolts cloth; 100 lbs clothes; 1 gasoline engine (type unk); 1 small piston-type engine; 1 6 hp outboard motor; 1 PRC-10 radio; 1 TA312 telephone; 41 canteens; 2 typewriters; 8 U. S. water cans; 28 bicycles; 1 bale comm wire; 10 gal can buttons; 2 gals vaseline; 1 package rubber bands; 5 gals test tubes; 98 straw mats; 5600 empty rice bags; 1 pistol belt; 4 tons paraffin.
+                          </li>
+                        </ol>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">Administrative Matters</span>:
               <ol type="a">
                 <li>
-
+                  Personnel. The battalion started the operation with a strength of 777 personnel and terminated the problem with a strength of 732 personnel. Two KIA and 43 WIA were sustained (25 WIA returned to duty).
+                </li>
+                <li>
+                  Supplies. Resupply was accomplished by helicopter. During the first part of the operation, the Bn operated a helipad from the forward Bde area, then from base camp. The only major problems during the aerial resupply were as follows: On the evening of 18 May all helicopters were diverted from our resupply mission prior to complete resupply of water, ammo and "A" rations for one company. Later in the evening we were given one sortie which delivered the ammo and water. However, we could not complete delivery on "A" rations; therefore, approximately 200 meals of "A" rations for Co B were lost. On 19 May 66 we did not receive helicopters needed for resupply of repair parts and extraction of items until 1300 hours. This delay of helicopters resulted in the CP group being unable to move until late in the afternoon. Also, on 24 May the unit received only one helicopter in the morning, therefore causing delay of the extraction of equipment, i.e. fuel drums, until 1200 hours. During the operation, the unit utilized 172 sorties which carried 221,255 pounds of equipment into the area. Items airlifted were as follows: Class I: 164,000 pounds; Class II: 2,000 pounds; Class III: 146,000 pounds; Class V: 15,200 pounds and water: 45,000 pounds.
+                </li>
+                <li>
+                  Maintenance. The unit started the operation with two carriers, M113, short due to supply shortages and one in for maintenance. During the operation, 11 carriers, M113, hit mines. Of the 11, five were repaired sufficiently in the field to continue operations; one was unable to be recovered and was destroyed in place and the other five evacuated to base camp for major repairs.
+                </li>
+                <li>
+                  Transportation. The Bn consumed 10,800 gals of MOGAS and 100 gals diesel.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
+              11. <span class="topicTitle">Special Equipment and Techniques</span>: None
             </div>
             <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              12. <span class="topicTitle">Commander's Analysis</span>: Nothing of particular significance.
+            </div>
+            <div class="aarTopic">
+              13. <span class="topicTitle">Conclusions and Lessons Learned</span>:
               <ol type="a">
                 <li>
-
+                  Initial contact with the VC on Sunday, 15 May indicated perhaps the VC were in town on pass without their weapons. Future indications of this should be looked for with exploitation as appropriate.
                 </li>
-              </ol>
-            </div>
-            <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
-              <ol type="a">
                 <li>
-
+                  In areas which VC have dominated for some time they seem to move far more during the daylight hours than during darkness. Furthermore, within their position areas they employ little or no security.
+                </li>
+                <li>
+                  The VC communications system is very poor. VC forces walked into the same ambush site twice within a few hours on at least two occasions.
+                </li>
+                <li>
+                  Extraction of large caches can be a major problem which must be planned for prior to the start of any operation.
+                </li>
+                <li>
+                  There are continuous indications that the Saigon River is being used extensively by the VC in transporting supplies.
                 </li>
               </ol>
               <div>
-                <!-- FOR THE COMMANDER:</br> -->
+                FOR THE COMMANDER:<br>
+                JAMES G. ANDRESS<br>
+                Capt, Inf
               </div>
             </div>
             <div class="casSegment">
@@ -2050,8 +2256,87 @@
               <div class="casUnitList columnNames">
                 <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
               </div>
-              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitName">HHC</div>
               <div class="casUnitList">
+                <div>SCHOU, Dirck</div><div>1st Lt 1542</div><div>WIA</div>
+                <div>BUTLER, David A.</div><div>SP5 E5	11F20</div><div>WIA</div>
+                <div>BAILEY, Herbert R.</div><div>SP4 E4	91B20</div><div>WIA</div>
+                <div>MOREAU, Ryan R.</div><div>PSG E7	11H40</div><div>WIA</div>
+                <div>MC BRYDE, Jerry O.</div><div>SP5 E5 91B20</div><div>WIA</div>
+                <div>DE RICO, Paul</div><div>SP5 E5	91B30</div><div>WIA</div>
+                <div>SCOTT, John A.</div><div>SP4 E4	91A10</div><div>WIA</div>
+                <div>GRAHEK, David J.</div><div>PFC E3 91B20</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">Co A</div>
+              <div class="casUnitList">
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+                <div>THOMAS, George H.</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>BROWN, Girnie H.</div><div>PFC E3	11B20</div><div>WIA</div>
+                <div>ELLIOTT, Thomas</div><div>SGT E5 11C40</div><div>WIA</div>
+                <div>FEW, Alphonso</div><div>SP4 E4	11C20</div><div>WIA</div>
+                <div>HARRIS, John M.</div><div>SP4 E4 	11B20</div><div>WIA</div>
+                <div>MILLS, Theodore W.</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>GRIFFITH, Von D.</div><div>SP4 E4	11B40</div><div>WIA</div>
+                <div>MARTHALLER, Kenneth</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>RODRIQUEZ, Rodolfo</div><div>SSG E6	11B40</div><div>WIA</div>
+                <div>HUTTING, Roy D.</div><div>SGT E5	11B20</div><div>WIA</div>
+                <div>LOVE, John D.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>WILLIAMS, Curtice J</div><div>PFC E3 	11C10</div><div>WIA</div>
+                <div>LOPEZ, Arthus</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>GOREE, Monty L.</div><div>SP4 E4 	11B20</div><div>WIA</div>
+                <div>POWERS, Henery O.</div><div>SP4 E4 	11B20</div><div>WIA</div>
+                <div>ARNOLD, Jerry V</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>ANDERS, William F.</div><div>SGT E5 	11C40</div><div>WIA</div>
+                <div>LARSON, Dewaine L.</div><div>PFC E3	11C20</div><div>WIA</div>
+                <div>PAYTON, Loydell</div><div>PFC E3	11C10</div><div>WIA</div>
+                <!-- <div>LEBRON-LOPEZ, Ismael</div> -->
+                <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Ismael" && $one_casualty->last_name == "Lebron-Lopez")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div>
+                <div>SP4 E4	11B20</div><div>KIA</div>
+              </div>
+              <div class="casUnitName">Co B</div>
+              <div class="casUnitList">
+                <div>CROWELL, Perry</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>HOUSLEY, Leonard D.</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>HENSLEY, Larry F.</div><div>PFC E3	63B20</div><div>WIA</div>
+                <div>BENNETT, Robert</div><div>SGT E5 	11B40</div><div>WIA</div>
+              </div>
+              <div class="casUnitName">Co C</div>
+              <div class="casUnitList">
+                <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Bobby" && $one_casualty->last_name == "Barefield")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                  <div>PFC E3	11B10</div><div>KIA</div>
+                </div>
+                <!-- <div>BAREFIELD, Bobby J.</div><div>PFC E3	11B10</div><div>KIA</div> -->
+                <div>TALLEY, Kenneth</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>ABBOTT, Gerald R.</div><div>2nd Lt 1542</div><div>WIA</div>
+                <div>STOECKLEY, Richard</div><div>PFC E3	11B10</div><div>WIA</div>
+                <div>MOON, William</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>SCOTT, Dennis</div><div>SP4 E4	11B20</div><div>WIA</div>
+                <div>SCRANTLIN, James N.</div><div>PFC E3 	11B10</div><div>WIA</div>
+                <div>MC CARTNEY, Samuel Jr.</div><div>SFC E6	11B40</div><div>WIA</div>
+                <div>STEPHENS, Forrest E</div><div>SP4 E4 	11B20</div><div>WIA</div>
+                <div>JOHNSON, John D.</div><div>SP4 E4	11C20</div><div>WIA</div>
+                <div>ORR, Ronald E.</div><div>PFC E3	11B20</div><div>WIA</div>
+                <div>WILLIAMS, Arthur</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>CHASE, James E.</div><div>SP4 E4	11B20</div><div>WIA</div>
                 <!-- <div>DAY, Billy B.</div> -->
                 <!-- <div>
                   @foreach ($all_casualties as $one_casualty)

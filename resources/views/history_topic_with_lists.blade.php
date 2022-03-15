@@ -2322,20 +2322,19 @@
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
-                  <div>PFC E3	11B10</div><div>KIA</div>
-                </div>
+                </div><div>PFC E3	11B10</div><div>KIA</div>
                 <!-- <div>BAREFIELD, Bobby J.</div><div>PFC E3	11B10</div><div>KIA</div> -->
                 <div>TALLEY, Kenneth</div><div>PFC E3	11B10</div><div>WIA</div>
                 <div>ABBOTT, Gerald R.</div><div>2nd Lt 1542</div><div>WIA</div>
                 <div>STOECKLEY, Richard</div><div>PFC E3	11B10</div><div>WIA</div>
                 <div>MOON, William</div><div>SGT E5	11B40</div><div>WIA</div>
                 <div>SCOTT, Dennis</div><div>SP4 E4	11B20</div><div>WIA</div>
-                <div>SCRANTLIN, James N.</div><div>PFC E3 	11B10</div><div>WIA</div>
-                <div>MC CARTNEY, Samuel Jr.</div><div>SFC E6	11B40</div><div>WIA</div>
-                <div>STEPHENS, Forrest E</div><div>SP4 E4 	11B20</div><div>WIA</div>
-                <div>JOHNSON, John D.</div><div>SP4 E4	11C20</div><div>WIA</div>
-                <div>ORR, Ronald E.</div><div>PFC E3	11B20</div><div>WIA</div>
-                <div>WILLIAMS, Arthur</div><div>SGT E5	11B40</div><div>WIA</div>
+                <div>SCRANTLIN, James N.</div><div>PFC E3 11B10</div><div>WIA</div>
+                <div>McCARTNEY, Samuel Jr.</div><div>SFC E6	11B40</div><div>WIA</div>
+                <div>STEPHENS, Forrest E</div><div>SP4 E4 11B20</div><div>WIA</div>
+                <div>JOHNSON, John D.</div><div>SP4 E4 11C20</div><div>WIA</div>
+                <div>ORR, Ronald E.</div><div>PFC E3 11B20</div><div>WIA</div>
+                <div>WILLIAMS, Arthur</div><div>SGT E5 11B40</div><div>WIA</div>
                 <div>CHASE, James E.</div><div>SP4 E4	11B20</div><div>WIA</div>
                 <!-- <div>DAY, Billy B.</div> -->
                 <!-- <div>
@@ -2361,70 +2360,470 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS<br>
+              1ST BATTALION (MECH) 5TH INFANTRY<br>
+              APO San Francisco 96225<br>
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVTLSBA-C 13 July 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT: Combat Operations After-Action Report (RCS/J3-32)
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              THRU: Commanding Officer<br>
+              2d Brigade, 25th Infantry Division<br>
+              ATTN: AVTLSB-C<br>
+              APO U. S. Forces 96225<br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              THRU: Commanding General<br>
+              25th Infantry Division<br>
+              ATTN: AVTLAG-OP<br>
+              APO U. S. Forces 96225<br>
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              TO:  Commander<br>
+              U.S. Military Assistance Command, Viet Nam<br>
+              ATTN: J343<br>
+              APO U. S. Forces 96243<br>
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              1. <span class="topicTitle">NAME OF OPERATION</span>:  "COCO PALMS."
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
+              2. <span class="topicTitle">DATES OF OPERATION</span>:  250630JUN66 - 011935JUL66.
             </div>
             <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
-              <div>
-
-              </div>
+              3. <span class="topicTitle">GENERAL</span>: The 1st Battalion (Mechanized), 5th Infantry conducted this separate battalion operation in the area of the Boi Loi and Ho Bo Woods, Hau Nghia and Binh Duong Provinces (Incl 1, TAOR Overlay).
             </div>
             <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
+              4. <span class="topicTitle">COMMAND HEADQUARTERS</span>: 1st Battalion (Mechanized), 5th Infantry, 2d Brigade, 25th Infantry Division.
             </div>
             <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
+              5. <span class="topicTitle">REPORTING OFFICER</span>: Lt Col Thomas U. Greer, Commanding Officer, 1st Bn (Mech) 5th Inf.
             </div>
             <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              6. <span class="topicTitle">TASK ORGANIZATION</span>:
+              <ul>
+                <li>
+                  1st Bn (Mech) 5th Inf (Lt Col T.U. Greer, Commanding)
+                </li>
+                <li>
+                  Recon Plat (Lt J. E. McQuinn)
+                </li>
+                <li>
+                  Scty Plat
+                </li>
+                <li>
+                  Hvy Mort Plat (Lt L. Phillips)
+                </li>
+                <li>
+                  Mech Flame Sec, 65th Engr Bn
+                </li>
+                <li>
+                  Co A (Lt G. F. Smith, Commanding)
+                  <ul>
+                    <li>Engr Sqd (-), 65th Engr Bn</li>
+                  </ul>
+                </li>
+                <li>
+                  Co B (Capt E. B. Vickery, Commanding)
+                  <ul>
+                    <li>Demo Tm, 65th Engr Bn</li>
+                  </ul>
+                </li>
+                <li>
+                  Co C (Capt W. A. Blair, Commanding)
+                  <ul>
+                    <li>Demo Tm, 65th Engr Bn</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">SUPPORTING FORCES</span>:
               <ol type="a">
                 <li>
-
+                  <span class="topicTitle">Artillery</span>:
+                  <ol>
+                    <li>
+                      Composition:
+                      <ol type="a">
+                        <li>
+                          First five days of operation:
+                          <ul>
+                            <li>B/3/13th Arty (155 How SP): DS 1/5th Mech</li>
+                            <li>1plat D/3/13th Arty: Atch B/3/13th Arty.</li>
+                          </ul>
+                        </li>
+                        <li>
+                          Sixth to eight days of operation:
+                          <ul>
+                            <li>C/7/11th Arty (105 How towed): DS 1/5th Mech</li>
+                            <li>B/3/13th Arty: Atch C/7/11th Arty</li>
+                            <li>1 plat D/3/13th Arty: Atch C/7/11th Arty.</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      Comments:
+                      <ol type="a">
+                        <li>
+                          Phase I - The artillery support was not considered adequate due to a lack of accuracy during a critical mission.
+                        </li>
+                        <li>
+                          Phase II - The artillery fired a 10 minute preparation on Objectives C and A. A 155mm howitzer battery and one platoon 8" located at Cu Chi provided the preparation on Objective C while a 155mm howitzer battery and one platoon 8" located at Trung Lap fired the preparation on Objective A. 4.2" mortars were used to prepare blocking position Z and Objective B. The preparation was accurate and timely. On the second and third days of Phase II a roving preparation, controlled by the Arty LO from the air, was used on objective areas (GS XT 6528 and vicinity XT 657268). The artillery fire was extremely accurate and timely. All "will-adjust" missions during this phase were accurate and timely.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <span class="topicTitle">Air Support</span>
+                  <ol>
+                    <li>
+                      Composition: 7th AF provided close air support.
+                    </li>
+                    <li>
+                      Comments: The Bde AF Lo traveled in the C&C ship and called for all "Immediate" air strikes. The required response time varied, but in all cases it was considered satisfactory. Eleven preplanned close air support missions were utilized in Phases I and II. A preplanned B52 air strike requested by the 25th Inf Div to precede the attack on 26 June was not flown. Due to the lack of information from the USAF concerning the approval or disapproval of the strike,  H-hour, ect., the attack was unnecessarily delayed for 55 minutes.
+                    </li>
+                  </ol>
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
-            </div>
-            <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              8. <span class="topicTitle">INTELLIGENCE</span>:
               <ol type="a">
                 <li>
-
+                  Intelligence prior to the operation: Two main force battalions of the 165A Regt had been reported in the operations area. The Trang Bang Local Force Company was also reported in the area of operations vic XT 4932. USAF FAC reported light to moderate small arms fire was constantly received during the week of 17-23 June from along the streams (XT 610270 - XT 625306, XT 495318 - XT 520345) and the wooded areas on the northeast edge of the Ho Bo Woods (XT 663260 - XT 635307). Results of operations by this battalion into the Boi Loi - Ho Bo Woods on 29 Mar - 5 Apr (CIRCLE PINES), 16-21 Apr (KAHALA) and 15-27 May (WAHIAWA) revealed that the area contained several supply bases and the base area of the C320th Mobile Bn, Tay Ninh Province. Documents and PW's captured in the area indicated the Tay Ninh Provincial Committee was located in the Boi Loi Woods with subordinate sections as follows: Tay Ninh Military Intelligence sub-sections (XT 500316),  Tay Ninh Provincial Armament sub-section (XT 511339),  and Workers Proselyting Section, Tay Ninh Provincial Committee (XT 527338). The numerous caches, base camps and documents substantiated that the Boi Loi was a major COSVN rear service supply area. The Ho Bo has long been the base area for the Saigon-Gia Dinh Special Region Committee.
+                </li>
+                <li>
+                  Enemy situation during the operation: Initial contact was made by Company B on 25 June when they wounded and captured a VCC who claimed to be the XO and political officer (but was probably a platoon leader or higher rank) of the 1st Co, 320th Bn, vic XT 506314. Co C determined through interrogation of civilians in the area, that a VC force of 10 to 15 personnel moved every day south along the trail at coordinates XT 482299, moving just after dark. This same force usually passed in the opposite direction each day about 1000 hours. After assaulting a bunker on 26 June, Co C wounded and captured a VCC vic XT 640304. Documents in his possession indicated that he was a member of the security element of the Saigon - Gia Dinh Special region Committee, which seems to be located in the extensive tunnel system in the area. Numerous documents found in the area indicated that the Political Staff, Military Affairs Committee, Saigon - Gia Dinh Special Region and agencies subordinate to COSVN were located in the area. Of particular interest were the large number of receipts for ammunition and weapons found in a tunnel which indicated the presence of an ammo and weapons supply point in the area. Documents captured in vic XT 634305 indicated the B103 Medical Section, Rear Service Staff, Saigon - Gia Dinh Special Region Committee was in the area. The documents included medical books, requests for medicine, medical expense records and related documents. Numerous letters of introduction to VC, dated 13 June 1966, from various medical sections stating that they would attend a medical class numbered B46 were also captured. One of the documents, a request to join the Communist Party, was addressed to the Security Section, Saigon - Gia Dinh Special Region. Additional documents also indicated the presence of the Propaganda and Training Section (many propaganda signs were in the area, some written in English and some in Vietnamese) and the 2d Co, 243rd Anti-aircraft Bn, U80 Arty Regt in the Ho Bo Woods. No enemy force of significant size was encountered during the operation. Enemy strength was estimated at 15-20 VC operating in two and three-man cells. Of significance was the fact that in several cases the VC fought from within the tunnels - a change to his tactics thus far encountered by this battalion. The edges of the Ho Bo are laced with trenches (Incl 2). Extensive defensive fortifications consisting of bunkers, trenches with overhead cover, tunnels and underground rooms were encountered during the operation. Some examples of the more significant ones are as follows:
+                  <ol>
+                    <li>
+                      Area I (Incl 3):  Fortifications in this area consisted of 29 large bunkers (20' X 20'), which had been constructed within the 60 days prior to this operation. (This unit had been through the area on April 21, during Operation KAHALA. At that time the bunkers were not there.) Unlike other bunkers found in the area, these were partially above ground with all-around 6"x12" firing ports approximately three feet above ground level (Incl 4).  The bunkers were built in pairs connected by a tunnel. One trap door in the tunnel was the main entrance into each bunker pair and an escape tunnel led out of each bunker (Incl 5). All of the bunkers were concealed from aerial observation by rubber trees and dense woods. Excavations for five more bunkers had been completed but construction had not started. The bunkers within the complex were mutually supporting and on one of the main avenues of approach into the Ho Bo (Incl 6). Each bunker was capable of sleeping 40 VC. Once the bunkers were completed, the complex would have been able to house an estimated 1,360 VC.
+                    </li>
+                    <li>
+                      Area II (Incl 3):  Fortifications in this area consisted of a series of 5'x6' mutually supporting bunkers interconnected by a trench and tunnel system (Incl 7). An unusual and well protected bunker was located in this area vic XT 621291 (Incl 8). In addition to its use as a fighting position, the bunker also served as the control center for several clusters of command detonated mines and bombs. The trench with overhead cover provided supplementary positions and a covered escape route. Strong points were located at both ends of this area at coordinates XT 629302 and XT 614276. The area across the creek from this area to the west contained many old houses, most of which were at least partially destroyed. However, these all contained protective shelters and small tunnels which showed signs of recent use by the VC.
+                    </li>
+                    <li>
+                      Area III (Incl 3): Fortifications in the area consisted of a complex system of bunkers and underground rooms connected by tunnels and trenches. The complexes were well concealed in heavily wooded areas overlooking open clearings (Incl 9, 10 and 11). In all cases except one, the tunnels began in a bunker. Large underground rooms within the complex were capable of accommodating six to eight persons. Most of the bunkers were constructed with large rubber tree logs (6" - 10" dia) for the supports and overhead beams. Two to three feet of dirt covered each bunker, many of which were concrete reinforced, thus providing excellent protection from artillery fires. Some of the bunkers were eight feet deep with firing steps (Incl 12) connected to sleeping quarters and cooking rooms (Incl 13). New construction was observed in GS XT 6528.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Terrain and weather. The terrain is generally flat with open areas south of the Boi Loi and south, central and north of the Ho Bo. Open areas to the south and north consisted of damp and wet rice paddies, some of which were cultivated. The central area of the Ho Bo consists of rubber trees and dense woods as depicted on the map. However, secondary growth throughout the area varies from  light to thick with the center being the lightest area. The dense woods and areas of thick undergrowth restricted movement of track vehicles. Foot movement through these areas was also slow and tedious. B52 bomb craters presented a definite obstacle to track vehicles due to the depth and density of the craters. Thick vegetation provided excellent concealment for the VC and limited friendly observation. The stream west of the Ho Bo was impassible to track vehicles north of XT 612280. Can Ca Bay Stream was negotiable from XT 580278 to XT 588255. Rice paddies adjacent to this portion of of the stream were damp to wet but trafficable to tracks. Weather conditions during the operation presented little or no problems. Low ceilings prevented some helicopter operations but had no effect on ground operations. Average weather conditions during the operation were mostly cloudy skies with .59 inches of precipitation per day;  temperatures ranged from a high of 91 degrees to a low of 71 degrees; winds were from the SW at 5-8 knots.
+                </li>
+                <li>
+                  There were no Civil Affairs/Psy Ops activities conducted during the period.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
+              9. <span class="topicTitle">MISSION</span>: 1st Bn (Mech), 5th Inf moves 250630JUN66 to conduct independent search and destroy operations in the area of operations to locate and destroy VC units and base camps.
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">CONCEPT OF OPERATIONS</span>: 1/5th Mech moved in two echelons from base camp commencing 250630JUN66 and conducted deceptive operations along the southern edge of the Boi Loi Woods complex to cover search and destroy operations in the Ho Bo Woods on 26 June. Bn(-) moved at 0630 hours with Co A, Co B and Recon Platoon to saturate areas 1, 2, and 3, respectively, with ambushes. Co C departed base camp at 0800 hours along Axis GREEN in an attempt to flush the VC into the ambushes. Co C then established ambushes on Obj 4. To develop the cover plan, extensive aerial recons, artillery and mortar registrations, H&I fires, and limited air strikes were placed on Obj X on 25 June (Incl 14, Operation Overlay). On 260725JUN66 the Bn attacked to seize Obj A, B, and C. Co A and C moved along Axes RED and Blue, through Obj A and C, respectively. Co B moved along Axis WHITE to establish blocking position Z and, on order, seized Obj B. All companies then conducted detailed searches in their objective areas. During this phase of the operation a mech flame track was attached to Co A and Co B. Recon Platoon screened the battalion's west flank initially and was placed under Co B's OPCON during the detailed search (Incl 15, Opn Overlay).
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">EXECUTION</span>: The operation was conceived on 15 June 1966 and issued as OPORD 24-66 (Operation COCO PALMS) 171200JUN66.
+              <ul>
+                <li>
+                  Dday (25 June 1966): The battalion moved as planned without incident until armed helicopters reported seeing 25-30 VC in a trench vic XT 539311. Five were estimated to have been killed after effective air and mortar fires were placed on the target. After completion of daylight deception activities, the battalion coiled into a night perimeter.
+                  <ul>
+                    <li>
+                      Company A: The company departed base camp at 0640 hours and closed into Obj 1 at 0950 hours. No contact was made until 1545 hours when a VC was killed (BC) by an ambush vic XT 544310. A thorough search of the objective area produced clothing, ammunition and a large AT mine. The company closed into the battalion perimeter vic XT 530288 at 1830 hours and established two night ambushes; no contact was made.
+                    </li>
+                    <li>
+                      Company B: The company departed base camp at 0630 hours and closed into Obj 2 at 0800 hours without contact. Light contact was made throughout the day resulting in two VC killed (BC) and one captured. At 1900 hours the company closed into the battalion perimeter  vic XT 530288 and established two ambushes; no contact was made.
+                    </li>
+                    <li>
+                      Company C: The company departed base camp at 0830 hours and secured Obj 5 by 1028 hours. No contact was made and the company closed into the battalion perimeter at 1830 hours. Two ambushes were employed that night but none made contact.
+                    </li>
+                    <li>
+                      Recon Platoon: The platoon departed base camp at 0650 hours and established blocking position 3 at 0910 hours. At 0940 hours two VC suspects were apprehended when they attempted to depart the area. The suspects were evacuated along with three other suspects apprehended by the command group vic XT 534285.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+1 (26 June 1966): The attack was scheduled for 0630 hours but was delayed by higher headquarters until 0725 hours. This delay was caused by a proposed air strike which was not conducted (see Para 7b(2) ). All companies secured and searched their objective areas and closed into a battalion perimeter for the night defense. Nine ambushes were employed during darkness but no contact was made.
+                  <ul>
+                    <li>
+                      Company A: The company reached its objective area at 1030 hours making light contact enroute. Intense automatic weapon fire was received from a bunker vic XT 62252956 and the ensuing fire fight resulted in two VC killed and the discovery of an extensive bunker-tunnel complex (Incl 7). The assault on the bunker produced 12 rifles,  munitions and a mount for an SG-43 HMG. Several boobytraps, command detonated mines and explosives, to include four 25 lb frag bombs, were destroyed. The bunkers and tunnels were destroyed by demolitions and shape charges. Four VC were estimated to have been killed in the bunker-tunnel complex.
+                    </li>
+                    <li>
+                      Company B: By 1000 hours the company had established its blocking position destroying two bunkers and capturing one VC enroute. Detailed search of the area produced several boxes of clothing, munitions, miscellaneous documents and equipment and a tunnel complex vic XT 616294. The met light resistance and destroyed 12 bunkers, 5,000 lbs of boobytrapped rice, and several grenades and CBU boobytraps.
+                    </li>
+                    <li>
+                      Company C: The company's attack encountered boobytraps, AT mines and moderate small arms and rifle grenade fire from trenches and bunkers. By 1423 hours a large command bunker with an extensive tunnel complex was encountered vic XT 640301. By 1800 hours the company had searched out the objective area destroying two AT mines, twelve boobytraps, several bunker-tunnel complexes and captured one VCC with rifle, two Russian AT mines, claymore weapons and boobytraps. Three VC were estimated to have been killed in the bunker-tunnel complexes.
+                    </li>
+                    <li>
+                      Recon Platoon: The platoon screened the battalion's west flank but made no enemy contact. While performing its screening mission, the platoon located and destroyed 2,000 lbs of boobytrapped rice, boobytrapped CBU bomblets, two bunkers and captured 1500 lbs of peanuts, one rifle and several documents.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+2 (27 June 1966): Co B, 2/27th Inf (Capt J.R. Paschall, commanding) was attached effective 270800JUN66 and the Battalion Task Force employed Co A vic XT 623297 (ALPHA),  Co B vic XT 655285 (QUEBEC), Co C vic XT 645302 (NOVEMBER), Co B, 2/27th Inf vic XT 635305 (CHARLIE), and the Recon Platoon vic XT 655273 (TANGO) on search and destroy operations. An LZ was secured vic XT 636296 for the Co B, 2/27th Inf helicopter landing, and all companies conducted S&D operations in their respective areas following artillery, mortar and air preparations. Throughout the day units met light to moderate resistance and closed into the battalion perimeter vic XT 630288 by dusk. Ten ambushes were employed during darkness without contact.
+                  <ul>
+                    <li>
+                      Company A: The company departed the base at 0730 hours and encountered AT mines, rifle grenades and small arms fire from two bunkers on the edge of their objective area. The company overran the bunkers and estimated killing two VC. Two rifles and a 7.92mm ZB26 LMG were captured. A detailed search of the bunkers led into an extensive tunnel network which produced many documents, clothing, munitions and equipment. The bunker, tunnel and all munitions were destroyed.
+                    </li>
+                    <li>
+                      Company B: The company conducted a detailed search of the area against light small arms fire, boobytraps, and AT mines. By the end of the day they had destroyed by demolitions 16 bunkers, two of which were concrete reinforced, a concrete reinforced room capable of seating 30 persons, 26 tunnels, 200-300 feet each, 12 CBU boobytraps and four AT mines.
+                    </li>
+                    <li>
+                      Company C: The company arrived on the assigned objective area and met stiff resistance from several bunkers. The VC employed rifle grenades, automatic weapons, command detonated AT mines and claymore-type weapons from four different bunkers. Two VC kills were estimated in the ensuing bunker assaults which revealed a concrete reinforced bunker-tunnel complex. The company searched and destroyed these complexes and captured several grenades, claymore weapons, CBU  bomblets, boobytraps, clothing fresh food and large mines wired for command detonation (155mm, 175mm, 8" and 250 lb bombs), 225 rounds of 7.92 ammo, a Chicom carbine, three sets of field equipment and miscellaneous documents which filled two sand bags.
+                    </li>
+                    <li>
+                      Co B, 2/27th Inf: The company landed on the LZ at 0830 hours and moved into their area following an artillery preparation. They discovered and destroyed 11 tunnels, 79 yards of white cloth, fresh food and a bicycle. They also captured seven medical jackets, a mask and cap and approximately four pounds of miscellaneous documents.
+                    </li>
+                    <li>
+                      Recon Platoon: The platoon secured the woodline south of Obj CHARLIE and assisted the passage of Co B, 2/27th Inf. By 1106 hours the platoon occupied blocking position TANGO to prevent enemy departure from the AO. The platoon made no contact but found and destroyed a 30 lb claymore type weapon.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+3 (28 June 1966): The Tf continued S&D operations in the AO and employed Co A vic XT 616285 (GOLF), Co B vic XT 655285 (QUEBEC), Co C vic XT 655278 (UNIFORM), Co B, 2/27th Inf vic XT 652285 (OSCAR), and Recon Platoon along Axis SALLY (XT 638296 - XT 642305 - XT 633308 - XT 625304).  During the search the VC put up stiff resistance from within the tunnels and in some cases prevented complete searching prior to destruction of the tunnels. Attempts to flush the VC out by use of tear gas were ineffective. The VC continued to fire from within the tunnels. Charges were placed as close as possible to the VC and detonated, collapsing the tunnels. Each company employed stay-behind ambushes before returning to the battalion perimeter. Only the Co B ambush at XT 651281 made contact, killing one VC (BC).
+                  <ul>
+                    <li>
+                      Company A: In searching their obj area the company encountered several elaborate bunker-tunnel complexes and by the end of the day had destroyed eight of these positions, three machinegun positions, a motar position, clothing, several boobytraps and dry batteries. Sleeping quarters in two of the large bunkers could comfortably accommodate four persons each. Rifle grenades were used by the VC in this area.
+                    </li>
+                    <li>
+                      Company B: A thorough search of the area was continued throughout the day which resulted in the destruction of seven bunkers, an extensive tunnel complex, two AT mines and grenade boobytraps. The VC used rifle grenades, small arms and, from within the tunnel complex, an automatic weapon. Smoke was used to locate all entrances and the tunnel was destroyed.
+                    </li>
+                    <li>
+                      Company C: Several tunnels were found in the company objective area. A ravine, 10-15 feet deep, 300 feet long and 12 feet wide was located vic XT 654280. Into the sides of the ravine were tunnels to provide shelter and storage areas. One of the tunnels located in the area consisted of several levels and eight passageways. An underground classroom with a seating capacity of twenty persons was also located and destroyed. By the end of the day the company destroyed two bunker-tunnel complexes, several boobytraps and munitions. New ammo pouches, web equipment, one carbine,  a medical kit and miscellaneous clothing and documents were captured.
+                    </li>
+                    <li>
+                      Co B, 2/27th Inf: The company objective area contained no trace of use by VC. Two boobytraps were located and rifle grenade fire was received from the south of their objective area.
+                    </li>
+                    <li>
+                      Recon Platoon: The platoon conducted its sweep along Axis SALLY and by 0905 hours encountered a complex bunker-tunnel system vic XT 642303. Small arms fire was received from within the tunnels. The platoon spent the rest of the day searching and destroying the tunnels and bunkers and by the end of the day had destroyed five bunker-tunnel complexes, two well concealed tunnels, seven hand grenade boobytraps, and five CBU boobytraps. Ten thousand lbs of rice and four bags of cement were captured. Efforts to flush the VC out of the tunnels failed and the tunnels were destroyed.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+4 (29 June 1966: The battalion task force continued S&D operations with light to moderate contact. The TF employed Co A on Obj HOTEL vic XT 655288; Co B returned to Obj QUEBEC; Co C on Obj ECHO vic XT 660260; Co B, 2/27th Inf on Obj FOXTROT vic XT 655274; Recon Platoon continued its sweep of Axis SALLY. All companies returned to the battalion perimeter at dusk and employed seven ambushes during the night, but no contact was made.
+                  <ul>
+                    <li>
+                      Company A: The company conducted their search under constant harassing small arms and rifle grenade fire. The area was heavily boobytrapped and the bunker-tunnel complexes encountered were well constructed and reinforced. By the end of the day six tunnels, two bunker-tunnel complexes, munitions and several command detonated mines were destroyed. six hundred lbs of boobytrapped rice was also found and destroyed.
+                    </li>
+                    <li>
+                      Company B: With the exception of one command detonated mine, the company made no contact during the day. After thoroughly searching the area,  22 bunkers (several of which were reinforced with steel or concrete), 17 tunnels (two of which were three level), suspended 81mm boobytraps, 31 grenades and 60mm boobytraps, and many other munitions were destroyed. One rifle and several rounds of ammunition (20mm, 7.62mm and 40mm) were captured.
+                    </li>
+                    <li>
+                      Company C: The company met no resistance during their search but encountered several boobytraps. A large three-level tunnel complex was found vic XT 638266 which led to several bunkers. One of these bunkers was reinforced with steel beams and a steel top. This entire complex along with three sampans and a boat were destroyed.
+                    </li>
+                    <li>
+                      Co B, 2/27th Inf: The company met no resistance in their search which produced an extensive bunker-tunnel complex. The tunnel led to 12 different exits/entrances and a thorough search of the area produced clothing, documents, ammunition, medical supplies, 3,000 lbs of rice, a VC gas mask, a Chinese or Russian gas mask, 55 gals of kerosene and eight boobytraps.
+                    </li>
+                    <li>
+                      Recon Platoon: The platoon completed its sweep of Axis SALLY and in the process received two rifle grenade rounds and hit one AT mine. A large bunker-tunnel complex, reinforced with steel beams, was discovered. Inside the bunker were several benches, stools, a blackboard, rifle grenades, and 500 lbs of rice. With the exception of the rice, the entire complex was destroyed. By the end of the day, a total of 3,400 lbs of rice and 100 lbs of salt were captured.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+5 (30 June 1966): The battalion TF continued S&D operations to complete the detailed search of the area. The TF was employed with Co A returning to Obj HOTEL, Co B with the Recon Plat attached  returning to Obj QUEBEC, Co C to vic XT 595265 (KILO) and Co B, 2/27th Inf to Area LIMA, vic XT 625295 in order to saturate the area with daylight ambushes. Several AT and AP mines and boobytraps were encountered during the day while destroying extensive bunker-tunnel complexes and large reinforced bunkers in the AO. Co B, 2/27th Inf was released from battalion control at 1604 hours. All companies returned to the battalion base and employed seven ambushes but no contact was made.
+                  <ul>
+                    <li>
+                      Company A: The company completed their search of the revine vic XT 653280 and also found several fortified bunkers in the area. Nine bunkers, four tunnels, six buildings and several boobytraps were destroyed. Five hundred lbs of rice was captured by the end of the day. The company then conducted a reconnaissance in force vic XT 650286; results were negative.
+                    </li>
+                    <li>
+                      Company B: The company completed the search of their objective area encountering heavily boobytrapped areas and AT mines. Two tunnels and twelve bunker complexes were destroyed along with numerous boobytraps. Several 81mm, 105mm and 155mm rounds, all of which were wired for command detonation, were found and destroyed. Two carbines were also captured.
+                    </li>
+                    <li>
+                      Company C: The company's search in the new objective area was hampered by several AT and AP mines and boobytraps. Twenty-one bunkers, varying in size from 15'x15' to small concrete reinforced bunkers were destroyed. The company also captured 900 lbs of rice, clothing and miscellaneous documents.
+                    </li>
+                    <li>
+                      Co B, 2/27th Inf: The company saturated their area with ambushes but no contact was made. Extracation by helicopter commenced at 1430 hours and by 1604 hours the last element was airborne and released from battalion control.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  D+6  (1 July 1966): The battalion terminated the operation and commenced its return to base camp at 0700 hours. Co A was required to secure a portion of an LZ for the 3d Bn, 49th Inf Regt (ARVN) helicopter extraction vic XT 638273. They were also required to establish a blocking position vic XT 625268 and destroy some large bunkers vic XT 597264. Co B secured the remainder of the LZ, Co C was given the mission to secure the road from Trung Lap (XT 5819) to Hwy 1 (XT 5616) and protect the engineer clearing party along the road. The Recon Platoon escorted the CP group, Hvy Mort Plat and all disabled vehicles to vic Trung Lap and then escorted the artillery group from Trung Lap to the base camp. Due to reports of ground activity vic XT 590270, Co C was diverted to investigate and at 1300 hours Co A(-), 2/14th Inf  was airlifted into the AO to assist in securing the road from Trung Lap to Hwy 1. By 1935 all elements closed into the base camp, terminating Operation COCO PALMS.
+                  <ul>
+                    <li>
+                      Company A: The company established its blocking position and secured its portion of the LZ by 0803 hours. Eleven large, well constructed bunkers (Incl4) were destroyed vic XT 596263. No contact was made during the day, except for the detonation of one AT mine vic XT 580229 which moderately damaged an APC.
+                    </li>
+                    <li>
+                      Company B: The company secured their portion of the LZ by 0800 opposed by light and sporadic small arms fire. Upon completion of the helicopter extraction, the unit conducted a sweep through a suspected VC occupied area vic XT 604264; no contact was made and the company returned to base camp.
+                    </li>
+                    <li>
+                      Company C: While enroute to secure the road from Trung Lap to Hwy 1, armed gunships reported receiving heavy ground fire from vic XT 590270. The company was diverted in an attempt to close with and destroy the enemy. No VC were found in the area and signs of VC occupancy were not evident. The company then resumed its original mission and returned to base camp at 1935 hours.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              12. <span class="topicTitle">RESULTS</span>:
               <ol type="a">
                 <li>
-
+                  Friendly:
+                  <ol>
+                    <li>
+                      634 personnel started the operation and 586 completed. The latter figure includes 39 WIA who remained with their units (Incl 16, casualty list).
+                    </li>
+                    <li>
+                      Fourteen APC's, M113, were damaged by mines. Six were repaired in the field and continued the operation.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Enemy:
+                  <ol>
+                    <li>
+                      25 VC killed (6 BC), 3 VCC  and 6 VCS.
+                    </li>
+                    <li>
+                      Material, equipment and facilities:
+                      <ol type="a">
+                        <li>
+                          Captured:   2 M1 rifles; 13 Chicom carbines; 2 U.S. carbines; 1 U.S. M16 rifle; 1 German Mauser; 1 7.92mm LMG, 2B26 (BRND); 1 Springfield rifle (1903); 1 M72 LAW;  4 rifles, type unknown; 1 machinegun mount on wheeled carrier for 7.62mm HMG SG-43 (Goryunov); 1 carbine, type unknown; 10 combat packs; 1 cartridge belt; 2 pistol belts; 6 medical jackets; 1 medical cap; i medical mask; 1 medical kit; 31 ammo pouches; 4 bags (100 lb)    cement; 20,000 lbs rice; 1 gas mask, Russian or Chinese type; numerous documents; miscellaneous clothing; medical manuals.
+                        </li>
+                        <li>
+                          Destroyed:   21 rifle grenades; 3 hand grenades (U.S.); 6 hand grenades (VC);  35 hand grenades (Chicom); 20 boobytraps (hand grenades, 81mm and 60mm type); 21 boobytraps (CBU bomb type); 3 boobytraps (2.75" rocket); 7 81mm boobytraps (suspended in trees); 1 boobytrapped antiaircraft rocket; 1 U.S. carbine (boobytrapped in a punji pit); 34 CBU bomblets; 35 AT mines; 1 AP mine; 3 81mm rds (rigged for cmd det); 4 105mm rds (rigged for cmd det); 7  155mm rds (rigged for cmd det); 2  8" rds (rigged for cmd det); 3  250 lb bombs (rigged for cmd det); 3  175mm rds (rigged for cmd det); 11 claymore weapons; 155 bunkers; 78 tunnels; 4 25 lb frag bombs (U.S.);  1 VC frag bomb; 1040 rds 7.62mm linked ammo; 40 rds Chicom 7.62 ammo; 300 rds 5.56mm ammo (U.S.); 50 rds 7.62mm (short); 725 rds 7.92mm ammo; 80 rds cal .30 ammo; 1 BAR magazine; 30 rds cal .32 ammo; 1 VC gas mask; 1 boat; 1 wagon; 7,600 lbs rice (boobytrapped); 11 M79 rds; 60 buildings; 6 sampans; 70 gals kerosene; 1 sugar cane processing machine; Miscellaneous clothing.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
                 </li>
               </ol>
-              <div>
-                <!-- FOR THE COMMANDER:</br> -->
-              </div>
+            </div>
+            <div class="aarTopic">
+              13. <span class="topicTitle">ADMINISTRATIVE MATTERS</span>:
+              <ol type="a">
+                <li>
+                  Supplies: All resupply was accomplished by UH1D helicopters flying from base camp to the forward CP area. During the operation, 131 sorties delivered the following supplies:
+                  <ol>
+                    <li>Class I:  44,500 pounds.</li>
+                    <li>Class II:  11,000 pounds.</li>
+                    <li>Class III:  38,000 pounds.</li>
+                    <li>Class IV:  3,600 pounds.</li>
+                    <li>Class V:   24,300 pounds.</li>
+                    <li>Miscellaneous: 34,280 pounds (includes 6,832 gallons of water).</li>
+                    <li>Personnel: 14,000 pounds.</li>
+                  </ol>
+                  The battalion expended the following ammunition and demolitions during the operation:
+                  <ul>
+                    <li>Ctg 7.62mm ball  1,680 rds</li>
+                    <li>Ctg 7.62mm 4+1   30,400 rds</li>
+                    <li>Ctg 5.56mm ball           25,560 rds</li>
+                    <li>Ctg 5.56mm tracer            1, 140 rds</li>
+                    <li>Ctg cal .50 4+1           22,200 rds</li>
+                    <li>Ctg 40mm, HE            1,296  rds</li>
+                    <li>Ctg 81mm, HE       208  rds</li>
+                    <li>Ctg 81mm, WP        6  rds</li>
+                    <li>Ctg 4.2", HE   635 rds</li>
+                    <li>Ctg 4.2", WP     37 rds</li>
+                    <li>Grenade, frag   875 ea</li>
+                    <li>Rocket, M66       7 ea</li>
+                    <li>Mine, AP, M18A1    24 ea</li>
+                    <li>Grenade, smoke, yellow   32 ea</li>
+                    <li>Grenade, smoke, violet   96 ea</li>
+                    <li>Grenade, smoke, HC               48 ea</li>
+                    <li>Grenade, hand, CS  106 ea</li>
+                    <li>Flare, trip     32 ea</li>
+                    <li>Block, demo, C4, 2 1/2 lb 590 lbs</li>
+                    <li>Block, demo, TNT, 1 lb        1,650 lbs</li>
+                    <li>Cratering charge, 40 lb    43 ea</li>
+                    <li>Cord, detonating           4,000 feet</li>
+                    <li>Fuze, blasting, time           1,250 feet</li>
+                    <li>Ignitor, fuze    170 ea</li>
+                    <li>Blasting cap, non-electric  510 ea</li>
+                  </ul>
+                </li>
+                <li>
+                  Maintenance: The Bn started the operation short six (6) carriers, personnel, F.T., M113. The Recon Platoon was short three (3), the Medical Plat one (1), and Co A and Co C one (1) each. During the operation thirteen (13) carriers were damaged by AT mines and one (1) carrier was damaged by a large AP mine. Six (6) of  these vehicles were repaired in the field and continued the operation. The other eight were evacuated to base camp at the termination of the operation. Of the eight (8) that were evacuated to base camp, seven (7) had to be towed; one returned under its own power. Six (6) of the above eight (8) carriers have, since their return, been declared not economically repairable. Twenty (20) carriers became inoperable for mechanical failures during the operation; however, twelve (12) of these were repaired in the field and continued the operation. The remaining eight (8) were evacuated to base camp at the termination of the operation. Seven (7) of the eight (8) returned under their own power; however, they were short-tracked. The major mechanical failure experienced was the separation of the idler arm from the hull of the carrier. There were seven (7) of these failures and all seven (7) carriers had to be evacuated. Two of the carriers with this failure had been rebuilt eight (8) months ago and since that time they have traveled more than 2500 miles. The other five (5) tracks with this failure were over five (5) years old and have traveled over 5000 miles. Because this Bn was short five (5) Light Recovery Vehicles, it became a major problem to evacuate the eight vehicles that required towing. In order for this Bn to accomplish the task of extracting the eight downed vehicles, ten (10) additional combat vehicles were diverted to tow the downed tracks. Two (2) tracks were so badly damaged they required four other vehicles to tow them. If the five (5) Light Recovery Vehicles had been on hand, they could have accomplished the same task as the ten carriers, with less wear and tear.
+                </li>
+                <li>
+                  Treatment of Casualties, Evacuation and Hospitalization:  The Bn Fwd Aid Station was staffed by one doctor and four medics. During the operation 156 patients were seen and treated, of which 73 were due to sickness or disease, 52 from wounds received in hostile action, and 31 non-battle injuries (sprains, cuts, bruises, ect.). Thirty-four of the 156 patients were evacuated by resupply helicopters. During the operation, 18 Dust Off helicopters were requested which evacuated a total of 43 casualties. These 43 patients were not processed through the Bn Aid Station, but evacuated to the 25th Med Bn.
+                </li>
+                <li>
+                  Transportation: The Bn consumed a total of 8,837 gallons of MOGAS during the operation.
+                </li>
+                <li>
+                  Communications:
+                  <ol>
+                    <li>
+                      (1) The primary means of communication during Opn COCO PALMS was the FM radio. Wire nets were used at all times in the CP complex and to the companies whenever possible. During the periods of darkness the Bn command net maintained radio listening silence and used wire as the primary means of communications. The Bn maintained FM radio and RATT contact with Bde. There was no wire communication between the Bn and Bde. UHF air-ground communications were also available and used by the AF LO for air support missions.
+                    </li>
+                    <li>
+                      (2) This Bn is equipped with the VRC-12 family of radios which is an excellent piece of equipment. It is believed that the intense heat (115 degrees) inside the carrier M113 has an adverse effect on the radio transmitters (RT524 and RT246). During the operation a total of eleven RT's either failed to transmit or receive or the fan (cooling system) ran continuously. This situation was partially corrected by periodically turning the sets off  and permitting them to cool. This procedure was especially true at night when less radio traffic was required and nets could be monitored with the auxiliary receiver (R442) without sacrificing communications efficiency.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Medical Evaluation:  Access to the Bn Aid Station during the operation was good. Overall medical care of minor complaints and casualties was good. However, it was not advisable to evacuate all injuries through the aid station because of the terrain, time factors involved and the seriousness of the wounds. Of the 83 injuries that were treated at the aid station, 54 were returned to duty. This fact alone demonstrates the value and necessity of a forward aid station .
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              14. <span class="topicTitle">SPECIAL EQUIPMENT AND TECHNIQUES</span>:
+              <ol type="a">
+                <li>
+                  Mechanized flame throwers. The flame throwers proved to be very effective during this operation due to the numerous bunkers encountered. The one major drawback was the wheel-mounted service unit which could not accompany the battalion over cross-country routes. Therefore, the flame throwers were of little value once their pressure was expended. Extensive use could be made possible by mounting the service unit to a full track carrier to provide the necessary cross-country mobility.
+                </li>
+                <li>
+                  Tunnel destruction techniques. A technique has yet to be found which will adequately destroy a complex tunnel system. A special technique employing acetylene gas and detonator proved ineffective for many reasons, one of which was the depth of the tunnels encountered. This technique is stated to be very effective in depths of less than six feet; however, most of the tunnels in the area were well below six feet. Another technique applied which was quite successful was the use of several cratering charges placed at key levels and tunnel "T's," connected in parallel with detonating cord (Incl 10). When detonated, the parallel connection results in simultaneous detonation of all charges and the resulting blast completely caves in the tunnel. This method, however, would require a large amount of explosives for the extensive tunnel systems which were prevalent in the AO.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              15. <span class="topicTitle">COMMANDER ANALYSIS</span>:
+              <ol type="a">
+                <li>
+                  The several contacts made the first day of the operation along the southern edge of the Boi Loi Woods indicated continued extensive use of this area by the VC. Their continuous and rather careless movement to and from the southern edge of these woods makes the area ideally suited for saturation ambushing.
+                </li>
+                <li>
+                  It was until one hour after the attack on 26 June was to begin that the battalion found out that the B52 strike would not be made. Then our opening plan was hampered by not knowing whether the strike would be made or the time the strike was to be made.
+                </li>
+                <li>
+                  After the first day's operation in the Ho Bo Woods, it became apparent that the extent of the bunker/tunnel systems was such as to require either an extended stay to accomplish the mission or additional troops. Hence, when an additional rifle company was offered, it was readily accepted.
+                </li>
+                <li>
+                  The evidence of new construction in the Ho Bo Woods plus the extensive fortifications encountered indicate the VC plan to continue extensive use of this area. In spite of the 78 tunnels which were destroyed, it is felt that only a small percentage of the total tunnels in the area were located and destroyed. This opinion is based on the ease with which the VC eluded our continuous search and on the fact that very few tunnels with concealed entrances were located.
+                </li>
+                <li>
+                  The construction of most of the bunkers found and destroyed was such that they could withstand a direct artillery hit. Thus, as long as they remained inside their bunkers, the VC were immune to artillery fire and immune to all but direct hits by bombs.
+                </li>
+                <li>
+                  It is believed that the extensive bunker system found in grid squares XT 5925 and XT 5926 provided a haven, safe from artillery fire and air strikes, for a large force moving through the area. Since this system was only recently constructed, it might be assumed it was constructed to support the monsoon offensive in this area.
+                </li>
+                <li>
+                  Neither the ARVN nor the U.S. advisors with the ARVN understood the use of the No Fire Line. The ARVN battalion actually moved troops across the NFL before making any formal request for a change.
+                </li>
+                <li>
+                  There has been some discussion of late among medical corps personnel that battalion surgeons should not be in the field. The Battalion Aid Station and surgeon moved to the field with the CP group. The surgeon treated 83 patients for injuries (both battle and non-battle) and returned 54 to duty. He also treated 73 men for sickness or disease and returned 68 to duty. The value of the presence of the battalion surgeon in the field is obvious.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              16. <span class="topicTitle">RECOMMENDATIONS</span>:
+              <ol type="a">
+                <li>
+                  Future operations employing saturation ambushes along the southern edge of the Boi Loi Woods should be conducted.
+                </li>
+                <li>
+                  Periodic operations should be conducted into the Ho Bo Woods  area to prevent rebuilding of the extensive bunker complex and eventually to convince the VC of the futility of using this as a major base of operations.
+                </li>
+                <li>
+                  Extensive use should be made of H&I fires in grid squares XT 5925 and XT 5926 to deny the VC the opportunity to rebuild the bunkers destroyed in that area.
+                </li>
+                <li>
+                  Information on B52 strikes must be made available at the earliest possible time.
+                </li>
+                <li>
+                  Careful coordination on the use of supporting fires, to include a thorough explanation of the No Fire Line, should be made with ARVN forces operating in the vicinity of U.S. forces.
+                </li>
+              </ol>
+            </div>
+            <div>
+              FOR THE COMMANDER:<br>
+              JAMES G. ANDRESS<br>
+              Capt, Adjutant
             </div>
             <div class="casSegment">
               <div class="casListTitle">

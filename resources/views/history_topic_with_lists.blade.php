@@ -3580,7 +3580,7 @@
                 <!-- HINTERLONG, Leo	Co B	21 Jul 66	KIA -->
                 <div>
                   @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Leo" && $one_casualty->last_name == "Hinterlong Jr")
+                    @if ($one_casualty->first_name == "Leo" && $one_casualty->last_name == "Hinterlong")
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach

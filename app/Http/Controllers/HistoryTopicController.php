@@ -227,6 +227,12 @@ class HistoryTopicController extends Controller
           ['month_of_death','=','8'],
           ['year_of_death','=','1966']
         ])
+        ->orWhere([
+          ['day_of_death','>','13'],
+          ['day_of_death','<','32'],
+          ['month_of_death','=','8'],
+          ['year_of_death','=','1966']
+        ])
         ->get();
       if (Auth::user()) {
         $unread_count = DB::table('messages')

@@ -4810,67 +4810,329 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS</br>
+              1ST BATTALION (MECH) 5TH INFANTRY</br>
+              APO San Francisco 96225</br>
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVDCSBA-C 22 September 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT:  Combat After-Action Report (RCS:  MACV J3-32)
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              THRU:  Commanding Officer</br>
+              1st Brigade, 25th Infantry Division</br>
+              ATTN:   AVDCFB-C</br>
+              APO U.S. Forces 96225</br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              TO: Commanding General</br>
+              25th Infantry Division</br>
+              ATTN: AVDC-OP</br>
+              APO U.S. Forces 96225</br>
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              1. <span class="topicTitle">NAME OF OPERATION</span>: Operation KIPAPA
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              2. <span class="topicTitle">DATE OF OPERATION</span>: 030715SEP66 - 121215SEP66
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
+              3. <span class="topicTitle">LOCATION</span>: Filhol - Liocara - Balancie Plantation (XT 6720), Hau Nghia Province, Viet Nam.
             </div>
             <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
+              4. <span class="topicTitle">COMMAND HEADQUARTERS</span>: 1st Battalion (Mechanized), 5th infantry, attached to 1st Brigade, 25th Infantry Division
+            </div>
+            <div class="aarTopic">
+              5. <span class="topicTitle">REPORTING OFFICER</span>: LTC Victor F. Diaz
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">TASK ORGANIZATION</span>:
+              <ul>
+                <li>
+                  1st Bn (Mech) (-) 5th Inf, LTC Victor F. Diaz, Commanding
+                </li>
+                <li>
+                  Scout Plat, SFC  S. McCartney, Jr.
+                </li>
+                <li>
+                  Hvy Mort Plat, 1LT L. B. Wcckman
+                </li>
+                <li>
+                  Company A, CPT J. B. Gerard, Commanding
+                </li>
+                <li>
+                  Company B, CPT R. G. Vanneman, Commanding
+                </li>
+                <li>
+                  Company C, CPT W. A. Blair, Commanding
+                </li>
+                <li>
+                  One squad, Co A, 65th Engr Bn
+                </li>
+                <li>
+                  Six RVN National Policemen
+                </li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">SUPPORTING FORCES</span>: Btry B, 7th Bn, 11th Arty  (DS).
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">INTELLIGENCE</span>:
+              <ol type="a">
+                <li>
+                  a. Intelligence Prior to the Operation: It was known that the Filhol Plantation continued to be an area of considerable VC activity. This activity included small arms fire, mines and antiaircraft fire. The plantation is the normal operational area of the 7th Bn, 165A Regt, which was reported vic XT 637224 on 27 Aug 66 and vic XT 685219 on 29 Aug. The 7th Bn normally operated in company size units and was expected to employ its four RPG-2 rocket launchers and two 57mm recoilless rifles. A rallier had reported a storage trench vic XT 646217 and three antitank mines vic XT 648214. The plantation is known to have extensive tunnel and trench networks.
+                </li>
+                <li>
+                  b. Terrain and Weather: The terrain is generally flat with relatively sparse open areas. The area primarily consists of rubber trees and dense woods. This heavy growth caused track and foot movement to be relatively slow and tedious. Weather conditions during the operation presented little or no problem.
+                </li>
+                <li>
+                  c. Enemy Situation During the Operation.
+                  <ol>
+                    <li>
+                      (1) throughout the operation the VC seemed to have broken into groups of three to four personnel. Working as small groups, the VC effectively evaded friendly forces. Their defensive tactics were to snipe at a moving mechanized column or any aircraft that came within small arms range.
+                    </li>
+                    <li>
+                      (2) The best source of intelligence continues to be POW's.  The use of information gained through immediate interrogation proved extremely helpful. Captured personnel are usually willing to divulge information and in some cases physically point out VC fortifications and tunnels.
+                    </li>
+                    <li>
+                      (3) Documents captured during the operation included a roster of a VC company habitually operating in the Filhol Plantation area. Other documents were training manuals or political in nature.
+                    </li>
+                    <li>
+                      (4) There was significant evidence of VC activity along the river line adjacent to the plantation. Medical supplies and Cambodian goods were captured in tunnels or stores run by Vietnamese.
+                    </li>
+                    <li>
+                      (5) The Vc made extensive use of antitank mines and boobytraps. The mines were primarily located along the roads and in the northern portion of the plantation along the Rach Son creek line.
+                    </li>
+                    <li>
+                      (6) Tunnels in the area ranged in length from small escape routes leading from houses to extensive concrete lined networks. Local Vietnamese labor was often forced by the VC to dig lengthly trenches throughout the area.
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">MISSION</span>: 1st Bn (Mech) (-), 5th Inf conducts search and destroy operations in the Filhol Plantation to locate and destroy VC forces, supplies and base camps and interdict VC LOC commencing 030715SEP66 (Incl 1, Operation Overlay).
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">CONCEPT OF OPERATION</span>: The battalion (-) moves into the 1st Bde AO and conducts S&D operations to locate and destroy VC forces, base areas and supplies; conducts reconnaissance in force and spoiling attacks against known or suspected VC units or activities or preparations during and after the election. Operations to be conducted away from the polling areas but along known or suspected VC locations.
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">EXECUTION</span>:
+              <ul>
+                <li>
+                  3 September 1966: The battalion (-) departed base camp (XT 6516) at 0715 hours to conduct S&D operations in the Filhol Plantation to locate and destroy VC forces, supplies and bases (Incl 1). At 1815 hours Co B, Scout Platoon and the Battalion Command Group departed the Filhol Plantation and returned to base camp, closing at 2050 hours. Co A remained at XT 659211 during darkness and Co C remained under OPCON of the 2nd Bde.
+                  <ul>
+                    <li>
+                      Company A: Prior to the reporting period Co A was attached to the 1st Bde and located its company base vic XT 695211. The company dispatched two platoons from its position to make a sweep to the battalion base vic XT 679211. One platoon (-) remained at the battalion CP as security; the other platoon (+) returned to the company base and assisted in local S&D operations in the sector. During darkness three ambushes were employed, one of which made contact at 2342 hours when two grenades were received into its position at XT 694211. The ambush returned small arms fire into the suspected VC location, then relocated in the same general area and remained until first light. No evidence of the VC was found.
+                    </li>
+                    <li>
+                      Company B: The company departed base camp at 0630 hours under OPCON of the 4/23rd Inf to conduct S&D operations vic XT 635195 and returned to base camp at 2000 hours.
+                    </li>
+                    <li>
+                      Company C: The company (-) remained in base camp under OPCON of the 2nd Bde effective 0730 hours. The company had one platoon attached to the 1.27th Inf.
+                    </li>
+                    <li>
+                      Scout Platoon: The platoon departed base camp at 0715 hours as the lead element of the battalion (-) to vic XT 679211. The platoon made a sweep of the surrounding area and found a downed aircraft (Sky Raider) vic XT 685206. The plane was stripped and appeared to have been there a considerable time. The number on the tail section was 134519. The platoon closed into base camp at 2050 hours.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  4 September 1966: At 0730 hours Co B, the Battalion Command Group and the Scout Platoon departed base camp to conduct S&D operations in the Filhol Plantation (Incl 2, Overlay). The battalion (-) linked up with Co A vic XT 695211 and moved to the battalion base vic XT 709203. During darkness two ambushes and three OP/LP's were established. No contact was made and all returned at first light. Co C remained under OPCON of the 2d Bde.
+                  <ul>
+                    <li>
+                      Company A: At 0800 hours the company received approximately five rounds of small arms fire and an element was dispatched but no contact was made. At 0910 hours the company effected link-up with Co B and conducted an S&D operation sweeping to the southeast to vic XT 709203. The company apprehended two VC suspects at 1459 hours vic XT 709204.
+                    </li>
+                    <li>
+                      Company B: The company departed base camp at 0730 hours to link up with Co A,  then to make a coordinated S&D operation. At 1019 hours one APC overturned down an embankment vic XT 699208 injuring five EM who were later evacuated. The vehicle was righted and towed to battalion base.  Two antitank mines were found and destroyed at 1122 hours vic XT 698205. The company closed the battalion base at 1430 hours. Elements were dispatched to make a sweep of the surrounding area and apprehended three VC suspects vic XT 705202 at 1452 hours. The suspects were taken to the battalion CP where one was questioned and released. The two remaining suspects were evacuated to the 1st Bde. At 2235 hours three rifle grenades were received in the company's perimeter but no casualties were sustained.
+                    </li>
+                    <li>
+                      Scout Platoon: The platoon departed base camp at 0730 hours as a rear guard following the elements to the link-up points and from there to the battalion base. The platoon made a sweep of the area surrounding the CP and found several miscellaneous documents and three Chicom grenades which were destroyed vic XT 711203.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  5 September 1966: Throughout the day elements conducted local S&D operations in sector. Co C (-) remained under OPCON of the 2d Bde and had one platoon that remained attached to the 1/27th Inf. Two ambushes and three OP/LP's were established during darkness. None made contact and all returned at first light.
+                  <ul>
+                    <li>
+                      Company A: The company departed the battalion base at 0711 hours to conduct local S&D operations in sector. At 0745 hours the company destroyed two small tunnel systems vic XT 707204. At 1010 hours the company found and destroyed a hastily constructed hut, one booby trapped Chicom grenade outside the hut and one Chicom grenade inside the hut. At 1050 hours an element vic XT 707203 found a tunnel complex which had several tunnels leading in various directions. After all the tunnels were checked, they were destroyed. One VC suspect was apprehended at 1108 hours vic XT 709201. Elements were dispatched to vic XT 709205 to search for snipers who fired on the resupply helicopter. One element apprehended one VC suspect vic XT 705205 at 1725 hours. All elements closed into the battalion base at 1935 hours.
+                    </li>
+                    <li>
+                      Company B: The company departed the battalion base at 0705 hours to conduct local S&D operations in sector. At 0730 hours two VC suspects were detained vic XT 712203. A further search of the area uncovered several miscellaneous documents and two trenches running southeast and southwest which were destroyed. At 0902 hours two VC suspects were apprehended vic XT 706203 and a small cache containing miscellaneous items was also found. At 0959 hours six tubes of penicillin and six tubes of glucose were found vic XT 712200. One VC suspect was apprehended at 1100 hours vic XT 706202.
+                    </li>
+                    <li>
+                      Scout Platoon: Throughout the early morning hours the platoon made a local search in zone, finding approximately one pound of medical supplies vic XT 708204 at 1000 hours. The platoon completed its search and returned to the battalion base.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  6 September 1966: During the day local S&D operations were conducted in sector. Co C (-) remained under OPCON of the 2d Bde and had one platoon attached to the 1/27th Inf.
+                  <ul>
+                    <li>
+                      Company A: At 0700 hours the company (-) departed the area to conduct local S&D operations in its assigned sector. At 0717 hours the ambush located vic XT 702203 checked the immediate area and discovered one 105mm round rigged for command detonation. The round was destroyed and the ambush relocated its position. One VC suspect was apprehended at 0744 hours vic XT 707194. At 0746 hours three more VC suspects were apprehended vic XT 707194. At 0750 hours the ambush received two rifle grenades and approximately 14 rounds of small arms fire into its position, but the source could not be located. At 0845 hours one APC was extensively damaged by a command detonated mine vic XT 704205. No casualties were sustained. Two VC suspects were apprehended at 0847 hours vic XT 708194. Elements searching vic XT 706194 at 1021 hours apprehended one VC suspect. Two 250 pound bombs, rigged for command detonation, were found and destroyed at 1045 hours vic XT 704205. Also destroyed in the area was one bunker tunnel complex and a trench with recently fired .30 cal shell casings. At 1147 hours vic XT 706196 one VC suspect was apprehended. At 1302 hours a four level tunnel was found and destroyed vic XT 704206. In the same area one VC suspect was apprehended at 1615 hours. One element at XT 705198 found and destroyed three huts and ten fighting bunkers at 1416 hours. The same element found a bag hanging in a tree vic XT 703198 at 1450 hours. The bag contained miscellaneous documents, pictures, a wallet and an ID card. Two magazines for a Thompson submachine gun were found at 1535 hours. The company employed two ambushes and two OP/LP's during darkness, all of which returned at first light.
+                    </li>
+                    <li>
+                      Company B: The company departed on local S&D operations in sector at 0700 hours. One VC suspect was apprehended at 0731 hours vic XT 708194. At 0815 hours two more VC suspects were apprehended vic XT 710199. The company destroyed one hut with one 105mm dud, one 81mm dud and miscellaneous artillery type warheads vic XT 709197 at 0846 hours. Five VC suspects were apprehended vic XT 718199 at 1252 hours. The company closed into the battalion base at 1317 hours. Two OP's were established during darkness. No contact was made and both returned at first light.
+                    </li>
+                    <li>
+                      Scout Platoon: The platoon remained in the vicinity of the battalion base to provide security for the resupply helipad and made local sweeps near the battalion perimeter.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  7 September 1966: The battalion (-) continued to conduct S&D operations in the AO. Co B and one platoon of Co A conducted operations in conjunction with the 4/9th Inf (Incl 3, Overlay).  Three ambushes were established during darkness. None made contact and all returned at first light.
+                  <ul>
+                    <li>
+                      Company A: At 0700 hours the company departed the battalion perimeter enroute to establish a platoon size blocking position (BOB) (Incl 3) vic XT 698190 and to conduct local S&D operations in the immediate area. While enroute to the blocking position one antitank mine was found and destroyed vic XT 713201 at 0755 hours. The blocking position was established at 0715 hours. At 0905 hours the platoon on the blocking position apprehended one VC suspect who stated he knew where a VC headquarters and tunnel was located. He also stated that there were 20 to 30 VC in the tunnel. At 1115 hours the company (-) destroyed one bunker at XT 706205. At 1230 hours one VC was wounded and captured vic XT 709208. His weapon, an M1 rifle, and 140 rounds cal .30 ammunition were also captured. At 1316 hours one male and two female VC suspects were apprehended vic XT 709208. Two 105mm duds rigged for command detonation were destroyed vic XT 703205 at 1450 hours. In the same area two 155mm duds were also found and destroyed. One of the female VC suspects escaped into a tunnel vic XT 702203 at 1745 hours. At 1755 hours one WIA was sustained from shrapnel from an incoming rifle grenade. The wound was minor and the casualty was later evacuated on the resupply helicopter. The company had one platoon that returned to base camp to attend the ambush academy. One platoon remained in the vicinity of the tunnel complex during darkness.
+                    </li>
+                    <li>
+                      Company B: At 0630 hours the company departed the battalion base to sweep the eastern edge of the AO and to link up with the 4/9th Inf. The platoon dispatched to link up with the 4/9th Inf was in position at 0725 hours. The company (-) made a sweep along the eastern edge of the AO (Incl 3). At 1101 hours the company apprehended three VC suspects vic XT 720190. At 1215 hours twelve 100 pound bags of rice were captured vic XT 719195. The company (-) closed into the battalion base at 1315 hours.
+                    </li>
+                    <li>
+                      Company C (-): At 1215 hours the company (-) was released from OPCON of the 2d Bde and moved to the battalion base. The company (-) closed at 1455 hours without incident.
+                    </li>
+                    <li>
+                      Scout Platoon: The platoon remained vicinity the battalion base and made local sweeps around the battalion base. At 1813 hours one WIA was sustained by small arms fire vic XT 704205. A search of the area was made with negative results. In the same general area one bunker and one tunnel were destroyed.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  8 September 1966: Throughout the day the battalion (-) conducted S&D operations in the AO in conjunction with the 1/7th ARVN (Incl 4, Overlay).
+                  <ul>
+                    <li>
+                      Company A (-): At 0700 hours the company (-) departed the battalion base enroute to exploit the tunnel at XT 702203. The elements arrived in the area at 0727 hours and joined the platoon that had remained overnight. Throughout the day the elements explored the tunnel and surrounding area. Found inside the tunnel were one command detonated mine with wires attached, one U.S. BAR, SN 874565, 17 Chicom grenades, five VC grenades, and 280 rounds cal .30 ammunition. The element outside the tunnel received two incoming rifle grenades at 1135 hours but no casualties were sustained and fire was placed into suspected VC locations. The element searching the surrounding area captured 4,500 pounds of loose rice in a vacant house. The rice was bagged and extracted. The tunnel was destroyed and the company returned to the battalion base.
+                    </li>
+                    <li>
+                      Company B: The company conducted S&D operations with an ARVN company under its operational control in Obj 1 (XT 715203) and Obj (XT 705196) (Incl 4). At 1030 hours the elements completed operations in Obj 1 and reported the destruction of ten spider holes. At 1505 hours an ordnance cache was found at XT 705196 which contained three 105mm duds, one claymore and three 155mm duds. At 1536 hours the elements completed the operation and Co B returned to the battalion base.
+                    </li>
+                    <li>
+                      Company C (-): One platoon remained attached to the 1/27th Inf. At 0620 hours the company (-) departed the battalion base to conduct  a joint S&D operation with ARVN forces at Obj 2 (XT 712196) and Obj 4 (XT 709190) (Incl 4). One small tunnel was destroyed vic XT 714206. At the same time 3,640 pounds of rice was captured at XT 712195. At 1035 hours the same element captured 1320 pounds of rice in the same area. At this time the total rice captured was turned over to the province chief. The elements then searched Obj 4 and, finding nothing, the company returned with the ARVN forces to their compound and then returned to base camp under OPCON of the 2d Bde. The Heavy Mortar Platoon returned to base camp and was attached to Co C effective 1900 hours.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  9 September 1966: The battalion (-) displaced to a new battalion base at XT 680211 and conducted local sweeps in the sector.
+                  <ul>
+                    <li>
+                      Company A: The company dispatched one platoon to make a sweep of the area vic XT 702203. Upon completion of the sweep the platoon returned to the battalion base and joined the company to move to the new battalion base. While enroute, the company found and destroyed one 81mm dud at 0955 hours vic XT 701202. By 1200 hours the company had closed into the battalion base. During the afternoon hours the company prepared its defensive positions.
+                    </li>
+                    <li>
+                      Company B: At 0830 hours the company departed the battalion base to make a sweep in the southern edge of the AO vic XT 708186. Two VC suspects were apprehended vic XT 705185 at 0912 hours. At 0920 hours three more VC suspects were apprehended in the same area. At this time all suspects were evacuated to the ARVN compound in the area. The company then returned to vic XT 709186 and apprehended five more VC suspects and at 1015 hours still another suspect was extracted from a tunnel in the area. The six VC suspects were also evacuated to the ARVN compound. While enroute to the new battalion base one APC hit an antitank mine vic XT 692203 at 1315. Minor damage was done to the vehicle but no casualties were sustained. In a search of the surrounding area three antitank mines were found and destroyed. At 1455 hours another APC hit an antitank mine in the same area. Again,  minor damage was done to the APC and no casualties were sustained.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  10 September 1966: Throughout the day the battalion (-) conducted S&D operations in the AO (Incl 5, Overlay). Co C (+) remained under OPCON of the 2d Bde.
+                  <ul>
+                    <li>
+                      Company A: The company conducted S&D operations in Obj 2 (XT 664240) and Obj 3 (XT 652230) (Incl 5). At 1033 hours one 105mm dud was destroyed vic XT 665238. At 1115 hours one element completed the destruction of a partially caved-in bunker at XT 664241. By 1310 hours the search of Obj 2 was completed and the company moved to Obj 3. At 1515 hours four VC were engaged vic XT 653228. Two VC were killed (body count) and one VC was captured along with his weapon, an M1 rifle, SN 567268. Also captured were one set of web gear, a bayonet, three hand grenades, 11 M1 clips, 86 rounds of M1 ammunition and miscellaneous documents. while in the area the company destroyed one bunker with sleeping quarters for two. At 1805 hours the company returned to the battalion base (XT 637211).
+                    </li>
+                    <li>
+                      Company B: The company conducted S&D operations in Obj 1 (XT 674230) (Incl 5). At 0830 hours one command detonated mine was destroyed at XT 681224. At 0920 hours one antitank mine was destroyed in the same area. In a further search of the area two tunnels, five bunkers and one antitank mine were destroyed. At 1312 hours one homemade hand grenade was destroyed vic XT 675226. At 1326 hours one boobytrapped hand grenade was destroyed in the same area. An element destroyed an underground shelter vic XT 675229 at 1425 hours. The shelter was five feet deep, twenty-seven feet long and eight feet wide. The company then returned to the battalion base.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  11 September 1966: Throughout the day Co's A and B conducted S&D operations in Obj J (XT 645226) and Obj R (XT 639225), respectively (Incl 6, Overlay). Co C remained under OPCON of the 2d Bde. The Scout Platoon, Security Platoon and the Battalion Command Group displaced to vic XT 637211.
+                  <ul>
+                    <li>
+                      Company A: At 0816 hours the company departed the battalion base enroute to conduct S&D operations in Obj J (Incl 6). By 1000 hours the company had arrived in its AO. At 1056 hours the company destroyed two houses with booby trapped entrances, seven bunkers with sleeping quarters and one command detonated mine. One bunker-tunnel complex vic XT 648229 was destroyed and miscellaneous documents were captured. Signs of recent use were found in the area. Small arms fire was received from XT 646229 at 1136 hours and elements were maneuvered to close with the VC. At 1205 hours two WIA's were sustained, one from small arms fire and the other from shrapnel when an armor piercing round penetrated an APC's cupola vic XT 654230. At 1211 hours one APC hit an antitank mine vic XT 646229. Minor damage was done to the vehicle but no casualties were sustained. In the same area at 1220 hours a 105mm dud rigged for command detonation was set off against an APC. Three casualties were sustained and minor damage was done to the vehicle. Two OP/LP's were established during darkness. No contact was made and all returned at first light.
+                    </li>
+                    <li>
+                      Company B: At 0800 hours the company departed the battalion base enroute to conduct S&D operations in Obj R (XT 639225) (Incl 6). One 105mm dud was destroyed at 1007 hours vic XT 640221. At 1009 hours one APC hit an antitank mine vic XT 640222. Minor damage was done to the vehicle and no casualties were sustained. The element at XT 640221 made a thorough search of the area and at 1200 hours reported the destruction of three antitank mines, one CBU bomb, one booby trap and one tunnel complex. At 1320 hours two APC's hit antitank mines vic XT 643288. No casualties were sustained, but minor damage was done to both vehicles. Found and destroyed at 1435 hours vic XT 644227 in VC sleeping quarters that were six feet deep and nine feet square were three claymores, four CBU's, two 60mm rounds, four antipersonnel mines, four stick type grenades and five blocks of TNT. Numerous documents were captured which contained name, rank and pictures of VC in the Cu Chi area. In a further search of the area the following were found and destroyed: 21 antitank mines, two 60mm mortar rounds and a small tunnel which contained scrap metal for the production of claymores. At 1550 hours elements at XT 645228 destroyed five buildings, one 55 gallon drum of rice and two 100 lb bags of rice and captured several miscellaneous documents. The platoon that was located at XT 641228 received five incoming rifle grenades at 1640 hours. No casualties were sustained and artillery fire was adjusted throughout suspected VC locations. While enroute to the battalion base at 1715 hours, the company destroyed one Chicom claymore, two booby traps and two bunkers at XT 640220. At 1900 hours the company sustained one KIA and three WIA from friendly artillery fire at XT 637211. One claymore team was employed during the hours of darkness. No contact was made and the team returned at first light.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  12 September 1966: The battalion (-) displaced at 0900 hours and returned to base camp closing at 1215 hours ending Operation KIPAPA and the battalion's attachment to the 1st Bde.  Throughout the remainder of the day the battalion (-) performed maintenance of weapons, vehicles and equipment. Co C (+) remained under OPCON of the 2d Bde.
+                </li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              12. <span class="topicTitle">RESULTS</span>:
+              <ol type="a">
+                <li>
+                  Friendly
+                  <ol>
+                    <li>
+                      560 personnel started the operation and 534 completed. The latter figure includes 11 WIA who remained with their units. Included in the 26 personnel who did not return to their units during the operation are one KIA and one DOW (Incl 7, Casualty List).
+                    </li>
+                    <li>
+                      Ten APC's,  M113, were damaged by mines. Two were repaired in the field and continued the operation.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Enemy
+                  <ol>
+                    <li>
+                      3 VC killed (BC), 1 VCC and 43 VCS.
+                    </li>
+                    <li>
+                      Material, equipment and facilities.
+                      <ol type="a">
+                        <li>
+                          Captured: 2 M1 rifles; 1 U.S. BAR; 1 U.S. bayonet; 6 tons of rice; Miscellaneous medical supplies; miscellaneous documents; Other Miscellaneous items.
+                        </li>
+                        <li>
+                          Destroyed: 5 claymores; 5 booby trapped grenades; 32 antitank mines; 24 Chicom grenades; 5 VC grenades; 3 command detonated mines;  2 250 lb bombs (rigged for command detonation); 4 105mm duds (rigged for command detonation); 10 105mm duds; 2 155mm duds (rigged for command detonation); 2 81mm duds; 4 antipersonnel mines; 1 homemade hand grenade; 5 blocks of demolition; 2 magazines; 9 small tunnels; 4 large tunnel complexes; 1 VC sleeping quarters; 1 underground shelter; 9 huts
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <i>
+                PAGES 12, 13, 14, AND 15 MISSING FROM THE CAAR.  PAGE 16 AS FOLLOWS:
+              </i>
+            </div>
+            <div class="aarTopic">
+              14. <span class="topicTitle">SPECIAL EQUIPMENT AND TECHNIQUES</span>: None.
+            </div>
+            <div class="aarTopic">
+              15. <span class="topicTitle">COMMANDER'S ANALYSIS</span>:
+              <ol type="a">
+                <li>
+                  a. The mere presence of a mechanized U.S. infantry unit in an area will significantly disrupt VC planned operations. In this respect, Operation KIPAPA achieved its purpose of preventing the VC from mounting operations against the polling places.
+                </li>
+                <li>
+                  b. On the other hand, the VC very rapidly re-establish control over an area after the U.S. unit leaves.
+                </li>
+                <li>
+                  c. Unless a relatively large number of troops is used simultaneously to occupy and search an area, the VC will merely move and keep out of the way of the searching unit.
+                </li>
+                <li>
+                  d. Detailed searches of densely populated areas by U.S. units are only marginally profitable. Even with one interpreter and two Vietnamese National Policemen attached to each company,  many valuable indications of VC presence are usually overlooked by the troops because of the language barrier and lack of familiarity with local customs.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              16. <span class="topicTitle">RECOMMENDATIONS</span>:
+              <ol type="a">
+                <li>
+                  a. That, whenever possible, Vietnamese pacification forces remain in a formerly VC controlled area after U.S. troops are withdrawn.
+                </li>
+                <li>
+                  b. That elements of a U.S. unit leaving an area remain behind covertly for the purpose of ambushing VC suspects returning to or investigating the abandoned area.
+                </li>
+                <li>
+                  c. That U.S. forces be employed in sufficient numbers to saturate an area, thus preventing the VC suspects from merely moving away from the searching units.
+                </li>
+                <li>
+                  d. That Vietnamese elements be used to perform the actual searching of houses and screening of civilians, with the U.S. unit providing
+                </li>
+              </ol>
               <div>
-
+                <i>
+                  Page 17 is missing from the CAAR.
+                </i>
               </div>
             </div>
-            <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
-            </div>
-            <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
-              <ol type="a">
-                <li>
-
-                </li>
-              </ol>
-            </div>
-            <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
-            </div>
-            <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
-              <ol type="a">
-                <li>
-
-                </li>
-              </ol>
-            </div>
-            <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
-              <ol type="a">
-                <li>
-
-                </li>
-              </ol>
+            <div>
               <div>
                 <!-- FOR THE COMMANDER:</br> -->
               </div>
@@ -4882,8 +5144,166 @@
               <div class="casUnitList columnNames">
                 <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
               </div>
-              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitName">HHC</div>
               <div class="casUnitList">
+                <div>VARTENUK, George</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>HENDRICKSON, Dennis</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>FRANKLIN, Joseph</div>
+                <div>SP5 E-5</div>
+                <div>WIA</div>
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+              <div class="casUnitName">A Co.</div>
+              <div class="casUnitList">
+                <div>GARCES-MORALES, Rafael</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>LANIER, Warren</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <div>FERRARI, James</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <div>DICKIE, James</div>
+                <div>SGT E-6</div>
+                <div>WIA</div>
+                <div>BARUZZI, Marco</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>HONSINGER, Timothy</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>DEVLIN, Frank</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>BARTLETT, Dennis</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <div>BECERRA, David</div>
+                <div>2LT</div>
+                <div>WIA</div>
+                <div>McELROY, James</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+              <div class="casUnitName">B Co.</div>
+              <div class="casUnitList">
+                <div>CARUSO, Arthur</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>DAILEY, Billy</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>BENAVENTE, Vincente</div>
+                <div>SSG E-6</div>
+                <div>WIA</div>
+                <div>HOWARD, David</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>McCLURE, John</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>HAMILTON, Frederick</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>KARI, Robert</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>TREMBLY, Ralph</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>RIVERA-SIERRA, Edwin</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>CLEMONS, Lewis</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>VALEO, Richard</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>BENNET, Robert</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <div>LEWIS, Christopher</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <!-- <div>IRVING, Earl E. Jr</div> -->
+                <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Earl" && $one_casualty->last_name == "Irving Jr")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div>
+                <div>SP4 E-4</div>
+                <div>KIA</div>
+                <div>THOMPSON, Daniel</div>
+                <div>SFC E-7</div>
+                <div>WIA</div>
+                <div>JARRELL, Earnest L.</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>WILLIAMS, Joe L</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <!-- <div>DAY, Billy B.</div> -->
+                <!-- <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div> -->
+                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+              </div>
+              <div class="casUnitName">C Co.</div>
+              <div class="casUnitList">
+                <div>LEVERLAND, Michael</div>
+                <div>SP4 E-4</div>
+                <div>WIA</div>
+                <div>PRITCHARD, Larry</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <!-- <div>SOLIZ, Rolando</div> -->
+                <div>
+                  @foreach ($all_casualties as $one_casualty)
+                    @if ($one_casualty->first_name == "Rolando" && $one_casualty->last_name == "Soliz")
+                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
+                    @endif
+                  @endforeach
+                </div>
+                <div>PFC E3</div>
+                <div>DOW</div>
+                <div>STERLING, Edward</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
+                <div>VICYCH, John</div>
+                <div>SGT E-5</div>
+                <div>WIA</div>
+                <div>BETRAMI, Edward</div>
+                <div>PFC E-3</div>
+                <div>WIA</div>
                 <!-- <div>DAY, Billy B.</div> -->
                 <!-- <div>
                   @foreach ($all_casualties as $one_casualty)

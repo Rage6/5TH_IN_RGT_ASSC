@@ -26,7 +26,7 @@
 }
 
 .timelineBar_19 {
-  grid-template-rows: repeat(18,calc(67vh/12));
+  grid-template-rows: repeat(16,calc(67vh/12));
 }
 
 .timelineBar a {

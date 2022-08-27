@@ -475,6 +475,9 @@
               <a href="https://www.scribd.com/document/422800015/ben-cui-1?secret_password=vY8QsdJxa70BgjM0yA3i#from_embed" target="_blank">
                 <li>"Bobcats in the Ben Cui" by MAJ-R Bob Wright</li>
               </a>
+              <a href="https://history.army.mil/html/books/090/90-7/index.html" target="_blank">
+                <li>"Cedar Falls-Junction City: A Turning Point" by MG Bernard W. Rogers</li>
+              </a>
             </ul>
           </div>
         </div>

@@ -213,12 +213,14 @@
         <div data-opbutton="attleboro">
           <div data-opbutton="attleboro">"ATTLEBORO"</div>
         </div>
-        <div data-opbutton="cedar_falls">
+        <!-- <div data-opbutton="cedar_falls">
           <div data-opbutton="cedar_falls">"CEDAR FALLS"</div>
         </div>
-        <div data-opbutton="ben_cui">
-          <div data-opbutton="ben_cui">"BEN CUI"</div>
-        </div>
+        <div>
+          <div>
+            "BEN CUI"
+          </div>
+        </div> -->
       </div>
     </div>
     <div class="allSegments">
@@ -5887,89 +5889,147 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              1ST BATTALION (MECH) 5TH INFANTRY</br>
+              APO San Francisco 96225
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVDCSB-C 1 December 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT:  Combat Operations After-Action Report (RCS: MACV  J3-32)
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO: Commanding Officer</br>
+              2d Brigade, 25th Infantry Division</br>
+              ATTN: AVDCSB-T</br>
+              APO U.S. Forces 96225
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. <span class="topicTitle">NAME OF OPERATION</span>:  Operation KAILUA
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. <span class="topicTitle">DATE OF OPERATION</span>: 12OCT66 - 05NOV66
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
-            </div>
-            <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
-            </div>
-            <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
+              3. <span class="topicTitle">GENERAL</span>: The operation was conducted in the Hau Nghia Province, South Viet Nam. Throughout the operation no contact was made with a VC force larger than squad size. The following are results of the operation:
+              <ol type="a">
+                <li>
+                  Friendly.
+                  <ul>
+                    <li>
+                      531 personnel participated in the operation.
+                    </li>
+                    <li>
+                      48 WIA (31 of which were treated and returned to duty), 5 KIA and 1 DOW were sustained during this operation.
+                    </li>
+                    <li>
+                      Nine (9) M113 APC's hit anti tank mines, five (5) were repaired in the field and continued the operation, two (2) were evacuated to base camp for repairs and two (2) were combat losses. Three (3) APC's were damaged by anti tank weapons.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Enemy: Killed  12 VC (BC) 32 (est)
+                  <ol>
+                    <li>
+                      Captured:
+                      <ul>
+                        <li>
+                          6 VCC
+                        </li>
+                        <li>
+                          8 VCS
+                        </li>
+                        <li>
+                          1 U.S. M3 .45 cal SMG
+                        </li>
+                        <li>
+                          2 U.S. M1 rifles
+                        </li>
+                        <li>
+                          1 U.S. BAR
+                        </li>
+                        <li>
+                          4 Chicom assault rifles
+                        </li>
+                        <li>
+                          1 Russian rifle (model unknown)
+                        </li>
+                        <li>
+                          1 cal .30 MG
+                        </li>
+                        <li>
+                          1 U.S. carbine
+                        </li>
+                        <li>
+                          2 VC notebooks
+                        </li>
+                        <li>
+                          2 VC payment books
+                        </li>
+                        <li>
+                          1 VC flag
+                        </li>
+                        <li>
+                          25,000 piasters
+                        </li>
+                        <li>
+                          1000 pounds of rice
+                        </li>
+                        <li>
+                          Assorted documents
+                        </li>
+                        <li>
+                          Assorted VC ID cards
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      Destroyed:
+                      <ul>
+                        <li>8 tunnel complexes</li>
+                        <li>154 bunkers (5 which were boobytrapped)</li>
+                        <li>42 huts</li>
+                        <li>4 sampans</li>
+                        <li>5 pounds of sugar</li>
+                        <li>3 pounds of tea</li>
+                        <li>5 pounds of coffee</li>
+                        <li>10 bicycles</li>
+                        <li>4 carbine rounds</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
               <div>
-
+                <i>PAGE TWO OF THE CAAR IS MISSING</i>
               </div>
             </div>
             <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
-            </div>
-            <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              4. <span class="topicTitle">LESSONS LEARNED</span>:
               <ol type="a">
                 <li>
-
+                  Discussion: Extensive Civil Affairs pacification operations were conducted over an extended period of time in the Tan Phu Trung area (Incl 1), with excellent results. During the daylight hours S&D operations were conducted with assistance from several Chieu Hoi's in the area. The Bn C/A team also conducted daily MEDCAP activities, taught English classes and rendered assistance in construction projects in the village area (i.e.) dispensary, school house and tactical defensive structures. During darkness saturation ambushes were employed. These operations were highly successful and resulted in 5 VC killed (BC) and 9 (est). Captured during this period were 6 VCC, 2 Chicom assault rifles, documents and 1 VCS detained. Also during this period 2 VC voluntarily turned themselves in to U.S. forces. One was a propaganda and intelligence officer from the NVN army who turned in a pistol. Valuable information was also obtained from the Chieu Hoi's which directly resulted in the capture of 2 Chicom assault rifles and numerous documents.
                 </li>
-              </ol>
-            </div>
-            <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
-            </div>
-            <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
-              <ol type="a">
                 <li>
-
+                  Recommendation: Rather than daily visits and MEDCAP activities, U.S. forces should conduct Civil Affairs and rural pacification type operations over extended periods of time. Units involved with these operations should remain in the area continuously for two months or more.
                 </li>
-              </ol>
-            </div>
-            <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
-              <ol type="a">
                 <li>
-
+                  Discussion: On one occasion a U.S. mechanized company was engaged by a heavy volume of RR fire from well concealed positions over a ten (10) minute period of time. U.S. forces were unable to locate the enemy positions hence fire was returned on suspected locations and maneuver was greatly restricted. During the fire fight the Bn Cmdr's C&C helicopter was down for refueling and there were no gunships on station. Hence the VC were able to break contact and escape.
+                </li>
+                <li>
+                  Recommendations: That commanders be furnished alternate C&C helicopters to ensure continuity in controlling and influencing the tactical situation. That whenever an alternative C&C helicopter is not available, gunships or other aerial observer be on station and available to the ground company commander in contact.
+                </li>
+                <li>
+                  Discussion: On three different occasions U.S. forces located a boobytrap factory and two large arms caches, with the aid of Chieu Hoi's.
+                </li>
+                <li>
+                  Recommendations: U.S. forces should use every opportunity to utilize Chieu Hoi's while on S&D operations and exploit their knowledge of VC locations and arms caches.
                 </li>
               </ol>
               <div>
-                <!-- FOR THE COMMANDER:</br> -->
-              </div>
-            </div>
-            <div class="casSegment">
-              <div class="casListTitle">
-                CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
-              </div>
-              <div class="casUnitList columnNames">
-                <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
-              </div>
-              <div class="casUnitName"><!-- Unit name --></div>
-              <div class="casUnitList">
-                <!-- <div>DAY, Billy B.</div> -->
-                <!-- <div>
-                  @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
-                      <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
-                    @endif
-                  @endforeach
-                </div> -->
-                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+                FOR THE COMMANDER:</br>
+                JAMES G. ANDRESS</br>
+                CPT, INF Adjutant
               </div>
             </div>
           </div>
@@ -5985,71 +6045,358 @@
         <div class="segmentContent">
           <div class="segmentWords aarWords">
             <div class="aarHqAddress aarTopic">
-              <!-- Headquarters -->
+              HEADQUARTERS</br>
+              1ST BATTALION (MECH) 5TH INFANTRY</br>
+              APO San Francisco 96225
             </div>
             <div class="aarTopic">
-              <!-- TLMAA-C February 1966 -->
+              AVDCSBA-C 10 December 1966
             </div>
             <div class="aarTopic">
-              <!-- SUBJECT: After Action Report – Operation Clean Sweep -->
+              SUBJECT: Combat Operations After-Action Report (RCS:  MACV J3-32)
             </div>
             <div class="aarTopic">
-              <!-- To, with address -->
+              TO: Commanding Officer</br>
+              2d Brigade, 25th Infantry Division</br>
+              ATTN: AVDCSB-T</br>
+              APO U.S. Forces 96225</br>
             </div>
             <div class="aarTopic">
-              1. <span class="topicTitle">Reference</span>:
+              1. <span class="topicTitle">NAME OF OPERATION</span>: Operation ATTLEBORO
             </div>
             <div class="aarTopic">
-              2. <span class="topicTitle">Date</span>:
+              2. <span class="topicTitle">DATE OF OPERATION</span>:  062140NOV66-252400NOV66
             </div>
             <div class="aarTopic">
-              3. <span class="topicTitle">Place</span>:
+              3. <span class="topicTitle">LOCATION</span>: Tay Ninh Province, South Viet Nam
             </div>
             <div class="aarTopic">
-              4. <span class="topicTitle">Mission</span>:
+              4. <span class="topicTitle">COMMAND HEADQUARTERS</span>: 1st Battalion (Mechanized), 5th Infantry
             </div>
             <div class="aarTopic">
-              5. <span class="topicTitle">General Summary of Operation</span>:
+              5. <span class="topicTitle">REPORTING OFFICER</span>: LTC Victor F. Diaz
+            </div>
+            <div class="aarTopic">
+              6. <span class="topicTitle">TASK ORGANIZATION</span>:
+              <ul>
+                <li>1st Bn (Mech) 5th Inf, LTC Victor F. Diaz, Commanding.</li>
+                <li>Scout Plat, 1LT  R. A. Szarek</li>
+                <li>Hvy Mort Plat, 1LT L. H. Wickman</li>
+                <li>1 Plat, Co B, 65th Engr Bn</li>
+                <li>Company A, 1LT J. E. McQuinn, Commanding</li>
+                <li>Company B, CPT R. G. Vanneman, Commanding</li>
+                <li>Company C, CPT W. A. Blair, Commanding</li>
+              </ul>
+            </div>
+            <div class="aarTopic">
+              7. <span class="topicTitle">SUPPORTING FORCES</span>:
+              <ol type="a">
+                <li>a. 6th Bn, 8th Arty</li>
+                <li>b. 2d Bn, 33rd Arty</li>
+                <li>c. Btry C, 2d Bn, 13th Arty</li>
+                <li>d. Btry B, 3rd Bn, 13th Arty</li>
+                <li>e. 1st Bn, 8th Arty</li>
+                <li>f. Avn Sec, 2d Bde, 25th Inf Div</li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              8. <span class="topicTitle">INTELLIGENCE</span>:
+              <ol type="a">
+                <li>
+                  Intelligence Prior to the Operation: The VC 9th Div continued to avoid contact with U.S. Forces operating in Tay Ninh and Binh Dong Provinces. 2d Brigade elements had encountered very light contact since their commitment on 10 November 1966. The 101st NVN Regt was believed to be withdrawing NE toward Phuoc Long Province. Although the main force regiments of the 9th Div received a severe setback during their engagement with U.S. Forces they still retained the capability of attacking at a time and place of their choosing. Brigade units were also expected to make contact with the three battalions of the 70th Regt, which has the mission of security of COSVN in War Zone "C".
+                </li>
+                <li>
+                  Enemy Situation During the Operation:  Only sporadic contact was made during the entire operation. Significant contact was made near the Cambodian border with elements of the 70th Regiment. Captured documents indicated that a radio station had been operating in the area. The battalion encountered isolated incidents of small arms fire and AT mining. The mines were emplanted on existing roads and in areas that afforded the easiest access for tracked vehicles. Numerous base camps and cache sites were located just south of the Cambodian border; however, there was a lack of complex fortifications, trenches, or tunnels.
+                </li>
+                <li>
+                  Terrain and Weather: Thunder storms were often encountered in the afternoon and evenings. Ground fog on several occasions delayed aircraft in the morning hours.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              9. <span class="topicTitle">MISSION</span>: 1Bn (Mech) 5th Inf moves by road, 071000NOV66, to vic Soui Da (XT 3458) for attachment to the 3rd Bde, 1st Inf Div and provides security for the 3rd bde Hq, forward supply base, and two fire support bases. On 100600NOV66 the battalion, detached from the 1st Div, conducts a reconnaissance in force and search and destroy operations in War Zone "C", attached to 2d Bde, 25th Inf Div.
+            </div>
+            <div class="aarTopic">
+              10. <span class="topicTitle">CONCEPT OF OPERATION</span>: The operation consisted of two major phases.
+              <ol type="a">
+                <li>
+                  Phase I - The battalion organized two fixed bases and established perimeter defenses to secure the facilities consisting of  four artillery batteries, 3rd Bde Hq forward supply airhead, a Special Forces compound and a Popular Forces compound. Patrols were dispatched throughout the AO to prevent VC infiltration and buildup.
+                </li>
+                <li>
+                  Phase II -  The battalion conducted reconnaissance in force in an attempt to locate VC forces, bases and cache sites. Successive fire support bases were secured and established to facilitate continuous and mutually supporting artillery fires through the axes of advance. Search and destroy operations were conducted in all areas of probable VC activity.
+                </li>
+              </ol>
+            </div>
+            <div class="aarTopic">
+              11. <span class="topicTitle">EXECUTION</span>:
+              <ul>
+                <li>
+                  6 November 1966: The battalion departed Go Dau Ha (XT 3825) at 1005 hours for Soui Da (XT 3458), and was attached to the 3rd Bde, 1st Inf Div upon entering the area of operation. The battalion (-) established a base vic XT 340583 and provided a perimeter defense for the 3rd Bde Hq, forward supply airhead, two artillery batteries, a Special Forces compound and a Popular Forces compound. Company A was dispatched to vic XT 394622 to reinforce an infantry battalion which was securing a fire support base consisting of two artillery batteries.
+                </li>
+                <li>
+                  7 November 1966: The battalion (-) continued to secure the base vic XT 340583 and reinforce Co A with the scout platoon to assume responsibility for the fire support base vic XT 394622 due to deployment of the Inf Bn. Patrols were dispatched throughout the AO but no contact was made. Trp B (-), 1/4 Cav and 1st Engr Bn (-), 1st Div Engr was placed under OPCON 1st Bn (Mech) 5th Inf for perimeter defense.
+                </li>
+                <li>
+                  8 November 1966: Company B was dispatched to fire support base vic XT 394622 to relieve the Scout Platoon and the Bn(-) remained at the base vic XT 340583. Extensive patrolling was conducted throughout the AO but with no significant results. Another fire support base, consisting of one artillery battery, was established vic XT 305535 and the 4th Bn, 31st Inf was placed under OPCON 1st Bn (Mech) 5th Inf to secure the base. The 4/31st Inf was reinforced by a scout section, 1/5th Mech to secure the base. Night ambushes made no contact and returned at first light.
+                </li>
+                <li>
+                  9 November 1966: Throughout the day all elements remained in their respective positions, conducting local patrols in sector. No contact was made except for Co B. During the morning hours two platoons from Co B were sent on local patrols North and SE of the destroyed bridge vic XT 393628, to locate a crossing point for track vehicles. A crossing site was found; however, eight VC were spotted and engaged vic XT 393628 at 1110 hours. The VC quickly broke contact and fled the area. A search of the area was fruitless. One ambush and two OP/LP's were established during darkness and at 2037 hours two VC were seen approaching the company perimeter. The VC were engaged with mortar and .50 cal MG fire but results could not be determined.
+                </li>
+                <li>
+                  10 November 1966: Trp B 1/4 Cav, 1st Engr Bn and 4/31 Inf  reverted to OPCON 1/4 Cav Sqdn. The battalion reverted to OPCON 2d Bde, 25th Inf Div and displaced to vic XT 274686 to secure the Bde base and to conduct reconnaissance in force in zone. At 1314 hours four hooches and three bunkers were destroyed vic XT 248694 and a VC company size overnight base was found vic XT 277703 at 1455 hours. Numerous foxholes and camp fire sites were found and the area appeared to have been used within the last three days. Three OP/LP's were established. None made contact and all returned at 0600 hours, (Incl 1).
+                </li>
+                <li>
+                  11 November 1966: Throughout the day the Bn conducted reconnaissance in force north of the base up to the road junction vic XT 271772. Night ambushes made no contact and returned at first light.
+                  <ul>
+                    <li>
+                      Company A: Co A departed the area at 0730 hours moving north to check the trails from XT 279280 north to XT 269760. A trail leading east was found at 0755 hours vic XT 274720. At 0819 hours eight ox carts were found and destroyed vic XT 273722. Destroyed at 1005 hours vic XT 269752 were one steel helmet, one poncho, fifteen rice bags and five lean-to huts. A small VC base camp was found at 1200 hours vic XT 269753. Found and destroyed in the area were five Chicom grenades, 200 pounds of rice and 150 gallons of acid-type fluid which was buried in the ground. Three WIA's were sustained from acid burns as a sample was extracted. The area appeared to have been used as recently as 10 November 1966. Five bunkers, with three man capacity, were destroyed vic XT 270755 at 1220 hours. A Chicom claymore, rigged with wires for command detonation, was found and destroyed at 1302 hours vic XT 270755. Between 1359 hours and 1500 hours the company destroyed 9 Chicom grenades, one ton of rice, one concrete bunker and 240 pounds of canned foods vic XT 270756. The company then moved to vic XT 269757 and established its perimeter. One rifle grenade (dud) was fired into the company's perimeter at 1830 hours.
+                    </li>
+                    <li>
+                      Company B: Co B departed the battalion base following Co A to reconnoiter trails leading north. While exploiting a trail vic XT 274729, at 1006 hours, two live pigs, a hut and several signs of recent activity were found. Other trails leading east were found vic XT 280725 and vic XT 273727. The company then established two platoon sized blocking positions in conjunction with Co C's operations on the west. One platoon reconnoitered a trail west from XT 268726 to XT 257729 with negative results. At 1630 hours the company departed the area to return to Bn base camp.
+                    </li>
+                    <li>
+                      Company C: Co C departed the Bn base at 0730 hours to check the trails leading north, east and west between XT 270690 and XT 256760. A well used trail which appeared to have been used on 10 November 1966 was found vic XT 264704. Fresh ox cart tracks were found at 0915 hours vic XT 254715. A large east to west trail was found at 1013 hours vic XT 256723. At 1110 hours a bunker complex was found vic XT 262737. Upon approaching the complex one VC was flushed from the area and escaped to the east. At 1207 hours five more VC were flushed from vic XT 263734 and also fled to the east. At 1435 hours two trails were found vic XT 261722. One of the trails ran from south to north and the other ran from east to west. The east to west trail had been heavily traveled recently. After exploring these trails and finding nothing, Co C returned to the Bn base (-) one platoon which repaired a damaged vehicle and spent the night in Co A's base area.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  12 November 1966: During the day the battalion conducted reconnaissance in force in the areas vic XT 286780, XT 279790 and XT 277776. The Bn CP displaced at 1100 hours to secure and establish the Bde Fire Support Base #1 vic XT 273785. Night ambushes were employed but no contact was made, (Incl 2).
+                  <ul>
+                    <li>
+                      Company A: Co A departed the company base at 0750 hours to secure the LZ vic XT 286780, for the 1st Bn, 27th Inf. Co A then returned to its base area at 1040 hours and at 1423 hours the company moved to the 2d Bde forward base, vic XT 274686, to provide security in conjunction with two Inf Bn's.
+                    </li>
+                    <li>
+                      Company B: Co B departed the battalion base at 0600 hours to conduct a reconnaissance in force of the area vic XT 279790.  Heavy footprints were found on an east to west trail vic XT 265784. A north to south trail,  with the grass heavily beaten down, was found vic XT 257784 at 1000 hours. A VC base camp, which could accommodate 50 VC was found at 1015 hours vic XT 253782. A search of the area revealed nothing of importance; however, the camp site appeared to have been used within the last three or four days. Found and destroyed at 1202 hours vic XT 255786 were seven two-man shelters. The company then moved down a small trail leading south where ten foxholes were destroyed at 1300 hours vic XT 255794. One CBU bomblet was destroyed at 1420 hours vic XT 271794. The company departed the area and closed into the base at 1435 hours.
+                    </li>
+                    <li>
+                      Company C: The company departed at 0618 hours on a reconnaissance in force mission in vic XT 277776. No contact was made; however, 12 CBU bomblets were destroyed and several trails were found in the area vic XT 239772. Co C then returned to the battalion base at 1430 hours and prepared its defensive positions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  13 November 1966: During the day Co's A and B exploited the B52 airstrike bordered by XT 1476-XT 1478-XT1576-XT 1578. Co C remained the vicinity the battalion base securing same. An artillery battery was airlifted in to complete the establishment of Fire Support Base #1. No contact was made during darkness.
+                  <ul>
+                    <li>
+                      Company A: At 0730 hours Co A departed the Bde base to exploit the B52 airstrike and at 0904 hours arrived vic XT 196768 where it found Co B for a joint movement into the strike area. Numerous bomb craters and destroyed houses were found in the area but there were no signs of recent VC occupancy within the area, before or after the airstrike. Co A completed its check of the area by 1350 hours, and returned to the battalion base. While enroute, at 1520 hours automatic weapons fire was received from XT 230772. No casualties were sustained and fire was returned. At 1527 hours one APC hit an AT mine vic XT 239773. Four minor WIA's were sustained and extensive damage was done to the vehicle. The vehicle was towed into the battalion base and the company closed at 1820 hours.
+                    </li>
+                    <li>
+                      Company B: Co B departed the battalion base at 0820 hours to exploit the B52 airstrike. While enroute, at 0843 hours fresh ox cart tracks were found on a trail vic XT 236771. At 0902 hours a pile of scrap metal was found vic XT 206769. Co B then proceeded to vic XT 191769 where an ox cart track and two sets of fresh footprints were found since the rain during the night of 12 November 1966. The lead element observed a road block consisting of trees placed across the road at 0926 hours vic XT 188767. Upon approaching the area a large claymore was detonated against the vehicle by the VC. One minor WIA was sustained but no damage was done to the vehicle. Arty fire and airstrikes were also placed on the area. A check around the road block site two claymores complete with wire and ready for command detonation. Co B then departed at 1050 hours for its objective area. At 1202 hours one APC hit an AT mine vic XT 175764. No casualties were sustained but extensive damage was done to the vehicle. During the search of its objective area numerous bomb craters and 15 houses were found destroyed by the airstrike vic XT 150770 to XT 153770. Co B also destroyed 15 houses in the same area. A close check revealed that the area was probably a VC way-station. Co B then returned to the battalion base.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  14 November 1966: Throughout the day the battalion conducted local patrols in sector and secured Fire Support Base #1 during resupply of the artillery battery by CH-47 helicopter. Three ambushes were established during darkness but none made contact.
+                  <ul>
+                    <li>
+                      Company A: Co A (-) departed the battalion base at 0842 hours to reconnoiter the area SE of the battalion base. A company base was established vic XT 256761 at 0955 hours and from this location platoons were dispatched to XT 251762, XT 263764 and XT 267757. One rice milling machine was found and destroyed vic XT 270756 at 1206 hours. By 1342 hours the search was completed and the company (-) returned to the battalion base leaving one platoon SE of the battalion base as a stay behind until the CH-47 resupply was complete.
+                    </li>
+                    <li>
+                      Company B: At 0828 hours Co B made a search of the area north of the battalion base vic XT 265810, XT266815 and XT 273817. Found and destroyed vic XT 270817 at 1035 hours were 1,900 pounds of bagged rice. At 1201 hours vic XT 261809 a VC base camp which could easily accommodate 300 VC was located. The camp was completely ringed with foxholes and early warning positions on a trail leading into the area. The camp site appeared to have been used approximately one week prior. A small way-station, of a 30 VC capacity, was found at 1400 hours vic XT 278828. There were five foxholes around the area. After a thorough search Co B left the area and moved to the battalion base leaving one platoon north of the battalion base as a stay behind until the CH-47 resupply was complete.
+                    </li>
+                    <li>
+                      Company C: At 0842 hours Co C reconnoitered the area west of the battalion base to vic XT 244806, XT 258979 and XT 257805. Found at 0930 hours vic XT 252798 were 300 rounds of ammunition approximately the same diameter of a .50 cal round with four small fins on the tail. The ammunition was evacuated for evaluation. At the same time a three man bunker was found and destroyed vic XT 257801. At 1040 hours 44,200 pounds of rice was found vic XT 255807. The rice was covered from the weather and in good condition. With permission granted from higher headquarters the rice was destroyed. A command detonated claymore was set off against the company at 1212 hours vic XT 252797 but no casualties were sustained. A VC base camp was found vic XT 243800 at 1431 hours. The camp could easily accommodate 100 VC and consisted of bunkers with overhead cover, several fire places and a stream running east to west approximately five feet wide and five feet deep. At the same time the platoon located vic XT 246798 engaged four VC. One VC was observed falling; however, he was assisted by the remaining VC and escaped toward the east. At approximately the same time an element engaged two VC vic XT 251797. They also escaped but to the south. Co C then called for and adjusted Arty fire throughout the area and returned to the battalion base leaving one platoon west of the battalion base as a stay behind until the Arty resupply was complete.
+                    </li>
+                    <li>
+                      Scout Platoon: Scout Platoon departed the battalion base at 0959 hours escorting damaged APC's back to 2d Bde forward base vic XT 274686. While enroute, at 1037 hours, one APC hit an AT mine vic XT 278702. Two WIA's were sustained and evacuated. Extensive damage was done to the vehicle. After evacuation of casualties the platoon continued to the Bde forward base and returned without incident.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  15 November 1966: The Bn displaced to establish the Bde Fire Support Base #2 vic XT 275863. Co A conducted a reconnaissance in force of objective 2, XT 2585 with negative results and closed into the new base at 1416 hours. Co B conducted a reconnaissance in force of objective 1, XT 2786, then secured a landing zone where an artillery battery was lifted in, to complete the establishment of Fire Support Base #2 without incident. Co C displaced after the Bn Cmd Gp and moved to the new battalion base. While enroute, vic XT 266852, five vehicles became mired and remained in that vicinity during the night. The battalion employed two ambushes and seven OP/LP's during darkness. None made contact and all returned at first light, (Incl 3).
+                </li>
+                <li>
+                  16 November 1966: Throughout the day the Bn conducted local S&D operations in zone and all elements returned to the battalion base by 1605 hours. Co C's element destroyed twelve bunkers at 0904 hours vic XT 283864. Scout platoon made a route reconnaissance for future operations. While on the reconnaissance, at 0915 hours, two VC, dressed in black uniforms, were engaged vic XT 290890 but escaped to the east.
+                </li>
+                <li>
+                  17 November 1966: Throughout the day the Bn conducted patrols in zone. Co A dispatched elements to the area south, southwest and west of the battalion base with negative results. Co C also dispatched elements on local patrols in zone and at 1145 hours they destroyed 29 MG positions with aiming stakes for sectors of fire, vic XT 285841. The area appeared unused for at least three or four days. The Scout Platoon departed the battalion base at 0800 hours to make a reconnaissance of the area vic XT 286900. Found and destroyed at 1046 hours vic XT 285897 were 3 huts, 3 bunkers, 1 khaki uniform and 1 large VC classroom. Several documents were found in the area also. Numerous bunkers were found along the trail. While returning, at 1105 hours, four WIA's were sustained from incoming VC mortar fire. The platoon closed into the battalion base at 1124 hours. At 1351 hours the platoon again departed to make a reconnaissance of the stream vic XT 284870 for trafficability and a crossing site. A log bridge was found vic XT 306850 and one APC was sent across with no difficulty. The platoon then returned to the battalion base. The battalion employed three ambushes and six OP/LP's. None made contact and all returned at first light.
+                </li>
+                <li>
+                  18 November 1966: During the day the battalion conducted reconnaissance in force to vic XT 275925 and established a new base, (Incl 4).
+                  <ul>
+                    <li>
+                      Company A: The company departed the area at 0730 hours following Co B and C to the new battalion base. No contact was made while enroute and the company closed at 1700 hours.
+                    </li>
+                    <li>
+                      Company B: Co B departed at 0700 hours and while enroute, engaged an estimated two VC vic XT 302908 at 0956 hours. In the ensuing fire fight one VC was killed (BC). A search of the area disclosed a command detonated claymore, two freshly dug firing positions, one gas mask, one first aid packet and one dozen dry cell 1.5 volt batteries, made by the Cambodian Battery Company, which were connected in series.
+                    </li>
+                    <li>
+                      Company C: Co C departed at 0700 hours and at 0910 hours arrived at a VC base camp vic XT 286896. Upon entering the clearing in the area several firing positions were found on the west side of the clearing. A mess hall to accommodate 40 VC was found and destroyed along with two showers, 300 meters of electrical wire, six bicycles, one pair of legs for a claymore and miscellaneous clothing. Several documents were also taken from the area. The documents were checked by interpreters and one described a large VC base camp that existed in the general area. The document further stated that the base had a radio station, a hospital, was a political training center and was outposted with guards and telephones. Another VC base camp was found at 1106 hours vic XT 283895. This camp site also had a mess hall with the capacity of 40 persons, one large class room, two showers and six buildings. At 1335 hours, several APC's became mired vic XT 278912 which could not be extracted before darkness and the company remained in that vicinity over night.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  19 November 1966: The battalion continued its reconnaissance in force and established a new base vic XT 274962, (Incl 4).
+                  <ul>
+                    <li>
+                      Company A: The company departed the area at 0706 hours for objective QUEEN (XT 265944). A search of the area revealed nothing and the company then coiled in the vicinity to wait for the battalion. At 1230 hours the company departed the area and, at 1306 hours vic XT 273975, the company engaged an unknown number of VC. The VC delivered automatic, small arms and mortar fires against the company. In the ensuing fire fight 11 VC were killed (BC) and captured, were two Chicom assault rifles, one U.S. BAR, one U.S. M1 rifle, three Chicom grenades, one 60mm mortar, 11 Chicom hand grenades, 4 60mm mortar rounds, fifteen magazines for Chicom assault rifles, seven magazines for a BAR, 7 rifle grenades, 300 rounds SA ammunition and one bag of assorted documents. Co A sustained three WIA during the brief encounter. The company departed the area at 1520 hours and closed into the battalion base at 1610 hours.
+                    </li>
+                    <li>
+                      Company B: Co B departed at 1230 hours and moved to objective JACK (XT 270950). At 1325 hours, a VC base camp was found vic XT 277955 and destroyed were four huts, seven bunkers, fifteen foxholes and miscellaneous clothings and one 500 pound bomb. The company closed into the battalion base at 1600 hours.
+                    </li>
+                    <li>
+                      Company C:By 0948 hours all vehicles were extracted and repaired and at 1230 hours the company joined the Bn (-) vic XT 275925. Co C then maneuvered to the west of Co A, who was in a fire fight vic XT 273957, and remained in this blocking position until 1520 hours. Upon entering the battalion base at 1535 hours three VC suspects were seen running NE from vic XT 274963. The suspects were hailed to stop but refused. Co C then fired a burst over the suspects heads but they continued to run and were engaged. Two of the suspects were captured vic XT 274965 and the other escaped to the NE. One of the captured suspects was armed with a hand grenade.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  20 November 1966: The battalion continued the reconnaissance in force at 0745 hours to Fire Support Base #3 (XT 336924). By 1405 hours all elements had closed into the new base area without incident. During darkness three ambushes were established. None made contact and all returned at 0600 hours, (Incl 4).
+                </li>
+                <li>
+                  21 November 1966: During daylight hours elements conducted local patrols in zone and performed maintenance of equipment. Co B remained to secure the LZ for the airlifting of the Arty battery into the base.
+                  <ul>
+                    <li>
+                      Company A: Co A departed at 0719 hours to establish a company base vic XT 315923 and from this location foot patrols were dispatched to the north and southeast. At XT 319910 a foot bridge was found which could sustain travel by heavy loaded ox carts and a docking site which could handle ten sampans at one time. A recently used VC base camp was found at 1318 hours vic XT 329919. Destroyed in the camp site were two AT mines and two CBU bomblets. One APC was hit by an  AT weapon, believed to be an RPG-2, at 1413 hours. Two WIA's were sustained and evacuated. The company returned .50 cal MG and M79 fires in suspected locations, then called and adjusted artillery fire throughout the area. After this encounter Co A returned to the battalion base closing at 1638 hours.
+                    </li>
+                    <li>
+                      Company C: Co C departed at 0755 hours on a patrol NW of the battalion base. At 0800 hours a 75 foot roll of #4 gage wire and fresh tracks (foot, boots and bicycles) were found on an east to west trail in the area. A search disclosed a VC base area consisting of a bunker/tunnel trench complex which could accommodate 400 to 500 VC. The structures in the area were old but had been recently used. The area was then saturated with artillery fire. Co C then made a deep penetration into the area but nothing of significance was found. A house and two bunkers were destroyed at XT 349040, at 1517 hours. Found within the structures and also destroyed were nine Chicom grenades, 500 pounds of rice, 100 pounds of peas and 100 pounds of salt. Miscellaneous documents were recovered from the area. At 1644 hours small arms fire was received from XT 348948 causing one WIA. Fire was returned but no results were obtained and Co C then returned to the battalion base. During darkness one ambush was established vic XT 343938. At 2140 hours the ambush received three rounds SA fire. 81mm mortar fire was called in on the VC location and a secondary explosion was observed. The ambush returned at 0630 hours.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  22 November 1966: The battalion conducted local patrols and performed maintenance during the day.
+                  <ul>
+                    <li>
+                      Company A: Co A departed on a local patrol at 1106 hours. At 1125 hours one APC was hit by an AT weapon vic XT 326918. Three WIA's were sustained and evacuated. While in the same area at 1139 hours small arms fire was received which caused one WIA. After adjusting Arty fire throughout the area the company then moved to XT 326918 at 1622 hours where twelve bunkers were destroyed. Co A then returned to the battalion base.
+                    </li>
+                    <li>
+                      Company B: Co B departed at 0800 hours to conduct local patrols in zone. A platoon located vic XT 346922 received small arms fire from the west at 0855 hours. Fire was returned with no results obtained. Three huts were destroyed at 0942 hours vic XT 348925. Found vic XT 347922 was a docking site with heavy ox cart tracks indicating loading and off-loading activities. At 1226 hours the company found miscellaneous documents in a hut, which the company destroyed vic XT 347918. Co B then returned to the battalion base.
+                    </li>
+                    <li>
+                      Company C: Co C departed at 0816 hours on its patrol. Destroyed vic XT 348935 at 0850 hours were one hut and three fish traps. Small arms fire was received at 1027 hours from vic XT 352927 causing one KIA. Fire was returned and while sweeping the area one rifle grenade and small arms fire was received from XT 358938. No casualties were sustained and a heavy volume of fire was returned. Three bunkers were found in the same area at 1148 hours. A check of the area disclosed wires leading out from the bunkers and at the end of one set of wires was a new type mine. All bunkers and the mine were destroyed. Also found and destroyed in the same area were one bunker, 350 feet of blasting wire (Cambodian type), two Cambodian blasting caps and five 7.62mm rounds. Co C then returned to the battalion base.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  23 November 1966: The battalion displaced to return to Fire Support Base #1 vic XT 275785, (Incl 4).
+                  <ul>
+                    <li>
+                      Company A: Co A departed at 0730 hours and while enroute, at 1315 hours, a command detonated mine was employed against the company vic XT 315868; however, no damage was sustained. Two VC were observed fleeing the area and were engaged but they escaped. Co A then closed into the new battalion base at 1735 hours.
+                    </li>
+                    <li>
+                      Company B: Co B departed at 0825 hours but due to mechanical difficulties and problems encountered navigating the various crossing sites the company did not close into the battalion base until 2225 hours.
+                    </li>
+                    <li>
+                      Company C: Co C departed at 0800 hours and while enroute three VC were engaged vic XT 335897 at 1007 hours. The VC quickly moved into a nearby wooded area and escaped. Co C then moved to the battalion base closing at 1820 hours.
+                    </li>
+                    <li>
+                      Scout Platoon: The platoon departed at 0730 hours as lead element of the battalion. At 0746 hours the lead APC hit an AT mine vic XT 329892 resulting in minor damage but no casualties. At 1506 hours another APC hit an AT mine vic XT 308855 and again, no casualties were sustained and minor damage was done to the vehicle. At 1635 hours the platoon was diverted to spend the night at 2d Bde Fire Support Base #2 and closed at 1800 hours.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  24 November 1966: Throughout the day Co's A and B remained in base and outposted the local area. Co C departed at 0700 hours to establish Fire Support Base #0, vic XT 185765. At 0812 hours, one APC hit an AT mine vic XT 188768 resulting in minor damage but no casualties. Another APC hit an AT mine at 0822 hours vic XT 183765. Heavy damage was done to the vehicle and five WIA's were sustained and evacuated.  Co C then closed into its planned base at 0925 hours and prepared defensive positions. An Arty Btry was airlifted in, completing the fire support base.
+                </li>
+                <li>
+                  25 November 1966: The battalion conducted reconnaissance in force to vic XT 147685 and established a new base. Co A departed at 0800 hours and moved to the new base without incident closing at 1715 hours. Co B departed at 0755 hours as lead element of the battalion and at 0952 hours, one APC hit an AT mine vic XT 234771. Extensive damage was done to the vehicle  and three WIA's were sustained and evacuated. Co B then closed into the new battalion base minus three vehicles which were mired on the edge of the base. Co C secured the LZ for the artillery extraction and upon completion departed at 1400 hours for the new battalion base closing at 1700 hours. Heavy Mortar Platoon's Command Post (M577) was extensively damaged by an AT mine at 1410 hours vic XT 160752 and was destroyed in place. Three WIA's were sustained and evacuated, (Incl 5).
+                </li>
+              </ul>
               <div>
-
+                Operation ATTLEBORO terminated 252400NOV66.
               </div>
             </div>
             <div class="aarTopic">
-              6. <span class="topicTitle">Description of Area of Operation</span>:
-            </div>
-            <div class="aarTopic">
-              7. <span class="topicTitle">Enemy Encountered</span>:
-            </div>
-            <div class="aarTopic">
-              8. <span class="topicTitle">Results of Operation</span>:
+              12. <span class="topicTitle">RESULTS</span>:
               <ol type="a">
                 <li>
-
+                  Friendly.
+                  <ol>
+                    <li>
+                      471 personnel participated in the operation.
+                    </li>
+                    <li>
+                      61 WIA (29 of which were treated and returned to duty) and 1 KIA were sustained (Incl 6, casualty list).
+                    </li>
+                    <li>
+                      Two APC (M113), one carrier, 81mm mortar (M125A1) and one command post (M577) were damaged beyond repair by AT mines and destroyed in place.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  Enemy.
+                  <ol>
+                    <li>
+                      Killed: 12 VC (BC), 1 (est)
+                    </li>
+                    <li>
+                      Captured:
+                      <ul>
+                        <li>2 VCS</li>
+                        <li>1 U.S. M1 rifle</li>
+                        <li>1 U.S. BAR</li>
+                        <li>3 Russian carbines</li>
+                        <li>1 60mm mortar</li>
+                        <li>2 Chicom assault rifles</li>
+                        <li>2 VC notebooks</li>
+                        <li>100  NVN "5" Dong notes</li>
+                        <li>25,000 Dong</li>
+                        <li>2 VC payment books</li>
+                        <li>1 VC flag</li>
+                        <li>Miscellaneous documents</li>
+                        <li>Assorted VC ID cards</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Destroyed:
+                      <ul>
+                        <li>34 Chicom grenades</li>
+                        <li>7 rifle grenades</li>
+                        <li>4 Chicom claymores, complete</li>
+                        <li>5 rounds 7.62mm Russian SMG ammunition</li>
+                        <li>4 60mm mortar rounds</li>
+                        <li>15 CBU bomblets</li>
+                        <li>1 500 pound bomb</li>
+                        <li>48 bunkers</li>
+                        <li>17 firing positions</li>
+                        <li>2 bunker/tunnel complexes</li>
+                        <li>8 ox carts</li>
+                        <li>150 gallons acid (type unknown)</li>
+                        <li>6 bicycles</li>
+                        <li>2 canteens</li>
+                        <li>300 meters electrical wire</li>
+                        <li>350 feet of blasting wire</li>
+                        <li>2 blasting caps</li>
+                        <li>7 magazines (BAR)</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <i>PAGE 11 and 12 of the CAAR are missing. Continuing at the top of page 13:</i></br>
+              <ol type="a" start="6">
+                <li>
+                  Medical Evaluation: Company Commanders, Platoon Leaders and Squad Leaders should insure that their troops always maintain a high state of body cleanliness. Failure to do so, especially in the high heat and humidity found in this area, causes rashes to form on any portion of the body that is covered by clothing.
                 </li>
               </ol>
             </div>
             <div class="aarTopic">
-              9. <span class="topicTitle">Friendly Casualties</span>:
+              14. <span class="topicTitle">SPECIAL EQUIPMENT AND TECHNIQUES</span>: None.
             </div>
             <div class="aarTopic">
-              10. <span class="topicTitle">Equipment Damaged</span>:
+              15. <span class="topicTitle">COMMANDER'S ANALYSIS</span>: there was no significant contact made which required any change to pre-planned actions.
+            </div>
+            <div class="aarTopic">
+              16. <span class="topicTitle">RECOMMENDATIONS</span>:
               <ol type="a">
                 <li>
-
+                  On future operations of this nature the minimum engineer support for a mechanized battalion is one platoon. Due to mobility and spare requirements it is recommended that the engineer platoon be provided with organic M113 APC (4) or sufficient helicopters to transport all personnel and equipment into the work sites as needed.
+                </li>
+                <li>
+                  105mm Howitzer (towed) are too restrictive when placed within the base of a mechanized battalion. Units are restricted to the range of the 105mm Howitzer and the battalion must maintain a stationary base for the artillery. It is therefore recommended that artillery support be provided by 105mm Howitzer (SP) for all mechanized battalions.
                 </li>
               </ol>
             </div>
-            <div class="aarTopic">
-              11. <span class="topicTitle">Lessons Learned</span>:
-              <ol type="a">
-                <li>
-
-                </li>
-              </ol>
-              <div>
-                <!-- FOR THE COMMANDER:</br> -->
-              </div>
+            <div>
+              KENNETH W. LUCAS</br>
+              Captain, Infantry</br>
+              Adjutant
             </div>
+            </br>
+            <div>
+              NOTE: During the period of 6 Nov 66 through 30 Nov 66, there were a total of 61 WIA's of which 29 returned to duty. There was one KIA. 24 Officers and 459 EM started the operation and 22 Officers and 428 EM finished the operation.
+            </div>
+            </br>
             <div class="casSegment">
               <div class="casListTitle">
                 CASUALTIES SUSTAINED DURING OPERATION <!-- CLEAN SWEEP -->
@@ -6057,17 +6404,18 @@
               <div class="casUnitList columnNames">
                 <div>NAME</div><div>RANK & MOS</div><div>TYPE</div>
               </div>
-              <div class="casUnitName"><!-- Unit name --></div>
+              <div class="casUnitName">Co. C</div>
               <div class="casUnitList">
-                <!-- <div>DAY, Billy B.</div> -->
-                <!-- <div>
+                <!-- <div>PINION, Dock J</div> -->
+                <div>
                   @foreach ($all_casualties as $one_casualty)
-                    @if ($one_casualty->first_name == "Billy" && $one_casualty->last_name == "Day")
+                    @if ($one_casualty->first_name == "Dock" && $one_casualty->last_name == "Pinion")
                       <a href="{{ url('/memorials/casualties?id='.$one_casualty->id) }}">{{ strtoupper($one_casualty->last_name) }}, {{ $one_casualty->first_name }}</a>
                     @endif
                   @endforeach
-                </div> -->
-                <!-- <div>PVT 11B20</div><div>KIA</div> -->
+                </div>
+                <div>PVT 11B20</div>
+                <div>KIA</div>
               </div>
             </div>
           </div>

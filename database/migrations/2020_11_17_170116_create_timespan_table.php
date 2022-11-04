@@ -16,8 +16,12 @@ class CreateTimespanTable extends Migration
         Schema::create('timespan', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->integer('start_year');
-            $table->integer('end_year');
+            $table->integer('start_year')->nullable()->default(null);
+            $table->integer('end_year')->nullable()->default(null);
+            $table->integer('start_month')->nullable();
+            $table->integer('end_month')->nullable();
+            $table->string('job')->nullable();
+            $table->string('unit')->nullable();
             $table->bigInteger('user_id')->unsigned();
             $table->index('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');

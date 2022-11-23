@@ -17,7 +17,7 @@ class CreateMessagesTable extends Migration
             $table->id();
             $table->text('content');
             $table->timestamps();
-            $table->boolean('is_read')->default(1);
+            $table->boolean('is_read')->default(0);
             $table->unsignedBigInteger('sent_id')->nullable()->default(null);
             $table->unsignedBigInteger('received_id')->nullable()->default(null);
             $table->foreign('sent_id')

@@ -19,6 +19,14 @@ class CreateConflictsTable extends Migration
             $table->integer('start_year');
             $table->integer('end_year')->nullable();
             $table->timestamps();
+            $table->unsignedBigInteger('parent_id')->nullable()->default(null);
+            $table->foreign('parent_id')
+                  ->references('id')
+                  ->on('conflicts')
+                  ->nullable()
+                  ->constrained()
+                  ->onUpdate('cascade')
+                  ->onDelete('cascade');
         });
     }
 
